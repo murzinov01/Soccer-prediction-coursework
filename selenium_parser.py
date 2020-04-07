@@ -67,6 +67,7 @@ def main():
     driver = webdriver.Chrome()
     Parser = WhoScoredParser(driver)
     Parser.start_parse()
+    print("**")
 
 
 if __name__ == '__main__':
