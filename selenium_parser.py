@@ -77,6 +77,7 @@ def main():
     #driver = webdriver.Chrome("/Users/sanduser/PycharmProjects/Parser/chromedriver")
     Parser = WhoScoredParser(driver)
     Parser.start_parse()
+    print("**")
 
 
 if __name__ == '__main__':
