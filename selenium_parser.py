@@ -42,29 +42,39 @@ class WhoScoredParser:
                                                       "ShotsPerGame", "PassSuccess", "AerialWonPerGame", "ManOfTheMatch", "Rating"])
             # Этот метод записывает заголовки из fieldnames в первую строку файла
             writer.writeheader()
-            # Идем по строкам таблицы
-            for tr in self.PLAYER_TABLE:
-                player = tr.find_elements_by_tag_name("td")
-                row = {
-                       "Name": player[2].text[:player[2].text.find('\n')],
-                       "Meta_data": player[2].text[player[2].text.find('\n') + 1:],
-                       "Apps": player[3].text,
-                       "Mins": player[4].text,
-                       "Goals": player[5].text,
-                       "Assists": player[6].text,
-                       "Yel_card": player[7].text,
-                       "Red_card": player[8].text,
-                       "ShotsPerGame": player[9].text,
-                       "PassSuccess": player[10].text,
-                       "AerialWonPerGame": player[11].text,
-                       "ManOfTheMatch": player[12].text,
-                       "Rating": player[13].text,
-                }
-                writer.writerow(row)
+
+            #Crawl pages
+            for page in range (142):
+                # Through the raws
+                for tr in self.PLAYER_TABLE:
+                    player = tr.find_elements_by_tag_name("td")
+                    row = {
+                           "Name": player[2].text[:player[2].text.find('\n')],
+                           "Meta_data": player[2].text[player[2].text.find('\n') + 1:],
+                           "Apps": player[3].text,
+                           "Mins": player[4].text,
+                           "Goals": player[5].text,
+                           "Assists": player[6].text,
+                           "Yel_card": player[7].text,
+                           "Red_card": player[8].text,
+                           "ShotsPerGame": player[9].text,
+                           "PassSuccess": player[10].text,
+                           "AerialWonPerGame": player[11].text,
+                           "ManOfTheMatch": player[12].text,
+                           "Rating": player[13].text,
+                    }
+                    writer.writerow(row)
+                #press the next button
+                next = self.driver.find_element_by_id("statistics-paging-summary").find_element_by_id("next")
+                next.click()
+                sleep(3)
+                #found player table in new page
+                self.find_players_table()
 
 
 def main():
     driver = webdriver.Chrome()
+    #driver = webdriver.Chrome("/Users/sanduser/PycharmProjects/Parser/chromedriver")
     Parser = WhoScoredParser(driver)
     Parser.start_parse()
     print("**")
