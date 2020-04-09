@@ -1,9 +1,8 @@
 from selenium import webdriver
 from time import sleep
-import requests
 import csv
 
-URL = 'https://1xbet.whoscored.com/statistics'
+MAIN_URL = 'https://1xbet.whoscored.com/'
 
 
 # Парсер
@@ -13,22 +12,30 @@ class WhoScoredParser:
     def __init__(self, driver):
         self.driver = driver
 
+    def go_to_target_page(self, url):
+        self.driver.get(url)
+        sleep(5)
+
+    # Ищем кнопку accept и нажимаем на нее
+    def accept_cookies(self):
+        self.driver.get(MAIN_URL)
+        sleep(5)
+        self.driver.find_elements_by_class_name('qc-cmp-button')[1].click()
+        sleep(3)
+
+
+class ParsePlayersScore(WhoScoredParser):
+    URL = 'https://1xbet.whoscored.com/statistics'
+
+    # Находим таблицу с статистикой играков
+    def __init__(self, driver):
+        super().__init__(driver)
+
     def start_parse(self):
-        self.go_to_target_page()
+        self.go_to_target_page(self.URL)
         self.find_players_table()
         self.collecting_info_from_player_table()
 
-    def go_to_target_page(self):
-        self.driver.get(URL)
-        sleep(5)
-        self.pass_the_warning()
-
-    # Ищем кнопку accept и нажимаем на нее
-    def pass_the_warning(self):
-        self.driver.find_elements_by_class_name('qc-cmp-button')[1].click()
-        sleep(5)
-
-    # Находим таблицу с статистикой играков
     def find_players_table(self):
         sleep(3)
         self.PLAYER_TABLE = self.driver.find_element_by_id("player-table-statistics-body").find_elements_by_tag_name("tr")
@@ -42,9 +49,9 @@ class WhoScoredParser:
                                                       "ShotsPerGame", "PassSuccess", "AerialWonPerGame", "ManOfTheMatch", "Rating"])
             # Этот метод записывает заголовки из fieldnames в первую строку файла
             writer.writeheader()
-
-            #Crawl pages
-            for page in range (142):
+            # Crawl pages
+            span = self.driver.find_element_by_id("statistics-paging-summary").find_element_by_tag_name("b").text
+            for page in range(int(span[span.find('/') + 1: span.find('|') - 1])):
                 # Through the raws
                 for tr in self.PLAYER_TABLE:
                     player = tr.find_elements_by_tag_name("td")
@@ -64,20 +71,20 @@ class WhoScoredParser:
                            "Rating": player[13].text,
                     }
                     writer.writerow(row)
-                #press the next button
-                next = self.driver.find_element_by_id("statistics-paging-summary").find_element_by_id("next")
-                next.click()
+                # press the next button
+                self.driver.find_element_by_id("statistics-paging-summary").find_element_by_id("next").click()
                 sleep(3)
-                #found player table in new page
+                # found player table in new page
                 self.find_players_table()
 
 
 def main():
     driver = webdriver.Chrome()
-    #driver = webdriver.Chrome("/Users/sanduser/PycharmProjects/Parser/chromedriver")
-    Parser = WhoScoredParser(driver)
-    Parser.start_parse()
-    print("**")
+    # driver = webdriver.Chrome("/Users/sanduser/PycharmProjects/Parser/chromedriver")
+    # Parsing players scores
+    ParsePlayers = ParsePlayersScore(driver)
+    ParsePlayers.accept_cookies()
+    ParsePlayers.start_parse()
 
 
 if __name__ == '__main__':
