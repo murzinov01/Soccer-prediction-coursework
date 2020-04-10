@@ -1,0 +1,1685 @@
+Time,TeamHome,ResultTeamHome,ResultTeamAway,TeamAway,Date
+14:00,Lecce,2,7,Atalanta,Mac 1 2020
+17:00,Cagliari,3,4,Roma,Mac 1 2020
+12:45,Parma Calcio 1913,0,1,SPAL 2013,Mac 8 2020
+14:00,Sampdoria,2,1,Verona,Mac 8 2020
+14:00,AC Milan,1,2,Genoa,Mac 8 2020
+17:00,Udinese,0,0,Fiorentina,Mac 8 2020
+19:45,Juventus,2,0,Inter,Mac 8 2020
+17:30,Sassuolo,3,0,Brescia,Mac 9 2020
+14:00,Bologna,2,1,Brescia,Feb 1 2020
+17:00,Cagliari,2,2,Parma Calcio 1913,Feb 1 2020
+19:45,Sassuolo,4,2,Roma,Feb 1 2020
+11:30,Juventus,3,0,Fiorentina,Feb 2 2020
+14:00,Lazio,5,1,SPAL 2013,Feb 2 2020
+14:00,AC Milan,1,1,Verona,Feb 2 2020
+14:00,Atalanta,2,2,Genoa,Feb 2 2020
+17:00,Lecce,4,0,Torino,Feb 2 2020
+19:45,Udinese,0,2,Inter,Feb 2 2020
+19:45,Sampdoria,2,4,Napoli,Feb 3 2020
+19:45,Lazio,0,0,Verona,Feb 5 2020
+19:45,Roma,2,3,Bologna,Feb 7 2020
+14:00,Fiorentina,1,2,Atalanta,Feb 8 2020
+17:00,Torino,1,3,Sampdoria,Feb 8 2020
+19:45,Verona,2,1,Juventus,Feb 8 2020
+11:30,SPAL 2013,1,2,Sassuolo,Feb 9 2020
+14:00,Napoli,2,3,Lecce,Feb 9 2020
+14:00,Genoa,1,0,Cagliari,Feb 9 2020
+14:00,Brescia,1,1,Udinese,Feb 9 2020
+17:00,Parma Calcio 1913,0,1,Lazio,Feb 9 2020
+19:45,Inter,4,2,AC Milan,Feb 9 2020
+14:00,Lecce,2,1,SPAL 2013,Feb 15 2020
+17:00,Bologna,0,3,Genoa,Feb 15 2020
+19:45,Atalanta,2,1,Roma,Feb 15 2020
+11:30,Udinese,0,0,Verona,Feb 16 2020
+14:00,Sampdoria,1,5,Fiorentina,Feb 16 2020
+14:00,Sassuolo,0,1,Parma Calcio 1913,Feb 16 2020
+14:00,Juventus,2,0,Brescia,Feb 16 2020
+17:00,Cagliari,0,1,Napoli,Feb 16 2020
+19:45,Lazio,2,1,Inter,Feb 16 2020
+19:45,AC Milan,1,0,Torino,Feb 17 2020
+19:45,Brescia,1,2,Napoli,Feb 21 2020
+14:00,Bologna,1,1,Udinese,Feb 22 2020
+17:00,SPAL 2013,1,2,Juventus,Feb 22 2020
+19:45,Fiorentina,1,1,AC Milan,Feb 22 2020
+11:30,Genoa,2,3,Lazio,Feb 23 2020
+17:00,Roma,4,0,Lecce,Feb 23 2020
+14:00,Lazio,2,0,Bologna,Feb 29 2020
+19:45,Napoli,2,1,Torino,Feb 29 2020
+11:30,Brescia,1,2,Lazio,Jan 5 2020
+14:00,SPAL 2013,0,2,Verona,Jan 5 2020
+17:00,Genoa,2,1,Sassuolo,Jan 5 2020
+19:45,Roma,0,2,Torino,Jan 5 2020
+11:30,Bologna,1,1,Fiorentina,Jan 6 2020
+14:00,Atalanta,5,0,Parma Calcio 1913,Jan 6 2020
+14:00,AC Milan,0,0,Sampdoria,Jan 6 2020
+14:00,Juventus,4,0,Cagliari,Jan 6 2020
+17:00,Lecce,0,1,Udinese,Jan 6 2020
+19:45,Napoli,1,3,Inter,Jan 6 2020
+14:00,Cagliari,0,2,AC Milan,Jan 11 2020
+17:00,Lazio,1,0,Napoli,Jan 11 2020
+19:45,Inter,1,1,Atalanta,Jan 11 2020
+11:30,Udinese,3,0,Sassuolo,Jan 12 2020
+14:00,Sampdoria,5,1,Brescia,Jan 12 2020
+14:00,Torino,1,0,Bologna,Jan 12 2020
+14:00,Fiorentina,1,0,SPAL 2013,Jan 12 2020
+17:15,Verona,2,1,Genoa,Jan 12 2020
+19:45,Roma,1,2,Juventus,Jan 12 2020
+19:45,Parma Calcio 1913,2,0,Lecce,Jan 13 2020
+14:00,Lazio,5,1,Sampdoria,Jan 18 2020
+17:00,Sassuolo,2,1,Torino,Jan 18 2020
+19:45,Napoli,0,2,Fiorentina,Jan 18 2020
+11:30,AC Milan,3,2,Udinese,Jan 19 2020
+14:00,Lecce,1,1,Inter,Jan 19 2020
+14:00,Bologna,1,1,Verona,Jan 19 2020
+14:00,Brescia,2,2,Cagliari,Jan 19 2020
+17:00,Genoa,1,3,Roma,Jan 19 2020
+19:45,Juventus,2,1,Parma Calcio 1913,Jan 19 2020
+19:45,Atalanta,1,2,SPAL 2013,Jan 20 2020
+19:45,Brescia,0,1,AC Milan,Jan 24 2020
+14:00,SPAL 2013,1,3,Bologna,Jan 25 2020
+17:00,Fiorentina,0,0,Genoa,Jan 25 2020
+19:45,Torino,0,7,Atalanta,Jan 25 2020
+11:30,Inter,1,1,Cagliari,Jan 26 2020
+14:00,Verona,3,0,Lecce,Jan 26 2020
+14:00,Sampdoria,0,0,Sassuolo,Jan 26 2020
+14:00,Parma Calcio 1913,2,0,Udinese,Jan 26 2020
+17:00,Roma,1,1,Lazio,Jan 26 2020
+19:45,Napoli,2,1,Juventus,Jan 26 2020
+11:30,Juventus,2,2,Sassuolo,Des 1 2019
+14:00,Lazio,3,0,Udinese,Des 1 2019
+14:00,Parma Calcio 1913,0,1,AC Milan,Des 1 2019
+14:00,Inter,2,1,SPAL 2013,Des 1 2019
+17:00,Napoli,1,2,Bologna,Des 1 2019
+19:45,Verona,1,3,Roma,Des 1 2019
+19:45,Cagliari,4,3,Sampdoria,Des 2 2019
+19:45,Inter,0,0,Roma,Des 6 2019
+14:00,Atalanta,3,2,Verona,Des 7 2019
+17:00,Udinese,1,1,Napoli,Des 7 2019
+19:45,Lazio,3,1,Juventus,Des 7 2019
+11:30,Lecce,2,2,Genoa,Des 8 2019
+14:00,Sassuolo,2,2,Cagliari,Des 8 2019
+14:00,SPAL 2013,0,1,Brescia,Des 8 2019
+14:00,Torino,2,1,Fiorentina,Des 8 2019
+17:00,Sampdoria,0,1,Parma Calcio 1913,Des 8 2019
+19:45,Bologna,2,3,AC Milan,Des 8 2019
+14:00,Brescia,3,0,Lecce,Des 14 2019
+17:30,Napoli,1,2,Parma Calcio 1913,Des 14 2019
+19:45,Genoa,0,1,Sampdoria,Des 14 2019
+11:30,Verona,3,3,Torino,Des 15 2019
+14:00,Juventus,3,1,Udinese,Des 15 2019
+14:00,AC Milan,0,0,Sassuolo,Des 15 2019
+14:00,Bologna,2,1,Atalanta,Des 15 2019
+17:00,Roma,3,1,SPAL 2013,Des 15 2019
+19:45,Fiorentina,1,1,Inter,Des 15 2019
+19:45,Cagliari,1,2,Lazio,Des 16 2019
+17:55,Sampdoria,1,2,Juventus,Des 18 2019
+19:45,Brescia,0,2,Sassuolo,Des 18 2019
+19:45,Fiorentina,1,4,Roma,Des 20 2019
+14:00,Udinese,2,1,Cagliari,Des 21 2019
+17:00,Inter,4,0,Genoa,Des 21 2019
+19:45,Torino,1,2,SPAL 2013,Des 21 2019
+11:30,Atalanta,5,0,AC Milan,Des 22 2019
+14:00,Lecce,2,3,Bologna,Des 22 2019
+14:00,Parma Calcio 1913,1,1,Brescia,Des 22 2019
+19:45,Sassuolo,1,2,Napoli,Des 22 2019
+14:00,Roma,2,1,Napoli,Nov 2 2019
+17:00,Bologna,1,2,Inter,Nov 2 2019
+19:45,Torino,0,1,Juventus,Nov 2 2019
+11:30,Atalanta,0,2,Cagliari,Nov 3 2019
+14:00,Genoa,1,3,Udinese,Nov 3 2019
+14:00,Verona,2,1,Brescia,Nov 3 2019
+14:00,Lecce,2,2,Sassuolo,Nov 3 2019
+17:00,Fiorentina,1,1,Parma Calcio 1913,Nov 3 2019
+19:45,AC Milan,1,2,Lazio,Nov 3 2019
+19:45,SPAL 2013,0,1,Sampdoria,Nov 4 2019
+19:45,Sassuolo,3,1,Bologna,Nov 8 2019
+14:00,Brescia,0,4,Torino,Nov 9 2019
+17:00,Inter,2,1,Verona,Nov 9 2019
+19:45,Napoli,0,0,Genoa,Nov 9 2019
+11:30,Cagliari,5,2,Fiorentina,Nov 10 2019
+14:00,Udinese,0,0,SPAL 2013,Nov 10 2019
+14:00,Lazio,4,2,Lecce,Nov 10 2019
+14:00,Sampdoria,0,0,Atalanta,Nov 10 2019
+17:00,Parma Calcio 1913,2,0,Roma,Nov 10 2019
+19:45,Juventus,1,0,AC Milan,Nov 10 2019
+14:00,Atalanta,1,3,Juventus,Nov 23 2019
+17:00,AC Milan,1,1,Napoli,Nov 23 2019
+19:45,Torino,0,3,Inter,Nov 23 2019
+11:30,Bologna,2,2,Parma Calcio 1913,Nov 24 2019
+14:00,Verona,1,0,Fiorentina,Nov 24 2019
+14:00,Roma,3,0,Brescia,Nov 24 2019
+14:00,Sassuolo,1,2,Lazio,Nov 24 2019
+17:00,Sampdoria,2,1,Udinese,Nov 24 2019
+14:00,Lecce,2,2,Cagliari,Nov 25 2019
+19:45,SPAL 2013,1,1,Genoa,Nov 25 2019
+14:00,Brescia,0,3,Atalanta,Nov 30 2019
+17:00,Genoa,0,1,Torino,Nov 30 2019
+19:45,Fiorentina,0,1,Lecce,Nov 30 2019
+14:00,SPAL 2013,1,0,Parma Calcio 1913,Okt 5 2019
+17:00,Verona,2,0,Sampdoria,Okt 5 2019
+19:45,Genoa,1,2,AC Milan,Okt 5 2019
+11:30,Fiorentina,1,0,Udinese,Okt 6 2019
+14:00,Atalanta,3,1,Lecce,Okt 6 2019
+14:00,Bologna,2,2,Lazio,Okt 6 2019
+14:00,Roma,1,1,Cagliari,Okt 6 2019
+17:00,Torino,0,0,Napoli,Okt 6 2019
+19:45,Inter,1,2,Juventus,Okt 6 2019
+14:00,Lazio,3,3,Atalanta,Okt 19 2019
+17:00,Napoli,2,0,Verona,Okt 19 2019
+19:45,Juventus,2,1,Bologna,Okt 19 2019
+11:30,Sassuolo,3,4,Inter,Okt 20 2019
+14:00,Udinese,1,0,Torino,Okt 20 2019
+14:00,Sampdoria,0,0,Roma,Okt 20 2019
+14:00,Cagliari,2,0,SPAL 2013,Okt 20 2019
+17:00,Parma Calcio 1913,5,1,Genoa,Okt 20 2019
+19:45,AC Milan,2,2,Lecce,Okt 20 2019
+20:00,Brescia,0,0,Fiorentina,Okt 21 2019
+19:45,Verona,0,1,Sassuolo,Okt 25 2019
+14:00,Lecce,1,1,Juventus,Okt 26 2019
+17:00,Inter,2,2,Parma Calcio 1913,Okt 26 2019
+19:45,Genoa,3,1,Brescia,Okt 26 2019
+11:30,Bologna,2,1,Sampdoria,Okt 27 2019
+14:00,Atalanta,7,1,Udinese,Okt 27 2019
+14:00,SPAL 2013,1,1,Napoli,Okt 27 2019
+14:00,Torino,1,1,Cagliari,Okt 27 2019
+17:00,Roma,2,1,AC Milan,Okt 27 2019
+19:45,Fiorentina,1,2,Lazio,Okt 27 2019
+18:00,Parma Calcio 1913,0,1,Verona,Okt 29 2019
+20:00,Brescia,1,2,Inter,Okt 29 2019
+18:00,Napoli,2,2,Atalanta,Okt 30 2019
+20:00,Cagliari,3,2,Bologna,Okt 30 2019
+20:00,Juventus,2,1,Genoa,Okt 30 2019
+20:00,Lazio,4,0,Torino,Okt 30 2019
+20:00,Sampdoria,1,1,Lecce,Okt 30 2019
+20:00,Sassuolo,1,2,Fiorentina,Okt 30 2019
+20:00,Udinese,0,4,Roma,Okt 30 2019
+20:00,AC Milan,1,0,SPAL 2013,Okt 31 2019
+17:00,Lazio,1,1,Roma,Sep 1 2019
+19:45,Lecce,0,1,Verona,Sep 1 2019
+19:45,Atalanta,2,3,Torino,Sep 1 2019
+19:45,Cagliari,1,2,Inter,Sep 1 2019
+19:45,Genoa,2,1,Fiorentina,Sep 1 2019
+19:45,Sassuolo,4,1,Sampdoria,Sep 1 2019
+19:45,Udinese,1,3,Parma Calcio 1913,Sep 1 2019
+14:00,Fiorentina,0,0,Juventus,Sep 14 2019
+17:00,Napoli,2,0,Sampdoria,Sep 14 2019
+19:45,Inter,1,0,Udinese,Sep 14 2019
+11:30,Genoa,1,2,Atalanta,Sep 15 2019
+14:00,Parma Calcio 1913,1,3,Cagliari,Sep 15 2019
+14:00,SPAL 2013,2,1,Lazio,Sep 15 2019
+14:00,Brescia,3,4,Bologna,Sep 15 2019
+17:00,Roma,4,2,Sassuolo,Sep 15 2019
+19:45,Verona,0,1,AC Milan,Sep 15 2019
+19:45,Torino,1,2,Lecce,Sep 16 2019
+19:45,Cagliari,3,1,Genoa,Sep 20 2019
+14:00,Udinese,0,1,Brescia,Sep 21 2019
+17:00,Juventus,2,1,Verona,Sep 21 2019
+19:45,AC Milan,0,2,Inter,Sep 21 2019
+11:30,Sassuolo,3,0,SPAL 2013,Sep 22 2019
+14:00,Lecce,1,4,Napoli,Sep 22 2019
+14:00,Sampdoria,1,0,Torino,Sep 22 2019
+14:00,Bologna,1,2,Roma,Sep 22 2019
+17:00,Atalanta,2,2,Fiorentina,Sep 22 2019
+19:45,Lazio,2,0,Parma Calcio 1913,Sep 22 2019
+18:00,Verona,0,0,Udinese,Sep 24 2019
+20:00,Brescia,1,2,Juventus,Sep 24 2019
+18:00,Roma,0,2,Atalanta,Sep 25 2019
+20:00,SPAL 2013,1,3,Lecce,Sep 25 2019
+20:00,Inter,1,0,Lazio,Sep 25 2019
+20:00,Napoli,0,1,Cagliari,Sep 25 2019
+20:00,Parma Calcio 1913,1,0,Sassuolo,Sep 25 2019
+20:00,Fiorentina,2,1,Sampdoria,Sep 25 2019
+20:00,Genoa,0,0,Bologna,Sep 25 2019
+20:00,Torino,2,1,AC Milan,Sep 26 2019
+14:00,Juventus,2,0,SPAL 2013,Sep 28 2019
+17:00,Sampdoria,1,3,Inter,Sep 28 2019
+19:45,Sassuolo,1,4,Atalanta,Sep 28 2019
+11:30,Napoli,2,1,Brescia,Sep 29 2019
+14:00,Lazio,4,0,Genoa,Sep 29 2019
+14:00,Lecce,0,1,Roma,Sep 29 2019
+14:00,Udinese,1,0,Bologna,Sep 29 2019
+17:00,Cagliari,1,1,Verona,Sep 29 2019
+19:45,AC Milan,1,3,Fiorentina,Sep 29 2019
+19:45,Parma Calcio 1913,3,2,Torino,Sep 30 2019
+19:30,Juventus,1,1,Torino,Mei 3 2019
+17:00,Chievo,0,4,SPAL 2013,Mei 4 2019
+19:30,Udinese,0,0,Inter,Mei 4 2019
+11:30,Empoli,1,0,Fiorentina,Mei 5 2019
+14:00,Sassuolo,2,2,Frosinone,Mei 5 2019
+14:00,Lazio,1,3,Atalanta,Mei 5 2019
+14:00,Parma Calcio 1913,3,3,Sampdoria,Mei 5 2019
+17:00,Genoa,1,1,Roma,Mei 5 2019
+19:30,Napoli,2,1,Cagliari,Mei 5 2019
+19:30,AC Milan,2,1,Bologna,Mei 6 2019
+14:00,Atalanta,2,1,Genoa,Mei 11 2019
+17:00,Cagliari,1,2,Lazio,Mei 11 2019
+19:30,Fiorentina,0,1,AC Milan,Mei 11 2019
+11:30,Torino,3,2,Sassuolo,Mei 12 2019
+14:00,Sampdoria,1,2,Empoli,Mei 12 2019
+14:00,Frosinone,1,3,Udinese,Mei 12 2019
+17:00,SPAL 2013,1,2,Napoli,Mei 12 2019
+19:30,Roma,2,0,Juventus,Mei 12 2019
+18:00,Bologna,4,1,Parma Calcio 1913,Mei 13 2019
+20:00,Inter,2,0,Chievo,Mei 13 2019
+14:00,Udinese,3,2,SPAL 2013,Mei 18 2019
+17:00,Genoa,1,1,Cagliari,Mei 18 2019
+19:30,Sassuolo,0,0,Roma,Mei 18 2019
+11:30,Chievo,0,0,Sampdoria,Mei 19 2019
+14:00,Empoli,4,1,Torino,Mei 19 2019
+14:00,Parma Calcio 1913,1,0,Fiorentina,Mei 19 2019
+17:00,AC Milan,2,0,Frosinone,Mei 19 2019
+19:30,Napoli,4,1,Inter,Mei 19 2019
+19:30,Juventus,1,1,Atalanta,Mei 19 2019
+19:30,Lazio,3,3,Bologna,Mei 20 2019
+17:00,Frosinone,0,0,Chievo,Mei 25 2019
+19:30,Bologna,3,2,Napoli,Mei 25 2019
+14:00,Torino,3,1,Lazio,Mei 26 2019
+17:00,Sampdoria,2,0,Juventus,Mei 26 2019
+19:30,SPAL 2013,2,3,AC Milan,Mei 26 2019
+19:30,Cagliari,1,2,Udinese,Mei 26 2019
+19:30,Fiorentina,0,0,Genoa,Mei 26 2019
+19:30,Inter,2,1,Empoli,Mei 26 2019
+19:30,Roma,2,1,Parma Calcio 1913,Mei 26 2019
+19:30,Atalanta,3,1,Sassuolo,Mei 26 2019
+18:00,AC Milan,1,1,Udinese,Apr 2 2019
+20:00,Cagliari,0,2,Juventus,Apr 2 2019
+18:00,Empoli,2,1,Napoli,Apr 3 2019
+20:00,Frosinone,3,2,Parma Calcio 1913,Apr 3 2019
+20:00,Genoa,0,4,Inter,Apr 3 2019
+20:00,Roma,2,2,Fiorentina,Apr 3 2019
+20:00,SPAL 2013,1,0,Lazio,Apr 3 2019
+20:00,Torino,2,1,Sampdoria,Apr 3 2019
+18:00,Sassuolo,4,0,Chievo,Apr 4 2019
+20:00,Atalanta,4,1,Bologna,Apr 4 2019
+14:00,Parma Calcio 1913,0,0,Torino,Apr 6 2019
+17:00,Juventus,2,1,AC Milan,Apr 6 2019
+19:30,Sampdoria,0,1,Roma,Apr 6 2019
+11:30,Fiorentina,0,1,Frosinone,Apr 7 2019
+14:00,Udinese,3,2,Empoli,Apr 7 2019
+14:00,Cagliari,2,1,SPAL 2013,Apr 7 2019
+17:00,Lazio,2,2,Sassuolo,Apr 7 2019
+17:00,Inter,0,0,Atalanta,Apr 7 2019
+19:30,Napoli,1,1,Genoa,Apr 7 2019
+19:30,Bologna,3,0,Chievo,Apr 8 2019
+14:00,SPAL 2013,2,1,Juventus,Apr 13 2019
+17:00,Roma,1,0,Udinese,Apr 13 2019
+19:30,AC Milan,1,0,Lazio,Apr 13 2019
+11:30,Torino,1,1,Cagliari,Apr 14 2019
+14:00,Sampdoria,2,0,Genoa,Apr 14 2019
+14:00,Sassuolo,0,0,Parma Calcio 1913,Apr 14 2019
+14:00,Fiorentina,0,0,Bologna,Apr 14 2019
+17:00,Chievo,1,3,Napoli,Apr 14 2019
+19:30,Frosinone,1,3,Inter,Apr 14 2019
+19:30,Atalanta,0,0,Empoli,Apr 15 2019
+18:00,Lazio,2,0,Udinese,Apr 17 2019
+11:30,Parma Calcio 1913,1,1,AC Milan,Apr 20 2019
+14:00,Udinese,1,1,Sassuolo,Apr 20 2019
+14:00,Lazio,1,2,Chievo,Apr 20 2019
+14:00,Bologna,3,0,Sampdoria,Apr 20 2019
+14:00,Cagliari,1,0,Frosinone,Apr 20 2019
+14:00,Empoli,2,4,SPAL 2013,Apr 20 2019
+14:00,Genoa,0,1,Torino,Apr 20 2019
+17:00,Juventus,2,1,Fiorentina,Apr 20 2019
+19:30,Inter,1,1,Roma,Apr 20 2019
+18:00,Napoli,1,2,Atalanta,Apr 22 2019
+14:00,Bologna,3,1,Empoli,Apr 27 2019
+17:00,Roma,3,0,Cagliari,Apr 27 2019
+19:30,Inter,1,1,Juventus,Apr 27 2019
+11:30,Frosinone,0,2,Napoli,Apr 28 2019
+14:00,SPAL 2013,1,1,Genoa,Apr 28 2019
+14:00,Chievo,1,1,Parma Calcio 1913,Apr 28 2019
+17:00,Sampdoria,1,2,Lazio,Apr 28 2019
+19:30,Torino,2,0,AC Milan,Apr 28 2019
+18:00,Atalanta,2,0,Udinese,Apr 29 2019
+20:00,Fiorentina,0,1,Sassuolo,Apr 29 2019
+19:30,Cagliari,2,1,Inter,Mac 1 2019
+14:00,Empoli,3,3,Parma Calcio 1913,Mac 2 2019
+17:00,AC Milan,1,0,Sassuolo,Mac 2 2019
+19:30,Lazio,3,0,Roma,Mac 2 2019
+11:30,Torino,3,0,Chievo,Mac 3 2019
+14:00,Udinese,2,1,Bologna,Mac 3 2019
+14:00,Genoa,0,0,Frosinone,Mac 3 2019
+14:00,SPAL 2013,1,2,Sampdoria,Mac 3 2019
+17:00,Atalanta,3,1,Fiorentina,Mac 3 2019
+19:30,Napoli,1,2,Juventus,Mac 3 2019
+19:30,Juventus,4,1,Udinese,Mac 8 2019
+17:00,Parma Calcio 1913,1,0,Genoa,Mac 9 2019
+19:30,Chievo,1,2,AC Milan,Mac 9 2019
+11:30,Bologna,2,0,Cagliari,Mac 10 2019
+14:00,Frosinone,1,2,Torino,Mac 10 2019
+14:00,Inter,2,0,SPAL 2013,Mac 10 2019
+14:00,Sampdoria,1,2,Atalanta,Mac 10 2019
+17:00,Sassuolo,1,1,Napoli,Mac 10 2019
+19:30,Fiorentina,1,1,Lazio,Mac 10 2019
+19:30,Roma,2,1,Empoli,Mac 11 2019
+19:30,Cagliari,2,1,Fiorentina,Mac 15 2019
+14:00,Sassuolo,3,5,Sampdoria,Mac 16 2019
+17:00,SPAL 2013,2,1,Roma,Mac 16 2019
+19:30,Torino,2,3,Bologna,Mac 16 2019
+11:30,Genoa,2,0,Juventus,Mac 17 2019
+14:00,Lazio,4,1,Parma Calcio 1913,Mac 17 2019
+14:00,Empoli,2,1,Frosinone,Mac 17 2019
+14:00,Atalanta,1,1,Chievo,Mac 17 2019
+17:00,Napoli,4,2,Udinese,Mac 17 2019
+19:30,AC Milan,2,3,Inter,Mac 17 2019
+19:30,Chievo,0,3,Cagliari,Mac 29 2019
+14:00,Udinese,2,0,Genoa,Mac 30 2019
+17:00,Juventus,1,0,Empoli,Mac 30 2019
+19:30,Sampdoria,1,0,AC Milan,Mac 30 2019
+11:30,Parma Calcio 1913,1,3,Atalanta,Mac 31 2019
+14:00,Roma,1,4,Napoli,Mac 31 2019
+14:00,Fiorentina,1,1,Torino,Mac 31 2019
+14:00,Frosinone,0,1,SPAL 2013,Mac 31 2019
+17:00,Bologna,2,1,Sassuolo,Mac 31 2019
+19:30,Inter,0,1,Lazio,Mac 31 2019
+14:00,Empoli,2,2,Chievo,Feb 2 2019
+17:00,Napoli,3,0,Sampdoria,Feb 2 2019
+19:30,Juventus,3,3,Parma Calcio 1913,Feb 2 2019
+11:30,SPAL 2013,0,0,Torino,Feb 3 2019
+14:00,Udinese,1,1,Fiorentina,Feb 3 2019
+14:00,Genoa,1,1,Sassuolo,Feb 3 2019
+17:00,Inter,0,1,Bologna,Feb 3 2019
+19:30,Roma,1,1,AC Milan,Feb 3 2019
+18:00,Frosinone,0,1,Lazio,Feb 4 2019
+20:00,Cagliari,0,1,Atalanta,Feb 4 2019
+19:30,Lazio,1,0,Empoli,Feb 7 2019
+19:30,Chievo,0,3,Roma,Feb 8 2019
+17:00,Fiorentina,0,0,Napoli,Feb 9 2019
+19:30,Parma Calcio 1913,0,1,Inter,Feb 9 2019
+11:30,Bologna,1,1,Genoa,Feb 10 2019
+14:00,Torino,1,0,Udinese,Feb 10 2019
+14:00,Sampdoria,0,1,Frosinone,Feb 10 2019
+14:00,Atalanta,2,1,SPAL 2013,Feb 10 2019
+17:00,Sassuolo,0,3,Juventus,Feb 10 2019
+19:30,AC Milan,3,0,Cagliari,Feb 10 2019
+19:30,Juventus,3,0,Frosinone,Feb 15 2019
+17:00,Cagliari,2,1,Parma Calcio 1913,Feb 16 2019
+19:30,Atalanta,1,3,AC Milan,Feb 16 2019
+11:30,SPAL 2013,1,4,Fiorentina,Feb 17 2019
+14:00,Udinese,1,0,Chievo,Feb 17 2019
+14:00,Empoli,3,0,Sassuolo,Feb 17 2019
+14:00,Genoa,2,1,Lazio,Feb 17 2019
+17:00,Inter,2,1,Sampdoria,Feb 17 2019
+19:30,Napoli,0,0,Torino,Feb 17 2019
+19:30,Roma,2,1,Bologna,Feb 18 2019
+19:30,AC Milan,3,0,Empoli,Feb 22 2019
+14:00,Torino,2,0,Atalanta,Feb 23 2019
+19:30,Frosinone,2,3,Roma,Feb 23 2019
+11:30,Sampdoria,1,0,Cagliari,Feb 24 2019
+14:00,Sassuolo,1,1,SPAL 2013,Feb 24 2019
+14:00,Bologna,0,1,Juventus,Feb 24 2019
+14:00,Chievo,0,0,Genoa,Feb 24 2019
+17:00,Parma Calcio 1913,0,4,Napoli,Feb 24 2019
+19:30,Fiorentina,3,3,Inter,Feb 24 2019
+14:00,Roma,3,2,Torino,Jan 19 2019
+17:00,Udinese,1,2,Parma Calcio 1913,Jan 19 2019
+19:30,Inter,0,0,Sassuolo,Jan 19 2019
+11:30,Frosinone,0,5,Atalanta,Jan 20 2019
+14:00,Fiorentina,3,3,Sampdoria,Jan 20 2019
+14:00,SPAL 2013,1,1,Bologna,Jan 20 2019
+17:00,Cagliari,2,2,Empoli,Jan 20 2019
+19:30,Napoli,2,1,Lazio,Jan 20 2019
+14:00,Genoa,0,2,AC Milan,Jan 21 2019
+19:30,Juventus,3,0,Chievo,Jan 21 2019
+14:00,Sassuolo,3,0,Cagliari,Jan 26 2019
+17:00,Sampdoria,4,0,Udinese,Jan 26 2019
+19:30,AC Milan,0,0,Napoli,Jan 26 2019
+11:30,Chievo,3,4,Fiorentina,Jan 27 2019
+14:00,Atalanta,3,3,Roma,Jan 27 2019
+14:00,Bologna,0,4,Frosinone,Jan 27 2019
+14:00,Parma Calcio 1913,2,3,SPAL 2013,Jan 27 2019
+17:00,Torino,1,0,Inter,Jan 27 2019
+19:30,Lazio,1,2,Juventus,Jan 27 2019
+19:30,Empoli,1,3,Genoa,Jan 28 2019
+14:00,SPAL 2013,2,2,Empoli,Des 1 2018
+17:00,Fiorentina,0,3,Juventus,Des 1 2018
+19:30,Sampdoria,4,1,Bologna,Des 1 2018
+11:30,AC Milan,2,1,Parma Calcio 1913,Des 2 2018
+14:00,Sassuolo,0,0,Udinese,Des 2 2018
+14:00,Frosinone,1,1,Cagliari,Des 2 2018
+14:00,Torino,2,1,Genoa,Des 2 2018
+17:00,Chievo,1,1,Lazio,Des 2 2018
+19:30,Roma,2,2,Inter,Des 2 2018
+19:30,Atalanta,1,2,Napoli,Des 3 2018
+19:30,Juventus,1,0,Inter,Des 7 2018
+14:00,Napoli,4,0,Frosinone,Des 8 2018
+17:00,Cagliari,2,2,Roma,Des 8 2018
+19:30,Lazio,2,2,Sampdoria,Des 8 2018
+11:30,Sassuolo,3,3,Fiorentina,Des 9 2018
+14:00,Udinese,1,3,Atalanta,Des 9 2018
+14:00,Parma Calcio 1913,1,1,Chievo,Des 9 2018
+14:00,Empoli,2,1,Bologna,Des 9 2018
+17:00,Genoa,1,1,SPAL 2013,Des 9 2018
+19:30,AC Milan,0,0,Torino,Des 9 2018
+17:00,Inter,1,0,Udinese,Des 15 2018
+19:30,Torino,0,1,Juventus,Des 15 2018
+11:30,SPAL 2013,0,0,Chievo,Des 16 2018
+14:00,Sampdoria,2,0,Parma Calcio 1913,Des 16 2018
+14:00,Fiorentina,3,1,Empoli,Des 16 2018
+14:00,Frosinone,0,2,Sassuolo,Des 16 2018
+17:00,Cagliari,0,1,Napoli,Des 16 2018
+19:30,Roma,3,2,Genoa,Des 16 2018
+19:30,Atalanta,1,0,Lazio,Des 17 2018
+19:30,Bologna,0,0,AC Milan,Des 18 2018
+11:30,Lazio,3,1,Cagliari,Des 22 2018
+14:00,AC Milan,0,1,Fiorentina,Des 22 2018
+14:00,Napoli,1,0,SPAL 2013,Des 22 2018
+14:00,Sassuolo,1,1,Torino,Des 22 2018
+14:00,Udinese,1,1,Frosinone,Des 22 2018
+14:00,Empoli,2,4,Sampdoria,Des 22 2018
+14:00,Genoa,3,1,Atalanta,Des 22 2018
+17:00,Parma Calcio 1913,0,0,Bologna,Des 22 2018
+17:00,Chievo,1,1,Inter,Des 22 2018
+19:30,Juventus,1,0,Roma,Des 22 2018
+11:30,Frosinone,0,0,AC Milan,Des 26 2018
+14:00,Atalanta,2,2,Juventus,Des 26 2018
+14:00,Bologna,0,2,Lazio,Des 26 2018
+14:00,Cagliari,1,0,Genoa,Des 26 2018
+14:00,Fiorentina,0,1,Parma Calcio 1913,Des 26 2018
+14:00,Sampdoria,2,0,Chievo,Des 26 2018
+17:00,SPAL 2013,0,0,Udinese,Des 26 2018
+17:00,Torino,3,0,Empoli,Des 26 2018
+17:00,Roma,3,1,Sassuolo,Des 26 2018
+19:30,Inter,1,0,Napoli,Des 26 2018
+11:30,Juventus,2,1,Sampdoria,Des 29 2018
+14:00,Lazio,1,1,Torino,Des 29 2018
+14:00,Chievo,1,0,Frosinone,Des 29 2018
+14:00,Empoli,0,1,Inter,Des 29 2018
+14:00,Genoa,0,0,Fiorentina,Des 29 2018
+14:00,Parma Calcio 1913,0,2,Roma,Des 29 2018
+14:00,Sassuolo,2,6,Atalanta,Des 29 2018
+14:00,Udinese,2,0,Cagliari,Des 29 2018
+17:00,Napoli,3,2,Bologna,Des 29 2018
+19:30,AC Milan,2,1,SPAL 2013,Des 29 2018
+19:30,Napoli,5,1,Empoli,Nov 2 2018
+14:00,Inter,5,0,Genoa,Nov 3 2018
+17:00,Fiorentina,1,1,Roma,Nov 3 2018
+19:30,Juventus,3,1,Cagliari,Nov 3 2018
+11:30,Lazio,4,1,SPAL 2013,Nov 4 2018
+14:00,Chievo,0,2,Sassuolo,Nov 4 2018
+14:00,Parma Calcio 1913,0,0,Frosinone,Nov 4 2018
+14:00,Sampdoria,1,4,Torino,Nov 4 2018
+17:00,Bologna,1,2,Atalanta,Nov 4 2018
+19:30,Udinese,0,1,AC Milan,Nov 4 2018
+19:30,Frosinone,1,1,Fiorentina,Nov 9 2018
+14:00,Torino,1,2,Parma Calcio 1913,Nov 10 2018
+17:00,SPAL 2013,2,2,Cagliari,Nov 10 2018
+19:30,Genoa,1,2,Napoli,Nov 10 2018
+11:30,Atalanta,4,1,Inter,Nov 11 2018
+14:00,Chievo,2,2,Bologna,Nov 11 2018
+14:00,Empoli,2,1,Udinese,Nov 11 2018
+14:00,Roma,4,1,Sampdoria,Nov 11 2018
+17:00,Sassuolo,1,1,Lazio,Nov 11 2018
+19:30,AC Milan,0,2,Juventus,Nov 11 2018
+14:00,Udinese,1,0,Roma,Nov 24 2018
+17:00,Juventus,2,0,SPAL 2013,Nov 24 2018
+19:30,Inter,3,0,Frosinone,Nov 24 2018
+11:30,Parma Calcio 1913,2,1,Sassuolo,Nov 25 2018
+14:00,Napoli,0,0,Chievo,Nov 25 2018
+14:00,Empoli,3,2,Atalanta,Nov 25 2018
+14:00,Bologna,0,0,Fiorentina,Nov 25 2018
+17:00,Lazio,1,1,AC Milan,Nov 25 2018
+19:30,Genoa,1,1,Sampdoria,Nov 25 2018
+19:30,Cagliari,0,0,Torino,Nov 26 2018
+19:30,Sampdoria,2,1,SPAL 2013,Okt 1 2018
+19:30,Torino,3,2,Frosinone,Okt 5 2018
+14:00,Cagliari,2,0,Bologna,Okt 6 2018
+17:00,Udinese,0,2,Juventus,Okt 6 2018
+19:30,Empoli,0,2,Roma,Okt 6 2018
+11:30,Genoa,1,3,Parma Calcio 1913,Okt 7 2018
+14:00,Lazio,1,0,Fiorentina,Okt 7 2018
+14:00,AC Milan,3,1,Chievo,Okt 7 2018
+14:00,Atalanta,0,1,Sampdoria,Okt 7 2018
+17:00,Napoli,2,0,Sassuolo,Okt 7 2018
+19:30,SPAL 2013,1,2,Inter,Okt 7 2018
+14:00,Roma,0,2,SPAL 2013,Okt 20 2018
+17:00,Juventus,1,1,Genoa,Okt 20 2018
+19:30,Udinese,0,3,Napoli,Okt 20 2018
+11:30,Frosinone,3,3,Empoli,Okt 21 2018
+14:00,Bologna,2,2,Torino,Okt 21 2018
+14:00,Chievo,1,5,Atalanta,Okt 21 2018
+14:00,Parma Calcio 1913,0,2,Lazio,Okt 21 2018
+17:00,Fiorentina,1,1,Cagliari,Okt 21 2018
+19:30,Inter,1,0,AC Milan,Okt 21 2018
+19:30,Sampdoria,0,0,Sassuolo,Okt 22 2018
+14:00,Atalanta,3,0,Parma Calcio 1913,Okt 27 2018
+17:00,Empoli,1,2,Juventus,Okt 27 2018
+19:30,Torino,1,1,Fiorentina,Okt 27 2018
+11:30,Sassuolo,2,2,Bologna,Okt 28 2018
+14:00,SPAL 2013,0,3,Frosinone,Okt 28 2018
+14:00,Genoa,2,2,Udinese,Okt 28 2018
+14:00,Cagliari,2,1,Chievo,Okt 28 2018
+17:00,AC Milan,3,2,Sampdoria,Okt 28 2018
+19:30,Napoli,1,1,Roma,Okt 28 2018
+19:30,Lazio,0,3,Inter,Okt 29 2018
+19:30,AC Milan,2,1,Genoa,Okt 31 2018
+17:00,Bologna,0,3,Inter,Sep 1 2018
+19:30,Parma Calcio 1913,1,2,Juventus,Sep 1 2018
+17:00,Fiorentina,1,0,Udinese,Sep 2 2018
+19:30,Lazio,1,0,Frosinone,Sep 2 2018
+19:30,Sampdoria,3,0,Napoli,Sep 2 2018
+19:30,Sassuolo,5,3,Genoa,Sep 2 2018
+19:30,Torino,1,0,SPAL 2013,Sep 2 2018
+19:30,Chievo,0,0,Empoli,Sep 2 2018
+19:30,Atalanta,0,1,Cagliari,Sep 2 2018
+14:00,Inter,0,1,Parma Calcio 1913,Sep 15 2018
+17:00,Napoli,1,0,Fiorentina,Sep 15 2018
+19:30,Frosinone,0,5,Sampdoria,Sep 15 2018
+11:30,Roma,2,2,Chievo,Sep 16 2018
+14:00,Juventus,2,1,Sassuolo,Sep 16 2018
+14:00,Genoa,1,0,Bologna,Sep 16 2018
+14:00,Udinese,1,1,Torino,Sep 16 2018
+17:00,Empoli,0,1,Lazio,Sep 16 2018
+19:30,Cagliari,1,1,AC Milan,Sep 16 2018
+19:30,SPAL 2013,2,0,Atalanta,Sep 17 2018
+18:00,Sampdoria,1,1,Fiorentina,Sep 19 2018
+19:30,Sassuolo,3,1,Empoli,Sep 21 2018
+14:00,Parma Calcio 1913,2,0,Cagliari,Sep 22 2018
+17:00,Fiorentina,3,0,SPAL 2013,Sep 22 2018
+19:30,Sampdoria,0,1,Inter,Sep 22 2018
+11:30,Torino,1,3,Napoli,Sep 23 2018
+14:00,Lazio,4,1,Genoa,Sep 23 2018
+14:00,Bologna,2,0,Roma,Sep 23 2018
+14:00,Chievo,0,2,Udinese,Sep 23 2018
+17:00,AC Milan,2,2,Atalanta,Sep 23 2018
+19:30,Frosinone,0,2,Juventus,Sep 23 2018
+20:00,Inter,2,1,Fiorentina,Sep 25 2018
+18:00,Udinese,1,2,Lazio,Sep 26 2018
+20:00,Genoa,2,0,Chievo,Sep 26 2018
+20:00,Juventus,2,0,Bologna,Sep 26 2018
+20:00,Napoli,3,0,Parma Calcio 1913,Sep 26 2018
+20:00,Roma,4,0,Frosinone,Sep 26 2018
+20:00,Atalanta,0,0,Torino,Sep 26 2018
+20:00,Cagliari,0,0,Sampdoria,Sep 26 2018
+18:00,SPAL 2013,0,2,Sassuolo,Sep 27 2018
+20:00,Empoli,1,1,AC Milan,Sep 27 2018
+14:00,Roma,3,1,Lazio,Sep 29 2018
+17:00,Juventus,3,1,Napoli,Sep 29 2018
+19:30,Inter,2,0,Cagliari,Sep 29 2018
+11:30,Bologna,2,1,Udinese,Sep 30 2018
+14:00,Chievo,0,1,Torino,Sep 30 2018
+14:00,Fiorentina,2,0,Atalanta,Sep 30 2018
+14:00,Frosinone,1,2,Genoa,Sep 30 2018
+17:00,Parma Calcio 1913,1,0,Empoli,Sep 30 2018
+19:30,Sassuolo,1,4,AC Milan,Sep 30 2018
+17:00,AC Milan,4,1,Verona,Mei 5 2018
+19:45,Juventus,3,1,Bologna,Mei 5 2018
+11:30,Udinese,0,4,Inter,Mei 6 2018
+14:00,Napoli,2,2,Torino,Mei 6 2018
+14:00,Chievo,2,1,Crotone,Mei 6 2018
+14:00,Genoa,2,3,Fiorentina,Mei 6 2018
+14:00,Lazio,1,1,Atalanta,Mei 6 2018
+14:00,SPAL 2013,2,0,Benevento,Mei 6 2018
+17:00,Sassuolo,1,0,Sampdoria,Mei 6 2018
+19:45,Cagliari,0,1,Roma,Mei 6 2018
+17:00,Benevento,1,0,Genoa,Mei 12 2018
+19:45,Inter,1,2,Sassuolo,Mei 12 2018
+14:00,Torino,2,1,SPAL 2013,Mei 13 2018
+14:00,Verona,0,1,Udinese,Mei 13 2018
+14:00,Crotone,2,2,Lazio,Mei 13 2018
+14:00,Fiorentina,0,1,Cagliari,Mei 13 2018
+14:00,Bologna,1,2,Chievo,Mei 13 2018
+17:00,Atalanta,1,1,AC Milan,Mei 13 2018
+19:45,Sampdoria,0,2,Napoli,Mei 13 2018
+19:45,Roma,0,0,Juventus,Mei 13 2018
+14:00,Juventus,2,1,Verona,Mei 19 2018
+14:00,Genoa,1,2,Torino,Mei 20 2018
+17:00,SPAL 2013,3,1,Sampdoria,Mei 20 2018
+17:00,Cagliari,1,0,Atalanta,Mei 20 2018
+17:00,Chievo,1,0,Benevento,Mei 20 2018
+17:00,Udinese,1,0,Bologna,Mei 20 2018
+17:00,Napoli,2,1,Crotone,Mei 20 2018
+17:00,AC Milan,5,1,Fiorentina,Mei 20 2018
+19:45,Lazio,2,3,Inter,Mei 20 2018
+19:45,Sassuolo,0,1,Roma,Mei 20 2018
+17:30,Genoa,2,1,Cagliari,Apr 3 2018
+17:30,Udinese,0,2,Fiorentina,Apr 3 2018
+17:30,Atalanta,1,2,Sampdoria,Apr 3 2018
+16:00,Benevento,3,0,Verona,Apr 4 2018
+17:30,AC Milan,0,0,Inter,Apr 4 2018
+17:30,Torino,4,1,Crotone,Apr 4 2018
+17:30,Chievo,1,1,Sassuolo,Apr 4 2018
+14:00,Benevento,2,4,Juventus,Apr 7 2018
+17:00,Roma,0,2,Fiorentina,Apr 7 2018
+17:00,SPAL 2013,1,1,Atalanta,Apr 7 2018
+19:45,Sampdoria,0,0,Genoa,Apr 7 2018
+11:30,Torino,1,0,Inter,Apr 8 2018
+14:00,Crotone,1,0,Bologna,Apr 8 2018
+14:00,Verona,1,0,Cagliari,Apr 8 2018
+14:00,Napoli,2,1,Chievo,Apr 8 2018
+17:00,Udinese,1,2,Lazio,Apr 8 2018
+19:45,AC Milan,1,1,Sassuolo,Apr 8 2018
+14:00,Cagliari,2,1,Udinese,Apr 14 2018
+17:00,Genoa,1,0,Crotone,Apr 14 2018
+17:00,Chievo,0,0,Torino,Apr 14 2018
+19:45,Atalanta,0,0,Inter,Apr 14 2018
+11:30,Fiorentina,0,0,SPAL 2013,Apr 15 2018
+14:00,AC Milan,0,0,Napoli,Apr 15 2018
+14:00,Bologna,2,0,Verona,Apr 15 2018
+14:00,Sassuolo,2,2,Benevento,Apr 15 2018
+17:00,Juventus,3,0,Sampdoria,Apr 15 2018
+19:45,Lazio,0,0,Roma,Apr 15 2018
+19:45,Inter,4,0,Cagliari,Apr 17 2018
+17:00,Benevento,0,3,Atalanta,Apr 18 2018
+19:45,Sampdoria,1,0,Bologna,Apr 18 2018
+19:45,Crotone,1,1,Juventus,Apr 18 2018
+19:45,Fiorentina,3,4,Lazio,Apr 18 2018
+19:45,Torino,1,1,AC Milan,Apr 18 2018
+19:45,Verona,0,1,Sassuolo,Apr 18 2018
+19:45,Napoli,4,2,Udinese,Apr 18 2018
+19:45,SPAL 2013,0,0,Chievo,Apr 18 2018
+19:45,Roma,2,1,Genoa,Apr 18 2018
+14:00,SPAL 2013,0,3,Roma,Apr 21 2018
+17:00,Sassuolo,1,0,Fiorentina,Apr 21 2018
+19:45,AC Milan,0,1,Benevento,Apr 21 2018
+11:30,Cagliari,0,0,Bologna,Apr 22 2018
+14:00,Udinese,1,2,Crotone,Apr 22 2018
+14:00,Chievo,1,2,Inter,Apr 22 2018
+14:00,Lazio,4,0,Sampdoria,Apr 22 2018
+14:00,Atalanta,2,1,Torino,Apr 22 2018
+19:45,Juventus,0,1,Napoli,Apr 22 2018
+19:45,Genoa,3,1,Verona,Apr 23 2018
+17:00,Roma,4,1,Chievo,Apr 28 2018
+19:45,Inter,2,3,Juventus,Apr 28 2018
+11:30,Crotone,4,1,Sassuolo,Apr 29 2018
+14:00,Bologna,1,2,AC Milan,Apr 29 2018
+14:00,Benevento,3,3,Udinese,Apr 29 2018
+14:00,Verona,1,3,SPAL 2013,Apr 29 2018
+14:00,Atalanta,3,1,Genoa,Apr 29 2018
+14:00,Sampdoria,4,1,Cagliari,Apr 29 2018
+17:00,Fiorentina,3,0,Napoli,Apr 29 2018
+19:45,Torino,0,1,Lazio,Apr 29 2018
+14:00,SPAL 2013,1,0,Bologna,Mac 3 2018
+17:00,Lazio,0,1,Juventus,Mac 3 2018
+19:45,Napoli,2,4,Roma,Mac 3 2018
+19:45,Roma,3,0,Torino,Mac 9 2018
+19:45,Verona,1,0,Chievo,Mac 10 2018
+11:30,Fiorentina,1,0,Benevento,Mac 11 2018
+14:00,Crotone,4,1,Sampdoria,Mac 11 2018
+14:00,Sassuolo,1,1,SPAL 2013,Mac 11 2018
+14:00,Juventus,2,0,Udinese,Mac 11 2018
+14:00,Cagliari,2,2,Lazio,Mac 11 2018
+14:00,Bologna,0,1,Atalanta,Mac 11 2018
+17:00,Genoa,0,1,AC Milan,Mac 11 2018
+19:45,Inter,0,0,Napoli,Mac 11 2018
+17:00,Juventus,2,0,Atalanta,Mac 14 2018
+17:00,Udinese,1,2,Sassuolo,Mac 17 2018
+19:45,SPAL 2013,0,0,Juventus,Mac 17 2018
+11:30,Sampdoria,0,5,Inter,Mac 18 2018
+14:00,Crotone,0,2,Roma,Mac 18 2018
+14:00,Benevento,1,2,Cagliari,Mac 18 2018
+14:00,AC Milan,3,2,Chievo,Mac 18 2018
+14:00,Torino,1,2,Fiorentina,Mac 18 2018
+14:00,Verona,0,5,Atalanta,Mac 18 2018
+19:45,Lazio,1,1,Bologna,Mac 18 2018
+19:45,Napoli,1,0,Genoa,Mac 18 2018
+11:30,Bologna,1,1,Roma,Mac 31 2018
+14:00,Genoa,1,1,SPAL 2013,Mac 31 2018
+14:00,Cagliari,0,4,Torino,Mac 31 2018
+14:00,Atalanta,2,0,Udinese,Mac 31 2018
+14:00,Lazio,6,2,Benevento,Mac 31 2018
+14:00,Fiorentina,2,0,Crotone,Mac 31 2018
+14:00,Inter,3,0,Verona,Mac 31 2018
+17:00,Chievo,2,1,Sampdoria,Mac 31 2018
+17:00,Sassuolo,1,1,Napoli,Mac 31 2018
+19:45,Juventus,3,1,AC Milan,Mac 31 2018
+17:00,Sampdoria,1,1,Torino,Feb 3 2018
+19:45,Inter,1,1,Crotone,Feb 3 2018
+11:30,Verona,0,1,Roma,Feb 4 2018
+14:00,Juventus,7,0,Sassuolo,Feb 4 2018
+14:00,Cagliari,2,0,SPAL 2013,Feb 4 2018
+14:00,Bologna,1,2,Fiorentina,Feb 4 2018
+14:00,Udinese,1,1,AC Milan,Feb 4 2018
+14:00,Atalanta,1,0,Chievo,Feb 4 2018
+19:45,Benevento,0,2,Napoli,Feb 4 2018
+19:45,Lazio,1,2,Genoa,Feb 5 2018
+19:45,Fiorentina,0,2,Juventus,Feb 9 2018
+14:00,SPAL 2013,0,4,AC Milan,Feb 10 2018
+17:00,Crotone,1,1,Atalanta,Feb 10 2018
+19:45,Napoli,4,1,Lazio,Feb 10 2018
+11:30,Sassuolo,0,0,Cagliari,Feb 11 2018
+14:00,Chievo,0,1,Genoa,Feb 11 2018
+14:00,Sampdoria,2,0,Verona,Feb 11 2018
+14:00,Inter,2,1,Bologna,Feb 11 2018
+14:00,Torino,2,0,Udinese,Feb 11 2018
+19:45,Roma,5,2,Benevento,Feb 11 2018
+14:00,Udinese,0,2,Roma,Feb 17 2018
+17:00,Chievo,2,1,Cagliari,Feb 17 2018
+19:45,Genoa,2,0,Inter,Feb 17 2018
+11:30,Torino,0,1,Juventus,Feb 18 2018
+14:00,Benevento,3,2,Crotone,Feb 18 2018
+14:00,Bologna,2,1,Sassuolo,Feb 18 2018
+14:00,Napoli,1,0,SPAL 2013,Feb 18 2018
+17:00,Atalanta,1,1,Fiorentina,Feb 18 2018
+19:45,AC Milan,1,0,Sampdoria,Feb 18 2018
+19:45,Lazio,2,0,Verona,Feb 19 2018
+17:00,Bologna,2,0,Genoa,Feb 24 2018
+19:45,Inter,2,0,Benevento,Feb 24 2018
+11:30,Crotone,2,3,SPAL 2013,Feb 25 2018
+14:00,Sampdoria,2,1,Udinese,Feb 25 2018
+14:00,Verona,2,1,Torino,Feb 25 2018
+14:00,Sassuolo,0,3,Lazio,Feb 25 2018
+14:00,Fiorentina,1,0,Chievo,Feb 25 2018
+19:45,Roma,0,2,AC Milan,Feb 25 2018
+19:45,Cagliari,0,5,Napoli,Feb 26 2018
+17:00,Chievo,1,1,Udinese,Jan 5 2018
+19:45,Fiorentina,1,1,Inter,Jan 5 2018
+11:30,Torino,3,0,Bologna,Jan 6 2018
+14:00,AC Milan,1,0,Crotone,Jan 6 2018
+14:00,Napoli,2,0,Verona,Jan 6 2018
+14:00,SPAL 2013,2,5,Lazio,Jan 6 2018
+14:00,Benevento,3,2,Sampdoria,Jan 6 2018
+14:00,Genoa,1,0,Sassuolo,Jan 6 2018
+17:00,Roma,1,2,Atalanta,Jan 6 2018
+19:45,Cagliari,0,1,Juventus,Jan 6 2018
+11:30,Atalanta,0,1,Napoli,Jan 21 2018
+14:00,Bologna,3,0,Benevento,Jan 21 2018
+14:00,Lazio,5,1,Chievo,Jan 21 2018
+14:00,Verona,0,3,Crotone,Jan 21 2018
+14:00,Sampdoria,3,1,Fiorentina,Jan 21 2018
+14:00,Udinese,1,1,SPAL 2013,Jan 21 2018
+14:00,Sassuolo,1,1,Torino,Jan 21 2018
+17:00,Cagliari,1,2,AC Milan,Jan 21 2018
+19:45,Inter,1,1,Roma,Jan 21 2018
+19:45,Juventus,1,0,Genoa,Jan 22 2018
+17:30,Lazio,3,0,Udinese,Jan 24 2018
+19:45,Sampdoria,1,1,Roma,Jan 24 2018
+17:00,Sassuolo,0,3,Atalanta,Jan 27 2018
+19:45,Chievo,0,2,Juventus,Jan 27 2018
+11:30,SPAL 2013,1,1,Inter,Jan 28 2018
+14:00,Genoa,0,1,Udinese,Jan 28 2018
+14:00,Torino,3,0,Benevento,Jan 28 2018
+14:00,Napoli,3,1,Bologna,Jan 28 2018
+14:00,Crotone,1,1,Cagliari,Jan 28 2018
+14:00,Fiorentina,1,4,Verona,Jan 28 2018
+17:00,AC Milan,2,1,Lazio,Jan 28 2018
+19:45,Roma,0,1,Sampdoria,Jan 28 2018
+17:30,Roma,3,1,SPAL 2013,Des 1 2017
+19:45,Napoli,0,1,Juventus,Des 1 2017
+19:45,Torino,1,1,Atalanta,Des 2 2017
+11:30,Benevento,2,2,AC Milan,Des 3 2017
+14:00,Bologna,1,1,Cagliari,Des 3 2017
+14:00,Fiorentina,3,0,Sassuolo,Des 3 2017
+14:00,Inter,5,0,Chievo,Des 3 2017
+19:45,Sampdoria,1,2,Lazio,Des 3 2017
+18:00,Crotone,0,3,Udinese,Des 4 2017
+20:00,Verona,0,1,Genoa,Des 4 2017
+17:00,Cagliari,2,2,Sampdoria,Des 9 2017
+19:45,Juventus,0,0,Inter,Des 9 2017
+11:30,Chievo,0,0,Roma,Des 10 2017
+14:00,Napoli,0,0,Fiorentina,Des 10 2017
+14:00,SPAL 2013,2,2,Verona,Des 10 2017
+14:00,Udinese,2,0,Benevento,Des 10 2017
+17:00,Sassuolo,2,1,Crotone,Des 10 2017
+19:45,AC Milan,2,1,Bologna,Des 10 2017
+20:00,Lazio,1,3,Torino,Des 11 2017
+18:00,Genoa,1,2,Atalanta,Des 12 2017
+14:00,Inter,1,3,Udinese,Des 16 2017
+17:00,Torino,1,3,Napoli,Des 16 2017
+19:45,Roma,1,0,Cagliari,Des 16 2017
+11:30,Verona,3,0,AC Milan,Des 17 2017
+14:00,Sampdoria,0,1,Sassuolo,Des 17 2017
+14:00,Bologna,0,3,Juventus,Des 17 2017
+14:00,Crotone,1,0,Chievo,Des 17 2017
+14:00,Fiorentina,0,0,Genoa,Des 17 2017
+17:00,Benevento,1,2,SPAL 2013,Des 17 2017
+19:45,Atalanta,3,3,Lazio,Des 17 2017
+17:00,Chievo,2,3,Bologna,Des 22 2017
+19:45,Cagliari,0,1,Fiorentina,Des 22 2017
+11:30,Lazio,4,0,Crotone,Des 23 2017
+14:00,Genoa,1,0,Benevento,Des 23 2017
+14:00,Napoli,3,2,Sampdoria,Des 23 2017
+14:00,Sassuolo,1,0,Inter,Des 23 2017
+14:00,SPAL 2013,2,2,Torino,Des 23 2017
+14:00,Udinese,4,0,Verona,Des 23 2017
+17:00,AC Milan,0,2,Atalanta,Des 23 2017
+19:45,Juventus,1,0,Roma,Des 23 2017
+19:45,Crotone,0,1,Napoli,Des 29 2017
+11:30,Fiorentina,1,1,AC Milan,Des 30 2017
+14:00,Roma,1,1,Sassuolo,Des 30 2017
+14:00,Sampdoria,2,0,SPAL 2013,Des 30 2017
+14:00,Torino,0,0,Genoa,Des 30 2017
+14:00,Atalanta,1,2,Cagliari,Des 30 2017
+14:00,Benevento,1,0,Chievo,Des 30 2017
+14:00,Bologna,1,2,Udinese,Des 30 2017
+17:00,Inter,0,0,Lazio,Des 30 2017
+19:45,Verona,1,3,Juventus,Des 30 2017
+17:00,Bologna,2,3,Crotone,Nov 4 2017
+19:45,Genoa,0,2,Sampdoria,Nov 4 2017
+11:30,Inter,1,1,Torino,Nov 5 2017
+14:00,Juventus,2,1,Benevento,Nov 5 2017
+14:00,Cagliari,2,1,Verona,Nov 5 2017
+14:00,Chievo,0,0,Napoli,Nov 5 2017
+14:00,Fiorentina,2,4,Roma,Nov 5 2017
+17:00,Atalanta,1,1,SPAL 2013,Nov 5 2017
+19:45,Sassuolo,0,2,AC Milan,Nov 5 2017
+17:00,Roma,2,1,Lazio,Nov 18 2017
+19:45,Napoli,2,1,AC Milan,Nov 18 2017
+11:30,Crotone,0,1,Genoa,Nov 19 2017
+14:00,Sampdoria,3,2,Juventus,Nov 19 2017
+14:00,SPAL 2013,1,1,Fiorentina,Nov 19 2017
+14:00,Torino,1,1,Chievo,Nov 19 2017
+14:00,Udinese,0,1,Cagliari,Nov 19 2017
+14:00,Benevento,1,2,Sassuolo,Nov 19 2017
+19:45,Inter,2,0,Atalanta,Nov 19 2017
+19:45,Verona,2,3,Bologna,Nov 20 2017
+14:00,Bologna,3,0,Sampdoria,Nov 25 2017
+17:00,Chievo,2,1,SPAL 2013,Nov 25 2017
+17:00,Sassuolo,0,2,Verona,Nov 25 2017
+19:45,Cagliari,1,3,Inter,Nov 25 2017
+14:00,Genoa,1,1,Roma,Nov 26 2017
+14:00,Udinese,0,1,Napoli,Nov 26 2017
+14:00,AC Milan,0,0,Torino,Nov 26 2017
+17:00,Lazio,1,1,Fiorentina,Nov 26 2017
+19:45,Juventus,3,0,Crotone,Nov 26 2017
+19:45,Atalanta,1,0,Benevento,Nov 27 2017
+11:30,Napoli,3,0,Cagliari,Okt 1 2017
+14:00,SPAL 2013,1,1,Crotone,Okt 1 2017
+14:00,Torino,2,2,Verona,Okt 1 2017
+14:00,Lazio,6,1,Sassuolo,Okt 1 2017
+14:00,Benevento,1,2,Inter,Okt 1 2017
+14:00,Chievo,2,1,Fiorentina,Okt 1 2017
+17:00,AC Milan,0,2,Roma,Okt 1 2017
+19:45,Atalanta,2,2,Juventus,Okt 1 2017
+17:00,Juventus,1,2,Lazio,Okt 14 2017
+19:45,Roma,0,1,Napoli,Okt 14 2017
+11:30,Fiorentina,2,1,Udinese,Okt 15 2017
+14:00,Sampdoria,3,1,Atalanta,Okt 15 2017
+14:00,Sassuolo,0,0,Chievo,Okt 15 2017
+14:00,Bologna,2,1,SPAL 2013,Okt 15 2017
+14:00,Cagliari,2,3,Genoa,Okt 15 2017
+14:00,Crotone,2,2,Torino,Okt 15 2017
+19:45,Inter,3,2,AC Milan,Okt 15 2017
+19:45,Verona,1,0,Benevento,Okt 16 2017
+17:00,Sampdoria,5,0,Crotone,Okt 21 2017
+19:45,Napoli,0,0,Inter,Okt 21 2017
+11:30,Chievo,3,2,Verona,Okt 22 2017
+14:00,SPAL 2013,0,1,Sassuolo,Okt 22 2017
+14:00,Torino,0,1,Roma,Okt 22 2017
+14:00,Atalanta,1,0,Bologna,Okt 22 2017
+14:00,Benevento,0,3,Fiorentina,Okt 22 2017
+14:00,AC Milan,0,0,Genoa,Okt 22 2017
+17:00,Udinese,2,6,Juventus,Okt 22 2017
+19:45,Lazio,3,0,Cagliari,Okt 22 2017
+19:45,Inter,3,2,Sampdoria,Okt 24 2017
+17:30,Atalanta,3,0,Verona,Okt 25 2017
+19:45,Bologna,1,2,Lazio,Okt 25 2017
+19:45,Cagliari,2,1,Benevento,Okt 25 2017
+19:45,Chievo,1,4,AC Milan,Okt 25 2017
+19:45,Fiorentina,3,0,Torino,Okt 25 2017
+19:45,Genoa,2,3,Napoli,Okt 25 2017
+19:45,Juventus,4,1,SPAL 2013,Okt 25 2017
+19:45,Roma,1,0,Crotone,Okt 25 2017
+19:45,Sassuolo,0,1,Udinese,Okt 25 2017
+17:00,AC Milan,0,2,Juventus,Okt 28 2017
+19:45,Roma,1,0,Bologna,Okt 28 2017
+11:30,Benevento,1,5,Lazio,Okt 29 2017
+14:00,Crotone,2,1,Fiorentina,Okt 29 2017
+14:00,Sampdoria,4,1,Chievo,Okt 29 2017
+14:00,SPAL 2013,1,0,Genoa,Okt 29 2017
+14:00,Napoli,3,1,Sassuolo,Okt 29 2017
+14:00,Udinese,2,1,Atalanta,Okt 29 2017
+19:45,Torino,2,1,Cagliari,Okt 29 2017
+19:45,Verona,1,2,Inter,Okt 30 2017
+17:00,Juventus,3,0,Chievo,Sep 9 2017
+11:30,Inter,2,0,SPAL 2013,Sep 10 2017
+14:00,Udinese,1,0,Genoa,Sep 10 2017
+14:00,Atalanta,2,1,Sassuolo,Sep 10 2017
+14:00,Cagliari,1,0,Crotone,Sep 10 2017
+14:00,Verona,0,5,Fiorentina,Sep 10 2017
+15:00,Lazio,4,1,AC Milan,Sep 10 2017
+17:00,Benevento,0,1,Torino,Sep 10 2017
+19:45,Bologna,0,3,Napoli,Sep 10 2017
+14:00,Crotone,0,2,Inter,Sep 16 2017
+17:00,Fiorentina,2,1,Bologna,Sep 16 2017
+19:45,Roma,3,0,Verona,Sep 16 2017
+11:30,Sassuolo,1,3,Juventus,Sep 17 2017
+14:00,SPAL 2013,0,2,Cagliari,Sep 17 2017
+14:00,Torino,2,2,Sampdoria,Sep 17 2017
+14:00,AC Milan,2,1,Udinese,Sep 17 2017
+14:00,Napoli,6,0,Benevento,Sep 17 2017
+17:00,Chievo,1,1,Atalanta,Sep 17 2017
+19:45,Genoa,2,3,Lazio,Sep 17 2017
+19:45,Bologna,1,1,Inter,Sep 19 2017
+17:00,Benevento,0,4,Roma,Sep 20 2017
+19:45,Cagliari,0,1,Sassuolo,Sep 20 2017
+19:45,Genoa,1,1,Chievo,Sep 20 2017
+19:45,Verona,0,0,Sampdoria,Sep 20 2017
+19:45,Juventus,1,0,Fiorentina,Sep 20 2017
+19:45,Lazio,1,4,Napoli,Sep 20 2017
+19:45,AC Milan,2,0,SPAL 2013,Sep 20 2017
+19:45,Udinese,2,3,Torino,Sep 20 2017
+19:45,Atalanta,5,1,Crotone,Sep 20 2017
+14:00,Roma,3,1,Udinese,Sep 23 2017
+17:00,SPAL 2013,2,3,Napoli,Sep 23 2017
+19:45,Juventus,4,0,Torino,Sep 23 2017
+11:30,Sampdoria,2,0,AC Milan,Sep 24 2017
+14:00,Verona,0,3,Lazio,Sep 24 2017
+14:00,Inter,1,0,Genoa,Sep 24 2017
+14:00,Cagliari,0,2,Chievo,Sep 24 2017
+14:00,Crotone,2,0,Benevento,Sep 24 2017
+17:00,Sassuolo,0,1,Bologna,Sep 24 2017
+19:45,Fiorentina,1,1,Atalanta,Sep 24 2017
+17:00,Udinese,4,0,Sampdoria,Sep 30 2017
+19:45,Genoa,0,1,Bologna,Sep 30 2017
+17:00,Napoli,3,1,Cagliari,Mei 6 2017
+19:45,Juventus,1,1,Torino,Mei 6 2017
+11:30,Udinese,1,1,Atalanta,Mei 7 2017
+14:00,Empoli,3,1,Bologna,Mei 7 2017
+14:00,Pescara,0,1,Crotone,Mei 7 2017
+14:00,Sassuolo,2,2,Fiorentina,Mei 7 2017
+14:00,Genoa,1,0,Inter,Mei 7 2017
+14:00,Chievo,1,1,Palermo,Mei 7 2017
+14:00,Lazio,7,3,Sampdoria,Mei 7 2017
+19:45,AC Milan,1,4,Roma,Mei 7 2017
+17:00,Fiorentina,3,2,Lazio,Mei 13 2017
+19:45,Atalanta,1,1,AC Milan,Mei 13 2017
+11:30,Inter,1,2,Sassuolo,Mei 14 2017
+14:00,Crotone,1,0,Udinese,Mei 14 2017
+14:00,Torino,0,5,Napoli,Mei 14 2017
+14:00,Bologna,3,1,Pescara,Mei 14 2017
+14:00,Sampdoria,1,1,Chievo,Mei 14 2017
+14:00,Cagliari,3,2,Empoli,Mei 14 2017
+14:00,Palermo,1,0,Genoa,Mei 14 2017
+19:45,Roma,3,1,Juventus,Mei 14 2017
+17:00,Chievo,3,5,Roma,Mei 20 2017
+19:45,Napoli,4,1,Fiorentina,Mei 20 2017
+14:00,Udinese,1,1,Sampdoria,Mei 21 2017
+14:00,Genoa,2,1,Torino,Mei 21 2017
+14:00,Empoli,0,1,Atalanta,Mei 21 2017
+14:00,AC Milan,3,0,Bologna,Mei 21 2017
+14:00,Sassuolo,6,2,Cagliari,Mei 21 2017
+14:00,Juventus,3,0,Crotone,Mei 21 2017
+19:45,Lazio,1,3,Inter,Mei 21 2017
+19:45,Pescara,2,0,Palermo,Mei 22 2017
+17:00,Atalanta,1,0,Chievo,Mei 27 2017
+17:00,Bologna,1,2,Juventus,Mei 27 2017
+14:00,Cagliari,2,1,AC Milan,Mei 28 2017
+17:00,Sampdoria,2,4,Napoli,Mei 28 2017
+17:00,Roma,3,2,Genoa,Mei 28 2017
+19:45,Palermo,2,1,Empoli,Mei 28 2017
+19:45,Fiorentina,2,2,Pescara,Mei 28 2017
+19:45,Torino,5,3,Sassuolo,Mei 28 2017
+19:45,Inter,5,2,Udinese,Mei 28 2017
+19:45,Crotone,3,1,Lazio,Mei 28 2017
+17:00,Sassuolo,1,2,Lazio,Apr 1 2017
+19:45,Roma,2,0,Empoli,Apr 1 2017
+11:30,Torino,2,2,Udinese,Apr 2 2017
+14:00,Pescara,1,1,AC Milan,Apr 2 2017
+14:00,Genoa,0,5,Atalanta,Apr 2 2017
+14:00,Fiorentina,1,0,Bologna,Apr 2 2017
+14:00,Palermo,1,3,Cagliari,Apr 2 2017
+14:00,Chievo,1,2,Crotone,Apr 2 2017
+19:45,Napoli,1,1,Juventus,Apr 2 2017
+19:45,Inter,1,2,Sampdoria,Apr 3 2017
+14:00,Empoli,1,1,Pescara,Apr 8 2017
+17:00,Atalanta,1,1,Sassuolo,Apr 8 2017
+19:45,Juventus,2,0,Chievo,Apr 8 2017
+11:30,Sampdoria,2,2,Fiorentina,Apr 9 2017
+14:00,Udinese,3,0,Genoa,Apr 9 2017
+14:00,Crotone,2,1,Inter,Apr 9 2017
+14:00,Cagliari,2,3,Torino,Apr 9 2017
+14:00,Bologna,0,3,Roma,Apr 9 2017
+14:00,AC Milan,4,0,Palermo,Apr 9 2017
+19:45,Lazio,0,3,Napoli,Apr 9 2017
+11:30,Inter,2,2,AC Milan,Apr 15 2017
+14:00,Roma,1,1,Atalanta,Apr 15 2017
+14:00,Palermo,0,0,Bologna,Apr 15 2017
+14:00,Cagliari,4,0,Chievo,Apr 15 2017
+14:00,Torino,1,1,Crotone,Apr 15 2017
+14:00,Fiorentina,1,2,Empoli,Apr 15 2017
+14:00,Pescara,0,2,Juventus,Apr 15 2017
+14:00,Genoa,2,2,Lazio,Apr 15 2017
+17:00,Sassuolo,2,1,Sampdoria,Apr 15 2017
+19:45,Napoli,3,0,Udinese,Apr 15 2017
+17:00,Atalanta,3,2,Bologna,Apr 22 2017
+19:45,Fiorentina,5,4,Inter,Apr 22 2017
+11:30,Sassuolo,2,2,Napoli,Apr 23 2017
+14:00,Lazio,6,2,Palermo,Apr 23 2017
+14:00,Udinese,2,1,Cagliari,Apr 23 2017
+14:00,Sampdoria,1,2,Crotone,Apr 23 2017
+14:00,AC Milan,1,2,Empoli,Apr 23 2017
+14:00,Chievo,1,3,Torino,Apr 23 2017
+19:45,Juventus,4,0,Genoa,Apr 23 2017
+19:45,Pescara,1,4,Roma,Apr 24 2017
+19:45,Atalanta,2,2,Juventus,Apr 28 2017
+19:45,Torino,1,1,Sampdoria,Apr 29 2017
+11:30,Roma,1,3,Lazio,Apr 30 2017
+14:00,Crotone,1,1,AC Milan,Apr 30 2017
+14:00,Genoa,1,2,Chievo,Apr 30 2017
+14:00,Palermo,2,0,Fiorentina,Apr 30 2017
+14:00,Empoli,1,3,Sassuolo,Apr 30 2017
+14:00,Bologna,4,0,Udinese,Apr 30 2017
+14:00,Cagliari,1,0,Pescara,Apr 30 2017
+19:45,Inter,0,1,Napoli,Apr 30 2017
+14:00,Roma,1,2,Napoli,Mac 4 2017
+17:00,Sampdoria,3,1,Pescara,Mac 4 2017
+19:45,AC Milan,3,1,Chievo,Mac 4 2017
+11:30,Atalanta,0,0,Fiorentina,Mac 5 2017
+14:00,Empoli,0,2,Genoa,Mac 5 2017
+14:00,Cagliari,1,5,Inter,Mac 5 2017
+14:00,Udinese,1,1,Juventus,Mac 5 2017
+14:00,Crotone,0,0,Sassuolo,Mac 5 2017
+14:00,Torino,3,1,Palermo,Mac 5 2017
+19:45,Bologna,0,2,Lazio,Mac 5 2017
+19:45,Juventus,2,1,AC Milan,Mac 10 2017
+19:45,Genoa,0,1,Sampdoria,Mac 11 2017
+11:30,Sassuolo,0,1,Bologna,Mac 12 2017
+14:00,Fiorentina,1,0,Cagliari,Mac 12 2017
+14:00,Napoli,3,0,Crotone,Mac 12 2017
+14:00,Chievo,4,0,Empoli,Mac 12 2017
+14:00,Inter,7,1,Atalanta,Mac 12 2017
+14:00,Pescara,1,3,Udinese,Mac 12 2017
+19:45,Palermo,0,3,Roma,Mac 12 2017
+19:45,Lazio,3,1,Torino,Mac 13 2017
+17:00,Torino,2,2,Inter,Mac 18 2017
+19:45,AC Milan,1,0,Genoa,Mac 18 2017
+11:30,Empoli,2,3,Napoli,Mac 19 2017
+14:00,Atalanta,3,0,Pescara,Mac 19 2017
+14:00,Sampdoria,0,1,Juventus,Mac 19 2017
+14:00,Cagliari,0,0,Lazio,Mac 19 2017
+14:00,Bologna,4,1,Chievo,Mac 19 2017
+14:00,Crotone,0,1,Fiorentina,Mac 19 2017
+17:00,Udinese,4,1,Palermo,Mac 19 2017
+19:45,Roma,3,1,Sassuolo,Mac 19 2017
+19:45,Pescara,1,2,Fiorentina,Feb 1 2017
+19:45,Bologna,1,7,Napoli,Feb 4 2017
+11:30,AC Milan,0,1,Sampdoria,Feb 5 2017
+14:00,Genoa,0,1,Sassuolo,Feb 5 2017
+14:00,Empoli,1,1,Torino,Feb 5 2017
+14:00,Chievo,0,0,Udinese,Feb 5 2017
+14:00,Atalanta,2,0,Cagliari,Feb 5 2017
+14:00,Pescara,2,6,Lazio,Feb 5 2017
+17:00,Palermo,1,0,Crotone,Feb 5 2017
+19:45,Juventus,1,0,Inter,Feb 5 2017
+19:45,Roma,4,0,Fiorentina,Feb 7 2017
+17:00,Crotone,0,2,Juventus,Feb 8 2017
+19:45,Bologna,0,1,AC Milan,Feb 8 2017
+19:45,Napoli,2,0,Genoa,Feb 10 2017
+19:45,Fiorentina,3,0,Udinese,Feb 11 2017
+11:30,Crotone,0,2,Roma,Feb 12 2017
+14:00,Torino,5,3,Pescara,Feb 12 2017
+14:00,Sassuolo,1,3,Chievo,Feb 12 2017
+14:00,Inter,2,0,Empoli,Feb 12 2017
+14:00,Palermo,1,3,Atalanta,Feb 12 2017
+17:00,Sampdoria,3,1,Bologna,Feb 12 2017
+19:45,Cagliari,0,2,Juventus,Feb 12 2017
+19:45,Lazio,1,1,AC Milan,Feb 13 2017
+19:45,Juventus,4,1,Palermo,Feb 17 2017
+17:00,Atalanta,1,0,Crotone,Feb 18 2017
+19:45,Empoli,1,2,Lazio,Feb 18 2017
+11:30,Bologna,0,1,Inter,Feb 19 2017
+14:00,Pescara,5,0,Genoa,Feb 19 2017
+14:00,Sampdoria,1,1,Cagliari,Feb 19 2017
+14:00,Chievo,1,3,Napoli,Feb 19 2017
+14:00,Udinese,1,2,Sassuolo,Feb 19 2017
+17:00,Roma,4,1,Torino,Feb 19 2017
+19:45,AC Milan,2,1,Fiorentina,Feb 19 2017
+17:00,Napoli,0,2,Atalanta,Feb 25 2017
+19:45,Juventus,2,0,Empoli,Feb 25 2017
+11:30,Palermo,1,1,Sampdoria,Feb 26 2017
+14:00,Sassuolo,0,1,AC Milan,Feb 26 2017
+14:00,Chievo,2,0,Pescara,Feb 26 2017
+14:00,Genoa,1,1,Bologna,Feb 26 2017
+14:00,Crotone,1,2,Cagliari,Feb 26 2017
+14:00,Lazio,1,0,Udinese,Feb 26 2017
+19:45,Inter,1,3,Roma,Feb 26 2017
+19:45,Fiorentina,2,2,Torino,Feb 27 2017
+17:00,Empoli,1,0,Palermo,Jan 7 2017
+19:45,Napoli,2,1,Sampdoria,Jan 7 2017
+11:30,Udinese,1,2,Inter,Jan 8 2017
+14:00,Sassuolo,0,0,Torino,Jan 8 2017
+14:00,Lazio,1,0,Crotone,Jan 8 2017
+14:00,Genoa,0,1,Roma,Jan 8 2017
+14:00,Chievo,1,4,Atalanta,Jan 8 2017
+17:00,AC Milan,1,0,Cagliari,Jan 8 2017
+19:45,Juventus,3,0,Bologna,Jan 8 2017
+17:00,Crotone,0,1,Bologna,Jan 14 2017
+19:45,Inter,3,1,Chievo,Jan 14 2017
+11:30,Cagliari,4,1,Genoa,Jan 15 2017
+14:00,Sampdoria,0,0,Empoli,Jan 15 2017
+14:00,Sassuolo,4,1,Palermo,Jan 15 2017
+14:00,Napoli,3,1,Pescara,Jan 15 2017
+14:00,Udinese,0,1,Roma,Jan 15 2017
+14:00,Lazio,2,1,Atalanta,Jan 15 2017
+19:45,Fiorentina,2,1,Juventus,Jan 15 2017
+19:45,Torino,2,2,AC Milan,Jan 16 2017
+17:00,Chievo,0,3,Fiorentina,Jan 21 2017
+19:45,AC Milan,1,2,Napoli,Jan 21 2017
+11:30,Juventus,2,0,Lazio,Jan 22 2017
+14:00,Palermo,0,1,Inter,Jan 22 2017
+14:00,Genoa,2,2,Crotone,Jan 22 2017
+14:00,Pescara,1,3,Sassuolo,Jan 22 2017
+14:00,Bologna,2,0,Torino,Jan 22 2017
+14:00,Empoli,1,0,Udinese,Jan 22 2017
+17:00,Atalanta,1,0,Sampdoria,Jan 22 2017
+19:45,Roma,1,0,Cagliari,Jan 22 2017
+17:00,Lazio,0,1,Chievo,Jan 28 2017
+19:45,Inter,3,0,Pescara,Jan 28 2017
+11:30,Torino,1,1,Atalanta,Jan 29 2017
+14:00,Cagliari,1,1,Bologna,Jan 29 2017
+14:00,Sampdoria,3,2,Roma,Jan 29 2017
+14:00,Crotone,4,1,Empoli,Jan 29 2017
+14:00,Fiorentina,3,3,Genoa,Jan 29 2017
+14:00,Sassuolo,0,2,Juventus,Jan 29 2017
+14:00,Udinese,2,1,AC Milan,Jan 29 2017
+19:45,Napoli,1,1,Palermo,Jan 29 2017
+19:45,Napoli,3,0,Inter,Des 2 2016
+19:45,Juventus,3,1,Atalanta,Des 3 2016
+11:30,AC Milan,2,1,Crotone,Des 4 2016
+14:00,Lazio,0,2,Roma,Des 4 2016
+14:00,Pescara,1,1,Cagliari,Des 4 2016
+14:00,Sampdoria,2,0,Torino,Des 4 2016
+14:00,Sassuolo,3,0,Empoli,Des 4 2016
+19:45,Fiorentina,2,1,Palermo,Des 4 2016
+18:00,Chievo,0,0,Genoa,Des 5 2016
+20:00,Udinese,1,0,Bologna,Des 5 2016
+17:00,Crotone,2,1,Pescara,Des 10 2016
+19:45,Sampdoria,1,2,Lazio,Des 10 2016
+11:30,Cagliari,0,5,Napoli,Des 11 2016
+14:00,Palermo,0,2,Chievo,Des 11 2016
+14:00,Atalanta,1,3,Udinese,Des 11 2016
+14:00,Bologna,0,0,Empoli,Des 11 2016
+14:00,Torino,1,3,Juventus,Des 11 2016
+19:45,Inter,2,0,Genoa,Des 11 2016
+18:00,Fiorentina,2,1,Sassuolo,Des 12 2016
+20:00,Roma,1,0,AC Milan,Des 12 2016
+19:00,Genoa,1,0,Fiorentina,Des 15 2016
+14:00,Empoli,2,0,Cagliari,Des 17 2016
+17:00,AC Milan,0,0,Atalanta,Des 17 2016
+19:45,Juventus,1,0,Roma,Des 17 2016
+11:30,Sassuolo,0,1,Inter,Des 18 2016
+14:00,Udinese,2,0,Crotone,Des 18 2016
+14:00,Napoli,5,3,Torino,Des 18 2016
+14:00,Pescara,0,3,Bologna,Des 18 2016
+14:00,Chievo,2,1,Sampdoria,Des 18 2016
+19:45,Genoa,3,4,Palermo,Des 18 2016
+19:45,Lazio,3,1,Fiorentina,Des 18 2016
+19:45,Atalanta,2,1,Empoli,Des 20 2016
+19:45,Inter,3,0,Lazio,Des 21 2016
+19:45,Palermo,1,1,Pescara,Des 22 2016
+19:45,Roma,3,1,Chievo,Des 22 2016
+19:45,Sampdoria,0,0,Udinese,Des 22 2016
+19:45,Torino,1,0,Genoa,Des 22 2016
+19:45,Cagliari,4,3,Sassuolo,Des 22 2016
+19:45,Fiorentina,3,3,Napoli,Des 22 2016
+17:00,Torino,5,1,Cagliari,Nov 5 2016
+19:45,Napoli,1,1,Lazio,Nov 5 2016
+11:30,Pescara,0,4,Empoli,Nov 6 2016
+14:00,Palermo,1,2,AC Milan,Nov 6 2016
+14:00,Chievo,1,2,Juventus,Nov 6 2016
+14:00,Genoa,1,1,Udinese,Nov 6 2016
+14:00,Sassuolo,0,3,Atalanta,Nov 6 2016
+17:00,Inter,3,0,Crotone,Nov 6 2016
+17:00,Fiorentina,1,1,Sampdoria,Nov 6 2016
+19:45,Roma,3,0,Bologna,Nov 6 2016
+14:00,Chievo,1,0,Cagliari,Nov 19 2016
+17:00,Udinese,1,2,Napoli,Nov 19 2016
+19:45,Juventus,3,0,Pescara,Nov 19 2016
+11:30,Sampdoria,3,2,Sassuolo,Nov 20 2016
+14:00,Lazio,3,1,Genoa,Nov 20 2016
+14:00,Crotone,0,2,Torino,Nov 20 2016
+14:00,Empoli,0,4,Fiorentina,Nov 20 2016
+14:00,Atalanta,2,1,Roma,Nov 20 2016
+14:00,Bologna,3,1,Palermo,Nov 20 2016
+19:45,AC Milan,2,2,Inter,Nov 20 2016
+17:00,Torino,2,1,Chievo,Nov 26 2016
+19:45,Empoli,1,4,AC Milan,Nov 26 2016
+11:30,Palermo,0,1,Lazio,Nov 27 2016
+14:00,Cagliari,2,1,Udinese,Nov 27 2016
+14:00,Crotone,1,1,Sampdoria,Nov 27 2016
+14:00,Genoa,3,1,Juventus,Nov 27 2016
+14:00,Bologna,0,2,Atalanta,Nov 27 2016
+19:45,Roma,3,2,Pescara,Nov 27 2016
+18:00,Napoli,1,1,Sassuolo,Nov 28 2016
+20:00,Inter,4,2,Fiorentina,Nov 28 2016
+17:00,Pescara,0,2,Chievo,Okt 1 2016
+19:45,Udinese,0,3,Lazio,Okt 1 2016
+11:30,Empoli,0,3,Juventus,Okt 2 2016
+14:00,Atalanta,1,0,Napoli,Okt 2 2016
+14:00,Bologna,0,1,Genoa,Okt 2 2016
+14:00,Cagliari,2,1,Crotone,Okt 2 2016
+14:00,Sampdoria,1,1,Palermo,Okt 2 2016
+17:00,Torino,2,1,Fiorentina,Okt 2 2016
+17:00,AC Milan,4,3,Sassuolo,Okt 2 2016
+19:45,Roma,2,1,Inter,Okt 2 2016
+14:00,Napoli,1,3,Roma,Okt 15 2016
+17:00,Pescara,1,1,Sampdoria,Okt 15 2016
+19:45,Juventus,2,1,Udinese,Okt 15 2016
+11:30,Fiorentina,0,0,Atalanta,Okt 16 2016
+14:00,Genoa,0,0,Empoli,Okt 16 2016
+14:00,Inter,1,2,Cagliari,Okt 16 2016
+14:00,Lazio,1,1,Bologna,Okt 16 2016
+14:00,Sassuolo,2,1,Crotone,Okt 16 2016
+19:45,Chievo,1,3,AC Milan,Okt 16 2016
+19:45,Palermo,1,4,Torino,Okt 17 2016
+17:00,Sampdoria,2,1,Genoa,Okt 22 2016
+19:45,AC Milan,1,0,Juventus,Okt 22 2016
+11:30,Udinese,3,1,Pescara,Okt 23 2016
+14:00,Torino,2,2,Lazio,Okt 23 2016
+14:00,Cagliari,3,5,Fiorentina,Okt 23 2016
+14:00,Crotone,1,2,Napoli,Okt 23 2016
+14:00,Empoli,0,0,Chievo,Okt 23 2016
+14:00,Atalanta,2,1,Inter,Okt 23 2016
+17:00,Bologna,1,1,Sassuolo,Okt 23 2016
+19:45,Roma,4,1,Palermo,Okt 23 2016
+19:45,Genoa,3,0,AC Milan,Okt 25 2016
+19:45,Inter,2,1,Torino,Okt 26 2016
+19:45,Juventus,4,1,Sampdoria,Okt 26 2016
+19:45,Lazio,4,1,Cagliari,Okt 26 2016
+19:45,Napoli,2,0,Empoli,Okt 26 2016
+19:45,Chievo,1,1,Bologna,Okt 26 2016
+19:45,Fiorentina,1,1,Crotone,Okt 26 2016
+19:45,Pescara,0,1,Atalanta,Okt 26 2016
+19:45,Sassuolo,1,3,Roma,Okt 26 2016
+19:45,Palermo,1,3,Udinese,Okt 27 2016
+17:00,Bologna,0,1,Fiorentina,Okt 29 2016
+19:45,Juventus,2,1,Napoli,Okt 29 2016
+11:30,Atalanta,3,0,Genoa,Okt 30 2016
+14:00,Lazio,2,1,Sassuolo,Okt 30 2016
+14:00,AC Milan,1,0,Pescara,Okt 30 2016
+14:00,Crotone,2,0,Chievo,Okt 30 2016
+14:00,Empoli,0,0,Roma,Okt 30 2016
+19:45,Sampdoria,1,0,Inter,Okt 30 2016
+18:00,Udinese,2,2,Torino,Okt 31 2016
+20:00,Cagliari,2,1,Palermo,Okt 31 2016
+17:00,Juventus,3,1,Sassuolo,Sep 10 2016
+19:45,Palermo,0,3,Napoli,Sep 10 2016
+11:30,Bologna,2,1,Cagliari,Sep 11 2016
+14:00,Chievo,1,1,Lazio,Sep 11 2016
+14:00,AC Milan,0,1,Udinese,Sep 11 2016
+14:00,Roma,3,2,Sampdoria,Sep 11 2016
+14:00,Atalanta,2,1,Torino,Sep 11 2016
+19:45,Pescara,1,2,Inter,Sep 11 2016
+19:45,Empoli,2,1,Crotone,Sep 12 2016
+19:45,Sampdoria,0,1,AC Milan,Sep 16 2016
+17:00,Lazio,3,0,Pescara,Sep 17 2016
+19:45,Napoli,3,1,Bologna,Sep 17 2016
+11:30,Udinese,1,2,Chievo,Sep 18 2016
+14:00,Sassuolo,2,0,Genoa,Sep 18 2016
+14:00,Torino,0,0,Empoli,Sep 18 2016
+14:00,Cagliari,3,0,Atalanta,Sep 18 2016
+14:00,Crotone,1,1,Palermo,Sep 18 2016
+17:00,Inter,2,1,Juventus,Sep 18 2016
+19:45,Fiorentina,1,0,Roma,Sep 18 2016
+19:45,AC Milan,2,0,Lazio,Sep 20 2016
+17:30,Bologna,2,0,Sampdoria,Sep 21 2016
+19:45,Chievo,2,1,Sassuolo,Sep 21 2016
+19:45,Empoli,0,2,Inter,Sep 21 2016
+19:45,Genoa,0,0,Napoli,Sep 21 2016
+19:45,Juventus,4,0,Cagliari,Sep 21 2016
+19:45,Pescara,0,0,Torino,Sep 21 2016
+19:45,Roma,4,0,Crotone,Sep 21 2016
+19:45,Udinese,2,2,Fiorentina,Sep 21 2016
+19:45,Atalanta,0,1,Palermo,Sep 21 2016
+17:00,Palermo,0,1,Juventus,Sep 24 2016
+19:45,Napoli,2,0,Chievo,Sep 24 2016
+11:30,Torino,3,1,Roma,Sep 25 2016
+14:00,Sassuolo,1,0,Udinese,Sep 25 2016
+14:00,Genoa,1,1,Pescara,Sep 25 2016
+14:00,Inter,1,1,Bologna,Sep 25 2016
+14:00,Lazio,2,0,Empoli,Sep 25 2016
+19:45,Fiorentina,0,0,AC Milan,Sep 25 2016
+18:00,Crotone,1,3,Atalanta,Sep 26 2016
+20:00,Cagliari,2,1,Sampdoria,Sep 26 2016
+11:30,Juventus,2,0,Carpi,Mei 1 2016
+14:00,Palermo,2,0,Sampdoria,Mei 1 2016
+14:00,Empoli,0,0,Bologna,Mei 1 2016
+14:00,AC Milan,3,3,Frosinone,Mei 1 2016
+14:00,Sassuolo,1,0,Verona,Mei 1 2016
+19:45,Lazio,2,0,Inter,Mei 1 2016
+18:00,Genoa,2,3,Roma,Mei 2 2016
+20:00,Napoli,2,1,Atalanta,Mei 2 2016
+17:00,Inter,2,1,Empoli,Mei 7 2016
+19:45,Bologna,0,1,AC Milan,Mei 7 2016
+11:30,Roma,3,0,Chievo,Mei 8 2016
+14:00,Sampdoria,0,3,Genoa,Mei 8 2016
+14:00,Fiorentina,0,0,Palermo,Mei 8 2016
+14:00,Frosinone,0,1,Sassuolo,Mei 8 2016
+14:00,Atalanta,1,1,Udinese,Mei 8 2016
+14:00,Carpi,1,3,Lazio,Mei 8 2016
+19:45,Torino,1,2,Napoli,Mei 8 2016
+19:45,Verona,2,1,Juventus,Mei 8 2016
+16:00,Juventus,5,0,Sampdoria,Mei 14 2016
+19:45,Sassuolo,3,1,Inter,Mei 14 2016
+19:45,AC Milan,1,3,Roma,Mei 14 2016
+19:45,Napoli,4,0,Frosinone,Mei 14 2016
+17:00,Empoli,2,1,Torino,Mei 15 2016
+17:00,Genoa,1,2,Atalanta,Mei 15 2016
+17:00,Chievo,0,0,Bologna,Mei 15 2016
+19:45,Udinese,1,2,Carpi,Mei 15 2016
+19:45,Lazio,2,4,Fiorentina,Mei 15 2016
+19:45,Palermo,3,2,Verona,Mei 15 2016
+17:00,Carpi,1,3,Sassuolo,Apr 2 2016
+19:45,Juventus,1,0,Empoli,Apr 2 2016
+11:30,Udinese,3,1,Napoli,Apr 3 2016
+14:00,Chievo,3,1,Palermo,Apr 3 2016
+14:00,Lazio,1,4,Roma,Apr 3 2016
+14:00,Fiorentina,1,1,Sampdoria,Apr 3 2016
+14:00,Genoa,4,0,Frosinone,Apr 3 2016
+14:00,Atalanta,2,1,AC Milan,Apr 3 2016
+19:45,Inter,1,2,Torino,Apr 3 2016
+19:45,Bologna,0,1,Verona,Apr 4 2016
+14:00,Frosinone,0,1,Inter,Apr 9 2016
+17:00,Sassuolo,0,1,Genoa,Apr 9 2016
+17:00,Chievo,1,0,Carpi,Apr 9 2016
+19:45,AC Milan,1,2,Juventus,Apr 9 2016
+11:30,Empoli,2,0,Fiorentina,Apr 10 2016
+14:00,Napoli,3,0,Verona,Apr 10 2016
+14:00,Torino,2,1,Atalanta,Apr 10 2016
+14:00,Sampdoria,2,0,Udinese,Apr 10 2016
+19:45,Palermo,0,3,Lazio,Apr 10 2016
+19:45,Roma,1,1,Bologna,Apr 11 2016
+14:00,Bologna,0,1,Torino,Apr 16 2016
+17:00,Carpi,4,1,Genoa,Apr 16 2016
+19:45,Inter,2,0,Napoli,Apr 16 2016
+11:30,Atalanta,3,3,Roma,Apr 17 2016
+14:00,Fiorentina,3,1,Sassuolo,Apr 17 2016
+14:00,Juventus,4,0,Palermo,Apr 17 2016
+14:00,Udinese,0,0,Chievo,Apr 17 2016
+14:00,Verona,1,2,Frosinone,Apr 17 2016
+17:00,Lazio,2,0,Empoli,Apr 17 2016
+19:45,Sampdoria,0,1,AC Milan,Apr 17 2016
+19:45,Napoli,6,0,Bologna,Apr 19 2016
+17:30,Sassuolo,0,0,Sampdoria,Apr 20 2016
+19:45,Roma,3,2,Torino,Apr 20 2016
+19:45,Palermo,2,2,Atalanta,Apr 20 2016
+19:45,Udinese,2,1,Fiorentina,Apr 20 2016
+19:45,Chievo,5,1,Frosinone,Apr 20 2016
+19:45,Empoli,1,0,Verona,Apr 20 2016
+19:45,Genoa,1,0,Inter,Apr 20 2016
+19:45,Juventus,3,0,Lazio,Apr 20 2016
+19:45,AC Milan,0,0,Carpi,Apr 21 2016
+19:45,Inter,3,1,Udinese,Apr 23 2016
+11:30,Frosinone,0,2,Palermo,Apr 24 2016
+14:00,Torino,1,3,Sassuolo,Apr 24 2016
+14:00,Sampdoria,2,1,Lazio,Apr 24 2016
+14:00,Bologna,2,0,Genoa,Apr 24 2016
+14:00,Atalanta,1,0,Chievo,Apr 24 2016
+19:45,Fiorentina,1,2,Juventus,Apr 24 2016
+14:00,Roma,1,0,Napoli,Apr 25 2016
+16:00,Verona,2,1,AC Milan,Apr 25 2016
+18:00,Carpi,1,0,Empoli,Apr 25 2016
+17:00,Udinese,1,5,Torino,Apr 30 2016
+19:45,Chievo,0,0,Fiorentina,Apr 30 2016
+19:45,Roma,4,1,Fiorentina,Mac 4 2016
+17:00,Verona,0,3,Sampdoria,Mac 5 2016
+19:45,Napoli,3,1,Chievo,Mac 5 2016
+11:30,Torino,1,1,Lazio,Mac 6 2016
+14:00,Sassuolo,2,0,AC Milan,Mac 6 2016
+14:00,Atalanta,0,2,Juventus,Mac 6 2016
+14:00,Genoa,1,0,Empoli,Mac 6 2016
+14:00,Bologna,0,0,Carpi,Mac 6 2016
+14:00,Frosinone,2,0,Udinese,Mac 6 2016
+19:45,Inter,3,1,Palermo,Mac 6 2016
+19:45,Juventus,1,0,Sassuolo,Mac 11 2016
+17:00,Empoli,1,1,Sampdoria,Mac 12 2016
+19:45,Inter,2,1,Bologna,Mac 12 2016
+11:30,Chievo,0,0,AC Milan,Mac 13 2016
+14:00,Udinese,1,2,Roma,Mac 13 2016
+14:00,Carpi,2,1,Frosinone,Mac 13 2016
+14:00,Fiorentina,1,1,Verona,Mac 13 2016
+14:00,Genoa,3,2,Torino,Mac 13 2016
+19:45,Lazio,2,0,Atalanta,Mac 13 2016
+19:45,Palermo,0,1,Napoli,Mac 13 2016
+17:00,Empoli,0,0,Palermo,Mac 19 2016
+19:45,Roma,1,1,Inter,Mac 19 2016
+11:30,Atalanta,2,0,Bologna,Mac 20 2016
+14:00,Verona,1,2,Carpi,Mac 20 2016
+14:00,Sampdoria,0,1,Chievo,Mac 20 2016
+14:00,Frosinone,0,0,Fiorentina,Mac 20 2016
+14:00,Torino,1,4,Juventus,Mac 20 2016
+14:00,Sassuolo,1,1,Udinese,Mac 20 2016
+17:00,Napoli,3,1,Genoa,Mac 20 2016
+19:45,AC Milan,1,1,Lazio,Mac 20 2016
+19:45,Sassuolo,0,2,Roma,Feb 2 2016
+17:30,Frosinone,1,0,Bologna,Feb 3 2016
+19:45,Fiorentina,2,1,Carpi,Feb 3 2016
+19:45,Inter,1,0,Chievo,Feb 3 2016
+19:45,Juventus,1,0,Genoa,Feb 3 2016
+19:45,Palermo,0,2,AC Milan,Feb 3 2016
+19:45,Lazio,0,2,Napoli,Feb 3 2016
+19:45,Sampdoria,2,2,Torino,Feb 3 2016
+19:45,Empoli,1,1,Udinese,Feb 3 2016
+19:45,Verona,2,1,Atalanta,Feb 3 2016
+17:00,Bologna,1,1,Fiorentina,Feb 6 2016
+19:45,Genoa,0,0,Lazio,Feb 6 2016
+11:30,Verona,3,3,Inter,Feb 7 2016
+14:00,Frosinone,0,2,Juventus,Feb 7 2016
+14:00,Sassuolo,2,2,Palermo,Feb 7 2016
+14:00,Napoli,1,0,Carpi,Feb 7 2016
+14:00,Torino,1,2,Chievo,Feb 7 2016
+14:00,AC Milan,1,1,Udinese,Feb 7 2016
+17:00,Atalanta,0,0,Empoli,Feb 7 2016
+19:45,Roma,2,1,Sampdoria,Feb 7 2016
+19:45,Lazio,5,2,Verona,Feb 11 2016
+19:45,Carpi,1,3,Roma,Feb 12 2016
+14:00,Empoli,1,2,Frosinone,Feb 13 2016
+17:00,Chievo,1,1,Sassuolo,Feb 13 2016
+19:45,Juventus,1,0,Napoli,Feb 13 2016
+11:30,AC Milan,2,1,Genoa,Feb 14 2016
+14:00,Palermo,1,3,Torino,Feb 14 2016
+14:00,Sampdoria,0,0,Atalanta,Feb 14 2016
+14:00,Udinese,0,1,Bologna,Feb 14 2016
+19:45,Fiorentina,2,1,Inter,Feb 14 2016
+19:45,Bologna,0,0,Juventus,Feb 19 2016
+17:00,Verona,3,1,Chievo,Feb 20 2016
+19:45,Inter,3,1,Sampdoria,Feb 20 2016
+14:00,Genoa,2,1,Udinese,Feb 21 2016
+14:00,Sassuolo,3,2,Empoli,Feb 21 2016
+14:00,Atalanta,2,3,Fiorentina,Feb 21 2016
+14:00,Torino,0,0,Carpi,Feb 21 2016
+17:00,Frosinone,0,0,Lazio,Feb 21 2016
+19:45,Roma,5,0,Palermo,Feb 21 2016
+20:00,Napoli,1,1,AC Milan,Feb 22 2016
+17:00,Empoli,1,3,Roma,Feb 27 2016
+19:45,AC Milan,1,0,Torino,Feb 27 2016
+11:30,Palermo,0,0,Bologna,Feb 28 2016
+14:00,Sampdoria,2,0,Frosinone,Feb 28 2016
+14:00,Chievo,1,0,Genoa,Feb 28 2016
+14:00,Udinese,2,0,Verona,Feb 28 2016
+14:00,Carpi,1,1,Atalanta,Feb 28 2016
+19:45,Juventus,2,0,Inter,Feb 28 2016
+18:00,Lazio,0,2,Sassuolo,Feb 29 2016
+20:00,Fiorentina,1,1,Napoli,Feb 29 2016
+19:45,Genoa,2,3,Sampdoria,Jan 5 2016
+11:30,Udinese,2,1,Atalanta,Jan 6 2016
+14:00,Chievo,3,3,Roma,Jan 6 2016
+14:00,Palermo,1,3,Fiorentina,Jan 6 2016
+14:00,Sassuolo,2,2,Frosinone,Jan 6 2016
+14:00,Juventus,3,0,Verona,Jan 6 2016
+14:00,Lazio,0,0,Carpi,Jan 6 2016
+14:00,AC Milan,0,1,Bologna,Jan 6 2016
+17:00,Empoli,0,1,Inter,Jan 6 2016
+19:45,Napoli,2,1,Torino,Jan 6 2016
+14:00,Carpi,2,1,Udinese,Jan 9 2016
+17:00,Fiorentina,1,3,Lazio,Jan 9 2016
+19:45,Roma,1,1,AC Milan,Jan 9 2016
+11:30,Inter,0,1,Sassuolo,Jan 10 2016
+14:00,Atalanta,0,2,Genoa,Jan 10 2016
+14:00,Bologna,0,1,Chievo,Jan 10 2016
+14:00,Torino,0,1,Empoli,Jan 10 2016
+14:00,Frosinone,1,5,Napoli,Jan 10 2016
+14:00,Verona,0,1,Palermo,Jan 10 2016
+19:45,Sampdoria,1,2,Juventus,Jan 10 2016
+14:00,Atalanta,1,1,Inter,Jan 16 2016
+17:00,Torino,4,2,Frosinone,Jan 16 2016
+19:45,Napoli,3,1,Sassuolo,Jan 16 2016
+11:30,Genoa,4,0,Palermo,Jan 17 2016
+14:00,Bologna,2,2,Lazio,Jan 17 2016
+14:00,Udinese,0,4,Juventus,Jan 17 2016
+14:00,Roma,1,1,Verona,Jan 17 2016
+14:00,Chievo,1,1,Empoli,Jan 17 2016
+14:00,Carpi,2,1,Sampdoria,Jan 17 2016
+19:45,AC Milan,2,0,Fiorentina,Jan 17 2016
+19:45,Sassuolo,1,1,Torino,Jan 20 2016
+17:00,Frosinone,0,0,Atalanta,Jan 23 2016
+19:45,Empoli,2,2,AC Milan,Jan 23 2016
+11:30,Fiorentina,2,0,Torino,Jan 24 2016
+14:00,Sampdoria,2,4,Napoli,Jan 24 2016
+14:00,Inter,1,1,Carpi,Jan 24 2016
+14:00,Sassuolo,0,2,Bologna,Jan 24 2016
+14:00,Verona,1,1,Genoa,Jan 24 2016
+14:00,Lazio,4,1,Chievo,Jan 24 2016
+14:00,Palermo,4,1,Udinese,Jan 24 2016
+19:45,Juventus,1,0,Roma,Jan 24 2016
+14:00,Carpi,1,1,Palermo,Jan 30 2016
+17:00,Atalanta,1,1,Sassuolo,Jan 30 2016
+19:45,Roma,3,1,Frosinone,Jan 30 2016
+11:30,Chievo,0,4,Juventus,Jan 31 2016
+14:00,Udinese,0,0,Lazio,Jan 31 2016
+14:00,Torino,0,0,Verona,Jan 31 2016
+14:00,Napoli,5,1,Empoli,Jan 31 2016
+14:00,Genoa,0,0,Fiorentina,Jan 31 2016
+14:00,Bologna,3,2,Sampdoria,Jan 31 2016
+19:45,AC Milan,3,0,Inter,Jan 31 2016
+19:45,Lazio,0,2,Juventus,Des 4 2015
+14:00,Torino,1,1,Roma,Des 5 2015
+19:45,Inter,1,0,Genoa,Des 5 2015
+11:30,Bologna,3,2,Napoli,Des 6 2015
+14:00,Atalanta,3,0,Palermo,Des 6 2015
+14:00,Fiorentina,3,0,Udinese,Des 6 2015
+14:00,Frosinone,0,2,Chievo,Des 6 2015
+14:00,Verona,0,1,Empoli,Des 6 2015
+17:00,Sampdoria,1,3,Sassuolo,Des 6 2015
+19:45,Carpi,0,0,AC Milan,Des 6 2015
+14:00,Genoa,0,1,Bologna,Des 12 2015
+17:00,Palermo,4,1,Frosinone,Des 12 2015
+19:45,Udinese,0,4,Inter,Des 12 2015
+14:00,AC Milan,1,1,Verona,Des 13 2015
+14:00,Chievo,1,0,Atalanta,Des 13 2015
+14:00,Empoli,3,0,Carpi,Des 13 2015
+17:00,Napoli,0,0,Roma,Des 13 2015
+19:45,Juventus,3,1,Fiorentina,Des 13 2015
+19:45,Lazio,1,1,Sampdoria,Des 14 2015
+19:45,Bologna,2,3,Empoli,Des 19 2015
+11:30,Carpi,2,3,Juventus,Des 20 2015
+14:00,Fiorentina,2,0,Chievo,Des 20 2015
+14:00,Atalanta,1,3,Napoli,Des 20 2015
+14:00,Verona,1,1,Sassuolo,Des 20 2015
+14:00,Roma,2,0,Genoa,Des 20 2015
+17:00,Sampdoria,2,0,Palermo,Des 20 2015
+17:00,Torino,0,1,Udinese,Des 20 2015
+17:00,Frosinone,2,4,AC Milan,Des 20 2015
+19:45,Inter,1,2,Lazio,Des 20 2015
+11:30,Fiorentina,4,1,Frosinone,Nov 1 2015
+14:00,Genoa,0,0,Napoli,Nov 1 2015
+14:00,Bologna,3,0,Atalanta,Nov 1 2015
+14:00,Carpi,0,0,Verona,Nov 1 2015
+14:00,Udinese,0,0,Sassuolo,Nov 1 2015
+19:45,Lazio,1,3,AC Milan,Nov 1 2015
+18:00,Chievo,1,1,Sampdoria,Nov 2 2015
+20:00,Palermo,0,1,Empoli,Nov 2 2015
+17:00,Verona,0,2,Bologna,Nov 7 2015
+19:45,AC Milan,0,0,Atalanta,Nov 7 2015
+11:30,Torino,0,1,Inter,Nov 8 2015
+14:00,Sassuolo,1,0,Carpi,Nov 8 2015
+14:00,Palermo,1,0,Chievo,Nov 8 2015
+14:00,Roma,2,0,Lazio,Nov 8 2015
+14:00,Empoli,1,3,Juventus,Nov 8 2015
+14:00,Frosinone,2,2,Genoa,Nov 8 2015
+17:00,Napoli,1,0,Udinese,Nov 8 2015
+19:45,Sampdoria,0,2,Fiorentina,Nov 8 2015
+17:00,Bologna,2,2,Roma,Nov 21 2015
+19:45,Juventus,1,0,AC Milan,Nov 21 2015
+11:30,Verona,0,2,Napoli,Nov 22 2015
+14:00,Lazio,1,1,Palermo,Nov 22 2015
+14:00,Udinese,1,0,Sampdoria,Nov 22 2015
+14:00,Carpi,1,2,Chievo,Nov 22 2015
+14:00,Fiorentina,2,2,Empoli,Nov 22 2015
+14:00,Genoa,2,1,Sassuolo,Nov 22 2015
+14:00,Atalanta,0,1,Torino,Nov 22 2015
+19:45,Inter,4,0,Frosinone,Nov 22 2015
+17:00,Torino,2,0,Bologna,Nov 28 2015
+19:45,AC Milan,4,1,Sampdoria,Nov 28 2015
+14:00,Roma,0,2,Atalanta,Nov 29 2015
+14:00,Frosinone,3,2,Verona,Nov 29 2015
+14:00,Genoa,1,2,Carpi,Nov 29 2015
+14:00,Chievo,2,3,Udinese,Nov 29 2015
+17:00,Empoli,1,0,Lazio,Nov 29 2015
+19:45,Palermo,0,3,Juventus,Nov 29 2015
+18:00,Sassuolo,1,1,Fiorentina,Nov 30 2015
+20:00,Napoli,2,1,Inter,Nov 30 2015
+17:00,Carpi,2,1,Torino,Okt 3 2015
+19:45,Chievo,1,1,Verona,Okt 3 2015
+11:30,Empoli,1,0,Sassuolo,Okt 4 2015
+14:00,Palermo,2,4,Roma,Okt 4 2015
+14:00,Sampdoria,1,1,Inter,Okt 4 2015
+14:00,Udinese,1,1,Genoa,Okt 4 2015
+17:00,Juventus,3,1,Bologna,Okt 4 2015
+17:00,Lazio,2,0,Frosinone,Okt 4 2015
+19:45,AC Milan,0,4,Napoli,Okt 4 2015
+19:45,Fiorentina,3,0,Atalanta,Okt 4 2015
+17:00,Roma,3,1,Empoli,Okt 17 2015
+19:45,Torino,1,1,AC Milan,Okt 17 2015
+11:30,Bologna,0,1,Palermo,Okt 18 2015
+14:00,Frosinone,2,0,Sampdoria,Okt 18 2015
+14:00,Genoa,3,2,Chievo,Okt 18 2015
+14:00,Verona,1,1,Udinese,Okt 18 2015
+14:00,Sassuolo,2,1,Lazio,Okt 18 2015
+14:00,Atalanta,3,0,Carpi,Okt 18 2015
+14:00,Napoli,2,1,Fiorentina,Okt 18 2015
+19:45,Inter,0,0,Juventus,Okt 18 2015
+14:00,Empoli,2,0,Genoa,Okt 24 2015
+17:00,Carpi,1,2,Bologna,Okt 24 2015
+19:45,Palermo,1,1,Inter,Okt 24 2015
+11:30,Sampdoria,4,1,Verona,Okt 25 2015
+14:00,Udinese,1,0,Frosinone,Okt 25 2015
+14:00,AC Milan,2,1,Sassuolo,Okt 25 2015
+14:00,Juventus,2,0,Atalanta,Okt 25 2015
+17:00,Lazio,3,0,Torino,Okt 25 2015
+17:00,Fiorentina,1,2,Roma,Okt 25 2015
+19:45,Chievo,0,1,Napoli,Okt 25 2015
+19:45,Bologna,0,1,Inter,Okt 27 2015
+19:45,Frosinone,2,1,Carpi,Okt 28 2015
+19:45,Verona,0,2,Fiorentina,Okt 28 2015
+19:45,AC Milan,1,0,Chievo,Okt 28 2015
+19:45,Napoli,2,0,Palermo,Okt 28 2015
+19:45,Roma,3,1,Udinese,Okt 28 2015
+19:45,Atalanta,2,1,Lazio,Okt 28 2015
+19:45,Sassuolo,1,0,Juventus,Okt 28 2015
+19:45,Torino,3,3,Genoa,Okt 28 2015
+19:45,Sampdoria,1,1,Empoli,Okt 29 2015
+17:00,Juventus,2,1,Torino,Okt 31 2015
+19:45,Inter,1,0,Roma,Okt 31 2015
+17:00,Fiorentina,1,0,Genoa,Sep 12 2015
+17:00,Frosinone,0,2,Roma,Sep 12 2015
+19:45,Juventus,1,1,Chievo,Sep 12 2015
+11:30,Verona,2,2,Torino,Sep 13 2015
+14:00,Palermo,2,2,Carpi,Sep 13 2015
+14:00,Sassuolo,2,2,Atalanta,Sep 13 2015
+14:00,Empoli,2,2,Napoli,Sep 13 2015
+17:00,Lazio,2,0,Udinese,Sep 13 2015
+19:45,Inter,1,0,AC Milan,Sep 13 2015
+19:45,Sampdoria,2,0,Bologna,Sep 14 2015
+17:00,Udinese,1,2,Empoli,Sep 19 2015
+19:45,AC Milan,3,2,Palermo,Sep 19 2015
+11:30,Chievo,0,1,Inter,Sep 20 2015
+14:00,Genoa,0,2,Juventus,Sep 20 2015
+14:00,Roma,2,2,Sassuolo,Sep 20 2015
+14:00,Torino,2,0,Sampdoria,Sep 20 2015
+14:00,Atalanta,1,1,Verona,Sep 20 2015
+14:00,Bologna,1,0,Frosinone,Sep 20 2015
+17:00,Carpi,0,1,Fiorentina,Sep 20 2015
+19:45,Napoli,5,0,Lazio,Sep 20 2015
+19:45,Udinese,2,3,AC Milan,Sep 22 2015
+19:45,Lazio,2,0,Genoa,Sep 23 2015
+19:45,Palermo,0,1,Sassuolo,Sep 23 2015
+19:45,Sampdoria,2,1,Roma,Sep 23 2015
+19:45,Carpi,0,0,Napoli,Sep 23 2015
+19:45,Chievo,1,0,Torino,Sep 23 2015
+19:45,Fiorentina,2,0,Bologna,Sep 23 2015
+19:45,Inter,1,0,Verona,Sep 23 2015
+19:45,Juventus,1,1,Frosinone,Sep 23 2015
+19:45,Empoli,0,1,Atalanta,Sep 24 2015
+17:00,Roma,5,1,Carpi,Sep 26 2015
+19:45,Napoli,2,1,Juventus,Sep 26 2015
+11:30,Genoa,1,0,AC Milan,Sep 27 2015
+14:00,Verona,1,2,Lazio,Sep 27 2015
+14:00,Sassuolo,1,1,Chievo,Sep 27 2015
+14:00,Torino,2,1,Palermo,Sep 27 2015
+14:00,Bologna,1,2,Udinese,Sep 27 2015
+19:45,Inter,1,4,Fiorentina,Sep 27 2015
+18:00,Frosinone,2,0,Empoli,Sep 28 2015
+20:00,Atalanta,2,1,Sampdoria,Sep 28 2015

@@ -1,0 +1,1624 @@
+Time,TeamHome,ResultTeamHome,ResultTeamAway,TeamAway,Date
+14:00,Nantes,0,1,Lille,Mac 1 2020
+16:05,Bordeaux,1,1,Nice,Mac 1 2020
+20:00,Lyon,2,0,Saint-Etienne,Mac 1 2020
+20:00,Marseille,2,2,Amiens,Mac 6 2020
+19:00,Metz,2,1,Nimes,Mac 7 2020
+19:00,Reims,1,0,Brest,Mac 7 2020
+19:00,Nice,2,1,Monaco,Mac 7 2020
+19:00,Dijon,2,1,Toulouse,Mac 7 2020
+19:00,Angers,2,0,Nantes,Mac 7 2020
+14:00,Saint-Etienne,1,1,Bordeaux,Mac 8 2020
+16:00,Rennes,5,0,Montpellier,Mac 8 2020
+20:00,Lille,1,0,Lyon,Mac 8 2020
+16:30,Paris Saint-Germain,5,0,Montpellier,Feb 1 2020
+19:00,Angers,1,4,Reims,Feb 1 2020
+19:00,Strasbourg,1,2,Lille,Feb 1 2020
+19:00,Amiens,0,0,Toulouse,Feb 1 2020
+19:00,Dijon,3,0,Brest,Feb 1 2020
+19:00,Nimes,3,1,Monaco,Feb 1 2020
+14:00,Nice,2,1,Lyon,Feb 2 2020
+16:00,Metz,3,1,Saint-Etienne,Feb 2 2020
+20:00,Bordeaux,0,0,Marseille,Feb 2 2020
+18:00,Lille,1,0,Rennes,Feb 4 2020
+18:00,Monaco,1,0,Angers,Feb 4 2020
+20:05,Nantes,1,2,Paris Saint-Germain,Feb 4 2020
+18:00,Toulouse,0,1,Strasbourg,Feb 5 2020
+18:00,Lyon,0,0,Amiens,Feb 5 2020
+18:00,Brest,1,1,Bordeaux,Feb 5 2020
+18:00,Reims,1,1,Nice,Feb 5 2020
+18:00,Nimes,2,0,Dijon,Feb 5 2020
+18:00,Montpellier,1,1,Metz,Feb 5 2020
+20:15,Saint-Etienne,0,2,Marseille,Feb 5 2020
+19:45,Angers,0,2,Lille,Feb 7 2020
+16:30,Marseille,1,0,Toulouse,Feb 8 2020
+19:00,Metz,1,2,Bordeaux,Feb 8 2020
+19:00,Dijon,3,3,Nantes,Feb 8 2020
+19:00,Amiens,1,2,Monaco,Feb 8 2020
+19:00,Nice,1,3,Nimes,Feb 8 2020
+19:00,Rennes,0,0,Brest,Feb 8 2020
+14:00,Montpellier,1,0,Saint-Etienne,Feb 9 2020
+16:00,Strasbourg,3,0,Reims,Feb 9 2020
+20:05,Paris Saint-Germain,4,2,Lyon,Feb 9 2020
+19:45,Monaco,1,0,Montpellier,Feb 14 2020
+16:30,Amiens,4,4,Paris Saint-Germain,Feb 15 2020
+19:00,Bordeaux,2,2,Dijon,Feb 15 2020
+19:00,Nantes,0,0,Metz,Feb 15 2020
+19:00,Toulouse,0,2,Nice,Feb 15 2020
+19:00,Nimes,1,0,Angers,Feb 15 2020
+14:00,Lyon,1,1,Strasbourg,Feb 16 2020
+16:00,Reims,1,0,Rennes,Feb 16 2020
+16:00,Brest,3,2,Saint-Etienne,Feb 16 2020
+20:00,Lille,1,2,Marseille,Feb 16 2020
+18:00,Nice,2,2,Brest,Feb 21 2020
+19:45,Metz,0,2,Lyon,Feb 21 2020
+16:30,Marseille,1,3,Nantes,Feb 22 2020
+19:00,Lille,3,0,Toulouse,Feb 22 2020
+19:00,Dijon,1,1,Monaco,Feb 22 2020
+19:00,Strasbourg,0,0,Amiens,Feb 22 2020
+19:00,Angers,1,0,Montpellier,Feb 22 2020
+14:00,Saint-Etienne,1,1,Reims,Feb 23 2020
+16:00,Rennes,2,1,Nimes,Feb 23 2020
+20:00,Paris Saint-Germain,4,3,Bordeaux,Feb 23 2020
+19:45,Nimes,2,3,Marseille,Feb 28 2020
+16:30,Paris Saint-Germain,4,0,Dijon,Feb 29 2020
+19:00,Toulouse,0,2,Rennes,Feb 29 2020
+19:00,Monaco,1,1,Reims,Feb 29 2020
+19:00,Montpellier,3,0,Strasbourg,Feb 29 2020
+19:00,Amiens,0,1,Metz,Feb 29 2020
+19:00,Brest,0,1,Angers,Feb 29 2020
+19:45,Rennes,0,1,Marseille,Jan 10 2020
+16:30,Bordeaux,1,2,Lyon,Jan 11 2020
+19:00,Angers,1,1,Nice,Jan 11 2020
+19:00,Nimes,2,0,Reims,Jan 11 2020
+19:00,Metz,1,0,Strasbourg,Jan 11 2020
+19:00,Toulouse,2,5,Brest,Jan 11 2020
+19:00,Amiens,1,2,Montpellier,Jan 11 2020
+14:00,Saint-Etienne,0,2,Nantes,Jan 12 2020
+16:00,Dijon,1,0,Lille,Jan 12 2020
+20:00,Paris Saint-Germain,3,3,Monaco,Jan 12 2020
+18:00,Amiens,1,1,Reims,Jan 15 2020
+18:00,Nimes,0,1,Rennes,Jan 15 2020
+20:00,Monaco,1,4,Paris Saint-Germain,Jan 15 2020
+19:45,Nice,1,1,Rennes,Jan 24 2020
+16:30,Marseille,0,0,Angers,Jan 25 2020
+19:00,Montpellier,2,1,Dijon,Jan 25 2020
+19:00,Reims,0,1,Metz,Jan 25 2020
+19:00,Brest,2,1,Amiens,Jan 25 2020
+19:00,Monaco,1,3,Strasbourg,Jan 25 2020
+19:00,Saint-Etienne,2,1,Nimes,Jan 25 2020
+14:00,Lyon,3,0,Toulouse,Jan 26 2020
+16:00,Nantes,0,1,Bordeaux,Jan 26 2020
+20:00,Lille,0,2,Paris Saint-Germain,Jan 26 2020
+19:45,Rennes,3,2,Nantes,Jan 31 2020
+14:00,Nantes,2,1,Toulouse,Des 1 2019
+16:00,Rennes,2,1,Saint-Etienne,Des 1 2019
+18:00,Angers,0,2,Marseille,Des 3 2019
+18:00,Brest,5,0,Strasbourg,Des 3 2019
+18:00,Bordeaux,6,0,Nimes,Des 3 2019
+20:05,Lyon,0,1,Lille,Des 3 2019
+18:00,Saint-Etienne,4,1,Nice,Des 4 2019
+18:00,Dijon,2,2,Montpellier,Des 4 2019
+18:00,Toulouse,1,2,Monaco,Des 4 2019
+18:00,Metz,0,1,Rennes,Des 4 2019
+20:05,Paris Saint-Germain,2,0,Nantes,Des 4 2019
+18:00,Lille,1,0,Brest,Des 6 2019
+19:45,Nimes,0,4,Lyon,Des 6 2019
+16:30,Montpellier,1,3,Paris Saint-Germain,Des 7 2019
+19:00,Rennes,2,1,Angers,Des 7 2019
+19:00,Nice,4,1,Metz,Des 7 2019
+19:00,Monaco,3,0,Amiens,Des 7 2019
+19:00,Strasbourg,4,2,Toulouse,Des 7 2019
+14:00,Reims,3,1,Saint-Etienne,Des 8 2019
+16:00,Nantes,1,0,Dijon,Des 8 2019
+20:00,Marseille,3,1,Bordeaux,Des 8 2019
+19:45,Lille,2,1,Montpellier,Des 13 2019
+16:30,Metz,1,1,Marseille,Des 14 2019
+19:00,Amiens,1,1,Dijon,Des 14 2019
+19:00,Brest,0,0,Nice,Des 14 2019
+19:00,Nimes,0,1,Nantes,Des 14 2019
+19:00,Angers,0,0,Monaco,Des 14 2019
+19:00,Toulouse,0,1,Reims,Des 14 2019
+14:00,Bordeaux,0,1,Strasbourg,Des 15 2019
+16:00,Lyon,0,1,Rennes,Des 15 2019
+20:00,Saint-Etienne,0,4,Paris Saint-Germain,Des 15 2019
+19:45,Montpellier,4,0,Brest,Des 21 2019
+19:45,Dijon,2,2,Metz,Des 21 2019
+19:45,Rennes,1,0,Bordeaux,Des 21 2019
+19:45,Strasbourg,2,1,Saint-Etienne,Des 21 2019
+19:45,Monaco,5,1,Lille,Des 21 2019
+19:45,Reims,1,1,Lyon,Des 21 2019
+19:45,Nantes,1,2,Angers,Des 21 2019
+19:45,Nice,3,0,Toulouse,Des 21 2019
+19:45,Paris Saint-Germain,4,1,Amiens,Des 21 2019
+19:45,Marseille,3,1,Nimes,Des 21 2019
+19:45,Dijon,2,1,Paris Saint-Germain,Nov 1 2019
+16:30,Marseille,2,1,Lille,Nov 2 2019
+19:00,Metz,2,2,Montpellier,Nov 2 2019
+19:00,Toulouse,2,3,Lyon,Nov 2 2019
+19:00,Angers,1,0,Strasbourg,Nov 2 2019
+19:00,Amiens,1,0,Brest,Nov 2 2019
+14:00,Bordeaux,2,0,Nantes,Nov 3 2019
+16:00,Nice,2,0,Reims,Nov 3 2019
+20:00,Saint-Etienne,1,0,Monaco,Nov 3 2019
+19:45,Nice,1,1,Bordeaux,Nov 8 2019
+16:30,Brest,1,2,Paris Saint-Germain,Nov 9 2019
+19:00,Reims,0,0,Angers,Nov 9 2019
+19:00,Strasbourg,4,1,Nimes,Nov 9 2019
+19:00,Monaco,1,0,Dijon,Nov 9 2019
+19:00,Lille,0,0,Metz,Nov 9 2019
+14:00,Rennes,3,1,Amiens,Nov 10 2019
+16:00,Montpellier,3,0,Toulouse,Nov 10 2019
+16:05,Nantes,2,3,Saint-Etienne,Nov 10 2019
+20:00,Marseille,2,1,Lyon,Nov 10 2019
+19:45,Paris Saint-Germain,2,0,Lille,Nov 22 2019
+16:30,Lyon,2,1,Nice,Nov 23 2019
+19:00,Brest,1,1,Nantes,Nov 23 2019
+19:00,Amiens,0,4,Strasbourg,Nov 23 2019
+19:00,Angers,1,0,Nimes,Nov 23 2019
+19:00,Dijon,2,1,Rennes,Nov 23 2019
+19:00,Metz,1,1,Reims,Nov 23 2019
+14:00,Bordeaux,2,1,Monaco,Nov 24 2019
+16:00,Saint-Etienne,0,0,Montpellier,Nov 24 2019
+20:00,Toulouse,0,2,Marseille,Nov 24 2019
+19:45,Marseille,2,1,Brest,Nov 29 2019
+16:30,Strasbourg,1,2,Lyon,Nov 30 2019
+19:00,Reims,1,1,Bordeaux,Nov 30 2019
+19:00,Nimes,1,1,Metz,Nov 30 2019
+19:00,Montpellier,4,2,Amiens,Nov 30 2019
+19:00,Lille,1,0,Dijon,Nov 30 2019
+19:00,Nice,3,1,Angers,Nov 30 2019
+19:45,Amiens,3,1,Marseille,Okt 4 2019
+16:30,Paris Saint-Germain,4,0,Angers,Okt 5 2019
+19:00,Toulouse,1,3,Bordeaux,Okt 5 2019
+19:00,Brest,2,0,Metz,Okt 5 2019
+19:00,Montpellier,3,1,Monaco,Okt 5 2019
+19:00,Dijon,1,0,Strasbourg,Okt 5 2019
+19:00,Nantes,1,0,Nice,Okt 5 2019
+14:00,Lille,2,2,Nimes,Okt 6 2019
+16:00,Rennes,0,1,Reims,Okt 6 2019
+20:00,Saint-Etienne,1,0,Lyon,Okt 6 2019
+19:45,Nice,1,4,Paris Saint-Germain,Okt 18 2019
+16:30,Lyon,0,0,Dijon,Okt 19 2019
+19:00,Nimes,1,1,Amiens,Okt 19 2019
+19:00,Reims,1,0,Montpellier,Okt 19 2019
+19:00,Angers,0,1,Brest,Okt 19 2019
+19:00,Metz,1,0,Nantes,Okt 19 2019
+19:00,Toulouse,2,1,Lille,Okt 19 2019
+14:00,Bordeaux,0,1,Saint-Etienne,Okt 20 2019
+16:00,Monaco,3,2,Rennes,Okt 20 2019
+20:00,Marseille,2,0,Strasbourg,Okt 20 2019
+19:45,Nantes,0,1,Monaco,Okt 25 2019
+16:30,Lille,3,0,Bordeaux,Okt 26 2019
+19:00,Reims,0,0,Nimes,Okt 26 2019
+19:00,Montpellier,0,0,Angers,Okt 26 2019
+19:00,Brest,2,0,Dijon,Okt 26 2019
+19:00,Lyon,2,0,Metz,Okt 26 2019
+19:00,Strasbourg,1,0,Nice,Okt 26 2019
+14:00,Rennes,3,2,Toulouse,Okt 27 2019
+16:00,Saint-Etienne,2,2,Amiens,Okt 27 2019
+20:00,Paris Saint-Germain,4,0,Marseille,Okt 27 2019
+14:00,Reims,2,0,Lille,Sep 1 2019
+14:00,Rennes,1,2,Nice,Sep 1 2019
+16:00,Strasbourg,2,2,Monaco,Sep 1 2019
+20:00,Marseille,1,0,Saint-Etienne,Sep 1 2019
+18:00,Lille,2,1,Angers,Sep 13 2019
+19:45,Amiens,2,2,Lyon,Sep 13 2019
+16:30,Paris Saint-Germain,1,0,Strasbourg,Sep 14 2019
+19:00,Bordeaux,2,0,Metz,Sep 14 2019
+19:00,Montpellier,2,1,Nice,Sep 14 2019
+19:00,Brest,0,0,Rennes,Sep 14 2019
+19:00,Dijon,0,0,Nimes,Sep 14 2019
+14:00,Nantes,1,0,Reims,Sep 15 2019
+16:00,Saint-Etienne,2,2,Toulouse,Sep 15 2019
+20:00,Monaco,3,4,Marseille,Sep 15 2019
+19:45,Strasbourg,2,1,Nantes,Sep 20 2019
+16:30,Marseille,1,1,Montpellier,Sep 21 2019
+19:00,Nimes,1,0,Toulouse,Sep 21 2019
+19:00,Reims,0,0,Monaco,Sep 21 2019
+19:00,Metz,1,2,Amiens,Sep 21 2019
+19:00,Nice,2,1,Dijon,Sep 21 2019
+19:00,Bordeaux,2,2,Brest,Sep 21 2019
+14:00,Rennes,1,1,Lille,Sep 22 2019
+16:00,Angers,4,1,Saint-Etienne,Sep 22 2019
+20:00,Lyon,0,1,Paris Saint-Germain,Sep 22 2019
+18:00,Dijon,0,0,Marseille,Sep 24 2019
+20:00,Monaco,3,1,Nice,Sep 24 2019
+18:00,Brest,2,2,Lyon,Sep 25 2019
+18:00,Nantes,1,0,Rennes,Sep 25 2019
+18:00,Saint-Etienne,0,1,Metz,Sep 25 2019
+18:00,Montpellier,1,0,Nimes,Sep 25 2019
+18:00,Toulouse,0,2,Angers,Sep 25 2019
+18:00,Lille,2,0,Strasbourg,Sep 25 2019
+18:00,Amiens,1,3,Bordeaux,Sep 25 2019
+20:00,Paris Saint-Germain,0,2,Reims,Sep 25 2019
+12:30,Lyon,0,1,Nantes,Sep 28 2019
+16:30,Bordeaux,0,1,Paris Saint-Germain,Sep 28 2019
+19:00,Angers,1,1,Amiens,Sep 28 2019
+19:00,Monaco,4,1,Brest,Sep 28 2019
+19:00,Metz,2,2,Toulouse,Sep 28 2019
+19:00,Nice,1,1,Lille,Sep 28 2019
+19:00,Reims,1,2,Dijon,Sep 28 2019
+14:00,Strasbourg,1,0,Montpellier,Sep 29 2019
+16:00,Nimes,0,1,Saint-Etienne,Sep 29 2019
+20:00,Marseille,1,1,Rennes,Sep 29 2019
+18:00,Rennes,2,2,Monaco,Mei 1 2019
+19:45,Strasbourg,1,1,Marseille,Mei 3 2019
+16:00,Paris Saint-Germain,1,1,Nice,Mei 4 2019
+19:00,Reims,0,3,Nimes,Mei 4 2019
+19:00,Bordeaux,0,1,Angers,Mei 4 2019
+19:00,Guingamp,0,0,Caen,Mei 4 2019
+14:00,Toulouse,2,2,Rennes,Mei 5 2019
+14:00,Montpellier,1,1,Amiens,Mei 5 2019
+14:00,Nantes,3,0,Dijon,Mei 5 2019
+16:00,Monaco,2,3,Saint-Etienne,Mei 5 2019
+20:00,Lyon,2,2,Lille,Mei 5 2019
+19:45,Saint-Etienne,0,1,Montpellier,Mei 10 2019
+16:00,Angers,1,2,Paris Saint-Germain,Mei 11 2019
+19:00,Caen,3,2,Reims,Mei 11 2019
+19:00,Dijon,2,1,Strasbourg,Mei 11 2019
+19:00,Nice,1,1,Nantes,Mei 11 2019
+19:00,Nimes,1,0,Monaco,Mei 11 2019
+19:00,Amiens,0,0,Toulouse,Mei 11 2019
+14:00,Rennes,1,1,Guingamp,Mei 12 2019
+16:00,Lille,1,0,Bordeaux,Mei 12 2019
+20:00,Marseille,0,3,Lyon,Mei 12 2019
+20:00,Bordeaux,0,1,Reims,Mei 18 2019
+20:00,Guingamp,2,2,Nimes,Mei 18 2019
+20:00,Lille,5,0,Angers,Mei 18 2019
+20:00,Lyon,4,0,Caen,Mei 18 2019
+20:00,Monaco,2,0,Amiens,Mei 18 2019
+20:00,Montpellier,1,1,Nantes,Mei 18 2019
+20:00,Paris Saint-Germain,4,0,Dijon,Mei 18 2019
+20:00,Saint-Etienne,3,0,Nice,Mei 18 2019
+20:00,Strasbourg,0,2,Rennes,Mei 18 2019
+20:00,Toulouse,2,5,Marseille,Mei 18 2019
+20:05,Amiens,2,1,Guingamp,Mei 24 2019
+20:05,Angers,1,1,Saint-Etienne,Mei 24 2019
+20:05,Caen,0,1,Bordeaux,Mei 24 2019
+20:05,Dijon,2,1,Toulouse,Mei 24 2019
+20:05,Marseille,1,0,Montpellier,Mei 24 2019
+20:05,Nantes,0,1,Strasbourg,Mei 24 2019
+20:05,Nice,2,0,Monaco,Mei 24 2019
+20:05,Nimes,2,3,Lyon,Mei 24 2019
+20:05,Reims,3,1,Paris Saint-Germain,Mei 24 2019
+20:05,Rennes,3,1,Lille,Mei 24 2019
+19:30,Saint-Etienne,2,1,Nimes,Apr 1 2019
+18:00,Montpellier,2,0,Guingamp,Apr 3 2019
+18:00,Strasbourg,4,0,Reims,Apr 3 2019
+19:45,Bordeaux,2,0,Marseille,Apr 5 2019
+16:00,Lyon,1,3,Dijon,Apr 6 2019
+19:00,Guingamp,1,1,Monaco,Apr 6 2019
+19:00,Nimes,2,0,Caen,Apr 6 2019
+19:00,Angers,3,3,Rennes,Apr 6 2019
+19:00,Amiens,2,2,Saint-Etienne,Apr 6 2019
+14:00,Reims,1,1,Lille,Apr 7 2019
+14:00,Toulouse,1,0,Nantes,Apr 7 2019
+16:00,Nice,1,0,Montpellier,Apr 7 2019
+20:00,Paris Saint-Germain,2,2,Strasbourg,Apr 7 2019
+18:00,Nimes,3,1,Rennes,Apr 9 2019
+18:00,Dijon,0,0,Amiens,Apr 12 2019
+19:45,Nantes,2,1,Lyon,Apr 12 2019
+16:00,Marseille,2,1,Nimes,Apr 13 2019
+19:00,Monaco,0,0,Reims,Apr 13 2019
+19:00,Caen,0,1,Angers,Apr 13 2019
+19:00,Strasbourg,3,3,Guingamp,Apr 13 2019
+14:00,Montpellier,2,1,Toulouse,Apr 14 2019
+14:00,Rennes,0,0,Nice,Apr 14 2019
+16:00,Saint-Etienne,3,0,Bordeaux,Apr 14 2019
+20:00,Lille,5,1,Paris Saint-Germain,Apr 14 2019
+18:00,Nantes,3,2,Paris Saint-Germain,Apr 17 2019
+18:00,Dijon,3,2,Rennes,Apr 19 2019
+19:45,Lyon,2,1,Angers,Apr 19 2019
+16:00,Guingamp,1,3,Marseille,Apr 20 2019
+19:00,Nice,0,1,Caen,Apr 20 2019
+19:00,Nimes,2,1,Bordeaux,Apr 20 2019
+19:00,Strasbourg,1,3,Montpellier,Apr 20 2019
+14:00,Toulouse,0,0,Lille,Apr 21 2019
+14:00,Nantes,3,2,Amiens,Apr 21 2019
+16:00,Reims,0,2,Saint-Etienne,Apr 21 2019
+20:00,Paris Saint-Germain,3,1,Monaco,Apr 21 2019
+19:45,Bordeaux,2,3,Lyon,Apr 26 2019
+14:00,Angers,1,1,Reims,Apr 28 2019
+14:00,Caen,1,0,Dijon,Apr 28 2019
+14:00,Lille,5,0,Nimes,Apr 28 2019
+14:00,Amiens,0,0,Strasbourg,Apr 28 2019
+14:00,Nice,3,0,Guingamp,Apr 28 2019
+16:00,Saint-Etienne,2,0,Toulouse,Apr 28 2019
+20:00,Marseille,1,2,Nantes,Apr 28 2019
+18:00,Montpellier,3,2,Paris Saint-Germain,Apr 30 2019
+16:00,Caen,1,2,Paris Saint-Germain,Mac 2 2019
+19:00,Reims,2,2,Amiens,Mac 2 2019
+19:00,Angers,2,2,Monaco,Mac 2 2019
+14:00,Guingamp,0,0,Nantes,Mac 3 2019
+14:00,Lille,1,0,Dijon,Mac 3 2019
+14:00,Nice,1,0,Strasbourg,Mac 3 2019
+16:00,Lyon,5,1,Toulouse,Mac 3 2019
+20:00,Marseille,2,0,Saint-Etienne,Mac 3 2019
+18:00,Bordeaux,1,2,Montpellier,Mac 5 2019
+16:00,Strasbourg,2,2,Lyon,Mac 9 2019
+19:00,Monaco,1,1,Bordeaux,Mac 9 2019
+19:00,Amiens,2,1,Nimes,Mac 9 2019
+19:00,Dijon,1,1,Reims,Mac 9 2019
+14:00,Montpellier,2,2,Angers,Mac 10 2019
+14:00,Saint-Etienne,0,1,Lille,Mac 10 2019
+14:00,Toulouse,1,0,Guingamp,Mac 10 2019
+16:00,Rennes,3,1,Caen,Mac 10 2019
+20:00,Marseille,1,0,Nice,Mac 10 2019
+18:00,Dijon,0,4,Paris Saint-Germain,Mac 12 2019
+18:00,Nice,1,1,Toulouse,Mac 15 2019
+19:45,Lille,0,1,Monaco,Mac 15 2019
+19:00,Angers,0,0,Amiens,Mac 16 2019
+19:00,Guingamp,1,0,Dijon,Mac 16 2019
+19:00,Nimes,2,2,Strasbourg,Mac 16 2019
+19:00,Caen,0,5,Saint-Etienne,Mac 16 2019
+13:30,Lyon,3,2,Montpellier,Mac 17 2019
+14:00,Reims,1,0,Nantes,Mac 17 2019
+16:00,Bordeaux,1,1,Rennes,Mac 17 2019
+20:00,Paris Saint-Germain,3,1,Marseille,Mac 17 2019
+19:45,Rennes,0,1,Lyon,Mac 29 2019
+16:00,Marseille,2,2,Angers,Mac 30 2019
+14:00,Dijon,0,1,Nice,Mac 31 2019
+14:00,Amiens,0,0,Bordeaux,Mac 31 2019
+14:00,Monaco,0,1,Caen,Mac 31 2019
+16:00,Nantes,2,3,Lille,Mac 31 2019
+20:00,Toulouse,0,1,Paris Saint-Germain,Mac 31 2019
+19:45,Lille,4,0,Nice,Feb 1 2019
+19:00,Monaco,2,1,Toulouse,Feb 2 2019
+19:00,Rennes,1,0,Amiens,Feb 2 2019
+19:00,Angers,1,0,Dijon,Feb 2 2019
+20:00,Reims,2,1,Marseille,Feb 2 2019
+14:00,Nimes,1,1,Montpellier,Feb 3 2019
+20:00,Lyon,2,1,Paris Saint-Germain,Feb 3 2019
+18:00,Marseille,1,0,Bordeaux,Feb 5 2019
+19:45,Dijon,1,2,Marseille,Feb 8 2019
+16:00,Paris Saint-Germain,1,0,Bordeaux,Feb 9 2019
+19:00,Strasbourg,1,2,Angers,Feb 9 2019
+19:00,Amiens,1,0,Caen,Feb 9 2019
+14:00,Montpellier,2,2,Monaco,Feb 10 2019
+14:00,Nantes,2,4,Nimes,Feb 10 2019
+14:00,Toulouse,1,1,Reims,Feb 10 2019
+16:00,Guingamp,0,2,Lille,Feb 10 2019
+16:00,Rennes,3,0,Saint-Etienne,Feb 10 2019
+20:00,Nice,1,0,Lyon,Feb 10 2019
+18:00,Saint-Etienne,2,1,Strasbourg,Feb 13 2019
+18:30,Caen,0,1,Nantes,Feb 13 2019
+18:00,Nimes,2,0,Dijon,Feb 15 2019
+19:45,Lyon,2,1,Guingamp,Feb 15 2019
+16:00,Marseille,2,0,Amiens,Feb 16 2019
+19:00,Monaco,1,0,Nantes,Feb 16 2019
+19:00,Angers,3,0,Nice,Feb 16 2019
+14:00,Bordeaux,2,1,Toulouse,Feb 17 2019
+14:00,Caen,0,0,Strasbourg,Feb 17 2019
+14:00,Lille,0,0,Montpellier,Feb 17 2019
+16:00,Reims,2,0,Rennes,Feb 17 2019
+20:00,Saint-Etienne,0,1,Paris Saint-Germain,Feb 17 2019
+18:00,Bordeaux,0,0,Guingamp,Feb 20 2019
+20:00,Paris Saint-Germain,5,1,Montpellier,Feb 20 2019
+18:00,Dijon,0,1,Saint-Etienne,Feb 22 2019
+19:45,Strasbourg,1,1,Lille,Feb 22 2019
+16:00,Paris Saint-Germain,3,0,Nimes,Feb 23 2019
+19:00,Amiens,1,0,Nice,Feb 23 2019
+19:00,Guingamp,1,0,Angers,Feb 23 2019
+14:00,Montpellier,2,4,Reims,Feb 24 2019
+14:00,Toulouse,1,1,Caen,Feb 24 2019
+14:00,Nantes,1,0,Bordeaux,Feb 24 2019
+16:00,Rennes,1,1,Marseille,Feb 24 2019
+20:00,Monaco,2,0,Lyon,Feb 24 2019
+18:00,Amiens,0,0,Angers,Jan 8 2019
+18:00,Nantes,2,0,Montpellier,Jan 8 2019
+18:00,Caen,1,3,Lille,Jan 11 2019
+19:45,Lyon,1,1,Reims,Jan 11 2019
+16:00,Amiens,0,3,Paris Saint-Germain,Jan 12 2019
+19:00,Guingamp,0,1,Saint-Etienne,Jan 12 2019
+19:00,Nice,1,0,Bordeaux,Jan 12 2019
+14:00,Nantes,0,1,Rennes,Jan 13 2019
+16:00,Toulouse,1,2,Strasbourg,Jan 13 2019
+16:00,Dijon,1,1,Montpellier,Jan 13 2019
+20:00,Marseille,1,1,Monaco,Jan 13 2019
+18:00,Angers,1,2,Bordeaux,Jan 15 2019
+18:00,Monaco,1,1,Nice,Jan 16 2019
+18:00,Nimes,1,0,Nantes,Jan 16 2019
+18:00,Toulouse,2,2,Lyon,Jan 16 2019
+18:00,Guingamp,2,1,Rennes,Jan 16 2019
+20:00,Saint-Etienne,2,1,Marseille,Jan 16 2019
+19:45,Lille,2,1,Amiens,Jan 18 2019
+16:00,Paris Saint-Germain,9,0,Guingamp,Jan 19 2019
+19:00,Reims,1,1,Nice,Jan 19 2019
+19:00,Monaco,1,5,Strasbourg,Jan 19 2019
+19:00,Nimes,0,1,Toulouse,Jan 19 2019
+14:00,Rennes,0,0,Montpellier,Jan 20 2019
+16:00,Caen,0,1,Marseille,Jan 20 2019
+16:00,Angers,1,0,Nantes,Jan 20 2019
+18:00,Bordeaux,1,0,Dijon,Jan 20 2019
+20:00,Saint-Etienne,1,2,Lyon,Jan 20 2019
+18:00,Nimes,3,1,Angers,Jan 23 2019
+19:45,Marseille,1,2,Lille,Jan 25 2019
+19:00,Guingamp,0,1,Reims,Jan 26 2019
+19:00,Dijon,2,0,Monaco,Jan 26 2019
+19:00,Nice,2,0,Nimes,Jan 26 2019
+19:00,Strasbourg,1,0,Bordeaux,Jan 26 2019
+14:00,Montpellier,2,0,Caen,Jan 27 2019
+16:00,Amiens,0,1,Lyon,Jan 27 2019
+19:00,Toulouse,0,0,Angers,Jan 27 2019
+20:00,Paris Saint-Germain,4,1,Rennes,Jan 27 2019
+20:00,Nantes,1,1,Saint-Etienne,Jan 30 2019
+16:00,Lille,2,2,Lyon,Des 1 2018
+19:00,Monaco,1,2,Montpellier,Des 1 2018
+19:00,Nimes,3,0,Amiens,Des 1 2018
+19:00,Angers,1,1,Caen,Des 1 2018
+19:00,Guingamp,0,0,Nice,Des 1 2018
+14:00,Toulouse,2,2,Dijon,Des 2 2018
+16:00,Rennes,1,4,Strasbourg,Des 2 2018
+16:00,Marseille,0,0,Reims,Des 2 2018
+20:00,Bordeaux,2,2,Paris Saint-Germain,Des 2 2018
+18:00,Nice,0,0,Angers,Des 4 2018
+18:00,Amiens,0,2,Monaco,Des 4 2018
+20:00,Montpellier,0,1,Lille,Des 4 2018
+18:00,Lyon,0,2,Rennes,Des 5 2018
+18:00,Reims,0,1,Toulouse,Des 5 2018
+18:00,Nantes,3,2,Marseille,Des 5 2018
+18:00,Bordeaux,3,2,Saint-Etienne,Des 5 2018
+18:00,Caen,1,2,Nimes,Des 5 2018
+18:00,Dijon,2,1,Guingamp,Des 5 2018
+20:00,Strasbourg,1,1,Paris Saint-Germain,Des 5 2018
+19:00,Guingamp,1,2,Amiens,Des 8 2018
+19:00,Rennes,2,0,Dijon,Des 8 2018
+14:00,Strasbourg,2,2,Caen,Des 9 2018
+16:00,Lille,1,1,Reims,Des 9 2018
+19:00,Reims,2,1,Strasbourg,Des 15 2018
+14:00,Nimes,2,3,Lille,Des 16 2018
+16:00,Nice,1,1,Saint-Etienne,Des 16 2018
+20:00,Lyon,3,0,Monaco,Des 16 2018
+18:30,Caen,2,1,Toulouse,Des 18 2018
+20:00,Angers,1,1,Marseille,Des 22 2018
+20:00,Lille,1,2,Toulouse,Des 22 2018
+20:00,Monaco,0,2,Guingamp,Des 22 2018
+20:00,Montpellier,1,1,Lyon,Des 22 2018
+20:00,Paris Saint-Germain,1,0,Nantes,Des 22 2018
+20:00,Reims,2,2,Caen,Des 22 2018
+20:00,Rennes,4,0,Nimes,Des 22 2018
+20:00,Saint-Etienne,3,0,Dijon,Des 22 2018
+20:00,Strasbourg,2,0,Nice,Des 22 2018
+16:00,Bordeaux,1,1,Amiens,Des 23 2018
+19:45,Paris Saint-Germain,2,1,Lille,Nov 2 2018
+16:00,Lyon,1,1,Bordeaux,Nov 3 2018
+19:00,Caen,1,2,Rennes,Nov 3 2018
+19:00,Dijon,0,4,Nimes,Nov 3 2018
+19:00,Reims,1,0,Monaco,Nov 3 2018
+19:00,Nice,1,0,Amiens,Nov 3 2018
+19:00,Strasbourg,1,1,Toulouse,Nov 3 2018
+14:00,Nantes,5,0,Guingamp,Nov 4 2018
+16:00,Saint-Etienne,4,3,Angers,Nov 4 2018
+20:00,Montpellier,3,0,Marseille,Nov 4 2018
+19:45,Lille,0,0,Strasbourg,Nov 9 2018
+16:00,Guingamp,2,4,Lyon,Nov 10 2018
+19:00,Angers,1,0,Montpellier,Nov 10 2018
+19:00,Nimes,0,1,Nice,Nov 10 2018
+19:00,Saint-Etienne,2,0,Reims,Nov 10 2018
+19:00,Toulouse,0,1,Amiens,Nov 10 2018
+14:00,Bordeaux,0,0,Caen,Nov 11 2018
+16:00,Rennes,1,1,Nantes,Nov 11 2018
+16:00,Marseille,2,0,Dijon,Nov 11 2018
+20:00,Monaco,0,4,Paris Saint-Germain,Nov 11 2018
+20:00,Lyon,1,0,Saint-Etienne,Nov 23 2018
+16:00,Paris Saint-Germain,1,0,Toulouse,Nov 24 2018
+19:00,Reims,2,1,Guingamp,Nov 24 2018
+19:00,Strasbourg,0,1,Nimes,Nov 24 2018
+19:00,Nantes,1,1,Angers,Nov 24 2018
+19:00,Caen,0,1,Monaco,Nov 24 2018
+19:00,Dijon,0,0,Bordeaux,Nov 24 2018
+14:00,Montpellier,2,2,Rennes,Nov 25 2018
+16:00,Nice,2,0,Lille,Nov 25 2018
+20:00,Amiens,1,3,Marseille,Nov 25 2018
+19:45,Saint-Etienne,3,0,Nantes,Nov 30 2018
+19:45,Toulouse,1,1,Nice,Okt 5 2018
+16:00,Lille,3,1,Saint-Etienne,Okt 6 2018
+19:00,Amiens,1,0,Dijon,Okt 6 2018
+19:00,Angers,2,2,Strasbourg,Okt 6 2018
+19:00,Guingamp,1,1,Montpellier,Okt 6 2018
+19:00,Nimes,0,0,Reims,Okt 6 2018
+14:00,Bordeaux,3,0,Nantes,Okt 7 2018
+16:00,Marseille,2,0,Caen,Okt 7 2018
+16:00,Monaco,1,2,Rennes,Okt 7 2018
+20:00,Paris Saint-Germain,5,0,Lyon,Okt 7 2018
+19:45,Lyon,2,0,Nimes,Okt 19 2018
+16:00,Paris Saint-Germain,5,0,Amiens,Okt 20 2018
+19:00,Reims,1,1,Angers,Okt 20 2018
+19:00,Nantes,4,0,Toulouse,Okt 20 2018
+19:00,Strasbourg,2,1,Monaco,Okt 20 2018
+19:00,Caen,0,0,Guingamp,Okt 20 2018
+19:00,Dijon,1,2,Lille,Okt 20 2018
+14:00,Montpellier,2,0,Bordeaux,Okt 21 2018
+16:00,Saint-Etienne,1,1,Rennes,Okt 21 2018
+20:00,Nice,0,1,Marseille,Okt 21 2018
+19:45,Nimes,1,1,Saint-Etienne,Okt 26 2018
+16:00,Angers,1,2,Lyon,Okt 27 2018
+19:00,Amiens,1,2,Nantes,Okt 27 2018
+19:00,Guingamp,1,1,Strasbourg,Okt 27 2018
+19:00,Lille,1,0,Caen,Okt 27 2018
+19:00,Monaco,2,2,Dijon,Okt 27 2018
+19:00,Toulouse,0,3,Montpellier,Okt 27 2018
+14:00,Rennes,0,2,Reims,Okt 28 2018
+16:00,Bordeaux,0,1,Nice,Okt 28 2018
+20:00,Marseille,0,2,Paris Saint-Germain,Okt 28 2018
+16:00,Nimes,2,4,Paris Saint-Germain,Sep 1 2018
+19:00,Reims,0,1,Montpellier,Sep 1 2018
+19:00,Angers,1,0,Lille,Sep 1 2018
+19:00,Dijon,0,2,Caen,Sep 1 2018
+19:00,Guingamp,1,2,Toulouse,Sep 1 2018
+19:00,Strasbourg,2,3,Nantes,Sep 1 2018
+14:00,Saint-Etienne,0,0,Amiens,Sep 2 2018
+16:00,Rennes,2,0,Bordeaux,Sep 2 2018
+20:00,Monaco,2,3,Marseille,Sep 2 2018
+18:00,Nice,2,1,Rennes,Sep 14 2018
+19:45,Paris Saint-Germain,4,0,Saint-Etienne,Sep 14 2018
+16:00,Caen,2,2,Lyon,Sep 15 2018
+19:00,Dijon,1,3,Angers,Sep 15 2018
+19:00,Amiens,2,3,Lille,Sep 15 2018
+19:00,Toulouse,1,1,Monaco,Sep 15 2018
+19:00,Montpellier,1,1,Strasbourg,Sep 15 2018
+14:00,Nantes,0,0,Reims,Sep 16 2018
+16:00,Bordeaux,3,3,Nimes,Sep 16 2018
+20:00,Marseille,4,0,Guingamp,Sep 16 2018
+19:45,Monaco,1,1,Nimes,Sep 21 2018
+16:00,Lille,2,1,Nantes,Sep 22 2018
+19:00,Angers,0,0,Toulouse,Sep 22 2018
+19:00,Montpellier,1,0,Nice,Sep 22 2018
+19:00,Reims,0,0,Dijon,Sep 22 2018
+19:00,Saint-Etienne,2,1,Caen,Sep 22 2018
+19:00,Strasbourg,3,1,Amiens,Sep 22 2018
+14:00,Rennes,1,3,Paris Saint-Germain,Sep 23 2018
+16:00,Guingamp,1,3,Bordeaux,Sep 23 2018
+20:00,Lyon,4,2,Marseille,Sep 23 2018
+18:00,Monaco,0,1,Angers,Sep 25 2018
+18:00,Nantes,1,2,Nice,Sep 25 2018
+20:00,Toulouse,2,3,Saint-Etienne,Sep 25 2018
+18:00,Nimes,0,0,Guingamp,Sep 26 2018
+18:00,Amiens,2,1,Rennes,Sep 26 2018
+18:00,Bordeaux,1,0,Lille,Sep 26 2018
+18:00,Caen,2,2,Montpellier,Sep 26 2018
+18:00,Dijon,0,3,Lyon,Sep 26 2018
+18:00,Marseille,3,2,Strasbourg,Sep 26 2018
+20:00,Paris Saint-Germain,4,1,Reims,Sep 26 2018
+19:45,Saint-Etienne,2,0,Monaco,Sep 28 2018
+16:15,Nice,0,3,Paris Saint-Germain,Sep 29 2018
+19:00,Reims,0,0,Bordeaux,Sep 29 2018
+19:00,Lyon,1,1,Nantes,Sep 29 2018
+19:00,Angers,0,1,Guingamp,Sep 29 2018
+19:00,Caen,1,0,Amiens,Sep 29 2018
+19:00,Strasbourg,3,0,Dijon,Sep 29 2018
+14:00,Rennes,1,1,Toulouse,Sep 30 2018
+16:00,Montpellier,3,0,Nimes,Sep 30 2018
+20:00,Lille,3,0,Marseille,Sep 30 2018
+19:45,Amiens,2,2,Paris Saint-Germain,Mei 4 2018
+14:00,Saint-Etienne,1,3,Bordeaux,Mei 6 2018
+15:30,Lyon,3,0,Troyes,Mei 6 2018
+16:00,Metz,1,2,Angers,Mei 6 2018
+16:00,Nantes,0,2,Montpellier,Mei 6 2018
+16:00,Caen,1,2,Monaco,Mei 6 2018
+16:00,Dijon,3,1,Guingamp,Mei 6 2018
+16:00,Rennes,2,1,Strasbourg,Mei 6 2018
+16:00,Toulouse,2,3,Lille,Mei 6 2018
+20:05,Marseille,2,1,Nice,Mei 6 2018
+19:45,Guingamp,3,3,Marseille,Mei 11 2018
+20:00,Lille,2,1,Dijon,Mei 12 2018
+20:00,Angers,0,2,Nantes,Mei 12 2018
+20:00,Bordeaux,4,2,Toulouse,Mei 12 2018
+20:00,Amiens,2,0,Metz,Mei 12 2018
+20:00,Strasbourg,3,2,Lyon,Mei 12 2018
+20:00,Paris Saint-Germain,0,2,Rennes,Mei 12 2018
+20:00,Nice,4,1,Caen,Mei 12 2018
+20:00,Monaco,1,0,Saint-Etienne,Mei 12 2018
+20:00,Montpellier,1,1,Troyes,Mei 12 2018
+20:00,Dijon,2,1,Angers,Mei 19 2018
+20:00,Caen,0,0,Paris Saint-Germain,Mei 19 2018
+20:00,Marseille,2,1,Amiens,Mei 19 2018
+20:00,Lyon,3,2,Nice,Mei 19 2018
+20:00,Saint-Etienne,5,0,Lille,Mei 19 2018
+20:00,Rennes,1,1,Montpellier,Mei 19 2018
+20:00,Metz,0,4,Bordeaux,Mei 19 2018
+20:00,Nantes,1,0,Strasbourg,Mei 19 2018
+20:00,Troyes,0,3,Monaco,Mei 19 2018
+20:00,Toulouse,2,1,Guingamp,Mei 19 2018
+14:00,Guingamp,2,1,Bordeaux,Apr 1 2018
+16:00,Lille,0,1,Amiens,Apr 1 2018
+16:00,Nantes,0,3,Saint-Etienne,Apr 1 2018
+16:00,Strasbourg,2,2,Metz,Apr 1 2018
+16:00,Troyes,0,2,Nice,Apr 1 2018
+16:00,Caen,1,3,Montpellier,Apr 1 2018
+20:00,Lyon,2,0,Toulouse,Apr 1 2018
+17:45,Rennes,1,1,Monaco,Apr 4 2018
+19:45,Saint-Etienne,1,1,Paris Saint-Germain,Apr 6 2018
+16:00,Monaco,2,1,Nantes,Apr 7 2018
+19:00,Angers,1,1,Strasbourg,Apr 7 2018
+19:00,Bordeaux,2,1,Lille,Apr 7 2018
+19:00,Guingamp,4,0,Troyes,Apr 7 2018
+19:00,Toulouse,0,1,Dijon,Apr 7 2018
+19:00,Amiens,3,0,Caen,Apr 7 2018
+14:00,Nice,1,1,Rennes,Apr 8 2018
+16:00,Metz,0,5,Lyon,Apr 8 2018
+20:00,Marseille,0,0,Montpellier,Apr 8 2018
+19:45,Angers,1,1,Nice,Apr 13 2018
+16:00,Lyon,3,0,Amiens,Apr 14 2018
+19:00,Nantes,1,1,Dijon,Apr 14 2018
+19:00,Rennes,1,2,Metz,Apr 14 2018
+19:00,Strasbourg,0,1,Saint-Etienne,Apr 14 2018
+19:00,Lille,2,2,Guingamp,Apr 14 2018
+14:00,Montpellier,1,3,Bordeaux,Apr 15 2018
+16:00,Troyes,2,3,Marseille,Apr 15 2018
+20:00,Paris Saint-Germain,7,1,Monaco,Apr 15 2018
+18:30,Nantes,1,1,Rennes,Apr 20 2018
+20:00,Dijon,2,5,Lyon,Apr 20 2018
+16:00,Marseille,5,1,Lille,Apr 21 2018
+19:00,Metz,1,1,Caen,Apr 21 2018
+19:00,Toulouse,2,0,Angers,Apr 21 2018
+19:00,Amiens,3,1,Strasbourg,Apr 21 2018
+19:00,Guingamp,3,1,Monaco,Apr 21 2018
+14:00,Nice,1,0,Montpellier,Apr 22 2018
+16:00,Saint-Etienne,2,1,Troyes,Apr 22 2018
+20:00,Bordeaux,0,1,Paris Saint-Germain,Apr 22 2018
+17:45,Caen,0,0,Toulouse,Apr 25 2018
+19:45,Montpellier,0,1,Saint-Etienne,Apr 27 2018
+16:00,Lyon,2,0,Nantes,Apr 28 2018
+19:00,Monaco,0,0,Amiens,Apr 28 2018
+19:00,Bordeaux,3,1,Dijon,Apr 28 2018
+19:00,Lille,3,1,Metz,Apr 28 2018
+19:00,Troyes,3,1,Caen,Apr 28 2018
+19:00,Strasbourg,1,1,Nice,Apr 28 2018
+14:00,Rennes,2,1,Toulouse,Apr 29 2018
+16:00,Angers,1,1,Marseille,Apr 29 2018
+20:00,Paris Saint-Germain,2,2,Guingamp,Apr 29 2018
+18:00,Nice,2,1,Lille,Mac 2 2018
+19:45,Monaco,2,1,Bordeaux,Mac 2 2018
+16:00,Troyes,0,2,Paris Saint-Germain,Mac 3 2018
+19:00,Amiens,0,2,Rennes,Mac 3 2018
+19:00,Angers,3,0,Guingamp,Mac 3 2018
+19:00,Saint-Etienne,2,2,Dijon,Mac 3 2018
+19:00,Metz,1,1,Toulouse,Mac 3 2018
+14:00,Caen,2,0,Strasbourg,Mac 4 2018
+16:00,Montpellier,1,1,Lyon,Mac 4 2018
+20:00,Marseille,1,1,Nantes,Mac 4 2018
+19:45,Strasbourg,1,3,Monaco,Mac 9 2018
+16:00,Paris Saint-Germain,5,0,Metz,Mac 10 2018
+19:00,Rennes,1,1,Saint-Etienne,Mac 10 2018
+19:00,Lille,1,1,Montpellier,Mac 10 2018
+19:00,Bordeaux,0,0,Angers,Mac 10 2018
+19:00,Dijon,1,1,Amiens,Mac 10 2018
+19:00,Nantes,1,0,Troyes,Mac 10 2018
+14:00,Guingamp,2,5,Nice,Mac 11 2018
+16:00,Lyon,1,0,Caen,Mac 11 2018
+20:00,Toulouse,1,2,Marseille,Mac 11 2018
+16:00,Paris Saint-Germain,2,1,Angers,Mac 14 2018
+19:45,Monaco,2,1,Lille,Mac 16 2018
+16:00,Bordeaux,0,2,Rennes,Mac 17 2018
+19:00,Amiens,1,1,Troyes,Mac 17 2018
+19:00,Angers,3,0,Caen,Mac 17 2018
+19:00,Montpellier,2,2,Dijon,Mac 17 2018
+19:00,Toulouse,2,2,Strasbourg,Mac 17 2018
+12:00,Nice,1,2,Paris Saint-Germain,Mac 18 2018
+14:00,Metz,1,1,Nantes,Mac 18 2018
+16:00,Saint-Etienne,2,0,Guingamp,Mac 18 2018
+20:00,Marseille,2,3,Lyon,Mac 18 2018
+16:00,Dijon,1,3,Marseille,Mac 31 2018
+19:45,Marseille,6,3,Metz,Feb 2 2018
+16:00,Lille,0,3,Paris Saint-Germain,Feb 3 2018
+19:00,Montpellier,2,1,Angers,Feb 3 2018
+19:00,Nice,0,1,Toulouse,Feb 3 2018
+19:00,Strasbourg,0,2,Bordeaux,Feb 3 2018
+19:00,Amiens,0,2,Saint-Etienne,Feb 3 2018
+14:00,Rennes,0,1,Guingamp,Feb 4 2018
+16:00,Caen,3,2,Nantes,Feb 4 2018
+20:00,Monaco,3,2,Lyon,Feb 4 2018
+19:45,Saint-Etienne,2,2,Marseille,Feb 9 2018
+16:00,Toulouse,0,1,Paris Saint-Germain,Feb 10 2018
+19:00,Guingamp,0,0,Caen,Feb 10 2018
+19:00,Metz,0,1,Montpellier,Feb 10 2018
+19:00,Angers,0,4,Monaco,Feb 10 2018
+19:00,Bordeaux,3,2,Amiens,Feb 10 2018
+19:00,Dijon,3,2,Nice,Feb 10 2018
+14:00,Strasbourg,2,1,Troyes,Feb 11 2018
+16:00,Nantes,2,2,Lille,Feb 11 2018
+20:00,Lyon,0,2,Rennes,Feb 11 2018
+19:45,Monaco,4,0,Dijon,Feb 16 2018
+16:00,Paris Saint-Germain,5,2,Strasbourg,Feb 17 2018
+19:00,Montpellier,1,1,Guingamp,Feb 17 2018
+19:00,Angers,0,1,Saint-Etienne,Feb 17 2018
+19:00,Caen,2,2,Rennes,Feb 17 2018
+19:00,Troyes,1,0,Metz,Feb 17 2018
+19:00,Amiens,0,0,Toulouse,Feb 17 2018
+14:00,Nice,1,1,Nantes,Feb 18 2018
+16:00,Lille,2,2,Lyon,Feb 18 2018
+20:00,Marseille,1,0,Bordeaux,Feb 18 2018
+17:30,Troyes,0,0,Dijon,Feb 20 2018
+19:45,Strasbourg,0,0,Montpellier,Feb 23 2018
+16:00,Toulouse,3,3,Monaco,Feb 24 2018
+19:00,Rennes,2,0,Troyes,Feb 24 2018
+19:00,Nantes,0,1,Amiens,Feb 24 2018
+19:00,Lille,1,2,Angers,Feb 24 2018
+19:00,Guingamp,2,2,Metz,Feb 24 2018
+19:00,Dijon,2,0,Caen,Feb 24 2018
+14:00,Bordeaux,0,0,Nice,Feb 25 2018
+16:00,Lyon,1,1,Saint-Etienne,Feb 25 2018
+20:00,Paris Saint-Germain,3,0,Marseille,Feb 25 2018
+19:45,Strasbourg,0,2,Guingamp,Jan 12 2018
+16:00,Rennes,0,3,Marseille,Jan 13 2018
+19:00,Troyes,0,1,Bordeaux,Jan 13 2018
+19:00,Caen,0,1,Lille,Jan 13 2018
+19:00,Dijon,1,1,Metz,Jan 13 2018
+19:00,Montpellier,0,0,Monaco,Jan 13 2018
+19:00,Nice,1,0,Amiens,Jan 13 2018
+14:00,Saint-Etienne,2,0,Toulouse,Jan 14 2018
+16:00,Lyon,1,1,Angers,Jan 14 2018
+20:00,Nantes,0,1,Paris Saint-Germain,Jan 14 2018
+18:00,Bordeaux,0,2,Caen,Jan 16 2018
+18:00,Marseille,2,0,Strasbourg,Jan 16 2018
+20:00,Monaco,2,2,Nice,Jan 16 2018
+18:00,Metz,3,0,Saint-Etienne,Jan 17 2018
+18:00,Guingamp,0,2,Lyon,Jan 17 2018
+18:00,Lille,1,2,Rennes,Jan 17 2018
+18:00,Amiens,1,1,Montpellier,Jan 17 2018
+18:00,Angers,3,1,Troyes,Jan 17 2018
+18:00,Toulouse,1,1,Nantes,Jan 17 2018
+20:00,Paris Saint-Germain,8,0,Dijon,Jan 17 2018
+19:45,Caen,0,2,Marseille,Jan 19 2018
+16:00,Nantes,0,1,Bordeaux,Jan 20 2018
+19:00,Amiens,3,1,Guingamp,Jan 20 2018
+19:00,Rennes,1,0,Angers,Jan 20 2018
+19:00,Strasbourg,3,2,Dijon,Jan 20 2018
+19:00,Montpellier,2,1,Toulouse,Jan 20 2018
+19:00,Troyes,1,0,Lille,Jan 20 2018
+14:00,Nice,1,0,Saint-Etienne,Jan 21 2018
+16:00,Monaco,3,1,Metz,Jan 21 2018
+20:00,Lyon,2,1,Paris Saint-Germain,Jan 21 2018
+19:45,Dijon,2,1,Rennes,Jan 26 2018
+16:00,Paris Saint-Germain,4,0,Montpellier,Jan 27 2018
+19:00,Saint-Etienne,2,1,Caen,Jan 27 2018
+19:00,Toulouse,1,0,Troyes,Jan 27 2018
+19:00,Metz,2,1,Nice,Jan 27 2018
+19:00,Guingamp,0,3,Nantes,Jan 27 2018
+19:00,Angers,1,0,Amiens,Jan 27 2018
+14:00,Lille,2,1,Strasbourg,Jan 28 2018
+16:00,Bordeaux,3,1,Lyon,Jan 28 2018
+20:00,Marseille,2,2,Monaco,Jan 28 2018
+19:45,Dijon,3,2,Bordeaux,Des 1 2017
+16:00,Strasbourg,2,1,Paris Saint-Germain,Des 2 2017
+19:00,Troyes,0,1,Guingamp,Des 2 2017
+19:00,Nice,3,1,Metz,Des 2 2017
+19:00,Rennes,2,0,Amiens,Des 2 2017
+19:00,Lille,1,0,Toulouse,Des 2 2017
+19:00,Monaco,1,0,Angers,Des 2 2017
+14:00,Saint-Etienne,1,1,Nantes,Des 3 2017
+16:00,Caen,1,2,Lyon,Des 3 2017
+20:00,Montpellier,1,1,Marseille,Des 3 2017
+19:45,Bordeaux,0,3,Strasbourg,Des 8 2017
+16:00,Paris Saint-Germain,3,1,Lille,Des 9 2017
+19:00,Toulouse,2,0,Caen,Des 9 2017
+19:00,Guingamp,4,0,Dijon,Des 9 2017
+19:00,Metz,1,1,Rennes,Des 9 2017
+19:00,Monaco,3,2,Troyes,Des 9 2017
+19:00,Angers,1,1,Montpellier,Des 9 2017
+14:00,Amiens,1,2,Lyon,Des 10 2017
+16:00,Nantes,1,2,Nice,Des 10 2017
+20:00,Marseille,3,0,Saint-Etienne,Des 10 2017
+19:45,Saint-Etienne,0,4,Monaco,Des 15 2017
+16:00,Rennes,1,4,Paris Saint-Germain,Des 16 2017
+19:00,Montpellier,1,3,Metz,Des 16 2017
+19:00,Strasbourg,2,1,Toulouse,Des 16 2017
+19:00,Troyes,1,0,Amiens,Des 16 2017
+19:00,Caen,0,0,Guingamp,Des 16 2017
+19:00,Dijon,3,0,Lille,Des 16 2017
+14:00,Nantes,1,0,Angers,Des 17 2017
+16:00,Nice,1,0,Bordeaux,Des 17 2017
+20:00,Lyon,2,0,Marseille,Des 17 2017
+19:50,Toulouse,1,2,Lyon,Des 20 2017
+19:50,Paris Saint-Germain,3,1,Caen,Des 20 2017
+19:50,Bordeaux,0,2,Montpellier,Des 20 2017
+19:50,Guingamp,2,1,Saint-Etienne,Des 20 2017
+19:50,Lille,1,1,Nice,Des 20 2017
+19:50,Marseille,3,1,Troyes,Des 20 2017
+19:50,Metz,3,0,Strasbourg,Des 20 2017
+19:50,Monaco,2,1,Rennes,Des 20 2017
+19:50,Angers,2,1,Dijon,Des 20 2017
+19:50,Amiens,0,1,Nantes,Des 20 2017
+19:45,Rennes,1,0,Bordeaux,Nov 3 2017
+16:00,Angers,0,5,Paris Saint-Germain,Nov 4 2017
+19:00,Montpellier,1,1,Amiens,Nov 4 2017
+19:00,Nantes,2,1,Toulouse,Nov 4 2017
+19:00,Troyes,3,0,Strasbourg,Nov 4 2017
+19:00,Monaco,6,0,Guingamp,Nov 4 2017
+14:00,Nice,1,0,Dijon,Nov 5 2017
+16:00,Marseille,5,0,Caen,Nov 5 2017
+16:00,Metz,0,3,Lille,Nov 5 2017
+20:00,Saint-Etienne,0,5,Lyon,Nov 5 2017
+18:00,Lille,3,1,Saint-Etienne,Nov 17 2017
+19:45,Amiens,1,1,Monaco,Nov 17 2017
+16:00,Paris Saint-Germain,4,1,Nantes,Nov 18 2017
+19:00,Strasbourg,2,1,Rennes,Nov 18 2017
+19:00,Dijon,3,1,Troyes,Nov 18 2017
+19:00,Guingamp,1,1,Angers,Nov 18 2017
+19:00,Toulouse,0,0,Metz,Nov 18 2017
+14:00,Caen,1,1,Nice,Nov 19 2017
+16:00,Lyon,0,0,Montpellier,Nov 19 2017
+20:00,Bordeaux,1,1,Marseille,Nov 19 2017
+18:00,Amiens,3,0,Lille,Nov 20 2017
+19:45,Saint-Etienne,2,2,Strasbourg,Nov 24 2017
+16:00,Rennes,2,1,Nantes,Nov 25 2017
+19:00,Troyes,3,0,Angers,Nov 25 2017
+19:00,Caen,1,0,Bordeaux,Nov 25 2017
+19:00,Dijon,3,1,Toulouse,Nov 25 2017
+19:00,Metz,0,2,Amiens,Nov 25 2017
+19:00,Montpellier,3,0,Lille,Nov 25 2017
+14:00,Nice,0,5,Lyon,Nov 26 2017
+16:00,Marseille,1,0,Guingamp,Nov 26 2017
+20:00,Monaco,1,2,Paris Saint-Germain,Nov 26 2017
+18:00,Amiens,2,1,Dijon,Nov 28 2017
+18:00,Strasbourg,0,0,Caen,Nov 28 2017
+20:00,Bordeaux,3,0,Saint-Etienne,Nov 28 2017
+18:00,Guingamp,0,0,Montpellier,Nov 29 2017
+18:00,Lyon,1,2,Lille,Nov 29 2017
+18:00,Metz,0,3,Marseille,Nov 29 2017
+18:00,Nantes,1,0,Monaco,Nov 29 2017
+18:00,Angers,1,2,Rennes,Nov 29 2017
+18:00,Toulouse,1,2,Nice,Nov 29 2017
+20:00,Paris Saint-Germain,2,0,Troyes,Nov 29 2017
+14:00,Troyes,2,1,Saint-Etienne,Okt 1 2017
+16:00,Angers,3,3,Lyon,Okt 1 2017
+20:00,Nice,2,4,Marseille,Okt 1 2017
+19:45,Lyon,3,2,Monaco,Okt 13 2017
+16:00,Dijon,1,2,Paris Saint-Germain,Okt 14 2017
+19:00,Guingamp,2,0,Rennes,Okt 14 2017
+19:00,Lille,2,2,Troyes,Okt 14 2017
+19:00,Caen,0,2,Angers,Okt 14 2017
+19:00,Toulouse,1,0,Amiens,Okt 14 2017
+19:00,Saint-Etienne,3,1,Metz,Okt 14 2017
+14:00,Bordeaux,1,1,Nantes,Okt 15 2017
+16:00,Montpellier,2,0,Nice,Okt 15 2017
+20:00,Strasbourg,3,3,Marseille,Okt 15 2017
+19:45,Saint-Etienne,0,1,Montpellier,Okt 20 2017
+16:00,Monaco,2,0,Caen,Okt 21 2017
+19:00,Nantes,2,1,Guingamp,Okt 21 2017
+19:00,Metz,1,2,Dijon,Okt 21 2017
+19:00,Rennes,1,0,Lille,Okt 21 2017
+19:00,Amiens,1,0,Bordeaux,Okt 21 2017
+19:00,Angers,0,1,Toulouse,Okt 21 2017
+14:00,Nice,1,2,Strasbourg,Okt 22 2017
+16:00,Troyes,0,5,Lyon,Okt 22 2017
+20:00,Marseille,2,2,Paris Saint-Germain,Okt 22 2017
+19:45,Paris Saint-Germain,3,0,Nice,Okt 27 2017
+16:00,Bordeaux,0,2,Monaco,Okt 28 2017
+19:00,Caen,1,0,Troyes,Okt 28 2017
+19:00,Dijon,1,0,Nantes,Okt 28 2017
+19:00,Guingamp,1,1,Amiens,Okt 28 2017
+19:00,Strasbourg,2,2,Angers,Okt 28 2017
+19:00,Montpellier,0,1,Rennes,Okt 28 2017
+14:00,Lyon,2,0,Metz,Okt 29 2017
+16:00,Toulouse,0,0,Saint-Etienne,Okt 29 2017
+20:00,Lille,0,1,Marseille,Okt 29 2017
+18:00,Lille,0,0,Bordeaux,Sep 8 2017
+19:45,Metz,1,5,Paris Saint-Germain,Sep 8 2017
+16:00,Nice,4,0,Monaco,Sep 9 2017
+19:00,Strasbourg,0,1,Amiens,Sep 9 2017
+19:00,Troyes,0,0,Toulouse,Sep 9 2017
+19:00,Caen,2,1,Dijon,Sep 9 2017
+19:00,Montpellier,0,1,Nantes,Sep 9 2017
+14:00,Saint-Etienne,1,1,Angers,Sep 10 2017
+16:00,Lyon,2,1,Guingamp,Sep 10 2017
+20:00,Marseille,1,3,Rennes,Sep 10 2017
+19:45,Toulouse,0,1,Bordeaux,Sep 15 2017
+16:00,Monaco,3,0,Strasbourg,Sep 16 2017
+19:00,Nantes,1,0,Caen,Sep 16 2017
+19:00,Dijon,0,1,Saint-Etienne,Sep 16 2017
+19:00,Guingamp,1,0,Lille,Sep 16 2017
+19:00,Troyes,0,1,Montpellier,Sep 16 2017
+14:00,Amiens,0,2,Marseille,Sep 17 2017
+16:00,Angers,0,1,Metz,Sep 17 2017
+16:00,Rennes,0,1,Nice,Sep 17 2017
+20:00,Paris Saint-Germain,2,0,Lyon,Sep 17 2017
+18:00,Nice,2,2,Angers,Sep 22 2017
+19:45,Lille,0,4,Monaco,Sep 22 2017
+16:00,Montpellier,0,0,Paris Saint-Germain,Sep 23 2017
+19:00,Metz,0,1,Troyes,Sep 23 2017
+19:00,Bordeaux,3,1,Guingamp,Sep 23 2017
+19:00,Caen,1,0,Amiens,Sep 23 2017
+19:00,Lyon,3,3,Dijon,Sep 23 2017
+14:00,Saint-Etienne,2,2,Rennes,Sep 24 2017
+16:00,Strasbourg,1,2,Nantes,Sep 24 2017
+20:00,Marseille,2,0,Toulouse,Sep 24 2017
+19:45,Monaco,1,1,Montpellier,Sep 29 2017
+16:00,Paris Saint-Germain,6,2,Bordeaux,Sep 30 2017
+19:00,Rennes,0,1,Caen,Sep 30 2017
+19:00,Dijon,1,1,Strasbourg,Sep 30 2017
+19:00,Nantes,1,0,Metz,Sep 30 2017
+19:00,Guingamp,1,1,Toulouse,Sep 30 2017
+19:45,Saint-Etienne,2,2,Bordeaux,Mei 5 2017
+16:00,Paris Saint-Germain,5,0,SC Bastia,Mei 6 2017
+19:00,Toulouse,0,1,Caen,Mei 6 2017
+19:00,Nancy,0,3,Monaco,Mei 6 2017
+19:00,Guingamp,4,0,Dijon,Mei 6 2017
+19:00,Lorient,1,1,Angers,Mei 6 2017
+19:00,Lille,0,2,Metz,Mei 6 2017
+14:00,Rennes,1,0,Montpellier,Mei 7 2017
+16:00,Lyon,3,2,Nantes,Mei 7 2017
+20:00,Marseille,2,1,Nice,Mei 7 2017
+20:00,Nantes,4,1,Guingamp,Mei 14 2017
+20:00,Caen,0,1,Rennes,Mei 14 2017
+20:00,Metz,1,1,Toulouse,Mei 14 2017
+20:00,Saint-Etienne,0,5,Paris Saint-Germain,Mei 14 2017
+20:00,Bordeaux,1,1,Marseille,Mei 14 2017
+20:00,Montpellier,1,3,Lyon,Mei 14 2017
+20:00,Nice,0,2,Angers,Mei 14 2017
+20:00,SC Bastia,2,0,Lorient,Mei 14 2017
+20:00,Dijon,2,0,Nancy,Mei 14 2017
+20:00,Monaco,4,0,Lille,Mei 14 2017
+20:00,Monaco,2,0,Saint-Etienne,Mei 17 2017
+20:00,Rennes,2,3,Monaco,Mei 20 2017
+20:00,Guingamp,1,0,Metz,Mei 20 2017
+20:00,Nancy,3,1,Saint-Etienne,Mei 20 2017
+20:00,Lorient,1,1,Bordeaux,Mei 20 2017
+20:00,Lille,3,0,Nantes,Mei 20 2017
+20:00,Marseille,1,0,SC Bastia,Mei 20 2017
+20:00,Lyon,3,3,Nice,Mei 20 2017
+20:00,Paris Saint-Germain,1,1,Caen,Mei 20 2017
+20:00,Toulouse,0,0,Dijon,Mei 20 2017
+20:00,Angers,2,0,Montpellier,Mei 20 2017
+16:00,Marseille,1,1,Dijon,Apr 1 2017
+18:00,SC Bastia,0,1,Lille,Apr 1 2017
+14:00,Rennes,1,1,Lyon,Apr 2 2017
+16:00,Nantes,2,1,Angers,Apr 2 2017
+16:00,Lorient,1,0,Caen,Apr 2 2017
+16:00,Montpellier,0,1,Toulouse,Apr 2 2017
+20:00,Nice,2,1,Bordeaux,Apr 2 2017
+18:00,Metz,0,3,Lyon,Apr 5 2017
+19:45,Lille,1,2,Nice,Apr 7 2017
+16:00,Angers,0,1,Monaco,Apr 8 2017
+19:00,Caen,0,2,Montpellier,Apr 8 2017
+19:00,Dijon,1,2,SC Bastia,Apr 8 2017
+19:00,Lyon,1,4,Lorient,Apr 8 2017
+19:00,Bordeaux,3,0,Metz,Apr 8 2017
+19:00,Nancy,3,0,Rennes,Apr 8 2017
+14:00,Toulouse,0,0,Marseille,Apr 9 2017
+16:00,Saint-Etienne,1,1,Nantes,Apr 9 2017
+20:00,Paris Saint-Germain,4,0,Guingamp,Apr 9 2017
+19:45,Angers,0,2,Paris Saint-Germain,Apr 14 2017
+16:00,Nice,3,1,Nancy,Apr 15 2017
+19:00,Montpellier,2,0,Lorient,Apr 15 2017
+19:00,Rennes,2,0,Lille,Apr 15 2017
+19:00,Guingamp,2,1,Toulouse,Apr 15 2017
+19:00,Metz,2,2,Caen,Apr 15 2017
+20:00,Monaco,2,1,Dijon,Apr 15 2017
+14:00,Nantes,0,1,Bordeaux,Apr 16 2017
+20:00,Marseille,4,0,Saint-Etienne,Apr 16 2017
+17:30,Metz,2,3,Paris Saint-Germain,Apr 18 2017
+19:45,Nancy,0,0,Marseille,Apr 21 2017
+16:00,Paris Saint-Germain,2,0,Montpellier,Apr 22 2017
+19:00,Dijon,3,2,Angers,Apr 22 2017
+19:00,Lille,3,0,Guingamp,Apr 22 2017
+19:00,Caen,0,2,Nantes,Apr 22 2017
+19:00,Lorient,5,1,Metz,Apr 22 2017
+19:00,Bordeaux,2,0,SC Bastia,Apr 22 2017
+14:00,Toulouse,1,1,Nice,Apr 23 2017
+16:00,Saint-Etienne,1,1,Rennes,Apr 23 2017
+20:15,Lyon,1,2,Monaco,Apr 23 2017
+19:45,Angers,1,2,Lyon,Apr 28 2017
+16:00,Monaco,3,1,Toulouse,Apr 29 2017
+19:00,Nantes,1,0,Lorient,Apr 29 2017
+19:00,Guingamp,0,2,Saint-Etienne,Apr 29 2017
+19:00,SC Bastia,1,0,Rennes,Apr 29 2017
+19:00,Montpellier,0,3,Lille,Apr 29 2017
+19:00,Metz,2,1,Nancy,Apr 29 2017
+14:00,Caen,1,5,Marseille,Apr 30 2017
+16:00,Dijon,0,0,Bordeaux,Apr 30 2017
+20:00,Nice,3,1,Paris Saint-Germain,Apr 30 2017
+18:30,SC Bastia,2,2,Nantes,Mac 1 2017
+19:45,Bordeaux,1,1,Lyon,Mac 3 2017
+16:00,Paris Saint-Germain,1,0,Nancy,Mac 4 2017
+19:00,SC Bastia,0,0,Saint-Etienne,Mac 4 2017
+19:00,Montpellier,1,1,Guingamp,Mac 4 2017
+19:00,Dijon,0,1,Nice,Mac 4 2017
+19:00,Caen,2,3,Angers,Mac 4 2017
+19:00,Metz,1,1,Rennes,Mac 4 2017
+14:00,Lorient,1,4,Marseille,Mac 5 2017
+16:00,Toulouse,1,1,Lille,Mac 5 2017
+20:00,Monaco,4,0,Nantes,Mac 5 2017
+18:00,Nice,2,2,Caen,Mac 10 2017
+19:45,Marseille,3,0,Angers,Mac 10 2017
+15:45,Monaco,2,1,Bordeaux,Mac 11 2017
+19:00,Montpellier,2,3,Nantes,Mac 11 2017
+19:00,Guingamp,5,0,SC Bastia,Mac 11 2017
+19:00,Rennes,1,1,Dijon,Mac 11 2017
+19:00,Nancy,1,2,Lille,Mac 11 2017
+14:00,Saint-Etienne,2,2,Metz,Mac 12 2017
+16:00,Lyon,4,0,Toulouse,Mac 12 2017
+20:00,Lorient,1,2,Paris Saint-Germain,Mac 12 2017
+18:00,Metz,1,0,SC Bastia,Mac 17 2017
+19:45,Lille,0,0,Marseille,Mac 17 2017
+16:00,Nantes,1,1,Nice,Mac 18 2017
+19:00,Angers,3,0,Guingamp,Mac 18 2017
+19:00,Toulouse,0,0,Rennes,Mac 18 2017
+19:00,Bordeaux,5,1,Montpellier,Mac 18 2017
+19:00,Nancy,2,3,Lorient,Mac 18 2017
+14:00,Caen,0,3,Monaco,Mac 19 2017
+16:00,Dijon,0,1,Saint-Etienne,Mac 19 2017
+20:00,Paris Saint-Germain,2,1,Lyon,Mac 19 2017
+18:00,Guingamp,1,0,Nancy,Mac 31 2017
+19:45,Metz,1,0,Marseille,Feb 3 2017
+16:00,Monaco,3,0,Nice,Feb 4 2017
+19:00,Guingamp,0,1,Caen,Feb 4 2017
+19:00,Bordeaux,1,1,Rennes,Feb 4 2017
+19:00,Lille,0,1,Lorient,Feb 4 2017
+19:00,Montpellier,2,1,SC Bastia,Feb 4 2017
+19:00,Dijon,1,3,Paris Saint-Germain,Feb 4 2017
+14:00,Toulouse,4,0,Angers,Feb 5 2017
+16:00,Nantes,0,2,Nancy,Feb 5 2017
+20:00,Saint-Etienne,2,0,Lyon,Feb 5 2017
+18:00,Montpellier,1,2,Monaco,Feb 7 2017
+18:00,Caen,0,4,Bordeaux,Feb 7 2017
+20:00,Paris Saint-Germain,2,1,Lille,Feb 7 2017
+18:00,Angers,0,0,Rennes,Feb 8 2017
+18:00,Lyon,4,0,Nancy,Feb 8 2017
+18:00,Nice,1,0,Saint-Etienne,Feb 8 2017
+18:00,Lorient,1,1,Toulouse,Feb 8 2017
+18:00,Metz,2,1,Dijon,Feb 8 2017
+20:00,Marseille,2,0,Guingamp,Feb 8 2017
+19:45,Bordeaux,0,3,Paris Saint-Germain,Feb 10 2017
+16:00,Guingamp,2,1,Lyon,Feb 11 2017
+19:00,Lille,1,2,Angers,Feb 11 2017
+19:00,Dijon,2,0,Caen,Feb 11 2017
+19:00,Toulouse,4,1,SC Bastia,Feb 11 2017
+19:00,Nancy,0,3,Montpellier,Feb 11 2017
+19:00,Monaco,5,0,Metz,Feb 11 2017
+14:00,Rennes,2,2,Nice,Feb 12 2017
+16:00,Saint-Etienne,4,0,Lorient,Feb 12 2017
+20:00,Nantes,3,2,Marseille,Feb 12 2017
+19:45,SC Bastia,1,1,Monaco,Feb 17 2017
+16:00,Marseille,2,0,Rennes,Feb 18 2017
+19:00,Angers,1,0,Nancy,Feb 18 2017
+19:00,Caen,0,1,Lille,Feb 18 2017
+19:00,Metz,1,1,Nantes,Feb 18 2017
+19:00,Lorient,0,1,Nice,Feb 18 2017
+14:00,Bordeaux,3,0,Guingamp,Feb 19 2017
+16:00,Montpellier,2,1,Saint-Etienne,Feb 19 2017
+16:00,Lyon,4,2,Dijon,Feb 19 2017
+20:00,Paris Saint-Germain,0,0,Toulouse,Feb 19 2017
+17:30,Caen,1,0,Nancy,Feb 21 2017
+18:00,Nantes,3,1,Dijon,Feb 24 2017
+19:45,Nice,2,1,Montpellier,Feb 24 2017
+16:00,Guingamp,1,2,Monaco,Feb 25 2017
+19:00,Angers,3,0,SC Bastia,Feb 25 2017
+19:00,Rennes,1,0,Lorient,Feb 25 2017
+19:00,Lille,2,3,Bordeaux,Feb 25 2017
+19:00,Nancy,0,0,Toulouse,Feb 25 2017
+14:00,Saint-Etienne,0,1,Caen,Feb 26 2017
+16:00,Lyon,5,0,Metz,Feb 26 2017
+20:00,Marseille,1,5,Paris Saint-Germain,Feb 26 2017
+19:45,Lille,1,1,Saint-Etienne,Jan 13 2017
+16:00,Rennes,0,1,Paris Saint-Germain,Jan 14 2017
+19:00,Montpellier,1,1,Dijon,Jan 14 2017
+19:00,Toulouse,0,1,Nantes,Jan 14 2017
+19:00,Angers,1,1,Bordeaux,Jan 14 2017
+19:00,Nancy,1,0,SC Bastia,Jan 14 2017
+19:00,Lorient,3,1,Guingamp,Jan 14 2017
+14:00,Nice,0,0,Metz,Jan 15 2017
+16:00,Caen,3,2,Lyon,Jan 15 2017
+20:00,Marseille,1,4,Monaco,Jan 15 2017
+19:00,Nantes,1,0,Caen,Jan 18 2017
+19:45,SC Bastia,1,1,Nice,Jan 20 2017
+16:00,Nantes,0,2,Paris Saint-Germain,Jan 21 2017
+19:00,Guingamp,1,1,Rennes,Jan 21 2017
+19:00,Metz,2,0,Montpellier,Jan 21 2017
+19:00,Dijon,0,0,Lille,Jan 21 2017
+19:00,Bordeaux,1,0,Toulouse,Jan 21 2017
+14:00,Monaco,4,0,Lorient,Jan 22 2017
+16:00,Saint-Etienne,2,1,Angers,Jan 22 2017
+20:00,Lyon,3,1,Marseille,Jan 22 2017
+19:45,Marseille,5,1,Montpellier,Jan 27 2017
+16:00,Lyon,1,2,Lille,Jan 28 2017
+19:00,Nancy,0,2,Bordeaux,Jan 28 2017
+19:00,Lorient,2,3,Dijon,Jan 28 2017
+19:00,SC Bastia,1,1,Caen,Jan 28 2017
+19:00,Rennes,1,1,Nantes,Jan 28 2017
+19:00,Angers,2,1,Metz,Jan 28 2017
+14:00,Nice,3,1,Guingamp,Jan 29 2017
+16:00,Toulouse,0,3,Saint-Etienne,Jan 29 2017
+20:00,Paris Saint-Germain,1,1,Monaco,Jan 29 2017
+19:45,Caen,3,3,Dijon,Des 2 2016
+16:00,Montpellier,3,0,Paris Saint-Germain,Des 3 2016
+19:00,Metz,1,0,Lyon,Des 3 2016
+19:00,Angers,2,2,Lorient,Des 3 2016
+19:00,Monaco,5,0,SC Bastia,Des 3 2016
+19:00,Guingamp,2,0,Nantes,Des 3 2016
+19:00,Bordeaux,0,1,Lille,Des 3 2016
+14:00,Rennes,2,0,Saint-Etienne,Des 4 2016
+16:00,Marseille,3,0,Nancy,Des 4 2016
+19:45,Nice,3,0,Toulouse,Des 4 2016
+13:30,Dijon,1,2,Marseille,Des 10 2016
+16:30,Bordeaux,0,4,Monaco,Des 10 2016
+19:00,Lille,2,1,Montpellier,Des 10 2016
+19:00,Nancy,2,0,Angers,Des 10 2016
+19:00,Toulouse,3,2,Lorient,Des 10 2016
+19:00,SC Bastia,2,0,Metz,Des 10 2016
+14:00,Lyon,1,0,Rennes,Des 11 2016
+16:00,Saint-Etienne,1,0,Guingamp,Des 11 2016
+19:45,Paris Saint-Germain,2,2,Nice,Des 11 2016
+19:45,Angers,0,2,Nantes,Des 16 2016
+16:00,Guingamp,2,1,Paris Saint-Germain,Des 17 2016
+19:00,Rennes,1,2,SC Bastia,Des 17 2016
+19:00,Toulouse,1,1,Nancy,Des 17 2016
+19:00,Lorient,2,1,Saint-Etienne,Des 17 2016
+19:00,Montpellier,4,0,Bordeaux,Des 17 2016
+13:30,Caen,3,0,Metz,Des 18 2016
+14:00,Nice,2,1,Dijon,Des 18 2016
+16:00,Marseille,2,0,Lille,Des 18 2016
+19:45,Monaco,1,3,Lyon,Des 18 2016
+19:50,Metz,2,2,Guingamp,Des 21 2016
+19:50,Saint-Etienne,0,0,Nancy,Des 21 2016
+19:50,Bordeaux,0,0,Nice,Des 21 2016
+19:50,Lille,1,1,Rennes,Des 21 2016
+19:50,Paris Saint-Germain,5,0,Lorient,Des 21 2016
+19:50,Lyon,2,0,Angers,Des 21 2016
+19:50,SC Bastia,1,2,Marseille,Des 21 2016
+19:50,Dijon,2,0,Toulouse,Des 21 2016
+19:50,Monaco,2,1,Caen,Des 21 2016
+19:50,Nantes,1,0,Montpellier,Des 21 2016
+19:45,Montpellier,3,1,Marseille,Nov 4 2016
+16:00,Monaco,6,0,Nancy,Nov 5 2016
+19:00,Nantes,1,1,Toulouse,Nov 5 2016
+19:00,Lyon,2,1,SC Bastia,Nov 5 2016
+19:00,Dijon,3,3,Guingamp,Nov 5 2016
+19:00,Angers,1,0,Lille,Nov 5 2016
+19:00,Bordeaux,2,1,Lorient,Nov 5 2016
+14:00,Caen,1,0,Nice,Nov 6 2016
+16:00,Metz,0,0,Saint-Etienne,Nov 6 2016
+19:45,Paris Saint-Germain,4,0,Rennes,Nov 6 2016
+18:00,Lorient,0,3,Monaco,Nov 18 2016
+19:45,Lille,0,1,Lyon,Nov 18 2016
+16:00,Paris Saint-Germain,2,0,Nantes,Nov 19 2016
+19:00,SC Bastia,1,1,Montpellier,Nov 19 2016
+19:00,Rennes,1,1,Angers,Nov 19 2016
+19:00,Nancy,1,0,Dijon,Nov 19 2016
+19:00,Toulouse,1,2,Metz,Nov 19 2016
+14:00,Guingamp,1,1,Bordeaux,Nov 20 2016
+16:00,Marseille,1,0,Caen,Nov 20 2016
+19:45,Saint-Etienne,0,1,Nice,Nov 20 2016
+19:45,Rennes,1,0,Toulouse,Nov 25 2016
+16:10,Monaco,4,0,Marseille,Nov 26 2016
+19:00,Nantes,0,0,Lille,Nov 26 2016
+19:00,Caen,1,1,Guingamp,Nov 26 2016
+19:00,Metz,3,3,Lorient,Nov 26 2016
+19:00,Bordeaux,3,2,Dijon,Nov 26 2016
+19:00,Montpellier,0,0,Nancy,Nov 26 2016
+14:00,Angers,1,2,Saint-Etienne,Nov 27 2016
+16:00,Nice,1,1,SC Bastia,Nov 27 2016
+19:45,Lyon,1,2,Paris Saint-Germain,Nov 27 2016
+18:00,Lorient,2,1,Rennes,Nov 29 2016
+18:00,Lille,4,2,Caen,Nov 29 2016
+20:00,Dijon,1,1,Monaco,Nov 29 2016
+18:00,Toulouse,1,0,Montpellier,Nov 30 2016
+18:00,Nantes,0,6,Lyon,Nov 30 2016
+18:00,Guingamp,0,1,Nice,Nov 30 2016
+18:00,SC Bastia,1,1,Bordeaux,Nov 30 2016
+18:00,Nancy,4,0,Metz,Nov 30 2016
+18:00,Saint-Etienne,0,0,Marseille,Nov 30 2016
+20:00,Paris Saint-Germain,2,0,Angers,Nov 30 2016
+16:00,Paris Saint-Germain,2,0,Bordeaux,Okt 1 2016
+19:00,Dijon,3,3,Montpellier,Okt 1 2016
+19:00,Lille,1,0,Nancy,Okt 1 2016
+19:00,Nantes,1,0,SC Bastia,Okt 1 2016
+19:00,Caen,1,0,Toulouse,Okt 1 2016
+19:00,Metz,0,7,Monaco,Okt 1 2016
+14:00,Angers,1,1,Marseille,Okt 2 2016
+16:00,Nice,2,1,Lorient,Okt 2 2016
+19:45,Lyon,2,0,Saint-Etienne,Okt 2 2016
+18:00,Toulouse,3,1,Monaco,Okt 14 2016
+19:45,Nice,2,0,Lyon,Okt 14 2016
+16:00,Nancy,1,2,Paris Saint-Germain,Okt 15 2016
+19:00,Lorient,1,2,Nantes,Okt 15 2016
+19:00,Montpellier,3,2,Caen,Okt 15 2016
+19:00,Guingamp,1,0,Lille,Okt 15 2016
+19:00,SC Bastia,1,2,Angers,Okt 15 2016
+14:00,Rennes,1,1,Bordeaux,Okt 16 2016
+16:00,Saint-Etienne,1,1,Dijon,Okt 16 2016
+19:45,Marseille,1,0,Metz,Okt 16 2016
+19:45,Monaco,6,2,Montpellier,Okt 21 2016
+16:00,Lyon,1,3,Guingamp,Okt 22 2016
+19:00,Nantes,1,2,Rennes,Okt 22 2016
+19:00,Dijon,1,0,Lorient,Okt 22 2016
+19:00,Angers,0,0,Toulouse,Okt 22 2016
+19:00,Bordeaux,1,1,Nancy,Okt 22 2016
+19:00,Lille,2,1,SC Bastia,Okt 22 2016
+14:00,Caen,0,2,Saint-Etienne,Okt 23 2016
+16:00,Metz,2,4,Nice,Okt 23 2016
+19:45,Paris Saint-Germain,0,0,Marseille,Okt 23 2016
+19:45,Lille,0,1,Paris Saint-Germain,Okt 28 2016
+16:00,Toulouse,1,2,Lyon,Okt 29 2016
+19:00,SC Bastia,0,0,Dijon,Okt 29 2016
+19:00,Guingamp,1,0,Angers,Okt 29 2016
+19:00,Nancy,2,0,Caen,Okt 29 2016
+19:00,Saint-Etienne,1,1,Monaco,Okt 29 2016
+19:00,Lorient,2,2,Montpellier,Okt 29 2016
+14:00,Nice,4,1,Nantes,Okt 30 2016
+16:00,Rennes,1,0,Metz,Okt 30 2016
+19:45,Marseille,0,0,Bordeaux,Okt 30 2016
+19:45,Paris Saint-Germain,1,1,Saint-Etienne,Sep 9 2016
+16:00,Lyon,1,3,Bordeaux,Sep 10 2016
+19:00,SC Bastia,2,1,Toulouse,Sep 10 2016
+19:00,Angers,3,1,Dijon,Sep 10 2016
+19:00,Lorient,0,2,Nancy,Sep 10 2016
+19:00,Lille,1,4,Monaco,Sep 10 2016
+19:00,Guingamp,1,1,Montpellier,Sep 10 2016
+14:00,Nantes,0,3,Metz,Sep 11 2016
+16:00,Rennes,2,0,Caen,Sep 11 2016
+19:45,Nice,3,2,Marseille,Sep 11 2016
+19:45,Caen,0,6,Paris Saint-Germain,Sep 16 2016
+16:00,Monaco,3,0,Rennes,Sep 17 2016
+19:00,Nancy,1,1,Nantes,Sep 17 2016
+19:00,Dijon,0,0,Metz,Sep 17 2016
+19:00,Toulouse,2,1,Guingamp,Sep 17 2016
+19:00,Lorient,1,0,Lille,Sep 17 2016
+19:00,Bordeaux,0,1,Angers,Sep 17 2016
+14:00,Montpellier,1,1,Nice,Sep 18 2016
+16:00,Saint-Etienne,1,0,SC Bastia,Sep 18 2016
+19:45,Marseille,0,0,Lyon,Sep 18 2016
+18:00,Lille,1,2,Toulouse,Sep 20 2016
+20:00,Paris Saint-Germain,3,0,Dijon,Sep 20 2016
+18:00,SC Bastia,0,0,Nancy,Sep 21 2016
+18:00,Angers,2,1,Caen,Sep 21 2016
+18:00,Nantes,0,0,Saint-Etienne,Sep 21 2016
+18:00,Guingamp,1,0,Lorient,Sep 21 2016
+18:00,Metz,0,3,Bordeaux,Sep 21 2016
+18:00,Nice,4,0,Monaco,Sep 21 2016
+18:00,Lyon,5,1,Montpellier,Sep 21 2016
+20:00,Rennes,3,2,Marseille,Sep 21 2016
+19:45,Toulouse,2,0,Paris Saint-Germain,Sep 23 2016
+16:00,Lorient,1,0,Lyon,Sep 24 2016
+19:00,Bordeaux,0,0,Caen,Sep 24 2016
+19:00,Montpellier,0,1,Metz,Sep 24 2016
+19:00,Dijon,3,0,Rennes,Sep 24 2016
+19:00,SC Bastia,1,0,Guingamp,Sep 24 2016
+19:00,Monaco,2,1,Angers,Sep 24 2016
+14:00,Saint-Etienne,3,1,Lille,Sep 25 2016
+16:00,Nancy,0,1,Nice,Sep 25 2016
+19:45,Marseille,2,1,Nantes,Sep 25 2016
+19:45,Rennes,1,0,Guingamp,Sep 30 2016
+16:00,Angers,0,1,Marseille,Mei 1 2016
+20:00,Nice,2,0,Saint-Etienne,Mei 7 2016
+20:00,Marseille,1,0,Reims,Mei 7 2016
+20:00,Bordeaux,3,0,Lorient,Mei 7 2016
+20:00,Nantes,1,2,Caen,Mei 7 2016
+20:00,GFC Ajaccio,0,4,Paris Saint-Germain,Mei 7 2016
+20:00,Lille,0,0,Guingamp,Mei 7 2016
+20:00,Montpellier,2,0,Rennes,Mei 7 2016
+20:00,Toulouse,1,0,Troyes,Mei 7 2016
+20:00,SC Bastia,1,0,Angers,Mei 7 2016
+20:00,Lyon,6,1,Monaco,Mei 7 2016
+19:30,Bordeaux,1,1,Paris Saint-Germain,Mei 11 2016
+20:00,Monaco,2,0,Montpellier,Mei 14 2016
+20:00,Saint-Etienne,0,1,Lille,Mei 14 2016
+20:00,Guingamp,2,3,Nice,Mei 14 2016
+20:00,Troyes,1,1,Marseille,Mei 14 2016
+20:00,Lorient,1,0,GFC Ajaccio,Mei 14 2016
+20:00,Paris Saint-Germain,4,0,Nantes,Mei 14 2016
+20:00,Caen,1,0,Bordeaux,Mei 14 2016
+20:00,Reims,4,1,Lyon,Mei 14 2016
+20:00,Rennes,1,2,SC Bastia,Mei 14 2016
+20:00,Angers,2,3,Toulouse,Mei 14 2016
+19:30,Monaco,1,2,Bordeaux,Apr 1 2016
+16:00,Paris Saint-Germain,4,1,Nice,Apr 2 2016
+19:00,GFC Ajaccio,0,2,Saint-Etienne,Apr 2 2016
+19:00,Guingamp,2,2,Montpellier,Apr 2 2016
+19:00,Troyes,0,1,Angers,Apr 2 2016
+19:00,Rennes,3,1,Reims,Apr 2 2016
+19:00,Toulouse,2,0,Caen,Apr 2 2016
+13:00,Nantes,0,3,Lille,Apr 3 2016
+16:00,SC Bastia,2,1,Marseille,Apr 3 2016
+20:00,Lorient,1,3,Lyon,Apr 3 2016
+19:30,Montpellier,0,2,Lyon,Apr 8 2016
+16:00,Guingamp,0,2,Paris Saint-Germain,Apr 9 2016
+19:00,Angers,0,0,GFC Ajaccio,Apr 9 2016
+19:00,Saint-Etienne,1,0,Troyes,Apr 9 2016
+19:00,Caen,1,2,Lorient,Apr 9 2016
+19:00,Reims,2,1,Nantes,Apr 9 2016
+19:00,Toulouse,4,0,SC Bastia,Apr 9 2016
+13:00,Lille,4,1,Monaco,Apr 10 2016
+16:00,Nice,3,0,Rennes,Apr 10 2016
+20:00,Marseille,0,0,Bordeaux,Apr 10 2016
+19:30,Lyon,1,1,Nice,Apr 15 2016
+16:00,Paris Saint-Germain,6,0,Caen,Apr 16 2016
+19:00,SC Bastia,0,1,Saint-Etienne,Apr 16 2016
+19:00,Bordeaux,1,3,Angers,Apr 16 2016
+19:00,Lorient,1,1,Toulouse,Apr 16 2016
+19:00,GFC Ajaccio,2,4,Lille,Apr 16 2016
+19:00,Troyes,2,1,Reims,Apr 16 2016
+13:00,Nantes,0,2,Montpellier,Apr 17 2016
+16:00,Rennes,0,3,Guingamp,Apr 17 2016
+20:00,Monaco,2,1,Marseille,Apr 17 2016
+19:30,Nice,2,0,Reims,Apr 22 2016
+16:30,Toulouse,2,3,Lyon,Apr 23 2016
+13:00,Marseille,1,1,Nantes,Apr 24 2016
+16:00,Montpellier,4,1,Troyes,Apr 24 2016
+16:00,Saint-Etienne,2,0,Lorient,Apr 24 2016
+16:00,Guingamp,1,1,Caen,Apr 24 2016
+16:00,GFC Ajaccio,3,2,SC Bastia,Apr 24 2016
+20:00,Rennes,1,1,Monaco,Apr 24 2016
+17:30,Lille,0,0,Angers,Apr 27 2016
+19:30,Paris Saint-Germain,4,0,Rennes,Apr 29 2016
+13:00,Nantes,1,0,Nice,Apr 30 2016
+16:00,Saint-Etienne,0,0,Toulouse,Apr 30 2016
+18:00,Monaco,3,2,Guingamp,Apr 30 2016
+18:00,Troyes,2,4,Bordeaux,Apr 30 2016
+18:00,Reims,2,3,Montpellier,Apr 30 2016
+18:00,Lorient,0,1,Lille,Apr 30 2016
+18:00,Caen,0,0,SC Bastia,Apr 30 2016
+20:00,Lyon,2,1,GFC Ajaccio,Apr 30 2016
+19:30,Caen,2,2,Monaco,Mac 4 2016
+16:00,Paris Saint-Germain,0,0,Montpellier,Mac 5 2016
+19:00,SC Bastia,0,0,Lorient,Mac 5 2016
+19:00,Angers,0,0,Saint-Etienne,Mac 5 2016
+19:00,Bordeaux,1,1,GFC Ajaccio,Mac 5 2016
+19:00,Lille,2,0,Reims,Mac 5 2016
+19:00,Nice,2,1,Troyes,Mac 5 2016
+13:00,Marseille,1,1,Toulouse,Mac 6 2016
+16:00,Rennes,4,1,Nantes,Mac 6 2016
+20:00,Lyon,5,1,Guingamp,Mac 6 2016
+17:30,SC Bastia,0,0,Nantes,Mac 9 2016
+17:30,GFC Ajaccio,1,1,Marseille,Mac 9 2016
+19:30,Monaco,2,2,Reims,Mac 11 2016
+16:00,Lorient,1,1,Marseille,Mac 12 2016
+19:00,GFC Ajaccio,1,0,Caen,Mac 12 2016
+19:00,Guingamp,2,0,Saint-Etienne,Mac 12 2016
+19:00,Montpellier,0,2,Nice,Mac 12 2016
+19:00,SC Bastia,1,2,Lille,Mac 12 2016
+19:00,Toulouse,4,0,Bordeaux,Mac 12 2016
+13:00,Troyes,0,9,Paris Saint-Germain,Mac 13 2016
+16:00,Nantes,2,0,Angers,Mac 13 2016
+20:00,Rennes,2,2,Lyon,Mac 13 2016
+19:30,Marseille,2,5,Rennes,Mac 18 2016
+16:00,Saint-Etienne,3,0,Montpellier,Mac 19 2016
+19:00,Angers,5,1,Lorient,Mac 19 2016
+19:00,Lille,1,0,Toulouse,Mac 19 2016
+19:00,Caen,2,1,Troyes,Mac 19 2016
+19:00,Reims,0,1,Guingamp,Mac 19 2016
+20:00,Lyon,2,0,Nantes,Mac 19 2016
+13:00,Bordeaux,1,1,SC Bastia,Mac 20 2016
+16:00,Nice,3,0,GFC Ajaccio,Mac 20 2016
+20:00,Paris Saint-Germain,0,2,Monaco,Mac 20 2016
+18:00,Monaco,2,0,SC Bastia,Feb 2 2016
+20:00,Montpellier,0,1,Marseille,Feb 2 2016
+18:00,Nice,1,0,Toulouse,Feb 3 2016
+18:00,Lyon,3,0,Bordeaux,Feb 3 2016
+18:00,Guingamp,4,0,Troyes,Feb 3 2016
+18:00,Nantes,3,1,GFC Ajaccio,Feb 3 2016
+18:00,Lille,1,0,Caen,Feb 3 2016
+18:00,Reims,2,1,Angers,Feb 3 2016
+20:00,Paris Saint-Germain,3,1,Lorient,Feb 3 2016
+20:00,Rennes,0,1,Saint-Etienne,Feb 4 2016
+13:00,Monaco,1,0,Nice,Feb 6 2016
+16:00,Angers,0,3,Lyon,Feb 6 2016
+19:00,Lorient,1,1,Montpellier,Feb 6 2016
+19:00,GFC Ajaccio,0,0,Guingamp,Feb 6 2016
+19:00,SC Bastia,2,0,Troyes,Feb 6 2016
+19:00,Caen,0,2,Reims,Feb 6 2016
+19:00,Toulouse,0,0,Nantes,Feb 6 2016
+13:00,Lille,1,1,Rennes,Feb 7 2016
+16:00,Bordeaux,1,4,Saint-Etienne,Feb 7 2016
+20:00,Marseille,1,2,Paris Saint-Germain,Feb 7 2016
+19:30,Rennes,1,0,Angers,Feb 12 2016
+16:00,Paris Saint-Germain,0,0,Lille,Feb 13 2016
+19:00,Reims,0,1,SC Bastia,Feb 13 2016
+19:00,Guingamp,2,4,Bordeaux,Feb 13 2016
+19:00,Nantes,2,1,Lorient,Feb 13 2016
+19:00,Montpellier,2,0,Toulouse,Feb 13 2016
+19:00,GFC Ajaccio,2,3,Troyes,Feb 13 2016
+13:00,Lyon,4,1,Caen,Feb 14 2016
+16:00,Saint-Etienne,1,1,Monaco,Feb 14 2016
+20:00,Nice,1,1,Marseille,Feb 14 2016
+19:30,Bordeaux,0,0,Nice,Feb 19 2016
+16:00,Paris Saint-Germain,4,1,Reims,Feb 20 2016
+19:00,Lorient,4,3,Guingamp,Feb 20 2016
+19:00,Toulouse,1,1,GFC Ajaccio,Feb 20 2016
+19:00,Angers,2,3,Montpellier,Feb 20 2016
+19:00,Monaco,3,1,Troyes,Feb 20 2016
+13:00,Marseille,1,1,Saint-Etienne,Feb 21 2016
+16:00,Caen,1,0,Rennes,Feb 21 2016
+20:00,Lille,1,0,Lyon,Feb 21 2016
+19:30,Nice,0,2,SC Bastia,Feb 26 2016
+16:00,Montpellier,3,0,Lille,Feb 27 2016
+19:00,Reims,4,1,Bordeaux,Feb 27 2016
+19:00,Toulouse,1,2,Rennes,Feb 27 2016
+19:00,Guingamp,2,2,Angers,Feb 27 2016
+19:00,Troyes,0,1,Lorient,Feb 27 2016
+13:00,Nantes,0,0,Monaco,Feb 28 2016
+16:00,Saint-Etienne,1,2,Caen,Feb 28 2016
+20:00,Lyon,2,1,Paris Saint-Germain,Feb 28 2016
+19:30,Paris Saint-Germain,2,0,SC Bastia,Jan 8 2016
+16:00,Lyon,4,1,Troyes,Jan 9 2016
+19:00,Montpellier,0,1,Bordeaux,Jan 9 2016
+19:00,Reims,1,3,Toulouse,Jan 9 2016
+19:00,Rennes,2,2,Lorient,Jan 9 2016
+19:00,Angers,2,0,Caen,Jan 9 2016
+19:00,Monaco,2,2,GFC Ajaccio,Jan 9 2016
+13:00,Nantes,2,1,Saint-Etienne,Jan 10 2016
+16:00,Lille,1,1,Nice,Jan 10 2016
+20:00,Marseille,0,0,Guingamp,Jan 10 2016
+19:30,Nice,2,1,Angers,Jan 15 2016
+16:00,Toulouse,0,1,Paris Saint-Germain,Jan 16 2016
+19:00,SC Bastia,1,0,Montpellier,Jan 16 2016
+19:00,GFC Ajaccio,2,2,Reims,Jan 16 2016
+19:00,Guingamp,2,2,Nantes,Jan 16 2016
+19:00,Troyes,2,4,Rennes,Jan 16 2016
+19:00,Bordeaux,1,0,Lille,Jan 16 2016
+13:00,Lorient,0,2,Monaco,Jan 17 2016
+16:00,Caen,1,3,Marseille,Jan 17 2016
+20:00,Saint-Etienne,1,0,Lyon,Jan 17 2016
+19:30,Rennes,1,0,GFC Ajaccio,Jan 22 2016
+16:00,Paris Saint-Germain,5,1,Angers,Jan 23 2016
+19:00,Guingamp,1,0,SC Bastia,Jan 23 2016
+19:00,Nantes,2,2,Bordeaux,Jan 23 2016
+19:00,Lille,1,3,Troyes,Jan 23 2016
+19:00,Montpellier,1,2,Caen,Jan 23 2016
+19:00,Nice,2,1,Lorient,Jan 23 2016
+13:00,Monaco,4,0,Toulouse,Jan 24 2016
+16:00,Reims,1,1,Saint-Etienne,Jan 24 2016
+20:00,Lyon,1,1,Marseille,Jan 24 2016
+19:30,Marseille,1,1,Lille,Jan 29 2016
+16:00,Angers,3,0,Monaco,Jan 30 2016
+19:00,Troyes,0,1,Nantes,Jan 30 2016
+19:00,Lorient,2,0,Reims,Jan 30 2016
+19:00,GFC Ajaccio,0,4,Montpellier,Jan 30 2016
+19:00,SC Bastia,1,0,Lyon,Jan 30 2016
+19:00,Toulouse,1,2,Guingamp,Jan 30 2016
+13:00,Caen,2,0,Nice,Jan 31 2016
+16:00,Bordeaux,4,0,Rennes,Jan 31 2016
+20:00,Saint-Etienne,0,2,Paris Saint-Germain,Jan 31 2016
+18:00,Angers,0,0,Paris Saint-Germain,Des 1 2015
+18:00,Lorient,0,0,Nice,Des 1 2015
+20:00,Nantes,0,0,Lyon,Des 1 2015
+18:00,Troyes,0,3,Toulouse,Des 2 2015
+18:00,Monaco,1,1,Caen,Des 2 2015
+18:00,Montpellier,0,2,GFC Ajaccio,Des 2 2015
+18:00,SC Bastia,1,0,Bordeaux,Des 2 2015
+18:00,Guingamp,1,2,Reims,Des 2 2015
+20:00,Lille,1,0,Saint-Etienne,Des 2 2015
+20:00,Rennes,0,1,Marseille,Des 3 2015
+19:30,Nice,0,3,Paris Saint-Germain,Des 4 2015
+16:00,Lyon,0,2,Angers,Des 5 2015
+19:00,Reims,1,1,Troyes,Des 5 2015
+19:00,Toulouse,2,3,Lorient,Des 5 2015
+19:00,SC Bastia,1,2,Monaco,Des 5 2015
+19:00,Caen,1,2,Lille,Des 5 2015
+19:00,GFC Ajaccio,1,1,Nantes,Des 5 2015
+13:00,Marseille,2,2,Montpellier,Des 6 2015
+16:00,Bordeaux,1,0,Guingamp,Des 6 2015
+20:00,Saint-Etienne,1,1,Rennes,Des 6 2015
+19:30,Rennes,1,1,Caen,Des 11 2015
+15:00,Reims,1,1,Nice,Des 12 2015
+19:00,Nantes,1,1,Toulouse,Des 12 2015
+19:00,Montpellier,2,1,Guingamp,Des 12 2015
+19:00,Troyes,1,1,SC Bastia,Des 12 2015
+19:00,Lille,3,0,Lorient,Des 12 2015
+13:00,Monaco,1,0,Saint-Etienne,Des 13 2015
+16:00,Marseille,1,1,GFC Ajaccio,Des 13 2015
+16:00,Angers,1,1,Bordeaux,Des 13 2015
+20:00,Paris Saint-Germain,5,1,Lyon,Des 13 2015
+19:30,Nice,1,0,Montpellier,Des 18 2015
+16:00,Caen,0,3,Paris Saint-Germain,Des 19 2015
+19:00,SC Bastia,2,0,Reims,Des 19 2015
+19:00,Guingamp,0,2,Rennes,Des 19 2015
+19:00,Lorient,0,0,Nantes,Des 19 2015
+19:00,Toulouse,1,1,Lille,Des 19 2015
+19:00,Troyes,0,0,Monaco,Des 19 2015
+13:00,Saint-Etienne,1,0,Angers,Des 20 2015
+16:00,GFC Ajaccio,2,1,Lyon,Des 20 2015
+20:00,Bordeaux,1,1,Marseille,Des 20 2015
+13:00,Nice,0,0,Lille,Nov 1 2015
+16:00,Monaco,1,0,Angers,Nov 1 2015
+20:00,Nantes,0,1,Marseille,Nov 1 2015
+17:30,Nice,1,2,Nantes,Nov 4 2015
+19:30,Angers,0,2,Rennes,Nov 6 2015
+16:00,Paris Saint-Germain,5,0,Toulouse,Nov 7 2015
+19:00,Montpellier,2,1,Nantes,Nov 7 2015
+19:00,Lorient,4,1,Troyes,Nov 7 2015
+19:00,Caen,2,1,Guingamp,Nov 7 2015
+19:00,Lille,1,1,SC Bastia,Nov 7 2015
+19:00,Reims,1,2,GFC Ajaccio,Nov 7 2015
+16:00,Marseille,0,1,Nice,Nov 8 2015
+20:00,Lyon,3,0,Saint-Etienne,Nov 8 2015
+20:00,Bordeaux,3,1,Monaco,Nov 8 2015
+19:30,Nice,3,0,Lyon,Nov 20 2015
+16:00,Lorient,1,2,Paris Saint-Germain,Nov 21 2015
+19:00,Guingamp,2,0,Toulouse,Nov 21 2015
+19:00,Montpellier,3,1,Reims,Nov 21 2015
+19:00,Monaco,1,0,Nantes,Nov 21 2015
+19:00,Troyes,1,1,Lille,Nov 21 2015
+13:00,SC Bastia,1,2,GFC Ajaccio,Nov 22 2015
+13:00,Caen,0,0,Angers,Nov 22 2015
+16:00,Rennes,2,2,Bordeaux,Nov 22 2015
+20:00,Saint-Etienne,0,2,Marseille,Nov 22 2015
+19:30,Lyon,2,4,Montpellier,Nov 27 2015
+16:00,Paris Saint-Germain,4,1,Troyes,Nov 28 2015
+19:00,Nantes,0,0,SC Bastia,Nov 28 2015
+19:00,GFC Ajaccio,1,1,Lorient,Nov 28 2015
+19:00,Toulouse,2,0,Nice,Nov 28 2015
+19:00,Reims,2,2,Rennes,Nov 28 2015
+19:00,Angers,2,0,Lille,Nov 28 2015
+13:00,Saint-Etienne,3,0,Guingamp,Nov 29 2015
+16:00,Bordeaux,1,4,Caen,Nov 29 2015
+20:00,Marseille,3,3,Monaco,Nov 29 2015
+19:30,Lille,2,0,Montpellier,Okt 2 2015
+16:30,Lyon,1,0,Reims,Okt 3 2015
+19:00,Troyes,0,1,Guingamp,Okt 3 2015
+19:00,Nice,2,2,Nantes,Okt 3 2015
+19:00,Angers,1,0,SC Bastia,Okt 3 2015
+19:00,GFC Ajaccio,2,2,Toulouse,Okt 3 2015
+13:00,Monaco,1,1,Rennes,Okt 4 2015
+16:00,Caen,1,0,Saint-Etienne,Okt 4 2015
+16:00,Lorient,3,2,Bordeaux,Okt 4 2015
+20:00,Paris Saint-Germain,2,1,Marseille,Okt 4 2015
+19:30,Monaco,1,1,Lyon,Okt 16 2015
+16:00,SC Bastia,0,2,Paris Saint-Germain,Okt 17 2015
+19:00,Nantes,3,0,Troyes,Okt 17 2015
+19:00,Reims,0,1,Caen,Okt 17 2015
+19:00,Saint-Etienne,2,0,GFC Ajaccio,Okt 17 2015
+19:00,Toulouse,1,2,Angers,Okt 17 2015
+19:00,Guingamp,1,1,Lille,Okt 17 2015
+13:00,Marseille,1,1,Lorient,Okt 18 2015
+16:00,Bordeaux,0,0,Montpellier,Okt 18 2015
+20:00,Rennes,1,4,Nice,Okt 18 2015
+17:30,Caen,0,2,Nantes,Okt 23 2015
+19:30,Lyon,3,0,Toulouse,Okt 23 2015
+16:00,Lorient,1,1,Rennes,Okt 24 2015
+19:00,GFC Ajaccio,3,1,Nice,Okt 24 2015
+19:00,Montpellier,2,0,SC Bastia,Okt 24 2015
+19:00,Angers,0,0,Guingamp,Okt 24 2015
+13:00,Reims,0,1,Monaco,Okt 25 2015
+16:00,Lille,1,2,Marseille,Okt 25 2015
+16:00,Bordeaux,1,0,Troyes,Okt 25 2015
+20:00,Paris Saint-Germain,4,1,Saint-Etienne,Okt 25 2015
+19:30,Rennes,0,1,Paris Saint-Germain,Okt 30 2015
+16:00,Saint-Etienne,3,0,Reims,Okt 31 2015
+19:00,SC Bastia,1,0,Caen,Okt 31 2015
+19:00,GFC Ajaccio,2,0,Bordeaux,Okt 31 2015
+19:00,Guingamp,2,2,Lorient,Okt 31 2015
+19:00,Troyes,0,1,Lyon,Okt 31 2015
+19:00,Toulouse,1,1,Montpellier,Okt 31 2015
+19:30,Paris Saint-Germain,2,2,Bordeaux,Sep 11 2015
+16:00,Lyon,0,0,Lille,Sep 12 2015
+19:00,Montpellier,1,2,Saint-Etienne,Sep 12 2015
+19:00,Lorient,3,1,Angers,Sep 12 2015
+19:00,Toulouse,2,2,Reims,Sep 12 2015
+19:00,Troyes,1,3,Caen,Sep 12 2015
+19:00,Nice,0,1,Guingamp,Sep 12 2015
+13:00,GFC Ajaccio,0,1,Monaco,Sep 13 2015
+16:00,Nantes,0,2,Rennes,Sep 13 2015
+20:00,Marseille,4,1,SC Bastia,Sep 13 2015
+19:30,Rennes,1,1,Lille,Sep 18 2015
+16:30,Reims,1,1,Paris Saint-Germain,Sep 19 2015
+19:00,Angers,1,0,Troyes,Sep 19 2015
+19:00,SC Bastia,1,3,Nice,Sep 19 2015
+19:00,Caen,2,1,Montpellier,Sep 19 2015
+19:00,Guingamp,2,1,GFC Ajaccio,Sep 19 2015
+13:00,Bordeaux,1,1,Toulouse,Sep 20 2015
+16:00,Monaco,2,3,Lorient,Sep 20 2015
+16:00,Saint-Etienne,2,0,Nantes,Sep 20 2015
+20:00,Marseille,1,1,Lyon,Sep 20 2015
+18:00,Angers,0,0,Reims,Sep 22 2015
+20:00,Paris Saint-Germain,3,0,Guingamp,Sep 22 2015
+18:00,Troyes,0,1,Saint-Etienne,Sep 23 2015
+18:00,Nice,6,1,Bordeaux,Sep 23 2015
+18:00,Lorient,2,0,Caen,Sep 23 2015
+18:00,Lyon,2,0,SC Bastia,Sep 23 2015
+18:00,GFC Ajaccio,1,1,Rennes,Sep 23 2015
+20:00,Toulouse,1,1,Marseille,Sep 23 2015
+17:55,Montpellier,2,3,Monaco,Sep 24 2015
+19:30,Reims,1,0,Lille,Sep 25 2015
+16:30,Nantes,1,4,Paris Saint-Germain,Sep 26 2015
+19:00,Rennes,1,1,Troyes,Sep 26 2015
+19:00,SC Bastia,3,0,Toulouse,Sep 26 2015
+19:00,Bordeaux,3,1,Lyon,Sep 26 2015
+19:00,Caen,2,0,GFC Ajaccio,Sep 26 2015
+13:00,Marseille,1,2,Angers,Sep 27 2015
+16:00,Montpellier,2,1,Lorient,Sep 27 2015
+16:00,Guingamp,3,3,Monaco,Sep 27 2015
+20:00,Saint-Etienne,1,4,Nice,Sep 27 2015
+17:30,Lille,0,1,Nantes,Sep 29 2015

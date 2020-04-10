@@ -1,5 +1,5 @@
 from selenium import webdriver
-from time import sleep
+from time import sleep, time
 import csv
 
 MAIN_URL = 'https://1xbet.whoscored.com/'
@@ -51,8 +51,10 @@ class ParsePlayersScore(WhoScoredParser):
             writer.writeheader()
             # Crawl pages
             span = self.driver.find_element_by_id("statistics-paging-summary").find_element_by_tag_name("b").text
-            for page in range(int(span[span.find('/') + 1: span.find('|') - 1])):
-                # Through the raws
+            max_page = int(span[span.find('/') + 1: span.find('|') - 1])
+            for page in range(max_page):
+                # Through the rows
+                print(f"Collecting data: page {page + 1}/{max_page}...")
                 for tr in self.PLAYER_TABLE:
                     player = tr.find_elements_by_tag_name("td")
                     row = {
@@ -93,8 +95,9 @@ class ParseLeagueResults (WhoScoredParser):
 
     def parse_leagues(self):
         for league_num in range(len(self.TABLE_BUTTONS)):
+            print(f"Collecting data: {league_num / len(self.TABLE_BUTTONS) * 100} %...")
             league_name = self.TABLE_BUTTONS[league_num].text
-            print(league_name)
+            # print(league_name)
             # click league
             self.TABLE_BUTTONS[league_num].click()
             # click "Fixtures" button
@@ -133,10 +136,9 @@ class ParseLeagueResults (WhoScoredParser):
                                 "ResultTeamAway": match_info[4].text[match_info[4].text.find(':') + 2:].rstrip('*'),
                                 "TeamAway": match_info[5].find_element_by_tag_name('a').text,
                                 "Date": date
-
                             }
                             writer.writerow(match)
-                            print(match)
+                            # print(match)
                         # make exception for CL and EL
                         flag = False
                         if len(self.driver.find_elements_by_id('date-controller')) == 0:
@@ -153,19 +155,27 @@ class ParseLeagueResults (WhoScoredParser):
                     sleep(3)
                     self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[1].click()
             self.find_leagues_buttons()
+        print("Collecting data: 100 %...")
 
 
 def main():
-    # driver = webdriver.Chrome()
-    driver = webdriver.Chrome("/Users/sanduser/PycharmProjects/Parser/chromedriver")
+    times = []
+    driver = webdriver.Chrome()
+    # driver = webdriver.Chrome("/Users/sanduser/PycharmProjects/Parser/chromedriver")
     # Parsing players scores
-    #ParsePlayers = ParsePlayersScore(driver)
-    #ParsePlayers.accept_cookies()
-    #ParsePlayers.start_parse()
+    start_time = time()
+    # ParsePlayers = ParsePlayersScore(driver)
+    # ParsePlayers.accept_cookies()
+    # ParsePlayers.start_parse()
+    # times.append(time() - start_time)
     # Parsing match results
-    Parser = ParseLeagueResults(driver)
-    Parser.accept_cookies()
-    Parser.start_parse()
+    start_time = time()
+    ParserLeagues = ParseLeagueResults(driver)
+    ParserLeagues.accept_cookies()
+    ParserLeagues.start_parse()
+    times.append(time() - start_time)
+    # print(f"ParsePlayers - {times[0]}\nParserLeagues - {times[1]}")
+    print(f"ParserLeagues - {times[0]}")
 
 
 if __name__ == '__main__':

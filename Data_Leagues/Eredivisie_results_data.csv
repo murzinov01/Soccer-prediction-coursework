@@ -1,0 +1,493 @@
+Time,TeamHome,ResultTeamHome,ResultTeamAway,TeamAway,Date
+11:15,RKC Waalwijk,2,1,FC Utrecht,Mac 1 2020
+13:30,PSV Eindhoven,1,1,Feyenoord,Mac 1 2020
+15:45,Sparta Rotterdam,5,1,FC Emmen,Mac 1 2020
+19:00,Ajax,0,2,AZ Alkmaar,Mac 1 2020
+19:00,Fortuna Sittard,1,1,PEC Zwolle,Mac 6 2020
+17:30,AZ Alkmaar,4,0,ADO Den Haag,Mac 7 2020
+18:45,Vitesse,1,0,Twente,Mac 7 2020
+18:45,FC Emmen,3,0,VVV-Venlo,Mac 7 2020
+19:45,SC Heerenveen,1,3,Ajax,Mac 7 2020
+11:15,FC Utrecht,5,1,Sparta Rotterdam,Mac 8 2020
+13:30,Heracles,4,2,RKC Waalwijk,Mac 8 2020
+13:30,Feyenoord,2,0,Willem II,Mac 8 2020
+15:45,FC Groningen,0,1,PSV Eindhoven,Mac 8 2020
+17:30,ADO Den Haag,0,0,Vitesse,Feb 1 2020
+18:45,Feyenoord,3,0,FC Emmen,Feb 1 2020
+18:45,Twente,2,0,Sparta Rotterdam,Feb 1 2020
+19:45,PEC Zwolle,1,0,FC Groningen,Feb 1 2020
+11:15,Willem II,1,0,Heracles,Feb 2 2020
+13:30,Fortuna Sittard,2,1,SC Heerenveen,Feb 2 2020
+13:30,VVV-Venlo,1,1,FC Utrecht,Feb 2 2020
+15:45,Ajax,1,0,PSV Eindhoven,Feb 2 2020
+19:00,Heracles,2,0,Fortuna Sittard,Feb 7 2020
+17:30,FC Groningen,1,0,Vitesse,Feb 8 2020
+18:45,PSV Eindhoven,3,0,Willem II,Feb 8 2020
+18:45,SC Heerenveen,1,1,VVV-Venlo,Feb 8 2020
+19:45,RKC Waalwijk,0,0,PEC Zwolle,Feb 8 2020
+17:30,FC Emmen,2,0,Twente,Feb 11 2020
+19:45,Sparta Rotterdam,4,2,ADO Den Haag,Feb 11 2020
+19:00,VVV-Venlo,1,0,Heracles,Feb 14 2020
+17:30,Twente,2,0,AZ Alkmaar,Feb 15 2020
+18:45,ADO Den Haag,0,3,PSV Eindhoven,Feb 15 2020
+19:45,Fortuna Sittard,0,0,FC Emmen,Feb 15 2020
+11:15,Vitesse,4,2,SC Heerenveen,Feb 16 2020
+13:30,Sparta Rotterdam,1,2,FC Groningen,Feb 16 2020
+13:30,Ajax,3,0,RKC Waalwijk,Feb 16 2020
+15:45,PEC Zwolle,3,4,Feyenoord,Feb 16 2020
+15:45,Willem II,1,1,FC Utrecht,Feb 16 2020
+19:00,RKC Waalwijk,0,1,Sparta Rotterdam,Feb 21 2020
+17:30,FC Emmen,4,2,Willem II,Feb 22 2020
+18:45,Feyenoord,2,1,Fortuna Sittard,Feb 22 2020
+18:45,SC Heerenveen,2,2,ADO Den Haag,Feb 22 2020
+19:45,FC Groningen,0,1,VVV-Venlo,Feb 22 2020
+11:15,FC Utrecht,2,1,Twente,Feb 23 2020
+13:30,Vitesse,1,2,PSV Eindhoven,Feb 23 2020
+13:30,AZ Alkmaar,2,0,PEC Zwolle,Feb 23 2020
+15:45,Heracles,1,0,Ajax,Feb 23 2020
+19:00,Willem II,3,1,FC Groningen,Feb 28 2020
+17:30,ADO Den Haag,0,0,Heracles,Feb 29 2020
+18:45,VVV-Venlo,0,0,Fortuna Sittard,Feb 29 2020
+18:45,PEC Zwolle,4,3,Vitesse,Feb 29 2020
+19:45,Twente,2,3,SC Heerenveen,Feb 29 2020
+19:00,PEC Zwolle,3,3,FC Utrecht,Jan 17 2020
+17:30,Fortuna Sittard,1,3,Vitesse,Jan 18 2020
+18:45,Twente,0,0,FC Groningen,Jan 18 2020
+18:45,Feyenoord,3,1,SC Heerenveen,Jan 18 2020
+19:45,AZ Alkmaar,1,3,Willem II,Jan 18 2020
+11:15,VVV-Venlo,1,1,PSV Eindhoven,Jan 19 2020
+13:30,Ajax,2,1,Sparta Rotterdam,Jan 19 2020
+13:30,FC Emmen,1,0,Heracles,Jan 19 2020
+15:45,ADO Den Haag,2,0,RKC Waalwijk,Jan 19 2020
+19:00,FC Utrecht,4,0,ADO Den Haag,Jan 24 2020
+17:30,SC Heerenveen,1,2,AZ Alkmaar,Jan 25 2020
+18:45,RKC Waalwijk,1,2,VVV-Venlo,Jan 25 2020
+18:45,Heracles,2,3,Feyenoord,Jan 25 2020
+19:45,Sparta Rotterdam,1,1,Fortuna Sittard,Jan 25 2020
+11:15,Vitesse,1,1,FC Emmen,Jan 26 2020
+13:30,FC Groningen,2,1,Ajax,Jan 26 2020
+13:30,Willem II,0,0,PEC Zwolle,Jan 26 2020
+15:45,PSV Eindhoven,1,1,Twente,Jan 26 2020
+19:00,AZ Alkmaar,4,0,RKC Waalwijk,Jan 31 2020
+11:15,Twente,2,5,Ajax,Des 1 2019
+13:30,FC Utrecht,0,1,RKC Waalwijk,Des 1 2019
+15:45,AZ Alkmaar,1,0,VVV-Venlo,Des 1 2019
+15:45,Feyenoord,1,0,PEC Zwolle,Des 1 2019
+19:00,FC Emmen,1,1,PSV Eindhoven,Des 1 2019
+19:15,Ajax,0,2,Willem II,Des 6 2019
+17:30,ADO Den Haag,0,0,Twente,Des 7 2019
+18:45,PSV Eindhoven,5,0,Fortuna Sittard,Des 7 2019
+18:45,VVV-Venlo,2,0,FC Emmen,Des 7 2019
+19:45,PEC Zwolle,0,3,AZ Alkmaar,Des 7 2019
+11:15,Vitesse,0,0,Feyenoord,Des 8 2019
+13:30,RKC Waalwijk,1,3,SC Heerenveen,Des 8 2019
+13:30,FC Groningen,0,1,FC Utrecht,Des 8 2019
+15:45,Sparta Rotterdam,0,0,Heracles,Des 8 2019
+19:00,SC Heerenveen,1,2,Willem II,Des 13 2019
+17:30,ADO Den Haag,1,1,FC Groningen,Des 14 2019
+18:45,Fortuna Sittard,3,2,RKC Waalwijk,Des 14 2019
+18:45,VVV-Venlo,1,2,PEC Zwolle,Des 14 2019
+19:45,Twente,0,3,Vitesse,Des 14 2019
+11:15,FC Emmen,2,0,Sparta Rotterdam,Des 15 2019
+13:30,Feyenoord,3,1,PSV Eindhoven,Des 15 2019
+15:45,Heracles,1,3,FC Utrecht,Des 15 2019
+15:45,AZ Alkmaar,1,0,Ajax,Des 15 2019
+19:00,RKC Waalwijk,3,0,Twente,Des 20 2019
+17:30,SC Heerenveen,1,1,Heracles,Des 21 2019
+18:45,Sparta Rotterdam,3,0,AZ Alkmaar,Des 21 2019
+18:45,PSV Eindhoven,4,1,PEC Zwolle,Des 21 2019
+19:45,Willem II,0,0,Fortuna Sittard,Des 21 2019
+11:15,Ajax,6,1,ADO Den Haag,Des 22 2019
+13:30,FC Utrecht,1,2,Feyenoord,Des 22 2019
+13:30,FC Groningen,2,0,FC Emmen,Des 22 2019
+15:45,Vitesse,3,0,VVV-Venlo,Des 22 2019
+19:00,PEC Zwolle,2,4,Ajax,Nov 1 2019
+17:30,RKC Waalwijk,2,0,Heracles,Nov 2 2019
+18:45,Sparta Rotterdam,2,2,PSV Eindhoven,Nov 2 2019
+19:45,AZ Alkmaar,3,0,Twente,Nov 2 2019
+11:15,FC Emmen,2,1,Vitesse,Nov 3 2019
+13:30,VVV-Venlo,0,3,Feyenoord,Nov 3 2019
+13:30,FC Utrecht,6,0,Fortuna Sittard,Nov 3 2019
+13:30,FC Groningen,2,0,Willem II,Nov 3 2019
+15:45,ADO Den Haag,1,1,SC Heerenveen,Nov 3 2019
+19:00,Vitesse,1,2,FC Groningen,Nov 8 2019
+17:30,SC Heerenveen,2,1,Sparta Rotterdam,Nov 9 2019
+18:45,Fortuna Sittard,1,0,ADO Den Haag,Nov 9 2019
+19:45,Heracles,6,1,VVV-Venlo,Nov 9 2019
+11:15,Ajax,4,0,FC Utrecht,Nov 10 2019
+13:30,Twente,2,1,PEC Zwolle,Nov 10 2019
+13:30,Willem II,2,1,PSV Eindhoven,Nov 10 2019
+15:45,Feyenoord,3,2,RKC Waalwijk,Nov 10 2019
+19:00,AZ Alkmaar,3,0,FC Emmen,Nov 10 2019
+17:30,FC Utrecht,0,3,AZ Alkmaar,Nov 23 2019
+18:45,PEC Zwolle,3,1,Fortuna Sittard,Nov 23 2019
+18:45,Ajax,4,1,Heracles,Nov 23 2019
+19:45,ADO Den Haag,3,3,Willem II,Nov 23 2019
+11:15,FC Groningen,1,1,Feyenoord,Nov 24 2019
+13:30,RKC Waalwijk,1,1,FC Emmen,Nov 24 2019
+13:30,PSV Eindhoven,2,1,SC Heerenveen,Nov 24 2019
+15:45,VVV-Venlo,2,1,Twente,Nov 24 2019
+15:45,Sparta Rotterdam,2,0,Vitesse,Nov 24 2019
+19:00,SC Heerenveen,3,2,Vitesse,Nov 29 2019
+17:30,Willem II,4,0,Sparta Rotterdam,Nov 30 2019
+18:45,Fortuna Sittard,1,0,FC Groningen,Nov 30 2019
+19:45,Heracles,4,0,ADO Den Haag,Nov 30 2019
+19:00,FC Groningen,3,0,RKC Waalwijk,Okt 4 2019
+17:30,Heracles,2,0,FC Emmen,Okt 5 2019
+18:45,Sparta Rotterdam,2,1,Twente,Okt 5 2019
+18:45,Vitesse,2,1,FC Utrecht,Okt 5 2019
+19:45,SC Heerenveen,1,0,PEC Zwolle,Okt 5 2019
+11:15,ADO Den Haag,0,2,Ajax,Okt 6 2019
+13:30,Fortuna Sittard,4,2,Feyenoord,Okt 6 2019
+15:45,Willem II,1,1,AZ Alkmaar,Okt 6 2019
+15:45,PSV Eindhoven,4,1,VVV-Venlo,Okt 6 2019
+17:30,AZ Alkmaar,2,4,SC Heerenveen,Okt 19 2019
+17:30,RKC Waalwijk,1,2,Ajax,Okt 19 2019
+18:45,Twente,0,1,Willem II,Okt 19 2019
+19:45,VVV-Venlo,0,4,Vitesse,Okt 19 2019
+19:45,FC Utrecht,3,0,PSV Eindhoven,Okt 19 2019
+11:15,PEC Zwolle,3,1,ADO Den Haag,Okt 20 2019
+13:30,FC Emmen,2,1,Fortuna Sittard,Okt 20 2019
+13:30,FC Groningen,2,0,Sparta Rotterdam,Okt 20 2019
+15:45,Feyenoord,1,1,Heracles,Okt 20 2019
+19:00,Twente,4,1,FC Emmen,Okt 25 2019
+17:30,Willem II,2,1,RKC Waalwijk,Okt 26 2019
+18:45,Vitesse,0,2,ADO Den Haag,Okt 26 2019
+19:15,Fortuna Sittard,4,1,VVV-Venlo,Okt 26 2019
+19:45,Heracles,4,0,PEC Zwolle,Okt 26 2019
+11:15,SC Heerenveen,1,1,FC Groningen,Okt 27 2019
+13:30,Sparta Rotterdam,1,2,FC Utrecht,Okt 27 2019
+13:30,PSV Eindhoven,0,4,AZ Alkmaar,Okt 27 2019
+15:45,Ajax,4,0,Feyenoord,Okt 27 2019
+11:15,Twente,3,1,FC Utrecht,Sep 1 2019
+13:30,Sparta Rotterdam,1,4,Ajax,Sep 1 2019
+15:45,Vitesse,2,1,AZ Alkmaar,Sep 1 2019
+15:45,Willem II,0,1,Feyenoord,Sep 1 2019
+19:00,RKC Waalwijk,1,3,PSV Eindhoven,Sep 1 2019
+17:30,AZ Alkmaar,5,1,Sparta Rotterdam,Sep 14 2019
+17:30,Ajax,4,1,SC Heerenveen,Sep 14 2019
+18:45,VVV-Venlo,2,1,FC Groningen,Sep 14 2019
+19:45,FC Utrecht,3,1,FC Emmen,Sep 14 2019
+19:45,PSV Eindhoven,5,0,Vitesse,Sep 14 2019
+11:15,PEC Zwolle,6,2,RKC Waalwijk,Sep 15 2019
+13:30,Feyenoord,3,2,ADO Den Haag,Sep 15 2019
+13:30,Heracles,4,1,Willem II,Sep 15 2019
+15:45,Fortuna Sittard,2,3,Twente,Sep 15 2019
+19:00,Twente,2,3,Heracles,Sep 20 2019
+17:30,Sparta Rotterdam,4,0,RKC Waalwijk,Sep 21 2019
+18:45,Willem II,1,0,VVV-Venlo,Sep 21 2019
+18:45,FC Groningen,2,0,PEC Zwolle,Sep 21 2019
+19:45,Vitesse,4,2,Fortuna Sittard,Sep 21 2019
+11:15,SC Heerenveen,1,1,FC Utrecht,Sep 22 2019
+13:30,FC Emmen,3,3,Feyenoord,Sep 22 2019
+15:45,PSV Eindhoven,1,1,Ajax,Sep 22 2019
+15:45,ADO Den Haag,0,1,AZ Alkmaar,Sep 22 2019
+17:30,PSV Eindhoven,3,1,FC Groningen,Sep 25 2019
+19:45,Ajax,5,0,Fortuna Sittard,Sep 25 2019
+19:00,Feyenoord,0,3,AZ Alkmaar,Sep 26 2019
+19:00,FC Emmen,3,0,ADO Den Haag,Sep 27 2019
+17:30,VVV-Venlo,0,3,SC Heerenveen,Sep 28 2019
+18:45,Ajax,2,0,FC Groningen,Sep 28 2019
+19:45,Fortuna Sittard,0,0,Sparta Rotterdam,Sep 28 2019
+11:15,RKC Waalwijk,1,2,Vitesse,Sep 29 2019
+13:30,FC Utrecht,2,0,Willem II,Sep 29 2019
+13:30,PEC Zwolle,0,4,PSV Eindhoven,Sep 29 2019
+15:45,Feyenoord,5,1,Twente,Sep 29 2019
+15:45,AZ Alkmaar,2,0,Heracles,Sep 29 2019
+17:30,Heracles,0,2,FC Utrecht,Mei 18 2019
+19:45,FC Groningen,2,1,Vitesse,Mei 18 2019
+17:30,FC Utrecht,3,0,Heracles,Mei 21 2019
+19:45,Vitesse,3,1,FC Groningen,Mei 21 2019
+19:45,FC Utrecht,1,1,Vitesse,Mei 24 2019
+19:45,Vitesse,0,2,FC Utrecht,Mei 28 2019
+13:30,SC Heerenveen,2,3,Feyenoord,Mei 6 2018
+13:30,FC Utrecht,1,0,VVV-Venlo,Mei 6 2018
+13:30,Sparta Rotterdam,2,5,Heracles,Mei 6 2018
+13:30,AZ Alkmaar,6,0,PEC Zwolle,Mei 6 2018
+13:30,Willem II,2,2,Vitesse,Mei 6 2018
+13:30,PSV Eindhoven,0,0,FC Groningen,Mei 6 2018
+13:30,Excelsior,1,2,Ajax,Mei 6 2018
+13:30,Roda,2,3,ADO Den Haag,Mei 6 2018
+13:30,Twente,1,1,NAC Breda,Mei 6 2018
+11:30,VVV-Venlo,0,0,Twente,Apr 1 2018
+13:30,Heracles,1,2,SC Heerenveen,Apr 1 2018
+13:30,FC Groningen,1,2,Ajax,Apr 1 2018
+15:45,Feyenoord,5,0,Excelsior,Apr 1 2018
+19:00,Excelsior,2,1,Willem II,Apr 6 2018
+17:30,NAC Breda,1,0,Vitesse,Apr 7 2018
+18:45,Roda,3,2,PEC Zwolle,Apr 7 2018
+18:45,AZ Alkmaar,2,3,PSV Eindhoven,Apr 7 2018
+19:45,Sparta Rotterdam,3,2,VVV-Venlo,Apr 7 2018
+11:30,FC Utrecht,3,3,ADO Den Haag,Apr 8 2018
+13:30,SC Heerenveen,1,1,FC Groningen,Apr 8 2018
+13:30,Twente,1,3,Feyenoord,Apr 8 2018
+15:45,Ajax,1,0,Heracles,Apr 8 2018
+19:00,Heracles,0,3,AZ Alkmaar,Apr 13 2018
+17:30,ADO Den Haag,2,1,Twente,Apr 14 2018
+18:45,Vitesse,7,0,Sparta Rotterdam,Apr 14 2018
+18:45,VVV-Venlo,0,2,SC Heerenveen,Apr 14 2018
+19:45,PEC Zwolle,1,1,Excelsior,Apr 14 2018
+11:30,NAC Breda,1,2,Willem II,Apr 15 2018
+13:30,Feyenoord,3,1,FC Utrecht,Apr 15 2018
+13:30,FC Groningen,2,1,Roda,Apr 15 2018
+15:45,PSV Eindhoven,3,0,Ajax,Apr 15 2018
+17:30,Twente,2,0,PEC Zwolle,Apr 17 2018
+19:45,SC Heerenveen,2,0,ADO Den Haag,Apr 17 2018
+17:30,AZ Alkmaar,4,3,Vitesse,Apr 18 2018
+17:30,Roda,2,2,PSV Eindhoven,Apr 18 2018
+18:45,Excelsior,2,2,Heracles,Apr 18 2018
+19:45,Sparta Rotterdam,2,1,NAC Breda,Apr 18 2018
+19:45,Willem II,1,5,Feyenoord,Apr 18 2018
+17:30,FC Utrecht,1,1,FC Groningen,Apr 19 2018
+19:45,Ajax,4,1,VVV-Venlo,Apr 19 2018
+13:30,Feyenoord,3,1,Sparta Rotterdam,Apr 29 2018
+13:30,NAC Breda,3,0,SC Heerenveen,Apr 29 2018
+13:30,PEC Zwolle,0,1,Willem II,Apr 29 2018
+13:30,Vitesse,5,0,Twente,Apr 29 2018
+13:30,Ajax,3,0,AZ Alkmaar,Apr 29 2018
+13:30,FC Groningen,4,0,Excelsior,Apr 29 2018
+13:30,Heracles,2,2,FC Utrecht,Apr 29 2018
+13:30,ADO Den Haag,3,3,PSV Eindhoven,Apr 29 2018
+13:30,VVV-Venlo,1,4,Roda,Apr 29 2018
+19:00,Roda,0,3,Heracles,Mac 2 2018
+17:30,PSV Eindhoven,3,0,FC Utrecht,Mac 3 2018
+17:30,Excelsior,1,2,AZ Alkmaar,Mac 3 2018
+19:45,SC Heerenveen,2,0,Willem II,Mac 3 2018
+19:45,NAC Breda,2,1,Feyenoord,Mac 3 2018
+11:30,PEC Zwolle,1,1,VVV-Venlo,Mac 4 2018
+13:30,Sparta Rotterdam,2,1,ADO Den Haag,Mac 4 2018
+13:30,Vitesse,3,2,Ajax,Mac 4 2018
+15:45,Twente,1,1,FC Groningen,Mac 4 2018
+19:00,Heracles,2,1,Twente,Mac 9 2018
+17:30,ADO Den Haag,0,2,NAC Breda,Mac 10 2018
+18:45,VVV-Venlo,2,3,Excelsior,Mac 10 2018
+18:45,Willem II,5,0,PSV Eindhoven,Mac 10 2018
+19:45,Roda,0,2,Sparta Rotterdam,Mac 10 2018
+11:30,FC Groningen,2,0,PEC Zwolle,Mac 11 2018
+13:30,FC Utrecht,5,1,Vitesse,Mac 11 2018
+13:30,Ajax,4,1,SC Heerenveen,Mac 11 2018
+15:45,Feyenoord,2,1,AZ Alkmaar,Mac 11 2018
+19:00,Excelsior,1,2,ADO Den Haag,Mac 16 2018
+17:30,Twente,2,2,Willem II,Mac 17 2018
+18:45,PSV Eindhoven,3,0,VVV-Venlo,Mac 17 2018
+18:45,Vitesse,0,0,Heracles,Mac 17 2018
+19:45,SC Heerenveen,2,2,FC Utrecht,Mac 17 2018
+11:30,AZ Alkmaar,3,2,FC Groningen,Mac 18 2018
+13:30,Sparta Rotterdam,2,5,Ajax,Mac 18 2018
+13:30,NAC Breda,0,1,Roda,Mac 18 2018
+15:45,PEC Zwolle,3,4,Feyenoord,Mac 18 2018
+17:30,PEC Zwolle,2,0,Sparta Rotterdam,Mac 31 2018
+17:30,Vitesse,0,3,Roda,Mac 31 2018
+18:45,PSV Eindhoven,5,1,NAC Breda,Mac 31 2018
+19:45,Willem II,3,2,FC Utrecht,Mac 31 2018
+19:45,ADO Den Haag,0,3,AZ Alkmaar,Mac 31 2018
+19:00,Vitesse,2,0,FC Groningen,Feb 2 2018
+17:30,SC Heerenveen,1,0,Twente,Feb 3 2018
+18:45,PSV Eindhoven,4,0,PEC Zwolle,Feb 3 2018
+19:45,Heracles,1,1,ADO Den Haag,Feb 3 2018
+11:30,Excelsior,2,2,FC Utrecht,Feb 4 2018
+13:30,Sparta Rotterdam,1,0,Willem II,Feb 4 2018
+13:30,VVV-Venlo,1,0,Feyenoord,Feb 4 2018
+13:30,AZ Alkmaar,2,2,Roda,Feb 4 2018
+15:45,Ajax,3,1,NAC Breda,Feb 4 2018
+19:45,PEC Zwolle,3,2,SC Heerenveen,Feb 6 2018
+17:30,FC Utrecht,1,0,Sparta Rotterdam,Feb 7 2018
+17:30,PSV Eindhoven,1,0,Excelsior,Feb 7 2018
+17:30,Twente,0,4,AZ Alkmaar,Feb 7 2018
+19:45,Willem II,3,0,VVV-Venlo,Feb 7 2018
+19:45,NAC Breda,6,1,Heracles,Feb 7 2018
+19:45,Roda,2,4,Ajax,Feb 7 2018
+17:30,ADO Den Haag,1,0,Vitesse,Feb 8 2018
+19:45,Feyenoord,3,0,FC Groningen,Feb 8 2018
+17:30,Heracles,1,0,Willem II,Feb 10 2018
+17:30,FC Utrecht,2,1,PEC Zwolle,Feb 10 2018
+18:45,Sparta Rotterdam,1,2,PSV Eindhoven,Feb 10 2018
+19:45,SC Heerenveen,1,1,Roda,Feb 10 2018
+19:45,AZ Alkmaar,0,0,VVV-Venlo,Feb 10 2018
+11:30,Ajax,2,1,Twente,Feb 11 2018
+13:30,Vitesse,3,1,Feyenoord,Feb 11 2018
+13:30,Excelsior,0,0,NAC Breda,Feb 11 2018
+15:45,FC Groningen,0,0,ADO Den Haag,Feb 11 2018
+19:00,VVV-Venlo,1,1,FC Groningen,Feb 16 2018
+17:30,Vitesse,1,2,Excelsior,Feb 17 2018
+18:45,NAC Breda,1,3,AZ Alkmaar,Feb 17 2018
+18:45,PSV Eindhoven,2,2,SC Heerenveen,Feb 17 2018
+19:45,ADO Den Haag,2,1,Willem II,Feb 17 2018
+11:30,Roda,1,4,FC Utrecht,Feb 18 2018
+13:30,Feyenoord,1,0,Heracles,Feb 18 2018
+13:30,Twente,1,1,Sparta Rotterdam,Feb 18 2018
+15:45,PEC Zwolle,0,1,Ajax,Feb 18 2018
+19:00,FC Groningen,1,1,NAC Breda,Feb 23 2018
+17:30,AZ Alkmaar,2,1,Sparta Rotterdam,Feb 24 2018
+18:45,SC Heerenveen,0,1,Excelsior,Feb 24 2018
+18:45,Heracles,2,1,PEC Zwolle,Feb 24 2018
+19:45,VVV-Venlo,2,2,Vitesse,Feb 24 2018
+11:30,Ajax,0,0,ADO Den Haag,Feb 25 2018
+13:30,Feyenoord,1,3,PSV Eindhoven,Feb 25 2018
+13:30,Willem II,1,0,Roda,Feb 25 2018
+15:45,FC Utrecht,3,1,Twente,Feb 25 2018
+19:00,Sparta Rotterdam,0,1,Vitesse,Jan 16 2018
+19:00,FC Utrecht,1,1,AZ Alkmaar,Jan 19 2018
+17:30,Roda,1,1,Twente,Jan 20 2018
+18:45,PEC Zwolle,1,0,NAC Breda,Jan 20 2018
+18:45,ADO Den Haag,1,1,VVV-Venlo,Jan 20 2018
+19:45,Vitesse,1,1,SC Heerenveen,Jan 20 2018
+11:30,Sparta Rotterdam,2,3,Excelsior,Jan 21 2018
+13:30,Ajax,2,0,Feyenoord,Jan 21 2018
+13:30,Willem II,1,1,FC Groningen,Jan 21 2018
+15:45,Heracles,1,2,PSV Eindhoven,Jan 21 2018
+19:00,FC Utrecht,1,1,Feyenoord,Jan 24 2018
+19:00,SC Heerenveen,2,1,Sparta Rotterdam,Jan 26 2018
+17:30,FC Groningen,3,3,Heracles,Jan 27 2018
+18:45,Twente,0,2,PSV Eindhoven,Jan 27 2018
+18:45,PEC Zwolle,1,2,Vitesse,Jan 27 2018
+19:45,NAC Breda,0,1,VVV-Venlo,Jan 27 2018
+11:30,FC Utrecht,0,0,Ajax,Jan 28 2018
+13:30,Feyenoord,3,1,ADO Den Haag,Jan 28 2018
+13:30,Roda,2,1,Excelsior,Jan 28 2018
+15:45,Willem II,0,2,AZ Alkmaar,Jan 28 2018
+19:00,PEC Zwolle,1,1,FC Utrecht,Des 1 2017
+17:30,ADO Den Haag,0,3,FC Groningen,Des 2 2017
+17:30,Twente,3,3,Ajax,Des 2 2017
+19:45,Feyenoord,1,0,Vitesse,Des 2 2017
+19:45,Willem II,3,1,Heracles,Des 2 2017
+11:30,VVV-Venlo,0,2,AZ Alkmaar,Des 3 2017
+13:30,PSV Eindhoven,1,0,Sparta Rotterdam,Des 3 2017
+13:30,Roda,2,1,SC Heerenveen,Des 3 2017
+15:45,NAC Breda,3,1,Excelsior,Des 3 2017
+19:00,Willem II,1,1,NAC Breda,Des 8 2017
+17:30,SC Heerenveen,2,2,VVV-Venlo,Des 9 2017
+18:45,AZ Alkmaar,5,0,Heracles,Des 9 2017
+18:45,Excelsior,1,2,PEC Zwolle,Des 9 2017
+19:45,Twente,2,3,ADO Den Haag,Des 9 2017
+11:30,Roda,2,2,FC Groningen,Des 10 2017
+16:00,Ajax,3,0,PSV Eindhoven,Des 10 2017
+17:30,NAC Breda,1,2,Twente,Des 12 2017
+19:45,PEC Zwolle,1,1,AZ Alkmaar,Des 12 2017
+17:30,Vitesse,2,2,Willem II,Des 13 2017
+17:30,FC Groningen,3,3,PSV Eindhoven,Des 13 2017
+18:45,VVV-Venlo,0,1,FC Utrecht,Des 13 2017
+19:45,Feyenoord,1,1,SC Heerenveen,Des 13 2017
+19:45,ADO Den Haag,3,2,Roda,Des 13 2017
+17:30,Heracles,3,2,Sparta Rotterdam,Des 14 2017
+19:45,Ajax,3,1,Excelsior,Des 14 2017
+17:30,SC Heerenveen,1,0,NAC Breda,Des 16 2017
+17:30,Willem II,2,3,PEC Zwolle,Des 16 2017
+18:45,PSV Eindhoven,3,0,ADO Den Haag,Des 16 2017
+19:45,Twente,1,1,Vitesse,Des 16 2017
+19:45,Roda,0,1,VVV-Venlo,Des 16 2017
+11:30,Sparta Rotterdam,0,7,Feyenoord,Des 17 2017
+13:30,AZ Alkmaar,1,2,Ajax,Des 17 2017
+13:30,FC Utrecht,1,1,Heracles,Des 17 2017
+15:45,Excelsior,2,0,FC Groningen,Des 17 2017
+19:00,ADO Den Haag,4,0,PEC Zwolle,Des 22 2017
+17:30,NAC Breda,3,1,FC Utrecht,Des 23 2017
+18:45,AZ Alkmaar,3,1,SC Heerenveen,Des 23 2017
+18:45,PSV Eindhoven,2,1,Vitesse,Des 23 2017
+19:45,Excelsior,0,0,Twente,Des 23 2017
+11:30,FC Groningen,4,0,Sparta Rotterdam,Des 24 2017
+13:30,Ajax,3,1,Willem II,Des 24 2017
+13:30,VVV-Venlo,3,1,Heracles,Des 24 2017
+15:45,Feyenoord,5,1,Roda,Des 24 2017
+19:00,Sparta Rotterdam,0,0,SC Heerenveen,Nov 3 2017
+17:30,AZ Alkmaar,3,2,Willem II,Nov 4 2017
+18:45,Excelsior,1,0,Roda,Nov 4 2017
+18:45,Heracles,2,1,FC Groningen,Nov 4 2017
+19:45,VVV-Venlo,0,0,NAC Breda,Nov 4 2017
+11:30,ADO Den Haag,2,2,Feyenoord,Nov 5 2017
+13:30,Ajax,1,2,FC Utrecht,Nov 5 2017
+13:30,Vitesse,0,0,PEC Zwolle,Nov 5 2017
+15:45,PSV Eindhoven,4,3,Twente,Nov 5 2017
+17:30,Twente,0,4,SC Heerenveen,Nov 18 2017
+17:30,Feyenoord,1,1,VVV-Venlo,Nov 18 2017
+19:45,NAC Breda,0,8,Ajax,Nov 18 2017
+19:45,Willem II,2,2,Sparta Rotterdam,Nov 18 2017
+11:30,ADO Den Haag,4,1,Heracles,Nov 19 2017
+13:30,PEC Zwolle,0,1,PSV Eindhoven,Nov 19 2017
+13:30,FC Utrecht,3,1,Excelsior,Nov 19 2017
+13:30,FC Groningen,4,2,Vitesse,Nov 19 2017
+15:45,Roda,0,1,AZ Alkmaar,Nov 19 2017
+19:00,AZ Alkmaar,2,0,Twente,Nov 24 2017
+17:30,VVV-Venlo,3,3,Willem II,Nov 25 2017
+18:45,Heracles,2,1,NAC Breda,Nov 25 2017
+18:45,FC Groningen,0,2,Feyenoord,Nov 25 2017
+19:45,SC Heerenveen,1,2,PEC Zwolle,Nov 25 2017
+11:30,Ajax,5,1,Roda,Nov 26 2017
+13:30,Excelsior,1,2,PSV Eindhoven,Nov 26 2017
+13:30,Sparta Rotterdam,1,3,FC Utrecht,Nov 26 2017
+15:45,Vitesse,2,0,ADO Den Haag,Nov 26 2017
+11:30,AZ Alkmaar,0,4,Feyenoord,Okt 1 2017
+13:30,SC Heerenveen,0,4,Ajax,Okt 1 2017
+13:30,Vitesse,1,1,FC Utrecht,Okt 1 2017
+15:45,Sparta Rotterdam,1,2,Roda,Okt 1 2017
+17:30,Roda,1,0,NAC Breda,Okt 14 2017
+17:30,Ajax,4,0,Sparta Rotterdam,Okt 14 2017
+19:45,Feyenoord,0,0,PEC Zwolle,Okt 14 2017
+19:45,FC Utrecht,3,1,SC Heerenveen,Okt 14 2017
+11:30,Heracles,1,1,Vitesse,Okt 15 2017
+13:30,Willem II,3,1,Twente,Okt 15 2017
+13:30,VVV-Venlo,2,5,PSV Eindhoven,Okt 15 2017
+13:30,FC Groningen,1,1,AZ Alkmaar,Okt 15 2017
+15:45,ADO Den Haag,1,2,Excelsior,Okt 15 2017
+19:00,FC Groningen,0,1,Willem II,Okt 20 2017
+17:30,NAC Breda,0,2,PEC Zwolle,Okt 21 2017
+18:45,Excelsior,1,1,Sparta Rotterdam,Okt 21 2017
+18:45,VVV-Venlo,0,2,ADO Den Haag,Okt 21 2017
+19:45,Twente,3,0,Roda,Okt 21 2017
+11:30,PSV Eindhoven,3,0,Heracles,Okt 22 2017
+13:30,Feyenoord,1,4,Ajax,Okt 22 2017
+13:30,AZ Alkmaar,3,0,FC Utrecht,Okt 22 2017
+15:45,SC Heerenveen,0,4,Vitesse,Okt 22 2017
+19:00,Twente,1,3,Excelsior,Okt 27 2017
+17:30,Heracles,3,0,VVV-Venlo,Okt 28 2017
+17:30,Roda,1,1,Feyenoord,Okt 28 2017
+19:45,Willem II,1,3,Ajax,Okt 28 2017
+19:45,PEC Zwolle,2,0,ADO Den Haag,Okt 28 2017
+11:30,Vitesse,2,4,PSV Eindhoven,Okt 29 2017
+13:30,FC Utrecht,2,2,NAC Breda,Okt 29 2017
+13:30,Sparta Rotterdam,2,1,FC Groningen,Okt 29 2017
+15:45,SC Heerenveen,1,2,AZ Alkmaar,Okt 29 2017
+17:30,Willem II,1,2,ADO Den Haag,Sep 9 2017
+17:30,Heracles,2,4,Feyenoord,Sep 9 2017
+19:45,Ajax,3,0,PEC Zwolle,Sep 9 2017
+19:45,Excelsior,0,3,Vitesse,Sep 9 2017
+11:30,SC Heerenveen,2,0,PSV Eindhoven,Sep 10 2017
+13:30,FC Utrecht,2,0,Roda,Sep 10 2017
+13:30,Sparta Rotterdam,1,0,Twente,Sep 10 2017
+13:30,AZ Alkmaar,2,1,NAC Breda,Sep 10 2017
+15:45,FC Groningen,1,1,VVV-Venlo,Sep 10 2017
+19:00,Sparta Rotterdam,0,2,AZ Alkmaar,Sep 15 2017
+17:30,Excelsior,1,2,SC Heerenveen,Sep 16 2017
+18:45,Roda,1,3,Willem II,Sep 16 2017
+18:45,NAC Breda,2,1,FC Groningen,Sep 16 2017
+19:45,PEC Zwolle,2,1,Heracles,Sep 16 2017
+13:30,ADO Den Haag,1,1,Ajax,Sep 17 2017
+13:30,Twente,4,0,FC Utrecht,Sep 17 2017
+15:45,PSV Eindhoven,1,0,Feyenoord,Sep 17 2017
+15:45,Vitesse,1,1,VVV-Venlo,Sep 17 2017
+17:30,Willem II,1,2,SC Heerenveen,Sep 23 2017
+18:45,Feyenoord,0,2,NAC Breda,Sep 23 2017
+18:45,Heracles,2,1,Roda,Sep 23 2017
+19:45,ADO Den Haag,1,0,Sparta Rotterdam,Sep 23 2017
+11:30,FC Utrecht,1,7,PSV Eindhoven,Sep 24 2017
+13:30,Ajax,1,2,Vitesse,Sep 24 2017
+13:30,VVV-Venlo,1,1,PEC Zwolle,Sep 24 2017
+13:30,FC Groningen,1,0,Twente,Sep 24 2017
+15:45,AZ Alkmaar,0,2,Excelsior,Sep 24 2017
+19:00,Twente,2,1,Heracles,Sep 29 2017
+17:30,NAC Breda,0,1,ADO Den Haag,Sep 30 2017
+18:45,PEC Zwolle,3,2,FC Groningen,Sep 30 2017
+18:45,PSV Eindhoven,4,0,Willem II,Sep 30 2017
+19:45,Excelsior,0,2,VVV-Venlo,Sep 30 2017
+17:30,SC Heerenveen,1,3,FC Utrecht,Mei 17 2017
+19:45,FC Groningen,1,4,AZ Alkmaar,Mei 17 2017
+17:30,FC Utrecht,2,1,SC Heerenveen,Mei 20 2017
+19:45,AZ Alkmaar,4,1,FC Groningen,Mei 20 2017
+19:45,AZ Alkmaar,3,0,FC Utrecht,Mei 25 2017
+11:30,FC Utrecht,3,0,AZ Alkmaar,Mei 28 2017
+17:30,FC Groningen,2,1,Heracles,Mei 12 2016
+19:45,PEC Zwolle,0,0,FC Utrecht,Mei 12 2016
+11:30,Heracles,5,1,FC Groningen,Mei 15 2016
+13:30,FC Utrecht,5,2,PEC Zwolle,Mei 15 2016
+19:45,Heracles,1,1,FC Utrecht,Mei 19 2016
+13:30,FC Utrecht,0,2,Heracles,Mei 22 2016

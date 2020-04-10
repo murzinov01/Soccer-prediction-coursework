@@ -1,0 +1,389 @@
+Time,TeamHome,ResultTeamHome,ResultTeamAway,TeamAway,Date
+19:45,Exeter,1,1,Crewe,Mac 3 2020
+19:45,Swindon,2,0,Scunthorpe,Mac 3 2020
+19:45,Plymouth,3,0,Grimsby,Mac 3 2020
+13:00,Scunthorpe,0,2,Grimsby,Mac 7 2020
+15:00,Swindon,0,2,Forest Green,Mac 7 2020
+15:00,Carlisle,0,3,Colchester,Mac 7 2020
+15:00,Cheltenham,0,0,Port Vale,Mac 7 2020
+15:00,Crawley,3,0,Oldham,Mac 7 2020
+15:00,Crewe,3,1,Stevenage,Mac 7 2020
+15:00,Newport,1,0,Morecambe,Mac 7 2020
+15:00,Northampton,1,2,Mansfield,Mac 7 2020
+15:00,Plymouth,3,0,Macclesfield,Mac 7 2020
+15:00,Salford City,2,0,Bradford,Mac 7 2020
+15:00,Walsall,3,1,Exeter,Mac 7 2020
+15:00,Leyton Orient,2,1,Cambridge U,Mac 7 2020
+19:45,Carlisle,2,0,Newport,Mac 10 2020
+15:00,Plymouth,1,0,Newport,Feb 1 2020
+15:00,Port Vale,1,1,Salford City,Feb 1 2020
+15:00,Stevenage,0,3,Leyton Orient,Feb 1 2020
+15:00,Swindon,2,1,Exeter,Feb 1 2020
+15:00,Walsall,1,2,Crewe,Feb 1 2020
+15:00,Mansfield,2,2,Carlisle,Feb 1 2020
+15:00,Cambridge U,2,1,Colchester,Feb 1 2020
+15:00,Cheltenham,2,1,Morecambe,Feb 1 2020
+15:00,Crawley,3,1,Scunthorpe,Feb 1 2020
+15:00,Grimsby,2,2,Forest Green,Feb 1 2020
+15:00,Macclesfield,0,1,Northampton,Feb 1 2020
+15:30,Oldham,3,0,Bradford,Feb 1 2020
+15:00,Forest Green,1,2,Walsall,Feb 8 2020
+15:00,Leyton Orient,1,1,Macclesfield,Feb 8 2020
+15:00,Bradford,1,1,Grimsby,Feb 8 2020
+15:00,Carlisle,1,1,Swindon,Feb 8 2020
+15:00,Colchester,3,0,Plymouth,Feb 8 2020
+15:00,Crewe,2,1,Oldham,Feb 8 2020
+15:00,Exeter,2,1,Stevenage,Feb 8 2020
+15:00,Morecambe,1,1,Mansfield,Feb 8 2020
+15:00,Newport,0,1,Cambridge U,Feb 8 2020
+15:00,Northampton,0,1,Port Vale,Feb 8 2020
+15:00,Salford City,0,0,Crawley,Feb 8 2020
+15:00,Scunthorpe,1,0,Cheltenham,Feb 8 2020
+19:45,Bradford,3,1,Stevenage,Feb 11 2020
+19:45,Carlisle,0,1,Cheltenham,Feb 11 2020
+19:45,Colchester,2,3,Grimsby,Feb 11 2020
+19:45,Crewe,2,1,Crawley,Feb 11 2020
+19:45,Exeter,5,1,Oldham,Feb 11 2020
+19:45,Forest Green,2,3,Port Vale,Feb 11 2020
+19:45,Leyton Orient,2,1,Mansfield,Feb 11 2020
+19:45,Morecambe,2,0,Macclesfield,Feb 11 2020
+19:45,Newport,0,0,Walsall,Feb 11 2020
+19:45,Northampton,0,1,Swindon,Feb 11 2020
+19:45,Salford City,2,3,Plymouth,Feb 11 2020
+19:45,Scunthorpe,0,2,Cambridge U,Feb 11 2020
+15:00,Cambridge U,2,1,Bradford,Feb 15 2020
+15:00,Cheltenham,2,1,Leyton Orient,Feb 15 2020
+15:00,Crawley,0,0,Carlisle,Feb 15 2020
+15:00,Port Vale,3,0,Colchester,Feb 15 2020
+15:00,Stevenage,0,1,Salford City,Feb 15 2020
+15:00,Plymouth,2,1,Crewe,Feb 15 2020
+15:00,Walsall,3,2,Northampton,Feb 15 2020
+15:00,Grimsby,2,1,Morecambe,Feb 15 2020
+15:00,Macclesfield,2,3,Exeter,Feb 15 2020
+15:00,Mansfield,1,0,Newport,Feb 15 2020
+15:00,Oldham,1,1,Forest Green,Feb 15 2020
+19:45,Macclesfield,1,1,Plymouth,Feb 18 2020
+15:00,Carlisle,2,2,Morecambe,Feb 22 2020
+15:00,Cheltenham,1,0,Mansfield,Feb 22 2020
+15:00,Crawley,2,0,Stevenage,Feb 22 2020
+15:00,Crewe,2,0,Macclesfield,Feb 22 2020
+15:00,Newport,2,1,Bradford,Feb 22 2020
+15:00,Northampton,2,0,Exeter,Feb 22 2020
+15:00,Plymouth,0,0,Cambridge U,Feb 22 2020
+15:00,Salford City,1,2,Colchester,Feb 22 2020
+15:00,Scunthorpe,1,0,Forest Green,Feb 22 2020
+15:00,Swindon,3,1,Grimsby,Feb 22 2020
+15:00,Walsall,2,2,Port Vale,Feb 22 2020
+15:00,Leyton Orient,2,2,Oldham,Feb 22 2020
+19:45,Grimsby,4,2,Newport,Feb 25 2020
+19:45,Cheltenham,2,1,Northampton,Feb 25 2020
+15:00,Morecambe,1,1,Crewe,Feb 29 2020
+15:00,Oldham,5,0,Newport,Feb 29 2020
+15:00,Grimsby,0,3,Northampton,Feb 29 2020
+15:00,Bradford,2,1,Plymouth,Feb 29 2020
+15:00,Cambridge U,1,2,Carlisle,Feb 29 2020
+15:00,Colchester,0,2,Cheltenham,Feb 29 2020
+15:00,Exeter,1,1,Crawley,Feb 29 2020
+15:00,Port Vale,2,2,Scunthorpe,Feb 29 2020
+15:00,Macclesfield,0,2,Salford City,Feb 29 2020
+15:00,Cambridge U,2,3,Mansfield,Jan 1 2020
+15:00,Colchester,1,1,Crawley,Jan 1 2020
+15:00,Crewe,4,1,Carlisle,Jan 1 2020
+15:00,Forest Green,0,1,Exeter,Jan 1 2020
+15:00,Grimsby,1,0,Salford City,Jan 1 2020
+15:00,Newport,1,1,Cheltenham,Jan 1 2020
+15:00,Northampton,1,0,Stevenage,Jan 1 2020
+15:00,Oldham,0,2,Scunthorpe,Jan 1 2020
+15:00,Plymouth,1,2,Swindon,Jan 1 2020
+15:00,Port Vale,2,2,Macclesfield,Jan 1 2020
+15:00,Walsall,1,0,Leyton Orient,Jan 1 2020
+15:00,Bradford,1,0,Morecambe,Jan 1 2020
+15:00,Macclesfield,1,0,Cambridge U,Jan 4 2020
+15:00,Mansfield,0,1,Grimsby,Jan 4 2020
+15:00,Salford City,1,2,Walsall,Jan 4 2020
+15:00,Scunthorpe,1,3,Plymouth,Jan 4 2020
+15:00,Stevenage,0,0,Colchester,Jan 4 2020
+15:00,Swindon,1,1,Bradford,Jan 4 2020
+15:00,Cheltenham,3,0,Oldham,Jan 4 2020
+15:00,Crawley,1,1,Forest Green,Jan 4 2020
+15:00,Macclesfield,1,1,Oldham,Jan 11 2020
+15:00,Mansfield,3,4,Forest Green,Jan 11 2020
+15:00,Morecambe,1,1,Colchester,Jan 11 2020
+15:00,Salford City,1,2,Northampton,Jan 11 2020
+15:00,Scunthorpe,1,2,Newport,Jan 11 2020
+15:00,Stevenage,0,1,Port Vale,Jan 11 2020
+15:00,Swindon,3,1,Crewe,Jan 11 2020
+15:00,Carlisle,0,3,Plymouth,Jan 11 2020
+15:00,Cheltenham,3,1,Walsall,Jan 11 2020
+15:00,Crawley,2,1,Bradford,Jan 11 2020
+15:00,Exeter,2,0,Cambridge U,Jan 11 2020
+15:00,Leyton Orient,1,1,Grimsby,Jan 11 2020
+19:45,Morecambe,2,1,Port Vale,Jan 14 2020
+19:45,Stevenage,0,0,Oldham,Jan 14 2020
+15:00,Bradford,2,2,Scunthorpe,Jan 18 2020
+15:00,Cambridge U,0,4,Stevenage,Jan 18 2020
+15:00,Colchester,2,1,Macclesfield,Jan 18 2020
+15:00,Crewe,1,0,Cheltenham,Jan 18 2020
+15:00,Forest Green,1,2,Salford City,Jan 18 2020
+15:00,Grimsby,0,1,Exeter,Jan 18 2020
+15:00,Newport,2,0,Swindon,Jan 18 2020
+15:00,Northampton,4,1,Morecambe,Jan 18 2020
+15:00,Oldham,1,1,Carlisle,Jan 18 2020
+15:00,Plymouth,3,1,Mansfield,Jan 18 2020
+15:00,Port Vale,1,0,Leyton Orient,Jan 18 2020
+15:00,Walsall,2,1,Crawley,Jan 18 2020
+19:45,Colchester,0,0,Bradford,Jan 21 2020
+19:45,Leyton Orient,1,1,Northampton,Jan 21 2020
+19:45,Macclesfield,1,1,Crewe,Jan 21 2020
+15:00,Macclesfield,2,1,Forest Green,Jan 25 2020
+15:00,Mansfield,3,0,Bradford,Jan 25 2020
+15:00,Morecambe,1,1,Cambridge U,Jan 25 2020
+15:00,Salford City,1,1,Oldham,Jan 25 2020
+15:00,Scunthorpe,2,2,Crewe,Jan 25 2020
+15:00,Stevenage,1,2,Plymouth,Jan 25 2020
+15:00,Swindon,3,0,Port Vale,Jan 25 2020
+15:00,Carlisle,2,1,Walsall,Jan 25 2020
+15:00,Crawley,3,2,Grimsby,Jan 25 2020
+15:00,Exeter,0,0,Colchester,Jan 25 2020
+15:00,Leyton Orient,2,1,Newport,Jan 25 2020
+19:45,Bradford,1,1,Cheltenham,Jan 28 2020
+19:45,Cambridge U,0,4,Salford City,Jan 28 2020
+19:45,Colchester,3,1,Swindon,Jan 28 2020
+19:45,Crewe,2,0,Leyton Orient,Jan 28 2020
+19:45,Forest Green,1,4,Carlisle,Jan 28 2020
+19:45,Grimsby,3,1,Stevenage,Jan 28 2020
+19:45,Newport,1,0,Macclesfield,Jan 28 2020
+19:45,Northampton,3,0,Scunthorpe,Jan 28 2020
+19:45,Port Vale,3,1,Exeter,Jan 28 2020
+19:45,Walsall,0,2,Morecambe,Jan 28 2020
+19:45,Oldham,3,1,Mansfield,Jan 28 2020
+20:15,Plymouth,2,2,Crawley,Jan 28 2020
+15:00,Forest Green,0,2,Scunthorpe,Des 7 2019
+15:00,Colchester,1,0,Salford City,Des 7 2019
+15:00,Exeter,3,2,Northampton,Des 7 2019
+15:00,Bradford,1,0,Newport,Des 7 2019
+15:00,Cambridge U,1,0,Plymouth,Des 7 2019
+15:00,Grimsby,0,3,Swindon,Des 7 2019
+15:00,Mansfield,0,3,Cheltenham,Des 7 2019
+15:00,Morecambe,1,1,Carlisle,Des 7 2019
+15:00,Oldham,1,1,Leyton Orient,Des 7 2019
+15:00,Port Vale,0,1,Walsall,Des 7 2019
+15:00,Stevenage,0,0,Crawley,Des 7 2019
+15:00,Carlisle,0,0,Grimsby,Des 14 2019
+15:00,Cheltenham,1,1,Cambridge U,Des 14 2019
+15:00,Crawley,0,0,Port Vale,Des 14 2019
+15:00,Crewe,1,1,Mansfield,Des 14 2019
+15:00,Newport,1,1,Stevenage,Des 14 2019
+15:00,Northampton,1,0,Forest Green,Des 14 2019
+15:00,Plymouth,3,0,Morecambe,Des 14 2019
+15:00,Salford City,0,1,Exeter,Des 14 2019
+15:00,Scunthorpe,2,2,Colchester,Des 14 2019
+15:00,Swindon,2,0,Oldham,Des 14 2019
+15:00,Walsall,1,1,Macclesfield,Des 14 2019
+15:00,Leyton Orient,0,0,Bradford,Des 14 2019
+13:00,Grimsby,0,1,Scunthorpe,Des 21 2019
+15:00,Mansfield,1,1,Northampton,Des 21 2019
+15:00,Morecambe,2,1,Newport,Des 21 2019
+15:00,Oldham,2,1,Crawley,Des 21 2019
+15:00,Port Vale,1,1,Cheltenham,Des 21 2019
+15:00,Stevenage,1,5,Crewe,Des 21 2019
+15:00,Bradford,1,1,Salford City,Des 21 2019
+15:00,Cambridge U,2,3,Leyton Orient,Des 21 2019
+15:00,Colchester,3,0,Carlisle,Des 21 2019
+15:00,Exeter,3,3,Walsall,Des 21 2019
+15:00,Forest Green,2,2,Swindon,Des 21 2019
+13:00,Leyton Orient,1,3,Colchester,Des 26 2019
+15:00,Macclesfield,1,1,Grimsby,Des 26 2019
+15:00,Mansfield,2,2,Port Vale,Des 26 2019
+15:00,Morecambe,1,2,Oldham,Des 26 2019
+15:00,Salford City,3,1,Crewe,Des 26 2019
+15:00,Scunthorpe,0,2,Walsall,Des 26 2019
+15:00,Stevenage,0,0,Forest Green,Des 26 2019
+15:00,Swindon,4,0,Cambridge U,Des 26 2019
+15:00,Carlisle,0,0,Bradford,Des 26 2019
+15:00,Cheltenham,0,1,Plymouth,Des 26 2019
+15:00,Crawley,4,0,Northampton,Des 26 2019
+15:00,Exeter,1,0,Newport,Des 26 2019
+15:00,Bradford,2,0,Mansfield,Des 29 2019
+15:00,Cambridge U,1,0,Morecambe,Des 29 2019
+15:00,Colchester,2,2,Exeter,Des 29 2019
+15:00,Crewe,3,1,Scunthorpe,Des 29 2019
+15:00,Forest Green,1,0,Macclesfield,Des 29 2019
+15:00,Grimsby,1,1,Crawley,Des 29 2019
+15:00,Newport,1,1,Leyton Orient,Des 29 2019
+15:00,Oldham,1,4,Salford City,Des 29 2019
+15:00,Northampton,1,1,Cheltenham,Des 29 2019
+15:00,Walsall,1,2,Carlisle,Des 29 2019
+15:00,Port Vale,2,0,Swindon,Des 29 2019
+15:00,Plymouth,2,1,Stevenage,Des 29 2019
+15:00,Cheltenham,1,2,Forest Green,Nov 2 2019
+15:00,Crewe,0,1,Port Vale,Nov 2 2019
+15:00,Mansfield,2,3,Colchester,Nov 2 2019
+15:00,Morecambe,1,0,Leyton Orient,Nov 2 2019
+15:00,Newport,1,2,Salford City,Nov 2 2019
+15:00,Oldham,2,2,Northampton,Nov 2 2019
+15:00,Scunthorpe,0,0,Stevenage,Nov 2 2019
+15:00,Swindon,2,1,Walsall,Nov 2 2019
+15:00,Bradford,2,0,Exeter,Nov 2 2019
+15:00,Cambridge U,2,1,Crawley,Nov 2 2019
+15:00,Carlisle,2,1,Macclesfield,Nov 2 2019
+15:00,Crawley,1,1,Morecambe,Nov 16 2019
+15:00,Exeter,0,0,Cheltenham,Nov 16 2019
+15:00,Forest Green,0,1,Plymouth,Nov 16 2019
+15:00,Leyton Orient,0,2,Scunthorpe,Nov 16 2019
+15:00,Macclesfield,0,0,Mansfield,Nov 16 2019
+15:00,Northampton,4,1,Crewe,Nov 16 2019
+15:00,Port Vale,2,1,Carlisle,Nov 16 2019
+15:00,Salford City,2,3,Swindon,Nov 16 2019
+15:00,Walsall,2,1,Cambridge U,Nov 16 2019
+15:00,Carlisle,0,0,Cambridge U,Nov 23 2019
+15:00,Cheltenham,1,1,Colchester,Nov 23 2019
+15:00,Crawley,0,1,Exeter,Nov 23 2019
+15:00,Crewe,5,0,Morecambe,Nov 23 2019
+15:00,Leyton Orient,2,4,Forest Green,Nov 23 2019
+15:00,Newport,0,1,Oldham,Nov 23 2019
+15:00,Northampton,2,0,Grimsby,Nov 23 2019
+15:00,Plymouth,2,1,Bradford,Nov 23 2019
+15:00,Salford City,0,0,Macclesfield,Nov 23 2019
+15:00,Scunthorpe,2,1,Port Vale,Nov 23 2019
+15:00,Swindon,1,0,Mansfield,Nov 23 2019
+15:00,Walsall,0,0,Stevenage,Nov 23 2019
+19:45,Forest Green,0,0,Crewe,Nov 26 2019
+19:45,Grimsby,0,0,Cheltenham,Nov 26 2019
+15:00,Macclesfield,1,1,Bradford,Nov 30 2019
+15:00,Oldham,1,1,Cheltenham,Okt 5 2019
+15:00,Plymouth,2,2,Scunthorpe,Okt 5 2019
+15:00,Port Vale,3,1,Morecambe,Okt 5 2019
+15:00,Walsall,0,3,Salford City,Okt 5 2019
+15:00,Bradford,2,1,Swindon,Okt 5 2019
+15:00,Cambridge U,2,2,Macclesfield,Okt 5 2019
+15:00,Colchester,3,1,Stevenage,Okt 5 2019
+15:00,Crewe,1,1,Exeter,Okt 5 2019
+15:00,Forest Green,3,1,Crawley,Okt 5 2019
+15:00,Grimsby,0,1,Mansfield,Okt 5 2019
+15:00,Newport,1,0,Carlisle,Okt 5 2019
+15:00,Northampton,0,1,Leyton Orient,Okt 5 2019
+15:00,Swindon,1,1,Plymouth,Okt 12 2019
+15:00,Salford City,1,0,Cambridge U,Okt 12 2019
+15:00,Scunthorpe,3,0,Northampton,Okt 12 2019
+15:00,Stevenage,2,1,Grimsby,Okt 12 2019
+15:00,Leyton Orient,3,1,Walsall,Okt 12 2019
+15:00,Mansfield,6,1,Oldham,Okt 12 2019
+15:00,Morecambe,1,2,Bradford,Okt 12 2019
+15:00,Exeter,1,0,Forest Green,Okt 12 2019
+15:00,Macclesfield,2,1,Port Vale,Okt 12 2019
+15:00,Carlisle,2,4,Crewe,Okt 12 2019
+15:00,Crawley,2,1,Colchester,Okt 12 2019
+15:00,Crewe,3,1,Swindon,Okt 19 2019
+15:00,Oldham,0,1,Macclesfield,Okt 19 2019
+15:00,Plymouth,2,0,Carlisle,Okt 19 2019
+15:00,Walsall,1,2,Cheltenham,Okt 19 2019
+15:00,Port Vale,1,1,Stevenage,Okt 19 2019
+15:00,Northampton,2,0,Salford City,Okt 19 2019
+15:00,Newport,2,1,Scunthorpe,Okt 19 2019
+15:00,Grimsby,0,4,Leyton Orient,Okt 19 2019
+15:00,Forest Green,2,2,Mansfield,Okt 19 2019
+15:00,Colchester,0,1,Morecambe,Okt 19 2019
+15:00,Bradford,2,1,Crawley,Okt 19 2019
+15:00,Cambridge U,4,0,Exeter,Okt 19 2019
+19:45,Oldham,2,0,Walsall,Okt 22 2019
+19:45,Newport,1,1,Crawley,Okt 22 2019
+19:45,Morecambe,0,2,Forest Green,Okt 22 2019
+19:45,Mansfield,1,2,Salford City,Okt 22 2019
+19:45,Crewe,0,0,Colchester,Okt 22 2019
+19:45,Cheltenham,3,0,Macclesfield,Okt 22 2019
+19:45,Carlisle,0,2,Northampton,Okt 22 2019
+19:45,Plymouth,4,0,Leyton Orient,Okt 22 2019
+19:45,Scunthorpe,3,1,Exeter,Okt 22 2019
+19:45,Swindon,1,0,Stevenage,Okt 22 2019
+19:45,Bradford,1,2,Port Vale,Okt 22 2019
+19:45,Cambridge U,0,0,Grimsby,Okt 22 2019
+13:00,Exeter,4,0,Plymouth,Okt 26 2019
+15:00,Northampton,2,0,Cambridge U,Okt 26 2019
+15:00,Port Vale,0,0,Oldham,Okt 26 2019
+15:00,Salford City,1,1,Scunthorpe,Okt 26 2019
+15:00,Stevenage,1,0,Morecambe,Okt 26 2019
+15:00,Walsall,1,2,Mansfield,Okt 26 2019
+15:00,Colchester,3,1,Newport,Okt 26 2019
+15:00,Crawley,0,4,Swindon,Okt 26 2019
+15:00,Leyton Orient,1,1,Carlisle,Okt 26 2019
+15:00,Macclesfield,1,1,Crawley,Sep 7 2019
+15:00,Mansfield,2,0,Scunthorpe,Sep 7 2019
+15:00,Morecambe,2,2,Salford City,Sep 7 2019
+15:00,Newport,1,0,Port Vale,Sep 7 2019
+15:00,Plymouth,2,2,Oldham,Sep 7 2019
+15:00,Bradford,2,1,Northampton,Sep 7 2019
+15:00,Cheltenham,4,2,Stevenage,Sep 7 2019
+15:00,Colchester,0,0,Walsall,Sep 7 2019
+15:00,Grimsby,0,2,Crewe,Sep 7 2019
+15:00,Leyton Orient,1,3,Swindon,Sep 7 2019
+15:00,Cambridge U,0,1,Forest Green,Sep 7 2019
+15:00,Carlisle,1,3,Exeter,Sep 7 2019
+15:00,Scunthorpe,3,0,Morecambe,Sep 14 2019
+15:00,Salford City,0,2,Cheltenham,Sep 14 2019
+15:00,Swindon,3,0,Macclesfield,Sep 14 2019
+15:00,Walsall,0,1,Bradford,Sep 14 2019
+15:00,Port Vale,1,0,Plymouth,Sep 14 2019
+15:00,Oldham,2,2,Grimsby,Sep 14 2019
+15:00,Forest Green,1,0,Colchester,Sep 14 2019
+15:00,Northampton,2,0,Newport,Sep 14 2019
+15:00,Stevenage,2,3,Carlisle,Sep 14 2019
+15:00,Crawley,1,0,Mansfield,Sep 14 2019
+15:00,Crewe,2,3,Cambridge U,Sep 14 2019
+15:00,Exeter,2,2,Leyton Orient,Sep 14 2019
+19:45,Salford City,1,0,Grimsby,Sep 17 2019
+19:45,Scunthorpe,2,2,Oldham,Sep 17 2019
+19:45,Mansfield,0,4,Cambridge U,Sep 17 2019
+19:45,Morecambe,0,1,Walsall,Sep 17 2019
+19:45,Exeter,2,0,Port Vale,Sep 17 2019
+19:45,Macclesfield,1,1,Newport,Sep 17 2019
+19:45,Cheltenham,3,2,Bradford,Sep 17 2019
+19:45,Crawley,2,2,Plymouth,Sep 17 2019
+19:45,Carlisle,0,0,Forest Green,Sep 17 2019
+19:45,Leyton Orient,1,2,Crewe,Sep 17 2019
+19:45,Stevenage,0,1,Northampton,Sep 17 2019
+19:45,Swindon,0,3,Colchester,Sep 17 2019
+15:00,Bradford,3,1,Carlisle,Sep 21 2019
+15:00,Port Vale,2,2,Mansfield,Sep 21 2019
+15:00,Plymouth,0,2,Cheltenham,Sep 21 2019
+15:00,Walsall,1,0,Scunthorpe,Sep 21 2019
+15:00,Crewe,4,1,Salford City,Sep 21 2019
+15:00,Colchester,2,1,Leyton Orient,Sep 21 2019
+15:00,Cambridge U,0,1,Swindon,Sep 21 2019
+15:00,Forest Green,0,0,Stevenage,Sep 21 2019
+15:00,Newport,1,1,Exeter,Sep 21 2019
+15:00,Grimsby,1,0,Macclesfield,Sep 21 2019
+15:00,Northampton,2,2,Crawley,Sep 21 2019
+15:00,Oldham,3,1,Morecambe,Sep 21 2019
+15:00,Carlisle,1,0,Oldham,Sep 28 2019
+15:00,Exeter,1,3,Grimsby,Sep 28 2019
+15:00,Macclesfield,1,1,Colchester,Sep 28 2019
+15:00,Mansfield,0,1,Plymouth,Sep 28 2019
+15:00,Morecambe,2,2,Northampton,Sep 28 2019
+15:00,Salford City,0,4,Forest Green,Sep 28 2019
+15:00,Scunthorpe,1,1,Bradford,Sep 28 2019
+15:00,Stevenage,1,1,Cambridge U,Sep 28 2019
+15:00,Swindon,0,2,Newport,Sep 28 2019
+15:00,Leyton Orient,3,3,Port Vale,Sep 28 2019
+15:00,Cheltenham,1,1,Crewe,Sep 28 2019
+15:00,Crawley,2,3,Walsall,Sep 28 2019
+19:45,Newport,1,1,Mansfield,Mei 9 2019
+19:45,Tranmere,1,0,Forest Green,Mei 10 2019
+18:00,Mansfield,0,0,Newport,Mei 12 2019
+19:45,Forest Green,1,1,Tranmere,Mei 13 2019
+15:00,Newport,0,1,Tranmere,Mei 25 2019
+15:00,Lincoln City,0,0,Exeter,Mei 12 2018
+19:30,Coventry,1,1,Notts Co.,Mei 12 2018
+19:45,Exeter,3,1,Lincoln City,Mei 17 2018
+19:45,Notts Co.,1,4,Coventry,Mei 18 2018
+15:00,Coventry,3,1,Exeter,Mei 28 2018
+18:30,Blackpool,3,2,Luton,Mei 14 2017
+18:30,Carlisle,3,3,Exeter,Mei 14 2017
+19:45,Exeter,3,2,Carlisle,Mei 18 2017
+19:45,Luton,3,3,Blackpool,Mei 18 2017
+15:00,Blackpool,2,1,Exeter,Mei 28 2017
+19:45,Portsmouth,2,2,Plymouth,Mei 12 2016
+19:30,AFC Wimbledon,1,0,Accrington,Mei 14 2016
+18:00,Plymouth,1,0,Portsmouth,Mei 15 2016
+19:45,Accrington,2,2,AFC Wimbledon,Mei 18 2016
+15:00,AFC Wimbledon,2,0,Plymouth,Mei 30 2016
