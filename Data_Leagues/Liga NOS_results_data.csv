@@ -1,0 +1,1291 @@
+Time,TeamHome,ResultTeamHome,ResultTeamAway,TeamAway,Date
+15:00,Aves,1,3,Pacos de Ferreira,Mac 1 2020
+17:30,Maritimo,1,2,Braga,Mac 1 2020
+20:00,Vitoria de Guimaraes,2,0,Tondela,Mac 1 2020
+19:30,Santa Clara,0,2,FC Porto,Mac 2 2020
+20:45,Benfica,1,1,Moreirense,Mac 2 2020
+20:00,Famalicao,3,1,Sporting CP,Mac 3 2020
+20:30,Braga,3,1,Portimonense,Mac 6 2020
+15:30,Tondela,1,1,Boavista,Mac 7 2020
+18:00,Vitoria de Setubal,1,1,Benfica,Mac 7 2020
+20:30,FC Porto,1,1,Rio Ave,Mac 7 2020
+15:00,Moreirense,2,0,Maritimo,Mac 8 2020
+15:00,Belenenses SAD,0,0,Famalicao,Mac 8 2020
+17:00,Gil Vicente,1,1,Santa Clara,Mac 8 2020
+17:30,Sporting CP,2,0,Aves,Mac 8 2020
+20:00,Pacos de Ferreira,1,2,Vitoria de Guimaraes,Mac 8 2020
+15:30,Portimonense,0,1,Tondela,Feb 1 2020
+18:00,Vitoria de Setubal,0,4,FC Porto,Feb 1 2020
+15:00,Gil Vicente,1,5,Moreirense,Feb 2 2020
+15:00,Maritimo,1,2,Aves,Feb 2 2020
+17:30,Santa Clara,2,1,Pacos de Ferreira,Feb 2 2020
+17:30,Braga,1,0,Sporting CP,Feb 2 2020
+20:00,Boavista,2,0,Vitoria de Guimaraes,Feb 2 2020
+20:30,Pacos de Ferreira,0,1,Boavista,Feb 7 2020
+15:30,Belenenses SAD,0,2,Santa Clara,Feb 8 2020
+15:30,Famalicao,0,7,Vitoria de Guimaraes,Feb 8 2020
+18:00,Braga,2,2,Gil Vicente,Feb 8 2020
+20:30,FC Porto,3,2,Benfica,Feb 8 2020
+15:00,Tondela,0,0,Maritimo,Feb 9 2020
+15:00,Moreirense,1,1,Vitoria de Setubal,Feb 9 2020
+17:30,Sporting CP,2,1,Portimonense,Feb 9 2020
+20:00,Aves,0,4,Rio Ave,Feb 9 2020
+20:30,Vitoria de Setubal,1,2,Gil Vicente,Feb 14 2020
+15:30,Santa Clara,1,0,Tondela,Feb 15 2020
+15:30,Portimonense,1,1,Moreirense,Feb 15 2020
+18:00,Benfica,0,1,Braga,Feb 15 2020
+20:30,Rio Ave,1,1,Sporting CP,Feb 15 2020
+15:00,Boavista,1,2,Belenenses SAD,Feb 16 2020
+15:00,Maritimo,3,0,Pacos de Ferreira,Feb 16 2020
+17:30,Vitoria de Guimaraes,1,2,FC Porto,Feb 16 2020
+20:00,Famalicao,1,1,Aves,Feb 16 2020
+20:30,Aves,0,2,Vitoria de Guimaraes,Feb 21 2020
+18:00,Tondela,1,2,Rio Ave,Feb 22 2020
+20:30,Belenenses SAD,1,0,Maritimo,Feb 22 2020
+15:00,Pacos de Ferreira,2,1,Famalicao,Feb 23 2020
+15:00,Moreirense,2,1,Santa Clara,Feb 23 2020
+17:30,Sporting CP,2,0,Boavista,Feb 23 2020
+20:00,Braga,3,1,Vitoria de Setubal,Feb 23 2020
+20:30,FC Porto,1,0,Portimonense,Feb 23 2020
+19:30,Gil Vicente,0,1,Benfica,Feb 24 2020
+20:30,Portimonense,0,0,Vitoria de Setubal,Feb 28 2020
+18:00,Rio Ave,0,0,Belenenses SAD,Feb 29 2020
+20:30,Boavista,0,1,Gil Vicente,Feb 29 2020
+15:30,Aves,0,1,Santa Clara,Jan 4 2020
+15:30,Boavista,1,1,Portimonense,Jan 4 2020
+18:00,Belenenses SAD,1,7,Braga,Jan 4 2020
+20:30,Vitoria de Guimaraes,0,1,Benfica,Jan 4 2020
+15:00,Rio Ave,0,1,Maritimo,Jan 5 2020
+15:00,Tondela,1,1,Gil Vicente,Jan 5 2020
+15:00,Pacos de Ferreira,1,0,Moreirense,Jan 5 2020
+17:30,Sporting CP,1,2,FC Porto,Jan 5 2020
+20:00,Famalicao,3,0,Vitoria de Setubal,Jan 5 2020
+19:00,Benfica,2,1,Aves,Jan 10 2020
+19:00,Santa Clara,0,1,Rio Ave,Jan 10 2020
+21:15,Moreirense,2,4,FC Porto,Jan 10 2020
+15:30,Portimonense,0,0,Pacos de Ferreira,Jan 11 2020
+18:00,Boavista,0,1,Famalicao,Jan 11 2020
+20:30,Vitoria de Setubal,1,3,Sporting CP,Jan 11 2020
+15:00,Gil Vicente,2,0,Belenenses SAD,Jan 12 2020
+17:30,Maritimo,0,0,Vitoria de Guimaraes,Jan 12 2020
+20:00,Braga,2,1,Tondela,Jan 12 2020
+19:00,FC Porto,1,2,Braga,Jan 17 2020
+21:15,Sporting CP,0,2,Benfica,Jan 17 2020
+15:30,Vitoria de Guimaraes,1,0,Santa Clara,Jan 18 2020
+15:30,Aves,3,0,Portimonense,Jan 18 2020
+18:00,Tondela,1,1,Moreirense,Jan 18 2020
+20:30,Belenenses SAD,0,1,Vitoria de Setubal,Jan 18 2020
+15:00,Pacos de Ferreira,0,0,Gil Vicente,Jan 19 2020
+17:30,Famalicao,1,1,Maritimo,Jan 19 2020
+20:00,Rio Ave,2,0,Boavista,Jan 19 2020
+15:00,Famalicao,0,1,Santa Clara,Jan 26 2020
+15:00,Tondela,0,3,Vitoria de Setubal,Jan 26 2020
+15:00,Belenenses SAD,2,1,Portimonense,Jan 26 2020
+17:30,Pacos de Ferreira,0,2,Benfica,Jan 26 2020
+20:00,Aves,0,1,Boavista,Jan 26 2020
+18:45,Vitoria de Guimaraes,1,2,Rio Ave,Jan 27 2020
+21:00,Sporting CP,1,0,Maritimo,Jan 27 2020
+20:15,FC Porto,2,1,Gil Vicente,Jan 28 2020
+20:15,Moreirense,1,2,Braga,Jan 29 2020
+19:00,Benfica,3,2,Belenenses SAD,Jan 31 2020
+21:15,Rio Ave,2,2,Famalicao,Jan 31 2020
+15:00,Tondela,0,1,Belenenses SAD,Des 1 2019
+17:30,Vitoria de Setubal,1,1,Vitoria de Guimaraes,Des 1 2019
+20:00,Gil Vicente,3,1,Sporting CP,Des 1 2019
+18:45,Braga,2,0,Rio Ave,Des 2 2019
+20:45,FC Porto,2,0,Pacos de Ferreira,Des 2 2019
+20:30,Boavista,1,4,Benfica,Des 6 2019
+15:00,Maritimo,2,2,Santa Clara,Des 7 2019
+18:00,Famalicao,2,3,Tondela,Des 7 2019
+20:30,Aves,1,0,Braga,Des 7 2019
+15:00,Vitoria de Guimaraes,2,0,Portimonense,Des 8 2019
+15:00,Pacos de Ferreira,2,3,Vitoria de Setubal,Des 8 2019
+17:30,Sporting CP,1,0,Moreirense,Des 8 2019
+20:00,Belenenses SAD,1,1,FC Porto,Des 8 2019
+20:15,Rio Ave,1,0,Gil Vicente,Des 9 2019
+20:30,Portimonense,1,1,Rio Ave,Des 13 2019
+15:30,Maritimo,1,0,Boavista,Des 14 2019
+18:00,Benfica,4,0,Famalicao,Des 14 2019
+20:30,Vitoria de Setubal,1,0,Aves,Des 14 2019
+15:00,Moreirense,2,1,Belenenses SAD,Des 15 2019
+17:30,Gil Vicente,2,2,Vitoria de Guimaraes,Des 15 2019
+20:00,Braga,0,1,Pacos de Ferreira,Des 15 2019
+19:00,Santa Clara,0,4,Sporting CP,Des 16 2019
+20:15,FC Porto,3,0,Tondela,Des 16 2019
+18:00,Benfica,2,0,Rio Ave,Nov 2 2019
+20:30,Moreirense,1,1,Vitoria de Guimaraes,Nov 2 2019
+15:00,Gil Vicente,2,0,Maritimo,Nov 3 2019
+17:30,Tondela,1,0,Sporting CP,Nov 3 2019
+20:00,FC Porto,1,0,Aves,Nov 3 2019
+20:15,Braga,2,2,Famalicao,Nov 3 2019
+19:00,Belenenses SAD,1,0,Pacos de Ferreira,Nov 4 2019
+21:00,Vitoria de Setubal,1,0,Boavista,Nov 4 2019
+21:00,Portimonense,1,1,Santa Clara,Nov 4 2019
+20:30,Aves,1,2,Gil Vicente,Nov 8 2019
+15:30,Rio Ave,1,0,Vitoria de Setubal,Nov 9 2019
+18:00,Santa Clara,1,2,Benfica,Nov 9 2019
+20:30,Famalicao,3,3,Moreirense,Nov 9 2019
+15:00,Pacos de Ferreira,1,0,Tondela,Nov 10 2019
+15:00,Maritimo,1,1,Portimonense,Nov 10 2019
+18:30,Sporting CP,2,0,Belenenses SAD,Nov 10 2019
+20:00,Vitoria de Guimaraes,0,2,Braga,Nov 10 2019
+21:00,Boavista,0,1,FC Porto,Nov 10 2019
+20:30,Santa Clara,1,2,Boavista,Nov 29 2019
+15:30,Moreirense,3,2,Aves,Nov 30 2019
+18:00,Benfica,4,0,Maritimo,Nov 30 2019
+20:30,Portimonense,2,1,Famalicao,Nov 30 2019
+15:30,Aves,0,1,Tondela,Okt 5 2019
+20:30,Pacos de Ferreira,0,0,Rio Ave,Okt 25 2019
+15:30,Gil Vicente,1,1,Portimonense,Okt 26 2019
+15:30,Belenenses SAD,3,2,Aves,Okt 26 2019
+18:00,Vitoria de Setubal,0,0,Maritimo,Okt 26 2019
+20:30,Moreirense,1,1,Boavista,Okt 26 2019
+15:00,Tondela,0,1,Benfica,Okt 27 2019
+17:30,FC Porto,3,0,Famalicao,Okt 27 2019
+20:00,Sporting CP,3,1,Vitoria de Guimaraes,Okt 27 2019
+20:15,Braga,2,0,Santa Clara,Okt 28 2019
+17:00,Rio Ave,1,1,Moreirense,Okt 30 2019
+18:45,Maritimo,1,1,FC Porto,Okt 30 2019
+20:00,Vitoria de Guimaraes,5,0,Belenenses SAD,Okt 30 2019
+20:15,Benfica,4,0,Portimonense,Okt 30 2019
+21:00,Famalicao,2,1,Gil Vicente,Okt 30 2019
+19:45,Pacos de Ferreira,1,2,Sporting CP,Okt 31 2019
+20:15,Santa Clara,1,1,Vitoria de Setubal,Okt 31 2019
+20:15,Boavista,2,0,Braga,Okt 31 2019
+16:00,Tondela,0,0,Santa Clara,Sep 1 2019
+18:30,FC Porto,3,0,Vitoria de Guimaraes,Sep 1 2019
+21:00,Braga,0,4,Benfica,Sep 1 2019
+15:00,Rio Ave,1,1,Vitoria de Guimaraes,Sep 8 2019
+20:30,Vitoria de Setubal,1,0,Braga,Sep 13 2019
+16:30,Famalicao,4,2,Pacos de Ferreira,Sep 14 2019
+19:00,Benfica,2,0,Gil Vicente,Sep 14 2019
+21:30,Vitoria de Guimaraes,5,1,Aves,Sep 14 2019
+16:00,Maritimo,1,3,Belenenses SAD,Sep 15 2019
+16:00,Santa Clara,2,0,Moreirense,Sep 15 2019
+16:00,Rio Ave,2,4,Tondela,Sep 15 2019
+18:00,Portimonense,2,3,FC Porto,Sep 15 2019
+20:00,Boavista,1,1,Sporting CP,Sep 15 2019
+20:30,Pacos de Ferreira,2,1,Aves,Sep 20 2019
+18:00,Belenenses SAD,0,2,Rio Ave,Sep 21 2019
+20:30,Moreirense,1,2,Benfica,Sep 21 2019
+15:30,Gil Vicente,0,0,Boavista,Sep 22 2019
+18:00,Tondela,1,3,Vitoria de Guimaraes,Sep 22 2019
+18:00,Vitoria de Setubal,0,0,Portimonense,Sep 22 2019
+20:30,FC Porto,2,0,Santa Clara,Sep 22 2019
+19:00,Braga,2,2,Maritimo,Sep 23 2019
+21:00,Sporting CP,1,2,Famalicao,Sep 23 2019
+20:30,Boavista,0,0,Tondela,Sep 27 2019
+16:30,Maritimo,2,1,Moreirense,Sep 28 2019
+19:00,Benfica,1,0,Vitoria de Setubal,Sep 28 2019
+21:30,Famalicao,3,1,Belenenses SAD,Sep 28 2019
+16:00,Vitoria de Guimaraes,1,0,Pacos de Ferreira,Sep 29 2019
+16:00,Santa Clara,1,0,Gil Vicente,Sep 29 2019
+18:00,Portimonense,0,1,Braga,Sep 29 2019
+20:00,Rio Ave,0,1,FC Porto,Sep 29 2019
+20:15,Aves,0,1,Sporting CP,Sep 30 2019
+20:30,Moreirense,1,2,Rio Ave,Mei 3 2019
+15:30,Feirense,4,4,Chaves,Mei 4 2019
+15:30,Maritimo,1,0,Braga,Mei 4 2019
+18:00,Benfica,5,1,Portimonense,Mei 4 2019
+20:30,FC Porto,4,0,Aves,Mei 4 2019
+15:00,Tondela,1,3,Santa Clara,Mei 5 2019
+17:30,Belenenses SAD,1,8,Sporting CP,Mei 5 2019
+20:00,Vitoria de Guimaraes,2,2,Nacional,Mei 5 2019
+20:15,Vitoria de Setubal,0,3,Boavista,Mei 6 2019
+20:30,Aves,0,1,Moreirense,Mei 10 2019
+15:30,Santa Clara,4,4,Feirense,Mei 11 2019
+15:30,Portimonense,3,2,Maritimo,Mei 11 2019
+18:00,Boavista,4,2,Braga,Mei 11 2019
+20:30,Sporting CP,1,1,Tondela,Mei 11 2019
+15:00,Chaves,1,2,Vitoria de Setubal,Mei 12 2019
+15:00,Vitoria de Guimaraes,5,1,Belenenses SAD,Mei 12 2019
+17:30,Nacional,0,4,FC Porto,Mei 12 2019
+20:00,Rio Ave,2,3,Benfica,Mei 12 2019
+18:30,Belenenses SAD,3,0,Nacional,Mei 16 2019
+20:30,Braga,2,0,Portimonense,Mei 17 2019
+15:30,Vitoria de Setubal,1,3,Rio Ave,Mei 18 2019
+15:30,Feirense,2,1,Aves,Mei 18 2019
+15:30,Maritimo,0,1,Boavista,Mei 18 2019
+18:30,Benfica,4,1,Santa Clara,Mei 18 2019
+18:30,FC Porto,2,1,Sporting CP,Mei 18 2019
+17:30,Tondela,5,2,Chaves,Mei 19 2019
+20:00,Moreirense,1,3,Vitoria de Guimaraes,Mei 19 2019
+20:15,Feirense,0,1,Vitoria de Setubal,Apr 1 2019
+20:30,FC Porto,2,0,Boavista,Apr 5 2019
+15:30,Nacional,0,0,Aves,Apr 6 2019
+15:30,Belenenses SAD,1,1,Santa Clara,Apr 6 2019
+18:00,Vitoria de Guimaraes,4,0,Chaves,Apr 6 2019
+20:30,Moreirense,1,0,Braga,Apr 6 2019
+15:00,Vitoria de Setubal,1,0,Maritimo,Apr 7 2019
+17:30,Feirense,1,4,Benfica,Apr 7 2019
+20:00,Sporting CP,3,0,Rio Ave,Apr 7 2019
+20:15,Tondela,3,2,Portimonense,Apr 8 2019
+20:30,Chaves,2,2,Belenenses SAD,Apr 12 2019
+15:30,Santa Clara,1,1,Moreirense,Apr 13 2019
+18:00,Portimonense,0,3,FC Porto,Apr 13 2019
+20:30,Aves,1,3,Sporting CP,Apr 13 2019
+15:00,Maritimo,2,0,Feirense,Apr 14 2019
+15:00,Rio Ave,2,1,Vitoria de Guimaraes,Apr 14 2019
+17:30,Braga,3,0,Tondela,Apr 14 2019
+17:30,Boavista,1,0,Nacional,Apr 14 2019
+20:00,Benfica,4,2,Vitoria de Setubal,Apr 14 2019
+15:30,Tondela,1,0,Boavista,Apr 19 2019
+15:30,Vitoria de Setubal,1,1,Portimonense,Apr 19 2019
+18:00,Nacional,0,1,Sporting CP,Apr 19 2019
+20:30,Vitoria de Guimaraes,0,2,Aves,Apr 19 2019
+15:30,Belenenses SAD,1,3,Rio Ave,Apr 20 2019
+15:30,Moreirense,0,1,Chaves,Apr 20 2019
+18:00,Feirense,0,2,Braga,Apr 20 2019
+20:30,FC Porto,1,0,Santa Clara,Apr 20 2019
+20:15,Benfica,6,0,Maritimo,Apr 22 2019
+20:30,Rio Ave,2,2,FC Porto,Apr 26 2019
+15:30,Santa Clara,0,0,Vitoria de Setubal,Apr 27 2019
+15:30,Portimonense,1,0,Feirense,Apr 27 2019
+18:00,Sporting CP,2,0,Vitoria de Guimaraes,Apr 27 2019
+20:30,Aves,3,0,Belenenses SAD,Apr 27 2019
+15:00,Maritimo,2,0,Tondela,Apr 28 2019
+15:00,Chaves,4,1,Nacional,Apr 28 2019
+17:30,Braga,1,4,Benfica,Apr 28 2019
+20:00,Boavista,3,1,Moreirense,Apr 28 2019
+20:30,Aves,2,0,Boavista,Mac 1 2019
+15:30,Nacional,3,2,Tondela,Mac 2 2019
+18:00,Moreirense,1,1,Vitoria de Setubal,Mac 2 2019
+20:30,FC Porto,1,2,Benfica,Mac 2 2019
+15:00,Chaves,0,0,Santa Clara,Mac 3 2019
+15:00,Belenenses SAD,4,0,Feirense,Mac 3 2019
+17:30,Rio Ave,1,2,Braga,Mac 3 2019
+20:00,Sporting CP,3,1,Portimonense,Mac 3 2019
+20:15,Vitoria de Guimaraes,1,0,Maritimo,Mac 4 2019
+20:30,Chaves,1,1,Rio Ave,Mac 8 2019
+15:30,Maritimo,3,2,Moreirense,Mac 9 2019
+18:00,Braga,1,0,Vitoria de Guimaraes,Mac 9 2019
+20:30,Boavista,1,2,Sporting CP,Mac 9 2019
+15:00,Portimonense,5,1,Nacional,Mac 10 2019
+15:00,Santa Clara,0,0,Aves,Mac 10 2019
+17:30,Vitoria de Setubal,0,0,Tondela,Mac 10 2019
+20:00,Feirense,1,2,FC Porto,Mac 10 2019
+20:15,Benfica,2,2,Belenenses SAD,Mac 11 2019
+20:30,Sporting CP,1,0,Santa Clara,Mac 15 2019
+15:30,Vitoria de Setubal,0,1,Braga,Mac 16 2019
+15:30,Belenenses SAD,2,2,Portimonense,Mac 16 2019
+18:00,Vitoria de Guimaraes,3,1,Boavista,Mac 16 2019
+20:30,FC Porto,3,0,Maritimo,Mac 16 2019
+15:00,Aves,0,1,Chaves,Mac 17 2019
+15:00,Nacional,0,1,Rio Ave,Mac 17 2019
+17:30,Moreirense,0,4,Benfica,Mac 17 2019
+20:00,Tondela,1,1,Feirense,Mac 17 2019
+20:30,Portimonense,0,2,Moreirense,Mac 29 2019
+15:30,Braga,2,3,FC Porto,Mac 30 2019
+18:00,Chaves,1,3,Sporting CP,Mac 30 2019
+20:30,Benfica,1,0,Tondela,Mac 30 2019
+20:30,Santa Clara,1,0,Vitoria de Guimaraes,Mac 30 2019
+15:00,Maritimo,3,2,Nacional,Mac 31 2019
+17:30,Rio Ave,0,2,Aves,Mac 31 2019
+20:00,Boavista,2,0,Belenenses SAD,Mac 31 2019
+20:30,Rio Ave,2,2,Tondela,Feb 1 2019
+15:30,Chaves,1,0,Maritimo,Feb 2 2019
+18:00,Boavista,2,0,Feirense,Feb 2 2019
+20:30,Aves,0,2,Braga,Feb 2 2019
+15:00,Santa Clara,2,1,Portimonense,Feb 3 2019
+15:00,Nacional,0,0,Vitoria de Setubal,Feb 3 2019
+17:30,Sporting CP,2,4,Benfica,Feb 3 2019
+20:00,Vitoria de Guimaraes,0,0,FC Porto,Feb 3 2019
+20:15,Belenenses SAD,0,1,Moreirense,Feb 4 2019
+20:30,Moreirense,1,1,FC Porto,Feb 8 2019
+15:30,Maritimo,0,1,Aves,Feb 9 2019
+18:00,Portimonense,0,1,Rio Ave,Feb 9 2019
+20:30,Tondela,1,0,Vitoria de Guimaraes,Feb 9 2019
+15:00,Boavista,1,0,Santa Clara,Feb 10 2019
+15:00,Braga,2,1,Chaves,Feb 10 2019
+17:30,Benfica,10,0,Nacional,Feb 10 2019
+20:00,Feirense,1,3,Sporting CP,Feb 10 2019
+20:15,Vitoria de Setubal,0,0,Belenenses SAD,Feb 11 2019
+20:30,Rio Ave,1,2,Santa Clara,Feb 15 2019
+15:30,Nacional,4,0,Feirense,Feb 16 2019
+18:00,Vitoria de Guimaraes,2,0,Portimonense,Feb 16 2019
+20:30,FC Porto,2,0,Vitoria de Setubal,Feb 16 2019
+15:00,Moreirense,2,0,Tondela,Feb 17 2019
+15:00,Belenenses SAD,0,1,Maritimo,Feb 17 2019
+17:30,Chaves,1,1,Boavista,Feb 17 2019
+20:00,Sporting CP,3,0,Braga,Feb 17 2019
+20:15,Aves,0,3,Benfica,Feb 18 2019
+19:00,Braga,0,2,Belenenses SAD,Feb 22 2019
+21:15,Tondela,0,3,FC Porto,Feb 22 2019
+15:30,Feirense,1,3,Moreirense,Feb 23 2019
+18:00,Portimonense,1,1,Aves,Feb 23 2019
+20:30,Vitoria de Setubal,1,1,Vitoria de Guimaraes,Feb 23 2019
+15:30,Santa Clara,2,0,Nacional,Feb 24 2019
+17:30,Boavista,1,0,Rio Ave,Feb 24 2019
+19:00,Maritimo,0,0,Sporting CP,Feb 25 2019
+21:15,Benfica,4,0,Chaves,Feb 25 2019
+16:00,Santa Clara,1,2,Tondela,Jan 2 2019
+18:00,Boavista,1,0,Vitoria de Setubal,Jan 2 2019
+18:00,Braga,2,0,Maritimo,Jan 2 2019
+18:00,Nacional,1,0,Vitoria de Guimaraes,Jan 2 2019
+20:15,Rio Ave,1,2,Moreirense,Jan 2 2019
+20:15,Portimonense,2,0,Benfica,Jan 2 2019
+16:00,Chaves,0,0,Feirense,Jan 3 2019
+18:00,Sporting CP,2,1,Belenenses SAD,Jan 3 2019
+20:15,Aves,0,1,FC Porto,Jan 3 2019
+20:30,Maritimo,2,1,Portimonense,Jan 5 2019
+15:00,Belenenses SAD,1,0,Vitoria de Guimaraes,Jan 6 2019
+15:00,Vitoria de Setubal,0,0,Chaves,Jan 6 2019
+15:00,Feirense,2,2,Santa Clara,Jan 6 2019
+17:30,Benfica,4,2,Rio Ave,Jan 6 2019
+20:00,Braga,1,0,Boavista,Jan 6 2019
+17:00,Moreirense,1,0,Aves,Jan 7 2019
+19:00,Tondela,2,1,Sporting CP,Jan 7 2019
+21:15,FC Porto,3,1,Nacional,Jan 7 2019
+20:15,Portimonense,1,1,Braga,Jan 10 2019
+19:00,Santa Clara,0,2,Benfica,Jan 11 2019
+19:00,Aves,1,1,Feirense,Jan 11 2019
+21:15,Vitoria de Guimaraes,1,0,Moreirense,Jan 11 2019
+15:30,Sporting CP,0,0,FC Porto,Jan 12 2019
+20:30,Boavista,0,1,Maritimo,Jan 12 2019
+15:00,Nacional,0,1,Belenenses SAD,Jan 13 2019
+17:30,Chaves,2,1,Tondela,Jan 13 2019
+20:00,Rio Ave,1,1,Vitoria de Setubal,Jan 13 2019
+18:45,Nacional,0,3,Braga,Jan 18 2019
+19:00,Chaves,1,4,FC Porto,Jan 18 2019
+21:15,Vitoria de Guimaraes,0,1,Benfica,Jan 18 2019
+15:30,Belenenses SAD,2,2,Tondela,Jan 19 2019
+18:00,Sporting CP,2,1,Moreirense,Jan 19 2019
+20:30,Santa Clara,0,1,Maritimo,Jan 19 2019
+15:00,Aves,2,1,Vitoria de Setubal,Jan 20 2019
+17:30,Boavista,0,2,Portimonense,Jan 20 2019
+20:00,Rio Ave,0,0,Feirense,Jan 20 2019
+17:00,Maritimo,0,2,Rio Ave,Jan 28 2019
+19:00,Moreirense,2,1,Nacional,Jan 28 2019
+19:00,Tondela,0,2,Aves,Jan 28 2019
+21:15,Feirense,1,2,Vitoria de Guimaraes,Jan 28 2019
+19:00,Portimonense,0,1,Chaves,Jan 29 2019
+19:00,Benfica,5,1,Boavista,Jan 29 2019
+21:15,Braga,1,0,Santa Clara,Jan 29 2019
+19:00,Vitoria de Setubal,1,1,Sporting CP,Jan 30 2019
+21:15,FC Porto,3,0,Belenenses SAD,Jan 30 2019
+15:30,Maritimo,0,1,Vitoria de Setubal,Des 1 2018
+18:00,Benfica,4,0,Feirense,Des 1 2018
+20:30,Braga,2,0,Moreirense,Des 1 2018
+15:00,Aves,2,3,Nacional,Des 2 2018
+15:00,Portimonense,3,2,Tondela,Des 2 2018
+17:30,Chaves,0,1,Vitoria de Guimaraes,Des 2 2018
+20:00,Boavista,0,1,FC Porto,Des 2 2018
+20:15,Rio Ave,1,3,Sporting CP,Des 3 2018
+20:30,FC Porto,4,1,Portimonense,Des 7 2018
+15:30,Belenenses SAD,1,0,Chaves,Des 8 2018
+18:00,Tondela,0,1,Braga,Des 8 2018
+20:30,Vitoria de Setubal,0,1,Benfica,Des 8 2018
+15:00,Nacional,0,0,Boavista,Des 9 2018
+15:00,Moreirense,0,1,Santa Clara,Des 9 2018
+17:30,Vitoria de Guimaraes,3,2,Rio Ave,Des 9 2018
+20:00,Sporting CP,4,1,Aves,Des 9 2018
+20:15,Feirense,1,1,Maritimo,Des 10 2018
+19:00,Portimonense,3,1,Vitoria de Setubal,Des 14 2018
+21:15,Braga,4,0,Feirense,Des 14 2018
+15:30,Chaves,1,2,Moreirense,Des 15 2018
+15:30,Boavista,2,0,Tondela,Des 15 2018
+18:00,Aves,1,1,Vitoria de Guimaraes,Des 15 2018
+20:30,Santa Clara,1,2,FC Porto,Des 15 2018
+15:00,Rio Ave,2,2,Belenenses SAD,Des 16 2018
+17:30,Maritimo,0,1,Benfica,Des 16 2018
+20:00,Sporting CP,5,2,Nacional,Des 16 2018
+15:30,Feirense,0,1,Portimonense,Des 22 2018
+15:30,Vitoria de Setubal,0,2,Santa Clara,Des 22 2018
+15:30,Tondela,2,1,Maritimo,Des 22 2018
+18:00,Belenenses SAD,5,2,Aves,Des 22 2018
+20:30,Moreirense,2,1,Boavista,Des 22 2018
+15:00,Nacional,2,0,Chaves,Des 23 2018
+15:00,FC Porto,2,1,Rio Ave,Des 23 2018
+17:30,Benfica,6,2,Braga,Des 23 2018
+20:00,Vitoria de Guimaraes,1,0,Sporting CP,Des 23 2018
+20:30,Benfica,1,3,Moreirense,Nov 2 2018
+15:30,Portimonense,1,1,Belenenses SAD,Nov 3 2018
+18:00,Maritimo,0,2,FC Porto,Nov 3 2018
+20:30,Boavista,0,0,Vitoria de Guimaraes,Nov 3 2018
+15:00,Feirense,2,4,Tondela,Nov 4 2018
+17:30,Santa Clara,1,2,Sporting CP,Nov 4 2018
+20:00,Braga,2,1,Vitoria de Setubal,Nov 4 2018
+19:00,Rio Ave,3,3,Nacional,Nov 5 2018
+21:15,Chaves,1,2,Aves,Nov 5 2018
+19:00,Moreirense,2,0,Portimonense,Nov 9 2018
+21:15,Vitoria de Setubal,2,1,Feirense,Nov 9 2018
+15:30,Aves,2,1,Rio Ave,Nov 10 2018
+15:30,Belenenses SAD,0,0,Boavista,Nov 10 2018
+18:00,Nacional,1,0,Maritimo,Nov 10 2018
+20:30,FC Porto,1,0,Braga,Nov 10 2018
+15:00,Vitoria de Guimaraes,2,0,Santa Clara,Nov 11 2018
+17:30,Tondela,1,3,Benfica,Nov 11 2018
+20:00,Sporting CP,2,1,Chaves,Nov 11 2018
+20:30,Santa Clara,2,3,Belenenses SAD,Nov 30 2018
+20:15,Aves,3,0,Portimonense,Okt 1 2018
+15:30,Tondela,1,1,Nacional,Okt 5 2018
+18:00,Santa Clara,1,0,Chaves,Okt 5 2018
+20:30,Feirense,0,0,Belenenses SAD,Okt 5 2018
+15:30,Vitoria de Setubal,3,0,Moreirense,Okt 6 2018
+18:00,Maritimo,1,3,Vitoria de Guimaraes,Okt 6 2018
+20:30,Braga,1,1,Rio Ave,Okt 6 2018
+15:00,Boavista,1,0,Aves,Okt 7 2018
+17:30,Benfica,1,0,FC Porto,Okt 7 2018
+20:00,Portimonense,4,2,Sporting CP,Okt 7 2018
+19:00,Nacional,0,1,Portimonense,Okt 26 2018
+21:15,Vitoria de Guimaraes,1,1,Braga,Okt 26 2018
+15:30,Aves,1,2,Santa Clara,Okt 27 2018
+18:00,Rio Ave,1,0,Chaves,Okt 27 2018
+20:30,Belenenses SAD,2,0,Benfica,Okt 27 2018
+15:00,Moreirense,1,0,Maritimo,Okt 28 2018
+15:00,Tondela,1,2,Vitoria de Setubal,Okt 28 2018
+17:30,FC Porto,2,0,Feirense,Okt 28 2018
+20:00,Sporting CP,3,0,Boavista,Okt 28 2018
+16:30,Belenenses SAD,0,0,Vitoria de Setubal,Sep 1 2018
+19:00,Santa Clara,4,2,Boavista,Sep 1 2018
+21:00,Sporting CP,1,0,Feirense,Sep 1 2018
+16:00,Rio Ave,2,1,Portimonense,Sep 2 2018
+16:00,Aves,0,1,Maritimo,Sep 2 2018
+18:30,Nacional,0,4,Benfica,Sep 2 2018
+20:30,FC Porto,3,0,Moreirense,Sep 2 2018
+20:30,Boavista,1,2,Chaves,Sep 21 2018
+16:30,Santa Clara,1,3,Rio Ave,Sep 22 2018
+19:00,Maritimo,0,0,Belenenses SAD,Sep 22 2018
+21:00,Vitoria de Setubal,0,2,FC Porto,Sep 22 2018
+16:00,Tondela,2,0,Moreirense,Sep 23 2018
+16:00,Feirense,0,0,Nacional,Sep 23 2018
+18:30,Benfica,2,0,Aves,Sep 23 2018
+20:30,Portimonense,3,2,Vitoria de Guimaraes,Sep 23 2018
+20:15,Braga,1,0,Sporting CP,Sep 24 2018
+21:20,Chaves,2,2,Benfica,Sep 27 2018
+20:30,FC Porto,1,0,Tondela,Sep 28 2018
+16:30,Moreirense,1,0,Feirense,Sep 29 2018
+19:00,Rio Ave,2,1,Boavista,Sep 29 2018
+21:00,Sporting CP,2,0,Maritimo,Sep 29 2018
+16:00,Nacional,0,3,Santa Clara,Sep 30 2018
+18:30,Vitoria de Guimaraes,1,1,Vitoria de Setubal,Sep 30 2018
+20:30,Belenenses SAD,0,3,Braga,Sep 30 2018
+20:30,Braga,1,1,Boavista,Mei 4 2018
+16:00,Belenenses SAD,3,2,Portimonense,Mei 5 2018
+18:15,Tondela,1,4,Vitoria de Guimaraes,Mei 5 2018
+20:30,Sporting CP,0,0,Benfica,Mei 5 2018
+16:00,Moreirense,0,3,Aves,Mei 6 2018
+16:00,Estoril,2,1,Vitoria de Setubal,Mei 6 2018
+18:00,Chaves,4,1,Maritimo,Mei 6 2018
+20:15,FC Porto,2,1,Feirense,Mei 6 2018
+20:00,Pacos de Ferreira,0,0,Rio Ave,Mei 7 2018
+20:30,Aves,2,3,Chaves,Mei 11 2018
+16:00,Vitoria de Guimaraes,0,1,FC Porto,Mei 12 2018
+20:00,Boavista,1,0,Belenenses SAD,Mei 12 2018
+18:00,Rio Ave,1,0,Braga,Mei 13 2018
+18:00,Feirense,0,0,Estoril,Mei 13 2018
+18:00,Portimonense,3,1,Pacos de Ferreira,Mei 13 2018
+18:00,Benfica,1,0,Moreirense,Mei 13 2018
+18:00,Maritimo,2,1,Sporting CP,Mei 13 2018
+18:00,Vitoria de Setubal,1,0,Tondela,Mei 13 2018
+20:00,Belenenses SAD,2,0,FC Porto,Apr 2 2018
+20:30,Vitoria de Guimaraes,3,0,Rio Ave,Apr 6 2018
+16:00,Tondela,2,2,Portimonense,Apr 7 2018
+16:00,Estoril,1,1,Maritimo,Apr 7 2018
+18:15,Feirense,2,2,Braga,Apr 7 2018
+20:30,Vitoria de Setubal,1,2,Benfica,Apr 7 2018
+16:00,Chaves,1,1,Belenenses SAD,Apr 8 2018
+18:00,FC Porto,2,0,Aves,Apr 8 2018
+20:15,Sporting CP,2,0,Pacos de Ferreira,Apr 8 2018
+20:00,Moreirense,1,0,Boavista,Apr 9 2018
+20:30,Pacos de Ferreira,1,5,Braga,Apr 13 2018
+16:00,Portimonense,0,1,Estoril,Apr 14 2018
+16:00,Aves,1,0,Feirense,Apr 14 2018
+18:15,Boavista,3,3,Chaves,Apr 14 2018
+20:30,Vitoria de Guimaraes,1,1,Vitoria de Setubal,Apr 14 2018
+16:00,Maritimo,1,1,Moreirense,Apr 15 2018
+18:00,Benfica,0,1,FC Porto,Apr 15 2018
+20:15,Belenenses SAD,3,4,Sporting CP,Apr 15 2018
+20:00,Rio Ave,1,1,Tondela,Apr 16 2018
+20:30,Braga,2,0,Maritimo,Apr 20 2018
+16:00,Pacos de Ferreira,1,1,Belenenses SAD,Apr 21 2018
+18:15,Feirense,2,1,Vitoria de Guimaraes,Apr 21 2018
+20:30,Estoril,1,2,Benfica,Apr 21 2018
+16:00,Chaves,2,1,Portimonense,Apr 22 2018
+16:00,Tondela,3,0,Aves,Apr 22 2018
+18:00,Moreirense,2,1,Rio Ave,Apr 22 2018
+20:15,Sporting CP,1,0,Boavista,Apr 22 2018
+20:00,FC Porto,5,1,Vitoria de Setubal,Apr 23 2018
+20:30,Vitoria de Guimaraes,1,0,Moreirense,Apr 27 2018
+16:00,Vitoria de Setubal,0,2,Feirense,Apr 28 2018
+18:15,Benfica,2,3,Tondela,Apr 28 2018
+20:30,Portimonense,1,2,Sporting CP,Apr 28 2018
+16:00,Boavista,1,0,Pacos de Ferreira,Apr 29 2018
+16:00,Rio Ave,2,1,Chaves,Apr 29 2018
+18:00,Maritimo,0,1,FC Porto,Apr 29 2018
+20:15,Belenenses SAD,0,1,Braga,Apr 29 2018
+20:00,Aves,1,0,Estoril,Apr 30 2018
+20:30,FC Porto,2,1,Sporting CP,Mac 2 2018
+16:00,Feirense,3,0,Boavista,Mac 3 2018
+18:15,Benfica,5,0,Maritimo,Mac 3 2018
+20:30,Estoril,0,6,Braga,Mac 3 2018
+11:45,Tondela,2,0,Chaves,Mac 4 2018
+16:00,Moreirense,2,0,Pacos de Ferreira,Mac 4 2018
+18:00,Vitoria de Setubal,1,0,Rio Ave,Mac 4 2018
+20:15,Vitoria de Guimaraes,0,0,Belenenses SAD,Mac 4 2018
+20:00,Aves,3,0,Portimonense,Mac 5 2018
+20:30,Braga,3,0,Moreirense,Mac 9 2018
+16:00,Rio Ave,2,1,Feirense,Mac 10 2018
+18:15,Benfica,2,0,Aves,Mac 10 2018
+20:30,Boavista,1,0,Estoril,Mac 10 2018
+11:45,Portimonense,2,1,Vitoria de Guimaraes,Mac 11 2018
+16:00,Maritimo,4,2,Vitoria de Setubal,Mac 11 2018
+18:00,Belenenses SAD,0,0,Tondela,Mac 11 2018
+20:15,Pacos de Ferreira,1,0,FC Porto,Mac 11 2018
+19:00,Chaves,1,2,Sporting CP,Mac 12 2018
+20:30,Vitoria de Setubal,1,1,Portimonense,Mac 16 2018
+16:00,Estoril,1,1,Pacos de Ferreira,Mac 17 2018
+16:00,Tondela,1,2,Maritimo,Mac 17 2018
+18:15,Feirense,0,2,Benfica,Mac 17 2018
+20:30,FC Porto,2,0,Boavista,Mac 17 2018
+16:00,Vitoria de Guimaraes,2,1,Aves,Mac 18 2018
+16:00,Moreirense,2,1,Belenenses SAD,Mac 18 2018
+18:00,Chaves,1,4,Braga,Mac 18 2018
+20:15,Sporting CP,2,0,Rio Ave,Mac 18 2018
+21:00,Aves,1,4,Vitoria de Setubal,Mac 29 2018
+16:00,Maritimo,4,1,Feirense,Mac 30 2018
+18:15,Rio Ave,2,0,Estoril,Mac 30 2018
+20:30,Boavista,1,1,Tondela,Mac 30 2018
+16:00,Pacos de Ferreira,2,0,Chaves,Mac 31 2018
+16:00,Portimonense,4,3,Moreirense,Mac 31 2018
+18:15,Benfica,2,0,Vitoria de Guimaraes,Mac 31 2018
+20:30,Braga,1,0,Sporting CP,Mac 31 2018
+18:15,Benfica,5,1,Rio Ave,Feb 3 2018
+20:30,FC Porto,3,1,Braga,Feb 3 2018
+16:00,Feirense,1,2,Chaves,Feb 4 2018
+16:00,Tondela,1,2,Moreirense,Feb 4 2018
+18:00,Estoril,2,0,Sporting CP,Feb 4 2018
+20:15,Vitoria de Guimaraes,3,2,Pacos de Ferreira,Feb 4 2018
+19:00,Maritimo,0,3,Portimonense,Feb 5 2018
+21:00,Vitoria de Setubal,3,0,Belenenses SAD,Feb 5 2018
+20:00,Aves,3,0,Boavista,Feb 6 2018
+20:30,Pacos de Ferreira,0,2,Tondela,Feb 9 2018
+16:00,Rio Ave,3,0,Maritimo,Feb 10 2018
+18:15,Braga,3,1,Vitoria de Setubal,Feb 10 2018
+20:30,Portimonense,1,3,Benfica,Feb 10 2018
+16:00,Belenenses SAD,2,5,Aves,Feb 11 2018
+16:00,Chaves,0,4,FC Porto,Feb 11 2018
+18:00,Sporting CP,2,0,Feirense,Feb 11 2018
+20:15,Boavista,1,0,Vitoria de Guimaraes,Feb 11 2018
+20:00,Moreirense,1,2,Estoril,Feb 12 2018
+20:30,Feirense,1,3,Portimonense,Feb 16 2018
+16:00,Aves,0,0,Maritimo,Feb 17 2018
+18:15,Benfica,4,0,Boavista,Feb 17 2018
+20:30,Estoril,0,2,Belenenses SAD,Feb 17 2018
+16:00,Moreirense,0,1,Chaves,Feb 18 2018
+16:00,Vitoria de Setubal,1,0,Pacos de Ferreira,Feb 18 2018
+18:00,FC Porto,5,0,Rio Ave,Feb 18 2018
+20:15,Vitoria de Guimaraes,0,5,Braga,Feb 18 2018
+20:00,Tondela,1,2,Sporting CP,Feb 19 2018
+18:00,Estoril,1,3,FC Porto,Feb 21 2018
+20:30,Rio Ave,0,0,Aves,Feb 23 2018
+16:00,Belenenses SAD,1,0,Feirense,Feb 24 2018
+18:15,Maritimo,3,2,Vitoria de Guimaraes,Feb 24 2018
+20:30,Pacos de Ferreira,1,3,Benfica,Feb 24 2018
+16:00,Chaves,2,0,Estoril,Feb 25 2018
+18:00,Boavista,4,0,Vitoria de Setubal,Feb 25 2018
+20:15,Portimonense,1,5,FC Porto,Feb 25 2018
+19:00,Braga,1,0,Tondela,Feb 26 2018
+21:00,Sporting CP,1,0,Moreirense,Feb 26 2018
+18:15,Aves,1,2,Moreirense,Jan 3 2018
+18:15,Boavista,1,3,Braga,Jan 3 2018
+18:15,Maritimo,1,2,Chaves,Jan 3 2018
+20:15,Rio Ave,4,2,Pacos de Ferreira,Jan 3 2018
+20:15,Feirense,1,2,FC Porto,Jan 3 2018
+21:30,Benfica,1,1,Sporting CP,Jan 3 2018
+18:15,Vitoria de Setubal,2,2,Estoril,Jan 4 2018
+20:15,Portimonense,0,0,Belenenses SAD,Jan 4 2018
+20:30,Braga,2,1,Rio Ave,Jan 6 2018
+11:45,Chaves,1,1,Aves,Jan 7 2018
+16:00,Moreirense,0,2,Benfica,Jan 7 2018
+18:00,Sporting CP,5,0,Maritimo,Jan 7 2018
+20:15,FC Porto,4,2,Vitoria de Guimaraes,Jan 7 2018
+19:00,Pacos de Ferreira,1,1,Portimonense,Jan 8 2018
+21:00,Estoril,0,2,Feirense,Jan 8 2018
+19:00,Tondela,1,1,Vitoria de Setubal,Jan 9 2018
+21:00,Belenenses SAD,1,1,Boavista,Jan 9 2018
+20:30,Chaves,4,3,Vitoria de Guimaraes,Jan 12 2018
+18:15,Pacos de Ferreira,0,0,Maritimo,Jan 13 2018
+20:30,Braga,1,3,Benfica,Jan 13 2018
+16:00,Tondela,3,1,Feirense,Jan 14 2018
+16:00,Boavista,2,0,Portimonense,Jan 14 2018
+18:00,Belenenses SAD,1,2,Rio Ave,Jan 14 2018
+20:15,Sporting CP,3,0,Aves,Jan 14 2018
+19:00,Moreirense,2,2,Vitoria de Setubal,Jan 15 2018
+19:00,Vitoria de Setubal,1,1,Sporting CP,Jan 19 2018
+21:00,FC Porto,1,0,Tondela,Jan 19 2018
+16:00,Maritimo,0,0,Belenenses SAD,Jan 20 2018
+18:15,Benfica,3,0,Chaves,Jan 20 2018
+20:30,Portimonense,1,2,Braga,Jan 20 2018
+16:00,Feirense,1,0,Moreirense,Jan 21 2018
+16:00,Aves,0,2,Pacos de Ferreira,Jan 21 2018
+18:00,Rio Ave,2,0,Boavista,Jan 21 2018
+20:15,Vitoria de Guimaraes,3,1,Estoril,Jan 21 2018
+19:00,Pacos de Ferreira,2,1,Feirense,Jan 29 2018
+19:00,Portimonense,4,1,Rio Ave,Jan 29 2018
+21:00,Belenenses SAD,1,1,Benfica,Jan 29 2018
+19:00,Estoril,3,0,Tondela,Jan 30 2018
+19:00,Braga,2,0,Aves,Jan 30 2018
+21:00,Moreirense,0,0,FC Porto,Jan 30 2018
+19:00,Boavista,2,1,Maritimo,Jan 31 2018
+19:00,Chaves,2,2,Vitoria de Setubal,Jan 31 2018
+21:00,Sporting CP,1,0,Vitoria de Guimaraes,Jan 31 2018
+18:15,Sporting CP,1,0,Belenenses SAD,Des 1 2017
+20:30,FC Porto,0,0,Benfica,Des 1 2017
+16:00,Moreirense,1,1,Maritimo,Des 2 2017
+18:15,Tondela,1,3,Rio Ave,Des 2 2017
+20:30,Chaves,0,0,Boavista,Des 2 2017
+16:00,Feirense,0,1,Aves,Des 3 2017
+18:00,Braga,3,0,Pacos de Ferreira,Des 3 2017
+20:15,Vitoria de Setubal,1,2,Vitoria de Guimaraes,Des 3 2017
+20:00,Estoril,0,0,Portimonense,Des 4 2017
+20:30,Rio Ave,2,1,Moreirense,Des 8 2017
+16:00,Aves,0,1,Tondela,Des 9 2017
+18:15,Benfica,3,1,Estoril,Des 9 2017
+20:30,Boavista,1,3,Sporting CP,Des 9 2017
+16:00,Portimonense,0,1,Chaves,Des 10 2017
+18:00,Belenenses SAD,1,1,Pacos de Ferreira,Des 10 2017
+20:15,Vitoria de Setubal,0,5,FC Porto,Des 10 2017
+19:00,Vitoria de Guimaraes,1,0,Feirense,Des 11 2017
+21:00,Maritimo,1,0,Braga,Des 11 2017
+20:30,Pacos de Ferreira,1,2,Boavista,Des 15 2017
+18:15,Estoril,3,2,Aves,Des 16 2017
+20:30,Braga,4,0,Belenenses SAD,Des 16 2017
+16:00,Feirense,1,0,Vitoria de Setubal,Des 17 2017
+16:00,Chaves,1,1,Rio Ave,Des 17 2017
+18:00,Sporting CP,2,0,Portimonense,Des 17 2017
+20:15,Tondela,1,5,Benfica,Des 17 2017
+19:00,Moreirense,2,1,Vitoria de Guimaraes,Des 18 2017
+21:00,FC Porto,3,1,Maritimo,Des 18 2017
+18:15,Vitoria de Guimaraes,0,1,Tondela,Des 23 2017
+20:30,Vitoria de Setubal,0,1,Aves,Nov 3 2017
+16:00,Moreirense,1,1,Portimonense,Nov 4 2017
+16:00,Tondela,3,2,Boavista,Nov 4 2017
+18:15,Estoril,0,2,Rio Ave,Nov 4 2017
+20:30,FC Porto,2,0,Belenenses SAD,Nov 4 2017
+16:00,Feirense,0,1,Maritimo,Nov 5 2017
+16:00,Chaves,4,2,Pacos de Ferreira,Nov 5 2017
+18:00,Vitoria de Guimaraes,1,3,Benfica,Nov 5 2017
+20:15,Sporting CP,2,2,Braga,Nov 5 2017
+20:30,Belenenses SAD,0,1,Chaves,Nov 24 2017
+16:00,Portimonense,2,0,Tondela,Nov 25 2017
+18:15,Boavista,1,0,Moreirense,Nov 25 2017
+20:30,Aves,1,1,FC Porto,Nov 25 2017
+16:00,Maritimo,0,0,Estoril,Nov 26 2017
+18:00,Pacos de Ferreira,1,2,Sporting CP,Nov 26 2017
+20:15,Benfica,6,0,Vitoria de Setubal,Nov 26 2017
+19:00,Braga,3,1,Feirense,Nov 27 2017
+21:00,Rio Ave,0,1,Vitoria de Guimaraes,Nov 27 2017
+17:15,Braga,6,0,Estoril,Okt 1 2017
+19:15,Sporting CP,0,0,FC Porto,Okt 1 2017
+21:30,Maritimo,1,1,Benfica,Okt 1 2017
+21:30,Belenenses SAD,1,0,Vitoria de Guimaraes,Okt 1 2017
+20:30,Estoril,0,3,Boavista,Okt 20 2017
+16:00,Feirense,1,0,Rio Ave,Okt 21 2017
+18:15,Vitoria de Setubal,3,1,Maritimo,Okt 21 2017
+20:30,FC Porto,6,1,Pacos de Ferreira,Okt 21 2017
+16:00,Tondela,2,0,Belenenses SAD,Okt 22 2017
+18:00,Aves,1,3,Benfica,Okt 22 2017
+20:15,Sporting CP,5,1,Chaves,Okt 22 2017
+19:00,Moreirense,0,1,Braga,Okt 23 2017
+21:00,Vitoria de Guimaraes,3,3,Portimonense,Okt 23 2017
+19:00,Benfica,1,0,Feirense,Okt 27 2017
+21:00,Rio Ave,0,1,Sporting CP,Okt 27 2017
+16:00,Maritimo,2,0,Tondela,Okt 28 2017
+18:15,Belenenses SAD,3,0,Moreirense,Okt 28 2017
+20:30,Boavista,0,3,FC Porto,Okt 28 2017
+16:00,Braga,1,0,Chaves,Okt 29 2017
+18:00,Pacos de Ferreira,1,0,Estoril,Okt 29 2017
+20:15,Aves,1,3,Vitoria de Guimaraes,Okt 29 2017
+20:00,Portimonense,5,2,Vitoria de Setubal,Okt 30 2017
+19:00,Feirense,2,3,Sporting CP,Sep 8 2017
+21:00,Benfica,2,1,Portimonense,Sep 8 2017
+16:00,Tondela,2,2,Pacos de Ferreira,Sep 9 2017
+18:15,Maritimo,1,0,Rio Ave,Sep 9 2017
+20:30,FC Porto,3,0,Chaves,Sep 9 2017
+16:00,Vitoria de Setubal,2,0,Braga,Sep 10 2017
+18:00,Vitoria de Guimaraes,1,0,Boavista,Sep 10 2017
+20:15,Estoril,0,2,Moreirense,Sep 10 2017
+20:00,Aves,2,1,Belenenses SAD,Sep 11 2017
+20:30,Pacos de Ferreira,1,0,Vitoria de Setubal,Sep 15 2017
+16:00,Maritimo,2,1,Aves,Sep 16 2017
+18:15,Boavista,2,1,Benfica,Sep 16 2017
+20:30,Sporting CP,2,0,Tondela,Sep 16 2017
+16:00,Belenenses SAD,2,1,Estoril,Sep 17 2017
+18:00,Rio Ave,1,2,FC Porto,Sep 17 2017
+20:15,Braga,2,1,Vitoria de Guimaraes,Sep 17 2017
+19:00,Portimonense,2,1,Feirense,Sep 18 2017
+21:00,Chaves,3,0,Moreirense,Sep 18 2017
+20:30,FC Porto,5,2,Portimonense,Sep 22 2017
+16:00,Estoril,0,2,Chaves,Sep 23 2017
+18:15,Moreirense,1,1,Sporting CP,Sep 23 2017
+20:30,Benfica,2,0,Pacos de Ferreira,Sep 23 2017
+16:00,Vitoria de Guimaraes,2,1,Maritimo,Sep 24 2017
+16:00,Feirense,1,4,Belenenses SAD,Sep 24 2017
+18:00,Tondela,1,2,Braga,Sep 24 2017
+20:15,Aves,0,0,Rio Ave,Sep 24 2017
+20:00,Vitoria de Setubal,1,1,Boavista,Sep 25 2017
+20:30,Chaves,1,1,Tondela,Sep 29 2017
+16:00,Pacos de Ferreira,3,2,Moreirense,Sep 30 2017
+16:00,Portimonense,2,2,Aves,Sep 30 2017
+18:15,Boavista,1,0,Feirense,Sep 30 2017
+20:30,Rio Ave,2,1,Vitoria de Setubal,Sep 30 2017
+20:30,Moreirense,2,1,Braga,Mei 5 2017
+16:00,Boavista,2,2,Nacional,Mei 6 2017
+18:15,Pacos de Ferreira,0,1,Feirense,Mei 6 2017
+20:30,Maritimo,1,1,FC Porto,Mei 6 2017
+11:45,Sporting CP,1,3,Belenenses SAD,Mei 7 2017
+16:00,Tondela,2,1,Vitoria de Setubal,Mei 7 2017
+18:00,Vitoria de Guimaraes,1,0,Arouca,Mei 7 2017
+20:15,Rio Ave,0,1,Benfica,Mei 7 2017
+20:00,Estoril,2,1,Chaves,Mei 8 2017
+20:30,Belenenses SAD,1,1,Moreirense,Mei 12 2017
+16:00,Arouca,1,2,Tondela,Mei 13 2017
+18:15,Benfica,5,0,Vitoria de Guimaraes,Mei 13 2017
+20:30,Feirense,2,1,Sporting CP,Mei 13 2017
+16:00,Chaves,2,2,Rio Ave,Mei 14 2017
+16:00,Maritimo,1,1,Estoril,Mei 14 2017
+18:00,FC Porto,4,1,Pacos de Ferreira,Mei 14 2017
+20:15,Braga,4,0,Nacional,Mei 14 2017
+20:00,Vitoria de Setubal,0,1,Boavista,Mei 15 2017
+16:00,Nacional,1,2,Vitoria de Setubal,Mei 20 2017
+16:00,Rio Ave,2,0,Belenenses SAD,Mei 20 2017
+16:00,Pacos de Ferreira,0,0,Maritimo,Mei 20 2017
+18:15,Vitoria de Guimaraes,0,1,Feirense,Mei 20 2017
+20:30,Boavista,2,2,Benfica,Mei 20 2017
+18:00,Tondela,2,0,Braga,Mei 21 2017
+18:00,Estoril,4,2,Arouca,Mei 21 2017
+18:00,Moreirense,3,1,FC Porto,Mei 21 2017
+20:15,Sporting CP,4,1,Chaves,Mei 21 2017
+16:00,Tondela,0,2,Estoril,Apr 1 2017
+18:15,Boavista,0,1,Rio Ave,Apr 1 2017
+20:30,Benfica,1,1,FC Porto,Apr 1 2017
+16:00,Belenenses SAD,1,2,Feirense,Apr 2 2017
+16:00,Vitoria de Setubal,2,0,Moreirense,Apr 2 2017
+18:00,Arouca,1,2,Sporting CP,Apr 2 2017
+20:15,Braga,3,3,Maritimo,Apr 2 2017
+20:30,Feirense,0,1,Braga,Apr 7 2017
+16:00,Pacos de Ferreira,1,1,Arouca,Apr 8 2017
+18:15,FC Porto,3,0,Belenenses SAD,Apr 8 2017
+20:30,Sporting CP,4,0,Boavista,Apr 8 2017
+16:00,Estoril,0,1,Nacional,Apr 9 2017
+16:00,Rio Ave,0,0,Vitoria de Setubal,Apr 9 2017
+18:00,Vitoria de Guimaraes,2,1,Tondela,Apr 9 2017
+20:15,Moreirense,0,1,Benfica,Apr 9 2017
+20:00,Maritimo,2,1,Chaves,Apr 10 2017
+16:00,Boavista,0,0,Pacos de Ferreira,Apr 14 2017
+16:00,Belenenses SAD,1,3,Estoril,Apr 14 2017
+18:15,Benfica,3,0,Maritimo,Apr 14 2017
+20:30,Vitoria de Setubal,0,3,Sporting CP,Apr 14 2017
+16:00,Chaves,2,3,Vitoria de Guimaraes,Apr 15 2017
+16:00,Arouca,2,0,Feirense,Apr 15 2017
+18:15,Tondela,2,1,Rio Ave,Apr 15 2017
+20:30,Braga,1,1,FC Porto,Apr 15 2017
+20:00,Nacional,0,1,Moreirense,Apr 17 2017
+20:30,Rio Ave,3,0,Arouca,Apr 21 2017
+16:00,Maritimo,3,0,Belenenses SAD,Apr 22 2017
+16:00,Tondela,2,0,Nacional,Apr 22 2017
+18:15,Estoril,3,0,Vitoria de Setubal,Apr 22 2017
+20:30,Sporting CP,1,1,Benfica,Apr 22 2017
+16:00,Pacos de Ferreira,3,1,Braga,Apr 23 2017
+18:00,Vitoria de Guimaraes,2,0,Boavista,Apr 23 2017
+20:15,FC Porto,0,0,Feirense,Apr 23 2017
+20:00,Moreirense,0,0,Chaves,Apr 24 2017
+20:30,Vitoria de Setubal,0,2,Vitoria de Guimaraes,Apr 28 2017
+16:00,Boavista,1,0,Tondela,Apr 29 2017
+16:00,Nacional,0,2,Rio Ave,Apr 29 2017
+18:15,Benfica,2,1,Estoril,Apr 29 2017
+20:30,Chaves,0,2,FC Porto,Apr 29 2017
+16:00,Feirense,2,1,Maritimo,Apr 30 2017
+16:00,Arouca,2,2,Moreirense,Apr 30 2017
+18:00,Braga,2,3,Sporting CP,Apr 30 2017
+20:15,Belenenses SAD,1,2,Pacos de Ferreira,Apr 30 2017
+20:30,Moreirense,0,0,Boavista,Mac 3 2017
+16:00,Braga,3,1,Arouca,Mac 4 2017
+18:15,FC Porto,7,0,Nacional,Mac 4 2017
+20:30,Feirense,0,1,Benfica,Mac 4 2017
+11:45,Pacos de Ferreira,0,0,Tondela,Mac 5 2017
+16:00,Maritimo,1,0,Vitoria de Setubal,Mac 5 2017
+18:00,Belenenses SAD,2,1,Chaves,Mac 5 2017
+20:15,Sporting CP,1,1,Vitoria de Guimaraes,Mac 5 2017
+20:00,Estoril,0,2,Rio Ave,Mac 6 2017
+20:30,Arouca,0,4,FC Porto,Mac 10 2017
+16:00,Vitoria de Setubal,1,2,Feirense,Mac 11 2017
+18:15,Chaves,0,0,Braga,Mac 11 2017
+20:30,Tondela,1,4,Sporting CP,Mac 11 2017
+16:00,Boavista,3,0,Maritimo,Mac 12 2017
+18:00,Rio Ave,3,2,Moreirense,Mac 12 2017
+20:15,Vitoria de Guimaraes,3,3,Estoril,Mac 12 2017
+18:00,Nacional,1,1,Pacos de Ferreira,Mac 13 2017
+20:00,Benfica,4,0,Belenenses SAD,Mac 13 2017
+20:30,Estoril,0,0,Boavista,Mac 17 2017
+16:00,Belenenses SAD,1,2,Braga,Mac 18 2017
+16:00,Moreirense,1,1,Tondela,Mac 18 2017
+18:15,Sporting CP,2,0,Nacional,Mac 18 2017
+20:30,Pacos de Ferreira,0,0,Benfica,Mac 18 2017
+16:00,Feirense,3,2,Chaves,Mac 19 2017
+16:00,Maritimo,3,1,Arouca,Mac 19 2017
+18:00,FC Porto,1,1,Vitoria de Setubal,Mac 19 2017
+20:15,Vitoria de Guimaraes,3,0,Rio Ave,Mac 19 2017
+19:00,Chaves,1,0,Pacos de Ferreira,Mac 31 2017
+21:00,Nacional,1,2,Vitoria de Guimaraes,Mac 31 2017
+19:00,Moreirense,1,1,Feirense,Feb 2 2017
+21:00,Rio Ave,1,0,Braga,Feb 2 2017
+20:30,Pacos de Ferreira,2,0,Vitoria de Guimaraes,Feb 3 2017
+16:00,Chaves,0,0,Boavista,Feb 4 2017
+20:30,FC Porto,2,1,Sporting CP,Feb 4 2017
+16:00,Arouca,2,1,Vitoria de Setubal,Feb 5 2017
+18:00,Benfica,3,0,Nacional,Feb 5 2017
+20:15,Belenenses SAD,0,0,Tondela,Feb 5 2017
+19:00,Maritimo,1,0,Moreirense,Feb 6 2017
+21:00,Braga,1,1,Estoril,Feb 6 2017
+21:00,Feirense,2,1,Rio Ave,Feb 6 2017
+20:30,Benfica,3,0,Arouca,Feb 10 2017
+11:45,Tondela,0,1,Feirense,Feb 11 2017
+16:00,Vitoria de Setubal,0,0,Chaves,Feb 11 2017
+18:15,Estoril,2,1,Pacos de Ferreira,Feb 11 2017
+20:30,Vitoria de Guimaraes,0,2,FC Porto,Feb 11 2017
+16:00,Nacional,1,1,Belenenses SAD,Feb 12 2017
+18:00,Moreirense,2,3,Sporting CP,Feb 12 2017
+20:15,Boavista,1,1,Braga,Feb 12 2017
+20:00,Rio Ave,0,0,Maritimo,Feb 13 2017
+20:30,FC Porto,4,0,Tondela,Feb 17 2017
+16:00,Chaves,2,0,Arouca,Feb 18 2017
+16:00,Moreirense,1,1,Estoril,Feb 18 2017
+18:15,Feirense,0,1,Boavista,Feb 18 2017
+20:30,Sporting CP,1,0,Rio Ave,Feb 18 2017
+16:00,Pacos de Ferreira,2,1,Vitoria de Setubal,Feb 19 2017
+18:00,Belenenses SAD,1,1,Vitoria de Guimaraes,Feb 19 2017
+20:15,Braga,0,1,Benfica,Feb 19 2017
+20:00,Maritimo,0,0,Nacional,Feb 20 2017
+19:00,Vitoria de Guimaraes,1,0,Moreirense,Feb 24 2017
+21:00,Benfica,3,1,Chaves,Feb 24 2017
+16:00,Tondela,1,1,Maritimo,Feb 25 2017
+18:15,Estoril,0,2,Sporting CP,Feb 25 2017
+20:30,Rio Ave,0,0,Pacos de Ferreira,Feb 25 2017
+16:00,Nacional,0,0,Feirense,Feb 26 2017
+18:00,Vitoria de Setubal,1,1,Braga,Feb 26 2017
+20:15,Boavista,0,1,FC Porto,Feb 26 2017
+20:00,Arouca,1,2,Belenenses SAD,Feb 27 2017
+11:45,Nacional,0,0,Braga,Jan 7 2017
+16:00,Estoril,0,1,Maritimo,Jan 7 2017
+18:15,Vitoria de Guimaraes,0,2,Benfica,Jan 7 2017
+20:30,Pacos de Ferreira,0,0,FC Porto,Jan 7 2017
+16:00,Tondela,1,2,Arouca,Jan 8 2017
+16:00,Rio Ave,2,2,Chaves,Jan 8 2017
+18:00,Boavista,1,0,Vitoria de Setubal,Jan 8 2017
+20:15,Sporting CP,2,1,Feirense,Jan 8 2017
+20:00,Moreirense,1,0,Belenenses SAD,Jan 9 2017
+20:30,Arouca,2,1,Estoril,Jan 13 2017
+16:00,Benfica,3,3,Boavista,Jan 14 2017
+16:00,Vitoria de Setubal,1,0,Nacional,Jan 14 2017
+18:15,Chaves,2,2,Sporting CP,Jan 14 2017
+20:30,Feirense,0,0,Vitoria de Guimaraes,Jan 14 2017
+16:00,Maritimo,3,1,Pacos de Ferreira,Jan 15 2017
+18:00,FC Porto,3,0,Moreirense,Jan 15 2017
+20:15,Belenenses SAD,1,0,Rio Ave,Jan 15 2017
+20:00,Braga,2,0,Tondela,Jan 16 2017
+20:30,Pacos de Ferreira,0,2,Moreirense,Jan 20 2017
+16:00,FC Porto,4,2,Rio Ave,Jan 21 2017
+18:15,Maritimo,2,2,Sporting CP,Jan 21 2017
+20:30,Arouca,1,2,Boavista,Jan 21 2017
+16:00,Feirense,1,0,Estoril,Jan 22 2017
+16:00,Benfica,4,0,Tondela,Jan 22 2017
+18:00,Belenenses SAD,1,2,Vitoria de Setubal,Jan 22 2017
+20:15,Braga,1,2,Vitoria de Guimaraes,Jan 22 2017
+20:00,Chaves,2,0,Nacional,Jan 23 2017
+20:30,Boavista,0,1,Belenenses SAD,Jan 27 2017
+11:45,Tondela,2,0,Chaves,Jan 28 2017
+16:00,Vitoria de Guimaraes,0,0,Maritimo,Jan 28 2017
+16:00,Nacional,1,1,Arouca,Jan 28 2017
+18:15,Estoril,1,2,FC Porto,Jan 28 2017
+20:30,Sporting CP,4,2,Pacos de Ferreira,Jan 28 2017
+20:00,Vitoria de Setubal,1,0,Benfica,Jan 30 2017
+20:30,Maritimo,2,1,Benfica,Des 2 2016
+16:00,Rio Ave,3,1,Tondela,Des 3 2016
+18:15,Sporting CP,2,0,Vitoria de Setubal,Des 3 2016
+20:30,FC Porto,1,0,Braga,Des 3 2016
+16:00,Feirense,0,2,Arouca,Des 4 2016
+16:00,Moreirense,3,1,Nacional,Des 4 2016
+18:00,Estoril,1,1,Belenenses SAD,Des 4 2016
+20:15,Vitoria de Guimaraes,1,1,Chaves,Des 4 2016
+20:00,Pacos de Ferreira,2,1,Boavista,Des 5 2016
+20:30,Vitoria de Setubal,2,0,Estoril,Des 9 2016
+11:45,Belenenses SAD,1,0,Maritimo,Des 10 2016
+18:15,Chaves,2,1,Moreirense,Des 10 2016
+20:30,Boavista,1,2,Vitoria de Guimaraes,Des 10 2016
+16:00,Feirense,0,4,FC Porto,Des 11 2016
+16:00,Nacional,3,2,Tondela,Des 11 2016
+18:00,Benfica,2,1,Sporting CP,Des 11 2016
+20:15,Braga,3,0,Pacos de Ferreira,Des 11 2016
+20:00,Arouca,0,2,Rio Ave,Des 12 2016
+20:30,FC Porto,2,1,Maritimo,Des 15 2016
+20:30,Pacos de Ferreira,1,0,Belenenses SAD,Des 16 2016
+18:15,Moreirense,1,4,Arouca,Des 17 2016
+20:30,Estoril,0,1,Benfica,Des 17 2016
+16:00,Tondela,1,1,Boavista,Des 18 2016
+16:00,Rio Ave,2,1,Nacional,Des 18 2016
+18:00,Vitoria de Guimaraes,3,1,Vitoria de Setubal,Des 18 2016
+20:15,Sporting CP,0,1,Braga,Des 18 2016
+17:30,Maritimo,2,0,Feirense,Des 19 2016
+20:00,FC Porto,2,1,Chaves,Des 19 2016
+18:00,Benfica,2,0,Rio Ave,Des 21 2016
+17:00,Nacional,0,2,Boavista,Des 22 2016
+19:00,Feirense,2,0,Pacos de Ferreira,Des 22 2016
+19:00,Braga,2,1,Moreirense,Des 22 2016
+21:00,Chaves,1,0,Estoril,Des 22 2016
+21:00,Belenenses SAD,0,1,Sporting CP,Des 22 2016
+19:00,Vitoria de Setubal,3,0,Tondela,Des 23 2016
+21:00,Arouca,0,1,Vitoria de Guimaraes,Des 23 2016
+20:30,Vitoria de Guimaraes,2,1,Nacional,Nov 4 2016
+16:00,Estoril,2,0,Tondela,Nov 5 2016
+16:00,Pacos de Ferreira,1,1,Chaves,Nov 5 2016
+18:15,Feirense,0,1,Belenenses SAD,Nov 5 2016
+20:30,Rio Ave,1,2,Boavista,Nov 5 2016
+16:00,Moreirense,1,2,Vitoria de Setubal,Nov 6 2016
+18:00,FC Porto,1,1,Benfica,Nov 6 2016
+20:15,Sporting CP,3,0,Arouca,Nov 6 2016
+20:30,Maritimo,1,0,Braga,Nov 6 2016
+20:30,Vitoria de Setubal,0,1,Rio Ave,Nov 25 2016
+11:45,Chaves,0,0,Maritimo,Nov 26 2016
+16:00,Nacional,0,1,Estoril,Nov 26 2016
+18:15,Boavista,0,1,Sporting CP,Nov 26 2016
+20:30,Belenenses SAD,0,0,FC Porto,Nov 26 2016
+16:00,Arouca,1,0,Pacos de Ferreira,Nov 27 2016
+18:00,Benfica,3,0,Moreirense,Nov 27 2016
+20:15,Tondela,2,1,Vitoria de Guimaraes,Nov 27 2016
+20:00,Braga,6,2,Feirense,Nov 28 2016
+11:45,Rio Ave,1,2,Estoril,Okt 1 2016
+16:00,Chaves,3,1,Belenenses SAD,Okt 1 2016
+18:15,Vitoria de Guimaraes,3,3,Sporting CP,Okt 1 2016
+20:30,Nacional,0,4,FC Porto,Okt 1 2016
+16:00,Benfica,4,0,Feirense,Okt 2 2016
+16:00,Vitoria de Setubal,0,1,Maritimo,Okt 2 2016
+18:00,Boavista,2,0,Moreirense,Okt 2 2016
+20:15,Arouca,1,1,Braga,Okt 2 2016
+19:00,Pacos de Ferreira,1,1,Nacional,Okt 21 2016
+21:00,Maritimo,1,1,Boavista,Okt 21 2016
+16:00,Feirense,1,1,Vitoria de Setubal,Okt 22 2016
+18:15,Sporting CP,1,1,Tondela,Okt 22 2016
+20:30,FC Porto,3,0,Arouca,Okt 22 2016
+16:00,Moreirense,1,1,Rio Ave,Okt 23 2016
+18:00,Estoril,0,2,Vitoria de Guimaraes,Okt 23 2016
+20:15,Belenenses SAD,0,2,Benfica,Okt 23 2016
+20:00,Braga,1,0,Chaves,Okt 24 2016
+19:00,Benfica,3,0,Pacos de Ferreira,Okt 28 2016
+21:00,Nacional,0,0,Sporting CP,Okt 28 2016
+16:00,Tondela,1,2,Moreirense,Okt 29 2016
+18:15,Vitoria de Setubal,0,0,FC Porto,Okt 29 2016
+20:30,Boavista,0,0,Estoril,Okt 29 2016
+16:00,Arouca,1,0,Maritimo,Okt 30 2016
+18:00,Rio Ave,0,3,Vitoria de Guimaraes,Okt 30 2016
+20:15,Braga,2,1,Belenenses SAD,Okt 30 2016
+20:00,Chaves,1,1,Feirense,Okt 31 2016
+16:00,Nacional,0,1,Chaves,Sep 4 2016
+20:30,Arouca,1,2,Benfica,Sep 9 2016
+16:00,Belenenses SAD,2,1,Nacional,Sep 10 2016
+18:15,Sporting CP,3,0,Moreirense,Sep 10 2016
+20:30,FC Porto,3,0,Vitoria de Guimaraes,Sep 10 2016
+11:45,Pacos de Ferreira,0,0,Estoril,Sep 11 2016
+16:00,Maritimo,0,1,Rio Ave,Sep 11 2016
+18:00,Braga,3,0,Boavista,Sep 11 2016
+20:15,Chaves,0,0,Vitoria de Setubal,Sep 11 2016
+20:00,Feirense,2,1,Tondela,Sep 12 2016
+20:30,Nacional,2,0,Maritimo,Sep 16 2016
+16:00,Estoril,2,0,Moreirense,Sep 17 2016
+18:15,Vitoria de Setubal,1,4,Pacos de Ferreira,Sep 17 2016
+20:30,Vitoria de Guimaraes,1,1,Belenenses SAD,Sep 17 2016
+16:00,Boavista,1,2,Feirense,Sep 18 2016
+16:00,Arouca,0,1,Chaves,Sep 18 2016
+18:00,Tondela,0,0,FC Porto,Sep 18 2016
+20:15,Rio Ave,3,1,Sporting CP,Sep 18 2016
+20:00,Benfica,3,1,Braga,Sep 19 2016
+19:00,FC Porto,3,1,Boavista,Sep 23 2016
+21:00,Sporting CP,4,2,Estoril,Sep 23 2016
+16:00,Feirense,0,3,Nacional,Sep 24 2016
+18:15,Chaves,0,2,Benfica,Sep 24 2016
+20:30,Braga,2,1,Vitoria de Setubal,Sep 24 2016
+16:00,Maritimo,2,0,Tondela,Sep 25 2016
+18:00,Pacos de Ferreira,2,1,Rio Ave,Sep 25 2016
+20:15,Moreirense,0,1,Vitoria de Guimaraes,Sep 25 2016
+20:00,Belenenses SAD,1,1,Arouca,Sep 26 2016
+20:30,Tondela,2,1,Pacos de Ferreira,Sep 30 2016
+16:00,Estoril,2,1,Maritimo,Mei 1 2016
+16:00,Moreirense,1,1,Boavista,Mei 1 2016
+18:15,Arouca,3,0,Nacional,Mei 1 2016
+20:30,Uniao da Madeira,3,1,Academica,Mei 1 2016
+20:35,Pacos de Ferreira,1,4,Tondela,Mei 6 2016
+16:15,Rio Ave,1,3,FC Porto,Mei 7 2016
+18:30,Academica,0,0,Braga,Mei 7 2016
+20:50,Sporting CP,5,0,Vitoria de Setubal,Mei 7 2016
+16:00,Nacional,2,2,Belenenses SAD,Mei 8 2016
+16:00,Boavista,1,0,Uniao da Madeira,Mei 8 2016
+18:15,Vitoria de Guimaraes,4,1,Moreirense,Mei 8 2016
+20:30,Maritimo,0,2,Benfica,Mei 8 2016
+20:00,Estoril,1,1,Arouca,Mei 9 2016
+11:45,FC Porto,4,0,Boavista,Mei 14 2016
+18:00,Arouca,2,2,Vitoria de Guimaraes,Mei 14 2016
+19:30,Belenenses SAD,2,1,Estoril,Mei 14 2016
+19:30,Vitoria de Setubal,0,0,Pacos de Ferreira,Mei 14 2016
+19:30,Tondela,2,0,Academica,Mei 14 2016
+19:30,Uniao da Madeira,1,2,Rio Ave,Mei 14 2016
+15:00,Moreirense,2,1,Maritimo,Mei 15 2016
+17:00,Braga,0,4,Sporting CP,Mei 15 2016
+17:05,Benfica,4,1,Nacional,Mei 15 2016
+20:30,Benfica,5,1,Braga,Apr 1 2016
+16:15,Arouca,3,2,Academica,Apr 2 2016
+18:30,Maritimo,2,0,Nacional,Apr 2 2016
+20:45,Vitoria de Guimaraes,1,1,Boavista,Apr 2 2016
+16:00,Uniao da Madeira,2,2,Vitoria de Setubal,Apr 3 2016
+17:00,Estoril,1,0,Pacos de Ferreira,Apr 3 2016
+19:15,Moreirense,0,1,Rio Ave,Apr 3 2016
+19:00,FC Porto,0,1,Tondela,Apr 4 2016
+21:05,Belenenses SAD,2,5,Sporting CP,Apr 4 2016
+20:30,Boavista,0,0,Arouca,Apr 8 2016
+18:30,Academica,1,2,Benfica,Apr 9 2016
+20:45,Sporting CP,3,1,Maritimo,Apr 9 2016
+16:00,Vitoria de Setubal,0,1,Belenenses SAD,Apr 10 2016
+16:00,Tondela,1,0,Uniao da Madeira,Apr 10 2016
+16:00,Nacional,4,1,Estoril,Apr 10 2016
+18:15,Pacos de Ferreira,1,0,FC Porto,Apr 10 2016
+20:30,Braga,1,1,Moreirense,Apr 10 2016
+20:00,Rio Ave,2,0,Vitoria de Guimaraes,Apr 11 2016
+16:15,Arouca,0,0,Rio Ave,Apr 16 2016
+18:30,Estoril,1,0,Boavista,Apr 16 2016
+20:45,Moreirense,0,1,Sporting CP,Apr 16 2016
+16:00,Belenenses SAD,1,1,Academica,Apr 17 2016
+16:00,Uniao da Madeira,3,4,Pacos de Ferreira,Apr 17 2016
+18:15,Maritimo,3,0,Vitoria de Guimaraes,Apr 17 2016
+20:30,FC Porto,4,0,Nacional,Apr 17 2016
+19:00,Braga,3,0,Tondela,Apr 18 2016
+21:00,Benfica,2,1,Vitoria de Setubal,Apr 18 2016
+20:30,Boavista,1,0,Belenenses SAD,Apr 22 2016
+16:15,Academica,1,2,FC Porto,Apr 23 2016
+18:30,Sporting CP,2,0,Uniao da Madeira,Apr 23 2016
+20:45,Pacos de Ferreira,1,0,Braga,Apr 23 2016
+16:00,Nacional,0,1,Moreirense,Apr 24 2016
+16:00,Vitoria de Setubal,0,1,Tondela,Apr 24 2016
+16:00,Maritimo,1,2,Arouca,Apr 24 2016
+18:15,Vitoria de Guimaraes,1,1,Estoril,Apr 24 2016
+20:35,Rio Ave,0,1,Benfica,Apr 24 2016
+19:00,Benfica,1,0,Vitoria de Guimaraes,Apr 29 2016
+21:00,Braga,3,2,Vitoria de Setubal,Apr 29 2016
+16:00,Belenenses SAD,0,2,Pacos de Ferreira,Apr 30 2016
+16:00,Tondela,1,1,Rio Ave,Apr 30 2016
+18:30,FC Porto,1,3,Sporting CP,Apr 30 2016
+20:30,Pacos de Ferreira,2,2,Maritimo,Mac 4 2016
+20:50,Sporting CP,0,1,Benfica,Mac 5 2016
+16:00,Uniao da Madeira,0,0,Belenenses SAD,Mac 6 2016
+16:00,Boavista,0,1,Nacional,Mac 6 2016
+16:00,Tondela,0,1,Arouca,Mac 6 2016
+16:05,Vitoria de Setubal,0,1,Moreirense,Mac 6 2016
+18:15,Academica,2,0,Vitoria de Guimaraes,Mac 6 2016
+20:30,Braga,3,1,FC Porto,Mac 6 2016
+20:00,Rio Ave,1,3,Estoril,Mac 7 2016
+20:30,Maritimo,0,3,Boavista,Mac 11 2016
+18:30,Estoril,1,2,Sporting CP,Mac 12 2016
+20:45,FC Porto,3,2,Uniao da Madeira,Mac 12 2016
+16:00,Nacional,1,0,Rio Ave,Mac 13 2016
+16:00,Arouca,1,0,Vitoria de Setubal,Mac 13 2016
+16:00,Moreirense,2,2,Academica,Mac 13 2016
+18:15,Vitoria de Guimaraes,0,1,Pacos de Ferreira,Mac 13 2016
+20:30,Belenenses SAD,3,0,Braga,Mac 13 2016
+20:00,Benfica,4,1,Tondela,Mac 14 2016
+20:30,Rio Ave,1,0,Maritimo,Mac 18 2016
+18:30,Sporting CP,5,1,Arouca,Mac 19 2016
+20:45,Vitoria de Setubal,0,1,FC Porto,Mac 19 2016
+16:00,Tondela,2,2,Belenenses SAD,Mac 20 2016
+16:00,Pacos de Ferreira,0,0,Moreirense,Mac 20 2016
+16:00,Academica,0,3,Estoril,Mac 20 2016
+16:00,Nacional,3,2,Vitoria de Guimaraes,Mac 20 2016
+18:15,Boavista,0,1,Benfica,Mac 20 2016
+20:30,Braga,2,0,Uniao da Madeira,Mac 20 2016
+20:00,Maritimo,1,2,Belenenses SAD,Feb 1 2016
+20:35,Belenenses SAD,0,5,Benfica,Feb 5 2016
+18:30,Vitoria de Setubal,1,1,Maritimo,Feb 6 2016
+20:45,Tondela,1,1,Vitoria de Guimaraes,Feb 6 2016
+16:00,Uniao da Madeira,0,1,Moreirense,Feb 7 2016
+16:00,Academica,2,2,Nacional,Feb 7 2016
+16:05,Pacos de Ferreira,0,1,Boavista,Feb 7 2016
+19:15,FC Porto,1,2,Arouca,Feb 7 2016
+19:00,Sporting CP,0,0,Rio Ave,Feb 8 2016
+21:00,Braga,2,0,Estoril,Feb 8 2016
+20:30,Benfica,1,2,FC Porto,Feb 12 2016
+16:15,Moreirense,2,3,Belenenses SAD,Feb 13 2016
+18:30,Nacional,0,4,Sporting CP,Feb 13 2016
+20:45,Vitoria de Guimaraes,2,2,Vitoria de Setubal,Feb 13 2016
+16:00,Estoril,2,1,Tondela,Feb 14 2016
+16:00,Arouca,3,0,Uniao da Madeira,Feb 14 2016
+17:00,Boavista,0,0,Academica,Feb 14 2016
+19:15,Maritimo,1,3,Braga,Feb 14 2016
+20:00,Rio Ave,1,1,Pacos de Ferreira,Feb 15 2016
+20:30,Uniao da Madeira,1,1,Estoril,Feb 19 2016
+18:30,Pacos de Ferreira,1,3,Benfica,Feb 20 2016
+20:45,Academica,0,2,Rio Ave,Feb 20 2016
+16:00,Belenenses SAD,0,2,Arouca,Feb 21 2016
+16:00,Tondela,3,4,Maritimo,Feb 21 2016
+16:00,Vitoria de Setubal,1,1,Nacional,Feb 21 2016
+18:15,FC Porto,3,2,Moreirense,Feb 21 2016
+20:30,Braga,3,3,Vitoria de Guimaraes,Feb 21 2016
+20:00,Sporting CP,2,0,Boavista,Feb 22 2016
+20:30,Nacional,3,0,Pacos de Ferreira,Feb 26 2016
+16:15,Boavista,1,2,Rio Ave,Feb 27 2016
+18:30,Arouca,0,0,Braga,Feb 27 2016
+20:45,Estoril,3,0,Vitoria de Setubal,Feb 27 2016
+16:00,Moreirense,1,2,Tondela,Feb 28 2016
+16:00,Maritimo,1,0,Academica,Feb 28 2016
+19:20,Belenenses SAD,1,2,FC Porto,Feb 28 2016
+19:45,Benfica,2,0,Uniao da Madeira,Feb 29 2016
+20:00,Vitoria de Guimaraes,0,0,Sporting CP,Feb 29 2016
+16:00,Academica,3,1,Uniao da Madeira,Jan 2 2016
+16:00,Boavista,0,3,Moreirense,Jan 2 2016
+16:00,Maritimo,1,1,Estoril,Jan 2 2016
+16:00,Nacional,2,2,Arouca,Jan 2 2016
+16:15,Vitoria de Setubal,1,1,Braga,Jan 2 2016
+18:00,Pacos de Ferreira,2,2,Belenenses SAD,Jan 2 2016
+18:30,Vitoria de Guimaraes,0,1,Benfica,Jan 2 2016
+20:45,Sporting CP,2,0,FC Porto,Jan 2 2016
+17:00,Rio Ave,2,3,Tondela,Jan 3 2016
+15:00,Uniao da Madeira,1,0,Boavista,Jan 6 2016
+16:00,Arouca,1,0,Estoril,Jan 6 2016
+16:00,Tondela,0,2,Pacos de Ferreira,Jan 6 2016
+16:15,Moreirense,3,4,Vitoria de Guimaraes,Jan 6 2016
+18:00,Belenenses SAD,2,2,Nacional,Jan 6 2016
+18:15,Braga,3,0,Academica,Jan 6 2016
+19:00,Benfica,6,0,Maritimo,Jan 6 2016
+20:15,FC Porto,1,1,Rio Ave,Jan 6 2016
+20:15,Vitoria de Setubal,0,6,Sporting CP,Jan 6 2016
+18:30,Vitoria de Guimaraes,2,2,Arouca,Jan 9 2016
+16:00,Maritimo,5,1,Moreirense,Jan 10 2016
+16:00,Rio Ave,1,0,Uniao da Madeira,Jan 10 2016
+16:00,Academica,2,1,Tondela,Jan 10 2016
+16:00,Estoril,2,0,Belenenses SAD,Jan 10 2016
+16:00,Sporting CP,3,2,Braga,Jan 10 2016
+18:15,Boavista,0,5,FC Porto,Jan 10 2016
+12:00,Nacional,1,4,Benfica,Jan 11 2016
+20:00,Pacos de Ferreira,2,1,Vitoria de Setubal,Jan 11 2016
+20:30,Sporting CP,2,2,Tondela,Jan 15 2016
+16:15,Academica,1,1,Pacos de Ferreira,Jan 16 2016
+18:30,Maritimo,0,1,Uniao da Madeira,Jan 16 2016
+20:45,Estoril,1,2,Benfica,Jan 16 2016
+16:00,Rio Ave,1,2,Belenenses SAD,Jan 17 2016
+16:00,Arouca,1,2,Moreirense,Jan 17 2016
+18:15,Nacional,2,3,Braga,Jan 17 2016
+20:30,Vitoria de Guimaraes,1,0,FC Porto,Jan 17 2016
+20:00,Boavista,4,0,Vitoria de Setubal,Jan 18 2016
+20:30,Vitoria de Setubal,2,1,Academica,Jan 22 2016
+16:00,Moreirense,1,3,Estoril,Jan 23 2016
+16:00,Uniao da Madeira,3,0,Nacional,Jan 23 2016
+18:30,Benfica,3,1,Arouca,Jan 23 2016
+20:45,Pacos de Ferreira,1,3,Sporting CP,Jan 23 2016
+16:00,Belenenses SAD,3,3,Vitoria de Guimaraes,Jan 24 2016
+18:15,Braga,5,1,Rio Ave,Jan 24 2016
+20:30,FC Porto,1,0,Maritimo,Jan 24 2016
+20:00,Tondela,1,2,Boavista,Jan 25 2016
+20:35,Vitoria de Guimaraes,3,1,Uniao da Madeira,Jan 29 2016
+18:30,Estoril,1,3,FC Porto,Jan 30 2016
+20:45,Sporting CP,3,2,Academica,Jan 30 2016
+16:00,Rio Ave,2,1,Vitoria de Setubal,Jan 31 2016
+16:00,Nacional,3,1,Tondela,Jan 31 2016
+16:00,Arouca,2,2,Pacos de Ferreira,Jan 31 2016
+17:00,Boavista,0,0,Braga,Jan 31 2016
+19:15,Moreirense,1,4,Benfica,Jan 31 2016
+20:00,Uniao da Madeira,0,4,FC Porto,Des 2 2015
+20:30,Benfica,3,0,Academica,Des 4 2015
+16:15,Belenenses SAD,0,3,Vitoria de Setubal,Des 5 2015
+18:30,FC Porto,2,1,Pacos de Ferreira,Des 5 2015
+20:45,Maritimo,0,1,Sporting CP,Des 5 2015
+16:00,Uniao da Madeira,2,0,Tondela,Des 6 2015
+16:00,Estoril,1,1,Nacional,Des 6 2015
+16:00,Arouca,3,2,Boavista,Des 6 2015
+17:00,Moreirense,0,0,Braga,Des 6 2015
+20:00,Vitoria de Guimaraes,3,1,Rio Ave,Des 7 2015
+20:30,Boavista,1,1,Estoril,Des 11 2015
+16:15,Rio Ave,3,1,Arouca,Des 12 2015
+18:00,Pacos de Ferreira,6,0,Uniao da Madeira,Des 12 2015
+18:30,Vitoria de Guimaraes,3,4,Maritimo,Des 12 2015
+20:45,Vitoria de Setubal,2,4,Benfica,Des 12 2015
+18:15,Sporting CP,3,1,Moreirense,Des 13 2015
+20:30,Tondela,0,1,Braga,Des 13 2015
+12:30,Nacional,1,2,FC Porto,Des 14 2015
+20:00,Academica,4,3,Belenenses SAD,Des 14 2015
+21:00,Uniao da Madeira,0,0,Benfica,Des 15 2015
+18:30,Arouca,4,1,Maritimo,Des 19 2015
+20:45,Estoril,0,1,Vitoria de Guimaraes,Des 19 2015
+16:00,Benfica,3,1,Rio Ave,Des 20 2015
+16:00,Moreirense,2,0,Nacional,Des 20 2015
+16:00,Tondela,1,3,Vitoria de Setubal,Des 20 2015
+18:15,Uniao da Madeira,1,0,Sporting CP,Des 20 2015
+20:30,FC Porto,3,1,Academica,Des 20 2015
+19:00,Belenenses SAD,1,0,Boavista,Des 21 2015
+21:00,Braga,1,1,Pacos de Ferreira,Des 21 2015
+16:00,Rio Ave,1,0,Nacional,Nov 1 2015
+16:00,Academica,1,1,Moreirense,Nov 1 2015
+16:00,Vitoria de Setubal,0,0,Arouca,Nov 1 2015
+19:15,Boavista,0,1,Maritimo,Nov 1 2015
+20:00,Pacos de Ferreira,0,1,Vitoria de Guimaraes,Nov 2 2015
+20:30,Estoril,1,1,Academica,Nov 6 2015
+20:45,Vitoria de Guimaraes,0,1,Nacional,Nov 7 2015
+16:00,Maritimo,3,2,Rio Ave,Nov 8 2015
+16:00,Moreirense,2,0,Pacos de Ferreira,Nov 8 2015
+16:00,Benfica,2,0,Boavista,Nov 8 2015
+18:15,FC Porto,2,0,Vitoria de Setubal,Nov 8 2015
+20:30,Arouca,0,1,Sporting CP,Nov 8 2015
+19:00,Belenenses SAD,2,1,Tondela,Nov 9 2015
+21:00,Uniao da Madeira,0,1,Braga,Nov 9 2015
+20:30,Nacional,3,1,Maritimo,Nov 27 2015
+17:00,Vitoria de Setubal,2,2,Uniao da Madeira,Nov 28 2015
+18:35,Boavista,1,2,Vitoria de Guimaraes,Nov 28 2015
+20:45,Tondela,0,1,FC Porto,Nov 28 2015
+16:00,Rio Ave,0,1,Moreirense,Nov 29 2015
+16:00,Academica,1,1,Arouca,Nov 29 2015
+19:15,Pacos de Ferreira,2,0,Estoril,Nov 29 2015
+19:00,Sporting CP,1,0,Belenenses SAD,Nov 30 2015
+21:05,Braga,0,2,Benfica,Nov 30 2015
+20:30,Vitoria de Setubal,1,0,Estoril,Okt 2 2015
+16:00,Pacos de Ferreira,3,1,Nacional,Okt 3 2015
+16:00,Tondela,1,1,Moreirense,Okt 3 2015
+18:30,Academica,1,0,Maritimo,Okt 3 2015
+20:45,Rio Ave,1,0,Boavista,Okt 3 2015
+18:00,Braga,0,0,Arouca,Okt 4 2015
+18:15,FC Porto,4,0,Belenenses SAD,Okt 4 2015
+20:30,Sporting CP,5,1,Vitoria de Guimaraes,Okt 4 2015
+20:30,Nacional,0,0,Boavista,Okt 23 2015
+16:15,Maritimo,0,2,Pacos de Ferreira,Okt 24 2015
+18:30,Estoril,2,2,Rio Ave,Okt 24 2015
+20:45,Vitoria de Guimaraes,1,1,Academica,Okt 24 2015
+16:00,Moreirense,0,2,Vitoria de Setubal,Okt 25 2015
+16:00,Arouca,1,1,Tondela,Okt 25 2015
+17:00,Benfica,0,3,Sporting CP,Okt 25 2015
+19:15,FC Porto,0,0,Braga,Okt 25 2015
+20:00,Belenenses SAD,1,0,Uniao da Madeira,Okt 26 2015
+20:30,Tondela,0,4,Benfica,Okt 30 2015
+16:20,Braga,4,0,Belenenses SAD,Okt 31 2015
+20:45,Sporting CP,1,0,Estoril,Okt 31 2015
+20:30,Benfica,6,0,Belenenses SAD,Sep 11 2015
+18:30,Estoril,1,0,Braga,Sep 12 2015
+20:45,Arouca,1,3,FC Porto,Sep 12 2015
+16:00,Maritimo,5,2,Vitoria de Setubal,Sep 13 2015
+16:00,Moreirense,0,0,Uniao da Madeira,Sep 13 2015
+16:25,Nacional,2,0,Academica,Sep 13 2015
+17:00,Vitoria de Guimaraes,1,0,Tondela,Sep 13 2015
+19:15,Rio Ave,1,2,Sporting CP,Sep 13 2015
+20:00,Boavista,0,1,Pacos de Ferreira,Sep 14 2015
+20:30,Vitoria de Setubal,2,2,Vitoria de Guimaraes,Sep 18 2015
+16:00,Tondela,0,1,Estoril,Sep 19 2015
+20:45,Pacos de Ferreira,0,3,Rio Ave,Sep 19 2015
+16:00,Uniao da Madeira,0,0,Arouca,Sep 20 2015
+16:00,Academica,0,2,Boavista,Sep 20 2015
+19:15,FC Porto,1,0,Benfica,Sep 20 2015
+18:00,Belenenses SAD,2,0,Moreirense,Sep 21 2015
+19:00,Braga,5,1,Maritimo,Sep 21 2015
+21:00,Sporting CP,1,0,Nacional,Sep 21 2015
+20:30,Moreirense,2,2,FC Porto,Sep 25 2015
+18:30,Benfica,3,0,Pacos de Ferreira,Sep 26 2015
+20:45,Boavista,0,0,Sporting CP,Sep 26 2015
+16:00,Maritimo,1,0,Tondela,Sep 27 2015
+16:00,Nacional,1,1,Vitoria de Setubal,Sep 27 2015
+17:00,Estoril,2,1,Uniao da Madeira,Sep 27 2015
+17:00,Arouca,2,2,Belenenses SAD,Sep 27 2015
+19:15,Vitoria de Guimaraes,0,1,Braga,Sep 27 2015
+20:00,Rio Ave,1,0,Academica,Sep 28 2015
