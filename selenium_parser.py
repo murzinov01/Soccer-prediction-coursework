@@ -1,5 +1,5 @@
 from selenium import webdriver
-from time import sleep
+from time import sleep, time
 import csv
 
 MAIN_URL = 'https://1xbet.whoscored.com/'
@@ -19,7 +19,7 @@ class WhoScoredParser:
     # Ищем кнопку accept и нажимаем на нее
     def accept_cookies(self):
         self.driver.get(MAIN_URL)
-        sleep(5)
+        sleep(6)
         self.driver.find_elements_by_class_name('qc-cmp-button')[1].click()
         sleep(3)
 
@@ -43,7 +43,7 @@ class ParsePlayersScore(WhoScoredParser):
     # Собираем информацию и записываем ее в csv файл
     def collecting_info_from_player_table(self):
         # Открываем файл с помощью конструкции with, которая автоматически закроет его в конце работы
-        with open("data.csv", 'w', encoding='utf-8', newline='') as file:
+        with open("players_score_data.csv", 'w', encoding='utf-8', newline='') as file:
             # атрибут fieldnames отвечает за ключи в csv файле. CSV файл - таблица-словарь, в которой в ПЕРВОЙ строке присутствуют ключи словаря. Каждый ключ соответсвует столбцу таблицы.
             writer = csv.DictWriter(file, fieldnames=["Name", "Meta_data", "Apps", "Mins", "Goals", "Assists", "Yel_card", "Red_card",
                                                       "ShotsPerGame", "PassSuccess", "AerialWonPerGame", "ManOfTheMatch", "Rating"])
@@ -51,8 +51,10 @@ class ParsePlayersScore(WhoScoredParser):
             writer.writeheader()
             # Crawl pages
             span = self.driver.find_element_by_id("statistics-paging-summary").find_element_by_tag_name("b").text
-            for page in range(int(span[span.find('/') + 1: span.find('|') - 1])):
-                # Through the raws
+            max_page = int(span[span.find('/') + 1: span.find('|') - 1])
+            for page in range(max_page):
+                # Through the rows
+                print(f"Collecting data: page {page + 1}/{max_page}...")
                 for tr in self.PLAYER_TABLE:
                     player = tr.find_elements_by_tag_name("td")
                     row = {
@@ -78,13 +80,102 @@ class ParsePlayersScore(WhoScoredParser):
                 self.find_players_table()
 
 
+class ParseLeagueResults (WhoScoredParser):
+    TABLE_BUTTONS = list()
+
+    def __init__(self, driver):
+        super().__init__(driver)
+
+    def start_parse(self):
+        self.find_leagues_buttons()
+        self.parse_leagues()
+
+    def find_leagues_buttons(self):
+        self.TABLE_BUTTONS = self.driver.find_element_by_id('popular-tournaments-list').find_elements_by_tag_name('li')
+
+    def parse_leagues(self):
+        for league_num in range(16, len(self.TABLE_BUTTONS)):
+            print(f"Collecting data: {league_num / len(self.TABLE_BUTTONS) * 100} %...")
+            league_name = self.TABLE_BUTTONS[league_num].text
+            # print(league_name)
+            # click league
+            self.TABLE_BUTTONS[league_num].click()
+            # click "Fixtures" button
+            sleep(2)
+            self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[1].click()
+            # create file
+            with open(league_name + "_results_data.csv", 'w', encoding='utf-8', newline='') as file:
+                writer = csv.DictWriter(file, fieldnames=["Time", "TeamHome", "ResultTeamHome", "ResultTeamAway",
+                                                          "TeamAway", "Date"])
+                writer.writeheader()
+                # Crawl seasons
+                for i in range(5):
+                    sleep(3)
+                    # Crawl months
+                    prev_month_button = ''
+                    flag = True
+                    while flag or prev_month_button.get_attribute('title') != 'No data for previous month':
+                        sleep(2)
+                        current_table = self.driver.find_element_by_id('tournament-fixture-wrapper').find_elements_by_tag_name('tr')
+                        date = ''
+                        for row in current_table:
+                            # refresh date
+                            if row.get_attribute("class") == "rowgroupheader":
+                                date = row.text[row.text.find(',') + 2:]
+                                continue
+                            # take info
+                            match_info = row.find_elements_by_tag_name('td')
+                            # skip failed match
+                            if match_info[4].text == 'vs':
+                                continue
+
+                            match = {
+                                "Time": match_info[1].text,
+                                "TeamHome": match_info[3].find_element_by_tag_name('a').text,
+                                "ResultTeamHome": match_info[4].text[: match_info[4].text.find(':') - 1].lstrip('*'),
+                                "ResultTeamAway": match_info[4].text[match_info[4].text.find(':') + 2:].rstrip('*'),
+                                "TeamAway": match_info[5].find_element_by_tag_name('a').text,
+                                "Date": date
+                            }
+                            writer.writerow(match)
+                            # print(match)
+                        # make exception for CL and EL
+                        flag = False
+                        if len(self.driver.find_elements_by_id('date-controller')) == 0:
+                            break
+                        else:
+                            prev_month_button = self.driver.find_element_by_id('date-controller').find_element_by_tag_name('a')
+                        prev_month_button.click()
+                        # sleep(1)
+                        # refresh button
+                        prev_month_button = self.driver.find_element_by_id('date-controller').find_element_by_tag_name('a')
+                    # change season
+                    self.driver.find_element_by_id('seasons').find_elements_by_tag_name('option')[i + 1].click()
+                    # click "Fixtures" button
+                    sleep(3)
+                    self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[1].click()
+            self.find_leagues_buttons()
+        print("Collecting data: 100 %...")
+
+
 def main():
+    times = []
     driver = webdriver.Chrome()
     # driver = webdriver.Chrome("/Users/sanduser/PycharmProjects/Parser/chromedriver")
     # Parsing players scores
-    ParsePlayers = ParsePlayersScore(driver)
-    ParsePlayers.accept_cookies()
-    ParsePlayers.start_parse()
+    start_time = time()
+    # ParsePlayers = ParsePlayersScore(driver)
+    # ParsePlayers.accept_cookies()
+    # ParsePlayers.start_parse()
+    # times.append(time() - start_time)
+    # Parsing match results
+    start_time = time()
+    ParserLeagues = ParseLeagueResults(driver)
+    ParserLeagues.accept_cookies()
+    ParserLeagues.start_parse()
+    times.append(time() - start_time)
+    # print(f"ParsePlayers - {times[0]}\nParserLeagues - {times[1]}")
+    print(f"ParserLeagues - {times[0]}")
 
 
 if __name__ == '__main__':
