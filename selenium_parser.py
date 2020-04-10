@@ -94,7 +94,7 @@ class ParseLeagueResults (WhoScoredParser):
         self.TABLE_BUTTONS = self.driver.find_element_by_id('popular-tournaments-list').find_elements_by_tag_name('li')
 
     def parse_leagues(self):
-        for league_num in range(16, len(self.TABLE_BUTTONS)):
+        for league_num in range(len(self.TABLE_BUTTONS)):
             print(f"Collecting data: {league_num / len(self.TABLE_BUTTONS) * 100} %...")
             league_name = self.TABLE_BUTTONS[league_num].text
             # print(league_name)
