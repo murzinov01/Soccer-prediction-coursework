@@ -1,0 +1,880 @@
+Time,TeamHome,ResultTeamHome,ResultTeamAway,TeamAway,Date
+19:45,Middlesbrough,2,2,Nottingham Forest,Mac 2 2020
+19:45,Nottingham Forest,0,3,Millwall,Mac 6 2020
+12:30,Bristol City,1,1,Fulham,Mac 7 2020
+15:00,Charlton,0,1,Middlesbrough,Mac 7 2020
+15:00,Barnsley,0,2,Cardiff,Mac 7 2020
+15:00,Birmingham,1,3,Reading,Mac 7 2020
+15:00,Brentford,5,0,Sheffield Wednesday,Mac 7 2020
+15:00,Leeds,2,0,Huddersfield,Mac 7 2020
+15:00,Stoke,5,1,Hull,Mac 7 2020
+15:00,Preston,1,3,Queens Park Rangers,Mac 7 2020
+15:00,Wigan,0,0,Luton,Mac 7 2020
+15:00,Swansea,0,0,West Bromwich Albion,Mac 7 2020
+15:00,Derby,3,0,Blackburn,Mac 8 2020
+12:30,Hull,1,5,Brentford,Feb 1 2020
+15:00,Fulham,3,2,Huddersfield,Feb 1 2020
+15:00,Charlton,2,1,Barnsley,Feb 1 2020
+15:00,Birmingham,2,1,Nottingham Forest,Feb 1 2020
+15:00,Leeds,0,1,Wigan,Feb 1 2020
+15:00,Middlesbrough,1,1,Blackburn,Feb 1 2020
+15:00,Preston,1,1,Swansea,Feb 1 2020
+15:00,Queens Park Rangers,0,1,Bristol City,Feb 1 2020
+15:00,Sheffield Wednesday,0,0,Millwall,Feb 1 2020
+15:00,West Bromwich Albion,2,0,Luton,Feb 1 2020
+19:45,Bristol City,1,3,Birmingham,Feb 7 2020
+12:30,Wigan,1,2,Preston,Feb 8 2020
+13:30,Barnsley,1,1,Sheffield Wednesday,Feb 8 2020
+15:00,Blackburn,0,1,Fulham,Feb 8 2020
+15:00,Huddersfield,2,0,Queens Park Rangers,Feb 8 2020
+15:00,Brentford,3,2,Middlesbrough,Feb 8 2020
+15:00,Luton,0,1,Cardiff,Feb 8 2020
+15:00,Reading,1,1,Hull,Feb 8 2020
+15:00,Stoke,3,1,Charlton,Feb 8 2020
+15:00,Swansea,2,3,Derby,Feb 8 2020
+17:30,Nottingham Forest,2,0,Leeds,Feb 8 2020
+13:30,Millwall,0,2,West Bromwich Albion,Feb 9 2020
+19:45,Wigan,2,2,Middlesbrough,Feb 11 2020
+19:45,Swansea,0,0,Queens Park Rangers,Feb 11 2020
+19:45,Nottingham Forest,0,1,Charlton,Feb 11 2020
+19:45,Barnsley,0,1,Birmingham,Feb 11 2020
+19:45,Brentford,1,1,Leeds,Feb 11 2020
+19:45,Blackburn,3,0,Hull,Feb 11 2020
+19:45,Bristol City,3,2,Derby,Feb 12 2020
+19:45,Huddersfield,0,3,Cardiff,Feb 12 2020
+19:45,Luton,1,0,Sheffield Wednesday,Feb 12 2020
+19:45,Millwall,1,1,Fulham,Feb 12 2020
+20:00,Reading,1,2,West Bromwich Albion,Feb 12 2020
+20:00,Stoke,0,2,Preston,Feb 12 2020
+19:45,Hull,4,4,Swansea,Feb 14 2020
+12:30,West Bromwich Albion,2,2,Nottingham Forest,Feb 15 2020
+15:00,Queens Park Rangers,4,2,Stoke,Feb 15 2020
+15:00,Middlesbrough,0,1,Luton,Feb 15 2020
+15:00,Preston,0,1,Millwall,Feb 15 2020
+15:00,Leeds,1,0,Bristol City,Feb 15 2020
+15:00,Derby,1,1,Huddersfield,Feb 15 2020
+15:00,Fulham,0,3,Barnsley,Feb 15 2020
+15:00,Sheffield Wednesday,0,3,Reading,Feb 15 2020
+15:00,Birmingham,1,1,Brentford,Feb 15 2020
+15:00,Cardiff,2,2,Wigan,Feb 15 2020
+15:00,Charlton,0,2,Blackburn,Feb 15 2020
+19:45,Derby,1,1,Fulham,Feb 21 2020
+12:30,Brentford,2,2,Blackburn,Feb 22 2020
+15:00,Birmingham,3,3,Sheffield Wednesday,Feb 22 2020
+15:00,Charlton,3,1,Luton,Feb 22 2020
+15:00,Bristol City,0,3,West Bromwich Albion,Feb 22 2020
+15:00,Leeds,1,0,Reading,Feb 22 2020
+15:00,Preston,2,1,Hull,Feb 22 2020
+15:00,Nottingham Forest,0,0,Queens Park Rangers,Feb 22 2020
+15:00,Swansea,3,1,Huddersfield,Feb 22 2020
+15:00,Stoke,2,0,Cardiff,Feb 22 2020
+15:00,Wigan,1,0,Millwall,Feb 22 2020
+15:00,Barnsley,1,0,Middlesbrough,Feb 22 2020
+19:45,Luton,2,1,Brentford,Feb 25 2020
+19:45,Huddersfield,2,1,Bristol City,Feb 25 2020
+19:45,Cardiff,0,1,Nottingham Forest,Feb 25 2020
+19:45,Queens Park Rangers,2,1,Derby,Feb 25 2020
+20:00,West Bromwich Albion,2,0,Preston,Feb 25 2020
+19:45,Blackburn,0,0,Stoke,Feb 26 2020
+19:45,Hull,0,1,Barnsley,Feb 26 2020
+19:45,Middlesbrough,0,1,Leeds,Feb 26 2020
+19:45,Millwall,0,0,Birmingham,Feb 26 2020
+19:45,Sheffield Wednesday,1,0,Charlton,Feb 26 2020
+19:45,Fulham,1,0,Swansea,Feb 26 2020
+20:00,Reading,0,3,Wigan,Feb 26 2020
+12:30,Hull,0,4,Leeds,Feb 29 2020
+15:00,Luton,1,1,Stoke,Feb 29 2020
+15:00,Millwall,1,1,Bristol City,Feb 29 2020
+15:00,Queens Park Rangers,2,2,Birmingham,Feb 29 2020
+15:00,West Bromwich Albion,0,1,Wigan,Feb 29 2020
+15:00,Sheffield Wednesday,1,3,Derby,Feb 29 2020
+15:00,Blackburn,2,2,Swansea,Feb 29 2020
+15:00,Cardiff,2,2,Brentford,Feb 29 2020
+15:00,Fulham,2,0,Preston,Feb 29 2020
+15:00,Huddersfield,4,0,Charlton,Feb 29 2020
+15:00,Reading,2,0,Barnsley,Feb 29 2020
+12:45,Millwall,3,1,Luton,Jan 1 2020
+15:00,Nottingham Forest,3,2,Blackburn,Jan 1 2020
+15:00,Preston,0,2,Middlesbrough,Jan 1 2020
+15:00,Queens Park Rangers,6,1,Cardiff,Jan 1 2020
+15:00,Sheffield Wednesday,0,1,Hull,Jan 1 2020
+15:00,Birmingham,2,3,Wigan,Jan 1 2020
+15:00,Bristol City,0,4,Brentford,Jan 1 2020
+15:00,Fulham,1,2,Reading,Jan 1 2020
+15:00,Huddersfield,2,5,Stoke,Jan 1 2020
+17:15,West Bromwich Albion,1,1,Leeds,Jan 1 2020
+19:45,Derby,2,1,Barnsley,Jan 2 2020
+19:45,Swansea,1,0,Charlton,Jan 2 2020
+12:30,Brentford,3,1,Queens Park Rangers,Jan 11 2020
+15:00,Barnsley,2,1,Huddersfield,Jan 11 2020
+15:00,Blackburn,1,1,Preston,Jan 11 2020
+15:00,Charlton,2,2,West Bromwich Albion,Jan 11 2020
+15:00,Hull,0,1,Fulham,Jan 11 2020
+15:00,Leeds,0,2,Sheffield Wednesday,Jan 11 2020
+15:00,Luton,1,2,Birmingham,Jan 11 2020
+15:00,Middlesbrough,2,2,Derby,Jan 11 2020
+15:00,Reading,1,1,Nottingham Forest,Jan 11 2020
+15:00,Stoke,0,0,Millwall,Jan 11 2020
+15:00,Wigan,0,2,Bristol City,Jan 11 2020
+12:00,Cardiff,0,0,Swansea,Jan 12 2020
+19:45,Fulham,1,0,Middlesbrough,Jan 17 2020
+12:30,Queens Park Rangers,1,0,Leeds,Jan 18 2020
+15:00,Sheffield Wednesday,0,5,Blackburn,Jan 18 2020
+15:00,Swansea,2,1,Wigan,Jan 18 2020
+15:00,Huddersfield,0,0,Brentford,Jan 18 2020
+15:00,Millwall,2,0,Reading,Jan 18 2020
+15:00,Birmingham,1,1,Cardiff,Jan 18 2020
+15:00,Bristol City,1,0,Barnsley,Jan 18 2020
+15:00,Derby,1,0,Hull,Jan 18 2020
+15:00,Preston,2,1,Charlton,Jan 18 2020
+12:00,Nottingham Forest,3,1,Luton,Jan 19 2020
+20:00,West Bromwich Albion,0,1,Stoke,Jan 20 2020
+19:45,Barnsley,0,3,Preston,Jan 21 2020
+19:45,Middlesbrough,1,1,Birmingham,Jan 21 2020
+19:45,Nottingham Forest,1,1,Reading,Jan 22 2020
+19:45,Charlton,0,0,Fulham,Jan 22 2020
+15:00,Stoke,2,0,Swansea,Jan 25 2020
+19:45,Wigan,2,1,Sheffield Wednesday,Jan 28 2020
+19:45,Hull,1,2,Huddersfield,Jan 28 2020
+19:45,Leeds,3,2,Millwall,Jan 28 2020
+19:45,Luton,3,2,Derby,Jan 28 2020
+19:45,Blackburn,2,1,Queens Park Rangers,Jan 28 2020
+19:45,Brentford,0,1,Nottingham Forest,Jan 28 2020
+19:45,Cardiff,2,1,West Bromwich Albion,Jan 28 2020
+20:00,Reading,0,1,Bristol City,Jan 28 2020
+19:45,Cardiff,1,1,Reading,Jan 31 2020
+19:45,Derby,4,0,Stoke,Jan 31 2020
+19:45,Preston,0,1,West Bromwich Albion,Des 2 2019
+19:45,Millwall,2,2,Nottingham Forest,Des 6 2019
+12:30,Huddersfield,0,2,Leeds,Des 7 2019
+15:00,Hull,2,1,Stoke,Des 7 2019
+15:00,Cardiff,3,2,Barnsley,Des 7 2019
+15:00,Fulham,1,2,Bristol City,Des 7 2019
+15:00,Blackburn,1,0,Derby,Des 7 2019
+15:00,Luton,2,1,Wigan,Des 7 2019
+15:00,Middlesbrough,1,0,Charlton,Des 7 2019
+15:00,Queens Park Rangers,2,0,Preston,Des 7 2019
+15:00,Reading,2,3,Birmingham,Des 7 2019
+15:00,Sheffield Wednesday,2,1,Brentford,Des 7 2019
+12:00,West Bromwich Albion,5,1,Swansea,Des 8 2019
+19:45,Bristol City,1,2,Millwall,Des 10 2019
+19:45,Leeds,2,0,Hull,Des 10 2019
+19:45,Nottingham Forest,1,1,Middlesbrough,Des 10 2019
+19:45,Preston,2,1,Fulham,Des 10 2019
+19:55,Charlton,0,1,Huddersfield,Des 10 2019
+20:00,Stoke,3,0,Luton,Des 10 2019
+19:45,Barnsley,1,1,Reading,Des 11 2019
+19:45,Birmingham,0,2,Queens Park Rangers,Des 11 2019
+19:45,Brentford,2,1,Cardiff,Des 11 2019
+19:45,Derby,1,1,Sheffield Wednesday,Des 11 2019
+19:45,Swansea,1,1,Blackburn,Des 11 2019
+19:45,Wigan,1,1,West Bromwich Albion,Des 11 2019
+19:45,Charlton,2,2,Hull,Des 13 2019
+12:30,Birmingham,2,3,West Bromwich Albion,Des 14 2019
+15:00,Brentford,1,0,Fulham,Des 14 2019
+15:00,Bristol City,0,2,Blackburn,Des 14 2019
+15:00,Derby,0,1,Millwall,Des 14 2019
+15:00,Leeds,3,3,Cardiff,Des 14 2019
+15:00,Nottingham Forest,0,4,Sheffield Wednesday,Des 14 2019
+15:00,Preston,2,1,Luton,Des 14 2019
+15:00,Stoke,0,0,Reading,Des 14 2019
+15:00,Swansea,3,1,Middlesbrough,Des 14 2019
+15:00,Wigan,1,1,Huddersfield,Des 14 2019
+15:00,Barnsley,5,3,Queens Park Rangers,Des 14 2019
+19:45,Middlesbrough,2,1,Stoke,Des 20 2019
+12:30,Cardiff,0,0,Preston,Des 21 2019
+15:00,Fulham,2,1,Leeds,Des 21 2019
+15:00,Huddersfield,2,1,Nottingham Forest,Des 21 2019
+15:00,Hull,3,0,Birmingham,Des 21 2019
+15:00,Luton,0,1,Swansea,Des 21 2019
+15:00,Millwall,1,2,Barnsley,Des 21 2019
+15:00,Queens Park Rangers,2,2,Charlton,Des 21 2019
+15:00,Reading,3,0,Derby,Des 21 2019
+15:00,West Bromwich Albion,1,1,Brentford,Des 21 2019
+12:00,Sheffield Wednesday,1,0,Bristol City,Des 22 2019
+19:45,Blackburn,0,0,Wigan,Des 23 2019
+15:00,Luton,3,3,Fulham,Des 26 2019
+15:00,Hull,0,2,Nottingham Forest,Des 26 2019
+15:00,Brentford,3,1,Swansea,Des 26 2019
+15:00,Cardiff,1,1,Millwall,Des 26 2019
+15:00,Charlton,3,2,Bristol City,Des 26 2019
+15:00,Wigan,1,1,Derby,Des 26 2019
+15:00,Stoke,3,2,Sheffield Wednesday,Des 26 2019
+15:00,Middlesbrough,1,0,Huddersfield,Des 26 2019
+15:00,Barnsley,1,1,West Bromwich Albion,Des 26 2019
+15:00,Blackburn,1,1,Birmingham,Des 26 2019
+17:15,Leeds,1,1,Preston,Des 26 2019
+19:30,Reading,1,0,Queens Park Rangers,Des 26 2019
+15:00,Huddersfield,2,1,Blackburn,Des 29 2019
+15:00,Fulham,1,0,Stoke,Des 29 2019
+15:00,Birmingham,4,5,Leeds,Des 29 2019
+15:00,Bristol City,3,0,Luton,Des 29 2019
+15:00,Nottingham Forest,1,0,Wigan,Des 29 2019
+15:00,Millwall,1,0,Brentford,Des 29 2019
+15:00,Queens Park Rangers,1,2,Hull,Des 29 2019
+15:00,Preston,0,2,Reading,Des 29 2019
+15:00,West Bromwich Albion,0,2,Middlesbrough,Des 29 2019
+15:00,Swansea,0,0,Barnsley,Des 29 2019
+15:00,Sheffield Wednesday,1,2,Cardiff,Des 29 2019
+19:45,Derby,2,1,Charlton,Des 30 2019
+19:45,Barnsley,2,2,Bristol City,Nov 1 2019
+12:30,Wigan,1,2,Swansea,Nov 2 2019
+15:00,Blackburn,2,1,Sheffield Wednesday,Nov 2 2019
+15:00,Brentford,0,1,Huddersfield,Nov 2 2019
+15:00,Cardiff,4,2,Birmingham,Nov 2 2019
+15:00,Derby,2,0,Middlesbrough,Nov 2 2019
+15:00,Fulham,0,3,Hull,Nov 2 2019
+15:00,Leeds,2,0,Queens Park Rangers,Nov 2 2019
+15:00,Luton,1,2,Nottingham Forest,Nov 2 2019
+15:00,Reading,2,1,Millwall,Nov 2 2019
+12:00,Charlton,0,1,Preston,Nov 3 2019
+20:00,Stoke,0,2,West Bromwich Albion,Nov 4 2019
+12:30,Nottingham Forest,1,0,Derby,Nov 9 2019
+15:00,Preston,3,1,Huddersfield,Nov 9 2019
+15:00,Queens Park Rangers,2,2,Middlesbrough,Nov 9 2019
+15:00,Reading,3,0,Luton,Nov 9 2019
+15:00,Sheffield Wednesday,2,2,Swansea,Nov 9 2019
+15:00,Wigan,0,3,Brentford,Nov 9 2019
+15:00,Barnsley,2,4,Stoke,Nov 9 2019
+15:00,Birmingham,0,1,Fulham,Nov 9 2019
+15:00,Hull,0,1,West Bromwich Albion,Nov 9 2019
+15:00,Leeds,2,1,Blackburn,Nov 9 2019
+15:00,Millwall,2,1,Charlton,Nov 9 2019
+12:00,Cardiff,0,1,Bristol City,Nov 10 2019
+19:45,Fulham,2,1,Queens Park Rangers,Nov 22 2019
+12:30,Charlton,2,2,Cardiff,Nov 23 2019
+15:00,Derby,1,0,Preston,Nov 23 2019
+15:00,Blackburn,3,2,Barnsley,Nov 23 2019
+15:00,Brentford,1,0,Reading,Nov 23 2019
+15:00,Bristol City,0,0,Nottingham Forest,Nov 23 2019
+15:00,Huddersfield,1,1,Birmingham,Nov 23 2019
+15:00,Luton,1,2,Leeds,Nov 23 2019
+15:00,Stoke,2,1,Wigan,Nov 23 2019
+15:00,Swansea,0,1,Millwall,Nov 23 2019
+15:00,West Bromwich Albion,2,1,Sheffield Wednesday,Nov 23 2019
+12:00,Middlesbrough,2,2,Hull,Nov 24 2019
+19:45,Cardiff,1,0,Stoke,Nov 26 2019
+19:45,Fulham,3,0,Derby,Nov 26 2019
+19:45,Huddersfield,1,1,Swansea,Nov 26 2019
+19:45,Luton,2,1,Charlton,Nov 26 2019
+19:45,Millwall,2,2,Wigan,Nov 26 2019
+20:00,Reading,0,1,Leeds,Nov 26 2019
+19:45,Blackburn,1,0,Brentford,Nov 27 2019
+19:45,Hull,4,0,Preston,Nov 27 2019
+19:45,Middlesbrough,1,0,Barnsley,Nov 27 2019
+19:45,Queens Park Rangers,0,4,Nottingham Forest,Nov 27 2019
+19:45,Sheffield Wednesday,1,1,Birmingham,Nov 27 2019
+20:00,West Bromwich Albion,4,1,Bristol City,Nov 27 2019
+19:45,Swansea,1,2,Fulham,Nov 29 2019
+12:30,Charlton,1,3,Sheffield Wednesday,Nov 30 2019
+15:00,Derby,1,1,Queens Park Rangers,Nov 30 2019
+15:00,Leeds,4,0,Middlesbrough,Nov 30 2019
+15:00,Nottingham Forest,0,1,Cardiff,Nov 30 2019
+15:00,Stoke,1,2,Blackburn,Nov 30 2019
+15:00,Birmingham,1,1,Millwall,Nov 30 2019
+15:00,Brentford,7,0,Luton,Nov 30 2019
+15:00,Bristol City,5,2,Huddersfield,Nov 30 2019
+15:00,Wigan,1,3,Reading,Nov 30 2019
+15:00,Barnsley,3,1,Hull,Nov 30 2019
+19:45,Blackburn,1,1,Nottingham Forest,Okt 1 2019
+19:45,Hull,1,0,Sheffield Wednesday,Okt 1 2019
+19:45,Leeds,1,0,West Bromwich Albion,Okt 1 2019
+19:45,Middlesbrough,1,1,Preston,Okt 1 2019
+19:45,Wigan,1,0,Birmingham,Okt 1 2019
+20:00,Reading,1,4,Fulham,Okt 1 2019
+20:00,Stoke,0,1,Huddersfield,Okt 1 2019
+19:45,Barnsley,2,2,Derby,Okt 2 2019
+19:45,Brentford,1,1,Bristol City,Okt 2 2019
+19:45,Cardiff,3,0,Queens Park Rangers,Okt 2 2019
+19:45,Charlton,1,2,Swansea,Okt 2 2019
+19:45,Luton,1,1,Millwall,Okt 2 2019
+19:45,Birmingham,2,1,Middlesbrough,Okt 4 2019
+12:30,Fulham,2,2,Charlton,Okt 5 2019
+15:00,Huddersfield,3,0,Hull,Okt 5 2019
+15:00,Millwall,2,1,Leeds,Okt 5 2019
+15:00,Nottingham Forest,1,0,Brentford,Okt 5 2019
+15:00,Preston,5,1,Barnsley,Okt 5 2019
+15:00,Bristol City,1,0,Reading,Okt 5 2019
+15:00,Derby,2,0,Luton,Okt 5 2019
+15:00,Queens Park Rangers,4,2,Blackburn,Okt 5 2019
+15:00,Sheffield Wednesday,1,0,Wigan,Okt 5 2019
+15:00,Swansea,1,2,Stoke,Okt 5 2019
+15:00,West Bromwich Albion,4,2,Cardiff,Okt 5 2019
+19:45,Cardiff,1,1,Sheffield Wednesday,Okt 18 2019
+12:30,Blackburn,2,2,Huddersfield,Okt 19 2019
+15:00,Brentford,3,2,Millwall,Okt 19 2019
+15:00,Barnsley,1,1,Swansea,Okt 19 2019
+15:00,Charlton,3,0,Derby,Okt 19 2019
+15:00,Hull,2,3,Queens Park Rangers,Okt 19 2019
+15:00,Leeds,1,0,Birmingham,Okt 19 2019
+15:00,Luton,3,0,Bristol City,Okt 19 2019
+15:00,Middlesbrough,0,1,West Bromwich Albion,Okt 19 2019
+15:00,Reading,1,0,Preston,Okt 19 2019
+15:00,Stoke,2,0,Fulham,Okt 19 2019
+14:00,Wigan,1,0,Nottingham Forest,Okt 20 2019
+19:45,Birmingham,1,0,Blackburn,Okt 22 2019
+19:45,Millwall,2,2,Cardiff,Okt 22 2019
+19:45,Queens Park Rangers,2,2,Reading,Okt 22 2019
+19:45,Sheffield Wednesday,1,0,Stoke,Okt 22 2019
+19:45,Swansea,0,3,Brentford,Okt 22 2019
+19:45,Preston,1,1,Leeds,Okt 22 2019
+20:00,West Bromwich Albion,2,2,Barnsley,Okt 22 2019
+19:45,Bristol City,2,1,Charlton,Okt 23 2019
+19:45,Derby,1,0,Wigan,Okt 23 2019
+19:45,Fulham,3,2,Luton,Okt 23 2019
+19:45,Huddersfield,0,0,Middlesbrough,Okt 23 2019
+19:45,Nottingham Forest,1,2,Hull,Okt 23 2019
+12:30,Sheffield Wednesday,0,0,Leeds,Okt 26 2019
+15:00,West Bromwich Albion,2,2,Charlton,Okt 26 2019
+15:00,Birmingham,2,1,Luton,Okt 26 2019
+15:00,Huddersfield,2,1,Barnsley,Okt 26 2019
+15:00,Preston,3,2,Blackburn,Okt 26 2019
+15:00,Millwall,2,0,Stoke,Okt 26 2019
+15:00,Middlesbrough,0,0,Fulham,Okt 26 2019
+15:00,Hull,2,0,Derby,Okt 26 2019
+12:00,Swansea,1,0,Cardiff,Okt 27 2019
+13:30,Bristol City,2,2,Wigan,Okt 27 2019
+19:45,Queens Park Rangers,1,3,Brentford,Okt 28 2019
+19:45,Derby,1,1,Cardiff,Sep 13 2019
+12:30,Fulham,1,1,West Bromwich Albion,Sep 14 2019
+15:00,Hull,2,2,Wigan,Sep 14 2019
+15:00,Blackburn,2,0,Millwall,Sep 14 2019
+15:00,Charlton,0,1,Birmingham,Sep 14 2019
+15:00,Middlesbrough,1,0,Reading,Sep 14 2019
+15:00,Preston,2,0,Brentford,Sep 14 2019
+15:00,Queens Park Rangers,3,2,Luton,Sep 14 2019
+15:00,Stoke,1,2,Bristol City,Sep 14 2019
+15:00,Swansea,0,1,Nottingham Forest,Sep 14 2019
+12:00,Huddersfield,0,2,Sheffield Wednesday,Sep 15 2019
+12:30,Barnsley,0,2,Leeds,Sep 15 2019
+12:30,Leeds,1,1,Derby,Sep 21 2019
+15:00,Luton,0,3,Hull,Sep 21 2019
+15:00,Nottingham Forest,1,0,Barnsley,Sep 21 2019
+15:00,Millwall,1,2,Queens Park Rangers,Sep 21 2019
+15:00,Cardiff,1,0,Middlesbrough,Sep 21 2019
+15:00,Bristol City,0,0,Swansea,Sep 21 2019
+15:00,Birmingham,0,1,Preston,Sep 21 2019
+15:00,Brentford,0,0,Stoke,Sep 21 2019
+15:00,Wigan,2,0,Charlton,Sep 21 2019
+15:00,Sheffield Wednesday,1,1,Fulham,Sep 21 2019
+15:00,Reading,1,2,Blackburn,Sep 21 2019
+12:00,West Bromwich Albion,4,2,Huddersfield,Sep 22 2019
+19:45,Fulham,2,0,Wigan,Sep 27 2019
+20:00,Stoke,2,3,Nottingham Forest,Sep 27 2019
+12:30,Queens Park Rangers,0,2,West Bromwich Albion,Sep 28 2019
+15:00,Preston,3,3,Bristol City,Sep 28 2019
+15:00,Middlesbrough,1,4,Sheffield Wednesday,Sep 28 2019
+15:00,Hull,2,2,Cardiff,Sep 28 2019
+15:00,Swansea,1,1,Reading,Sep 28 2019
+15:00,Huddersfield,1,1,Millwall,Sep 28 2019
+15:00,Derby,3,2,Birmingham,Sep 28 2019
+15:00,Charlton,1,0,Leeds,Sep 28 2019
+15:00,Blackburn,1,2,Luton,Sep 28 2019
+13:30,Barnsley,1,3,Brentford,Sep 29 2019
+12:30,Aston Villa,2,1,West Bromwich Albion,Mei 11 2019
+17:15,Derby,0,1,Leeds,Mei 11 2019
+20:00,West Bromwich Albion,1,0,Aston Villa,Mei 14 2019
+19:45,Leeds,2,4,Derby,Mei 15 2019
+15:00,Aston Villa,2,1,Derby,Mei 27 2019
+12:30,Leeds,2,0,Queens Park Rangers,Mei 6 2018
+12:30,Millwall,1,0,Aston Villa,Mei 6 2018
+12:30,Preston,2,1,Burton,Mei 6 2018
+12:30,Sheffield Wednesday,5,1,Norwich,Mei 6 2018
+12:30,Sunderland,3,0,Wolverhampton Wanderers,Mei 6 2018
+12:30,Bolton,3,2,Nottingham Forest,Mei 6 2018
+12:30,Brentford,1,1,Hull,Mei 6 2018
+12:30,Bristol City,2,3,Sheffield United,Mei 6 2018
+12:30,Cardiff,0,0,Reading,Mei 6 2018
+12:30,Derby,4,1,Barnsley,Mei 6 2018
+12:30,Ipswich,2,2,Middlesbrough,Mei 6 2018
+12:30,Birmingham,3,1,Fulham,Mei 6 2018
+12:45,Preston,0,1,Derby,Apr 2 2018
+15:00,Ipswich,2,2,Millwall,Apr 2 2018
+15:00,Bristol City,0,1,Brentford,Apr 2 2018
+15:00,Burton,1,1,Middlesbrough,Apr 2 2018
+15:00,Sunderland,1,3,Sheffield Wednesday,Apr 2 2018
+15:00,Queens Park Rangers,4,1,Norwich,Apr 2 2018
+19:45,Sheffield United,1,1,Cardiff,Apr 2 2018
+19:45,Wolverhampton Wanderers,2,2,Hull,Apr 3 2018
+19:45,Fulham,2,0,Leeds,Apr 3 2018
+19:45,Aston Villa,3,0,Reading,Apr 3 2018
+20:00,Bolton,0,1,Birmingham,Apr 3 2018
+19:45,Cardiff,0,1,Wolverhampton Wanderers,Apr 6 2018
+12:15,Barnsley,3,2,Sheffield United,Apr 7 2018
+12:30,Norwich,3,1,Aston Villa,Apr 7 2018
+15:00,Reading,1,0,Preston,Apr 7 2018
+15:00,Sheffield Wednesday,0,1,Fulham,Apr 7 2018
+15:00,Birmingham,1,1,Burton,Apr 7 2018
+15:00,Brentford,1,0,Ipswich,Apr 7 2018
+15:00,Derby,3,0,Bolton,Apr 7 2018
+15:00,Hull,4,0,Queens Park Rangers,Apr 7 2018
+15:00,Leeds,1,1,Sunderland,Apr 7 2018
+15:00,Middlesbrough,2,0,Nottingham Forest,Apr 7 2018
+15:00,Millwall,2,0,Bristol City,Apr 7 2018
+19:45,Queens Park Rangers,4,2,Sheffield Wednesday,Apr 10 2018
+19:45,Sheffield United,2,1,Middlesbrough,Apr 10 2018
+19:45,Sunderland,1,1,Norwich,Apr 10 2018
+19:45,Aston Villa,1,0,Cardiff,Apr 10 2018
+19:45,Bristol City,3,1,Birmingham,Apr 10 2018
+19:45,Burton,0,5,Hull,Apr 10 2018
+19:45,Fulham,1,0,Reading,Apr 10 2018
+19:45,Ipswich,1,0,Barnsley,Apr 10 2018
+19:45,Nottingham Forest,0,1,Brentford,Apr 10 2018
+19:45,Preston,3,1,Leeds,Apr 10 2018
+20:00,Bolton,0,2,Millwall,Apr 10 2018
+19:45,Wolverhampton Wanderers,2,0,Derby,Apr 11 2018
+19:45,Aston Villa,1,0,Leeds,Apr 13 2018
+13:00,Sheffield United,1,1,Millwall,Apr 14 2018
+15:00,Queens Park Rangers,1,2,Preston,Apr 14 2018
+15:00,Reading,2,2,Sunderland,Apr 14 2018
+15:00,Norwich,0,2,Cardiff,Apr 14 2018
+15:00,Nottingham Forest,2,1,Ipswich,Apr 14 2018
+15:00,Barnsley,2,2,Bolton,Apr 14 2018
+15:00,Burton,3,1,Derby,Apr 14 2018
+15:00,Hull,0,1,Sheffield Wednesday,Apr 14 2018
+15:00,Middlesbrough,2,1,Bristol City,Apr 14 2018
+17:30,Fulham,1,1,Brentford,Apr 14 2018
+12:00,Wolverhampton Wanderers,2,0,Birmingham,Apr 15 2018
+19:45,Millwall,0,3,Fulham,Apr 20 2018
+15:00,Derby,1,2,Middlesbrough,Apr 21 2018
+15:00,Ipswich,0,4,Aston Villa,Apr 21 2018
+15:00,Bristol City,5,5,Hull,Apr 21 2018
+15:00,Leeds,2,1,Barnsley,Apr 21 2018
+15:00,Sheffield Wednesday,3,0,Reading,Apr 21 2018
+15:00,Preston,0,0,Norwich,Apr 21 2018
+15:00,Bolton,0,4,Wolverhampton Wanderers,Apr 21 2018
+15:00,Brentford,2,1,Queens Park Rangers,Apr 21 2018
+15:00,Sunderland,1,2,Burton,Apr 21 2018
+15:00,Birmingham,2,1,Sheffield United,Apr 21 2018
+19:45,Cardiff,2,1,Nottingham Forest,Apr 21 2018
+19:45,Nottingham Forest,3,0,Barnsley,Apr 24 2018
+19:45,Derby,3,1,Cardiff,Apr 24 2018
+19:45,Fulham,2,1,Sunderland,Apr 27 2018
+15:00,Hull,0,2,Cardiff,Apr 28 2018
+15:00,Burton,2,0,Bolton,Apr 28 2018
+15:00,Norwich,2,1,Leeds,Apr 28 2018
+15:00,Aston Villa,1,1,Derby,Apr 28 2018
+15:00,Barnsley,2,0,Brentford,Apr 28 2018
+15:00,Reading,0,4,Ipswich,Apr 28 2018
+15:00,Queens Park Rangers,3,1,Birmingham,Apr 28 2018
+15:00,Nottingham Forest,0,0,Bristol City,Apr 28 2018
+15:00,Sheffield United,0,1,Preston,Apr 28 2018
+15:00,Wolverhampton Wanderers,0,0,Sheffield Wednesday,Apr 28 2018
+17:30,Middlesbrough,2,0,Millwall,Apr 28 2018
+19:45,Middlesbrough,3,0,Leeds,Mac 2 2018
+15:00,Bolton,1,3,Preston,Mac 3 2018
+15:00,Bristol City,4,0,Sheffield Wednesday,Mac 3 2018
+15:00,Derby,1,2,Fulham,Mac 3 2018
+15:00,Millwall,1,1,Sunderland,Mac 3 2018
+15:00,Nottingham Forest,2,1,Birmingham,Mac 3 2018
+19:45,Burton,0,2,Brentford,Mac 6 2018
+19:45,Cardiff,2,1,Barnsley,Mac 6 2018
+19:45,Fulham,3,0,Sheffield United,Mac 6 2018
+19:45,Hull,1,2,Millwall,Mac 6 2018
+19:45,Norwich,0,0,Nottingham Forest,Mac 6 2018
+19:45,Preston,2,1,Bristol City,Mac 6 2018
+19:45,Queens Park Rangers,1,1,Derby,Mac 6 2018
+19:45,Birmingham,0,1,Middlesbrough,Mac 6 2018
+19:45,Sheffield Wednesday,1,2,Ipswich,Mac 6 2018
+19:45,Sunderland,0,3,Aston Villa,Mac 6 2018
+20:00,Reading,1,1,Bolton,Mac 6 2018
+19:45,Leeds,0,3,Wolverhampton Wanderers,Mac 7 2018
+15:00,Preston,1,2,Fulham,Mac 10 2018
+15:00,Queens Park Rangers,1,0,Sunderland,Mac 10 2018
+15:00,Sheffield Wednesday,1,1,Bolton,Mac 10 2018
+15:00,Reading,2,2,Leeds,Mac 10 2018
+15:00,Millwall,1,0,Brentford,Mac 10 2018
+15:00,Middlesbrough,3,1,Barnsley,Mac 10 2018
+15:00,Ipswich,0,0,Sheffield United,Mac 10 2018
+15:00,Burton,0,0,Bristol City,Mac 10 2018
+15:00,Cardiff,3,2,Birmingham,Mac 10 2018
+15:00,Hull,4,3,Norwich,Mac 10 2018
+17:30,Aston Villa,4,1,Wolverhampton Wanderers,Mac 10 2018
+14:30,Nottingham Forest,0,0,Derby,Mac 11 2018
+19:45,Wolverhampton Wanderers,3,0,Reading,Mac 13 2018
+19:45,Sheffield United,2,0,Burton,Mac 13 2018
+19:45,Aston Villa,1,3,Queens Park Rangers,Mac 13 2018
+19:45,Barnsley,1,1,Norwich,Mac 13 2018
+19:45,Ipswich,0,3,Hull,Mac 13 2018
+19:45,Brentford,1,3,Cardiff,Mac 13 2018
+12:30,Fulham,2,2,Queens Park Rangers,Mac 17 2018
+13:00,Barnsley,0,2,Millwall,Mac 17 2018
+15:00,Brentford,1,1,Middlesbrough,Mac 17 2018
+15:00,Birmingham,3,0,Hull,Mac 17 2018
+15:00,Bristol City,1,0,Ipswich,Mac 17 2018
+15:00,Leeds,1,2,Sheffield Wednesday,Mac 17 2018
+15:00,Norwich,3,2,Reading,Mac 17 2018
+15:00,Wolverhampton Wanderers,3,1,Burton,Mac 17 2018
+15:00,Sheffield United,0,0,Nottingham Forest,Mac 17 2018
+15:00,Sunderland,0,2,Preston,Mac 17 2018
+17:30,Bolton,1,0,Aston Villa,Mac 17 2018
+13:00,Millwall,2,0,Nottingham Forest,Mac 30 2018
+15:00,Norwich,0,2,Fulham,Mac 30 2018
+15:00,Sheffield Wednesday,4,1,Preston,Mac 30 2018
+15:00,Barnsley,2,2,Bristol City,Mac 30 2018
+15:00,Cardiff,3,1,Burton,Mac 30 2018
+15:00,Brentford,1,1,Sheffield United,Mac 30 2018
+15:00,Leeds,2,1,Bolton,Mac 30 2018
+17:30,Middlesbrough,1,2,Wolverhampton Wanderers,Mac 30 2018
+17:30,Reading,1,0,Queens Park Rangers,Mac 30 2018
+19:45,Derby,1,4,Sunderland,Mac 30 2018
+15:00,Birmingham,1,0,Ipswich,Mac 31 2018
+17:30,Hull,0,0,Aston Villa,Mac 31 2018
+20:00,Bolton,1,0,Bristol City,Feb 2 2018
+15:00,Derby,3,0,Brentford,Feb 3 2018
+15:00,Fulham,2,0,Nottingham Forest,Feb 3 2018
+15:00,Leeds,1,4,Cardiff,Feb 3 2018
+15:00,Norwich,1,0,Middlesbrough,Feb 3 2018
+15:00,Preston,2,1,Hull,Feb 3 2018
+15:00,Queens Park Rangers,1,0,Barnsley,Feb 3 2018
+15:00,Reading,0,2,Millwall,Feb 3 2018
+15:00,Sheffield Wednesday,1,3,Birmingham,Feb 3 2018
+15:00,Sunderland,0,2,Ipswich,Feb 3 2018
+15:00,Aston Villa,3,2,Burton,Feb 3 2018
+17:30,Wolverhampton Wanderers,3,0,Sheffield United,Feb 3 2018
+19:45,Millwall,1,1,Cardiff,Feb 9 2018
+12:15,Barnsley,1,1,Sheffield Wednesday,Feb 10 2018
+12:30,Sheffield United,2,1,Leeds,Feb 10 2018
+15:00,Wolverhampton Wanderers,2,1,Queens Park Rangers,Feb 10 2018
+15:00,Nottingham Forest,0,2,Hull,Feb 10 2018
+15:00,Bolton,1,1,Fulham,Feb 10 2018
+15:00,Brentford,1,1,Preston,Feb 10 2018
+15:00,Bristol City,3,3,Sunderland,Feb 10 2018
+15:00,Derby,1,1,Norwich,Feb 10 2018
+15:00,Ipswich,0,0,Burton,Feb 10 2018
+15:00,Middlesbrough,2,1,Reading,Feb 10 2018
+12:00,Aston Villa,2,0,Birmingham,Feb 11 2018
+19:45,Cardiff,2,0,Bolton,Feb 13 2018
+19:45,Sheffield Wednesday,2,0,Derby,Feb 13 2018
+15:00,Queens Park Rangers,2,0,Bolton,Feb 17 2018
+15:00,Sunderland,0,2,Brentford,Feb 17 2018
+15:00,Burton,0,0,Nottingham Forest,Feb 17 2018
+15:00,Cardiff,1,0,Middlesbrough,Feb 17 2018
+15:00,Birmingham,0,1,Millwall,Feb 17 2018
+15:00,Fulham,2,0,Aston Villa,Feb 17 2018
+15:00,Preston,1,1,Wolverhampton Wanderers,Feb 17 2018
+12:00,Norwich,1,1,Ipswich,Feb 18 2018
+16:30,Leeds,2,2,Bristol City,Feb 18 2018
+19:45,Middlesbrough,3,1,Hull,Feb 20 2018
+19:45,Millwall,2,1,Sheffield Wednesday,Feb 20 2018
+19:45,Nottingham Forest,1,1,Reading,Feb 20 2018
+19:45,Sheffield United,2,1,Queens Park Rangers,Feb 20 2018
+19:45,Barnsley,1,2,Burton,Feb 20 2018
+19:45,Brentford,5,0,Birmingham,Feb 20 2018
+19:45,Aston Villa,1,1,Preston,Feb 20 2018
+20:00,Bolton,1,0,Sunderland,Feb 20 2018
+19:45,Wolverhampton Wanderers,2,2,Norwich,Feb 21 2018
+19:45,Ipswich,0,1,Cardiff,Feb 21 2018
+19:45,Derby,2,2,Leeds,Feb 21 2018
+19:45,Bristol City,1,1,Fulham,Feb 21 2018
+19:45,Hull,1,0,Sheffield United,Feb 23 2018
+15:00,Queens Park Rangers,2,5,Nottingham Forest,Feb 24 2018
+15:00,Reading,3,3,Derby,Feb 24 2018
+15:00,Leeds,1,0,Brentford,Feb 24 2018
+15:00,Preston,0,1,Ipswich,Feb 24 2018
+15:00,Norwich,0,0,Bolton,Feb 24 2018
+15:00,Sheffield Wednesday,2,4,Aston Villa,Feb 24 2018
+15:00,Sunderland,3,3,Middlesbrough,Feb 24 2018
+15:00,Burton,0,1,Millwall,Feb 24 2018
+15:00,Birmingham,0,2,Barnsley,Feb 24 2018
+17:30,Fulham,2,0,Wolverhampton Wanderers,Feb 24 2018
+12:00,Cardiff,1,0,Bristol City,Feb 25 2018
+19:45,Hull,1,1,Barnsley,Feb 27 2018
+20:00,Reading,1,3,Sheffield United,Feb 27 2018
+15:00,Sheffield Wednesday,0,3,Burton,Jan 1 2018
+15:00,Sunderland,0,1,Barnsley,Jan 1 2018
+15:00,Bolton,1,0,Hull,Jan 1 2018
+15:00,Derby,1,1,Sheffield United,Jan 1 2018
+15:00,Leeds,0,0,Nottingham Forest,Jan 1 2018
+15:00,Norwich,2,1,Millwall,Jan 1 2018
+15:00,Preston,2,3,Middlesbrough,Jan 1 2018
+15:00,Queens Park Rangers,2,1,Cardiff,Jan 1 2018
+17:30,Aston Villa,5,0,Bristol City,Jan 1 2018
+19:45,Wolverhampton Wanderers,3,0,Brentford,Jan 2 2018
+19:45,Fulham,4,1,Ipswich,Jan 2 2018
+20:00,Reading,0,2,Birmingham,Jan 2 2018
+19:45,Sheffield United,0,0,Sheffield Wednesday,Jan 12 2018
+12:30,Cardiff,4,0,Sunderland,Jan 13 2018
+15:00,Burton,1,3,Queens Park Rangers,Jan 13 2018
+15:00,Brentford,2,0,Bolton,Jan 13 2018
+15:00,Bristol City,0,1,Norwich,Jan 13 2018
+15:00,Barnsley,0,0,Wolverhampton Wanderers,Jan 13 2018
+15:00,Birmingham,0,3,Derby,Jan 13 2018
+15:00,Hull,0,0,Reading,Jan 13 2018
+15:00,Ipswich,1,0,Leeds,Jan 13 2018
+15:00,Middlesbrough,0,1,Fulham,Jan 13 2018
+15:00,Millwall,1,1,Preston,Jan 13 2018
+17:30,Nottingham Forest,0,1,Aston Villa,Jan 13 2018
+19:45,Derby,0,0,Bristol City,Jan 19 2018
+15:00,Fulham,6,0,Burton,Jan 20 2018
+15:00,Leeds,3,4,Millwall,Jan 20 2018
+15:00,Norwich,1,2,Sheffield United,Jan 20 2018
+15:00,Preston,1,1,Birmingham,Jan 20 2018
+15:00,Queens Park Rangers,0,3,Middlesbrough,Jan 20 2018
+15:00,Reading,0,1,Brentford,Jan 20 2018
+15:00,Aston Villa,3,1,Barnsley,Jan 20 2018
+15:00,Bolton,1,1,Ipswich,Jan 20 2018
+15:00,Wolverhampton Wanderers,0,2,Nottingham Forest,Jan 20 2018
+15:00,Sunderland,1,0,Hull,Jan 20 2018
+17:30,Sheffield Wednesday,0,0,Cardiff,Jan 20 2018
+15:00,Bristol City,2,0,Queens Park Rangers,Jan 27 2018
+15:00,Brentford,0,1,Norwich,Jan 27 2018
+15:00,Ipswich,0,1,Wolverhampton Wanderers,Jan 27 2018
+15:00,Barnsley,1,3,Fulham,Jan 27 2018
+19:45,Birmingham,3,1,Sunderland,Jan 30 2018
+19:45,Middlesbrough,0,0,Sheffield Wednesday,Jan 30 2018
+19:45,Millwall,0,0,Derby,Jan 30 2018
+19:45,Nottingham Forest,0,3,Preston,Jan 30 2018
+19:45,Hull,0,0,Leeds,Jan 30 2018
+19:45,Burton,1,3,Reading,Jan 30 2018
+19:45,Sheffield United,0,1,Aston Villa,Jan 30 2018
+19:45,Cardiff,3,1,Norwich,Des 1 2017
+19:45,Leeds,1,1,Aston Villa,Des 1 2017
+15:00,Millwall,3,1,Sheffield United,Des 2 2017
+15:00,Preston,1,0,Queens Park Rangers,Des 2 2017
+15:00,Sheffield Wednesday,2,2,Hull,Des 2 2017
+15:00,Derby,1,0,Burton,Des 2 2017
+15:00,Ipswich,4,2,Nottingham Forest,Des 2 2017
+15:00,Bolton,3,1,Barnsley,Des 2 2017
+15:00,Brentford,3,1,Fulham,Des 2 2017
+15:00,Sunderland,1,3,Reading,Des 2 2017
+17:30,Bristol City,2,1,Middlesbrough,Des 2 2017
+19:45,Birmingham,0,1,Wolverhampton Wanderers,Des 4 2017
+19:45,Sheffield United,1,2,Bristol City,Des 8 2017
+15:00,Wolverhampton Wanderers,0,0,Sunderland,Des 9 2017
+15:00,Queens Park Rangers,1,3,Leeds,Des 9 2017
+15:00,Burton,1,2,Preston,Des 9 2017
+15:00,Fulham,1,0,Birmingham,Des 9 2017
+15:00,Hull,3,2,Brentford,Des 9 2017
+15:00,Middlesbrough,2,0,Ipswich,Des 9 2017
+15:00,Nottingham Forest,3,2,Bolton,Des 9 2017
+15:00,Aston Villa,0,0,Millwall,Des 9 2017
+15:00,Barnsley,0,3,Derby,Des 9 2017
+17:30,Norwich,3,1,Sheffield Wednesday,Des 9 2017
+20:00,Reading,2,2,Cardiff,Des 11 2017
+19:45,Sheffield Wednesday,0,1,Wolverhampton Wanderers,Des 15 2017
+15:00,Sunderland,1,0,Fulham,Des 16 2017
+15:00,Derby,2,0,Aston Villa,Des 16 2017
+15:00,Ipswich,2,0,Reading,Des 16 2017
+15:00,Leeds,1,0,Norwich,Des 16 2017
+15:00,Millwall,2,1,Middlesbrough,Des 16 2017
+15:00,Preston,1,0,Sheffield United,Des 16 2017
+15:00,Birmingham,1,2,Queens Park Rangers,Des 16 2017
+15:00,Bolton,0,1,Burton,Des 16 2017
+15:00,Brentford,0,0,Barnsley,Des 16 2017
+15:00,Bristol City,2,1,Nottingham Forest,Des 16 2017
+17:30,Cardiff,1,0,Hull,Des 16 2017
+19:45,Norwich,1,2,Brentford,Des 22 2017
+15:00,Preston,1,1,Nottingham Forest,Des 23 2017
+15:00,Queens Park Rangers,1,1,Bristol City,Des 23 2017
+15:00,Reading,1,2,Burton,Des 23 2017
+15:00,Sheffield Wednesday,1,2,Middlesbrough,Des 23 2017
+15:00,Sunderland,1,1,Birmingham,Des 23 2017
+15:00,Wolverhampton Wanderers,1,0,Ipswich,Des 23 2017
+15:00,Bolton,2,0,Cardiff,Des 23 2017
+15:00,Derby,3,0,Millwall,Des 23 2017
+15:00,Fulham,2,1,Barnsley,Des 23 2017
+15:00,Leeds,1,0,Hull,Des 23 2017
+17:30,Aston Villa,2,2,Sheffield United,Des 23 2017
+13:00,Millwall,2,2,Wolverhampton Wanderers,Des 26 2017
+15:00,Middlesbrough,2,0,Bolton,Des 26 2017
+15:00,Bristol City,2,0,Reading,Des 26 2017
+15:00,Burton,1,2,Leeds,Des 26 2017
+15:00,Cardiff,2,4,Fulham,Des 26 2017
+15:00,Hull,0,0,Derby,Des 26 2017
+15:00,Ipswich,0,0,Queens Park Rangers,Des 26 2017
+15:00,Sheffield United,3,0,Sunderland,Des 26 2017
+15:00,Nottingham Forest,0,3,Sheffield Wednesday,Des 26 2017
+15:00,Barnsley,0,0,Preston,Des 26 2017
+15:00,Birmingham,0,2,Norwich,Des 26 2017
+19:30,Brentford,2,1,Aston Villa,Des 26 2017
+19:45,Millwall,1,0,Queens Park Rangers,Des 29 2017
+19:45,Cardiff,0,1,Preston,Des 29 2017
+15:00,Burton,0,0,Norwich,Des 30 2017
+15:00,Brentford,2,0,Sheffield Wednesday,Des 30 2017
+15:00,Middlesbrough,0,1,Aston Villa,Des 30 2017
+15:00,Ipswich,1,2,Derby,Des 30 2017
+15:00,Hull,2,2,Fulham,Des 30 2017
+15:00,Barnsley,1,1,Reading,Des 30 2017
+15:00,Birmingham,1,0,Leeds,Des 30 2017
+15:00,Nottingham Forest,0,1,Sunderland,Des 30 2017
+15:00,Sheffield United,0,1,Bolton,Des 30 2017
+17:30,Bristol City,1,2,Wolverhampton Wanderers,Des 30 2017
+19:45,Preston,0,2,Aston Villa,Nov 1 2017
+19:45,Birmingham,0,2,Brentford,Nov 1 2017
+19:45,Wolverhampton Wanderers,2,0,Fulham,Nov 3 2017
+12:00,Bristol City,2,1,Cardiff,Nov 4 2017
+15:00,Derby,2,4,Reading,Nov 4 2017
+15:00,Ipswich,3,0,Preston,Nov 4 2017
+15:00,Millwall,0,1,Burton,Nov 4 2017
+15:00,Aston Villa,1,2,Sheffield Wednesday,Nov 4 2017
+15:00,Barnsley,2,0,Birmingham,Nov 4 2017
+15:00,Bolton,2,1,Norwich,Nov 4 2017
+15:00,Nottingham Forest,4,0,Queens Park Rangers,Nov 4 2017
+15:00,Sheffield United,4,1,Hull,Nov 4 2017
+17:30,Brentford,3,1,Leeds,Nov 4 2017
+12:15,Middlesbrough,1,0,Sunderland,Nov 5 2017
+19:45,Preston,0,0,Bolton,Nov 17 2017
+19:45,Burton,1,3,Sheffield United,Nov 17 2017
+15:00,Cardiff,2,0,Brentford,Nov 18 2017
+15:00,Norwich,1,1,Barnsley,Nov 18 2017
+15:00,Hull,2,2,Ipswich,Nov 18 2017
+15:00,Sunderland,2,2,Millwall,Nov 18 2017
+15:00,Sheffield Wednesday,0,0,Bristol City,Nov 18 2017
+15:00,Reading,0,2,Wolverhampton Wanderers,Nov 18 2017
+15:00,Queens Park Rangers,1,2,Aston Villa,Nov 18 2017
+15:00,Birmingham,1,0,Nottingham Forest,Nov 18 2017
+17:30,Fulham,1,1,Derby,Nov 18 2017
+13:15,Leeds,2,1,Middlesbrough,Nov 19 2017
+19:45,Aston Villa,2,1,Sunderland,Nov 21 2017
+19:45,Barnsley,0,1,Cardiff,Nov 21 2017
+19:45,Brentford,1,1,Burton,Nov 21 2017
+19:45,Bristol City,1,2,Preston,Nov 21 2017
+19:45,Derby,2,0,Queens Park Rangers,Nov 21 2017
+19:45,Millwall,0,0,Hull,Nov 21 2017
+19:45,Nottingham Forest,1,0,Norwich,Nov 21 2017
+19:45,Sheffield United,4,5,Fulham,Nov 21 2017
+20:00,Bolton,2,2,Reading,Nov 21 2017
+19:45,Middlesbrough,2,0,Birmingham,Nov 22 2017
+19:45,Wolverhampton Wanderers,4,1,Leeds,Nov 22 2017
+19:45,Ipswich,2,2,Sheffield Wednesday,Nov 22 2017
+12:30,Barnsley,0,2,Leeds,Nov 25 2017
+15:00,Burton,0,2,Sunderland,Nov 25 2017
+15:00,Fulham,1,0,Millwall,Nov 25 2017
+15:00,Hull,2,3,Bristol City,Nov 25 2017
+15:00,Middlesbrough,0,3,Derby,Nov 25 2017
+15:00,Norwich,1,1,Preston,Nov 25 2017
+15:00,Wolverhampton Wanderers,5,1,Bolton,Nov 25 2017
+15:00,Aston Villa,2,0,Ipswich,Nov 25 2017
+15:00,Reading,0,0,Sheffield Wednesday,Nov 25 2017
+17:30,Sheffield United,1,1,Birmingham,Nov 25 2017
+13:00,Nottingham Forest,0,2,Cardiff,Nov 26 2017
+19:45,Queens Park Rangers,2,2,Brentford,Nov 27 2017
+19:45,Derby,0,1,Ipswich,Nov 28 2017
+20:00,Reading,3,0,Barnsley,Nov 28 2017
+12:15,Sheffield Wednesday,3,0,Leeds,Okt 1 2017
+19:45,Bristol City,0,0,Burton,Okt 13 2017
+19:45,Birmingham,1,0,Cardiff,Okt 13 2017
+15:00,Leeds,0,1,Reading,Okt 14 2017
+15:00,Fulham,2,2,Preston,Okt 14 2017
+15:00,Barnsley,2,2,Middlesbrough,Okt 14 2017
+15:00,Bolton,2,1,Sheffield Wednesday,Okt 14 2017
+15:00,Brentford,1,0,Millwall,Okt 14 2017
+15:00,Norwich,1,1,Hull,Okt 14 2017
+15:00,Sheffield United,1,0,Ipswich,Okt 14 2017
+15:00,Sunderland,1,1,Queens Park Rangers,Okt 14 2017
+17:30,Wolverhampton Wanderers,2,0,Aston Villa,Okt 14 2017
+13:15,Derby,2,0,Nottingham Forest,Okt 15 2017
+15:00,Nottingham Forest,2,0,Burton,Okt 21 2017
+15:00,Aston Villa,2,1,Fulham,Okt 21 2017
+15:00,Barnsley,0,1,Hull,Okt 21 2017
+15:00,Bolton,1,1,Queens Park Rangers,Okt 21 2017
+15:00,Brentford,3,3,Sunderland,Okt 21 2017
+15:00,Bristol City,0,3,Leeds,Okt 21 2017
+15:00,Derby,2,0,Sheffield Wednesday,Okt 21 2017
+15:00,Middlesbrough,0,1,Cardiff,Okt 21 2017
+15:00,Sheffield United,2,1,Reading,Okt 21 2017
+15:00,Wolverhampton Wanderers,3,2,Preston,Okt 21 2017
+17:30,Millwall,2,0,Birmingham,Okt 21 2017
+12:00,Ipswich,0,1,Norwich,Okt 22 2017
+19:45,Leeds,1,2,Sheffield United,Okt 27 2017
+12:30,Sheffield Wednesday,1,1,Barnsley,Okt 28 2017
+15:00,Sunderland,1,2,Bristol City,Okt 28 2017
+15:00,Reading,0,2,Middlesbrough,Okt 28 2017
+15:00,Queens Park Rangers,2,1,Wolverhampton Wanderers,Okt 28 2017
+15:00,Norwich,1,2,Derby,Okt 28 2017
+15:00,Preston,2,3,Brentford,Okt 28 2017
+15:00,Burton,1,2,Ipswich,Okt 28 2017
+15:00,Cardiff,0,0,Millwall,Okt 28 2017
+15:00,Fulham,1,1,Bolton,Okt 28 2017
+17:30,Hull,2,3,Nottingham Forest,Okt 28 2017
+12:00,Birmingham,0,0,Aston Villa,Okt 29 2017
+19:45,Queens Park Rangers,1,0,Sheffield United,Okt 31 2017
+19:45,Leeds,1,2,Derby,Okt 31 2017
+19:45,Norwich,0,2,Wolverhampton Wanderers,Okt 31 2017
+19:45,Hull,1,3,Middlesbrough,Okt 31 2017
+19:45,Fulham,0,2,Bristol City,Okt 31 2017
+19:45,Cardiff,3,1,Ipswich,Okt 31 2017
+19:45,Burton,2,4,Barnsley,Okt 31 2017
+19:45,Sheffield Wednesday,2,1,Millwall,Okt 31 2017
+19:45,Sunderland,3,3,Bolton,Okt 31 2017
+20:00,Reading,3,1,Nottingham Forest,Okt 31 2017
+19:45,Derby,5,0,Hull,Sep 8 2017
+15:00,Fulham,1,1,Cardiff,Sep 9 2017
+15:00,Leeds,5,0,Burton,Sep 9 2017
+15:00,Norwich,1,0,Birmingham,Sep 9 2017
+15:00,Aston Villa,0,0,Brentford,Sep 9 2017
+15:00,Bolton,0,3,Middlesbrough,Sep 9 2017
+15:00,Preston,1,1,Barnsley,Sep 9 2017
+15:00,Queens Park Rangers,2,1,Ipswich,Sep 9 2017
+15:00,Reading,0,1,Bristol City,Sep 9 2017
+15:00,Sunderland,1,2,Sheffield United,Sep 9 2017
+15:00,Wolverhampton Wanderers,1,0,Millwall,Sep 9 2017
+17:30,Sheffield Wednesday,3,1,Nottingham Forest,Sep 9 2017
+19:45,Queens Park Rangers,2,2,Millwall,Sep 12 2017
+19:45,Preston,3,0,Cardiff,Sep 12 2017
+19:45,Aston Villa,0,0,Middlesbrough,Sep 12 2017
+19:45,Leeds,2,0,Birmingham,Sep 12 2017
+19:45,Norwich,0,0,Burton,Sep 12 2017
+19:45,Wolverhampton Wanderers,3,3,Bristol City,Sep 12 2017
+19:45,Sunderland,0,1,Nottingham Forest,Sep 12 2017
+19:45,Sheffield Wednesday,2,1,Brentford,Sep 12 2017
+20:00,Bolton,0,1,Sheffield United,Sep 12 2017
+19:45,Fulham,2,1,Hull,Sep 13 2017
+15:00,Brentford,1,1,Reading,Sep 16 2017
+15:00,Bristol City,4,1,Derby,Sep 16 2017
+15:00,Birmingham,1,3,Preston,Sep 16 2017
+15:00,Burton,2,1,Fulham,Sep 16 2017
+15:00,Cardiff,1,1,Sheffield Wednesday,Sep 16 2017
+15:00,Hull,1,1,Sunderland,Sep 16 2017
+15:00,Ipswich,2,0,Bolton,Sep 16 2017
+15:00,Middlesbrough,3,2,Queens Park Rangers,Sep 16 2017
+15:00,Millwall,1,0,Leeds,Sep 16 2017
+15:00,Nottingham Forest,1,2,Wolverhampton Wanderers,Sep 16 2017
+15:00,Sheffield United,0,1,Norwich,Sep 16 2017
+17:30,Barnsley,0,3,Aston Villa,Sep 16 2017
+15:00,Bolton,0,3,Brentford,Sep 23 2017
+15:00,Derby,1,1,Birmingham,Sep 23 2017
+15:00,Fulham,1,1,Middlesbrough,Sep 23 2017
+15:00,Sunderland,1,2,Cardiff,Sep 23 2017
+15:00,Wolverhampton Wanderers,2,1,Barnsley,Sep 23 2017
+15:00,Leeds,3,2,Ipswich,Sep 23 2017
+15:00,Norwich,0,0,Bristol City,Sep 23 2017
+15:00,Preston,0,0,Millwall,Sep 23 2017
+15:00,Queens Park Rangers,0,0,Burton,Sep 23 2017
+15:00,Reading,1,1,Hull,Sep 23 2017
+17:30,Aston Villa,2,1,Nottingham Forest,Sep 23 2017
+13:15,Sheffield Wednesday,2,4,Sheffield United,Sep 24 2017
+19:45,Barnsley,1,1,Queens Park Rangers,Sep 26 2017
+19:45,Brentford,1,1,Derby,Sep 26 2017
+19:45,Bristol City,2,0,Bolton,Sep 26 2017
+19:45,Burton,0,4,Aston Villa,Sep 26 2017
+19:45,Cardiff,3,1,Leeds,Sep 26 2017
+19:45,Hull,1,2,Preston,Sep 26 2017
+19:45,Ipswich,5,2,Sunderland,Sep 26 2017
+19:45,Middlesbrough,0,1,Norwich,Sep 26 2017
+19:45,Millwall,2,1,Reading,Sep 26 2017
+19:45,Nottingham Forest,1,3,Fulham,Sep 26 2017
+19:45,Sheffield United,2,0,Wolverhampton Wanderers,Sep 27 2017
+19:45,Birmingham,1,0,Sheffield Wednesday,Sep 27 2017
+19:45,Queens Park Rangers,1,2,Fulham,Sep 29 2017
+15:00,Preston,2,2,Sunderland,Sep 30 2017
+15:00,Nottingham Forest,2,1,Sheffield United,Sep 30 2017
+15:00,Ipswich,1,3,Bristol City,Sep 30 2017
+15:00,Millwall,1,3,Barnsley,Sep 30 2017
+15:00,Middlesbrough,2,2,Brentford,Sep 30 2017
+15:00,Aston Villa,1,0,Bolton,Sep 30 2017
+15:00,Burton,0,4,Wolverhampton Wanderers,Sep 30 2017
+15:00,Cardiff,0,0,Derby,Sep 30 2017
+15:00,Hull,6,1,Birmingham,Sep 30 2017
+17:30,Reading,1,2,Norwich,Sep 30 2017
+17:30,Fulham,1,1,Reading,Mei 13 2017
+12:00,Huddersfield,0,0,Sheffield Wednesday,Mei 14 2017
+19:45,Reading,1,0,Fulham,Mei 16 2017
+19:45,Sheffield Wednesday,1,1,Huddersfield,Mei 17 2017
+15:00,Huddersfield,0,0,Reading,Mei 29 2017
+19:45,Sheffield Wednesday,2,0,Brighton,Mei 13 2016
+12:30,Derby,0,3,Hull,Mei 14 2016
+19:45,Brighton,1,1,Sheffield Wednesday,Mei 16 2016
+19:45,Hull,0,2,Derby,Mei 17 2016
+17:00,Hull,1,0,Sheffield Wednesday,Mei 28 2016
