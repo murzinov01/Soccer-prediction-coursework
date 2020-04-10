@@ -1,0 +1,1365 @@
+Time,TeamHome,ResultTeamHome,ResultTeamAway,TeamAway,Date
+12:30,Bochum,4,4,Sandhausen,Mac 1 2020
+12:30,Arminia Bielefeld,1,0,Wehen,Mac 1 2020
+12:30,St. Pauli,3,1,Osnabrueck,Mac 1 2020
+19:30,Hannover 96,3,1,Holstein Kiel,Mac 2 2020
+17:30,Nuernberg,0,3,Hannover 96,Mac 6 2020
+17:30,Osnabrueck,2,6,Wehen,Mac 6 2020
+12:00,Hamburger SV,2,1,Jahn Regensburg,Mac 7 2020
+12:00,FC Heidenheim,3,1,Karlsruher SC,Mac 7 2020
+12:00,Darmstadt,0,0,Bochum,Mac 7 2020
+12:30,Dynamo Dresden,2,1,Erzgebirge Aue,Mac 8 2020
+12:30,Holstein Kiel,1,1,Greuther Fuerth,Mac 8 2020
+12:30,Sandhausen,2,2,St. Pauli,Mac 8 2020
+19:30,VfB Stuttgart,1,1,Arminia Bielefeld,Mac 9 2020
+12:00,Karlsruher SC,0,2,Holstein Kiel,Feb 1 2020
+12:00,St. Pauli,1,1,VfB Stuttgart,Feb 1 2020
+12:00,Hannover 96,2,2,Wehen,Feb 1 2020
+12:30,Nuernberg,2,0,Sandhausen,Feb 2 2020
+12:30,FC Heidenheim,0,0,Dynamo Dresden,Feb 2 2020
+12:30,Darmstadt,2,2,Osnabrueck,Feb 2 2020
+19:30,Bochum,1,3,Hamburger SV,Feb 3 2020
+17:30,Sandhausen,0,1,FC Heidenheim,Feb 7 2020
+17:30,Dynamo Dresden,2,3,Darmstadt,Feb 7 2020
+12:00,VfB Stuttgart,3,0,Erzgebirge Aue,Feb 8 2020
+12:00,Hamburger SV,2,0,Karlsruher SC,Feb 8 2020
+12:00,Osnabrueck,0,1,Nuernberg,Feb 8 2020
+12:30,Wehen,0,1,Bochum,Feb 9 2020
+12:30,Greuther Fuerth,1,3,Hannover 96,Feb 9 2020
+12:30,Arminia Bielefeld,6,0,Jahn Regensburg,Feb 9 2020
+19:30,Holstein Kiel,2,1,St. Pauli,Feb 10 2020
+17:30,FC Heidenheim,2,2,Nuernberg,Feb 14 2020
+17:30,St. Pauli,0,0,Dynamo Dresden,Feb 14 2020
+12:00,Greuther Fuerth,2,4,Arminia Bielefeld,Feb 15 2020
+12:00,Jahn Regensburg,1,0,Wehen,Feb 15 2020
+12:00,Hannover 96,1,1,Hamburger SV,Feb 15 2020
+12:30,Erzgebirge Aue,1,2,Holstein Kiel,Feb 16 2020
+12:30,Darmstadt,1,0,Sandhausen,Feb 16 2020
+12:30,Karlsruher SC,1,1,Osnabrueck,Feb 16 2020
+19:30,Bochum,0,1,VfB Stuttgart,Feb 17 2020
+17:30,Osnabrueck,0,0,Erzgebirge Aue,Feb 21 2020
+17:30,Wehen,1,1,Greuther Fuerth,Feb 21 2020
+12:00,VfB Stuttgart,2,0,Jahn Regensburg,Feb 22 2020
+12:00,Hamburger SV,0,2,St. Pauli,Feb 22 2020
+12:00,Dynamo Dresden,1,2,Bochum,Feb 22 2020
+12:00,Holstein Kiel,0,1,FC Heidenheim,Feb 22 2020
+12:30,Nuernberg,1,2,Darmstadt,Feb 23 2020
+12:30,Sandhausen,0,2,Karlsruher SC,Feb 23 2020
+13:00,Arminia Bielefeld,1,0,Hannover 96,Feb 23 2020
+17:30,Karlsruher SC,0,1,Nuernberg,Feb 28 2020
+17:30,Jahn Regensburg,1,2,Dynamo Dresden,Feb 28 2020
+12:00,Darmstadt,2,0,FC Heidenheim,Feb 29 2020
+12:00,Greuther Fuerth,2,0,VfB Stuttgart,Feb 29 2020
+12:00,Erzgebirge Aue,3,0,Hamburger SV,Feb 29 2020
+17:30,Arminia Bielefeld,2,0,Bochum,Jan 28 2020
+19:30,Jahn Regensburg,1,0,Hannover 96,Jan 28 2020
+19:30,Greuther Fuerth,3,0,St. Pauli,Jan 28 2020
+19:30,Wehen,1,0,Erzgebirge Aue,Jan 28 2020
+17:30,VfB Stuttgart,3,0,FC Heidenheim,Jan 29 2020
+19:30,Dynamo Dresden,1,0,Karlsruher SC,Jan 29 2020
+19:30,Osnabrueck,1,3,Sandhausen,Jan 29 2020
+19:30,Holstein Kiel,1,1,Darmstadt,Jan 29 2020
+19:30,Hamburger SV,4,1,Nuernberg,Jan 30 2020
+17:30,Jahn Regensburg,0,2,Greuther Fuerth,Jan 31 2020
+17:30,Erzgebirge Aue,0,0,Arminia Bielefeld,Jan 31 2020
+12:30,Sandhausen,2,1,VfB Stuttgart,Des 1 2019
+12:30,Darmstadt,1,3,Arminia Bielefeld,Des 1 2019
+12:30,FC Heidenheim,1,0,Greuther Fuerth,Des 1 2019
+17:30,Hamburger SV,0,1,FC Heidenheim,Des 6 2019
+17:30,Arminia Bielefeld,2,2,Karlsruher SC,Des 6 2019
+12:00,Holstein Kiel,2,4,Osnabrueck,Des 7 2019
+12:00,Greuther Fuerth,3,1,Bochum,Des 7 2019
+12:00,Hannover 96,3,2,Erzgebirge Aue,Des 7 2019
+12:30,Wehen,0,0,Darmstadt,Des 8 2019
+12:30,Jahn Regensburg,1,0,St. Pauli,Des 8 2019
+12:30,Dynamo Dresden,1,1,Sandhausen,Des 8 2019
+19:30,VfB Stuttgart,3,1,Nuernberg,Des 9 2019
+17:30,Bochum,2,1,Hannover 96,Des 13 2019
+17:30,Erzgebirge Aue,1,0,Jahn Regensburg,Des 13 2019
+12:00,Karlsruher SC,1,5,Greuther Fuerth,Des 14 2019
+12:00,FC Heidenheim,0,0,Arminia Bielefeld,Des 14 2019
+12:00,St. Pauli,3,1,Wehen,Des 14 2019
+12:30,Nuernberg,2,2,Holstein Kiel,Des 15 2019
+12:30,Sandhausen,1,1,Hamburger SV,Des 15 2019
+12:30,Osnabrueck,3,0,Dynamo Dresden,Des 15 2019
+19:30,Darmstadt,1,1,VfB Stuttgart,Des 16 2019
+17:30,Nuernberg,2,0,Dynamo Dresden,Des 20 2019
+17:30,Karlsruher SC,0,1,Wehen,Des 20 2019
+12:00,St. Pauli,3,0,Arminia Bielefeld,Des 21 2019
+12:00,Darmstadt,2,2,Hamburger SV,Des 21 2019
+12:00,Erzgebirge Aue,3,1,Greuther Fuerth,Des 21 2019
+12:00,Hannover 96,2,2,VfB Stuttgart,Des 21 2019
+12:30,FC Heidenheim,3,1,Osnabrueck,Des 22 2019
+12:30,Sandhausen,2,2,Holstein Kiel,Des 22 2019
+12:30,Bochum,2,3,Jahn Regensburg,Des 22 2019
+17:30,Hannover 96,1,1,Sandhausen,Nov 1 2019
+17:30,Jahn Regensburg,3,3,Osnabrueck,Nov 1 2019
+12:00,St. Pauli,2,2,Karlsruher SC,Nov 2 2019
+12:00,Greuther Fuerth,3,1,Darmstadt,Nov 2 2019
+12:00,Erzgebirge Aue,1,1,FC Heidenheim,Nov 2 2019
+12:30,Wehen,1,1,Hamburger SV,Nov 3 2019
+12:30,Arminia Bielefeld,2,1,Holstein Kiel,Nov 3 2019
+12:30,VfB Stuttgart,3,1,Dynamo Dresden,Nov 3 2019
+19:30,Bochum,3,1,Nuernberg,Nov 4 2019
+17:30,St. Pauli,1,1,Bochum,Nov 8 2019
+17:30,Dynamo Dresden,1,0,Wehen,Nov 8 2019
+12:00,Sandhausen,3,2,Greuther Fuerth,Nov 9 2019
+12:00,Osnabrueck,1,0,VfB Stuttgart,Nov 9 2019
+12:00,Holstein Kiel,1,1,Hamburger SV,Nov 9 2019
+12:30,Darmstadt,2,2,Jahn Regensburg,Nov 10 2019
+12:30,Nuernberg,1,5,Arminia Bielefeld,Nov 10 2019
+12:30,FC Heidenheim,4,0,Hannover 96,Nov 10 2019
+19:30,Karlsruher SC,1,1,Erzgebirge Aue,Nov 11 2019
+17:30,Bochum,1,1,Osnabrueck,Nov 22 2019
+17:30,Erzgebirge Aue,3,1,St. Pauli,Nov 22 2019
+12:00,Wehen,3,6,Holstein Kiel,Nov 23 2019
+12:00,Hamburger SV,2,1,Dynamo Dresden,Nov 23 2019
+12:00,Arminia Bielefeld,1,1,Sandhausen,Nov 23 2019
+12:30,Jahn Regensburg,3,1,FC Heidenheim,Nov 24 2019
+12:30,Greuther Fuerth,0,0,Nuernberg,Nov 24 2019
+12:30,VfB Stuttgart,3,0,Karlsruher SC,Nov 24 2019
+19:30,Hannover 96,1,2,Darmstadt,Nov 25 2019
+17:30,Osnabrueck,2,1,Hamburger SV,Nov 29 2019
+17:30,Karlsruher SC,4,1,Jahn Regensburg,Nov 29 2019
+12:00,St. Pauli,0,1,Hannover 96,Nov 30 2019
+12:00,Bochum,2,0,Erzgebirge Aue,Nov 30 2019
+12:00,Dynamo Dresden,1,2,Holstein Kiel,Nov 30 2019
+12:00,Nuernberg,0,2,Wehen,Nov 30 2019
+17:30,VfB Stuttgart,1,2,Wehen,Okt 4 2019
+17:30,Darmstadt,1,1,Karlsruher SC,Okt 4 2019
+12:00,Dynamo Dresden,0,2,Hannover 96,Okt 5 2019
+12:00,Sandhausen,2,2,Erzgebirge Aue,Okt 5 2019
+12:00,Hamburger SV,2,0,Greuther Fuerth,Okt 5 2019
+12:30,FC Heidenheim,2,3,Bochum,Okt 6 2019
+12:30,Holstein Kiel,1,2,Jahn Regensburg,Okt 6 2019
+12:30,Nuernberg,1,1,St. Pauli,Okt 6 2019
+19:30,Osnabrueck,0,1,Arminia Bielefeld,Okt 7 2019
+17:30,Greuther Fuerth,2,0,Dynamo Dresden,Okt 18 2019
+17:30,Erzgebirge Aue,4,3,Nuernberg,Okt 18 2019
+12:00,Wehen,0,0,FC Heidenheim,Okt 19 2019
+12:00,St. Pauli,0,1,Darmstadt,Okt 19 2019
+12:00,Jahn Regensburg,1,0,Sandhausen,Okt 19 2019
+12:30,VfB Stuttgart,0,1,Holstein Kiel,Okt 20 2019
+12:30,Hannover 96,0,0,Osnabrueck,Okt 20 2019
+12:30,Bochum,3,3,Karlsruher SC,Okt 20 2019
+19:30,Arminia Bielefeld,1,1,Hamburger SV,Okt 21 2019
+17:30,Holstein Kiel,2,1,Bochum,Okt 25 2019
+17:30,Darmstadt,1,0,Erzgebirge Aue,Okt 25 2019
+12:00,Dynamo Dresden,0,1,Arminia Bielefeld,Okt 26 2019
+12:00,Karlsruher SC,3,3,Hannover 96,Okt 26 2019
+12:00,Hamburger SV,6,2,VfB Stuttgart,Okt 26 2019
+12:30,FC Heidenheim,1,0,St. Pauli,Okt 27 2019
+12:30,Nuernberg,1,1,Jahn Regensburg,Okt 27 2019
+12:30,Osnabrueck,0,0,Greuther Fuerth,Okt 27 2019
+19:30,Sandhausen,0,0,Wehen,Okt 28 2019
+12:30,Hamburger SV,3,0,Hannover 96,Sep 1 2019
+12:30,Holstein Kiel,1,1,Erzgebirge Aue,Sep 1 2019
+12:30,Osnabrueck,3,0,Karlsruher SC,Sep 1 2019
+19:30,VfB Stuttgart,2,1,Bochum,Sep 2 2019
+17:30,Greuther Fuerth,2,1,Wehen,Sep 13 2019
+17:30,Karlsruher SC,1,0,Sandhausen,Sep 13 2019
+12:00,Hannover 96,0,2,Arminia Bielefeld,Sep 14 2019
+12:00,FC Heidenheim,3,0,Holstein Kiel,Sep 14 2019
+12:00,Jahn Regensburg,2,3,VfB Stuttgart,Sep 14 2019
+12:30,Erzgebirge Aue,1,0,Osnabrueck,Sep 15 2019
+12:30,Darmstadt,3,3,Nuernberg,Sep 15 2019
+12:30,Bochum,2,2,Dynamo Dresden,Sep 15 2019
+19:30,St. Pauli,2,0,Hamburger SV,Sep 16 2019
+17:30,FC Heidenheim,1,0,Darmstadt,Sep 20 2019
+17:30,Holstein Kiel,1,2,Hannover 96,Sep 20 2019
+12:00,Sandhausen,1,1,Bochum,Sep 21 2019
+12:00,VfB Stuttgart,2,0,Greuther Fuerth,Sep 21 2019
+12:00,Nuernberg,1,1,Karlsruher SC,Sep 21 2019
+12:00,Wehen,2,5,Arminia Bielefeld,Sep 21 2019
+12:30,Hamburger SV,4,0,Erzgebirge Aue,Sep 22 2019
+12:30,Osnabrueck,1,1,St. Pauli,Sep 22 2019
+12:30,Dynamo Dresden,2,1,Jahn Regensburg,Sep 22 2019
+17:30,Wehen,2,0,Osnabrueck,Sep 27 2019
+17:30,Arminia Bielefeld,0,1,VfB Stuttgart,Sep 27 2019
+12:00,Jahn Regensburg,2,2,Hamburger SV,Sep 28 2019
+12:00,Karlsruher SC,1,1,FC Heidenheim,Sep 28 2019
+12:00,Bochum,2,2,Darmstadt,Sep 28 2019
+12:30,Greuther Fuerth,0,3,Holstein Kiel,Sep 29 2019
+12:30,Erzgebirge Aue,4,1,Dynamo Dresden,Sep 29 2019
+12:30,St. Pauli,2,0,Sandhausen,Sep 29 2019
+19:30,Hannover 96,0,4,Nuernberg,Sep 30 2019
+17:30,Bochum,3,3,Arminia Bielefeld,Ago 2 2019
+17:30,Sandhausen,0,1,Osnabrueck,Ago 2 2019
+19:30,St. Pauli,1,3,Greuther Fuerth,Ago 2 2019
+12:00,Karlsruher SC,4,2,Dynamo Dresden,Ago 3 2019
+14:30,Hannover 96,1,1,Jahn Regensburg,Ago 3 2019
+12:30,FC Heidenheim,2,2,VfB Stuttgart,Ago 4 2019
+14:30,Darmstadt,2,0,Holstein Kiel,Ago 4 2019
+14:30,Erzgebirge Aue,3,2,Wehen,Ago 4 2019
+19:30,Nuernberg,0,4,Hamburger SV,Ago 5 2019
+17:30,Hamburger SV,1,0,Bochum,Ago 16 2019
+17:30,Sandhausen,3,2,Nuernberg,Ago 16 2019
+12:00,Arminia Bielefeld,3,1,Erzgebirge Aue,Ago 17 2019
+12:00,Wehen,0,3,Hannover 96,Ago 17 2019
+12:00,VfB Stuttgart,2,1,St. Pauli,Ago 17 2019
+12:30,Dynamo Dresden,2,1,FC Heidenheim,Ago 18 2019
+12:30,Holstein Kiel,2,1,Karlsruher SC,Ago 18 2019
+12:30,Greuther Fuerth,1,0,Jahn Regensburg,Ago 18 2019
+19:30,Osnabrueck,4,0,Darmstadt,Ago 19 2019
+17:30,Erzgebirge Aue,0,0,VfB Stuttgart,Ago 23 2019
+17:30,Darmstadt,0,0,Dynamo Dresden,Ago 23 2019
+12:00,Bochum,3,3,Wehen,Ago 24 2019
+12:00,Jahn Regensburg,1,3,Arminia Bielefeld,Ago 24 2019
+12:00,Hannover 96,1,1,Greuther Fuerth,Ago 24 2019
+12:30,Nuernberg,1,0,Osnabrueck,Ago 25 2019
+12:30,FC Heidenheim,0,2,Sandhausen,Ago 25 2019
+12:30,Karlsruher SC,2,4,Hamburger SV,Ago 25 2019
+19:30,St. Pauli,2,1,Holstein Kiel,Ago 26 2019
+17:30,Nuernberg,2,2,FC Heidenheim,Ago 30 2019
+17:30,Sandhausen,1,0,Darmstadt,Ago 30 2019
+12:00,Wehen,0,5,Jahn Regensburg,Ago 31 2019
+12:00,Arminia Bielefeld,2,2,Greuther Fuerth,Ago 31 2019
+12:00,Dynamo Dresden,3,3,St. Pauli,Ago 31 2019
+17:30,Dynamo Dresden,2,1,St. Pauli,Mei 3 2019
+17:30,Arminia Bielefeld,2,0,Paderborn,Mei 3 2019
+12:00,Hamburger SV,0,3,Ingolstadt,Mei 4 2019
+12:00,Bochum,4,2,Magdeburg,Mei 4 2019
+12:00,FC Heidenheim,2,3,Sandhausen,Mei 4 2019
+12:30,Darmstadt,2,1,Union Berlin,Mei 5 2019
+12:30,Holstein Kiel,0,2,Duisburg,Mei 5 2019
+12:30,Jahn Regensburg,1,3,Erzgebirge Aue,Mei 5 2019
+19:30,Greuther Fuerth,0,4,FC Koln,Mei 6 2019
+14:30,FC Koln,3,5,Jahn Regensburg,Mei 12 2019
+14:30,Holstein Kiel,3,0,Dynamo Dresden,Mei 12 2019
+14:30,Duisburg,3,4,FC Heidenheim,Mei 12 2019
+14:30,Union Berlin,3,0,Magdeburg,Mei 12 2019
+14:30,Ingolstadt,3,0,Darmstadt,Mei 12 2019
+14:30,Sandhausen,0,3,Arminia Bielefeld,Mei 12 2019
+14:30,St. Pauli,0,0,Bochum,Mei 12 2019
+14:30,Erzgebirge Aue,1,1,Greuther Fuerth,Mei 12 2019
+14:30,Paderborn,4,1,Hamburger SV,Mei 12 2019
+14:30,Hamburger SV,3,0,Duisburg,Mei 19 2019
+14:30,Arminia Bielefeld,1,0,Holstein Kiel,Mei 19 2019
+14:30,Jahn Regensburg,2,2,Sandhausen,Mei 19 2019
+14:30,Bochum,2,2,Union Berlin,Mei 19 2019
+14:30,Darmstadt,1,0,Erzgebirge Aue,Mei 19 2019
+14:30,FC Heidenheim,4,2,Ingolstadt,Mei 19 2019
+14:30,Dynamo Dresden,3,1,Paderborn,Mei 19 2019
+14:30,Greuther Fuerth,2,1,St. Pauli,Mei 19 2019
+14:30,Magdeburg,1,1,FC Koln,Mei 19 2019
+19:30,Erzgebirge Aue,1,3,Dynamo Dresden,Apr 1 2019
+18:00,Greuther Fuerth,0,0,Dynamo Dresden,Apr 4 2019
+17:30,Arminia Bielefeld,2,1,Erzgebirge Aue,Apr 5 2019
+17:30,Jahn Regensburg,2,1,Bochum,Apr 5 2019
+12:00,Duisburg,2,4,Ingolstadt,Apr 6 2019
+12:00,Sandhausen,1,1,Paderborn,Apr 6 2019
+12:00,Holstein Kiel,2,1,St. Pauli,Apr 6 2019
+12:30,FC Heidenheim,0,2,FC Koln,Apr 7 2019
+12:30,Dynamo Dresden,0,0,Union Berlin,Apr 7 2019
+12:30,Greuther Fuerth,2,1,Darmstadt,Apr 7 2019
+19:30,Hamburger SV,1,2,Magdeburg,Apr 8 2019
+17:30,Duisburg,4,4,FC Koln,Apr 10 2019
+17:30,Union Berlin,2,2,Jahn Regensburg,Apr 12 2019
+17:30,Erzgebirge Aue,0,1,FC Heidenheim,Apr 12 2019
+12:00,Magdeburg,0,1,Darmstadt,Apr 13 2019
+12:00,Paderborn,4,0,Duisburg,Apr 13 2019
+12:00,Sandhausen,3,1,Dynamo Dresden,Apr 13 2019
+12:30,St. Pauli,1,1,Arminia Bielefeld,Apr 14 2019
+12:30,Ingolstadt,1,1,Holstein Kiel,Apr 14 2019
+12:30,Bochum,3,2,Greuther Fuerth,Apr 14 2019
+19:30,FC Koln,1,1,Hamburger SV,Apr 15 2019
+12:00,Hamburger SV,1,1,Erzgebirge Aue,Apr 20 2019
+12:00,Holstein Kiel,1,2,Paderborn,Apr 20 2019
+12:00,Duisburg,2,2,Sandhausen,Apr 20 2019
+12:00,Greuther Fuerth,1,1,Union Berlin,Apr 20 2019
+12:30,Darmstadt,0,0,Bochum,Apr 21 2019
+12:30,FC Heidenheim,3,0,St. Pauli,Apr 21 2019
+12:30,Dynamo Dresden,3,0,FC Koln,Apr 21 2019
+12:30,Arminia Bielefeld,1,3,Ingolstadt,Apr 21 2019
+12:30,Jahn Regensburg,1,0,Magdeburg,Apr 21 2019
+17:30,FC Koln,1,2,Darmstadt,Apr 26 2019
+17:30,Ingolstadt,1,0,Dynamo Dresden,Apr 26 2019
+12:00,Sandhausen,3,2,Holstein Kiel,Apr 27 2019
+12:00,St. Pauli,4,3,Jahn Regensburg,Apr 27 2019
+12:00,Magdeburg,2,1,Greuther Fuerth,Apr 27 2019
+12:30,Paderborn,3,1,FC Heidenheim,Apr 28 2019
+12:30,Erzgebirge Aue,3,2,Bochum,Apr 28 2019
+12:30,Union Berlin,2,0,Hamburger SV,Apr 28 2019
+19:30,Duisburg,2,2,Arminia Bielefeld,Apr 29 2019
+17:30,Holstein Kiel,0,2,Union Berlin,Mac 1 2019
+17:30,Duisburg,1,0,Magdeburg,Mac 1 2019
+12:00,Sandhausen,0,3,Erzgebirge Aue,Mac 2 2019
+12:00,FC Heidenheim,1,2,Jahn Regensburg,Mac 2 2019
+12:00,Paderborn,0,1,St. Pauli,Mac 2 2019
+12:30,Dynamo Dresden,2,2,Bochum,Mac 3 2019
+12:30,Ingolstadt,1,2,FC Koln,Mac 3 2019
+12:30,Arminia Bielefeld,1,0,Darmstadt,Mac 3 2019
+19:30,Hamburger SV,1,0,Greuther Fuerth,Mac 4 2019
+17:30,Bochum,1,0,FC Heidenheim,Mac 8 2019
+17:30,Union Berlin,2,0,Ingolstadt,Mac 8 2019
+12:00,Darmstadt,3,2,Holstein Kiel,Mac 9 2019
+12:00,FC Koln,5,1,Arminia Bielefeld,Mac 9 2019
+12:00,Jahn Regensburg,1,1,Duisburg,Mac 9 2019
+12:00,Erzgebirge Aue,2,1,Paderborn,Mac 9 2019
+12:30,Magdeburg,0,1,Sandhausen,Mac 10 2019
+12:30,St. Pauli,0,4,Hamburger SV,Mac 10 2019
+17:30,FC Heidenheim,2,1,Union Berlin,Mac 15 2019
+17:30,Holstein Kiel,5,1,Erzgebirge Aue,Mac 15 2019
+12:00,Dynamo Dresden,1,1,Magdeburg,Mac 16 2019
+12:00,Sandhausen,4,0,St. Pauli,Mac 16 2019
+12:00,Hamburger SV,2,3,Darmstadt,Mac 16 2019
+12:30,Paderborn,3,1,Ingolstadt,Mac 17 2019
+12:30,Arminia Bielefeld,3,1,Bochum,Mac 17 2019
+19:30,Jahn Regensburg,0,2,Greuther Fuerth,Mac 18 2019
+17:30,St. Pauli,0,0,Duisburg,Mac 29 2019
+17:30,Magdeburg,0,0,FC Heidenheim,Mac 29 2019
+12:00,Darmstadt,1,1,Jahn Regensburg,Mac 30 2019
+12:00,Bochum,0,0,Hamburger SV,Mac 30 2019
+12:00,Union Berlin,1,3,Paderborn,Mac 30 2019
+12:30,Ingolstadt,1,2,Sandhausen,Mac 31 2019
+12:30,FC Koln,4,0,Holstein Kiel,Mac 31 2019
+12:30,Greuther Fuerth,2,2,Arminia Bielefeld,Mac 31 2019
+17:30,Duisburg,3,2,Darmstadt,Feb 1 2019
+17:30,Ingolstadt,0,1,Magdeburg,Feb 1 2019
+12:00,Arminia Bielefeld,2,0,Hamburger SV,Feb 2 2019
+12:00,FC Heidenheim,1,0,Dynamo Dresden,Feb 2 2019
+12:00,Paderborn,6,0,Greuther Fuerth,Feb 2 2019
+12:30,Sandhausen,3,0,Bochum,Feb 3 2019
+12:30,Holstein Kiel,2,0,Jahn Regensburg,Feb 3 2019
+19:30,St. Pauli,3,2,Union Berlin,Feb 4 2019
+17:30,FC Koln,4,1,St. Pauli,Feb 8 2019
+17:30,Jahn Regensburg,0,3,Arminia Bielefeld,Feb 8 2019
+12:00,Greuther Fuerth,1,0,Duisburg,Feb 9 2019
+12:00,Bochum,1,2,Paderborn,Feb 9 2019
+12:00,Union Berlin,2,0,Sandhausen,Feb 9 2019
+12:30,Darmstadt,1,2,FC Heidenheim,Feb 10 2019
+12:30,Erzgebirge Aue,0,3,Ingolstadt,Feb 10 2019
+12:30,Magdeburg,1,1,Holstein Kiel,Feb 10 2019
+19:30,Hamburger SV,1,0,Dynamo Dresden,Feb 11 2019
+17:30,Sandhausen,1,1,Darmstadt,Feb 15 2019
+17:30,Paderborn,3,2,FC Koln,Feb 15 2019
+12:00,St. Pauli,1,2,Erzgebirge Aue,Feb 16 2019
+12:00,FC Heidenheim,2,2,Hamburger SV,Feb 16 2019
+12:00,Duisburg,2,3,Union Berlin,Feb 16 2019
+12:00,Ingolstadt,2,1,Bochum,Feb 16 2019
+12:30,Holstein Kiel,2,2,Greuther Fuerth,Feb 17 2019
+12:30,Arminia Bielefeld,1,3,Magdeburg,Feb 17 2019
+12:30,Dynamo Dresden,0,0,Jahn Regensburg,Feb 17 2019
+17:30,Union Berlin,1,1,Arminia Bielefeld,Feb 22 2019
+17:30,Greuther Fuerth,0,0,FC Heidenheim,Feb 22 2019
+12:00,Bochum,1,3,Holstein Kiel,Feb 23 2019
+12:00,Darmstadt,2,0,Dynamo Dresden,Feb 23 2019
+12:00,St. Pauli,1,0,Ingolstadt,Feb 23 2019
+12:00,FC Koln,3,1,Sandhausen,Feb 23 2019
+12:30,Jahn Regensburg,2,1,Hamburger SV,Feb 24 2019
+12:30,Erzgebirge Aue,0,0,Duisburg,Feb 24 2019
+12:30,Magdeburg,1,1,Paderborn,Feb 24 2019
+18:30,Erzgebirge Aue,0,1,FC Koln,Feb 27 2019
+17:30,Bochum,2,1,Duisburg,Jan 29 2019
+19:30,Darmstadt,2,1,St. Pauli,Jan 29 2019
+19:30,Greuther Fuerth,0,1,Ingolstadt,Jan 29 2019
+19:30,Magdeburg,1,0,Erzgebirge Aue,Jan 29 2019
+17:30,Jahn Regensburg,2,0,Paderborn,Jan 30 2019
+19:30,Hamburger SV,2,1,Sandhausen,Jan 30 2019
+19:30,FC Heidenheim,2,2,Holstein Kiel,Jan 30 2019
+19:30,Dynamo Dresden,3,4,Arminia Bielefeld,Jan 30 2019
+19:30,Union Berlin,2,0,FC Koln,Jan 31 2019
+12:00,FC Koln,4,0,Greuther Fuerth,Des 1 2018
+12:00,Union Berlin,3,1,Darmstadt,Des 1 2018
+12:00,Ingolstadt,1,2,Hamburger SV,Des 1 2018
+12:00,St. Pauli,1,1,Dynamo Dresden,Des 1 2018
+12:30,Sandhausen,1,2,FC Heidenheim,Des 2 2018
+12:30,Duisburg,0,4,Holstein Kiel,Des 2 2018
+12:30,Magdeburg,0,0,Bochum,Des 2 2018
+17:30,Hamburger SV,1,0,Paderborn,Des 7 2018
+17:30,Jahn Regensburg,1,3,FC Koln,Des 7 2018
+12:00,Darmstadt,1,1,Ingolstadt,Des 8 2018
+12:00,FC Heidenheim,4,1,Duisburg,Des 8 2018
+12:00,Greuther Fuerth,0,5,Erzgebirge Aue,Des 8 2018
+12:30,Magdeburg,1,1,Union Berlin,Des 9 2018
+12:30,Dynamo Dresden,0,2,Holstein Kiel,Des 9 2018
+12:30,Arminia Bielefeld,1,1,Sandhausen,Des 9 2018
+19:30,Bochum,1,3,St. Pauli,Des 10 2018
+17:30,Holstein Kiel,1,2,Arminia Bielefeld,Des 14 2018
+17:30,Duisburg,1,2,Hamburger SV,Des 14 2018
+12:00,Union Berlin,2,0,Bochum,Des 15 2018
+12:00,St. Pauli,2,0,Greuther Fuerth,Des 15 2018
+12:00,Paderborn,3,0,Dynamo Dresden,Des 15 2018
+12:30,Erzgebirge Aue,2,2,Darmstadt,Des 16 2018
+12:30,Ingolstadt,1,1,FC Heidenheim,Des 16 2018
+12:30,Sandhausen,2,2,Jahn Regensburg,Des 16 2018
+19:30,FC Koln,3,0,Magdeburg,Des 17 2018
+17:30,FC Koln,2,3,Bochum,Des 21 2018
+17:30,Sandhausen,0,0,Greuther Fuerth,Des 21 2018
+12:00,St. Pauli,4,1,Magdeburg,Des 22 2018
+12:00,Ingolstadt,1,2,Jahn Regensburg,Des 22 2018
+12:00,Arminia Bielefeld,1,2,FC Heidenheim,Des 22 2018
+12:30,Duisburg,1,3,Dynamo Dresden,Des 23 2018
+12:30,Holstein Kiel,3,1,Hamburger SV,Des 23 2018
+12:30,Erzgebirge Aue,3,0,Union Berlin,Des 23 2018
+12:30,Paderborn,6,2,Darmstadt,Des 23 2018
+17:30,Dynamo Dresden,3,1,Sandhausen,Nov 2 2018
+17:30,Greuther Fuerth,2,2,Bochum,Nov 2 2018
+12:00,Holstein Kiel,2,2,Ingolstadt,Nov 3 2018
+12:00,Duisburg,2,0,Paderborn,Nov 3 2018
+12:00,Darmstadt,3,1,Magdeburg,Nov 3 2018
+12:30,Arminia Bielefeld,1,2,St. Pauli,Nov 4 2018
+12:30,Jahn Regensburg,1,1,Union Berlin,Nov 4 2018
+12:30,FC Heidenheim,1,0,Erzgebirge Aue,Nov 4 2018
+19:30,Hamburger SV,1,0,FC Koln,Nov 5 2018
+17:30,Sandhausen,0,0,Duisburg,Nov 9 2018
+17:30,Paderborn,4,4,Holstein Kiel,Nov 9 2018
+12:00,St. Pauli,1,1,FC Heidenheim,Nov 10 2018
+12:00,Erzgebirge Aue,1,3,Hamburger SV,Nov 10 2018
+12:00,FC Koln,8,1,Dynamo Dresden,Nov 10 2018
+12:30,Magdeburg,2,3,Jahn Regensburg,Nov 11 2018
+12:30,Union Berlin,4,0,Greuther Fuerth,Nov 11 2018
+12:30,Ingolstadt,1,1,Arminia Bielefeld,Nov 11 2018
+19:30,Bochum,1,0,Darmstadt,Nov 12 2018
+17:30,Greuther Fuerth,3,2,Magdeburg,Nov 23 2018
+17:30,Arminia Bielefeld,0,1,Duisburg,Nov 23 2018
+12:00,Bochum,2,1,Erzgebirge Aue,Nov 24 2018
+12:00,Holstein Kiel,2,1,Sandhausen,Nov 24 2018
+12:00,Darmstadt,0,3,FC Koln,Nov 24 2018
+12:30,Jahn Regensburg,1,1,St. Pauli,Nov 25 2018
+12:30,FC Heidenheim,1,5,Paderborn,Nov 25 2018
+12:30,Dynamo Dresden,2,0,Ingolstadt,Nov 25 2018
+19:30,Hamburger SV,2,2,Union Berlin,Nov 26 2018
+17:30,Erzgebirge Aue,1,1,Jahn Regensburg,Nov 30 2018
+17:30,Paderborn,2,2,Arminia Bielefeld,Nov 30 2018
+19:30,Ingolstadt,1,2,Union Berlin,Okt 1 2018
+17:30,Darmstadt,1,2,Hamburger SV,Okt 5 2018
+17:30,Bochum,1,0,Arminia Bielefeld,Okt 5 2018
+12:00,Greuther Fuerth,1,1,Jahn Regensburg,Okt 6 2018
+12:00,Erzgebirge Aue,2,1,Holstein Kiel,Okt 6 2018
+12:00,Magdeburg,2,2,Dynamo Dresden,Okt 6 2018
+12:30,St. Pauli,3,1,Sandhausen,Okt 7 2018
+12:30,Ingolstadt,1,2,Paderborn,Okt 7 2018
+12:30,Union Berlin,1,1,FC Heidenheim,Okt 7 2018
+19:30,FC Koln,1,2,Duisburg,Okt 8 2018
+17:30,Sandhausen,4,0,Ingolstadt,Okt 19 2018
+17:30,Dynamo Dresden,1,1,Erzgebirge Aue,Okt 19 2018
+12:00,FC Heidenheim,3,0,Magdeburg,Okt 20 2018
+12:00,Holstein Kiel,1,1,FC Koln,Okt 20 2018
+12:00,Arminia Bielefeld,2,3,Greuther Fuerth,Okt 20 2018
+12:30,Jahn Regensburg,1,1,Darmstadt,Okt 21 2018
+12:30,Paderborn,0,0,Union Berlin,Okt 21 2018
+12:30,Hamburger SV,0,0,Bochum,Okt 21 2018
+19:30,Duisburg,0,1,St. Pauli,Okt 22 2018
+17:30,Darmstadt,2,0,Greuther Fuerth,Okt 26 2018
+17:30,Magdeburg,0,1,Hamburger SV,Okt 26 2018
+12:00,Paderborn,3,3,Sandhausen,Okt 27 2018
+12:00,Erzgebirge Aue,1,0,Arminia Bielefeld,Okt 27 2018
+12:00,FC Koln,1,1,FC Heidenheim,Okt 27 2018
+12:30,St. Pauli,0,1,Holstein Kiel,Okt 28 2018
+12:30,Ingolstadt,1,1,Duisburg,Okt 28 2018
+12:30,Union Berlin,0,0,Dynamo Dresden,Okt 28 2018
+19:30,Bochum,3,3,Jahn Regensburg,Okt 29 2018
+12:00,Arminia Bielefeld,5,3,Jahn Regensburg,Sep 1 2018
+12:00,Duisburg,0,1,Greuther Fuerth,Sep 1 2018
+12:30,Sandhausen,0,0,Union Berlin,Sep 2 2018
+12:30,St. Pauli,3,5,FC Koln,Sep 2 2018
+12:30,FC Heidenheim,0,1,Darmstadt,Sep 2 2018
+19:30,Holstein Kiel,2,1,Magdeburg,Sep 3 2018
+17:30,Union Berlin,2,2,Duisburg,Sep 14 2018
+17:30,Jahn Regensburg,0,2,Dynamo Dresden,Sep 14 2018
+12:00,Darmstadt,1,1,Sandhausen,Sep 15 2018
+12:00,Greuther Fuerth,4,1,Holstein Kiel,Sep 15 2018
+12:00,Hamburger SV,3,2,FC Heidenheim,Sep 15 2018
+12:30,FC Koln,3,5,Paderborn,Sep 16 2018
+12:30,Erzgebirge Aue,3,1,St. Pauli,Sep 16 2018
+12:30,Bochum,6,0,Ingolstadt,Sep 16 2018
+19:30,Magdeburg,0,0,Arminia Bielefeld,Sep 17 2018
+17:30,Dynamo Dresden,0,1,Hamburger SV,Sep 18 2018
+17:30,Ingolstadt,0,1,St. Pauli,Sep 21 2018
+17:30,Sandhausen,0,2,FC Koln,Sep 21 2018
+12:00,Dynamo Dresden,4,1,Darmstadt,Sep 22 2018
+12:00,Holstein Kiel,2,2,Bochum,Sep 22 2018
+12:00,Arminia Bielefeld,1,1,Union Berlin,Sep 22 2018
+12:30,Duisburg,1,2,Erzgebirge Aue,Sep 23 2018
+12:30,Hamburger SV,0,5,Jahn Regensburg,Sep 23 2018
+12:30,Paderborn,4,4,Magdeburg,Sep 23 2018
+12:30,FC Heidenheim,2,0,Greuther Fuerth,Sep 23 2018
+17:30,FC Koln,2,1,Ingolstadt,Sep 25 2018
+17:30,Bochum,0,1,Dynamo Dresden,Sep 25 2018
+17:30,Union Berlin,2,0,Holstein Kiel,Sep 25 2018
+17:30,Darmstadt,1,2,Arminia Bielefeld,Sep 25 2018
+17:30,St. Pauli,2,1,Paderborn,Sep 26 2018
+17:30,Jahn Regensburg,2,1,FC Heidenheim,Sep 26 2018
+17:30,Erzgebirge Aue,0,2,Sandhausen,Sep 26 2018
+17:30,Magdeburg,3,3,Duisburg,Sep 26 2018
+19:30,Greuther Fuerth,0,0,Hamburger SV,Sep 27 2018
+17:30,Holstein Kiel,4,2,Darmstadt,Sep 28 2018
+17:30,Arminia Bielefeld,1,3,FC Koln,Sep 28 2018
+12:00,Duisburg,1,3,Jahn Regensburg,Sep 29 2018
+12:00,Paderborn,1,0,Erzgebirge Aue,Sep 29 2018
+12:00,FC Heidenheim,3,2,Bochum,Sep 29 2018
+12:30,Dynamo Dresden,0,1,Greuther Fuerth,Sep 30 2018
+12:30,Sandhausen,0,1,Magdeburg,Sep 30 2018
+12:30,Hamburger SV,0,0,St. Pauli,Sep 30 2018
+14:30,Eintracht Braunschweig,0,2,Ingolstadt,Mei 6 2018
+14:30,Union Berlin,3,1,Bochum,Mei 6 2018
+14:30,St. Pauli,1,0,Arminia Bielefeld,Mei 6 2018
+14:30,Greuther Fuerth,2,2,Duisburg,Mei 6 2018
+14:30,Sandhausen,0,2,Nuernberg,Mei 6 2018
+14:30,Fortuna Duesseldorf,1,1,Holstein Kiel,Mei 6 2018
+14:30,Kaiserslautern,1,0,FC Heidenheim,Mei 6 2018
+14:30,Erzgebirge Aue,0,0,Dynamo Dresden,Mei 6 2018
+14:30,Jahn Regensburg,0,3,Darmstadt,Mei 6 2018
+14:30,Ingolstadt,1,3,Kaiserslautern,Mei 13 2018
+14:30,Darmstadt,1,0,Erzgebirge Aue,Mei 13 2018
+14:30,Dynamo Dresden,0,1,Union Berlin,Mei 13 2018
+14:30,FC Heidenheim,1,1,Greuther Fuerth,Mei 13 2018
+14:30,Bochum,1,1,Jahn Regensburg,Mei 13 2018
+14:30,Nuernberg,2,3,Fortuna Duesseldorf,Mei 13 2018
+14:30,Arminia Bielefeld,0,0,Sandhausen,Mei 13 2018
+14:30,Duisburg,2,0,St. Pauli,Mei 13 2018
+14:30,Holstein Kiel,6,2,Eintracht Braunschweig,Mei 13 2018
+12:30,Jahn Regensburg,1,3,Erzgebirge Aue,Apr 1 2018
+12:30,St. Pauli,1,1,Sandhausen,Apr 1 2018
+12:30,Greuther Fuerth,2,1,Union Berlin,Apr 1 2018
+12:30,Bochum,2,0,Eintracht Braunschweig,Apr 1 2018
+12:30,Arminia Bielefeld,1,1,Holstein Kiel,Apr 1 2018
+19:30,Darmstadt,1,0,Fortuna Duesseldorf,Apr 2 2018
+17:30,Sandhausen,0,0,Greuther Fuerth,Apr 6 2018
+17:30,Fortuna Duesseldorf,1,2,Bochum,Apr 6 2018
+12:00,Nuernberg,3,2,FC Heidenheim,Apr 7 2018
+12:00,Union Berlin,0,0,Duisburg,Apr 7 2018
+12:00,Erzgebirge Aue,2,1,St. Pauli,Apr 7 2018
+12:00,Holstein Kiel,0,0,Darmstadt,Apr 7 2018
+12:30,Eintracht Braunschweig,1,1,Dynamo Dresden,Apr 8 2018
+12:30,Ingolstadt,2,2,Arminia Bielefeld,Apr 8 2018
+12:30,Kaiserslautern,1,1,Jahn Regensburg,Apr 8 2018
+17:30,Greuther Fuerth,1,2,Jahn Regensburg,Apr 13 2018
+17:30,Bochum,3,2,Kaiserslautern,Apr 13 2018
+12:00,Arminia Bielefeld,2,0,Erzgebirge Aue,Apr 14 2018
+12:00,Duisburg,0,2,Sandhausen,Apr 14 2018
+12:00,St. Pauli,0,1,Union Berlin,Apr 14 2018
+12:00,Dynamo Dresden,0,4,Holstein Kiel,Apr 14 2018
+12:30,FC Heidenheim,3,1,Fortuna Duesseldorf,Apr 15 2018
+12:30,Ingolstadt,1,1,Nuernberg,Apr 15 2018
+12:30,Darmstadt,1,1,Eintracht Braunschweig,Apr 15 2018
+17:30,Greuther Fuerth,1,1,Bochum,Apr 20 2018
+17:30,Eintracht Braunschweig,0,0,Arminia Bielefeld,Apr 20 2018
+12:00,Union Berlin,1,1,FC Heidenheim,Apr 21 2018
+12:00,Sandhausen,1,1,Darmstadt,Apr 21 2018
+12:00,Jahn Regensburg,3,1,St. Pauli,Apr 21 2018
+12:30,Erzgebirge Aue,1,3,Duisburg,Apr 22 2018
+12:30,Fortuna Duesseldorf,3,0,Ingolstadt,Apr 22 2018
+12:30,Kaiserslautern,0,1,Dynamo Dresden,Apr 22 2018
+19:30,Holstein Kiel,1,3,Nuernberg,Apr 23 2018
+17:30,Bochum,2,1,Erzgebirge Aue,Apr 27 2018
+17:30,Arminia Bielefeld,3,2,Kaiserslautern,Apr 27 2018
+12:00,St. Pauli,3,0,Greuther Fuerth,Apr 28 2018
+12:00,Dynamo Dresden,1,2,Fortuna Duesseldorf,Apr 28 2018
+12:00,Darmstadt,3,1,Union Berlin,Apr 28 2018
+12:30,FC Heidenheim,2,0,Sandhausen,Apr 29 2018
+12:30,Duisburg,4,1,Jahn Regensburg,Apr 29 2018
+12:30,Ingolstadt,1,5,Holstein Kiel,Apr 29 2018
+19:30,Nuernberg,2,0,Eintracht Braunschweig,Apr 30 2018
+17:30,Dynamo Dresden,0,2,Darmstadt,Mac 2 2018
+17:30,Kaiserslautern,4,3,Union Berlin,Mac 2 2018
+12:00,Holstein Kiel,5,0,Duisburg,Mac 3 2018
+12:00,Nuernberg,0,2,Greuther Fuerth,Mac 3 2018
+12:00,Sandhausen,1,1,Erzgebirge Aue,Mac 3 2018
+12:30,Fortuna Duesseldorf,2,1,St. Pauli,Mac 4 2018
+12:30,FC Heidenheim,2,2,Arminia Bielefeld,Mac 4 2018
+12:30,Eintracht Braunschweig,2,1,Jahn Regensburg,Mac 4 2018
+19:30,Ingolstadt,0,1,Bochum,Mac 5 2018
+17:30,Dynamo Dresden,3,2,FC Heidenheim,Mac 9 2018
+17:30,Arminia Bielefeld,1,0,Nuernberg,Mac 9 2018
+12:00,St. Pauli,0,0,Eintracht Braunschweig,Mac 10 2018
+12:00,Greuther Fuerth,2,1,Kaiserslautern,Mac 10 2018
+12:00,Bochum,1,1,Holstein Kiel,Mac 10 2018
+12:00,Darmstadt,1,1,Ingolstadt,Mac 10 2018
+12:30,Union Berlin,0,0,Erzgebirge Aue,Mac 11 2018
+12:30,Duisburg,1,2,Fortuna Duesseldorf,Mac 11 2018
+12:30,Jahn Regensburg,2,1,Sandhausen,Mac 11 2018
+17:30,Fortuna Duesseldorf,4,2,Arminia Bielefeld,Mac 16 2018
+17:30,Holstein Kiel,2,1,FC Heidenheim,Mac 16 2018
+12:00,Kaiserslautern,1,1,St. Pauli,Mac 17 2018
+12:00,Union Berlin,2,2,Jahn Regensburg,Mac 17 2018
+12:00,Sandhausen,2,3,Bochum,Mac 17 2018
+12:30,Nuernberg,1,1,Darmstadt,Mac 18 2018
+12:30,Ingolstadt,4,2,Dynamo Dresden,Mac 18 2018
+12:30,Eintracht Braunschweig,3,2,Duisburg,Mac 18 2018
+19:30,Erzgebirge Aue,2,1,Greuther Fuerth,Mac 19 2018
+12:00,Dynamo Dresden,1,1,Nuernberg,Mac 31 2018
+12:00,FC Heidenheim,1,2,Ingolstadt,Mac 31 2018
+12:00,Duisburg,1,4,Kaiserslautern,Mac 31 2018
+17:30,Fortuna Duesseldorf,1,0,Sandhausen,Feb 2 2018
+17:30,Nuernberg,4,1,Erzgebirge Aue,Feb 2 2018
+12:00,Holstein Kiel,1,1,Jahn Regensburg,Feb 3 2018
+12:00,FC Heidenheim,3,1,St. Pauli,Feb 3 2018
+12:00,Ingolstadt,3,0,Greuther Fuerth,Feb 3 2018
+12:30,Darmstadt,1,2,Duisburg,Feb 4 2018
+12:30,Eintracht Braunschweig,1,2,Kaiserslautern,Feb 4 2018
+12:30,Dynamo Dresden,2,0,Bochum,Feb 4 2018
+19:30,Arminia Bielefeld,1,1,Union Berlin,Feb 5 2018
+17:30,Bochum,2,1,Darmstadt,Feb 9 2018
+17:30,Kaiserslautern,3,1,Holstein Kiel,Feb 9 2018
+12:00,Duisburg,2,2,Arminia Bielefeld,Feb 10 2018
+12:00,Jahn Regensburg,2,0,FC Heidenheim,Feb 10 2018
+12:00,Union Berlin,3,1,Fortuna Duesseldorf,Feb 10 2018
+12:30,Erzgebirge Aue,0,0,Ingolstadt,Feb 11 2018
+12:30,Sandhausen,0,0,Eintracht Braunschweig,Feb 11 2018
+12:30,Greuther Fuerth,1,0,Dynamo Dresden,Feb 11 2018
+19:30,St. Pauli,0,0,Nuernberg,Feb 12 2018
+17:30,Kaiserslautern,0,1,Sandhausen,Feb 16 2018
+17:30,FC Heidenheim,1,0,Bochum,Feb 16 2018
+12:00,Ingolstadt,0,1,St. Pauli,Feb 17 2018
+12:00,Arminia Bielefeld,2,0,Darmstadt,Feb 17 2018
+12:00,Holstein Kiel,2,2,Erzgebirge Aue,Feb 17 2018
+12:00,Fortuna Duesseldorf,1,1,Greuther Fuerth,Feb 17 2018
+12:30,Nuernberg,3,1,Duisburg,Feb 18 2018
+12:30,Eintracht Braunschweig,1,0,Union Berlin,Feb 18 2018
+12:30,Dynamo Dresden,1,0,Jahn Regensburg,Feb 18 2018
+17:30,Darmstadt,1,2,Kaiserslautern,Feb 21 2018
+17:30,Arminia Bielefeld,2,3,Dynamo Dresden,Feb 23 2018
+17:30,Jahn Regensburg,4,3,Fortuna Duesseldorf,Feb 23 2018
+12:00,Duisburg,2,1,Ingolstadt,Feb 24 2018
+12:00,Erzgebirge Aue,2,1,Kaiserslautern,Feb 24 2018
+12:00,Union Berlin,2,1,Sandhausen,Feb 24 2018
+12:00,Greuther Fuerth,2,1,Eintracht Braunschweig,Feb 24 2018
+12:30,Bochum,0,0,Nuernberg,Feb 25 2018
+12:30,St. Pauli,3,2,Holstein Kiel,Feb 25 2018
+12:30,Darmstadt,1,1,FC Heidenheim,Feb 25 2018
+17:30,Bochum,0,2,Duisburg,Jan 23 2018
+19:30,Ingolstadt,0,0,Sandhausen,Jan 23 2018
+19:30,Nuernberg,2,2,Jahn Regensburg,Jan 23 2018
+19:30,Holstein Kiel,2,2,Union Berlin,Jan 23 2018
+19:30,Arminia Bielefeld,0,0,Greuther Fuerth,Jan 24 2018
+19:30,Fortuna Duesseldorf,2,1,Erzgebirge Aue,Jan 24 2018
+19:30,FC Heidenheim,2,0,Eintracht Braunschweig,Jan 24 2018
+19:30,Dynamo Dresden,1,3,St. Pauli,Jan 25 2018
+17:30,Union Berlin,0,1,Nuernberg,Jan 26 2018
+17:30,Jahn Regensburg,3,2,Ingolstadt,Jan 26 2018
+12:00,Duisburg,3,3,FC Heidenheim,Jan 27 2018
+12:00,Kaiserslautern,1,3,Fortuna Duesseldorf,Jan 27 2018
+12:00,Greuther Fuerth,0,0,Holstein Kiel,Jan 27 2018
+12:30,Sandhausen,1,0,Dynamo Dresden,Jan 28 2018
+12:30,Erzgebirge Aue,1,3,Eintracht Braunschweig,Jan 28 2018
+12:30,St. Pauli,0,1,Darmstadt,Jan 28 2018
+19:30,Bochum,0,1,Arminia Bielefeld,Jan 29 2018
+17:30,Arminia Bielefeld,5,0,St. Pauli,Des 1 2017
+17:30,FC Heidenheim,3,2,Kaiserslautern,Des 1 2017
+12:00,Nuernberg,1,0,Sandhausen,Des 2 2017
+12:00,Duisburg,2,0,Greuther Fuerth,Des 2 2017
+12:00,Holstein Kiel,2,2,Fortuna Duesseldorf,Des 2 2017
+12:30,Darmstadt,0,1,Jahn Regensburg,Des 3 2017
+12:30,Bochum,2,1,Union Berlin,Des 3 2017
+12:30,Dynamo Dresden,4,0,Erzgebirge Aue,Des 3 2017
+19:30,Ingolstadt,0,2,Eintracht Braunschweig,Des 4 2017
+17:30,Erzgebirge Aue,1,0,Darmstadt,Des 8 2017
+17:30,Eintracht Braunschweig,0,0,Holstein Kiel,Des 8 2017
+12:00,Union Berlin,0,1,Dynamo Dresden,Des 9 2017
+12:00,Greuther Fuerth,1,0,FC Heidenheim,Des 9 2017
+12:00,Jahn Regensburg,0,1,Bochum,Des 9 2017
+12:30,Sandhausen,3,1,Arminia Bielefeld,Des 10 2017
+12:30,Kaiserslautern,1,1,Ingolstadt,Des 10 2017
+12:30,St. Pauli,2,2,Duisburg,Des 10 2017
+19:30,Fortuna Duesseldorf,0,2,Nuernberg,Des 11 2017
+17:30,Eintracht Braunschweig,0,1,Fortuna Duesseldorf,Des 15 2017
+17:30,Union Berlin,1,2,Ingolstadt,Des 15 2017
+12:00,Jahn Regensburg,3,2,Arminia Bielefeld,Des 16 2017
+12:00,Kaiserslautern,1,1,Nuernberg,Des 16 2017
+12:00,Erzgebirge Aue,1,1,FC Heidenheim,Des 16 2017
+12:30,Duisburg,2,0,Dynamo Dresden,Des 17 2017
+12:30,Greuther Fuerth,1,1,Darmstadt,Des 17 2017
+12:30,Sandhausen,3,1,Holstein Kiel,Des 17 2017
+19:30,St. Pauli,2,1,Bochum,Des 18 2017
+17:30,Sandhausen,0,1,Duisburg,Nov 3 2017
+17:30,Kaiserslautern,0,0,Bochum,Nov 3 2017
+12:00,Jahn Regensburg,3,2,Greuther Fuerth,Nov 4 2017
+12:00,Eintracht Braunschweig,2,2,Darmstadt,Nov 4 2017
+12:00,Union Berlin,1,0,St. Pauli,Nov 4 2017
+12:30,Fortuna Duesseldorf,2,2,FC Heidenheim,Nov 5 2017
+12:30,Erzgebirge Aue,1,1,Arminia Bielefeld,Nov 5 2017
+12:30,Holstein Kiel,3,0,Dynamo Dresden,Nov 5 2017
+19:30,Nuernberg,1,2,Ingolstadt,Nov 6 2017
+17:30,Darmstadt,1,2,Sandhausen,Nov 17 2017
+17:30,Arminia Bielefeld,2,2,Eintracht Braunschweig,Nov 17 2017
+12:00,FC Heidenheim,4,3,Union Berlin,Nov 18 2017
+12:00,Bochum,1,1,Greuther Fuerth,Nov 18 2017
+12:00,Nuernberg,2,2,Holstein Kiel,Nov 18 2017
+12:30,St. Pauli,2,2,Jahn Regensburg,Nov 19 2017
+12:30,Duisburg,3,0,Erzgebirge Aue,Nov 19 2017
+12:30,Ingolstadt,1,0,Fortuna Duesseldorf,Nov 19 2017
+19:30,Dynamo Dresden,1,2,Kaiserslautern,Nov 20 2017
+17:30,Sandhausen,1,2,FC Heidenheim,Nov 24 2017
+17:30,Union Berlin,3,3,Darmstadt,Nov 24 2017
+12:00,Eintracht Braunschweig,2,3,Nuernberg,Nov 25 2017
+12:00,Holstein Kiel,0,0,Ingolstadt,Nov 25 2017
+12:00,Jahn Regensburg,4,0,Duisburg,Nov 25 2017
+12:30,Erzgebirge Aue,1,1,Bochum,Nov 26 2017
+12:30,Kaiserslautern,0,2,Arminia Bielefeld,Nov 26 2017
+12:30,Greuther Fuerth,4,0,St. Pauli,Nov 26 2017
+19:30,Fortuna Duesseldorf,1,3,Dynamo Dresden,Nov 27 2017
+12:30,Eintracht Braunschweig,0,2,St. Pauli,Okt 1 2017
+12:30,FC Heidenheim,0,2,Dynamo Dresden,Okt 1 2017
+12:30,Sandhausen,2,0,Jahn Regensburg,Okt 1 2017
+19:30,Fortuna Duesseldorf,3,1,Duisburg,Okt 2 2017
+17:30,St. Pauli,1,1,Kaiserslautern,Okt 13 2017
+17:30,Duisburg,0,0,Eintracht Braunschweig,Okt 13 2017
+12:00,Dynamo Dresden,2,2,Ingolstadt,Okt 14 2017
+12:00,Bochum,2,0,Sandhausen,Okt 14 2017
+12:00,Arminia Bielefeld,0,2,Fortuna Duesseldorf,Okt 14 2017
+12:30,FC Heidenheim,3,5,Holstein Kiel,Okt 15 2017
+12:30,Greuther Fuerth,2,1,Erzgebirge Aue,Okt 15 2017
+12:30,Jahn Regensburg,0,2,Union Berlin,Okt 15 2017
+19:30,Darmstadt,3,4,Nuernberg,Okt 16 2017
+17:30,Ingolstadt,3,0,FC Heidenheim,Okt 20 2017
+17:30,Fortuna Duesseldorf,1,0,Darmstadt,Okt 20 2017
+12:00,Eintracht Braunschweig,1,0,Bochum,Okt 21 2017
+12:00,Union Berlin,3,1,Greuther Fuerth,Okt 21 2017
+12:00,Holstein Kiel,2,1,Arminia Bielefeld,Okt 21 2017
+12:30,Nuernberg,2,1,Dynamo Dresden,Okt 22 2017
+12:30,Kaiserslautern,0,1,Duisburg,Okt 22 2017
+12:30,Erzgebirge Aue,1,0,Jahn Regensburg,Okt 22 2017
+19:30,Sandhausen,1,1,St. Pauli,Okt 23 2017
+17:30,St. Pauli,1,1,Erzgebirge Aue,Okt 27 2017
+17:30,Arminia Bielefeld,1,3,Ingolstadt,Okt 27 2017
+12:00,Greuther Fuerth,2,1,Sandhausen,Okt 28 2017
+12:00,Darmstadt,1,1,Holstein Kiel,Okt 28 2017
+12:00,Jahn Regensburg,3,1,Kaiserslautern,Okt 28 2017
+12:30,FC Heidenheim,1,0,Nuernberg,Okt 29 2017
+12:30,Duisburg,1,1,Union Berlin,Okt 29 2017
+15:00,Dynamo Dresden,1,1,Eintracht Braunschweig,Okt 29 2017
+19:30,Bochum,0,0,Fortuna Duesseldorf,Okt 30 2017
+17:30,Dynamo Dresden,1,1,Greuther Fuerth,Sep 8 2017
+17:30,FC Heidenheim,1,3,Jahn Regensburg,Sep 8 2017
+12:00,Ingolstadt,1,2,Erzgebirge Aue,Sep 9 2017
+12:00,Arminia Bielefeld,0,4,Duisburg,Sep 9 2017
+12:00,Holstein Kiel,2,1,Kaiserslautern,Sep 9 2017
+12:30,Darmstadt,1,2,Bochum,Sep 10 2017
+12:30,Eintracht Braunschweig,1,1,Sandhausen,Sep 10 2017
+12:30,Fortuna Duesseldorf,3,2,Union Berlin,Sep 10 2017
+19:30,Nuernberg,0,1,St. Pauli,Sep 11 2017
+17:30,Union Berlin,1,1,Eintracht Braunschweig,Sep 15 2017
+17:30,Erzgebirge Aue,0,3,Holstein Kiel,Sep 15 2017
+12:00,Sandhausen,1,0,Kaiserslautern,Sep 16 2017
+12:00,St. Pauli,0,4,Ingolstadt,Sep 16 2017
+12:00,Duisburg,1,6,Nuernberg,Sep 16 2017
+12:30,Jahn Regensburg,0,2,Dynamo Dresden,Sep 17 2017
+12:30,Greuther Fuerth,3,1,Fortuna Duesseldorf,Sep 17 2017
+12:30,Bochum,1,2,FC Heidenheim,Sep 17 2017
+12:30,Darmstadt,4,3,Arminia Bielefeld,Sep 17 2017
+17:30,Ingolstadt,2,2,Duisburg,Sep 19 2017
+17:30,Sandhausen,1,0,Union Berlin,Sep 19 2017
+17:30,Kaiserslautern,0,2,Erzgebirge Aue,Sep 19 2017
+17:30,Holstein Kiel,0,1,St. Pauli,Sep 19 2017
+17:30,Fortuna Duesseldorf,1,0,Jahn Regensburg,Sep 20 2017
+17:30,Dynamo Dresden,0,2,Arminia Bielefeld,Sep 20 2017
+17:30,FC Heidenheim,2,2,Darmstadt,Sep 20 2017
+17:30,Eintracht Braunschweig,3,0,Greuther Fuerth,Sep 20 2017
+19:30,Nuernberg,3,1,Bochum,Sep 21 2017
+17:30,Duisburg,1,3,Holstein Kiel,Sep 22 2017
+17:30,Erzgebirge Aue,1,0,Sandhausen,Sep 22 2017
+12:00,Arminia Bielefeld,1,1,FC Heidenheim,Sep 23 2017
+12:00,Jahn Regensburg,2,1,Eintracht Braunschweig,Sep 23 2017
+12:00,St. Pauli,1,2,Fortuna Duesseldorf,Sep 23 2017
+12:30,Greuther Fuerth,1,3,Nuernberg,Sep 24 2017
+12:30,Darmstadt,3,3,Dynamo Dresden,Sep 24 2017
+12:30,Bochum,2,0,Ingolstadt,Sep 24 2017
+19:30,Union Berlin,5,0,Kaiserslautern,Sep 25 2017
+17:30,Ingolstadt,3,0,Darmstadt,Sep 29 2017
+17:30,Kaiserslautern,3,0,Greuther Fuerth,Sep 29 2017
+12:00,Nuernberg,1,2,Arminia Bielefeld,Sep 30 2017
+12:00,Holstein Kiel,3,0,Bochum,Sep 30 2017
+12:00,Erzgebirge Aue,1,2,Union Berlin,Sep 30 2017
+17:30,Union Berlin,4,3,Holstein Kiel,Ago 4 2017
+17:30,Sandhausen,1,0,Ingolstadt,Ago 4 2017
+19:30,Kaiserslautern,1,1,Darmstadt,Ago 4 2017
+12:00,Duisburg,1,1,Bochum,Ago 5 2017
+14:30,Eintracht Braunschweig,2,0,FC Heidenheim,Ago 5 2017
+12:30,Jahn Regensburg,0,1,Nuernberg,Ago 6 2017
+14:30,Erzgebirge Aue,0,2,Fortuna Duesseldorf,Ago 6 2017
+14:30,Greuther Fuerth,1,2,Arminia Bielefeld,Ago 6 2017
+19:30,St. Pauli,2,2,Dynamo Dresden,Ago 7 2017
+19:00,FC Heidenheim,2,1,Erzgebirge Aue,Ago 9 2017
+17:30,Darmstadt,3,0,St. Pauli,Ago 18 2017
+17:30,Eintracht Braunschweig,1,1,Erzgebirge Aue,Ago 18 2017
+12:00,Dynamo Dresden,0,4,Sandhausen,Ago 19 2017
+12:00,FC Heidenheim,1,2,Duisburg,Ago 19 2017
+12:00,Fortuna Duesseldorf,2,0,Kaiserslautern,Ago 19 2017
+12:30,Nuernberg,2,2,Union Berlin,Ago 20 2017
+12:30,Holstein Kiel,3,1,Greuther Fuerth,Ago 20 2017
+12:30,Ingolstadt,2,4,Jahn Regensburg,Ago 20 2017
+19:30,Arminia Bielefeld,2,0,Bochum,Ago 21 2017
+17:30,Greuther Fuerth,0,1,Ingolstadt,Ago 25 2017
+17:30,Duisburg,1,2,Darmstadt,Ago 25 2017
+12:00,Jahn Regensburg,1,2,Holstein Kiel,Ago 26 2017
+12:00,Erzgebirge Aue,3,1,Nuernberg,Ago 26 2017
+12:00,St. Pauli,1,0,FC Heidenheim,Ago 26 2017
+12:30,Union Berlin,1,1,Arminia Bielefeld,Ago 27 2017
+12:30,Bochum,3,2,Dynamo Dresden,Ago 27 2017
+12:30,Sandhausen,1,2,Fortuna Duesseldorf,Ago 27 2017
+19:30,Kaiserslautern,1,1,Eintracht Braunschweig,Ago 28 2017
+17:30,Dynamo Dresden,1,2,1860 Muenchen,Mei 5 2017
+17:30,Kaiserslautern,1,2,St. Pauli,Mei 5 2017
+17:30,FC Heidenheim,0,2,Hannover 96,Mei 5 2017
+12:00,Sandhausen,0,1,Nuernberg,Mei 6 2017
+12:00,Fortuna Duesseldorf,1,1,Wuerzburger Kickers,Mei 6 2017
+12:30,Greuther Fuerth,0,1,Karlsruher SC,Mei 7 2017
+12:30,VfB Stuttgart,3,0,Erzgebirge Aue,Mei 7 2017
+12:30,Bochum,1,1,Arminia Bielefeld,Mei 7 2017
+19:15,Eintracht Braunschweig,3,1,Union Berlin,Mei 8 2017
+14:30,Hannover 96,1,0,VfB Stuttgart,Mei 14 2017
+14:30,Nuernberg,2,3,Fortuna Duesseldorf,Mei 14 2017
+14:30,St. Pauli,1,1,Greuther Fuerth,Mei 14 2017
+14:30,Union Berlin,0,1,FC Heidenheim,Mei 14 2017
+14:30,Karlsruher SC,3,4,Dynamo Dresden,Mei 14 2017
+14:30,Arminia Bielefeld,6,0,Eintracht Braunschweig,Mei 14 2017
+14:30,1860 Muenchen,1,2,Bochum,Mei 14 2017
+14:30,Erzgebirge Aue,1,0,Kaiserslautern,Mei 14 2017
+14:30,Wuerzburger Kickers,0,1,Sandhausen,Mei 14 2017
+14:30,VfB Stuttgart,4,1,Wuerzburger Kickers,Mei 21 2017
+14:30,Bochum,1,3,St. Pauli,Mei 21 2017
+14:30,Eintracht Braunschweig,2,1,Karlsruher SC,Mei 21 2017
+14:30,Greuther Fuerth,1,2,Union Berlin,Mei 21 2017
+14:30,Kaiserslautern,1,0,Nuernberg,Mei 21 2017
+14:30,FC Heidenheim,2,1,1860 Muenchen,Mei 21 2017
+14:30,Sandhausen,1,1,Hannover 96,Mei 21 2017
+14:30,Fortuna Duesseldorf,1,0,Erzgebirge Aue,Mei 21 2017
+14:30,Dynamo Dresden,1,1,Arminia Bielefeld,Mei 21 2017
+12:00,Wuerzburger Kickers,1,1,Arminia Bielefeld,Apr 1 2017
+12:00,Sandhausen,0,0,Bochum,Apr 1 2017
+12:00,Hannover 96,2,0,Union Berlin,Apr 1 2017
+12:30,VfB Stuttgart,3,3,Dynamo Dresden,Apr 2 2017
+12:30,Kaiserslautern,0,1,Eintracht Braunschweig,Apr 2 2017
+12:30,FC Heidenheim,0,2,Greuther Fuerth,Apr 2 2017
+16:30,Karlsruher SC,1,1,Wuerzburger Kickers,Apr 4 2017
+16:30,Arminia Bielefeld,2,1,Fortuna Duesseldorf,Apr 4 2017
+16:30,Hannover 96,1,0,Nuernberg,Apr 4 2017
+16:30,St. Pauli,0,0,Sandhausen,Apr 4 2017
+16:30,Bochum,0,0,Kaiserslautern,Apr 5 2017
+16:30,Greuther Fuerth,0,0,Eintracht Braunschweig,Apr 5 2017
+16:30,Union Berlin,0,1,Erzgebirge Aue,Apr 5 2017
+16:30,1860 Muenchen,1,1,VfB Stuttgart,Apr 5 2017
+16:30,Dynamo Dresden,2,1,FC Heidenheim,Apr 5 2017
+17:30,Nuernberg,0,2,St. Pauli,Apr 7 2017
+17:30,Wuerzburger Kickers,0,0,Hannover 96,Apr 7 2017
+17:30,Sandhausen,1,3,Arminia Bielefeld,Apr 7 2017
+12:00,FC Heidenheim,0,0,Bochum,Apr 8 2017
+12:00,Kaiserslautern,2,0,Greuther Fuerth,Apr 8 2017
+12:30,Erzgebirge Aue,3,0,1860 Muenchen,Apr 9 2017
+12:30,Fortuna Duesseldorf,2,2,Union Berlin,Apr 9 2017
+12:30,VfB Stuttgart,2,0,Karlsruher SC,Apr 9 2017
+19:15,Eintracht Braunschweig,1,0,Dynamo Dresden,Apr 10 2017
+12:00,Hannover 96,1,0,Eintracht Braunschweig,Apr 15 2017
+12:00,Nuernberg,2,1,Erzgebirge Aue,Apr 15 2017
+12:30,St. Pauli,1,0,Wuerzburger Kickers,Apr 16 2017
+12:30,Dynamo Dresden,1,1,Fortuna Duesseldorf,Apr 16 2017
+12:30,1860 Muenchen,1,1,Sandhausen,Apr 16 2017
+12:30,Bochum,1,0,Greuther Fuerth,Apr 16 2017
+12:30,Union Berlin,3,1,Kaiserslautern,Apr 16 2017
+12:30,Karlsruher SC,0,1,FC Heidenheim,Apr 16 2017
+19:15,Arminia Bielefeld,2,3,VfB Stuttgart,Apr 17 2017
+17:30,Fortuna Duesseldorf,1,3,St. Pauli,Apr 21 2017
+17:30,Greuther Fuerth,1,0,Dynamo Dresden,Apr 21 2017
+17:30,Kaiserslautern,1,0,1860 Muenchen,Apr 21 2017
+12:00,FC Heidenheim,2,2,Arminia Bielefeld,Apr 22 2017
+12:00,Erzgebirge Aue,2,2,Hannover 96,Apr 22 2017
+12:30,Wuerzburger Kickers,1,1,Nuernberg,Apr 23 2017
+12:30,Sandhausen,4,0,Karlsruher SC,Apr 23 2017
+12:30,Eintracht Braunschweig,2,0,Bochum,Apr 23 2017
+19:15,VfB Stuttgart,3,1,Union Berlin,Apr 24 2017
+17:30,St. Pauli,3,0,FC Heidenheim,Apr 28 2017
+17:30,Union Berlin,2,1,Sandhausen,Apr 28 2017
+17:30,Bochum,4,2,Dynamo Dresden,Apr 28 2017
+12:00,Nuernberg,2,3,VfB Stuttgart,Apr 29 2017
+12:00,Karlsruher SC,1,3,Kaiserslautern,Apr 29 2017
+12:00,Arminia Bielefeld,1,1,Greuther Fuerth,Apr 29 2017
+12:30,1860 Muenchen,0,1,Eintracht Braunschweig,Apr 30 2017
+12:30,Erzgebirge Aue,3,1,Wuerzburger Kickers,Apr 30 2017
+12:30,Hannover 96,1,0,Fortuna Duesseldorf,Apr 30 2017
+17:30,Bochum,1,2,Fortuna Duesseldorf,Mac 3 2017
+17:30,Union Berlin,2,0,Wuerzburger Kickers,Mac 3 2017
+17:30,Dynamo Dresden,3,3,Kaiserslautern,Mac 3 2017
+12:00,1860 Muenchen,1,2,St. Pauli,Mac 4 2017
+12:00,Karlsruher SC,2,0,Hannover 96,Mac 4 2017
+12:30,Greuther Fuerth,1,0,Nuernberg,Mac 5 2017
+12:30,FC Heidenheim,2,2,Sandhausen,Mac 5 2017
+12:30,Arminia Bielefeld,2,2,Erzgebirge Aue,Mac 5 2017
+19:15,Eintracht Braunschweig,1,1,VfB Stuttgart,Mac 6 2017
+17:30,VfB Stuttgart,1,1,Bochum,Mac 10 2017
+17:30,St. Pauli,1,2,Union Berlin,Mac 10 2017
+17:30,Erzgebirge Aue,1,0,Karlsruher SC,Mac 10 2017
+12:00,Wuerzburger Kickers,0,2,Dynamo Dresden,Mac 11 2017
+12:00,Hannover 96,1,0,1860 Muenchen,Mac 11 2017
+12:30,Nuernberg,1,0,Arminia Bielefeld,Mac 12 2017
+12:30,Kaiserslautern,1,1,FC Heidenheim,Mac 12 2017
+12:30,Sandhausen,1,1,Greuther Fuerth,Mac 12 2017
+19:15,Fortuna Duesseldorf,1,2,Eintracht Braunschweig,Mac 13 2017
+17:30,Eintracht Braunschweig,3,2,FC Heidenheim,Mac 17 2017
+17:30,Arminia Bielefeld,2,0,Kaiserslautern,Mac 17 2017
+17:30,1860 Muenchen,2,1,Wuerzburger Kickers,Mac 17 2017
+12:00,Greuther Fuerth,1,0,VfB Stuttgart,Mac 18 2017
+12:00,St. Pauli,0,0,Hannover 96,Mac 18 2017
+12:30,Dynamo Dresden,2,0,Sandhausen,Mac 19 2017
+12:30,Karlsruher SC,0,3,Fortuna Duesseldorf,Mac 19 2017
+12:30,Bochum,1,1,Erzgebirge Aue,Mac 19 2017
+19:15,Union Berlin,1,0,Nuernberg,Mac 20 2017
+17:30,Fortuna Duesseldorf,0,1,1860 Muenchen,Mac 31 2017
+17:30,Erzgebirge Aue,1,0,St. Pauli,Mac 31 2017
+17:30,Nuernberg,2,1,Karlsruher SC,Mac 31 2017
+17:30,Arminia Bielefeld,2,1,1860 Muenchen,Feb 3 2017
+17:30,Greuther Fuerth,4,1,Hannover 96,Feb 3 2017
+17:30,Kaiserslautern,1,0,Wuerzburger Kickers,Feb 3 2017
+12:00,FC Heidenheim,2,3,Nuernberg,Feb 4 2017
+12:00,Sandhausen,2,0,Erzgebirge Aue,Feb 4 2017
+12:30,Dynamo Dresden,0,0,Union Berlin,Feb 5 2017
+12:30,Bochum,1,1,Karlsruher SC,Feb 5 2017
+12:30,Eintracht Braunschweig,1,2,St. Pauli,Feb 5 2017
+19:15,VfB Stuttgart,2,0,Fortuna Duesseldorf,Feb 6 2017
+17:30,Nuernberg,1,1,Eintracht Braunschweig,Feb 10 2017
+17:30,Fortuna Duesseldorf,1,1,Kaiserslautern,Feb 10 2017
+17:30,Erzgebirge Aue,0,0,Greuther Fuerth,Feb 10 2017
+12:00,Wuerzburger Kickers,0,2,FC Heidenheim,Feb 11 2017
+12:00,1860 Muenchen,2,1,Karlsruher SC,Feb 11 2017
+12:30,St. Pauli,2,0,Dynamo Dresden,Feb 12 2017
+12:30,Union Berlin,3,1,Arminia Bielefeld,Feb 12 2017
+12:30,VfB Stuttgart,2,1,Sandhausen,Feb 12 2017
+19:15,Hannover 96,2,1,Bochum,Feb 13 2017
+17:30,Kaiserslautern,3,0,Sandhausen,Feb 17 2017
+17:30,FC Heidenheim,1,2,VfB Stuttgart,Feb 17 2017
+17:30,Eintracht Braunschweig,1,1,Erzgebirge Aue,Feb 17 2017
+12:00,Greuther Fuerth,1,0,Fortuna Duesseldorf,Feb 18 2017
+12:00,Bochum,2,1,Wuerzburger Kickers,Feb 18 2017
+12:30,Karlsruher SC,1,2,Union Berlin,Feb 19 2017
+12:30,Arminia Bielefeld,1,1,St. Pauli,Feb 19 2017
+12:30,Dynamo Dresden,1,2,Hannover 96,Feb 19 2017
+19:15,1860 Muenchen,2,0,Nuernberg,Feb 20 2017
+17:30,Union Berlin,2,0,1860 Muenchen,Feb 24 2017
+17:30,Sandhausen,0,1,Eintracht Braunschweig,Feb 24 2017
+17:30,Wuerzburger Kickers,1,1,Greuther Fuerth,Feb 24 2017
+12:00,Fortuna Duesseldorf,0,0,FC Heidenheim,Feb 25 2017
+12:00,Hannover 96,2,2,Arminia Bielefeld,Feb 25 2017
+12:30,VfB Stuttgart,2,0,Kaiserslautern,Feb 26 2017
+12:30,Erzgebirge Aue,1,4,Dynamo Dresden,Feb 26 2017
+12:30,Nuernberg,0,1,Bochum,Feb 26 2017
+19:15,St. Pauli,5,0,Karlsruher SC,Feb 27 2017
+17:30,Union Berlin,2,1,Bochum,Jan 27 2017
+17:30,Fortuna Duesseldorf,0,3,Sandhausen,Jan 27 2017
+17:30,1860 Muenchen,2,1,Greuther Fuerth,Jan 27 2017
+12:00,Erzgebirge Aue,2,1,FC Heidenheim,Jan 28 2017
+12:00,Wuerzburger Kickers,1,1,Eintracht Braunschweig,Jan 28 2017
+12:30,Karlsruher SC,3,2,Arminia Bielefeld,Jan 29 2017
+12:30,Nuernberg,1,2,Dynamo Dresden,Jan 29 2017
+12:30,St. Pauli,0,1,VfB Stuttgart,Jan 29 2017
+19:15,Hannover 96,1,0,Kaiserslautern,Jan 30 2017
+17:30,Hannover 96,3,2,FC Heidenheim,Des 2 2016
+17:30,St. Pauli,0,0,Kaiserslautern,Des 2 2016
+17:30,Karlsruher SC,1,2,Greuther Fuerth,Des 2 2016
+12:00,Nuernberg,1,3,Sandhausen,Des 3 2016
+12:00,1860 Muenchen,1,0,Dynamo Dresden,Des 3 2016
+12:30,Erzgebirge Aue,0,4,VfB Stuttgart,Des 4 2016
+12:30,Wuerzburger Kickers,0,0,Fortuna Duesseldorf,Des 4 2016
+12:30,Arminia Bielefeld,1,0,Bochum,Des 4 2016
+19:15,Union Berlin,2,0,Eintracht Braunschweig,Des 5 2016
+17:30,Fortuna Duesseldorf,0,2,Nuernberg,Des 9 2016
+17:30,Dynamo Dresden,0,0,Karlsruher SC,Des 9 2016
+17:30,FC Heidenheim,3,0,Union Berlin,Des 9 2016
+12:00,Bochum,1,0,1860 Muenchen,Des 10 2016
+12:00,Kaiserslautern,0,0,Erzgebirge Aue,Des 10 2016
+12:30,Eintracht Braunschweig,3,2,Arminia Bielefeld,Des 11 2016
+12:30,Greuther Fuerth,0,2,St. Pauli,Des 11 2016
+12:30,Sandhausen,0,0,Wuerzburger Kickers,Des 11 2016
+19:15,VfB Stuttgart,1,2,Hannover 96,Des 12 2016
+17:30,Union Berlin,1,1,Greuther Fuerth,Des 16 2016
+17:30,1860 Muenchen,1,1,FC Heidenheim,Des 16 2016
+17:30,Erzgebirge Aue,0,0,Fortuna Duesseldorf,Des 16 2016
+12:00,Karlsruher SC,0,0,Eintracht Braunschweig,Des 17 2016
+12:00,St. Pauli,1,1,Bochum,Des 17 2016
+12:30,Arminia Bielefeld,1,2,Dynamo Dresden,Des 18 2016
+12:30,Hannover 96,0,0,Sandhausen,Des 18 2016
+12:30,Wuerzburger Kickers,3,0,VfB Stuttgart,Des 18 2016
+19:15,Nuernberg,2,1,Kaiserslautern,Des 19 2016
+17:30,Fortuna Duesseldorf,0,3,Dynamo Dresden,Nov 4 2016
+17:30,Erzgebirge Aue,1,2,Nuernberg,Nov 4 2016
+17:30,FC Heidenheim,2,1,Karlsruher SC,Nov 4 2016
+12:00,Greuther Fuerth,2,1,Bochum,Nov 5 2016
+12:00,Kaiserslautern,1,0,Union Berlin,Nov 5 2016
+12:30,VfB Stuttgart,3,1,Arminia Bielefeld,Nov 6 2016
+12:30,Eintracht Braunschweig,2,2,Hannover 96,Nov 6 2016
+12:30,Sandhausen,3,2,1860 Muenchen,Nov 6 2016
+19:15,Wuerzburger Kickers,1,0,St. Pauli,Nov 7 2016
+17:30,Nuernberg,2,2,Wuerzburger Kickers,Nov 18 2016
+17:30,Bochum,1,1,Eintracht Braunschweig,Nov 18 2016
+17:30,Arminia Bielefeld,2,1,FC Heidenheim,Nov 18 2016
+12:00,Hannover 96,2,0,Erzgebirge Aue,Nov 19 2016
+12:00,Karlsruher SC,1,3,Sandhausen,Nov 19 2016
+12:30,Dynamo Dresden,2,1,Greuther Fuerth,Nov 20 2016
+12:30,Union Berlin,1,1,VfB Stuttgart,Nov 20 2016
+12:30,St. Pauli,0,1,Fortuna Duesseldorf,Nov 20 2016
+19:15,1860 Muenchen,1,1,Kaiserslautern,Nov 21 2016
+17:30,Greuther Fuerth,2,1,Arminia Bielefeld,Nov 25 2016
+17:30,Fortuna Duesseldorf,2,2,Hannover 96,Nov 25 2016
+17:30,Wuerzburger Kickers,1,1,Erzgebirge Aue,Nov 25 2016
+12:00,Dynamo Dresden,2,2,Bochum,Nov 26 2016
+12:00,FC Heidenheim,2,0,St. Pauli,Nov 26 2016
+12:30,Sandhausen,0,1,Union Berlin,Nov 27 2016
+12:30,Kaiserslautern,0,0,Karlsruher SC,Nov 27 2016
+12:30,Eintracht Braunschweig,2,1,1860 Muenchen,Nov 27 2016
+19:15,VfB Stuttgart,3,1,Nuernberg,Nov 28 2016
+12:00,Fortuna Duesseldorf,1,1,Karlsruher SC,Okt 1 2016
+12:00,Hannover 96,2,0,St. Pauli,Okt 1 2016
+12:30,Kaiserslautern,0,0,Arminia Bielefeld,Okt 2 2016
+12:30,FC Heidenheim,1,1,Eintracht Braunschweig,Okt 2 2016
+12:30,Wuerzburger Kickers,2,0,1860 Muenchen,Okt 2 2016
+19:15,VfB Stuttgart,4,0,Greuther Fuerth,Okt 3 2016
+17:30,Bochum,2,2,Sandhausen,Okt 14 2016
+17:30,St. Pauli,1,2,Erzgebirge Aue,Okt 14 2016
+17:30,Arminia Bielefeld,0,1,Wuerzburger Kickers,Okt 14 2016
+12:00,Greuther Fuerth,0,2,FC Heidenheim,Okt 15 2016
+12:00,Dynamo Dresden,5,0,VfB Stuttgart,Okt 15 2016
+12:30,Union Berlin,2,1,Hannover 96,Okt 16 2016
+12:30,Karlsruher SC,0,3,Nuernberg,Okt 16 2016
+12:30,1860 Muenchen,1,3,Fortuna Duesseldorf,Okt 16 2016
+19:15,Eintracht Braunschweig,1,0,Kaiserslautern,Okt 17 2016
+17:30,VfB Stuttgart,2,1,1860 Muenchen,Okt 21 2016
+17:30,Wuerzburger Kickers,0,2,Karlsruher SC,Okt 21 2016
+17:30,Fortuna Duesseldorf,4,0,Arminia Bielefeld,Okt 21 2016
+12:00,Sandhausen,3,0,St. Pauli,Okt 22 2016
+12:00,FC Heidenheim,0,0,Dynamo Dresden,Okt 22 2016
+12:30,Nuernberg,2,0,Hannover 96,Okt 23 2016
+12:30,Eintracht Braunschweig,1,0,Greuther Fuerth,Okt 23 2016
+12:30,Erzgebirge Aue,1,3,Union Berlin,Okt 23 2016
+19:15,Kaiserslautern,3,0,Bochum,Okt 24 2016
+17:30,Dynamo Dresden,3,2,Eintracht Braunschweig,Okt 28 2016
+17:30,1860 Muenchen,6,2,Erzgebirge Aue,Okt 28 2016
+17:30,Arminia Bielefeld,1,0,Sandhausen,Okt 28 2016
+12:00,Union Berlin,0,1,Fortuna Duesseldorf,Okt 29 2016
+12:00,Greuther Fuerth,0,1,Kaiserslautern,Okt 29 2016
+12:30,Karlsruher SC,1,3,VfB Stuttgart,Okt 30 2016
+12:30,Bochum,2,1,FC Heidenheim,Okt 30 2016
+12:30,Hannover 96,3,1,Wuerzburger Kickers,Okt 30 2016
+19:15,St. Pauli,1,1,Nuernberg,Okt 31 2016
+17:30,Erzgebirge Aue,0,2,Eintracht Braunschweig,Sep 9 2016
+17:30,Wuerzburger Kickers,2,0,Bochum,Sep 9 2016
+17:30,VfB Stuttgart,1,2,FC Heidenheim,Sep 9 2016
+12:00,St. Pauli,2,1,Arminia Bielefeld,Sep 10 2016
+12:00,Union Berlin,4,0,Karlsruher SC,Sep 10 2016
+12:30,Sandhausen,2,0,Kaiserslautern,Sep 11 2016
+12:30,Fortuna Duesseldorf,1,1,Greuther Fuerth,Sep 11 2016
+12:30,Hannover 96,0,2,Dynamo Dresden,Sep 11 2016
+19:15,Nuernberg,1,2,1860 Muenchen,Sep 12 2016
+17:30,Bochum,5,4,Nuernberg,Sep 16 2016
+17:30,Greuther Fuerth,0,3,Wuerzburger Kickers,Sep 16 2016
+17:30,1860 Muenchen,1,2,Union Berlin,Sep 16 2016
+12:00,Kaiserslautern,0,1,VfB Stuttgart,Sep 17 2016
+12:00,FC Heidenheim,2,0,Fortuna Duesseldorf,Sep 17 2016
+12:00,Eintracht Braunschweig,2,1,Sandhausen,Sep 17 2016
+12:30,Arminia Bielefeld,3,3,Hannover 96,Sep 18 2016
+12:30,Dynamo Dresden,0,3,Erzgebirge Aue,Sep 18 2016
+12:30,Karlsruher SC,1,1,St. Pauli,Sep 18 2016
+16:30,VfB Stuttgart,2,0,Eintracht Braunschweig,Sep 20 2016
+16:30,Nuernberg,1,2,Greuther Fuerth,Sep 20 2016
+16:30,Sandhausen,0,0,FC Heidenheim,Sep 20 2016
+16:30,Fortuna Duesseldorf,3,0,Bochum,Sep 20 2016
+16:30,Erzgebirge Aue,1,1,Arminia Bielefeld,Sep 21 2016
+16:30,Wuerzburger Kickers,0,1,Union Berlin,Sep 21 2016
+16:30,Kaiserslautern,3,0,Dynamo Dresden,Sep 21 2016
+16:30,Hannover 96,1,0,Karlsruher SC,Sep 21 2016
+19:15,St. Pauli,2,2,1860 Muenchen,Sep 22 2016
+17:30,Bochum,1,1,VfB Stuttgart,Sep 23 2016
+17:30,Eintracht Braunschweig,2,1,Fortuna Duesseldorf,Sep 23 2016
+17:30,Greuther Fuerth,1,1,Sandhausen,Sep 23 2016
+12:00,FC Heidenheim,3,0,Kaiserslautern,Sep 24 2016
+12:00,Karlsruher SC,2,0,Erzgebirge Aue,Sep 24 2016
+12:30,Arminia Bielefeld,1,3,Nuernberg,Sep 25 2016
+12:30,1860 Muenchen,0,2,Hannover 96,Sep 25 2016
+12:30,Dynamo Dresden,2,2,Wuerzburger Kickers,Sep 25 2016
+19:15,Union Berlin,2,0,St. Pauli,Sep 26 2016
+17:30,Nuernberg,2,0,Union Berlin,Sep 30 2016
+17:30,Sandhausen,2,0,Dynamo Dresden,Sep 30 2016
+17:30,Erzgebirge Aue,2,4,Bochum,Sep 30 2016
+17:30,Karlsruher SC,3,0,Sandhausen,Mei 2 2016
+14:30,Freiburg,2,0,FC Heidenheim,Mei 8 2016
+14:30,Kaiserslautern,3,1,Greuther Fuerth,Mei 8 2016
+14:30,RasenBallsport Leipzig,2,0,Karlsruher SC,Mei 8 2016
+14:30,Nuernberg,1,0,St. Pauli,Mei 8 2016
+14:30,Fortuna Duesseldorf,1,0,FSV Frankfurt,Mei 8 2016
+14:30,Bochum,2,3,Eintracht Braunschweig,Mei 8 2016
+14:30,1860 Muenchen,1,0,Paderborn,Mei 8 2016
+14:30,Sandhausen,2,2,Duisburg,Mei 8 2016
+14:30,Arminia Bielefeld,2,0,Union Berlin,Mei 8 2016
+14:30,Paderborn,0,1,Nuernberg,Mei 15 2016
+14:30,Karlsruher SC,1,1,Arminia Bielefeld,Mei 15 2016
+14:30,Eintracht Braunschweig,0,2,Fortuna Duesseldorf,Mei 15 2016
+14:30,Union Berlin,2,1,Freiburg,Mei 15 2016
+14:30,Greuther Fuerth,3,1,Sandhausen,Mei 15 2016
+14:30,St. Pauli,5,2,Kaiserslautern,Mei 15 2016
+14:30,FC Heidenheim,2,4,Bochum,Mei 15 2016
+14:30,FSV Frankfurt,2,1,1860 Muenchen,Mei 15 2016
+14:30,Duisburg,1,0,RasenBallsport Leipzig,Mei 15 2016
+17:30,Eintracht Braunschweig,2,1,Paderborn,Apr 1 2016
+17:30,St. Pauli,0,0,Union Berlin,Apr 1 2016
+17:30,Duisburg,0,2,FC Heidenheim,Apr 1 2016
+12:00,Arminia Bielefeld,0,0,Fortuna Duesseldorf,Apr 2 2016
+12:00,RasenBallsport Leipzig,3,1,Bochum,Apr 2 2016
+12:30,Kaiserslautern,2,0,Sandhausen,Apr 3 2016
+12:30,FSV Frankfurt,0,3,Nuernberg,Apr 3 2016
+12:30,Karlsruher SC,3,1,1860 Muenchen,Apr 3 2016
+19:15,Greuther Fuerth,2,3,Freiburg,Apr 4 2016
+17:30,Paderborn,0,4,Union Berlin,Apr 8 2016
+17:30,1860 Muenchen,0,1,Greuther Fuerth,Apr 8 2016
+17:30,FC Heidenheim,2,2,Eintracht Braunschweig,Apr 8 2016
+12:00,Sandhausen,1,4,Arminia Bielefeld,Apr 9 2016
+12:00,Bochum,4,1,FSV Frankfurt,Apr 9 2016
+12:30,Nuernberg,1,2,Duisburg,Apr 10 2016
+12:30,Kaiserslautern,0,0,Karlsruher SC,Apr 10 2016
+12:30,Freiburg,4,3,St. Pauli,Apr 10 2016
+19:15,Fortuna Duesseldorf,1,3,RasenBallsport Leipzig,Apr 11 2016
+17:30,Duisburg,2,1,1860 Muenchen,Apr 15 2016
+17:30,FSV Frankfurt,0,2,Paderborn,Apr 15 2016
+17:30,RasenBallsport Leipzig,0,1,Sandhausen,Apr 15 2016
+12:00,Karlsruher SC,2,1,Nuernberg,Apr 16 2016
+12:00,St. Pauli,2,0,Bochum,Apr 16 2016
+12:30,Greuther Fuerth,3,1,Fortuna Duesseldorf,Apr 17 2016
+12:30,Union Berlin,1,0,FC Heidenheim,Apr 17 2016
+12:30,Arminia Bielefeld,0,1,Kaiserslautern,Apr 17 2016
+19:15,Eintracht Braunschweig,2,2,Freiburg,Apr 18 2016
+17:30,Freiburg,3,0,Duisburg,Apr 22 2016
+17:30,Fortuna Duesseldorf,1,1,St. Pauli,Apr 22 2016
+17:30,Bochum,1,1,Karlsruher SC,Apr 22 2016
+12:00,Nuernberg,6,2,Union Berlin,Apr 23 2016
+12:00,FC Heidenheim,1,1,Paderborn,Apr 23 2016
+12:30,Sandhausen,1,0,FSV Frankfurt,Apr 24 2016
+12:30,Arminia Bielefeld,4,2,Greuther Fuerth,Apr 24 2016
+12:30,1860 Muenchen,1,0,Eintracht Braunschweig,Apr 24 2016
+19:15,Kaiserslautern,1,1,RasenBallsport Leipzig,Apr 25 2016
+17:30,Duisburg,2,1,Fortuna Duesseldorf,Apr 29 2016
+17:30,Union Berlin,1,0,Bochum,Apr 29 2016
+17:30,St. Pauli,0,2,1860 Muenchen,Apr 29 2016
+17:30,FSV Frankfurt,1,4,Kaiserslautern,Apr 29 2016
+17:30,Paderborn,1,2,Freiburg,Apr 29 2016
+17:30,RasenBallsport Leipzig,1,1,Arminia Bielefeld,Apr 29 2016
+12:00,Eintracht Braunschweig,3,1,Nuernberg,Apr 30 2016
+12:00,Greuther Fuerth,0,2,FC Heidenheim,Apr 30 2016
+16:30,Karlsruher SC,0,0,Paderborn,Mac 1 2016
+16:30,Kaiserslautern,0,1,1860 Muenchen,Mac 1 2016
+16:30,Fortuna Duesseldorf,1,3,Bochum,Mac 1 2016
+16:30,Greuther Fuerth,2,0,Union Berlin,Mac 1 2016
+16:30,Sandhausen,0,2,Nuernberg,Mac 1 2016
+16:30,FSV Frankfurt,3,3,Duisburg,Mac 2 2016
+16:30,Arminia Bielefeld,1,4,Freiburg,Mac 2 2016
+16:30,RasenBallsport Leipzig,3,1,FC Heidenheim,Mac 2 2016
+19:15,St. Pauli,1,0,Eintracht Braunschweig,Mac 3 2016
+17:30,1860 Muenchen,3,2,Sandhausen,Mac 4 2016
+17:30,Fortuna Duesseldorf,0,1,Karlsruher SC,Mac 4 2016
+19:30,Nuernberg,2,1,Kaiserslautern,Mac 4 2016
+12:00,Paderborn,1,1,Greuther Fuerth,Mac 5 2016
+12:00,Union Berlin,4,0,FSV Frankfurt,Mac 5 2016
+12:30,Eintracht Braunschweig,1,1,Duisburg,Mac 6 2016
+12:30,FC Heidenheim,2,0,St. Pauli,Mac 6 2016
+12:30,Bochum,2,2,Arminia Bielefeld,Mac 6 2016
+19:15,Freiburg,2,1,RasenBallsport Leipzig,Mac 7 2016
+17:30,Greuther Fuerth,3,0,Eintracht Braunschweig,Mac 11 2016
+17:30,St. Pauli,3,4,Paderborn,Mac 11 2016
+17:30,Arminia Bielefeld,0,4,Nuernberg,Mac 11 2016
+12:00,Sandhausen,1,0,Fortuna Duesseldorf,Mac 12 2016
+12:00,Duisburg,2,1,Union Berlin,Mac 12 2016
+12:30,FSV Frankfurt,1,3,Freiburg,Mac 13 2016
+12:30,RasenBallsport Leipzig,2,1,1860 Muenchen,Mac 13 2016
+12:30,Karlsruher SC,0,0,FC Heidenheim,Mac 13 2016
+19:15,Kaiserslautern,0,2,Bochum,Mac 14 2016
+17:30,Paderborn,0,0,Duisburg,Mac 18 2016
+17:30,Union Berlin,3,1,Eintracht Braunschweig,Mac 18 2016
+17:30,FC Heidenheim,2,2,FSV Frankfurt,Mac 18 2016
+12:00,Sandhausen,0,2,St. Pauli,Mac 19 2016
+12:00,Fortuna Duesseldorf,4,3,Kaiserslautern,Mac 19 2016
+12:30,Bochum,2,2,Greuther Fuerth,Mac 20 2016
+12:30,1860 Muenchen,1,1,Arminia Bielefeld,Mac 20 2016
+12:30,Nuernberg,3,1,RasenBallsport Leipzig,Mac 20 2016
+19:15,Freiburg,1,0,Karlsruher SC,Mac 21 2016
+17:30,Kaiserslautern,2,2,Union Berlin,Feb 5 2016
+17:30,Bochum,2,0,Freiburg,Feb 5 2016
+17:30,Sandhausen,1,0,Paderborn,Feb 5 2016
+12:00,1860 Muenchen,0,1,Nuernberg,Feb 6 2016
+12:00,Fortuna Duesseldorf,0,1,FC Heidenheim,Feb 6 2016
+12:30,Karlsruher SC,1,1,FSV Frankfurt,Feb 7 2016
+12:30,RasenBallsport Leipzig,2,0,Eintracht Braunschweig,Feb 7 2016
+12:30,Greuther Fuerth,0,2,St. Pauli,Feb 7 2016
+19:15,Arminia Bielefeld,2,1,Duisburg,Feb 8 2016
+17:30,Paderborn,0,4,Kaiserslautern,Feb 12 2016
+17:30,St. Pauli,1,0,RasenBallsport Leipzig,Feb 12 2016
+17:30,FSV Frankfurt,1,2,Greuther Fuerth,Feb 12 2016
+12:00,Duisburg,0,1,Karlsruher SC,Feb 13 2016
+12:00,FC Heidenheim,1,1,Sandhausen,Feb 13 2016
+12:30,Eintracht Braunschweig,1,0,Arminia Bielefeld,Feb 14 2016
+12:30,Freiburg,1,2,Fortuna Duesseldorf,Feb 14 2016
+12:30,Union Berlin,3,0,1860 Muenchen,Feb 14 2016
+19:15,Nuernberg,1,1,Bochum,Feb 15 2016
+17:30,Greuther Fuerth,1,1,Duisburg,Feb 19 2016
+17:30,St. Pauli,1,3,FSV Frankfurt,Feb 19 2016
+17:30,RasenBallsport Leipzig,3,0,Union Berlin,Feb 19 2016
+12:00,Karlsruher SC,2,2,Eintracht Braunschweig,Feb 20 2016
+12:00,Kaiserslautern,2,2,FC Heidenheim,Feb 20 2016
+12:30,1860 Muenchen,1,1,Bochum,Feb 21 2016
+12:30,Sandhausen,0,2,Freiburg,Feb 21 2016
+12:30,Arminia Bielefeld,1,1,Paderborn,Feb 21 2016
+19:15,Fortuna Duesseldorf,1,1,Nuernberg,Feb 22 2016
+17:30,Paderborn,0,1,RasenBallsport Leipzig,Feb 26 2016
+17:30,Union Berlin,2,1,Karlsruher SC,Feb 26 2016
+17:45,Nuernberg,2,1,Greuther Fuerth,Feb 26 2016
+12:00,1860 Muenchen,3,2,Fortuna Duesseldorf,Feb 27 2016
+12:00,Bochum,3,2,Sandhausen,Feb 27 2016
+12:00,Freiburg,2,0,Kaiserslautern,Feb 27 2016
+12:30,Eintracht Braunschweig,0,0,FSV Frankfurt,Feb 28 2016
+12:30,FC Heidenheim,3,2,Arminia Bielefeld,Feb 28 2016
+12:30,Duisburg,0,2,St. Pauli,Feb 28 2016
+17:30,Sandhausen,1,1,Greuther Fuerth,Des 4 2015
+17:30,Nuernberg,2,1,Paderborn,Des 4 2015
+17:30,1860 Muenchen,0,1,FSV Frankfurt,Des 4 2015
+12:00,Freiburg,3,0,Union Berlin,Des 5 2015
+12:00,Arminia Bielefeld,2,1,Karlsruher SC,Des 5 2015
+12:30,Kaiserslautern,1,2,St. Pauli,Des 6 2015
+12:30,RasenBallsport Leipzig,4,2,Duisburg,Des 6 2015
+12:30,Bochum,1,1,FC Heidenheim,Des 6 2015
+19:15,Fortuna Duesseldorf,1,0,Eintracht Braunschweig,Des 7 2015
+17:30,Bochum,4,0,Paderborn,Des 11 2015
+17:30,1860 Muenchen,1,3,FC Heidenheim,Des 11 2015
+17:30,Sandhausen,0,2,Eintracht Braunschweig,Des 11 2015
+12:00,Fortuna Duesseldorf,0,3,Union Berlin,Des 12 2015
+12:00,Karlsruher SC,1,0,Greuther Fuerth,Des 12 2015
+12:30,Kaiserslautern,2,0,Duisburg,Des 13 2015
+12:30,RasenBallsport Leipzig,3,1,FSV Frankfurt,Des 13 2015
+12:30,Nuernberg,2,1,Freiburg,Des 13 2015
+19:15,Arminia Bielefeld,0,0,St. Pauli,Des 14 2015
+17:30,Union Berlin,1,0,Sandhausen,Des 18 2015
+17:30,St. Pauli,1,2,Karlsruher SC,Des 18 2015
+17:30,FSV Frankfurt,1,2,Arminia Bielefeld,Des 18 2015
+12:00,FC Heidenheim,0,3,Nuernberg,Des 19 2015
+12:00,Greuther Fuerth,1,2,RasenBallsport Leipzig,Des 19 2015
+12:30,Eintracht Braunschweig,1,1,Kaiserslautern,Des 20 2015
+12:30,Freiburg,3,0,1860 Muenchen,Des 20 2015
+12:30,Duisburg,0,0,Bochum,Des 20 2015
+19:00,Paderborn,0,0,Fortuna Duesseldorf,Des 21 2015
+12:30,Sandhausen,1,2,RasenBallsport Leipzig,Nov 1 2015
+12:30,1860 Muenchen,1,0,Duisburg,Nov 1 2015
+12:30,Freiburg,2,2,Eintracht Braunschweig,Nov 1 2015
+19:15,Nuernberg,0,0,Karlsruher SC,Nov 2 2015
+17:30,Karlsruher SC,3,0,Bochum,Nov 6 2015
+17:30,Greuther Fuerth,0,0,Arminia Bielefeld,Nov 6 2015
+17:30,FSV Frankfurt,0,1,Sandhausen,Nov 6 2015
+12:00,Duisburg,1,1,Freiburg,Nov 7 2015
+12:00,Union Berlin,3,3,Nuernberg,Nov 7 2015
+12:30,RasenBallsport Leipzig,0,2,Kaiserslautern,Nov 8 2015
+12:30,Eintracht Braunschweig,0,0,1860 Muenchen,Nov 8 2015
+12:30,Paderborn,1,1,FC Heidenheim,Nov 8 2015
+19:15,St. Pauli,4,0,Fortuna Duesseldorf,Nov 9 2015
+17:30,Sandhausen,3,1,Karlsruher SC,Nov 20 2015
+17:30,Fortuna Duesseldorf,1,1,Duisburg,Nov 20 2015
+17:30,Bochum,1,1,Union Berlin,Nov 20 2015
+12:00,1860 Muenchen,2,0,St. Pauli,Nov 21 2015
+12:00,Arminia Bielefeld,0,1,RasenBallsport Leipzig,Nov 21 2015
+12:30,Freiburg,4,1,Paderborn,Nov 22 2015
+12:30,Kaiserslautern,1,1,FSV Frankfurt,Nov 22 2015
+12:30,FC Heidenheim,1,2,Greuther Fuerth,Nov 22 2015
+19:15,Nuernberg,2,1,Eintracht Braunschweig,Nov 23 2015
+17:30,Greuther Fuerth,2,4,Kaiserslautern,Nov 27 2015
+17:30,FC Heidenheim,1,2,Freiburg,Nov 27 2015
+17:40,Eintracht Braunschweig,1,0,Bochum,Nov 27 2015
+12:00,Union Berlin,1,1,Arminia Bielefeld,Nov 28 2015
+12:00,Paderborn,4,4,1860 Muenchen,Nov 28 2015
+12:30,St. Pauli,0,4,Nuernberg,Nov 29 2015
+12:30,FSV Frankfurt,1,2,Fortuna Duesseldorf,Nov 29 2015
+12:30,Duisburg,3,0,Sandhausen,Nov 29 2015
+19:15,Karlsruher SC,0,1,RasenBallsport Leipzig,Nov 30 2015
+17:30,Kaiserslautern,3,0,Fortuna Duesseldorf,Okt 2 2015
+17:30,FSV Frankfurt,0,4,FC Heidenheim,Okt 2 2015
+17:30,Arminia Bielefeld,1,1,1860 Muenchen,Okt 2 2015
+12:00,Greuther Fuerth,0,5,Bochum,Okt 3 2015
+12:00,St. Pauli,1,3,Sandhausen,Okt 3 2015
+12:30,RasenBallsport Leipzig,3,2,Nuernberg,Okt 4 2015
+12:30,Eintracht Braunschweig,2,1,Union Berlin,Okt 4 2015
+12:30,Karlsruher SC,1,1,Freiburg,Okt 4 2015
+19:15,Duisburg,1,0,Paderborn,Okt 5 2015
+17:30,Fortuna Duesseldorf,1,0,Arminia Bielefeld,Okt 16 2015
+17:30,Paderborn,2,0,Eintracht Braunschweig,Okt 16 2015
+17:30,Sandhausen,1,0,Kaiserslautern,Okt 16 2015
+12:00,Nuernberg,1,1,FSV Frankfurt,Okt 17 2015
+12:00,Union Berlin,3,3,St. Pauli,Okt 17 2015
+12:30,Bochum,0,1,RasenBallsport Leipzig,Okt 18 2015
+12:30,FC Heidenheim,1,0,Duisburg,Okt 18 2015
+12:30,Freiburg,5,2,Greuther Fuerth,Okt 18 2015
+19:15,1860 Muenchen,0,1,Karlsruher SC,Okt 19 2015
+17:30,Greuther Fuerth,1,0,1860 Muenchen,Okt 23 2015
+17:30,FSV Frankfurt,3,2,Bochum,Okt 23 2015
+17:30,RasenBallsport Leipzig,2,1,Fortuna Duesseldorf,Okt 23 2015
+12:00,Karlsruher SC,2,0,Kaiserslautern,Okt 24 2015
+12:00,Union Berlin,0,2,Paderborn,Okt 24 2015
+12:00,Duisburg,0,0,Nuernberg,Okt 24 2015
+12:30,Arminia Bielefeld,0,0,Sandhausen,Okt 25 2015
+12:30,Eintracht Braunschweig,1,0,FC Heidenheim,Okt 25 2015
+12:30,St. Pauli,1,0,Freiburg,Okt 25 2015
+17:30,Kaiserslautern,0,2,Arminia Bielefeld,Okt 30 2015
+17:30,Bochum,1,1,St. Pauli,Okt 30 2015
+17:30,Fortuna Duesseldorf,1,0,Greuther Fuerth,Okt 30 2015
+12:00,FC Heidenheim,0,2,Union Berlin,Okt 31 2015
+12:00,Paderborn,1,1,FSV Frankfurt,Okt 31 2015
+17:30,Kaiserslautern,0,2,Freiburg,Sep 11 2015
+17:30,RasenBallsport Leipzig,2,0,Paderborn,Sep 11 2015
+17:30,Sandhausen,1,1,Bochum,Sep 11 2015
+12:00,Arminia Bielefeld,0,0,FC Heidenheim,Sep 12 2015
+12:00,Karlsruher SC,0,3,Union Berlin,Sep 12 2015
+12:30,Fortuna Duesseldorf,3,0,1860 Muenchen,Sep 13 2015
+12:30,Greuther Fuerth,3,2,Nuernberg,Sep 13 2015
+12:30,FSV Frankfurt,0,3,Eintracht Braunschweig,Sep 13 2015
+19:15,St. Pauli,2,0,Duisburg,Sep 14 2015
+17:30,Bochum,1,1,Fortuna Duesseldorf,Sep 18 2015
+17:30,Freiburg,2,2,Arminia Bielefeld,Sep 18 2015
+17:30,FC Heidenheim,1,1,RasenBallsport Leipzig,Sep 18 2015
+12:00,Paderborn,2,0,Karlsruher SC,Sep 19 2015
+12:00,Nuernberg,2,0,Sandhausen,Sep 19 2015
+12:00,1860 Muenchen,1,1,Kaiserslautern,Sep 19 2015
+12:30,Union Berlin,1,2,Greuther Fuerth,Sep 20 2015
+12:30,Eintracht Braunschweig,0,0,St. Pauli,Sep 20 2015
+12:30,Duisburg,0,1,FSV Frankfurt,Sep 20 2015
+16:30,Karlsruher SC,1,1,Fortuna Duesseldorf,Sep 22 2015
+16:30,Kaiserslautern,0,3,Nuernberg,Sep 22 2015
+16:30,Arminia Bielefeld,1,1,Bochum,Sep 22 2015
+16:30,Sandhausen,1,1,1860 Muenchen,Sep 22 2015
+16:30,FSV Frankfurt,3,2,Union Berlin,Sep 23 2015
+16:30,Greuther Fuerth,3,0,Paderborn,Sep 23 2015
+16:30,St. Pauli,1,0,FC Heidenheim,Sep 23 2015
+16:30,Duisburg,0,5,Eintracht Braunschweig,Sep 23 2015
+19:15,RasenBallsport Leipzig,1,1,Freiburg,Sep 24 2015
+17:30,Nuernberg,2,2,Arminia Bielefeld,Sep 25 2015
+17:30,Fortuna Duesseldorf,0,1,Sandhausen,Sep 25 2015
+17:30,Bochum,1,2,Kaiserslautern,Sep 25 2015
+12:00,Union Berlin,3,2,Duisburg,Sep 26 2015
+12:00,Paderborn,0,0,St. Pauli,Sep 26 2015
+12:30,Freiburg,2,0,FSV Frankfurt,Sep 27 2015
+12:30,1860 Muenchen,2,2,RasenBallsport Leipzig,Sep 27 2015
+12:30,FC Heidenheim,1,1,Karlsruher SC,Sep 27 2015
+19:15,Eintracht Braunschweig,0,1,Greuther Fuerth,Sep 28 2015
+12:00,Bochum,3,0,Duisburg,Ago 1 2015
+14:30,1860 Muenchen,0,1,Freiburg,Ago 1 2015
+12:30,Fortuna Duesseldorf,1,2,Paderborn,Ago 2 2015
+14:30,Sandhausen,4,3,Union Berlin,Ago 2 2015
+14:30,Karlsruher SC,1,2,St. Pauli,Ago 2 2015
+19:15,RasenBallsport Leipzig,2,2,Greuther Fuerth,Ago 3 2015
+17:30,Paderborn,0,6,Sandhausen,Ago 14 2015
+17:30,FC Heidenheim,1,0,Fortuna Duesseldorf,Ago 14 2015
+17:30,FSV Frankfurt,1,2,Karlsruher SC,Ago 14 2015
+12:00,Eintracht Braunschweig,0,2,RasenBallsport Leipzig,Ago 15 2015
+12:00,Freiburg,1,3,Bochum,Ago 15 2015
+12:30,Union Berlin,2,2,Kaiserslautern,Ago 16 2015
+12:30,St. Pauli,3,2,Greuther Fuerth,Ago 16 2015
+12:30,Duisburg,2,2,Arminia Bielefeld,Ago 16 2015
+19:15,Nuernberg,2,2,1860 Muenchen,Ago 17 2015
+17:30,Arminia Bielefeld,0,2,Eintracht Braunschweig,Ago 21 2015
+17:30,Sandhausen,0,0,FC Heidenheim,Ago 21 2015
+17:30,Greuther Fuerth,0,2,FSV Frankfurt,Ago 21 2015
+12:00,Fortuna Duesseldorf,1,2,Freiburg,Ago 22 2015
+12:00,Karlsruher SC,2,0,Duisburg,Ago 22 2015
+12:30,RasenBallsport Leipzig,0,1,St. Pauli,Ago 23 2015
+12:30,Bochum,2,1,Nuernberg,Ago 23 2015
+12:30,1860 Muenchen,0,0,Union Berlin,Ago 23 2015
+19:15,Kaiserslautern,1,0,Paderborn,Ago 24 2015
+17:30,Freiburg,4,1,Sandhausen,Ago 28 2015
+17:30,Union Berlin,1,1,RasenBallsport Leipzig,Ago 28 2015
+17:30,FC Heidenheim,3,1,Kaiserslautern,Ago 28 2015
+12:00,Duisburg,2,2,Greuther Fuerth,Ago 29 2015
+12:00,Paderborn,1,2,Arminia Bielefeld,Ago 29 2015
+12:30,Eintracht Braunschweig,6,0,Karlsruher SC,Ago 30 2015
+12:30,Nuernberg,1,0,Fortuna Duesseldorf,Ago 30 2015
+12:30,FSV Frankfurt,1,0,St. Pauli,Ago 30 2015
+19:15,Bochum,1,0,1860 Muenchen,Ago 31 2015
