@@ -1,0 +1,1682 @@
+Time,TeamHome,ResultTeamHome,ResultTeamAway,TeamAway,Date
+11:00,Sevilla,3,2,Osasuna,Mac 1 2020
+13:00,Athletic Bilbao,1,0,Villarreal,Mac 1 2020
+15:00,Espanyol,1,1,Atletico Madrid,Mac 1 2020
+17:30,Mallorca,0,1,Getafe,Mac 1 2020
+20:00,Real Madrid,2,0,Barcelona,Mac 1 2020
+20:00,Deportivo Alaves,1,1,Valencia,Mac 6 2020
+12:00,Eibar,1,2,Mallorca,Mac 7 2020
+15:00,Atletico Madrid,2,2,Sevilla,Mac 7 2020
+17:30,Barcelona,1,0,Real Sociedad,Mac 7 2020
+20:00,Getafe,0,0,Celta Vigo,Mac 7 2020
+11:00,Osasuna,1,0,Espanyol,Mac 8 2020
+13:00,Real Valladolid,1,4,Athletic Bilbao,Mac 8 2020
+15:00,Levante,1,1,Granada,Mac 8 2020
+17:30,Villarreal,1,2,Leganes,Mac 8 2020
+20:00,Real Betis,2,1,Real Madrid,Mac 8 2020
+19:00,Eibar,1,2,Real Sociedad,Mac 10 2020
+12:00,Granada,2,1,Espanyol,Feb 1 2020
+15:00,Real Madrid,1,0,Atletico Madrid,Feb 1 2020
+17:30,Mallorca,0,1,Real Valladolid,Feb 1 2020
+20:00,Valencia,1,0,Celta Vigo,Feb 1 2020
+11:00,Leganes,2,1,Real Sociedad,Feb 2 2020
+13:00,Eibar,1,1,Real Betis,Feb 2 2020
+15:00,Athletic Bilbao,0,2,Getafe,Feb 2 2020
+17:30,Sevilla,1,1,Deportivo Alaves,Feb 2 2020
+17:30,Villarreal,3,1,Osasuna,Feb 2 2020
+20:00,Barcelona,2,1,Levante,Feb 2 2020
+20:00,Deportivo Alaves,2,1,Eibar,Feb 7 2020
+12:00,Levante,2,0,Leganes,Feb 8 2020
+15:00,Getafe,3,0,Valencia,Feb 8 2020
+17:30,Real Valladolid,1,1,Villarreal,Feb 8 2020
+20:00,Atletico Madrid,1,0,Granada,Feb 8 2020
+11:00,Espanyol,1,0,Mallorca,Feb 9 2020
+13:00,Real Sociedad,2,1,Athletic Bilbao,Feb 9 2020
+15:00,Osasuna,1,4,Real Madrid,Feb 9 2020
+17:30,Celta Vigo,2,1,Sevilla,Feb 9 2020
+20:00,Real Betis,2,3,Barcelona,Feb 9 2020
+20:00,Valencia,2,2,Atletico Madrid,Feb 14 2020
+12:00,Mallorca,1,0,Deportivo Alaves,Feb 15 2020
+15:00,Barcelona,2,1,Getafe,Feb 15 2020
+17:30,Villarreal,2,1,Levante,Feb 15 2020
+20:00,Granada,2,1,Real Valladolid,Feb 15 2020
+11:00,Sevilla,2,2,Espanyol,Feb 16 2020
+13:00,Leganes,0,0,Real Betis,Feb 16 2020
+17:30,Athletic Bilbao,0,1,Osasuna,Feb 16 2020
+20:00,Real Madrid,2,2,Celta Vigo,Feb 16 2020
+20:00,Real Betis,3,3,Mallorca,Feb 21 2020
+12:00,Celta Vigo,1,0,Leganes,Feb 22 2020
+15:00,Barcelona,5,0,Eibar,Feb 22 2020
+17:30,Real Sociedad,3,0,Valencia,Feb 22 2020
+20:00,Levante,1,0,Real Madrid,Feb 22 2020
+11:00,Osasuna,0,3,Granada,Feb 23 2020
+13:00,Deportivo Alaves,2,1,Athletic Bilbao,Feb 23 2020
+15:00,Real Valladolid,2,1,Espanyol,Feb 23 2020
+17:30,Getafe,0,3,Sevilla,Feb 23 2020
+20:00,Atletico Madrid,3,1,Villarreal,Feb 23 2020
+20:00,Real Sociedad,1,0,Real Valladolid,Feb 28 2020
+12:00,Eibar,3,0,Levante,Feb 29 2020
+15:00,Valencia,2,1,Real Betis,Feb 29 2020
+17:30,Leganes,1,1,Deportivo Alaves,Feb 29 2020
+20:00,Granada,0,0,Celta Vigo,Feb 29 2020
+18:00,Real Valladolid,2,2,Leganes,Jan 3 2020
+20:00,Sevilla,1,1,Athletic Bilbao,Jan 3 2020
+12:00,Valencia,1,0,Eibar,Jan 4 2020
+15:00,Getafe,0,3,Real Madrid,Jan 4 2020
+17:30,Atletico Madrid,2,1,Levante,Jan 4 2020
+20:00,Espanyol,2,2,Barcelona,Jan 4 2020
+11:00,Granada,1,0,Mallorca,Jan 5 2020
+13:00,Real Sociedad,1,2,Villarreal,Jan 5 2020
+15:00,Deportivo Alaves,1,1,Real Betis,Jan 5 2020
+20:00,Celta Vigo,1,1,Osasuna,Jan 5 2020
+20:00,Leganes,0,3,Getafe,Jan 17 2020
+12:00,Levante,0,1,Deportivo Alaves,Jan 18 2020
+15:00,Real Madrid,2,1,Sevilla,Jan 18 2020
+17:30,Osasuna,0,0,Real Valladolid,Jan 18 2020
+20:00,Eibar,2,0,Atletico Madrid,Jan 18 2020
+11:00,Mallorca,4,1,Valencia,Jan 19 2020
+13:00,Real Betis,3,0,Real Sociedad,Jan 19 2020
+15:00,Villarreal,1,2,Espanyol,Jan 19 2020
+17:30,Athletic Bilbao,1,1,Celta Vigo,Jan 19 2020
+20:00,Barcelona,1,0,Granada,Jan 19 2020
+20:00,Osasuna,2,0,Levante,Jan 24 2020
+12:00,Espanyol,1,1,Athletic Bilbao,Jan 25 2020
+15:00,Valencia,2,0,Barcelona,Jan 25 2020
+17:30,Deportivo Alaves,1,2,Villarreal,Jan 25 2020
+20:00,Sevilla,2,0,Granada,Jan 25 2020
+11:00,Atletico Madrid,0,0,Leganes,Jan 26 2020
+13:00,Celta Vigo,0,0,Eibar,Jan 26 2020
+15:00,Getafe,1,0,Real Betis,Jan 26 2020
+17:30,Real Sociedad,3,0,Mallorca,Jan 26 2020
+20:00,Real Valladolid,0,1,Real Madrid,Jan 26 2020
+11:00,Sevilla,1,0,Leganes,Des 1 2019
+13:00,Athletic Bilbao,2,0,Granada,Des 1 2019
+15:00,Espanyol,2,4,Osasuna,Des 1 2019
+17:30,Getafe,4,0,Levante,Des 1 2019
+20:00,Atletico Madrid,0,1,Barcelona,Des 1 2019
+20:00,Villarreal,0,0,Atletico Madrid,Des 6 2019
+12:00,Real Madrid,2,0,Espanyol,Des 7 2019
+15:00,Granada,3,0,Deportivo Alaves,Des 7 2019
+17:30,Levante,2,4,Valencia,Des 7 2019
+20:00,Barcelona,5,2,Mallorca,Des 7 2019
+11:00,Eibar,0,1,Getafe,Des 8 2019
+13:00,Real Betis,3,2,Athletic Bilbao,Des 8 2019
+15:00,Real Valladolid,0,0,Real Sociedad,Des 8 2019
+17:30,Leganes,3,2,Celta Vigo,Des 8 2019
+20:00,Osasuna,1,1,Sevilla,Des 8 2019
+20:00,Deportivo Alaves,1,1,Leganes,Des 13 2019
+12:00,Granada,1,2,Levante,Des 14 2019
+15:00,Real Sociedad,2,2,Barcelona,Des 14 2019
+17:30,Athletic Bilbao,0,0,Eibar,Des 14 2019
+20:00,Atletico Madrid,2,0,Osasuna,Des 14 2019
+11:00,Getafe,2,0,Real Valladolid,Des 15 2019
+13:00,Celta Vigo,2,2,Mallorca,Des 15 2019
+15:00,Espanyol,2,2,Real Betis,Des 15 2019
+17:30,Sevilla,1,2,Villarreal,Des 15 2019
+20:00,Valencia,1,1,Real Madrid,Des 15 2019
+19:00,Barcelona,0,0,Real Madrid,Des 18 2019
+20:00,Eibar,3,0,Granada,Des 20 2019
+12:00,Mallorca,0,2,Sevilla,Des 21 2019
+15:00,Barcelona,4,1,Deportivo Alaves,Des 21 2019
+17:30,Villarreal,1,0,Getafe,Des 21 2019
+20:00,Real Valladolid,1,1,Valencia,Des 21 2019
+11:00,Leganes,2,0,Espanyol,Des 22 2019
+13:00,Osasuna,3,4,Real Sociedad,Des 22 2019
+15:00,Real Betis,1,2,Atletico Madrid,Des 22 2019
+17:30,Levante,3,1,Celta Vigo,Des 22 2019
+20:00,Real Madrid,0,0,Athletic Bilbao,Des 22 2019
+12:00,Espanyol,1,2,Valencia,Nov 2 2019
+15:00,Levante,3,1,Barcelona,Nov 2 2019
+17:30,Sevilla,1,1,Atletico Madrid,Nov 2 2019
+20:00,Real Madrid,0,0,Real Betis,Nov 2 2019
+11:00,Real Valladolid,3,0,Mallorca,Nov 3 2019
+13:00,Villarreal,0,0,Athletic Bilbao,Nov 3 2019
+15:00,Osasuna,4,2,Deportivo Alaves,Nov 3 2019
+17:30,Celta Vigo,0,1,Getafe,Nov 3 2019
+17:30,Leganes,1,2,Eibar,Nov 3 2019
+20:00,Granada,1,2,Real Sociedad,Nov 3 2019
+20:00,Real Sociedad,1,1,Leganes,Nov 8 2019
+12:00,Deportivo Alaves,3,0,Real Valladolid,Nov 9 2019
+15:00,Valencia,2,0,Granada,Nov 9 2019
+17:30,Eibar,0,4,Real Madrid,Nov 9 2019
+20:00,Barcelona,4,1,Celta Vigo,Nov 9 2019
+11:00,Mallorca,3,1,Villarreal,Nov 10 2019
+13:00,Athletic Bilbao,2,1,Levante,Nov 10 2019
+15:00,Atletico Madrid,3,1,Espanyol,Nov 10 2019
+17:30,Getafe,0,0,Osasuna,Nov 10 2019
+20:00,Real Betis,1,2,Sevilla,Nov 10 2019
+20:00,Levante,2,1,Mallorca,Nov 22 2019
+12:00,Leganes,1,2,Barcelona,Nov 23 2019
+15:00,Real Betis,2,1,Valencia,Nov 23 2019
+17:30,Granada,1,1,Atletico Madrid,Nov 23 2019
+20:00,Real Madrid,3,1,Real Sociedad,Nov 23 2019
+11:00,Espanyol,1,1,Getafe,Nov 24 2019
+13:00,Osasuna,1,2,Athletic Bilbao,Nov 24 2019
+15:00,Eibar,0,2,Deportivo Alaves,Nov 24 2019
+17:30,Villarreal,1,3,Celta Vigo,Nov 24 2019
+20:00,Real Valladolid,0,1,Sevilla,Nov 24 2019
+20:00,Celta Vigo,0,0,Real Valladolid,Nov 29 2019
+12:00,Deportivo Alaves,1,2,Real Madrid,Nov 30 2019
+15:00,Real Sociedad,4,1,Eibar,Nov 30 2019
+17:30,Mallorca,1,2,Real Betis,Nov 30 2019
+20:00,Valencia,2,1,Villarreal,Nov 30 2019
+20:00,Real Betis,1,1,Eibar,Okt 4 2019
+12:00,Leganes,1,2,Levante,Okt 5 2019
+15:00,Real Madrid,4,2,Granada,Okt 5 2019
+17:30,Valencia,2,1,Deportivo Alaves,Okt 5 2019
+20:00,Osasuna,2,1,Villarreal,Okt 5 2019
+11:00,Mallorca,2,0,Espanyol,Okt 6 2019
+13:00,Celta Vigo,1,0,Athletic Bilbao,Okt 6 2019
+15:00,Real Valladolid,0,0,Atletico Madrid,Okt 6 2019
+17:30,Real Sociedad,1,2,Getafe,Okt 6 2019
+20:00,Barcelona,4,0,Sevilla,Okt 6 2019
+20:00,Granada,1,0,Osasuna,Okt 18 2019
+12:00,Eibar,0,3,Barcelona,Okt 19 2019
+15:00,Atletico Madrid,1,1,Valencia,Okt 19 2019
+17:30,Getafe,2,0,Leganes,Okt 19 2019
+20:00,Mallorca,1,0,Real Madrid,Okt 19 2019
+11:00,Deportivo Alaves,2,0,Celta Vigo,Okt 20 2019
+13:00,Real Sociedad,3,1,Real Betis,Okt 20 2019
+15:00,Espanyol,0,1,Villarreal,Okt 20 2019
+17:30,Athletic Bilbao,1,1,Real Valladolid,Okt 20 2019
+20:00,Sevilla,1,0,Levante,Okt 20 2019
+20:00,Villarreal,4,1,Deportivo Alaves,Okt 25 2019
+15:00,Leganes,1,0,Mallorca,Okt 26 2019
+17:30,Real Valladolid,2,0,Eibar,Okt 26 2019
+20:00,Atletico Madrid,2,0,Athletic Bilbao,Okt 26 2019
+11:00,Celta Vigo,0,1,Real Sociedad,Okt 27 2019
+13:00,Granada,1,0,Real Betis,Okt 27 2019
+15:00,Levante,0,1,Espanyol,Okt 27 2019
+17:30,Sevilla,2,0,Getafe,Okt 27 2019
+20:00,Osasuna,3,1,Valencia,Okt 27 2019
+18:00,Deportivo Alaves,1,1,Atletico Madrid,Okt 29 2019
+20:15,Barcelona,5,1,Real Valladolid,Okt 29 2019
+18:00,Real Sociedad,1,2,Levante,Okt 30 2019
+18:00,Valencia,1,1,Sevilla,Okt 30 2019
+19:00,Athletic Bilbao,3,0,Espanyol,Okt 30 2019
+20:00,Real Betis,2,1,Celta Vigo,Okt 30 2019
+20:15,Real Madrid,5,0,Leganes,Okt 30 2019
+18:00,Mallorca,2,2,Osasuna,Okt 31 2019
+18:00,Eibar,2,1,Villarreal,Okt 31 2019
+20:15,Getafe,3,1,Granada,Okt 31 2019
+16:00,Valencia,2,0,Mallorca,Sep 1 2019
+18:00,Espanyol,0,3,Granada,Sep 1 2019
+18:00,Atletico Madrid,3,2,Eibar,Sep 1 2019
+20:00,Villarreal,2,2,Real Madrid,Sep 1 2019
+20:00,Mallorca,0,0,Athletic Bilbao,Sep 13 2019
+12:00,Real Madrid,3,2,Levante,Sep 14 2019
+15:00,Leganes,0,3,Villarreal,Sep 14 2019
+17:30,Real Sociedad,2,0,Atletico Madrid,Sep 14 2019
+20:00,Barcelona,5,2,Valencia,Sep 14 2019
+11:00,Eibar,1,2,Espanyol,Sep 15 2019
+13:00,Deportivo Alaves,0,1,Sevilla,Sep 15 2019
+15:00,Celta Vigo,0,2,Granada,Sep 15 2019
+17:30,Real Valladolid,1,1,Osasuna,Sep 15 2019
+20:00,Real Betis,1,1,Getafe,Sep 15 2019
+20:00,Osasuna,0,0,Real Betis,Sep 20 2019
+12:00,Villarreal,2,0,Real Valladolid,Sep 21 2019
+15:00,Levante,0,0,Eibar,Sep 21 2019
+17:30,Atletico Madrid,0,0,Celta Vigo,Sep 21 2019
+20:00,Granada,2,0,Barcelona,Sep 21 2019
+11:00,Getafe,4,2,Mallorca,Sep 22 2019
+13:00,Espanyol,1,3,Real Sociedad,Sep 22 2019
+15:00,Valencia,1,1,Leganes,Sep 22 2019
+17:30,Athletic Bilbao,2,0,Deportivo Alaves,Sep 22 2019
+20:00,Sevilla,0,1,Real Madrid,Sep 22 2019
+18:00,Real Valladolid,1,1,Granada,Sep 24 2019
+19:00,Real Betis,3,1,Levante,Sep 24 2019
+20:00,Barcelona,2,1,Villarreal,Sep 24 2019
+18:00,Leganes,1,1,Athletic Bilbao,Sep 25 2019
+18:00,Mallorca,0,2,Atletico Madrid,Sep 25 2019
+19:00,Valencia,3,3,Getafe,Sep 25 2019
+20:00,Real Madrid,2,0,Osasuna,Sep 25 2019
+18:00,Eibar,3,2,Sevilla,Sep 26 2019
+19:00,Celta Vigo,1,1,Espanyol,Sep 26 2019
+20:00,Real Sociedad,3,0,Deportivo Alaves,Sep 26 2019
+20:00,Villarreal,5,1,Real Betis,Sep 27 2019
+12:00,Athletic Bilbao,0,1,Valencia,Sep 28 2019
+15:00,Getafe,0,2,Barcelona,Sep 28 2019
+17:30,Granada,1,0,Leganes,Sep 28 2019
+20:00,Atletico Madrid,0,0,Real Madrid,Sep 28 2019
+11:00,Espanyol,0,2,Real Valladolid,Sep 29 2019
+13:00,Eibar,2,0,Celta Vigo,Sep 29 2019
+15:00,Deportivo Alaves,2,0,Mallorca,Sep 29 2019
+17:30,Levante,1,1,Osasuna,Sep 29 2019
+20:00,Sevilla,3,2,Real Sociedad,Sep 29 2019
+20:00,Sevilla,0,3,Leganes,Mei 3 2019
+12:00,Levante,4,1,Rayo Vallecano,Mei 4 2019
+15:15,Espanyol,3,0,Atletico Madrid,Mei 4 2019
+17:30,Deportivo Alaves,0,1,Real Sociedad,Mei 4 2019
+19:45,Celta Vigo,2,0,Barcelona,Mei 4 2019
+11:00,Getafe,2,0,Girona,Mei 5 2019
+13:00,Eibar,1,0,Real Betis,Mei 5 2019
+15:15,Real Madrid,3,2,Villarreal,Mei 5 2019
+17:30,Real Valladolid,1,0,Athletic Bilbao,Mei 5 2019
+19:45,SD Huesca,2,6,Valencia,Mei 5 2019
+17:30,Athletic Bilbao,3,1,Celta Vigo,Mei 12 2019
+17:30,Leganes,0,2,Espanyol,Mei 12 2019
+17:30,Villarreal,1,0,Eibar,Mei 12 2019
+17:30,Valencia,3,1,Deportivo Alaves,Mei 12 2019
+17:30,Rayo Vallecano,1,2,Real Valladolid,Mei 12 2019
+17:30,Girona,1,2,Levante,Mei 12 2019
+17:30,Real Betis,2,1,SD Huesca,Mei 12 2019
+17:30,Barcelona,2,0,Getafe,Mei 12 2019
+17:30,Atletico Madrid,1,1,Sevilla,Mei 12 2019
+17:30,Real Sociedad,3,1,Real Madrid,Mei 12 2019
+12:00,Levante,2,2,Atletico Madrid,Mei 18 2019
+15:15,Sevilla,2,0,Athletic Bilbao,Mei 18 2019
+15:15,Real Valladolid,0,2,Valencia,Mei 18 2019
+15:15,Getafe,2,2,Villarreal,Mei 18 2019
+15:15,Espanyol,2,0,Real Sociedad,Mei 18 2019
+19:45,Celta Vigo,2,2,Rayo Vallecano,Mei 18 2019
+19:45,Deportivo Alaves,2,1,Girona,Mei 18 2019
+19:45,SD Huesca,2,1,Leganes,Mei 18 2019
+11:00,Real Madrid,0,2,Real Betis,Mei 19 2019
+15:15,Eibar,2,2,Barcelona,Mei 19 2019
+18:30,Atletico Madrid,2,0,Girona,Apr 2 2019
+19:30,Espanyol,1,1,Getafe,Apr 2 2019
+20:30,Villarreal,4,4,Barcelona,Apr 2 2019
+18:30,Athletic Bilbao,3,2,Levante,Apr 3 2019
+19:30,SD Huesca,3,3,Celta Vigo,Apr 3 2019
+19:30,Eibar,2,1,Rayo Vallecano,Apr 3 2019
+20:30,Valencia,2,1,Real Madrid,Apr 3 2019
+18:30,Sevilla,2,0,Deportivo Alaves,Apr 4 2019
+19:30,Leganes,1,0,Real Valladolid,Apr 4 2019
+20:30,Real Sociedad,2,1,Real Betis,Apr 4 2019
+12:00,Girona,1,2,Espanyol,Apr 6 2019
+15:15,Real Madrid,2,1,Eibar,Apr 6 2019
+17:30,Rayo Vallecano,2,0,Valencia,Apr 6 2019
+19:45,Barcelona,2,0,Atletico Madrid,Apr 6 2019
+11:00,Deportivo Alaves,1,1,Leganes,Apr 7 2019
+13:00,Getafe,1,0,Athletic Bilbao,Apr 7 2019
+15:15,Real Valladolid,0,2,Sevilla,Apr 7 2019
+17:30,Celta Vigo,3,1,Real Sociedad,Apr 7 2019
+17:30,Levante,2,2,SD Huesca,Apr 7 2019
+19:45,Real Betis,2,1,Villarreal,Apr 7 2019
+12:00,Espanyol,2,1,Deportivo Alaves,Apr 13 2019
+15:15,SD Huesca,0,0,Barcelona,Apr 13 2019
+17:30,Atletico Madrid,2,0,Celta Vigo,Apr 13 2019
+19:45,Sevilla,3,2,Real Betis,Apr 13 2019
+11:00,Real Valladolid,2,2,Getafe,Apr 14 2019
+13:00,Athletic Bilbao,3,2,Rayo Vallecano,Apr 14 2019
+15:15,Real Sociedad,1,1,Eibar,Apr 14 2019
+17:30,Girona,0,1,Villarreal,Apr 14 2019
+19:45,Valencia,3,1,Levante,Apr 14 2019
+20:00,Leganes,1,1,Real Madrid,Apr 15 2019
+20:00,Deportivo Alaves,2,2,Real Valladolid,Apr 19 2019
+12:00,Celta Vigo,2,1,Girona,Apr 20 2019
+15:15,Eibar,0,1,Atletico Madrid,Apr 20 2019
+17:30,Rayo Vallecano,0,0,SD Huesca,Apr 20 2019
+19:45,Barcelona,2,1,Real Sociedad,Apr 20 2019
+11:00,Levante,2,2,Espanyol,Apr 21 2019
+13:00,Getafe,3,0,Sevilla,Apr 21 2019
+15:15,Real Madrid,3,0,Athletic Bilbao,Apr 21 2019
+17:30,Villarreal,2,1,Leganes,Apr 21 2019
+19:45,Real Betis,1,2,Valencia,Apr 21 2019
+18:30,SD Huesca,2,0,Eibar,Apr 23 2019
+19:30,Real Valladolid,1,0,Girona,Apr 23 2019
+20:30,Deportivo Alaves,0,2,Barcelona,Apr 23 2019
+18:30,Atletico Madrid,3,2,Valencia,Apr 24 2019
+19:30,Espanyol,1,1,Celta Vigo,Apr 24 2019
+19:30,Leganes,0,1,Athletic Bilbao,Apr 24 2019
+20:30,Levante,4,0,Real Betis,Apr 24 2019
+18:30,Sevilla,5,0,Rayo Vallecano,Apr 25 2019
+19:30,Real Sociedad,0,1,Villarreal,Apr 25 2019
+20:30,Getafe,0,0,Real Madrid,Apr 25 2019
+12:00,Athletic Bilbao,1,1,Deportivo Alaves,Apr 27 2019
+15:15,Atletico Madrid,1,0,Real Valladolid,Apr 27 2019
+17:30,Leganes,0,0,Celta Vigo,Apr 27 2019
+19:45,Barcelona,1,0,Levante,Apr 27 2019
+11:00,Valencia,0,1,Eibar,Apr 28 2019
+13:00,Girona,1,0,Sevilla,Apr 28 2019
+15:15,Real Sociedad,2,1,Getafe,Apr 28 2019
+17:30,Villarreal,1,1,SD Huesca,Apr 28 2019
+19:45,Rayo Vallecano,1,0,Real Madrid,Apr 28 2019
+20:00,Real Betis,1,1,Espanyol,Apr 29 2019
+20:00,Rayo Vallecano,0,2,Girona,Mac 1 2019
+12:00,Espanyol,3,1,Real Valladolid,Mac 2 2019
+15:15,Villarreal,1,2,Deportivo Alaves,Mac 2 2019
+17:30,SD Huesca,2,1,Sevilla,Mac 2 2019
+19:45,Real Madrid,0,1,Barcelona,Mac 2 2019
+11:00,Eibar,1,0,Celta Vigo,Mac 3 2019
+15:15,Real Betis,1,2,Getafe,Mac 3 2019
+17:30,Real Sociedad,0,2,Atletico Madrid,Mac 3 2019
+19:45,Valencia,2,0,Athletic Bilbao,Mac 3 2019
+20:00,Leganes,1,0,Levante,Mac 4 2019
+20:00,Athletic Bilbao,1,1,Espanyol,Mac 8 2019
+12:00,Deportivo Alaves,1,1,Eibar,Mac 9 2019
+15:15,Atletico Madrid,1,0,Leganes,Mac 9 2019
+17:30,Barcelona,3,1,Rayo Vallecano,Mac 9 2019
+19:45,Getafe,2,1,SD Huesca,Mac 9 2019
+11:00,Celta Vigo,0,1,Real Betis,Mac 10 2019
+15:15,Girona,2,3,Valencia,Mac 10 2019
+17:30,Sevilla,5,2,Real Sociedad,Mac 10 2019
+17:30,Levante,0,2,Villarreal,Mac 10 2019
+19:45,Real Valladolid,1,4,Real Madrid,Mac 10 2019
+20:00,Real Sociedad,1,1,Levante,Mac 15 2019
+12:00,SD Huesca,1,3,Deportivo Alaves,Mac 16 2019
+15:15,Real Madrid,2,0,Celta Vigo,Mac 16 2019
+17:30,Athletic Bilbao,2,0,Atletico Madrid,Mac 16 2019
+19:45,Leganes,0,2,Girona,Mac 16 2019
+11:00,Eibar,1,2,Real Valladolid,Mac 17 2019
+15:15,Espanyol,0,1,Sevilla,Mac 17 2019
+17:30,Villarreal,3,1,Rayo Vallecano,Mac 17 2019
+17:30,Valencia,0,0,Getafe,Mac 17 2019
+19:45,Real Betis,1,4,Barcelona,Mac 17 2019
+20:00,Girona,1,2,Athletic Bilbao,Mac 29 2019
+12:00,Getafe,0,2,Leganes,Mac 30 2019
+15:15,Barcelona,2,0,Espanyol,Mac 30 2019
+17:30,Celta Vigo,3,2,Villarreal,Mac 30 2019
+19:45,Deportivo Alaves,0,4,Atletico Madrid,Mac 30 2019
+11:00,Levante,2,2,Eibar,Mac 31 2019
+13:00,Rayo Vallecano,1,1,Real Betis,Mac 31 2019
+15:15,Sevilla,0,1,Valencia,Mac 31 2019
+17:30,Real Valladolid,1,1,Real Sociedad,Mac 31 2019
+19:45,Real Madrid,3,2,SD Huesca,Mac 31 2019
+20:00,SD Huesca,4,0,Real Valladolid,Feb 1 2019
+12:00,Levante,0,0,Getafe,Feb 2 2019
+15:15,Real Sociedad,2,1,Athletic Bilbao,Feb 2 2019
+17:30,Barcelona,2,2,Valencia,Feb 2 2019
+19:45,Celta Vigo,1,0,Sevilla,Feb 2 2019
+11:00,Villarreal,2,2,Espanyol,Feb 3 2019
+15:15,Real Betis,1,0,Atletico Madrid,Feb 3 2019
+17:30,Eibar,3,0,Girona,Feb 3 2019
+19:45,Real Madrid,3,0,Deportivo Alaves,Feb 3 2019
+20:00,Rayo Vallecano,1,2,Leganes,Feb 4 2019
+20:00,Real Valladolid,0,0,Villarreal,Feb 8 2019
+12:00,Getafe,3,1,Celta Vigo,Feb 9 2019
+15:15,Atletico Madrid,1,3,Real Madrid,Feb 9 2019
+17:30,Espanyol,2,1,Rayo Vallecano,Feb 9 2019
+19:45,Girona,0,2,SD Huesca,Feb 9 2019
+11:00,Leganes,3,0,Real Betis,Feb 10 2019
+15:15,Valencia,0,0,Real Sociedad,Feb 10 2019
+17:30,Sevilla,2,2,Eibar,Feb 10 2019
+19:45,Athletic Bilbao,0,0,Barcelona,Feb 10 2019
+20:00,Deportivo Alaves,2,0,Levante,Feb 11 2019
+20:00,Eibar,2,2,Getafe,Feb 15 2019
+12:00,Celta Vigo,1,4,Levante,Feb 16 2019
+15:15,Rayo Vallecano,0,1,Atletico Madrid,Feb 16 2019
+17:30,Real Sociedad,3,0,Leganes,Feb 16 2019
+19:45,Barcelona,1,0,Real Valladolid,Feb 16 2019
+11:00,Real Madrid,1,2,Girona,Feb 17 2019
+15:15,Valencia,0,0,Espanyol,Feb 17 2019
+17:30,Villarreal,3,0,Sevilla,Feb 17 2019
+19:45,Real Betis,1,1,Deportivo Alaves,Feb 17 2019
+20:00,SD Huesca,0,1,Athletic Bilbao,Feb 18 2019
+20:00,Espanyol,1,1,SD Huesca,Feb 22 2019
+12:00,Getafe,2,1,Rayo Vallecano,Feb 23 2019
+15:15,Sevilla,2,4,Barcelona,Feb 23 2019
+17:30,Deportivo Alaves,0,0,Celta Vigo,Feb 23 2019
+19:45,Athletic Bilbao,1,0,Eibar,Feb 23 2019
+11:00,Leganes,1,1,Valencia,Feb 24 2019
+15:15,Atletico Madrid,2,0,Villarreal,Feb 24 2019
+17:30,Real Valladolid,0,2,Real Betis,Feb 24 2019
+19:45,Levante,1,2,Real Madrid,Feb 24 2019
+20:00,Girona,0,0,Real Sociedad,Feb 25 2019
+20:30,Villarreal,2,2,Real Madrid,Jan 3 2019
+18:00,Levante,2,2,Girona,Jan 4 2019
+20:00,Espanyol,1,0,Leganes,Jan 4 2019
+12:00,Real Valladolid,0,1,Rayo Vallecano,Jan 5 2019
+15:15,Deportivo Alaves,2,1,Valencia,Jan 5 2019
+19:45,SD Huesca,2,1,Real Betis,Jan 5 2019
+11:00,Eibar,0,0,Villarreal,Jan 6 2019
+15:15,Sevilla,1,1,Atletico Madrid,Jan 6 2019
+17:30,Real Madrid,0,2,Real Sociedad,Jan 6 2019
+19:45,Getafe,1,2,Barcelona,Jan 6 2019
+20:00,Celta Vigo,1,2,Athletic Bilbao,Jan 7 2019
+20:00,Rayo Vallecano,4,2,Celta Vigo,Jan 11 2019
+12:00,Leganes,1,0,SD Huesca,Jan 12 2019
+15:15,Valencia,1,1,Real Valladolid,Jan 12 2019
+17:30,Girona,1,1,Deportivo Alaves,Jan 12 2019
+19:45,Villarreal,1,2,Getafe,Jan 12 2019
+11:00,Atletico Madrid,1,0,Levante,Jan 13 2019
+15:15,Athletic Bilbao,2,0,Sevilla,Jan 13 2019
+17:30,Barcelona,3,0,Eibar,Jan 13 2019
+19:45,Real Betis,1,2,Real Madrid,Jan 13 2019
+20:00,Real Sociedad,3,2,Espanyol,Jan 14 2019
+20:00,Getafe,4,0,Deportivo Alaves,Jan 18 2019
+15:15,Real Madrid,2,0,Sevilla,Jan 19 2019
+17:30,SD Huesca,0,3,Atletico Madrid,Jan 19 2019
+19:45,Celta Vigo,1,2,Valencia,Jan 19 2019
+11:00,Real Betis,3,2,Girona,Jan 20 2019
+15:15,Villarreal,1,1,Athletic Bilbao,Jan 20 2019
+17:30,Rayo Vallecano,2,2,Real Sociedad,Jan 20 2019
+17:30,Levante,2,0,Real Valladolid,Jan 20 2019
+19:45,Barcelona,3,1,Leganes,Jan 20 2019
+20:00,Eibar,3,0,Espanyol,Jan 21 2019
+12:00,Sevilla,5,0,Levante,Jan 26 2019
+15:15,Atletico Madrid,2,0,Getafe,Jan 26 2019
+17:30,Leganes,2,2,Eibar,Jan 26 2019
+19:45,Valencia,3,0,Villarreal,Jan 26 2019
+11:00,Real Valladolid,2,1,Celta Vigo,Jan 27 2019
+15:15,Girona,0,2,Barcelona,Jan 27 2019
+17:30,Athletic Bilbao,1,0,Real Betis,Jan 27 2019
+17:30,Real Sociedad,0,0,SD Huesca,Jan 27 2019
+19:45,Espanyol,2,4,Real Madrid,Jan 27 2019
+20:00,Deportivo Alaves,0,1,Rayo Vallecano,Jan 28 2019
+12:00,Celta Vigo,2,0,SD Huesca,Des 1 2018
+15:15,Real Valladolid,2,4,Leganes,Des 1 2018
+17:30,Getafe,3,0,Espanyol,Des 1 2018
+19:45,Real Madrid,2,0,Valencia,Des 1 2018
+11:00,Real Betis,1,0,Real Sociedad,Des 2 2018
+15:15,Girona,1,1,Atletico Madrid,Des 2 2018
+17:30,Barcelona,2,0,Villarreal,Des 2 2018
+19:45,Deportivo Alaves,1,1,Sevilla,Des 2 2018
+20:00,Levante,3,0,Athletic Bilbao,Des 3 2018
+20:00,Leganes,1,1,Getafe,Des 7 2018
+12:00,Atletico Madrid,3,0,Deportivo Alaves,Des 8 2018
+15:15,Valencia,1,1,Sevilla,Des 8 2018
+17:30,Villarreal,2,3,Celta Vigo,Des 8 2018
+19:45,Espanyol,0,4,Barcelona,Des 8 2018
+11:00,Eibar,4,4,Levante,Des 9 2018
+15:15,SD Huesca,0,1,Real Madrid,Des 9 2018
+17:30,Real Sociedad,1,2,Real Valladolid,Des 9 2018
+19:45,Real Betis,2,0,Rayo Vallecano,Des 9 2018
+20:00,Athletic Bilbao,1,0,Girona,Des 10 2018
+20:00,Celta Vigo,0,0,Leganes,Des 14 2018
+12:00,Getafe,1,0,Real Sociedad,Des 15 2018
+15:15,Real Valladolid,2,3,Atletico Madrid,Des 15 2018
+17:30,Real Madrid,1,0,Rayo Vallecano,Des 15 2018
+19:45,Eibar,1,1,Valencia,Des 15 2018
+11:00,Sevilla,2,0,Girona,Des 16 2018
+15:15,Espanyol,1,3,Real Betis,Des 16 2018
+17:30,SD Huesca,2,2,Villarreal,Des 16 2018
+19:45,Levante,0,5,Barcelona,Des 16 2018
+20:00,Deportivo Alaves,0,0,Athletic Bilbao,Des 17 2018
+18:30,Girona,1,1,Getafe,Des 21 2018
+20:00,Real Sociedad,0,1,Deportivo Alaves,Des 21 2018
+12:00,Real Betis,1,1,Eibar,Des 22 2018
+15:15,Atletico Madrid,1,0,Espanyol,Des 22 2018
+17:30,Barcelona,2,0,Celta Vigo,Des 22 2018
+19:45,Athletic Bilbao,1,1,Real Valladolid,Des 22 2018
+11:00,Valencia,2,1,SD Huesca,Des 23 2018
+15:15,Leganes,1,1,Sevilla,Des 23 2018
+17:30,Rayo Vallecano,2,1,Levante,Des 23 2018
+12:00,Leganes,1,1,Atletico Madrid,Nov 3 2018
+15:15,Real Madrid,2,0,Real Valladolid,Nov 3 2018
+17:30,Valencia,0,1,Girona,Nov 3 2018
+19:45,Rayo Vallecano,2,3,Barcelona,Nov 3 2018
+11:00,Eibar,2,1,Deportivo Alaves,Nov 4 2018
+15:15,Villarreal,1,1,Levante,Nov 4 2018
+17:30,Real Sociedad,0,0,Sevilla,Nov 4 2018
+17:30,SD Huesca,1,1,Getafe,Nov 4 2018
+19:45,Real Betis,3,3,Celta Vigo,Nov 4 2018
+20:00,Espanyol,1,0,Athletic Bilbao,Nov 5 2018
+20:00,Levante,1,3,Real Sociedad,Nov 9 2018
+12:00,Real Valladolid,0,0,Eibar,Nov 10 2018
+15:15,Getafe,0,1,Valencia,Nov 10 2018
+17:30,Atletico Madrid,3,2,Athletic Bilbao,Nov 10 2018
+19:45,Girona,0,0,Leganes,Nov 10 2018
+11:00,Deportivo Alaves,2,1,SD Huesca,Nov 11 2018
+15:15,Barcelona,3,4,Real Betis,Nov 11 2018
+17:30,Sevilla,2,1,Espanyol,Nov 11 2018
+17:30,Rayo Vallecano,2,2,Villarreal,Nov 11 2018
+19:45,Celta Vigo,2,4,Real Madrid,Nov 11 2018
+20:00,Leganes,1,0,Deportivo Alaves,Nov 23 2018
+12:00,Eibar,3,0,Real Madrid,Nov 24 2018
+15:15,Valencia,3,0,Rayo Vallecano,Nov 24 2018
+17:30,SD Huesca,2,2,Levante,Nov 24 2018
+19:45,Atletico Madrid,1,1,Barcelona,Nov 24 2018
+11:00,Athletic Bilbao,1,1,Getafe,Nov 25 2018
+15:15,Sevilla,1,0,Real Valladolid,Nov 25 2018
+17:30,Espanyol,1,3,Girona,Nov 25 2018
+19:45,Villarreal,2,1,Real Betis,Nov 25 2018
+20:00,Real Sociedad,2,1,Celta Vigo,Nov 26 2018
+20:00,Rayo Vallecano,1,0,Eibar,Nov 30 2018
+20:00,Celta Vigo,1,1,Getafe,Okt 1 2018
+20:00,Athletic Bilbao,1,3,Real Sociedad,Okt 5 2018
+12:00,Girona,2,3,Eibar,Okt 6 2018
+15:15,Getafe,0,1,Levante,Okt 6 2018
+17:30,Deportivo Alaves,1,0,Real Madrid,Okt 6 2018
+19:45,Leganes,1,0,Rayo Vallecano,Okt 6 2018
+11:00,Real Valladolid,1,0,SD Huesca,Okt 7 2018
+15:15,Atletico Madrid,1,0,Real Betis,Okt 7 2018
+17:30,Espanyol,3,1,Villarreal,Okt 7 2018
+17:30,Sevilla,2,1,Celta Vigo,Okt 7 2018
+19:45,Valencia,1,1,Barcelona,Okt 7 2018
+20:00,Celta Vigo,0,1,Deportivo Alaves,Okt 19 2018
+12:00,Real Madrid,1,2,Levante,Okt 20 2018
+15:15,Valencia,1,1,Leganes,Okt 20 2018
+17:30,Villarreal,1,1,Atletico Madrid,Okt 20 2018
+19:45,Barcelona,4,2,Sevilla,Okt 20 2018
+11:00,Rayo Vallecano,1,2,Getafe,Okt 21 2018
+15:15,Eibar,1,1,Athletic Bilbao,Okt 21 2018
+17:30,SD Huesca,0,2,Espanyol,Okt 21 2018
+19:45,Real Betis,0,1,Real Valladolid,Okt 21 2018
+20:00,Real Sociedad,0,0,Girona,Okt 22 2018
+18:00,Rayo Vallecano,1,1,Athletic Bilbao,Okt 24 2018
+20:00,Real Valladolid,1,1,Espanyol,Okt 26 2018
+12:00,Girona,2,1,Rayo Vallecano,Okt 27 2018
+15:15,Athletic Bilbao,0,0,Valencia,Okt 27 2018
+17:30,Levante,2,0,Leganes,Okt 27 2018
+17:30,Celta Vigo,4,0,Eibar,Okt 27 2018
+19:45,Atletico Madrid,2,0,Real Sociedad,Okt 27 2018
+11:00,Getafe,2,0,Real Betis,Okt 28 2018
+15:15,Barcelona,5,1,Real Madrid,Okt 28 2018
+17:30,Deportivo Alaves,2,1,Villarreal,Okt 28 2018
+19:45,Sevilla,2,1,SD Huesca,Okt 28 2018
+17:30,Celta Vigo,2,0,Atletico Madrid,Sep 1 2018
+19:45,Real Madrid,4,1,Leganes,Sep 1 2018
+11:00,Levante,2,2,Valencia,Sep 2 2018
+15:15,Deportivo Alaves,2,1,Espanyol,Sep 2 2018
+17:30,Barcelona,8,2,SD Huesca,Sep 2 2018
+19:45,Real Betis,1,0,Sevilla,Sep 2 2018
+20:00,SD Huesca,0,1,Rayo Vallecano,Sep 14 2018
+12:00,Atletico Madrid,1,1,Eibar,Sep 15 2018
+15:15,Real Sociedad,1,2,Barcelona,Sep 15 2018
+17:30,Valencia,0,0,Real Betis,Sep 15 2018
+19:45,Athletic Bilbao,1,1,Real Madrid,Sep 15 2018
+11:00,Leganes,0,1,Villarreal,Sep 16 2018
+15:15,Espanyol,1,0,Levante,Sep 16 2018
+17:30,Real Valladolid,0,1,Deportivo Alaves,Sep 16 2018
+19:45,Sevilla,0,2,Getafe,Sep 16 2018
+20:00,Girona,3,2,Celta Vigo,Sep 17 2018
+20:00,SD Huesca,0,1,Real Sociedad,Sep 21 2018
+12:00,Rayo Vallecano,1,5,Deportivo Alaves,Sep 22 2018
+15:15,Eibar,1,0,Leganes,Sep 22 2018
+15:15,Celta Vigo,3,3,Real Valladolid,Sep 22 2018
+17:30,Getafe,0,2,Atletico Madrid,Sep 22 2018
+19:45,Real Madrid,1,0,Espanyol,Sep 22 2018
+11:00,Levante,2,6,Sevilla,Sep 23 2018
+15:15,Villarreal,0,0,Valencia,Sep 23 2018
+19:00,Real Betis,2,2,Athletic Bilbao,Sep 23 2018
+19:45,Barcelona,2,2,Girona,Sep 23 2018
+19:00,Espanyol,1,0,Eibar,Sep 25 2018
+20:00,Real Sociedad,2,2,Rayo Vallecano,Sep 25 2018
+21:00,Atletico Madrid,3,0,SD Huesca,Sep 25 2018
+19:00,Athletic Bilbao,0,3,Villarreal,Sep 26 2018
+19:00,Leganes,2,1,Barcelona,Sep 26 2018
+21:00,Sevilla,3,0,Real Madrid,Sep 26 2018
+21:00,Valencia,1,1,Celta Vigo,Sep 26 2018
+19:00,Real Valladolid,2,1,Levante,Sep 27 2018
+19:00,Deportivo Alaves,1,1,Getafe,Sep 27 2018
+21:00,Girona,0,1,Real Betis,Sep 27 2018
+20:00,Rayo Vallecano,2,2,Espanyol,Sep 28 2018
+12:00,Real Sociedad,0,1,Valencia,Sep 29 2018
+15:15,Barcelona,1,1,Athletic Bilbao,Sep 29 2018
+17:30,Eibar,1,3,Sevilla,Sep 29 2018
+19:45,Real Madrid,0,0,Atletico Madrid,Sep 29 2018
+11:00,SD Huesca,1,1,Girona,Sep 30 2018
+15:15,Villarreal,0,1,Real Valladolid,Sep 30 2018
+17:30,Levante,2,1,Deportivo Alaves,Sep 30 2018
+19:45,Real Betis,1,0,Leganes,Sep 30 2018
+20:00,Sevilla,1,0,Real Sociedad,Mei 4 2018
+12:00,Girona,1,4,Eibar,Mei 5 2018
+15:15,Athletic Bilbao,2,0,Real Betis,Mei 5 2018
+17:30,Celta Vigo,1,1,Deportivo La Coruna,Mei 5 2018
+19:45,Villarreal,1,0,Valencia,Mei 5 2018
+11:00,Malaga,0,3,Deportivo Alaves,Mei 6 2018
+15:15,Atletico Madrid,0,2,Espanyol,Mei 6 2018
+17:30,Las Palmas,0,1,Getafe,Mei 6 2018
+19:45,Barcelona,2,2,Real Madrid,Mei 6 2018
+20:00,Leganes,0,3,Levante,Mei 7 2018
+19:00,Barcelona,5,1,Villarreal,Mei 9 2018
+20:30,Sevilla,3,2,Real Madrid,Mei 9 2018
+15:15,Real Sociedad,3,2,Leganes,Mei 12 2018
+17:30,Deportivo La Coruna,2,4,Villarreal,Mei 12 2018
+17:30,Getafe,0,1,Atletico Madrid,Mei 12 2018
+17:30,Deportivo Alaves,3,1,Athletic Bilbao,Mei 12 2018
+17:30,Real Betis,2,2,Sevilla,Mei 12 2018
+17:30,Girona,0,1,Valencia,Mei 12 2018
+17:30,Eibar,1,0,Las Palmas,Mei 12 2018
+19:45,Real Madrid,6,0,Celta Vigo,Mei 12 2018
+15:15,Espanyol,4,1,Malaga,Mei 13 2018
+19:45,Levante,5,4,Barcelona,Mei 13 2018
+12:00,Celta Vigo,4,2,Levante,Mei 19 2018
+15:15,Leganes,3,2,Real Betis,Mei 19 2018
+17:30,Sevilla,1,0,Deportivo Alaves,Mei 19 2018
+17:30,Las Palmas,1,2,Girona,Mei 19 2018
+17:30,Malaga,0,1,Getafe,Mei 19 2018
+19:45,Villarreal,2,2,Real Madrid,Mei 19 2018
+11:00,Valencia,2,1,Deportivo La Coruna,Mei 20 2018
+15:15,Athletic Bilbao,0,1,Espanyol,Mei 20 2018
+17:30,Atletico Madrid,2,2,Eibar,Mei 20 2018
+19:45,Barcelona,1,0,Real Sociedad,Mei 20 2018
+11:00,Espanyol,0,0,Deportivo Alaves,Apr 1 2018
+15:15,Leganes,0,1,Valencia,Apr 1 2018
+17:30,Malaga,1,0,Villarreal,Apr 1 2018
+17:30,Eibar,0,0,Real Sociedad,Apr 1 2018
+19:45,Atletico Madrid,1,0,Deportivo La Coruna,Apr 1 2018
+20:00,Getafe,0,1,Real Betis,Apr 2 2018
+20:00,Deportivo La Coruna,3,2,Malaga,Apr 6 2018
+12:00,Deportivo Alaves,2,0,Getafe,Apr 7 2018
+15:15,Celta Vigo,4,0,Sevilla,Apr 7 2018
+17:30,Real Betis,2,0,Eibar,Apr 7 2018
+19:45,Barcelona,3,1,Leganes,Apr 7 2018
+11:00,Levante,2,1,Las Palmas,Apr 8 2018
+15:15,Real Madrid,1,1,Atletico Madrid,Apr 8 2018
+17:30,Real Sociedad,5,0,Girona,Apr 8 2018
+19:45,Valencia,1,0,Espanyol,Apr 8 2018
+20:00,Villarreal,1,3,Athletic Bilbao,Apr 9 2018
+20:00,Girona,0,1,Real Betis,Apr 13 2018
+12:00,Sevilla,2,2,Villarreal,Apr 14 2018
+15:15,Barcelona,2,1,Valencia,Apr 14 2018
+17:30,Leganes,1,0,Celta Vigo,Apr 14 2018
+17:30,Las Palmas,0,1,Real Sociedad,Apr 14 2018
+19:45,Athletic Bilbao,2,3,Deportivo La Coruna,Apr 14 2018
+11:00,Eibar,0,1,Deportivo Alaves,Apr 15 2018
+15:15,Atletico Madrid,3,0,Levante,Apr 15 2018
+17:30,Getafe,1,0,Espanyol,Apr 15 2018
+19:45,Malaga,1,2,Real Madrid,Apr 15 2018
+18:30,Deportivo La Coruna,0,0,Sevilla,Apr 17 2018
+20:00,Celta Vigo,2,2,Barcelona,Apr 17 2018
+20:30,Villarreal,2,1,Leganes,Apr 17 2018
+18:30,Valencia,1,2,Getafe,Apr 18 2018
+18:30,Espanyol,0,1,Eibar,Apr 18 2018
+20:30,Real Madrid,1,1,Athletic Bilbao,Apr 18 2018
+18:30,Real Sociedad,3,0,Atletico Madrid,Apr 19 2018
+18:30,Deportivo Alaves,1,2,Girona,Apr 19 2018
+20:30,Real Betis,1,0,Las Palmas,Apr 19 2018
+20:30,Levante,1,0,Malaga,Apr 19 2018
+20:00,Leganes,0,0,Deportivo La Coruna,Apr 20 2018
+12:00,Eibar,0,1,Getafe,Apr 21 2018
+15:15,Celta Vigo,1,1,Valencia,Apr 21 2018
+11:00,Girona,0,2,Espanyol,Apr 22 2018
+15:15,Malaga,2,0,Real Sociedad,Apr 22 2018
+17:30,Las Palmas,0,4,Deportivo Alaves,Apr 22 2018
+19:45,Atletico Madrid,0,0,Real Betis,Apr 22 2018
+20:00,Athletic Bilbao,1,3,Levante,Apr 23 2018
+20:00,Levante,2,1,Sevilla,Apr 27 2018
+12:00,Espanyol,1,1,Las Palmas,Apr 28 2018
+15:15,Real Sociedad,3,1,Athletic Bilbao,Apr 28 2018
+17:30,Real Madrid,2,1,Leganes,Apr 28 2018
+19:45,Villarreal,4,1,Celta Vigo,Apr 28 2018
+11:00,Getafe,1,1,Girona,Apr 29 2018
+15:15,Deportivo Alaves,0,1,Atletico Madrid,Apr 29 2018
+17:30,Valencia,0,0,Eibar,Apr 29 2018
+19:45,Deportivo La Coruna,2,4,Barcelona,Apr 29 2018
+20:00,Real Betis,2,1,Malaga,Apr 30 2018
+18:30,Real Betis,0,0,Real Sociedad,Mac 1 2018
+20:00,Las Palmas,1,1,Barcelona,Mac 1 2018
+20:30,Deportivo Alaves,1,0,Levante,Mac 1 2018
+12:00,Villarreal,0,2,Girona,Mac 3 2018
+15:15,Sevilla,2,0,Athletic Bilbao,Mac 3 2018
+17:30,Leganes,2,0,Malaga,Mac 3 2018
+17:30,Deportivo La Coruna,1,1,Eibar,Mac 3 2018
+19:45,Real Madrid,3,1,Getafe,Mac 3 2018
+11:00,Levante,1,1,Espanyol,Mac 4 2018
+15:15,Barcelona,1,0,Atletico Madrid,Mac 4 2018
+17:30,Real Sociedad,2,1,Deportivo Alaves,Mac 4 2018
+19:45,Valencia,2,0,Real Betis,Mac 4 2018
+20:00,Celta Vigo,2,1,Las Palmas,Mac 5 2018
+20:00,Girona,2,0,Deportivo La Coruna,Mac 9 2018
+12:00,Eibar,1,2,Real Madrid,Mac 10 2018
+15:15,Sevilla,0,2,Valencia,Mac 10 2018
+17:30,Getafe,0,1,Levante,Mac 10 2018
+19:45,Malaga,0,2,Barcelona,Mac 10 2018
+11:00,Espanyol,2,1,Real Sociedad,Mac 11 2018
+15:15,Atletico Madrid,3,0,Celta Vigo,Mac 11 2018
+17:30,Las Palmas,0,2,Villarreal,Mac 11 2018
+19:45,Athletic Bilbao,2,0,Leganes,Mac 11 2018
+20:00,Deportivo Alaves,1,3,Real Betis,Mac 12 2018
+20:00,Levante,2,1,Eibar,Mac 16 2018
+12:00,Deportivo La Coruna,1,1,Las Palmas,Mac 17 2018
+15:15,Valencia,3,1,Deportivo Alaves,Mac 17 2018
+17:30,Real Sociedad,1,2,Getafe,Mac 17 2018
+19:45,Real Betis,3,0,Espanyol,Mac 17 2018
+11:00,Leganes,2,1,Sevilla,Mac 18 2018
+15:15,Barcelona,2,0,Athletic Bilbao,Mac 18 2018
+17:30,Villarreal,2,1,Atletico Madrid,Mac 18 2018
+17:30,Celta Vigo,0,0,Malaga,Mac 18 2018
+19:45,Real Madrid,6,3,Girona,Mac 18 2018
+12:00,Girona,1,1,Levante,Mac 31 2018
+15:15,Athletic Bilbao,1,1,Celta Vigo,Mac 31 2018
+17:30,Las Palmas,0,3,Real Madrid,Mac 31 2018
+19:45,Sevilla,2,2,Barcelona,Mac 31 2018
+20:00,Real Sociedad,5,0,Deportivo La Coruna,Feb 2 2018
+12:00,Eibar,5,1,Sevilla,Feb 3 2018
+15:15,Real Betis,2,1,Villarreal,Feb 3 2018
+17:30,Deportivo Alaves,2,1,Celta Vigo,Feb 3 2018
+19:45,Levante,2,2,Real Madrid,Feb 3 2018
+11:00,Getafe,0,0,Leganes,Feb 4 2018
+15:15,Espanyol,1,1,Barcelona,Feb 4 2018
+17:30,Girona,2,0,Athletic Bilbao,Feb 4 2018
+19:45,Atletico Madrid,1,0,Valencia,Feb 4 2018
+20:00,Las Palmas,1,0,Malaga,Feb 5 2018
+20:00,Athletic Bilbao,0,0,Las Palmas,Feb 9 2018
+12:00,Villarreal,1,2,Deportivo Alaves,Feb 10 2018
+15:15,Malaga,0,1,Atletico Madrid,Feb 10 2018
+17:30,Leganes,0,1,Eibar,Feb 10 2018
+19:45,Real Madrid,5,2,Real Sociedad,Feb 10 2018
+11:00,Sevilla,1,0,Girona,Feb 11 2018
+15:15,Barcelona,0,0,Getafe,Feb 11 2018
+17:30,Celta Vigo,2,2,Espanyol,Feb 11 2018
+19:45,Valencia,3,1,Levante,Feb 11 2018
+20:00,Deportivo La Coruna,0,1,Real Betis,Feb 12 2018
+20:00,Girona,3,0,Leganes,Feb 16 2018
+12:00,Las Palmas,1,2,Sevilla,Feb 17 2018
+15:15,Eibar,0,2,Barcelona,Feb 17 2018
+17:30,Deportivo Alaves,1,0,Deportivo La Coruna,Feb 17 2018
+19:45,Malaga,1,2,Valencia,Feb 17 2018
+11:00,Real Sociedad,3,0,Levante,Feb 18 2018
+15:15,Atletico Madrid,2,0,Athletic Bilbao,Feb 18 2018
+17:30,Espanyol,1,1,Villarreal,Feb 18 2018
+19:45,Real Betis,3,5,Real Madrid,Feb 18 2018
+20:00,Getafe,3,0,Celta Vigo,Feb 19 2018
+17:45,Leganes,1,3,Real Madrid,Feb 21 2018
+20:00,Deportivo La Coruna,0,0,Espanyol,Feb 23 2018
+12:00,Celta Vigo,2,0,Eibar,Feb 24 2018
+15:15,Real Madrid,4,0,Deportivo Alaves,Feb 24 2018
+17:30,Leganes,0,0,Las Palmas,Feb 24 2018
+19:45,Barcelona,6,1,Girona,Feb 24 2018
+11:00,Villarreal,1,0,Getafe,Feb 25 2018
+15:15,Athletic Bilbao,2,1,Malaga,Feb 25 2018
+17:30,Valencia,2,1,Real Sociedad,Feb 25 2018
+19:45,Sevilla,2,5,Atletico Madrid,Feb 25 2018
+20:00,Levante,0,2,Real Betis,Feb 26 2018
+19:00,Espanyol,1,0,Real Madrid,Feb 27 2018
+20:30,Girona,1,0,Celta Vigo,Feb 27 2018
+18:30,Getafe,3,0,Deportivo La Coruna,Feb 28 2018
+18:30,Athletic Bilbao,1,1,Valencia,Feb 28 2018
+18:30,Malaga,0,1,Sevilla,Feb 28 2018
+20:30,Atletico Madrid,4,0,Leganes,Feb 28 2018
+20:30,Eibar,1,0,Villarreal,Feb 28 2018
+12:00,Atletico Madrid,2,0,Getafe,Jan 6 2018
+15:15,Valencia,2,1,Girona,Jan 6 2018
+17:30,Las Palmas,1,2,Eibar,Jan 6 2018
+19:45,Sevilla,3,5,Real Betis,Jan 6 2018
+11:00,Leganes,1,0,Real Sociedad,Jan 7 2018
+15:15,Barcelona,3,0,Levante,Jan 7 2018
+17:30,Villarreal,1,1,Deportivo La Coruna,Jan 7 2018
+17:30,Athletic Bilbao,2,0,Deportivo Alaves,Jan 7 2018
+19:45,Celta Vigo,2,2,Real Madrid,Jan 7 2018
+20:00,Malaga,0,1,Espanyol,Jan 8 2018
+20:00,Getafe,1,0,Malaga,Jan 12 2018
+12:00,Girona,6,0,Las Palmas,Jan 13 2018
+15:15,Real Madrid,0,1,Villarreal,Jan 13 2018
+17:30,Eibar,0,1,Atletico Madrid,Jan 13 2018
+19:45,Deportivo La Coruna,1,2,Valencia,Jan 13 2018
+11:00,Levante,0,1,Celta Vigo,Jan 14 2018
+15:15,Deportivo Alaves,1,0,Sevilla,Jan 14 2018
+17:30,Espanyol,1,1,Athletic Bilbao,Jan 14 2018
+19:45,Real Sociedad,2,4,Barcelona,Jan 14 2018
+20:00,Real Betis,3,2,Leganes,Jan 15 2018
+20:00,Getafe,2,2,Athletic Bilbao,Jan 19 2018
+12:00,Espanyol,0,3,Sevilla,Jan 20 2018
+15:15,Atletico Madrid,1,1,Girona,Jan 20 2018
+17:30,Villarreal,2,1,Levante,Jan 20 2018
+19:45,Las Palmas,2,1,Valencia,Jan 20 2018
+11:00,Deportivo Alaves,2,2,Leganes,Jan 21 2018
+15:15,Real Madrid,7,1,Deportivo La Coruna,Jan 21 2018
+17:30,Real Sociedad,1,2,Celta Vigo,Jan 21 2018
+19:45,Real Betis,0,5,Barcelona,Jan 21 2018
+20:00,Eibar,1,1,Malaga,Jan 22 2018
+20:00,Athletic Bilbao,1,1,Eibar,Jan 26 2018
+12:00,Deportivo La Coruna,2,2,Levante,Jan 27 2018
+15:15,Valencia,1,4,Real Madrid,Jan 27 2018
+17:30,Malaga,0,0,Girona,Jan 27 2018
+19:45,Villarreal,4,2,Real Sociedad,Jan 27 2018
+11:00,Leganes,3,2,Espanyol,Jan 28 2018
+15:15,Atletico Madrid,3,0,Las Palmas,Jan 28 2018
+17:30,Sevilla,1,1,Getafe,Jan 28 2018
+19:45,Barcelona,2,1,Deportivo Alaves,Jan 28 2018
+20:00,Celta Vigo,3,2,Real Betis,Jan 29 2018
+20:00,Malaga,0,0,Levante,Des 1 2017
+12:00,Barcelona,2,2,Celta Vigo,Des 2 2017
+15:15,Atletico Madrid,2,1,Real Sociedad,Des 2 2017
+17:30,Sevilla,2,0,Deportivo La Coruna,Des 2 2017
+19:45,Athletic Bilbao,0,0,Real Madrid,Des 2 2017
+11:00,Leganes,3,1,Villarreal,Des 3 2017
+15:15,Getafe,1,0,Valencia,Des 3 2017
+17:30,Eibar,3,1,Espanyol,Des 3 2017
+19:45,Las Palmas,1,0,Real Betis,Des 3 2017
+20:00,Girona,2,3,Deportivo Alaves,Des 4 2017
+20:00,Deportivo Alaves,2,0,Las Palmas,Des 8 2017
+12:00,Getafe,0,0,Eibar,Des 9 2017
+15:15,Real Madrid,5,0,Sevilla,Des 9 2017
+17:30,Deportivo La Coruna,1,0,Leganes,Des 9 2017
+19:45,Valencia,2,1,Celta Vigo,Des 9 2017
+11:00,Real Sociedad,0,2,Malaga,Des 10 2017
+15:15,Real Betis,0,1,Atletico Madrid,Des 10 2017
+17:30,Levante,1,2,Athletic Bilbao,Des 10 2017
+19:45,Villarreal,0,2,Barcelona,Des 10 2017
+20:00,Espanyol,0,1,Girona,Des 11 2017
+20:00,Sevilla,0,0,Levante,Des 15 2017
+15:15,Athletic Bilbao,0,0,Real Sociedad,Des 16 2017
+17:30,Eibar,2,1,Valencia,Des 16 2017
+19:45,Atletico Madrid,1,0,Deportivo Alaves,Des 16 2017
+11:00,Girona,1,0,Getafe,Des 17 2017
+15:15,Celta Vigo,0,1,Villarreal,Des 17 2017
+17:30,Las Palmas,2,2,Espanyol,Des 17 2017
+19:45,Barcelona,4,0,Deportivo La Coruna,Des 17 2017
+20:00,Malaga,0,2,Real Betis,Des 18 2017
+20:30,Levante,0,0,Leganes,Des 19 2017
+18:30,Getafe,2,0,Las Palmas,Des 20 2017
+20:30,Real Sociedad,3,1,Sevilla,Des 20 2017
+18:30,Eibar,4,1,Girona,Des 21 2017
+20:30,Deportivo Alaves,1,0,Malaga,Des 21 2017
+18:30,Real Betis,0,2,Athletic Bilbao,Des 22 2017
+20:30,Espanyol,1,0,Atletico Madrid,Des 22 2017
+12:00,Real Madrid,0,3,Barcelona,Des 23 2017
+15:15,Valencia,0,1,Villarreal,Des 23 2017
+17:30,Deportivo La Coruna,1,3,Celta Vigo,Des 23 2017
+20:00,Real Betis,2,2,Getafe,Nov 3 2017
+12:00,Valencia,3,0,Leganes,Nov 4 2017
+15:15,Deportivo La Coruna,0,1,Atletico Madrid,Nov 4 2017
+17:30,Deportivo Alaves,1,0,Espanyol,Nov 4 2017
+19:45,Barcelona,2,1,Sevilla,Nov 4 2017
+11:00,Levante,1,2,Girona,Nov 5 2017
+15:15,Celta Vigo,3,1,Athletic Bilbao,Nov 5 2017
+17:30,Villarreal,2,0,Malaga,Nov 5 2017
+17:30,Real Sociedad,3,1,Eibar,Nov 5 2017
+19:45,Real Madrid,3,0,Las Palmas,Nov 5 2017
+20:00,Girona,1,1,Real Sociedad,Nov 17 2017
+12:00,Getafe,4,1,Deportivo Alaves,Nov 18 2017
+15:15,Leganes,0,3,Barcelona,Nov 18 2017
+17:30,Sevilla,2,1,Celta Vigo,Nov 18 2017
+19:45,Atletico Madrid,0,0,Real Madrid,Nov 18 2017
+11:00,Malaga,3,2,Deportivo La Coruna,Nov 19 2017
+15:15,Espanyol,0,2,Valencia,Nov 19 2017
+17:30,Las Palmas,0,2,Levante,Nov 19 2017
+19:45,Athletic Bilbao,1,1,Villarreal,Nov 19 2017
+20:00,Eibar,5,0,Real Betis,Nov 20 2017
+20:00,Celta Vigo,1,0,Leganes,Nov 24 2017
+12:00,Deportivo Alaves,1,2,Eibar,Nov 25 2017
+15:15,Real Madrid,3,2,Malaga,Nov 25 2017
+17:30,Real Betis,2,2,Girona,Nov 25 2017
+19:45,Levante,0,5,Atletico Madrid,Nov 25 2017
+11:00,Deportivo La Coruna,2,2,Athletic Bilbao,Nov 26 2017
+15:15,Real Sociedad,2,2,Las Palmas,Nov 26 2017
+17:30,Villarreal,2,3,Sevilla,Nov 26 2017
+19:45,Valencia,1,1,Barcelona,Nov 26 2017
+20:00,Espanyol,1,0,Getafe,Nov 27 2017
+11:00,Real Sociedad,4,4,Real Betis,Okt 1 2017
+15:15,Barcelona,3,0,Las Palmas,Okt 1 2017
+17:30,Villarreal,3,0,Eibar,Okt 1 2017
+17:30,Valencia,3,2,Athletic Bilbao,Okt 1 2017
+19:45,Real Madrid,2,0,Espanyol,Okt 1 2017
+20:00,Espanyol,0,0,Levante,Okt 13 2017
+12:00,Athletic Bilbao,1,0,Sevilla,Okt 14 2017
+15:15,Getafe,1,2,Real Madrid,Okt 14 2017
+17:30,Deportivo Alaves,0,2,Real Sociedad,Okt 14 2017
+19:45,Atletico Madrid,1,1,Barcelona,Okt 14 2017
+11:00,Eibar,0,0,Deportivo La Coruna,Okt 15 2017
+15:15,Girona,1,2,Villarreal,Okt 15 2017
+17:30,Malaga,0,2,Leganes,Okt 15 2017
+19:45,Real Betis,3,6,Valencia,Okt 15 2017
+20:00,Las Palmas,2,5,Celta Vigo,Okt 16 2017
+12:00,Levante,1,1,Getafe,Okt 21 2017
+15:15,Real Betis,2,0,Deportivo Alaves,Okt 21 2017
+17:30,Valencia,4,0,Sevilla,Okt 21 2017
+19:45,Barcelona,2,0,Malaga,Okt 21 2017
+11:00,Villarreal,4,0,Las Palmas,Okt 22 2017
+15:15,Celta Vigo,0,1,Atletico Madrid,Okt 22 2017
+17:30,Leganes,1,0,Athletic Bilbao,Okt 22 2017
+19:45,Real Madrid,3,0,Eibar,Okt 22 2017
+19:00,Real Sociedad,1,1,Espanyol,Okt 23 2017
+20:00,Deportivo La Coruna,1,2,Girona,Okt 23 2017
+12:00,Deportivo Alaves,1,2,Valencia,Okt 28 2017
+17:30,Atletico Madrid,1,1,Villarreal,Okt 28 2017
+19:45,Athletic Bilbao,0,2,Barcelona,Okt 28 2017
+21:30,Sevilla,2,1,Leganes,Okt 28 2017
+11:00,Getafe,2,1,Real Sociedad,Okt 29 2017
+15:15,Girona,2,1,Real Madrid,Okt 29 2017
+17:30,Eibar,2,2,Levante,Okt 29 2017
+19:45,Malaga,2,1,Celta Vigo,Okt 29 2017
+20:00,Las Palmas,1,3,Deportivo La Coruna,Okt 30 2017
+20:00,Espanyol,1,0,Real Betis,Okt 30 2017
+20:00,Leganes,1,2,Getafe,Sep 8 2017
+12:00,Real Madrid,1,1,Levante,Sep 9 2017
+15:15,Valencia,0,0,Atletico Madrid,Sep 9 2017
+17:30,Sevilla,3,0,Eibar,Sep 9 2017
+19:45,Barcelona,5,0,Espanyol,Sep 9 2017
+11:00,Deportivo La Coruna,2,4,Real Sociedad,Sep 10 2017
+15:15,Athletic Bilbao,2,0,Girona,Sep 10 2017
+17:30,Celta Vigo,1,0,Deportivo Alaves,Sep 10 2017
+19:45,Villarreal,3,1,Real Betis,Sep 10 2017
+20:00,Malaga,1,3,Las Palmas,Sep 11 2017
+20:00,Eibar,1,0,Leganes,Sep 15 2017
+12:00,Levante,1,1,Valencia,Sep 16 2017
+15:15,Getafe,1,2,Barcelona,Sep 16 2017
+17:30,Real Betis,2,1,Deportivo La Coruna,Sep 16 2017
+19:45,Atletico Madrid,1,0,Malaga,Sep 16 2017
+11:00,Deportivo Alaves,0,3,Villarreal,Sep 17 2017
+15:15,Girona,0,1,Sevilla,Sep 17 2017
+17:30,Las Palmas,1,0,Athletic Bilbao,Sep 17 2017
+19:45,Real Sociedad,1,3,Real Madrid,Sep 17 2017
+20:00,Espanyol,2,1,Celta Vigo,Sep 18 2017
+19:00,Valencia,5,0,Malaga,Sep 19 2017
+21:00,Barcelona,6,1,Eibar,Sep 19 2017
+19:00,Leganes,0,0,Girona,Sep 20 2017
+19:00,Athletic Bilbao,1,2,Atletico Madrid,Sep 20 2017
+20:00,Deportivo La Coruna,1,0,Deportivo Alaves,Sep 20 2017
+21:00,Real Madrid,0,1,Real Betis,Sep 20 2017
+21:00,Sevilla,1,0,Las Palmas,Sep 20 2017
+19:00,Villarreal,0,0,Espanyol,Sep 21 2017
+20:00,Celta Vigo,1,1,Getafe,Sep 21 2017
+21:00,Levante,3,0,Real Sociedad,Sep 21 2017
+12:00,Atletico Madrid,2,0,Sevilla,Sep 23 2017
+15:15,Deportivo Alaves,1,2,Real Madrid,Sep 23 2017
+17:30,Malaga,3,3,Athletic Bilbao,Sep 23 2017
+19:45,Girona,0,3,Barcelona,Sep 23 2017
+11:00,Espanyol,4,1,Deportivo La Coruna,Sep 24 2017
+15:15,Getafe,4,0,Villarreal,Sep 24 2017
+17:30,Eibar,0,4,Celta Vigo,Sep 24 2017
+17:30,Las Palmas,0,2,Leganes,Sep 24 2017
+19:45,Real Sociedad,2,3,Valencia,Sep 24 2017
+20:00,Real Betis,4,0,Levante,Sep 25 2017
+20:00,Celta Vigo,3,3,Girona,Sep 29 2017
+12:00,Deportivo La Coruna,2,1,Getafe,Sep 30 2017
+15:15,Sevilla,2,0,Malaga,Sep 30 2017
+17:30,Levante,0,2,Deportivo Alaves,Sep 30 2017
+19:45,Leganes,0,0,Atletico Madrid,Sep 30 2017
+20:00,Malaga,4,2,Sevilla,Mei 1 2017
+20:00,Sevilla,1,1,Real Sociedad,Mei 5 2017
+12:00,Sporting Gijon,1,0,Las Palmas,Mei 6 2017
+15:15,Atletico Madrid,1,0,Eibar,Mei 6 2017
+17:30,Barcelona,4,1,Villarreal,Mei 6 2017
+19:45,Granada,0,4,Real Madrid,Mei 6 2017
+11:00,Deportivo Alaves,1,0,Athletic Bilbao,Mei 7 2017
+15:15,Valencia,4,1,Osasuna,Mei 7 2017
+17:30,Deportivo La Coruna,1,2,Espanyol,Mei 7 2017
+19:45,Malaga,3,0,Celta Vigo,Mei 7 2017
+19:45,Leganes,4,0,Real Betis,Mei 8 2017
+15:00,Espanyol,0,1,Valencia,Mei 13 2017
+17:30,Osasuna,2,1,Granada,Mei 13 2017
+15:00,Deportivo Alaves,3,1,Celta Vigo,Mei 14 2017
+19:00,Real Sociedad,2,2,Malaga,Mei 14 2017
+19:00,Villarreal,0,0,Deportivo La Coruna,Mei 14 2017
+19:00,Eibar,0,1,Sporting Gijon,Mei 14 2017
+19:00,Real Betis,1,1,Atletico Madrid,Mei 14 2017
+19:00,Athletic Bilbao,1,1,Leganes,Mei 14 2017
+19:00,Las Palmas,1,4,Barcelona,Mei 14 2017
+19:00,Real Madrid,4,1,Sevilla,Mei 14 2017
+20:00,Celta Vigo,1,4,Real Madrid,Mei 17 2017
+19:45,Granada,1,2,Espanyol,Mei 19 2017
+16:00,Sporting Gijon,2,2,Real Betis,Mei 20 2017
+18:00,Leganes,1,1,Deportivo Alaves,Mei 20 2017
+18:00,Deportivo La Coruna,3,0,Las Palmas,Mei 20 2017
+20:00,Sevilla,5,0,Osasuna,Mei 20 2017
+15:45,Atletico Madrid,3,1,Athletic Bilbao,Mei 21 2017
+15:45,Valencia,1,3,Villarreal,Mei 21 2017
+15:45,Celta Vigo,2,2,Real Sociedad,Mei 21 2017
+19:00,Barcelona,4,2,Eibar,Mei 21 2017
+19:00,Malaga,0,2,Real Madrid,Mei 21 2017
+12:00,Villarreal,2,3,Eibar,Apr 1 2017
+15:15,Osasuna,1,2,Athletic Bilbao,Apr 1 2017
+17:30,Real Sociedad,1,1,Leganes,Apr 1 2017
+19:45,Malaga,0,2,Atletico Madrid,Apr 1 2017
+11:00,Sevilla,0,0,Sporting Gijon,Apr 2 2017
+15:15,Real Madrid,3,0,Deportivo Alaves,Apr 2 2017
+17:30,Valencia,3,0,Deportivo La Coruna,Apr 2 2017
+19:45,Granada,1,4,Barcelona,Apr 2 2017
+19:45,Celta Vigo,3,1,Las Palmas,Apr 3 2017
+18:30,Athletic Bilbao,2,0,Espanyol,Apr 4 2017
+20:30,Atletico Madrid,1,0,Real Sociedad,Apr 4 2017
+20:30,Real Betis,0,1,Villarreal,Apr 4 2017
+18:30,Barcelona,3,0,Sevilla,Apr 5 2017
+19:30,Sporting Gijon,0,1,Malaga,Apr 5 2017
+19:30,Deportivo La Coruna,0,0,Granada,Apr 5 2017
+19:30,Deportivo Alaves,0,1,Osasuna,Apr 5 2017
+20:30,Leganes,2,4,Real Madrid,Apr 5 2017
+18:30,Eibar,3,1,Las Palmas,Apr 6 2017
+20:30,Valencia,3,2,Celta Vigo,Apr 6 2017
+19:45,Villarreal,3,1,Athletic Bilbao,Apr 7 2017
+12:00,Espanyol,1,0,Deportivo Alaves,Apr 8 2017
+15:15,Real Madrid,1,1,Atletico Madrid,Apr 8 2017
+17:30,Sevilla,4,2,Deportivo La Coruna,Apr 8 2017
+19:45,Malaga,2,0,Barcelona,Apr 8 2017
+11:00,Granada,1,3,Valencia,Apr 9 2017
+15:15,Celta Vigo,0,2,Eibar,Apr 9 2017
+17:30,Osasuna,2,1,Leganes,Apr 9 2017
+19:45,Las Palmas,4,1,Real Betis,Apr 9 2017
+19:45,Real Sociedad,3,1,Sporting Gijon,Apr 10 2017
+19:45,Athletic Bilbao,5,1,Las Palmas,Apr 14 2017
+12:00,Deportivo La Coruna,2,0,Malaga,Apr 15 2017
+15:15,Sporting Gijon,2,3,Real Madrid,Apr 15 2017
+17:30,Atletico Madrid,3,0,Osasuna,Apr 15 2017
+19:45,Barcelona,3,2,Real Sociedad,Apr 15 2017
+11:00,Leganes,0,1,Espanyol,Apr 16 2017
+15:15,Valencia,0,0,Sevilla,Apr 16 2017
+17:30,Real Betis,2,0,Eibar,Apr 16 2017
+19:45,Granada,0,3,Celta Vigo,Apr 16 2017
+19:45,Deportivo Alaves,2,1,Villarreal,Apr 17 2017
+20:00,Sevilla,2,0,Granada,Apr 21 2017
+12:00,Malaga,2,0,Valencia,Apr 22 2017
+15:15,Villarreal,2,1,Leganes,Apr 22 2017
+17:30,Osasuna,2,2,Sporting Gijon,Apr 22 2017
+19:45,Espanyol,0,1,Atletico Madrid,Apr 22 2017
+11:00,Real Sociedad,1,0,Deportivo La Coruna,Apr 23 2017
+15:15,Celta Vigo,0,1,Real Betis,Apr 23 2017
+17:30,Las Palmas,1,1,Deportivo Alaves,Apr 23 2017
+19:45,Real Madrid,2,3,Barcelona,Apr 23 2017
+19:45,Eibar,0,1,Athletic Bilbao,Apr 24 2017
+18:30,Sporting Gijon,1,1,Espanyol,Apr 25 2017
+19:30,Granada,0,2,Malaga,Apr 25 2017
+20:30,Atletico Madrid,0,1,Villarreal,Apr 25 2017
+18:30,Barcelona,7,1,Osasuna,Apr 26 2017
+19:30,Leganes,3,0,Las Palmas,Apr 26 2017
+19:30,Valencia,2,3,Real Sociedad,Apr 26 2017
+20:30,Deportivo La Coruna,2,6,Real Madrid,Apr 26 2017
+18:30,Deportivo Alaves,0,0,Eibar,Apr 27 2017
+19:30,Sevilla,2,1,Celta Vigo,Apr 27 2017
+20:30,Athletic Bilbao,2,1,Real Betis,Apr 27 2017
+19:45,Villarreal,3,1,Sporting Gijon,Apr 28 2017
+12:00,Real Sociedad,2,1,Granada,Apr 29 2017
+15:15,Real Madrid,2,1,Valencia,Apr 29 2017
+17:30,Las Palmas,0,5,Atletico Madrid,Apr 29 2017
+19:45,Espanyol,0,3,Barcelona,Apr 29 2017
+11:00,Osasuna,2,2,Deportivo La Coruna,Apr 30 2017
+15:15,Real Betis,1,4,Deportivo Alaves,Apr 30 2017
+17:30,Eibar,2,0,Leganes,Apr 30 2017
+19:45,Celta Vigo,0,3,Athletic Bilbao,Apr 30 2017
+18:30,Osasuna,1,4,Villarreal,Mac 1 2017
+18:30,Barcelona,6,1,Sporting Gijon,Mac 1 2017
+20:30,Real Madrid,3,3,Las Palmas,Mac 1 2017
+20:30,Granada,2,1,Deportivo Alaves,Mac 1 2017
+20:30,Celta Vigo,2,2,Espanyol,Mac 1 2017
+19:45,Deportivo La Coruna,1,1,Atletico Madrid,Mac 2 2017
+20:30,Sevilla,1,0,Athletic Bilbao,Mac 2 2017
+19:45,Real Betis,2,3,Real Sociedad,Mac 3 2017
+12:00,Leganes,1,0,Granada,Mac 4 2017
+15:15,Eibar,1,4,Real Madrid,Mac 4 2017
+17:30,Villarreal,2,0,Espanyol,Mac 4 2017
+19:45,Barcelona,5,0,Celta Vigo,Mac 4 2017
+11:00,Sporting Gijon,0,1,Deportivo La Coruna,Mac 5 2017
+15:15,Atletico Madrid,3,0,Valencia,Mac 5 2017
+17:30,Las Palmas,5,2,Osasuna,Mac 5 2017
+19:45,Athletic Bilbao,1,0,Malaga,Mac 5 2017
+19:45,Deportivo Alaves,1,1,Sevilla,Mac 6 2017
+17:45,Deportivo La Coruna,1,1,Real Betis,Mac 8 2017
+19:45,Espanyol,4,3,Las Palmas,Mac 10 2017
+12:00,Valencia,1,1,Sporting Gijon,Mac 11 2017
+15:15,Sevilla,1,1,Leganes,Mac 11 2017
+17:30,Malaga,1,2,Deportivo Alaves,Mac 11 2017
+19:45,Granada,0,1,Atletico Madrid,Mac 11 2017
+11:00,Real Sociedad,0,2,Athletic Bilbao,Mac 12 2017
+15:15,Deportivo La Coruna,2,1,Barcelona,Mac 12 2017
+17:30,Celta Vigo,0,1,Villarreal,Mac 12 2017
+19:45,Real Madrid,2,1,Real Betis,Mac 12 2017
+19:45,Osasuna,1,1,Eibar,Mac 13 2017
+19:45,Las Palmas,1,0,Villarreal,Mac 17 2017
+12:00,Eibar,1,1,Espanyol,Mac 18 2017
+15:15,Athletic Bilbao,1,2,Real Madrid,Mac 18 2017
+17:30,Deportivo Alaves,1,0,Real Sociedad,Mac 18 2017
+19:45,Real Betis,2,0,Osasuna,Mac 18 2017
+11:00,Leganes,0,0,Malaga,Mac 19 2017
+15:15,Atletico Madrid,3,1,Sevilla,Mac 19 2017
+17:30,Sporting Gijon,3,1,Granada,Mac 19 2017
+17:30,Deportivo La Coruna,0,1,Celta Vigo,Mac 19 2017
+19:45,Barcelona,4,2,Valencia,Mac 19 2017
+19:45,Espanyol,2,1,Real Betis,Mac 31 2017
+12:00,Malaga,0,1,Espanyol,Feb 4 2017
+15:15,Barcelona,3,0,Athletic Bilbao,Feb 4 2017
+17:30,Atletico Madrid,2,0,Leganes,Feb 4 2017
+19:45,Valencia,0,4,Eibar,Feb 4 2017
+11:00,Sevilla,0,0,Villarreal,Feb 5 2017
+15:15,Sporting Gijon,2,4,Deportivo Alaves,Feb 5 2017
+17:30,Real Sociedad,3,2,Osasuna,Feb 5 2017
+19:45,Granada,1,0,Las Palmas,Feb 6 2017
+19:45,Espanyol,1,2,Real Sociedad,Feb 10 2017
+12:00,Real Betis,0,0,Valencia,Feb 11 2017
+15:15,Deportivo Alaves,0,6,Barcelona,Feb 11 2017
+17:30,Athletic Bilbao,2,1,Deportivo La Coruna,Feb 11 2017
+19:45,Osasuna,1,3,Real Madrid,Feb 11 2017
+11:00,Villarreal,1,1,Malaga,Feb 12 2017
+15:15,Leganes,0,2,Sporting Gijon,Feb 12 2017
+17:30,Las Palmas,0,1,Sevilla,Feb 12 2017
+19:45,Atletico Madrid,3,2,Celta Vigo,Feb 12 2017
+19:45,Eibar,4,0,Granada,Feb 13 2017
+19:45,Granada,4,1,Real Betis,Feb 17 2017
+12:00,Sporting Gijon,1,4,Atletico Madrid,Feb 18 2017
+15:15,Real Madrid,2,0,Espanyol,Feb 18 2017
+17:30,Deportivo La Coruna,0,1,Deportivo Alaves,Feb 18 2017
+19:45,Sevilla,2,0,Eibar,Feb 18 2017
+11:00,Real Sociedad,0,1,Villarreal,Feb 19 2017
+15:15,Valencia,2,0,Athletic Bilbao,Feb 19 2017
+17:30,Celta Vigo,3,0,Osasuna,Feb 19 2017
+19:45,Barcelona,2,1,Leganes,Feb 19 2017
+19:45,Malaga,2,1,Las Palmas,Feb 20 2017
+17:45,Valencia,2,1,Real Madrid,Feb 22 2017
+19:45,Las Palmas,0,1,Real Sociedad,Feb 24 2017
+12:00,Deportivo Alaves,2,1,Valencia,Feb 25 2017
+15:15,Real Betis,1,2,Sevilla,Feb 25 2017
+17:30,Leganes,4,0,Deportivo La Coruna,Feb 25 2017
+19:45,Eibar,3,0,Malaga,Feb 25 2017
+11:00,Espanyol,3,0,Osasuna,Feb 26 2017
+15:15,Atletico Madrid,1,2,Barcelona,Feb 26 2017
+17:30,Athletic Bilbao,3,1,Granada,Feb 26 2017
+17:30,Sporting Gijon,1,1,Celta Vigo,Feb 26 2017
+19:45,Villarreal,2,3,Real Madrid,Feb 26 2017
+18:30,Real Sociedad,2,2,Eibar,Feb 28 2017
+20:30,Malaga,1,2,Real Betis,Feb 28 2017
+20:30,Valencia,1,0,Leganes,Feb 28 2017
+19:45,Espanyol,1,1,Deportivo La Coruna,Jan 6 2017
+12:00,Real Madrid,5,0,Granada,Jan 7 2017
+15:15,Eibar,0,2,Atletico Madrid,Jan 7 2017
+17:30,Las Palmas,1,0,Sporting Gijon,Jan 7 2017
+19:45,Real Sociedad,0,4,Sevilla,Jan 7 2017
+11:00,Athletic Bilbao,0,0,Deportivo Alaves,Jan 8 2017
+15:15,Real Betis,2,0,Leganes,Jan 8 2017
+17:30,Celta Vigo,3,1,Malaga,Jan 8 2017
+19:45,Villarreal,1,1,Barcelona,Jan 8 2017
+19:45,Osasuna,3,3,Valencia,Jan 9 2017
+12:00,Leganes,0,0,Athletic Bilbao,Jan 14 2017
+15:15,Barcelona,5,0,Las Palmas,Jan 14 2017
+17:30,Atletico Madrid,1,0,Real Betis,Jan 14 2017
+19:45,Deportivo La Coruna,0,0,Villarreal,Jan 14 2017
+11:00,Valencia,2,1,Espanyol,Jan 15 2017
+15:15,Celta Vigo,1,0,Deportivo Alaves,Jan 15 2017
+17:30,Sporting Gijon,2,3,Eibar,Jan 15 2017
+17:30,Granada,1,1,Osasuna,Jan 15 2017
+19:45,Sevilla,2,1,Real Madrid,Jan 15 2017
+19:45,Malaga,0,2,Real Sociedad,Jan 16 2017
+19:45,Las Palmas,1,1,Deportivo La Coruna,Jan 20 2017
+12:00,Espanyol,3,1,Granada,Jan 21 2017
+15:15,Real Madrid,2,1,Malaga,Jan 21 2017
+17:30,Deportivo Alaves,2,2,Leganes,Jan 21 2017
+19:45,Villarreal,0,2,Valencia,Jan 21 2017
+11:00,Osasuna,3,4,Sevilla,Jan 22 2017
+15:15,Athletic Bilbao,2,2,Atletico Madrid,Jan 22 2017
+17:30,Real Betis,0,0,Sporting Gijon,Jan 22 2017
+17:30,Real Sociedad,1,0,Celta Vigo,Jan 22 2017
+19:45,Eibar,0,4,Barcelona,Jan 22 2017
+19:45,Osasuna,1,1,Malaga,Jan 27 2017
+12:00,Villarreal,2,0,Granada,Jan 28 2017
+15:15,Deportivo Alaves,0,0,Atletico Madrid,Jan 28 2017
+17:30,Eibar,3,1,Deportivo La Coruna,Jan 28 2017
+19:45,Leganes,0,2,Celta Vigo,Jan 28 2017
+11:00,Real Betis,1,1,Barcelona,Jan 29 2017
+15:15,Espanyol,3,1,Sevilla,Jan 29 2017
+17:30,Athletic Bilbao,2,1,Sporting Gijon,Jan 29 2017
+19:45,Real Madrid,3,0,Real Sociedad,Jan 29 2017
+19:45,Las Palmas,3,1,Valencia,Jan 30 2017
+12:00,Granada,2,1,Sevilla,Des 3 2016
+15:15,Barcelona,1,1,Real Madrid,Des 3 2016
+17:30,Leganes,0,0,Villarreal,Des 3 2016
+19:45,Atletico Madrid,0,0,Espanyol,Des 3 2016
+11:00,Real Betis,3,3,Celta Vigo,Des 4 2016
+15:15,Athletic Bilbao,3,1,Eibar,Des 4 2016
+17:30,Deportivo Alaves,1,1,Las Palmas,Des 4 2016
+17:30,Sporting Gijon,3,1,Osasuna,Des 4 2016
+19:45,Valencia,2,2,Malaga,Des 4 2016
+19:45,Deportivo La Coruna,5,1,Real Sociedad,Des 5 2016
+19:45,Malaga,1,1,Granada,Des 9 2016
+12:00,Osasuna,0,3,Barcelona,Des 10 2016
+15:15,Real Sociedad,3,2,Valencia,Des 10 2016
+17:30,Las Palmas,1,1,Leganes,Des 10 2016
+19:45,Real Madrid,3,2,Deportivo La Coruna,Des 10 2016
+11:00,Eibar,0,0,Deportivo Alaves,Des 11 2016
+15:15,Celta Vigo,0,3,Sevilla,Des 11 2016
+17:30,Espanyol,2,1,Sporting Gijon,Des 11 2016
+19:45,Real Betis,1,0,Athletic Bilbao,Des 11 2016
+19:45,Villarreal,3,0,Atletico Madrid,Des 12 2016
+19:45,Deportivo Alaves,1,0,Real Betis,Des 16 2016
+12:00,Sporting Gijon,1,3,Villarreal,Des 17 2016
+15:15,Atletico Madrid,1,0,Las Palmas,Des 17 2016
+17:30,Granada,0,2,Real Sociedad,Des 17 2016
+19:45,Sevilla,4,1,Malaga,Des 17 2016
+15:15,Leganes,1,1,Eibar,Des 18 2016
+17:30,Deportivo La Coruna,2,0,Osasuna,Des 18 2016
+19:45,Barcelona,4,1,Espanyol,Des 18 2016
+19:45,Athletic Bilbao,2,1,Celta Vigo,Des 19 2016
+19:45,Malaga,3,2,Sporting Gijon,Nov 4 2016
+12:00,Granada,1,1,Deportivo La Coruna,Nov 5 2016
+15:15,Real Sociedad,2,0,Atletico Madrid,Nov 5 2016
+17:30,Osasuna,0,1,Deportivo Alaves,Nov 5 2016
+19:45,Las Palmas,1,0,Eibar,Nov 5 2016
+11:00,Real Madrid,3,0,Leganes,Nov 6 2016
+15:15,Espanyol,0,0,Athletic Bilbao,Nov 6 2016
+15:15,Celta Vigo,2,1,Valencia,Nov 6 2016
+17:30,Villarreal,2,0,Real Betis,Nov 6 2016
+19:45,Sevilla,1,2,Barcelona,Nov 6 2016
+19:45,Real Betis,2,0,Las Palmas,Nov 18 2016
+12:00,Deportivo La Coruna,2,3,Sevilla,Nov 19 2016
+15:15,Barcelona,0,0,Malaga,Nov 19 2016
+17:30,Eibar,1,0,Celta Vigo,Nov 19 2016
+19:45,Atletico Madrid,0,3,Real Madrid,Nov 19 2016
+11:00,Deportivo Alaves,0,1,Espanyol,Nov 20 2016
+15:15,Valencia,1,1,Granada,Nov 20 2016
+17:30,Sporting Gijon,1,3,Real Sociedad,Nov 20 2016
+19:45,Athletic Bilbao,1,0,Villarreal,Nov 20 2016
+19:45,Leganes,2,0,Osasuna,Nov 21 2016
+19:45,Eibar,3,1,Real Betis,Nov 25 2016
+12:00,Malaga,4,3,Deportivo La Coruna,Nov 26 2016
+15:15,Real Madrid,2,1,Sporting Gijon,Nov 26 2016
+17:30,Espanyol,3,0,Leganes,Nov 26 2016
+19:45,Sevilla,2,1,Valencia,Nov 26 2016
+11:00,Villarreal,0,2,Deportivo Alaves,Nov 27 2016
+15:15,Osasuna,0,3,Atletico Madrid,Nov 27 2016
+17:30,Celta Vigo,3,1,Granada,Nov 27 2016
+19:45,Real Sociedad,1,1,Barcelona,Nov 27 2016
+19:45,Las Palmas,3,1,Athletic Bilbao,Nov 28 2016
+12:00,Granada,0,1,Leganes,Okt 1 2016
+15:15,Sevilla,2,1,Deportivo Alaves,Okt 1 2016
+17:30,Osasuna,2,2,Las Palmas,Okt 1 2016
+19:45,Deportivo La Coruna,2,1,Sporting Gijon,Okt 1 2016
+11:00,Valencia,0,2,Atletico Madrid,Okt 2 2016
+15:15,Real Madrid,1,1,Eibar,Okt 2 2016
+17:30,Malaga,2,1,Athletic Bilbao,Okt 2 2016
+17:30,Espanyol,0,0,Villarreal,Okt 2 2016
+19:45,Celta Vigo,4,3,Barcelona,Okt 2 2016
+19:45,Las Palmas,0,0,Espanyol,Okt 14 2016
+12:00,Leganes,2,3,Sevilla,Okt 15 2016
+15:15,Barcelona,4,0,Deportivo La Coruna,Okt 15 2016
+17:30,Atletico Madrid,7,1,Granada,Okt 15 2016
+19:45,Real Betis,1,6,Real Madrid,Okt 15 2016
+11:00,Deportivo Alaves,1,1,Malaga,Okt 16 2016
+15:15,Athletic Bilbao,3,2,Real Sociedad,Okt 16 2016
+17:30,Sporting Gijon,1,2,Valencia,Okt 16 2016
+19:45,Villarreal,5,0,Celta Vigo,Okt 16 2016
+19:45,Eibar,2,3,Osasuna,Okt 17 2016
+19:45,Osasuna,1,2,Real Betis,Okt 21 2016
+12:00,Espanyol,3,3,Eibar,Okt 22 2016
+15:15,Valencia,2,3,Barcelona,Okt 22 2016
+17:30,Real Sociedad,3,0,Deportivo Alaves,Okt 22 2016
+19:45,Granada,0,0,Sporting Gijon,Okt 22 2016
+11:00,Celta Vigo,4,1,Deportivo La Coruna,Okt 23 2016
+15:15,Sevilla,1,0,Atletico Madrid,Okt 23 2016
+17:30,Malaga,4,0,Leganes,Okt 23 2016
+17:30,Villarreal,2,1,Las Palmas,Okt 23 2016
+19:45,Real Madrid,2,1,Athletic Bilbao,Okt 23 2016
+19:45,Leganes,0,2,Real Sociedad,Okt 28 2016
+12:00,Sporting Gijon,1,1,Sevilla,Okt 29 2016
+15:15,Deportivo Alaves,1,4,Real Madrid,Okt 29 2016
+17:30,Atletico Madrid,4,2,Malaga,Okt 29 2016
+19:45,Barcelona,1,0,Granada,Okt 29 2016
+11:00,Eibar,2,1,Villarreal,Okt 30 2016
+15:15,Athletic Bilbao,1,1,Osasuna,Okt 30 2016
+17:30,Real Betis,0,1,Espanyol,Okt 30 2016
+19:45,Las Palmas,3,3,Celta Vigo,Okt 30 2016
+19:45,Deportivo La Coruna,1,1,Valencia,Okt 31 2016
+19:45,Real Sociedad,1,1,Espanyol,Sep 9 2016
+12:00,Celta Vigo,0,4,Atletico Madrid,Sep 10 2016
+15:00,Real Madrid,5,2,Osasuna,Sep 10 2016
+17:15,Sevilla,2,1,Las Palmas,Sep 10 2016
+17:15,Malaga,0,2,Villarreal,Sep 10 2016
+19:30,Barcelona,1,2,Deportivo Alaves,Sep 10 2016
+11:00,Sporting Gijon,2,1,Leganes,Sep 11 2016
+15:00,Valencia,2,3,Real Betis,Sep 11 2016
+17:15,Granada,1,2,Eibar,Sep 11 2016
+19:30,Deportivo La Coruna,0,1,Athletic Bilbao,Sep 11 2016
+19:45,Real Betis,2,2,Granada,Sep 16 2016
+12:00,Leganes,1,5,Barcelona,Sep 17 2016
+15:15,Atletico Madrid,5,0,Sporting Gijon,Sep 17 2016
+17:30,Eibar,1,1,Sevilla,Sep 17 2016
+19:45,Las Palmas,1,0,Malaga,Sep 17 2016
+11:00,Osasuna,0,0,Celta Vigo,Sep 18 2016
+15:15,Athletic Bilbao,2,1,Valencia,Sep 18 2016
+17:30,Villarreal,2,1,Real Sociedad,Sep 18 2016
+19:45,Espanyol,0,2,Real Madrid,Sep 18 2016
+19:45,Deportivo Alaves,0,0,Deportivo La Coruna,Sep 19 2016
+19:00,Malaga,2,1,Eibar,Sep 20 2016
+21:00,Sevilla,1,0,Real Betis,Sep 20 2016
+19:00,Real Madrid,1,1,Villarreal,Sep 21 2016
+19:00,Celta Vigo,2,1,Sporting Gijon,Sep 21 2016
+21:00,Real Sociedad,4,1,Las Palmas,Sep 21 2016
+21:00,Granada,1,2,Athletic Bilbao,Sep 21 2016
+21:00,Barcelona,1,1,Atletico Madrid,Sep 21 2016
+19:00,Deportivo La Coruna,1,2,Leganes,Sep 22 2016
+19:00,Osasuna,1,2,Espanyol,Sep 22 2016
+21:00,Valencia,2,1,Deportivo Alaves,Sep 22 2016
+19:45,Real Betis,1,0,Malaga,Sep 23 2016
+12:00,Eibar,2,0,Real Sociedad,Sep 24 2016
+15:15,Sporting Gijon,0,5,Barcelona,Sep 24 2016
+17:30,Athletic Bilbao,3,1,Sevilla,Sep 24 2016
+19:45,Las Palmas,2,2,Real Madrid,Sep 24 2016
+11:00,Leganes,1,2,Valencia,Sep 25 2016
+15:15,Atletico Madrid,1,0,Deportivo La Coruna,Sep 25 2016
+17:30,Villarreal,3,1,Osasuna,Sep 25 2016
+19:45,Espanyol,0,2,Celta Vigo,Sep 25 2016
+19:45,Deportivo Alaves,3,1,Granada,Sep 26 2016
+19:45,Real Sociedad,1,0,Real Betis,Sep 30 2016
+11:00,Athletic Bilbao,2,1,Celta Vigo,Mei 1 2016
+15:00,Espanyol,1,0,Sevilla,Mei 1 2016
+17:15,Deportivo La Coruna,0,2,Getafe,Mei 1 2016
+19:30,Valencia,0,2,Villarreal,Mei 1 2016
+19:30,Malaga,3,1,Levante,Mei 2 2016
+16:00,Las Palmas,0,0,Athletic Bilbao,Mei 8 2016
+16:00,Celta Vigo,1,0,Malaga,Mei 8 2016
+16:00,Levante,2,1,Atletico Madrid,Mei 8 2016
+16:00,Getafe,1,1,Sporting Gijon,Mei 8 2016
+16:00,Villarreal,0,2,Deportivo La Coruna,Mei 8 2016
+16:00,Real Sociedad,2,1,Rayo Vallecano,Mei 8 2016
+16:00,Real Madrid,3,2,Valencia,Mei 8 2016
+16:00,Eibar,1,1,Real Betis,Mei 8 2016
+16:00,Barcelona,5,0,Espanyol,Mei 8 2016
+16:00,Sevilla,1,4,Granada,Mei 8 2016
+19:30,Valencia,0,1,Real Sociedad,Mei 13 2016
+16:00,Deportivo La Coruna,0,2,Real Madrid,Mei 14 2016
+16:00,Granada,0,3,Barcelona,Mei 14 2016
+18:30,Athletic Bilbao,3,1,Sevilla,Mei 14 2016
+18:30,Atletico Madrid,2,0,Celta Vigo,Mei 14 2016
+11:00,Malaga,4,1,Las Palmas,Mei 15 2016
+18:00,Espanyol,4,2,Eibar,Mei 15 2016
+18:30,Real Betis,2,1,Getafe,Mei 15 2016
+18:30,Sporting Gijon,2,0,Villarreal,Mei 15 2016
+18:30,Rayo Vallecano,3,1,Levante,Mei 15 2016
+19:30,Rayo Vallecano,2,0,Getafe,Apr 1 2016
+15:00,Atletico Madrid,5,1,Real Betis,Apr 2 2016
+17:15,Las Palmas,2,1,Valencia,Apr 2 2016
+19:30,Barcelona,1,2,Real Madrid,Apr 2 2016
+21:05,Celta Vigo,1,1,Deportivo La Coruna,Apr 2 2016
+11:00,Athletic Bilbao,1,1,Granada,Apr 3 2016
+15:00,Malaga,1,1,Espanyol,Apr 3 2016
+17:15,Eibar,1,2,Villarreal,Apr 3 2016
+19:30,Sevilla,1,2,Real Sociedad,Apr 3 2016
+19:30,Levante,0,0,Sporting Gijon,Apr 4 2016
+19:30,Granada,0,0,Malaga,Apr 8 2016
+15:00,Real Madrid,4,0,Eibar,Apr 9 2016
+17:15,Espanyol,1,3,Atletico Madrid,Apr 9 2016
+19:30,Real Sociedad,1,0,Barcelona,Apr 9 2016
+21:05,Real Betis,1,0,Levante,Apr 9 2016
+11:00,Sporting Gijon,0,1,Celta Vigo,Apr 10 2016
+15:00,Valencia,2,1,Sevilla,Apr 10 2016
+17:15,Villarreal,2,0,Getafe,Apr 10 2016
+19:30,Athletic Bilbao,1,0,Rayo Vallecano,Apr 10 2016
+19:30,Deportivo La Coruna,1,3,Las Palmas,Apr 11 2016
+19:30,Levante,2,1,Espanyol,Apr 15 2016
+15:00,Getafe,1,5,Real Madrid,Apr 16 2016
+17:15,Las Palmas,1,1,Sporting Gijon,Apr 16 2016
+19:30,Eibar,2,1,Real Sociedad,Apr 16 2016
+21:05,Celta Vigo,1,1,Real Betis,Apr 16 2016
+11:00,Malaga,0,1,Athletic Bilbao,Apr 17 2016
+15:00,Sevilla,1,1,Deportivo La Coruna,Apr 17 2016
+17:15,Atletico Madrid,3,0,Granada,Apr 17 2016
+17:15,Rayo Vallecano,2,1,Villarreal,Apr 17 2016
+19:30,Barcelona,1,2,Valencia,Apr 17 2016
+19:00,Espanyol,1,1,Celta Vigo,Apr 19 2016
+20:00,Real Betis,1,0,Las Palmas,Apr 19 2016
+19:00,Deportivo La Coruna,0,8,Barcelona,Apr 20 2016
+19:45,Valencia,4,0,Eibar,Apr 20 2016
+19:45,Athletic Bilbao,0,1,Atletico Madrid,Apr 20 2016
+19:45,Sporting Gijon,2,1,Sevilla,Apr 20 2016
+19:45,Malaga,1,1,Rayo Vallecano,Apr 20 2016
+21:00,Real Madrid,3,0,Villarreal,Apr 20 2016
+19:30,Real Sociedad,1,2,Getafe,Apr 21 2016
+20:00,Granada,5,1,Levante,Apr 21 2016
+20:00,Las Palmas,4,0,Espanyol,Apr 22 2016
+15:00,Rayo Vallecano,2,3,Real Madrid,Apr 23 2016
+17:15,Atletico Madrid,1,0,Malaga,Apr 23 2016
+19:30,Barcelona,6,0,Sporting Gijon,Apr 23 2016
+21:05,Eibar,1,1,Deportivo La Coruna,Apr 23 2016
+11:00,Levante,2,2,Athletic Bilbao,Apr 24 2016
+15:00,Sevilla,2,0,Real Betis,Apr 24 2016
+17:15,Getafe,2,2,Valencia,Apr 24 2016
+19:30,Villarreal,0,0,Real Sociedad,Apr 24 2016
+19:30,Celta Vigo,2,1,Granada,Apr 25 2016
+19:30,Sporting Gijon,2,0,Eibar,Apr 29 2016
+15:00,Real Sociedad,0,1,Real Madrid,Apr 30 2016
+17:15,Atletico Madrid,1,0,Rayo Vallecano,Apr 30 2016
+19:30,Real Betis,0,2,Barcelona,Apr 30 2016
+21:05,Granada,3,2,Las Palmas,Apr 30 2016
+20:00,Atletico Madrid,3,0,Real Sociedad,Mac 1 2016
+21:00,Las Palmas,4,0,Getafe,Mac 1 2016
+19:00,Sevilla,1,0,Eibar,Mac 2 2016
+19:00,Malaga,1,2,Valencia,Mac 2 2016
+19:00,Celta Vigo,0,0,Villarreal,Mac 2 2016
+19:00,Athletic Bilbao,4,1,Deportivo La Coruna,Mac 2 2016
+20:00,Levante,1,3,Real Madrid,Mac 2 2016
+19:00,Granada,2,0,Sporting Gijon,Mac 3 2016
+19:30,Espanyol,0,3,Real Betis,Mac 3 2016
+20:00,Rayo Vallecano,1,5,Barcelona,Mac 3 2016
+15:00,Real Madrid,7,1,Celta Vigo,Mac 5 2016
+17:15,Villarreal,0,1,Las Palmas,Mac 5 2016
+19:30,Getafe,1,1,Sevilla,Mac 5 2016
+21:05,Deportivo La Coruna,3,3,Malaga,Mac 5 2016
+11:00,Real Betis,2,0,Granada,Mac 6 2016
+15:00,Eibar,0,4,Barcelona,Mac 6 2016
+17:15,Sporting Gijon,0,2,Athletic Bilbao,Mac 6 2016
+17:15,Real Sociedad,1,1,Levante,Mac 6 2016
+19:30,Valencia,1,3,Atletico Madrid,Mac 6 2016
+19:30,Espanyol,2,1,Rayo Vallecano,Mac 7 2016
+19:30,Malaga,1,0,Sporting Gijon,Mac 11 2016
+15:00,Barcelona,6,0,Getafe,Mac 12 2016
+17:15,Celta Vigo,1,0,Real Sociedad,Mac 12 2016
+19:30,Atletico Madrid,3,0,Deportivo La Coruna,Mac 12 2016
+21:05,Rayo Vallecano,1,1,Eibar,Mac 12 2016
+11:00,Levante,1,0,Valencia,Mac 13 2016
+15:00,Sevilla,4,2,Villarreal,Mac 13 2016
+17:15,Athletic Bilbao,3,1,Real Betis,Mac 13 2016
+19:30,Las Palmas,1,2,Real Madrid,Mac 13 2016
+19:30,Granada,1,1,Espanyol,Mac 14 2016
+19:30,Getafe,1,1,Eibar,Mac 18 2016
+15:00,Sporting Gijon,2,1,Atletico Madrid,Mac 19 2016
+17:15,Real Sociedad,0,1,Las Palmas,Mac 19 2016
+17:15,Granada,2,2,Rayo Vallecano,Mac 19 2016
+19:30,Deportivo La Coruna,2,1,Levante,Mac 19 2016
+21:05,Real Betis,0,1,Malaga,Mac 19 2016
+11:00,Espanyol,2,1,Athletic Bilbao,Mac 20 2016
+15:00,Villarreal,2,2,Barcelona,Mac 20 2016
+17:15,Valencia,0,2,Celta Vigo,Mac 20 2016
+19:30,Real Madrid,4,0,Sevilla,Mac 20 2016
+19:30,Deportivo La Coruna,2,2,Rayo Vallecano,Feb 1 2016
+19:30,Malaga,3,0,Getafe,Feb 5 2016
+15:00,Atletico Madrid,3,1,Eibar,Feb 6 2016
+17:15,Rayo Vallecano,2,0,Las Palmas,Feb 6 2016
+19:30,Athletic Bilbao,0,0,Villarreal,Feb 6 2016
+21:05,Sporting Gijon,1,1,Deportivo La Coruna,Feb 6 2016
+11:00,Levante,0,2,Barcelona,Feb 7 2016
+15:00,Real Betis,1,0,Valencia,Feb 7 2016
+17:15,Celta Vigo,1,1,Sevilla,Feb 7 2016
+19:30,Granada,1,2,Real Madrid,Feb 7 2016
+19:30,Espanyol,0,5,Real Sociedad,Feb 8 2016
+19:30,Sporting Gijon,2,2,Rayo Vallecano,Feb 12 2016
+15:00,Real Madrid,4,2,Athletic Bilbao,Feb 13 2016
+17:15,Villarreal,1,0,Malaga,Feb 13 2016
+19:30,Valencia,2,1,Espanyol,Feb 13 2016
+21:05,Deportivo La Coruna,2,2,Real Betis,Feb 13 2016
+11:00,Real Sociedad,3,0,Granada,Feb 14 2016
+15:00,Sevilla,2,0,Las Palmas,Feb 14 2016
+17:15,Getafe,0,1,Atletico Madrid,Feb 14 2016
+17:15,Eibar,2,0,Levante,Feb 14 2016
+19:30,Barcelona,6,1,Celta Vigo,Feb 14 2016
+17:30,Sporting Gijon,1,3,Barcelona,Feb 17 2016
+19:30,Levante,3,0,Getafe,Feb 19 2016
+15:00,Las Palmas,1,2,Barcelona,Feb 20 2016
+17:15,Espanyol,1,0,Deportivo La Coruna,Feb 20 2016
+19:30,Real Betis,1,1,Sporting Gijon,Feb 20 2016
+21:05,Celta Vigo,3,2,Eibar,Feb 20 2016
+11:00,Rayo Vallecano,2,2,Sevilla,Feb 21 2016
+15:00,Malaga,1,1,Real Madrid,Feb 21 2016
+17:15,Athletic Bilbao,0,1,Real Sociedad,Feb 21 2016
+17:15,Granada,1,2,Valencia,Feb 21 2016
+19:30,Atletico Madrid,0,0,Villarreal,Feb 21 2016
+19:30,Eibar,0,1,Las Palmas,Feb 26 2016
+15:00,Real Madrid,0,1,Atletico Madrid,Feb 27 2016
+17:15,Getafe,0,1,Celta Vigo,Feb 27 2016
+17:15,Sporting Gijon,2,4,Espanyol,Feb 27 2016
+19:30,Real Betis,2,2,Rayo Vallecano,Feb 27 2016
+21:05,Real Sociedad,1,1,Malaga,Feb 27 2016
+11:00,Villarreal,3,0,Levante,Feb 28 2016
+15:00,Valencia,0,3,Athletic Bilbao,Feb 28 2016
+17:15,Deportivo La Coruna,0,1,Granada,Feb 28 2016
+19:30,Barcelona,2,1,Sevilla,Feb 28 2016
+15:00,Espanyol,0,0,Barcelona,Jan 2 2016
+19:30,Atletico Madrid,1,0,Levante,Jan 2 2016
+21:05,Malaga,2,0,Celta Vigo,Jan 2 2016
+11:00,Rayo Vallecano,2,2,Real Sociedad,Jan 3 2016
+15:00,Real Betis,0,4,Eibar,Jan 3 2016
+15:00,Granada,2,1,Sevilla,Jan 3 2016
+17:15,Athletic Bilbao,2,2,Las Palmas,Jan 3 2016
+17:15,Deportivo La Coruna,1,2,Villarreal,Jan 3 2016
+19:30,Valencia,2,2,Real Madrid,Jan 3 2016
+19:30,Sporting Gijon,1,2,Getafe,Jan 4 2016
+15:00,Barcelona,4,0,Granada,Jan 9 2016
+17:15,Sevilla,2,0,Athletic Bilbao,Jan 9 2016
+17:15,Getafe,1,0,Real Betis,Jan 9 2016
+19:30,Real Madrid,5,0,Deportivo La Coruna,Jan 9 2016
+21:05,Levante,2,1,Rayo Vallecano,Jan 9 2016
+11:00,Villarreal,2,0,Sporting Gijon,Jan 10 2016
+15:00,Real Sociedad,2,0,Valencia,Jan 10 2016
+17:15,Eibar,2,1,Espanyol,Jan 10 2016
+17:15,Las Palmas,1,1,Malaga,Jan 10 2016
+19:30,Celta Vigo,0,2,Atletico Madrid,Jan 10 2016
+15:00,Sevilla,2,1,Malaga,Jan 16 2016
+17:15,Celta Vigo,4,3,Levante,Jan 16 2016
+19:30,Villarreal,0,0,Real Betis,Jan 16 2016
+21:05,Real Sociedad,1,1,Deportivo La Coruna,Jan 16 2016
+11:00,Valencia,2,2,Rayo Vallecano,Jan 17 2016
+15:00,Real Madrid,5,1,Sporting Gijon,Jan 17 2016
+17:15,Getafe,3,1,Espanyol,Jan 17 2016
+17:15,Las Palmas,0,3,Atletico Madrid,Jan 17 2016
+19:30,Barcelona,6,0,Athletic Bilbao,Jan 17 2016
+19:30,Eibar,5,1,Granada,Jan 18 2016
+19:30,Sporting Gijon,5,1,Real Sociedad,Jan 22 2016
+15:00,Malaga,1,2,Barcelona,Jan 23 2016
+17:15,Espanyol,2,2,Villarreal,Jan 23 2016
+19:30,Granada,3,2,Getafe,Jan 23 2016
+21:05,Rayo Vallecano,3,0,Celta Vigo,Jan 23 2016
+11:00,Athletic Bilbao,5,2,Eibar,Jan 24 2016
+15:00,Atletico Madrid,0,0,Sevilla,Jan 24 2016
+17:15,Deportivo La Coruna,1,1,Valencia,Jan 24 2016
+19:30,Real Betis,1,1,Real Madrid,Jan 24 2016
+19:30,Levante,3,2,Las Palmas,Jan 25 2016
+15:00,Barcelona,2,1,Atletico Madrid,Jan 30 2016
+17:15,Eibar,1,2,Malaga,Jan 30 2016
+17:15,Getafe,0,1,Athletic Bilbao,Jan 30 2016
+19:30,Villarreal,1,0,Granada,Jan 30 2016
+21:05,Real Sociedad,2,1,Real Betis,Jan 30 2016
+11:00,Sevilla,3,1,Levante,Jan 31 2016
+15:00,Valencia,0,1,Sporting Gijon,Jan 31 2016
+17:15,Las Palmas,2,1,Celta Vigo,Jan 31 2016
+19:30,Real Madrid,6,0,Espanyol,Jan 31 2016
+15:00,Real Madrid,4,1,Getafe,Des 5 2015
+17:15,Granada,0,2,Atletico Madrid,Des 5 2015
+19:30,Valencia,1,1,Barcelona,Des 5 2015
+21:00,Deportivo La Coruna,1,1,Sevilla,Des 5 2015
+21:05,Real Betis,1,1,Celta Vigo,Des 5 2015
+11:00,Real Sociedad,2,1,Eibar,Des 6 2015
+15:00,Villarreal,2,1,Rayo Vallecano,Des 6 2015
+17:15,Sporting Gijon,3,1,Las Palmas,Des 6 2015
+19:30,Athletic Bilbao,0,0,Malaga,Des 6 2015
+19:30,Espanyol,1,1,Levante,Des 7 2015
+19:30,Getafe,1,1,Real Sociedad,Des 11 2015
+15:00,Barcelona,2,2,Deportivo La Coruna,Des 12 2015
+17:15,Celta Vigo,1,0,Espanyol,Des 12 2015
+17:15,Levante,1,2,Granada,Des 12 2015
+19:30,Sevilla,2,0,Sporting Gijon,Des 12 2015
+21:05,Las Palmas,1,0,Real Betis,Des 12 2015
+11:00,Rayo Vallecano,1,2,Malaga,Des 13 2015
+15:00,Eibar,1,1,Valencia,Des 13 2015
+17:15,Atletico Madrid,2,1,Athletic Bilbao,Des 13 2015
+19:30,Villarreal,1,0,Real Madrid,Des 13 2015
+15:00,Valencia,2,2,Getafe,Des 19 2015
+17:15,Espanyol,1,0,Las Palmas,Des 19 2015
+19:30,Real Betis,0,0,Sevilla,Des 19 2015
+21:05,Deportivo La Coruna,2,0,Eibar,Des 19 2015
+15:00,Real Madrid,10,2,Rayo Vallecano,Des 20 2015
+17:15,Real Sociedad,0,2,Villarreal,Des 20 2015
+17:15,Granada,0,2,Celta Vigo,Des 20 2015
+17:15,Athletic Bilbao,2,0,Levante,Des 20 2015
+19:30,Malaga,1,0,Atletico Madrid,Des 20 2015
+15:00,Real Madrid,3,1,Real Sociedad,Des 30 2015
+15:00,Levante,0,1,Malaga,Des 30 2015
+17:15,Rayo Vallecano,0,2,Atletico Madrid,Des 30 2015
+17:15,Sevilla,2,0,Espanyol,Des 30 2015
+17:30,Eibar,2,0,Sporting Gijon,Des 30 2015
+19:30,Getafe,0,0,Deportivo La Coruna,Des 30 2015
+19:30,Barcelona,4,0,Real Betis,Des 30 2015
+19:30,Celta Vigo,0,1,Athletic Bilbao,Des 30 2015
+20:00,Las Palmas,4,1,Granada,Des 30 2015
+15:00,Villarreal,1,0,Valencia,Des 31 2015
+11:00,Eibar,1,0,Rayo Vallecano,Nov 1 2015
+15:00,Espanyol,1,1,Granada,Nov 1 2015
+17:15,Sporting Gijon,1,0,Malaga,Nov 1 2015
+19:30,Real Betis,1,3,Athletic Bilbao,Nov 1 2015
+19:30,Las Palmas,2,0,Real Sociedad,Nov 6 2015
+15:00,Celta Vigo,1,5,Valencia,Nov 7 2015
+17:15,Levante,1,1,Deportivo La Coruna,Nov 7 2015
+19:30,Eibar,3,1,Getafe,Nov 7 2015
+19:30,Rayo Vallecano,2,1,Granada,Nov 7 2015
+21:05,Malaga,0,1,Real Betis,Nov 7 2015
+11:00,Athletic Bilbao,2,1,Espanyol,Nov 8 2015
+15:00,Barcelona,3,0,Villarreal,Nov 8 2015
+17:15,Atletico Madrid,1,0,Sporting Gijon,Nov 8 2015
+19:30,Sevilla,3,2,Real Madrid,Nov 8 2015
+15:00,Real Sociedad,2,0,Sevilla,Nov 21 2015
+17:15,Real Madrid,0,4,Barcelona,Nov 21 2015
+19:30,Espanyol,2,0,Malaga,Nov 21 2015
+21:00,Valencia,1,1,Las Palmas,Nov 21 2015
+21:05,Deportivo La Coruna,2,0,Celta Vigo,Nov 21 2015
+11:00,Sporting Gijon,0,3,Levante,Nov 22 2015
+15:00,Villarreal,1,1,Eibar,Nov 22 2015
+17:15,Granada,2,0,Athletic Bilbao,Nov 22 2015
+19:30,Real Betis,0,1,Atletico Madrid,Nov 22 2015
+19:30,Getafe,1,1,Rayo Vallecano,Nov 23 2015
+19:30,Levante,0,1,Real Betis,Nov 27 2015
+15:00,Barcelona,4,0,Real Sociedad,Nov 28 2015
+17:15,Atletico Madrid,1,0,Espanyol,Nov 28 2015
+19:30,Malaga,2,2,Granada,Nov 28 2015
+21:00,Las Palmas,0,2,Deportivo La Coruna,Nov 28 2015
+21:05,Celta Vigo,2,1,Sporting Gijon,Nov 28 2015
+11:00,Getafe,2,0,Villarreal,Nov 29 2015
+15:00,Eibar,0,2,Real Madrid,Nov 29 2015
+17:15,Rayo Vallecano,0,3,Athletic Bilbao,Nov 29 2015
+19:30,Sevilla,1,0,Valencia,Nov 29 2015
+19:30,Celta Vigo,0,0,Getafe,Okt 2 2015
+15:00,Sevilla,2,1,Barcelona,Okt 3 2015
+17:15,Granada,1,1,Deportivo La Coruna,Okt 3 2015
+19:30,Espanyol,1,2,Sporting Gijon,Okt 3 2015
+21:00,Las Palmas,0,2,Eibar,Okt 3 2015
+21:05,Malaga,3,1,Real Sociedad,Okt 3 2015
+11:00,Rayo Vallecano,0,2,Real Betis,Okt 4 2015
+15:00,Athletic Bilbao,3,1,Valencia,Okt 4 2015
+17:15,Levante,1,0,Villarreal,Okt 4 2015
+19:30,Atletico Madrid,1,1,Real Madrid,Okt 4 2015
+15:00,Real Madrid,3,0,Levante,Okt 17 2015
+17:15,Eibar,1,1,Sevilla,Okt 17 2015
+19:30,Barcelona,5,2,Rayo Vallecano,Okt 17 2015
+21:00,Valencia,3,0,Malaga,Okt 17 2015
+21:05,Real Betis,1,3,Espanyol,Okt 17 2015
+11:00,Villarreal,1,2,Celta Vigo,Okt 18 2015
+15:00,Real Sociedad,0,2,Atletico Madrid,Okt 18 2015
+17:15,Getafe,4,0,Las Palmas,Okt 18 2015
+19:30,Deportivo La Coruna,2,2,Athletic Bilbao,Okt 18 2015
+19:30,Sporting Gijon,3,3,Granada,Okt 19 2015
+19:30,Rayo Vallecano,3,0,Espanyol,Okt 23 2015
+15:00,Celta Vigo,1,3,Real Madrid,Okt 24 2015
+17:15,Granada,1,1,Real Betis,Okt 24 2015
+19:30,Sevilla,5,0,Getafe,Okt 24 2015
+21:05,Malaga,2,0,Deportivo La Coruna,Okt 24 2015
+11:00,Levante,0,4,Real Sociedad,Okt 25 2015
+15:00,Las Palmas,0,0,Villarreal,Okt 25 2015
+17:15,Barcelona,3,1,Eibar,Okt 25 2015
+19:30,Atletico Madrid,2,1,Valencia,Okt 25 2015
+19:30,Athletic Bilbao,3,0,Sporting Gijon,Okt 26 2015
+19:30,Deportivo La Coruna,1,1,Atletico Madrid,Okt 30 2015
+15:00,Real Madrid,3,1,Las Palmas,Okt 31 2015
+17:15,Villarreal,2,1,Sevilla,Okt 31 2015
+17:15,Valencia,3,0,Levante,Okt 31 2015
+19:30,Getafe,0,2,Barcelona,Okt 31 2015
+21:05,Real Sociedad,2,3,Celta Vigo,Okt 31 2015
+19:30,Levante,1,1,Sevilla,Sep 11 2015
+15:00,Espanyol,0,6,Real Madrid,Sep 12 2015
+17:15,Sporting Gijon,0,1,Valencia,Sep 12 2015
+19:30,Atletico Madrid,1,2,Barcelona,Sep 12 2015
+21:00,Real Betis,1,0,Real Sociedad,Sep 12 2015
+11:00,Granada,1,3,Villarreal,Sep 13 2015
+15:00,Athletic Bilbao,3,1,Getafe,Sep 13 2015
+17:15,Celta Vigo,3,3,Las Palmas,Sep 13 2015
+19:30,Malaga,0,0,Eibar,Sep 13 2015
+19:30,Rayo Vallecano,1,3,Deportivo La Coruna,Sep 14 2015
+19:30,Getafe,1,0,Malaga,Sep 18 2015
+15:00,Real Madrid,1,0,Granada,Sep 19 2015
+17:15,Valencia,0,0,Real Betis,Sep 19 2015
+19:30,Eibar,0,2,Atletico Madrid,Sep 19 2015
+21:00,Real Sociedad,2,3,Espanyol,Sep 19 2015
+11:00,Sevilla,1,2,Celta Vigo,Sep 20 2015
+15:00,Deportivo La Coruna,2,3,Sporting Gijon,Sep 20 2015
+17:15,Villarreal,3,1,Athletic Bilbao,Sep 20 2015
+19:30,Barcelona,4,1,Levante,Sep 20 2015
+19:30,Las Palmas,0,1,Rayo Vallecano,Sep 20 2015
+19:00,Espanyol,1,0,Valencia,Sep 22 2015
+19:00,Atletico Madrid,2,0,Getafe,Sep 22 2015
+21:00,Granada,0,3,Real Sociedad,Sep 22 2015
+19:00,Rayo Vallecano,2,1,Sporting Gijon,Sep 23 2015
+19:00,Celta Vigo,4,1,Barcelona,Sep 23 2015
+19:00,Levante,2,2,Eibar,Sep 23 2015
+20:00,Athletic Bilbao,1,2,Real Madrid,Sep 23 2015
+21:00,Malaga,0,1,Villarreal,Sep 23 2015
+21:00,Las Palmas,2,0,Sevilla,Sep 23 2015
+21:05,Real Betis,1,2,Deportivo La Coruna,Sep 24 2015
+19:30,Valencia,1,0,Granada,Sep 25 2015
+15:00,Barcelona,2,1,Las Palmas,Sep 26 2015
+17:15,Real Madrid,0,0,Malaga,Sep 26 2015
+19:30,Sevilla,3,2,Rayo Vallecano,Sep 26 2015
+19:30,Villarreal,1,0,Atletico Madrid,Sep 26 2015
+21:05,Eibar,1,1,Celta Vigo,Sep 26 2015
+11:00,Sporting Gijon,1,2,Real Betis,Sep 27 2015
+15:00,Deportivo La Coruna,3,0,Espanyol,Sep 27 2015
+17:15,Getafe,3,0,Levante,Sep 27 2015
+19:30,Real Sociedad,0,0,Athletic Bilbao,Sep 27 2015

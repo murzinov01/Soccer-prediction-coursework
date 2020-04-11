@@ -1,0 +1,129 @@
+Time,TeamHome,ResultTeamHome,ResultTeamAway,TeamAway,Date
+20:00,Borussia Dortmund,2,1,Paris Saint-Germain,Feb 18 2020
+20:00,Atletico Madrid,1,0,Liverpool,Feb 18 2020
+20:00,Tottenham,0,1,RasenBallsport Leipzig,Feb 19 2020
+20:00,Atalanta,4,1,Valencia,Feb 19 2020
+20:00,Napoli,1,1,Barcelona,Feb 25 2020
+20:00,Chelsea,0,3,Bayern Munich,Feb 25 2020
+20:00,Lyon,1,0,Juventus,Feb 26 2020
+20:00,Real Madrid,1,2,Manchester City,Feb 26 2020
+20:00,RasenBallsport Leipzig,3,0,Tottenham,Mac 10 2020
+20:00,Valencia,3,4,Atalanta,Mac 10 2020
+20:00,Paris Saint-Germain,2,0,Borussia Dortmund,Mac 11 2020
+20:00,Liverpool,2,3,Atletico Madrid,Mac 11 2020
+20:00,Manchester United,0,2,Paris Saint-Germain,Feb 12 2019
+20:00,Roma,2,1,FC Porto,Feb 12 2019
+20:00,Ajax,1,2,Real Madrid,Feb 13 2019
+20:00,Tottenham,3,0,Borussia Dortmund,Feb 13 2019
+20:00,Lyon,0,0,Barcelona,Feb 19 2019
+20:00,Liverpool,0,0,Bayern Munich,Feb 19 2019
+20:00,Schalke 04,2,3,Manchester City,Feb 20 2019
+20:00,Atletico Madrid,2,0,Juventus,Feb 20 2019
+20:00,Borussia Dortmund,0,1,Tottenham,Mac 5 2019
+20:00,Real Madrid,1,4,Ajax,Mac 5 2019
+20:00,Paris Saint-Germain,1,3,Manchester United,Mac 6 2019
+20:00,FC Porto,3,1,Roma,Mac 6 2019
+20:00,Manchester City,7,0,Schalke 04,Mac 12 2019
+20:00,Juventus,3,0,Atletico Madrid,Mac 12 2019
+20:00,Barcelona,5,1,Lyon,Mac 13 2019
+20:00,Bayern Munich,1,3,Liverpool,Mac 13 2019
+20:00,Liverpool,2,0,FC Porto,Apr 9 2019
+20:00,Tottenham,1,0,Manchester City,Apr 9 2019
+20:00,Manchester United,0,1,Barcelona,Apr 10 2019
+20:00,Ajax,1,1,Juventus,Apr 10 2019
+20:00,Juventus,1,2,Ajax,Apr 16 2019
+20:00,Barcelona,3,0,Manchester United,Apr 16 2019
+20:00,Manchester City,4,3,Tottenham,Apr 17 2019
+20:00,FC Porto,1,4,Liverpool,Apr 17 2019
+20:00,Tottenham,0,1,Ajax,Apr 30 2019
+20:00,Barcelona,3,0,Liverpool,Mei 1 2019
+20:00,Liverpool,4,0,Barcelona,Mei 7 2019
+20:00,Ajax,2,3,Tottenham,Mei 8 2019
+20:00,Tottenham,0,2,Liverpool,Jun 1 2019
+19:45,Juventus,2,2,Tottenham,Feb 13 2018
+19:45,FC Basel 1893,0,4,Manchester City,Feb 13 2018
+19:45,FC Porto,0,5,Liverpool,Feb 14 2018
+19:45,Real Madrid,3,1,Paris Saint-Germain,Feb 14 2018
+19:45,Chelsea,1,1,Barcelona,Feb 20 2018
+19:45,Bayern Munich,5,0,Besiktas,Feb 20 2018
+19:45,Sevilla,0,0,Manchester United,Feb 21 2018
+19:45,Shakhtar Donetsk,2,1,Roma,Feb 21 2018
+19:45,Liverpool,0,0,FC Porto,Mac 6 2018
+19:45,Paris Saint-Germain,1,2,Real Madrid,Mac 6 2018
+19:45,Tottenham,1,2,Juventus,Mac 7 2018
+19:45,Manchester City,1,2,FC Basel 1893,Mac 7 2018
+19:45,Roma,1,0,Shakhtar Donetsk,Mac 13 2018
+19:45,Manchester United,1,2,Sevilla,Mac 13 2018
+17:00,Besiktas,1,3,Bayern Munich,Mac 14 2018
+19:45,Barcelona,3,0,Chelsea,Mac 14 2018
+19:45,Sevilla,1,2,Bayern Munich,Apr 3 2018
+19:45,Juventus,0,3,Real Madrid,Apr 3 2018
+19:45,Liverpool,3,0,Manchester City,Apr 4 2018
+19:45,Barcelona,4,1,Roma,Apr 4 2018
+19:45,Roma,3,0,Barcelona,Apr 10 2018
+19:45,Manchester City,1,2,Liverpool,Apr 10 2018
+19:45,Real Madrid,1,3,Juventus,Apr 11 2018
+19:45,Bayern Munich,0,0,Sevilla,Apr 11 2018
+19:45,Liverpool,5,2,Roma,Apr 24 2018
+19:45,Bayern Munich,1,2,Real Madrid,Apr 25 2018
+19:45,Real Madrid,2,2,Bayern Munich,Mei 1 2018
+19:45,Roma,4,2,Liverpool,Mei 2 2018
+19:45,Real Madrid,3,1,Liverpool,Mei 26 2018
+19:45,Paris Saint-Germain,4,0,Barcelona,Feb 14 2017
+19:45,Benfica,1,0,Borussia Dortmund,Feb 14 2017
+19:45,Bayern Munich,5,1,Arsenal,Feb 15 2017
+19:45,Real Madrid,3,1,Napoli,Feb 15 2017
+19:45,Bayer Leverkusen,2,4,Atletico Madrid,Feb 21 2017
+19:45,Manchester City,5,3,Monaco,Feb 21 2017
+19:45,FC Porto,0,2,Juventus,Feb 22 2017
+19:45,Sevilla,2,1,Leicester,Feb 22 2017
+19:45,Arsenal,1,5,Bayern Munich,Mac 7 2017
+19:45,Napoli,1,3,Real Madrid,Mac 7 2017
+19:45,Barcelona,6,1,Paris Saint-Germain,Mac 8 2017
+19:45,Borussia Dortmund,4,0,Benfica,Mac 8 2017
+19:45,Leicester,2,0,Sevilla,Mac 14 2017
+19:45,Juventus,1,0,FC Porto,Mac 14 2017
+19:45,Monaco,3,1,Manchester City,Mac 15 2017
+19:45,Atletico Madrid,0,0,Bayer Leverkusen,Mac 15 2017
+19:45,Juventus,3,0,Barcelona,Apr 11 2017
+17:45,Borussia Dortmund,2,3,Monaco,Apr 12 2017
+19:45,Bayern Munich,1,2,Real Madrid,Apr 12 2017
+19:45,Atletico Madrid,1,0,Leicester,Apr 12 2017
+19:45,Leicester,1,1,Atletico Madrid,Apr 18 2017
+19:45,Real Madrid,4,2,Bayern Munich,Apr 18 2017
+19:45,Barcelona,0,0,Juventus,Apr 19 2017
+19:45,Monaco,3,1,Borussia Dortmund,Apr 19 2017
+19:45,Real Madrid,3,0,Atletico Madrid,Mei 2 2017
+19:45,Monaco,0,2,Juventus,Mei 3 2017
+19:45,Juventus,2,1,Monaco,Mei 9 2017
+19:45,Atletico Madrid,2,1,Real Madrid,Mei 10 2017
+19:45,Juventus,1,4,Real Madrid,Jun 3 2017
+19:45,Paris Saint-Germain,2,1,Chelsea,Feb 16 2016
+19:45,Benfica,1,0,Zenit St. Petersburg,Feb 16 2016
+19:45,Gent,2,3,Wolfsburg,Feb 17 2016
+19:45,Roma,0,2,Real Madrid,Feb 17 2016
+19:45,Arsenal,0,2,Barcelona,Feb 23 2016
+19:45,Juventus,2,2,Bayern Munich,Feb 23 2016
+19:45,PSV Eindhoven,0,0,Atletico Madrid,Feb 24 2016
+19:45,Dynamo Kyiv,1,3,Manchester City,Feb 24 2016
+19:45,Real Madrid,2,0,Roma,Mac 8 2016
+19:45,Wolfsburg,1,0,Gent,Mac 8 2016
+17:00,Zenit St. Petersburg,1,2,Benfica,Mac 9 2016
+19:45,Chelsea,1,2,Paris Saint-Germain,Mac 9 2016
+19:45,Manchester City,0,0,Dynamo Kyiv,Mac 15 2016
+19:45,Atletico Madrid,0,0,PSV Eindhoven,Mac 15 2016
+19:45,Barcelona,3,1,Arsenal,Mac 16 2016
+19:45,Bayern Munich,4,2,Juventus,Mac 16 2016
+19:45,Bayern Munich,1,0,Benfica,Apr 5 2016
+19:45,Barcelona,2,1,Atletico Madrid,Apr 5 2016
+19:45,Paris Saint-Germain,2,2,Manchester City,Apr 6 2016
+19:45,Wolfsburg,2,0,Real Madrid,Apr 6 2016
+19:45,Real Madrid,3,0,Wolfsburg,Apr 12 2016
+19:45,Manchester City,1,0,Paris Saint-Germain,Apr 12 2016
+19:45,Benfica,2,2,Bayern Munich,Apr 13 2016
+19:45,Atletico Madrid,2,0,Barcelona,Apr 13 2016
+19:45,Manchester City,0,0,Real Madrid,Apr 26 2016
+19:45,Atletico Madrid,1,0,Bayern Munich,Apr 27 2016
+19:45,Bayern Munich,2,1,Atletico Madrid,Mei 3 2016
+19:45,Real Madrid,1,0,Manchester City,Mei 4 2016
+19:45,Real Madrid,1,1,Atletico Madrid,Mei 28 2016

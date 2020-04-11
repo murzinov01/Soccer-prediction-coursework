@@ -1,0 +1,357 @@
+Time,TeamHome,ResultTeamHome,ResultTeamAway,TeamAway,Date
+12:00,Coventry,1,0,Sunderland,Mac 1 2020
+19:45,Ipswich,0,1,Fleetwood,Mac 3 2020
+15:00,Southend,3,1,Bristol Rovers,Mac 7 2020
+15:00,Sunderland,2,2,Gillingham,Mac 7 2020
+15:00,Accrington,1,2,Tranmere,Mac 7 2020
+15:00,AFC Wimbledon,0,0,Bolton,Mac 7 2020
+15:00,Fleetwood,0,0,Blackpool,Mac 7 2020
+15:00,Ipswich,0,1,Coventry,Mac 7 2020
+15:00,Lincoln City,3,2,Burton,Mac 7 2020
+15:00,Milton Keynes Dons,0,1,Doncaster,Mac 7 2020
+15:00,Peterborough,2,0,Portsmouth,Mac 7 2020
+15:00,Rochdale,3,1,Rotherham,Mac 7 2020
+15:00,Shrewsbury,2,3,Oxford,Mac 7 2020
+19:45,Bristol Rovers,2,0,Sunderland,Mac 10 2020
+19:45,Blackpool,1,2,Tranmere,Mac 10 2020
+19:45,Burton,2,2,Bolton,Mac 10 2020
+19:45,Portsmouth,2,2,Fleetwood,Mac 10 2020
+15:00,Bristol Rovers,1,2,Coventry,Feb 1 2020
+15:00,Fleetwood,2,1,Doncaster,Feb 1 2020
+15:00,Ipswich,1,4,Peterborough,Feb 1 2020
+15:00,Milton Keynes Dons,2,0,Wycombe,Feb 1 2020
+15:00,Oxford,2,1,Blackpool,Feb 1 2020
+15:00,Portsmouth,2,0,Sunderland,Feb 1 2020
+15:00,Rochdale,1,0,Shrewsbury,Feb 1 2020
+15:00,Rotherham,3,2,Burton,Feb 1 2020
+15:00,Southend,2,1,Lincoln City,Feb 1 2020
+15:00,Accrington,2,1,AFC Wimbledon,Feb 1 2020
+15:00,Bolton,2,0,Tranmere,Feb 1 2020
+19:45,Tranmere,0,3,Doncaster,Feb 4 2020
+19:45,Lincoln City,0,1,Rotherham,Feb 7 2020
+15:00,Peterborough,4,0,Oxford,Feb 8 2020
+15:00,Shrewsbury,1,1,Milton Keynes Dons,Feb 8 2020
+15:00,Burton,0,0,Gillingham,Feb 8 2020
+15:00,Coventry,2,1,Bolton,Feb 8 2020
+15:00,Doncaster,1,1,Rochdale,Feb 8 2020
+15:00,AFC Wimbledon,1,2,Fleetwood,Feb 8 2020
+15:00,Blackpool,2,1,Southend,Feb 8 2020
+15:00,Wycombe,3,1,Bristol Rovers,Feb 8 2020
+15:00,Sunderland,1,0,Ipswich,Feb 8 2020
+15:00,Tranmere,0,2,Portsmouth,Feb 8 2020
+19:45,AFC Wimbledon,0,0,Ipswich,Feb 11 2020
+19:45,Doncaster,2,1,Bolton,Feb 11 2020
+19:45,Coventry,1,0,Portsmouth,Feb 11 2020
+19:45,Burton,2,2,Oxford,Feb 11 2020
+19:45,Blackpool,2,3,Gillingham,Feb 11 2020
+19:45,Sunderland,3,0,Rochdale,Feb 11 2020
+19:45,Shrewsbury,0,2,Accrington,Feb 11 2020
+19:45,Peterborough,4,0,Southend,Feb 11 2020
+19:45,Lincoln City,1,1,Milton Keynes Dons,Feb 11 2020
+19:45,Tranmere,0,0,Bristol Rovers,Feb 11 2020
+19:45,Wycombe,0,1,Fleetwood,Feb 11 2020
+15:00,Accrington,4,3,Lincoln City,Feb 15 2020
+15:00,Bolton,0,2,Wycombe,Feb 15 2020
+15:00,Bristol Rovers,2,1,Blackpool,Feb 15 2020
+15:00,Fleetwood,2,1,Peterborough,Feb 15 2020
+15:00,Gillingham,2,1,Doncaster,Feb 15 2020
+15:00,Ipswich,4,1,Burton,Feb 15 2020
+15:00,Oxford,0,1,Sunderland,Feb 15 2020
+15:00,Portsmouth,2,0,Shrewsbury,Feb 15 2020
+15:00,Rotherham,2,2,AFC Wimbledon,Feb 15 2020
+15:00,Southend,0,2,Coventry,Feb 15 2020
+19:45,Oxford,5,0,AFC Wimbledon,Feb 18 2020
+19:45,Southend,0,1,Gillingham,Feb 18 2020
+15:00,Accrington,1,2,Rotherham,Feb 22 2020
+15:00,AFC Wimbledon,0,0,Blackpool,Feb 22 2020
+15:00,Ipswich,0,1,Oxford,Feb 22 2020
+15:00,Lincoln City,0,0,Gillingham,Feb 22 2020
+15:00,Milton Keynes Dons,1,0,Bolton,Feb 22 2020
+15:00,Rochdale,1,2,Coventry,Feb 22 2020
+15:00,Shrewsbury,1,0,Doncaster,Feb 22 2020
+15:00,Southend,2,3,Burton,Feb 22 2020
+15:00,Sunderland,3,0,Bristol Rovers,Feb 22 2020
+15:00,Wycombe,3,1,Tranmere,Feb 22 2020
+15:00,Fleetwood,1,0,Portsmouth,Feb 22 2020
+19:45,Portsmouth,3,1,Milton Keynes Dons,Feb 25 2020
+19:45,Sunderland,1,1,Fleetwood,Feb 25 2020
+19:45,Blackpool,2,1,Bolton,Feb 25 2020
+19:45,Coventry,1,1,Rotherham,Feb 25 2020
+19:45,Oxford,3,0,Accrington,Feb 25 2020
+19:45,Shrewsbury,2,3,Tranmere,Feb 25 2020
+19:45,Portsmouth,3,0,Rochdale,Feb 28 2020
+15:00,Oxford,2,1,Southend,Feb 29 2020
+15:00,Gillingham,1,2,AFC Wimbledon,Feb 29 2020
+15:00,Doncaster,3,1,Wycombe,Feb 29 2020
+15:00,Burton,1,1,Peterborough,Feb 29 2020
+15:00,Blackpool,2,1,Ipswich,Feb 29 2020
+15:00,Bolton,0,0,Accrington,Feb 29 2020
+15:00,Bristol Rovers,0,1,Shrewsbury,Feb 29 2020
+15:00,Rotherham,1,1,Milton Keynes Dons,Feb 29 2020
+15:00,AFC Wimbledon,1,1,Southend,Jan 1 2020
+15:00,Bolton,3,4,Burton,Jan 1 2020
+15:00,Accrington,1,2,Rochdale,Jan 1 2020
+15:00,Doncaster,1,0,Oxford,Jan 1 2020
+15:00,Fleetwood,1,1,Sunderland,Jan 1 2020
+15:00,Gillingham,1,1,Portsmouth,Jan 1 2020
+15:00,Lincoln City,2,1,Peterborough,Jan 1 2020
+15:00,Milton Keynes Dons,3,0,Bristol Rovers,Jan 1 2020
+15:00,Rotherham,2,1,Blackpool,Jan 1 2020
+15:00,Tranmere,1,4,Coventry,Jan 1 2020
+15:00,Wycombe,1,1,Ipswich,Jan 1 2020
+15:00,Sunderland,3,1,Lincoln City,Jan 4 2020
+19:45,Doncaster,2,0,Shrewsbury,Jan 7 2020
+15:00,Sunderland,4,0,Wycombe,Jan 11 2020
+15:00,Bristol Rovers,0,2,Doncaster,Jan 11 2020
+15:00,Oxford,1,3,Rotherham,Jan 11 2020
+15:00,Ipswich,4,1,Accrington,Jan 11 2020
+15:00,Burton,1,0,Fleetwood,Jan 11 2020
+15:00,Coventry,1,1,Milton Keynes Dons,Jan 11 2020
+15:00,Peterborough,0,0,Gillingham,Jan 11 2020
+15:00,Portsmouth,2,1,AFC Wimbledon,Jan 11 2020
+15:00,Rochdale,2,0,Bolton,Jan 11 2020
+15:00,Shrewsbury,1,1,Lincoln City,Jan 11 2020
+15:00,Southend,0,0,Tranmere,Jan 11 2020
+19:45,Burton,1,0,Milton Keynes Dons,Jan 14 2020
+19:45,Lincoln City,5,1,Bolton,Jan 14 2020
+19:45,Oxford,0,0,Ipswich,Jan 14 2020
+15:00,Accrington,1,2,Southend,Jan 18 2020
+15:00,AFC Wimbledon,1,0,Peterborough,Jan 18 2020
+15:00,Doncaster,0,1,Coventry,Jan 18 2020
+15:00,Fleetwood,2,2,Shrewsbury,Jan 18 2020
+15:00,Milton Keynes Dons,0,1,Sunderland,Jan 18 2020
+15:00,Lincoln City,1,0,Blackpool,Jan 18 2020
+15:00,Gillingham,1,1,Oxford,Jan 18 2020
+15:00,Bolton,0,1,Portsmouth,Jan 18 2020
+15:00,Rotherham,3,0,Bristol Rovers,Jan 18 2020
+15:00,Wycombe,2,1,Rochdale,Jan 18 2020
+15:00,Tranmere,1,2,Ipswich,Jan 18 2020
+19:45,Peterborough,4,0,Wycombe,Jan 21 2020
+19:45,Sunderland,0,0,Doncaster,Jan 24 2020
+15:00,Ipswich,1,0,Lincoln City,Jan 25 2020
+15:00,Peterborough,2,1,Rotherham,Jan 25 2020
+15:00,Rochdale,2,2,Gillingham,Jan 25 2020
+15:00,Burton,1,1,Accrington,Jan 25 2020
+15:00,Bristol Rovers,0,0,Fleetwood,Jan 25 2020
+19:45,Accrington,0,2,Peterborough,Jan 28 2020
+19:45,AFC Wimbledon,2,2,Burton,Jan 28 2020
+19:45,Doncaster,3,1,Southend,Jan 28 2020
+19:45,Fleetwood,0,0,Coventry,Jan 28 2020
+19:45,Lincoln City,0,2,Portsmouth,Jan 28 2020
+19:45,Milton Keynes Dons,2,1,Rochdale,Jan 28 2020
+19:45,Rotherham,1,0,Ipswich,Jan 28 2020
+20:00,Bolton,1,1,Bristol Rovers,Jan 28 2020
+20:50,Wycombe,2,1,Blackpool,Jan 28 2020
+19:45,Tranmere,0,1,Sunderland,Jan 29 2020
+19:45,Gillingham,2,0,Shrewsbury,Jan 29 2020
+19:45,Burton,1,1,Southend,Des 3 2019
+15:00,Blackpool,3,1,Fleetwood,Des 7 2019
+15:00,Bolton,2,2,AFC Wimbledon,Des 7 2019
+15:00,Bristol Rovers,4,2,Southend,Des 7 2019
+15:00,Burton,0,2,Lincoln City,Des 7 2019
+15:00,Coventry,1,1,Ipswich,Des 7 2019
+15:00,Doncaster,1,1,Milton Keynes Dons,Des 7 2019
+15:00,Gillingham,1,0,Sunderland,Des 7 2019
+15:00,Oxford,0,0,Shrewsbury,Des 7 2019
+15:00,Portsmouth,2,2,Peterborough,Des 7 2019
+15:00,Rotherham,0,1,Rochdale,Des 7 2019
+15:00,Tranmere,1,1,Accrington,Des 7 2019
+15:00,Accrington,4,1,Portsmouth,Des 14 2019
+15:00,AFC Wimbledon,2,1,Doncaster,Des 14 2019
+15:00,Fleetwood,1,1,Gillingham,Des 14 2019
+15:00,Ipswich,1,2,Bristol Rovers,Des 14 2019
+15:00,Lincoln City,1,0,Tranmere,Des 14 2019
+15:00,Milton Keynes Dons,1,0,Oxford,Des 14 2019
+15:00,Wycombe,2,0,Burton,Des 14 2019
+15:00,Sunderland,1,1,Blackpool,Des 14 2019
+15:00,Southend,2,2,Rotherham,Des 14 2019
+15:00,Peterborough,1,0,Bolton,Des 14 2019
+15:00,Shrewsbury,2,1,Coventry,Des 14 2019
+13:00,Gillingham,3,1,Milton Keynes Dons,Des 21 2019
+15:00,Doncaster,1,1,Accrington,Des 21 2019
+15:00,Portsmouth,1,0,Ipswich,Des 21 2019
+15:00,Oxford,1,0,Wycombe,Des 21 2019
+15:00,Tranmere,1,0,AFC Wimbledon,Des 21 2019
+15:00,Rotherham,2,2,Fleetwood,Des 21 2019
+15:00,Coventry,1,0,Lincoln City,Des 21 2019
+15:00,Burton,3,1,Rochdale,Des 21 2019
+15:00,Bristol Rovers,0,0,Peterborough,Des 21 2019
+15:00,Blackpool,0,1,Shrewsbury,Des 21 2019
+15:00,Bolton,3,2,Southend,Des 21 2019
+15:00,Bristol Rovers,1,2,AFC Wimbledon,Des 26 2019
+15:00,Burton,4,2,Tranmere,Des 26 2019
+15:00,Ipswich,0,0,Gillingham,Des 26 2019
+15:00,Oxford,1,0,Lincoln City,Des 26 2019
+15:00,Peterborough,0,3,Doncaster,Des 26 2019
+15:00,Portsmouth,2,0,Wycombe,Des 26 2019
+15:00,Rochdale,2,3,Fleetwood,Des 26 2019
+15:00,Shrewsbury,1,2,Rotherham,Des 26 2019
+15:00,Southend,2,2,Milton Keynes Dons,Des 26 2019
+15:00,Sunderland,0,0,Bolton,Des 26 2019
+15:00,Blackpool,0,1,Accrington,Des 26 2019
+13:00,Gillingham,1,0,Rochdale,Des 29 2019
+15:00,Lincoln City,5,3,Ipswich,Des 29 2019
+15:00,Milton Keynes Dons,3,1,Portsmouth,Des 29 2019
+15:00,Rotherham,4,0,Peterborough,Des 29 2019
+15:00,Wycombe,1,4,Coventry,Des 29 2019
+15:00,Accrington,2,0,Burton,Des 29 2019
+15:00,AFC Wimbledon,1,2,Oxford,Des 29 2019
+15:00,Bolton,1,1,Shrewsbury,Des 29 2019
+15:00,Doncaster,1,2,Sunderland,Des 29 2019
+15:00,Fleetwood,0,0,Bristol Rovers,Des 29 2019
+15:00,Tranmere,1,1,Blackpool,Des 29 2019
+15:00,Bolton,2,1,Fleetwood,Nov 2 2019
+15:00,Coventry,0,0,Accrington,Nov 2 2019
+15:00,Doncaster,2,2,Burton,Nov 2 2019
+15:00,Gillingham,0,3,Rotherham,Nov 2 2019
+15:00,Milton Keynes Dons,1,3,Tranmere,Nov 2 2019
+15:00,Portsmouth,1,1,Oxford,Nov 2 2019
+15:00,Rochdale,1,2,Bristol Rovers,Nov 2 2019
+15:00,Sunderland,1,0,Southend,Nov 2 2019
+15:00,Wycombe,1,0,Shrewsbury,Nov 2 2019
+15:00,AFC Wimbledon,1,1,Lincoln City,Nov 2 2019
+15:00,Blackpool,4,3,Peterborough,Nov 2 2019
+19:45,Portsmouth,4,1,Southend,Nov 5 2019
+19:45,Rochdale,0,1,Ipswich,Nov 5 2019
+19:45,Shrewsbury,1,0,Peterborough,Nov 5 2019
+15:00,Blackpool,2,0,AFC Wimbledon,Nov 16 2019
+15:00,Bolton,1,0,Milton Keynes Dons,Nov 16 2019
+15:00,Coventry,2,1,Rochdale,Nov 16 2019
+15:00,Gillingham,1,0,Lincoln City,Nov 16 2019
+15:00,Rotherham,1,0,Accrington,Nov 16 2019
+12:00,Tranmere,0,2,Wycombe,Nov 17 2019
+15:00,Accrington,7,1,Bolton,Nov 23 2019
+15:00,AFC Wimbledon,1,0,Gillingham,Nov 23 2019
+15:00,Fleetwood,2,1,Tranmere,Nov 23 2019
+15:00,Ipswich,2,2,Blackpool,Nov 23 2019
+15:00,Milton Keynes Dons,2,3,Rotherham,Nov 23 2019
+15:00,Peterborough,1,0,Burton,Nov 23 2019
+15:00,Rochdale,0,3,Portsmouth,Nov 23 2019
+15:00,Shrewsbury,3,4,Bristol Rovers,Nov 23 2019
+15:00,Southend,0,4,Oxford,Nov 23 2019
+15:00,Sunderland,1,1,Coventry,Nov 23 2019
+15:00,Wycombe,1,0,Doncaster,Nov 23 2019
+19:45,Sunderland,1,2,Burton,Nov 26 2019
+19:45,Portsmouth,3,2,Rotherham,Nov 26 2019
+19:45,Ipswich,0,0,Wycombe,Nov 26 2019
+15:00,Doncaster,1,2,Portsmouth,Okt 5 2019
+15:00,Fleetwood,0,1,Ipswich,Okt 5 2019
+15:00,Gillingham,3,1,Southend,Okt 5 2019
+15:00,Lincoln City,2,0,Sunderland,Okt 5 2019
+15:00,Milton Keynes Dons,0,3,Burton,Okt 5 2019
+15:00,Rotherham,4,0,Coventry,Okt 5 2019
+15:00,Tranmere,0,1,Shrewsbury,Okt 5 2019
+15:00,Wycombe,3,3,Peterborough,Okt 5 2019
+15:00,Accrington,2,2,Oxford,Okt 5 2019
+15:00,AFC Wimbledon,3,2,Rochdale,Okt 5 2019
+20:00,Bolton,0,0,Blackpool,Okt 7 2019
+15:00,Southend,1,4,AFC Wimbledon,Okt 12 2019
+15:00,Blackpool,1,2,Rotherham,Okt 12 2019
+15:00,Bristol Rovers,1,0,Milton Keynes Dons,Okt 12 2019
+15:00,Oxford,3,0,Doncaster,Okt 12 2019
+15:00,Peterborough,2,0,Lincoln City,Okt 12 2019
+15:00,Portsmouth,0,0,Gillingham,Okt 12 2019
+15:00,Rochdale,2,1,Accrington,Okt 12 2019
+12:00,Coventry,0,1,Tranmere,Okt 13 2019
+19:45,Tranmere,1,1,Southend,Okt 18 2019
+19:45,Lincoln City,0,0,Shrewsbury,Okt 18 2019
+15:00,Milton Keynes Dons,0,0,Coventry,Okt 19 2019
+15:00,Rotherham,1,2,Oxford,Okt 19 2019
+15:00,Wycombe,1,0,Sunderland,Okt 19 2019
+15:00,Bolton,1,3,Rochdale,Okt 19 2019
+15:00,Doncaster,2,0,Bristol Rovers,Okt 19 2019
+15:00,Fleetwood,4,1,Burton,Okt 19 2019
+15:00,Gillingham,1,2,Peterborough,Okt 19 2019
+15:00,AFC Wimbledon,1,0,Portsmouth,Okt 19 2019
+12:00,Accrington,2,0,Ipswich,Okt 20 2019
+19:45,Shrewsbury,1,1,Gillingham,Okt 22 2019
+19:45,Southend,1,7,Doncaster,Okt 22 2019
+19:45,Portsmouth,1,0,Lincoln City,Okt 22 2019
+19:45,Rochdale,2,0,Milton Keynes Dons,Okt 22 2019
+19:45,Sunderland,5,0,Tranmere,Okt 22 2019
+19:45,Blackpool,1,1,Wycombe,Okt 22 2019
+19:45,Bristol Rovers,0,2,Bolton,Okt 22 2019
+19:45,Burton,1,0,AFC Wimbledon,Okt 22 2019
+19:45,Ipswich,0,2,Rotherham,Okt 23 2019
+19:45,Coventry,2,1,Fleetwood,Okt 23 2019
+19:45,Peterborough,4,0,Accrington,Okt 23 2019
+15:00,Accrington,0,1,Gillingham,Okt 26 2019
+15:00,Burton,0,0,Blackpool,Okt 26 2019
+15:00,Bristol Rovers,2,2,Portsmouth,Okt 26 2019
+15:00,Oxford,3,0,Rochdale,Okt 26 2019
+15:00,Peterborough,2,2,Coventry,Okt 26 2019
+15:00,Rotherham,0,1,Wycombe,Okt 26 2019
+15:00,Shrewsbury,1,0,Sunderland,Okt 26 2019
+15:00,Southend,1,3,Ipswich,Okt 26 2019
+15:00,Fleetwood,1,0,Milton Keynes Dons,Okt 26 2019
+12:00,Milton Keynes Dons,2,1,AFC Wimbledon,Sep 7 2019
+12:30,Doncaster,2,1,Rotherham,Sep 7 2019
+15:00,Fleetwood,2,1,Oxford,Sep 7 2019
+15:00,Bristol Rovers,3,3,Accrington,Sep 7 2019
+15:00,Tranmere,2,2,Gillingham,Sep 7 2019
+15:00,Wycombe,3,1,Lincoln City,Sep 7 2019
+15:00,Coventry,3,2,Blackpool,Sep 7 2019
+15:00,Accrington,1,3,Sunderland,Sep 14 2019
+15:00,AFC Wimbledon,1,1,Shrewsbury,Sep 14 2019
+15:00,Blackpool,0,3,Milton Keynes Dons,Sep 14 2019
+15:00,Burton,0,0,Coventry,Sep 14 2019
+15:00,Gillingham,2,0,Wycombe,Sep 14 2019
+15:00,Ipswich,0,0,Doncaster,Sep 14 2019
+15:00,Lincoln City,0,1,Bristol Rovers,Sep 14 2019
+15:00,Oxford,3,0,Tranmere,Sep 14 2019
+15:00,Peterborough,6,0,Rochdale,Sep 14 2019
+15:00,Rotherham,6,1,Bolton,Sep 14 2019
+15:00,Southend,3,3,Fleetwood,Sep 14 2019
+19:45,Bristol Rovers,1,1,Gillingham,Sep 17 2019
+19:45,Doncaster,0,1,Blackpool,Sep 17 2019
+19:45,Coventry,2,1,AFC Wimbledon,Sep 17 2019
+19:45,Tranmere,2,2,Peterborough,Sep 17 2019
+19:45,Wycombe,1,1,Accrington,Sep 17 2019
+19:45,Sunderland,1,1,Rotherham,Sep 17 2019
+19:45,Shrewsbury,4,3,Southend,Sep 17 2019
+19:45,Rochdale,1,1,Lincoln City,Sep 17 2019
+19:45,Portsmouth,2,2,Burton,Sep 17 2019
+19:45,Milton Keynes Dons,0,1,Ipswich,Sep 17 2019
+20:00,Bolton,0,0,Oxford,Sep 17 2019
+15:00,Accrington,1,1,Blackpool,Sep 21 2019
+15:00,AFC Wimbledon,1,3,Bristol Rovers,Sep 21 2019
+15:00,Bolton,1,1,Sunderland,Sep 21 2019
+15:00,Doncaster,2,0,Peterborough,Sep 21 2019
+15:00,Fleetwood,2,1,Rochdale,Sep 21 2019
+15:00,Gillingham,0,1,Ipswich,Sep 21 2019
+15:00,Lincoln City,0,6,Oxford,Sep 21 2019
+15:00,Milton Keynes Dons,0,1,Southend,Sep 21 2019
+15:00,Rotherham,0,0,Shrewsbury,Sep 21 2019
+15:00,Tranmere,2,1,Burton,Sep 21 2019
+15:00,Wycombe,1,0,Portsmouth,Sep 21 2019
+19:45,Blackpool,2,1,Lincoln City,Sep 27 2019
+15:00,Bristol Rovers,1,0,Rotherham,Sep 28 2019
+15:00,Coventry,1,1,Doncaster,Sep 28 2019
+15:00,Ipswich,4,1,Tranmere,Sep 28 2019
+15:00,Oxford,3,0,Gillingham,Sep 28 2019
+15:00,Peterborough,3,2,AFC Wimbledon,Sep 28 2019
+15:00,Portsmouth,1,0,Bolton,Sep 28 2019
+15:00,Rochdale,0,3,Wycombe,Sep 28 2019
+15:00,Shrewsbury,0,3,Fleetwood,Sep 28 2019
+15:00,Southend,0,1,Accrington,Sep 28 2019
+15:00,Sunderland,2,1,Milton Keynes Dons,Sep 28 2019
+19:30,Sunderland,1,0,Portsmouth,Mei 11 2019
+12:15,Doncaster,1,2,Charlton,Mei 12 2019
+19:45,Portsmouth,0,0,Sunderland,Mei 16 2019
+19:45,Charlton,2,3,Doncaster,Mei 17 2019
+15:00,Charlton,2,1,Sunderland,Mei 26 2019
+19:45,Charlton,0,1,Shrewsbury,Mei 10 2018
+12:30,Scunthorpe,2,2,Rotherham,Mei 12 2018
+17:15,Shrewsbury,1,0,Charlton,Mei 13 2018
+19:45,Rotherham,2,0,Scunthorpe,Mei 16 2018
+15:00,Rotherham,2,1,Shrewsbury,Mei 27 2018
+19:45,Millwall,0,0,Scunthorpe,Mei 4 2017
+19:45,Bradford,1,0,Fleetwood,Mei 4 2017
+18:30,Fleetwood,0,0,Bradford,Mei 7 2017
+18:30,Scunthorpe,2,3,Millwall,Mei 7 2017
+15:00,Bradford,0,1,Millwall,Mei 20 2017
+17:30,Barnsley,3,0,Walsall,Mei 14 2016
+12:20,Bradford,1,3,Millwall,Mei 15 2016
+19:45,Walsall,1,3,Barnsley,Mei 19 2016
+19:45,Millwall,1,1,Bradford,Mei 20 2016
+15:00,Barnsley,3,1,Millwall,Mei 29 2016
