@@ -302,15 +302,13 @@ class ParseLeagueResults(WhoScoredParser):
                         prev_month_button.click()
 
                     print(len(self.MATCHES_URL))
-                    if self.start_match == -1:
-                        self.start_match = len(self.MATCHES_URL) - 1
                     # *** PARSE MATCHES ***
-                    for match_index in range(self.start_match, -1, -1):
+                    for match_index in range(self.start_match, len(self.MATCHES_URL)):
                         # make save
                         self.do_check_point(f"""{league_num},{i},{match_index}""")
                         # write information
                         writer.writerow(self.parse_match(self.MATCHES_URL[match_index]))
-                    self.start_match = -1
+                    self.start_match = 0
 
                     if i != 4:
                         # save season
@@ -361,8 +359,8 @@ class ParseTeamsScore(WhoScoredParser):
                 for row in teams_table:
                     # parse each team
                     team_stats = row.find_elements_by_tag_name('td')
-                    team_form = (3 * len(team_stats[10].find_elements_by_class_name('w')) + \
-                                 len(team_stats[10].find_elements_by_class_name('d')) - \
+                    team_form = (3 * len(team_stats[10].find_elements_by_class_name('w')) +
+                                 len(team_stats[10].find_elements_by_class_name('d')) -
                                  3 * len(team_stats[10].find_elements_by_class_name('l')) + 18) / 0.36
                     team = {
                         "League": league_name,
