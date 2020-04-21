@@ -25,6 +25,7 @@ class WhoScoredParser:
 
     def go_to_target_page(self, url):
         self.driver.get(url)
+        # self.driver.implicitly_wait(4)
         sleep(4)
 
     # Ищем кнопку accept и нажимаем на нее
@@ -144,11 +145,11 @@ class ParseLeagueResults(WhoScoredParser):
         players_in_team_away = ['', '']
         for player in pitch_field[0].find_elements_by_class_name("player"):
             players_in_team_home[0] += player.find_element_by_class_name("player-info").find_elements_by_tag_name("div")[0].get_attribute("title") + ", "
-            players_in_team_home[1] += player.find_element_by_class_name("player-stat").text + ','
+            players_in_team_home[1] += player.find_element_by_class_name("player-stat").text + ', '
 
         for player in pitch_field[1].find_elements_by_class_name("player"):
             players_in_team_away[0] += player.find_element_by_class_name("player-info").find_elements_by_tag_name("div")[0].get_attribute("title") + ", "
-            players_in_team_away[1] += player.find_element_by_class_name("player-stat").text + ','
+            players_in_team_away[1] += player.find_element_by_class_name("player-stat").text + ', '
 
         # parse substitutions
         subs_in_team_home = ['', '']
@@ -156,13 +157,13 @@ class ParseLeagueResults(WhoScoredParser):
         for sub in self.driver.find_elements_by_class_name('substitutes')[0].find_elements_by_class_name('player'):
             subs_in_team_home[0] += sub.find_element_by_class_name("player-info").find_elements_by_tag_name("div")[0].get_attribute("title") + ", "
             rating = sub.find_element_by_class_name("player-stat").text
-            subs_in_team_home[1] += (rating if rating else '6.0') + ','
+            subs_in_team_home[1] += (rating if rating else '6.0') + ', '
         for sub in self.driver.find_elements_by_class_name('substitutes')[1].find_elements_by_class_name('player'):
             subs_in_team_away[0] += sub.find_element_by_class_name("player-info").find_elements_by_tag_name("div")[0].get_attribute("title") + ", "
             rating = sub.find_element_by_class_name("player-stat").text
-            subs_in_team_away[1] += (rating if rating else '6.0') + ','
+            subs_in_team_away[1] += (rating if rating else '6.0') + ', '
 
-        stats = self.driver.find_element_by_class_name('match-centre-stats').find_elements_by_class_name('match-centre-stat')
+        stats = self.driver.find_element_by_class_name('match-centre-stats').find_elements_by_class_name('has-stats')
 
         # count cards
         yellow_cards_home = 0
@@ -218,20 +219,22 @@ class ParseLeagueResults(WhoScoredParser):
             "RatingSubstitutionHome": subs_in_team_home[1][:-2],
             "RatingSubstitutionAway": subs_in_team_away[1][:-2],
 
-            "TotalShotsHome": stats[1].find_elements_by_tag_name('span')[0].text,
-            "TotalShotsAway": stats[1].find_elements_by_tag_name('span')[2].text,
-            "PossessionHome": stats[2].find_elements_by_tag_name('span')[0].text,
-            "PossessionAway": stats[2].find_elements_by_tag_name('span')[2].text,
-            "PassAccuracyHome": stats[3].find_elements_by_tag_name('span')[0].text,
-            "PassAccuracyAway": stats[3].find_elements_by_tag_name('span')[2].text,
-            "DribblesHome": stats[4].find_elements_by_tag_name('span')[0].text,
-            "DribblesAway": stats[4].find_elements_by_tag_name('span')[2].text,
-            "AerialsWonHome": stats[5].find_elements_by_tag_name('span')[0].text,
-            "AerialsWonAway": stats[5].find_elements_by_tag_name('span')[2].text,
-            "TacklesHome": stats[6].find_elements_by_tag_name('span')[0].text,
-            "TacklesAway": stats[6].find_elements_by_tag_name('span')[2].text,
-            "CornersHome": stats[7].find_elements_by_tag_name('span')[0].text,
-            "CornersAway": stats[7].find_elements_by_tag_name('span')[2].text,
+            "TotalShotsHome": stats[0].find_elements_by_tag_name('span')[0].text,
+            "TotalShotsAway": stats[0].find_elements_by_tag_name('span')[2].text,
+            "PossessionHome": stats[1].find_elements_by_tag_name('span')[0].text,
+            "PossessionAway": stats[1].find_elements_by_tag_name('span')[2].text,
+            "PassAccuracyHome": stats[2].find_elements_by_tag_name('span')[0].text,
+            "PassAccuracyAway": stats[2].find_elements_by_tag_name('span')[2].text,
+            "DribblesHome": stats[3].find_elements_by_tag_name('span')[0].text,
+            "DribblesAway": stats[3].find_elements_by_tag_name('span')[2].text,
+            "AerialsWonHome": stats[4].find_elements_by_tag_name('span')[0].text,
+            "AerialsWonAway": stats[4].find_elements_by_tag_name('span')[2].text,
+            "TacklesHome": stats[5].find_elements_by_tag_name('span')[0].text,
+            "TacklesAway": stats[5].find_elements_by_tag_name('span')[2].text,
+            "CornersHome": stats[6].find_elements_by_tag_name('span')[0].text,
+            "CornersAway": stats[6].find_elements_by_tag_name('span')[2].text,
+            "DispossessedHome": stats[7].find_elements_by_tag_name('span')[0].text,
+            "DispossessedAway": stats[7].find_elements_by_tag_name('span')[2].text,
 
             "YellowCardHome": yellow_cards_home,
             "YellowCardAway": yellow_cards_away,
@@ -272,12 +275,11 @@ class ParseLeagueResults(WhoScoredParser):
                 if self.start_season:
                     self.go_to_target_page(self.SEASONS_URL[self.start_season])
                 # click "Fixtures" button
-                self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[1].click()
+                self.go_to_target_page(self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[1].get_attribute("href"))
                 # Crawl seasons
                 for i in range(self.start_season, 5):
                     sleep(3)
                     # *** SAVE URL OF MATCHES ***
-                    prev_month_button = ''
                     while True:
                         sleep(1)
                         current_table = self.driver.find_element_by_id('tournament-fixture-wrapper').find_elements_by_tag_name('tr')
@@ -300,13 +302,15 @@ class ParseLeagueResults(WhoScoredParser):
                         prev_month_button.click()
 
                     print(len(self.MATCHES_URL))
+                    if self.start_match == -1:
+                        self.start_match = len(self.MATCHES_URL) - 1
                     # *** PARSE MATCHES ***
-                    for match_index in range(len(self.MATCHES_URL) - 1, self.start_match - 1, -1):
+                    for match_index in range(self.start_match, -1, -1):
                         # make save
                         self.do_check_point(f"""{league_num},{i},{match_index}""")
                         # write information
                         writer.writerow(self.parse_match(self.MATCHES_URL[match_index]))
-                    self.start_match = 0
+                    self.start_match = -1
 
                     if i != 4:
                         # save season
@@ -314,7 +318,7 @@ class ParseLeagueResults(WhoScoredParser):
                         # change season
                         self.go_to_target_page(self.SEASONS_URL[i+1])
                         # click "Fixtures" button
-                        self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[1].click()
+                        self.go_to_target_page(self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[1].get_attribute("href"))
                     else:
                         self.do_check_point(f"""{league_num + 1},{0},{0}""")
 
@@ -404,8 +408,8 @@ class ParseTeamsScore(WhoScoredParser):
 
 def main():
     # times = []
-    #driver = webdriver.Chrome()
-    driver = webdriver.Chrome("/Users/sanduser/PycharmProjects/Parser/chromedriver")
+    driver = webdriver.Chrome()
+    # driver = webdriver.Chrome("/Users/sanduser/PycharmProjects/Parser/chromedriver")
     # ***** Parsing players scores *****
     # start_time = time()
     # ParsePlayers = ParsePlayersScore(driver)
