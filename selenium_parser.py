@@ -26,7 +26,7 @@ class WhoScoredParser:
     def go_to_target_page(self, url):
         self.driver.get(url)
         # self.driver.implicitly_wait(4)
-        sleep(4)
+        sleep(2)
 
     # Ищем кнопку accept и нажимаем на нее
     def accept_cookies(self):
@@ -132,7 +132,8 @@ class ParseLeagueResults(WhoScoredParser):
     def parse_match(self, match: str):
         # *** MATCH SUMMARY PARCING ***
         self.go_to_target_page(match)
-
+        times = []
+        start_time = time()
         date = self.driver.find_element_by_id("match-header").find_elements_by_class_name("info-block")[2].find_elements_by_tag_name("dd")
         teams = self.driver.find_element_by_class_name("match-header").find_element_by_tag_name("tr").find_elements_by_tag_name("td")
         team_info = [self.driver.find_elements_by_class_name("team-info")[0].find_elements_by_tag_name("div"),
@@ -241,7 +242,9 @@ class ParseLeagueResults(WhoScoredParser):
             "RedCardHome": red_cards_home,
             "RedCardAway": red_cards_away
         }
-        print(data)
+        # print(data)
+        times.append(time() - start_time)
+        print(times[-1])
         return data
 
     def parse_leagues(self):
@@ -278,7 +281,6 @@ class ParseLeagueResults(WhoScoredParser):
                 self.go_to_target_page(self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[1].get_attribute("href"))
                 # Crawl seasons
                 for i in range(self.start_season, 5):
-                    sleep(3)
                     # *** SAVE URL OF MATCHES ***
                     while True:
                         sleep(1)
@@ -301,16 +303,15 @@ class ParseLeagueResults(WhoScoredParser):
                             prev_month_button = self.driver.find_element_by_id('date-controller').find_element_by_tag_name('a')
                         prev_month_button.click()
 
-                    print(len(self.MATCHES_URL))
-                    if self.start_match == -1:
-                        self.start_match = len(self.MATCHES_URL) - 1
+                    # print(len(self.MATCHES_URL))
                     # *** PARSE MATCHES ***
-                    for match_index in range(self.start_match, -1, -1):
+                    for match_index in range(self.start_match, len(self.MATCHES_URL)):
                         # make save
                         self.do_check_point(f"""{league_num},{i},{match_index}""")
                         # write information
-                        writer.writerow(self.parse_match(self.MATCHES_URL[match_index]))
-                    self.start_match = -1
+                        row = self.parse_match(self.MATCHES_URL[match_index])
+                        writer.writerow(row)
+                    self.start_match = 0
 
                     if i != 4:
                         # save season
@@ -361,8 +362,8 @@ class ParseTeamsScore(WhoScoredParser):
                 for row in teams_table:
                     # parse each team
                     team_stats = row.find_elements_by_tag_name('td')
-                    team_form = (3 * len(team_stats[10].find_elements_by_class_name('w')) + \
-                                 len(team_stats[10].find_elements_by_class_name('d')) - \
+                    team_form = (3 * len(team_stats[10].find_elements_by_class_name('w')) +
+                                 len(team_stats[10].find_elements_by_class_name('d')) -
                                  3 * len(team_stats[10].find_elements_by_class_name('l')) + 18) / 0.36
                     team = {
                         "League": league_name,
@@ -407,15 +408,12 @@ class ParseTeamsScore(WhoScoredParser):
 
 
 def main():
-    # times = []
     driver = webdriver.Chrome()
     # driver = webdriver.Chrome("/Users/sanduser/PycharmProjects/Parser/chromedriver")
     # ***** Parsing players scores *****
-    # start_time = time()
     # ParsePlayers = ParsePlayersScore(driver)
     # ParsePlayers.accept_cookies()
     # ParsePlayers.start_parse()
-    # times.append(time() - start_time)
     # ***** Parsing match results *****
     # start_time = time()
     ParserLeagues = ParseLeagueResults(driver)
