@@ -7,12 +7,12 @@ import os
 MAIN_URL = 'https://whoscored.com/'
 
 
-def progressBar(value: int, endvalue: int, name="Percent", bar_length=20):
-    percent = float(value) / endvalue
+def progressBar(value: int, end_value: int, team_home: str, team_away: str, name="Percent", bar_length=100):
+    percent = float(value) / end_value
     arrow = '-' * int(round(percent * bar_length) - 1) + '>'
     spaces = ' ' * (bar_length - len(arrow))
 
-    sys.stdout.write("\r{0}: [{1}] {2}%".format(name, arrow + spaces, int(round(percent * 100))))
+    sys.stdout.write(f"{team_home} vs {team_away}\nSeason №{name}\n[{arrow + spaces}] {int(round(percent * 100))}%")
     sys.stdout.flush()
 
 
@@ -26,7 +26,7 @@ class WhoScoredParser:
     def go_to_target_page(self, url):
         self.driver.get(url)
         # self.driver.implicitly_wait(4)
-        sleep(4)
+        sleep(2)
 
     # Ищем кнопку accept и нажимаем на нее
     def accept_cookies(self):
@@ -109,6 +109,8 @@ class ParseLeagueResults(WhoScoredParser):
         self.start_season = start_season
         self.start_month = start_month
         self.start_match = start_match
+        self.times = 0
+        self.count = 0
         super().__init__(driver)
 
     def start_parse(self):
@@ -127,52 +129,63 @@ class ParseLeagueResults(WhoScoredParser):
             self.start_league = int(params[0])
             self.start_season = int(params[1])
             self.start_match = int(params[2])
-            print(params)
+            print(f"Check_point: League № {params[0]}, Season № {params[1]}, Match № {params[2]}")
 
     def parse_match(self, match: str):
         # *** MATCH SUMMARY PARCING ***
+        start_time = time()
         self.go_to_target_page(match)
-
-        date = self.driver.find_element_by_id("match-header").find_elements_by_class_name("info-block")[2].find_elements_by_tag_name("dd")
-        teams = self.driver.find_element_by_class_name("match-header").find_element_by_tag_name("tr").find_elements_by_tag_name("td")
+        # Match content
+        date = self.driver.find_element_by_id("match-header").find_elements_by_class_name("info-block")[
+            2].find_elements_by_tag_name("dd")
+        teams = self.driver.find_element_by_class_name("match-header").find_element_by_tag_name(
+            "tr").find_elements_by_tag_name("td")
         team_info = [self.driver.find_elements_by_class_name("team-info")[0].find_elements_by_tag_name("div"),
                      self.driver.find_elements_by_class_name("team-info")[1].find_elements_by_tag_name("div")]
         match_info = self.driver.find_element_by_class_name("match-info").find_elements_by_tag_name("span")
-        pitch_field = self.driver.find_elements_by_class_name("pitch-field")
 
-        # parse team line-up
-        players_in_team_home = ['', '']
-        players_in_team_away = ['', '']
-        for player in pitch_field[0].find_elements_by_class_name("player"):
-            players_in_team_home[0] += player.find_element_by_class_name("player-info").find_elements_by_tag_name("div")[0].get_attribute("title") + ", "
-            players_in_team_home[1] += player.find_element_by_class_name("player-stat").text + ', '
+        # Players content
+        pitch = self.driver.find_element_by_class_name("pitch")
+        substitutes = self.driver.find_elements_by_class_name("substitutes")
 
-        for player in pitch_field[1].find_elements_by_class_name("player"):
-            players_in_team_away[0] += player.find_element_by_class_name("player-info").find_elements_by_tag_name("div")[0].get_attribute("title") + ", "
-            players_in_team_away[1] += player.find_element_by_class_name("player-stat").text + ', '
-
-        # parse substitutions
-        subs_in_team_home = ['', '']
-        subs_in_team_away = ['', '']
-        for sub in self.driver.find_elements_by_class_name('substitutes')[0].find_elements_by_class_name('player'):
-            subs_in_team_home[0] += sub.find_element_by_class_name("player-info").find_elements_by_tag_name("div")[0].get_attribute("title") + ", "
-            rating = sub.find_element_by_class_name("player-stat").text
-            subs_in_team_home[1] += (rating if rating else '6.0') + ', '
-        for sub in self.driver.find_elements_by_class_name('substitutes')[1].find_elements_by_class_name('player'):
-            subs_in_team_away[0] += sub.find_element_by_class_name("player-info").find_elements_by_tag_name("div")[0].get_attribute("title") + ", "
-            rating = sub.find_element_by_class_name("player-stat").text
-            subs_in_team_away[1] += (rating if rating else '6.0') + ', '
-
+        # Detailed players content
         stats = self.driver.find_element_by_class_name('match-centre-stats').find_elements_by_class_name('has-stats')
+        detailed_info = list()
+        for i in range(8):
+            detailed_info.append(stats[i].find_elements_by_tag_name('span'))
 
-        # count cards
+        # **** PARCING PLAYERS AND THEIR STATS ******
+        # Parse team line-up
+        players = pitch.find_elements_by_class_name("player-name-wrapper")
+        players_score = pitch.find_elements_by_class_name("player-stat")
+        for i in range(len(players)):
+            players[i] = players[i].get_attribute("title")
+            players_score[i] = players_score[i].text
+
+        # Parse substitutions
+        subs_home = dict()
+        subs_away = dict()
+        subs_home["players"] = substitutes[0].find_elements_by_class_name("player-name-wrapper")
+        subs_home["stats"] = substitutes[0].find_elements_by_class_name("player-stat")
+        subs_away["players"] = substitutes[1].find_elements_by_class_name("player-name-wrapper")
+        subs_away["stats"] = substitutes[1].find_elements_by_class_name("player-stat")
+
+        for i in range(len(subs_home["players"])):
+            subs_home["players"][i] = subs_home["players"][i].get_attribute("title")
+            rating = subs_home["stats"][i].text
+            subs_home["stats"][i] = rating if rating else "6.0"
+
+        for i in range(len(subs_away["players"])):
+            subs_away["players"][i] = subs_away["players"][i].get_attribute("title")
+            rating = subs_away["stats"][i].text
+            subs_away["stats"][i] = rating if rating else "6.0"
+
+        # Counting cards
         yellow_cards_home = 0
         yellow_cards_away = 0
         red_cards_home = 0
         red_cards_away = 0
-
         incidents_home = self.driver.find_element_by_id('live-incidents').find_elements_by_class_name('home-incident')
-
         incidents_away = self.driver.find_element_by_id('live-incidents').find_elements_by_class_name('away-incident')
 
         for incident in incidents_home:
@@ -192,8 +205,9 @@ class ParseLeagueResults(WhoScoredParser):
                     yellow_cards_away += 1
                 if card.get_attribute('data-card-type') in ('33', '32'):
                     red_cards_away += 1
-
+        # Collecting data in row
         data = {
+            #  Detailed information about match
             "Date": date[1].text[date[1].text.find(',') + 2:],
             "Time": date[0].text,
             "TeamHome": teams[0].text,
@@ -209,39 +223,45 @@ class ParseLeagueResults(WhoScoredParser):
             "Stadium": match_info[2].text,
             "Weather": match_info[7].text,
             "Referee": match_info[10].text,
-
-            "StartTeamHome": players_in_team_home[0][:-2],
-            "StartTeamAway": players_in_team_away[0][:-2],
-            "RatingStartTeamHome": players_in_team_home[1][:-2],
-            "RatingStartTeamAway": players_in_team_away[1][:-2],
-            "SubstitutionHome": subs_in_team_home[0][:-2],
-            "SubstitutionAway": subs_in_team_away[0][:-2],
-            "RatingSubstitutionHome": subs_in_team_home[1][:-2],
-            "RatingSubstitutionAway": subs_in_team_away[1][:-2],
-
-            "TotalShotsHome": stats[0].find_elements_by_tag_name('span')[0].text,
-            "TotalShotsAway": stats[0].find_elements_by_tag_name('span')[2].text,
-            "PossessionHome": stats[1].find_elements_by_tag_name('span')[0].text,
-            "PossessionAway": stats[1].find_elements_by_tag_name('span')[2].text,
-            "PassAccuracyHome": stats[2].find_elements_by_tag_name('span')[0].text,
-            "PassAccuracyAway": stats[2].find_elements_by_tag_name('span')[2].text,
-            "DribblesHome": stats[3].find_elements_by_tag_name('span')[0].text,
-            "DribblesAway": stats[3].find_elements_by_tag_name('span')[2].text,
-            "AerialsWonHome": stats[4].find_elements_by_tag_name('span')[0].text,
-            "AerialsWonAway": stats[4].find_elements_by_tag_name('span')[2].text,
-            "TacklesHome": stats[5].find_elements_by_tag_name('span')[0].text,
-            "TacklesAway": stats[5].find_elements_by_tag_name('span')[2].text,
-            "CornersHome": stats[6].find_elements_by_tag_name('span')[0].text,
-            "CornersAway": stats[6].find_elements_by_tag_name('span')[2].text,
-            "DispossessedHome": stats[7].find_elements_by_tag_name('span')[0].text,
-            "DispossessedAway": stats[7].find_elements_by_tag_name('span')[2].text,
-
+            # Detailed information about teams
+            "StartTeamHome": ', '.join(players[:12]),
+            "StartTeamAway": ', '.join(players[12:]),
+            "RatingStartTeamHome": ', '.join(players_score[:12]),
+            "RatingStartTeamAway": ', '.join(players_score[12:]),
+            "SubstitutionHome": ', '.join(subs_home["players"]),
+            "SubstitutionAway": ', '.join(subs_away["players"]),
+            "RatingSubstitutionHome": ', '.join(subs_home["stats"]),
+            "RatingSubstitutionAway": ', '.join(subs_away["stats"]),
+            "TotalShotsHome": detailed_info[0][0].text,
+            "TotalShotsAway": detailed_info[0][2].text,
+            "PossessionHome": detailed_info[1][0].text,
+            "PossessionAway": detailed_info[1][2].text,
+            "PassAccuracyHome": detailed_info[2][0].text,
+            "PassAccuracyAway": detailed_info[2][2].text,
+            "DribblesHome": detailed_info[3][0].text,
+            "DribblesAway": detailed_info[3][2].text,
+            "AerialsWonHome": detailed_info[4][0].text,
+            "AerialsWonAway": detailed_info[4][2].text,
+            "TacklesHome": detailed_info[5][0].text,
+            "TacklesAway": detailed_info[5][2].text,
+            "CornersHome": detailed_info[6][0].text,
+            "CornersAway": detailed_info[6][2].text,
+            "DispossessedHome": detailed_info[7][0].text,
+            "DispossessedAway": detailed_info[7][2].text,
+            # Detailed information about cards
             "YellowCardHome": yellow_cards_home,
             "YellowCardAway": yellow_cards_away,
             "RedCardHome": red_cards_home,
             "RedCardAway": red_cards_away
         }
-        print(data)
+
+        # progressBar(match_index, last_match, name=str(i))
+        # print(data)
+        self.count += 1
+        self.times = self.times + time() - start_time
+        print("THE ALL TIME OF PARCING ONE MATCH " + str(time() - start_time))
+        if self.count == 15:
+            print(self.times / 15)
         return data
 
     def parse_leagues(self):
@@ -259,15 +279,23 @@ class ParseLeagueResults(WhoScoredParser):
 
             # create file
             with open(league_name + "_results_data.csv", 'a+', encoding='utf-8', newline='') as file:
-                writer = csv.DictWriter(file, fieldnames=["Date", "Time", "TeamHome", "ResultTeamHome", "ResultTeamAway", "TeamAway", "ManagerHome", "ManagerAway",
-                                                          "FormationHome", "FormationAway", "RatingTeamHome", "RatingTeamAway", "Stadium", "Weather", "Referee",
-                                                          "StartTeamHome", "RatingStartTeamHome", "SubstitutionHome", "RatingSubstitutionHome",
-                                                          "StartTeamAway", "RatingStartTeamAway", "SubstitutionAway", "RatingSubstitutionAway",
-                                                          "TotalShotsHome", "TotalShotsAway", "PossessionHome", "PossessionAway",
-                                                          "PassAccuracyHome", "PassAccuracyAway", "DribblesHome", "DribblesAway",
-                                                          "AerialsWonHome", "AerialsWonAway", "TacklesHome", "TacklesAway",
-                                                          "CornersHome", "CornersAway", "DispossessedHome", "DispossessedAway",
-                                                          "YellowCardHome", "YellowCardAway", "RedCardHome", "RedCardAway"])
+                writer = csv.DictWriter(file,
+                                        fieldnames=["Date", "Time", "TeamHome", "ResultTeamHome", "ResultTeamAway",
+                                                    "TeamAway", "ManagerHome", "ManagerAway",
+                                                    "FormationHome", "FormationAway", "RatingTeamHome",
+                                                    "RatingTeamAway", "Stadium", "Weather", "Referee",
+                                                    "StartTeamHome", "RatingStartTeamHome", "SubstitutionHome",
+                                                    "RatingSubstitutionHome",
+                                                    "StartTeamAway", "RatingStartTeamAway", "SubstitutionAway",
+                                                    "RatingSubstitutionAway",
+                                                    "TotalShotsHome", "TotalShotsAway", "PossessionHome",
+                                                    "PossessionAway",
+                                                    "PassAccuracyHome", "PassAccuracyAway", "DribblesHome",
+                                                    "DribblesAway",
+                                                    "AerialsWonHome", "AerialsWonAway", "TacklesHome", "TacklesAway",
+                                                    "CornersHome", "CornersAway", "DispossessedHome",
+                                                    "DispossessedAway",
+                                                    "YellowCardHome", "YellowCardAway", "RedCardHome", "RedCardAway"])
                 # check if the file is exist
                 if not os.path.getsize(league_name + "_results_data.csv"):
                     writer.writeheader()
@@ -275,14 +303,16 @@ class ParseLeagueResults(WhoScoredParser):
                 if self.start_season:
                     self.go_to_target_page(self.SEASONS_URL[self.start_season])
                 # click "Fixtures" button
-                self.go_to_target_page(self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[1].get_attribute("href"))
+                self.go_to_target_page(
+                    self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[1].get_attribute(
+                        "href"))
                 # Crawl seasons
                 for i in range(self.start_season, 5):
-                    sleep(3)
                     # *** SAVE URL OF MATCHES ***
                     while True:
                         sleep(1)
-                        current_table = self.driver.find_element_by_id('tournament-fixture-wrapper').find_elements_by_tag_name('tr')
+                        current_table = self.driver.find_element_by_id(
+                            'tournament-fixture-wrapper').find_elements_by_tag_name('tr')
                         for row in current_table:
                             # refresh date
                             if row.get_attribute("class") == "rowgroupheader":
@@ -291,32 +321,41 @@ class ParseLeagueResults(WhoScoredParser):
                             # skip failed match
                             if match_info[4].text == 'vs':
                                 continue
-                            self.MATCHES_URL.append(match_info[-1].find_element_by_tag_name('a').get_attribute('href').replace("MatchReport", "Live"))
+                            self.MATCHES_URL.append(
+                                match_info[-1].find_element_by_tag_name('a').get_attribute('href').replace(
+                                    "MatchReport", "Live"))
 
                         # make exception for CL and ELe
                         if len(self.driver.find_elements_by_id('date-controller')) == 0 \
-                            or self.driver.find_element_by_id('date-controller').find_element_by_tag_name('a').get_attribute('title') == 'No data for previous month':
+                                or self.driver.find_element_by_id('date-controller').find_element_by_tag_name(
+                            'a').get_attribute('title') == 'No data for previous month':
                             break
                         else:
-                            prev_month_button = self.driver.find_element_by_id('date-controller').find_element_by_tag_name('a')
+                            prev_month_button = self.driver.find_element_by_id(
+                                'date-controller').find_element_by_tag_name('a')
                         prev_month_button.click()
 
-                    print(len(self.MATCHES_URL))
+                    # print(len(self.MATCHES_URL))
                     # *** PARSE MATCHES ***
-                    for match_index in range(self.start_match, len(self.MATCHES_URL)):
+                    last_match = len(self.MATCHES_URL)
+                    for match_index in range(self.start_match, last_match):
                         # make save
                         self.do_check_point(f"""{league_num},{i},{match_index}""")
                         # write information
-                        writer.writerow(self.parse_match(self.MATCHES_URL[match_index]))
-                    self.start_match = 0
+                        row = self.parse_match(self.MATCHES_URL[match_index])
+                        writer.writerow(row)
 
+                    self.start_match = 0
+                    self.MATCHES_URL = []
                     if i != 4:
                         # save season
                         self.do_check_point(f"""{league_num},{i + 1},{0}""")
                         # change season
-                        self.go_to_target_page(self.SEASONS_URL[i+1])
+                        self.go_to_target_page(self.SEASONS_URL[i + 1])
                         # click "Fixtures" button
-                        self.go_to_target_page(self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[1].get_attribute("href"))
+                        self.go_to_target_page(
+                            self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[
+                                1].get_attribute("href"))
                     else:
                         self.do_check_point(f"""{league_num + 1},{0},{0}""")
 
@@ -405,20 +444,23 @@ class ParseTeamsScore(WhoScoredParser):
 
 
 def main():
-    # times = []
     driver = webdriver.Chrome()
     # driver = webdriver.Chrome("/Users/sanduser/PycharmProjects/Parser/chromedriver")
     # ***** Parsing players scores *****
-    # start_time = time()
     # ParsePlayers = ParsePlayersScore(driver)
     # ParsePlayers.accept_cookies()
     # ParsePlayers.start_parse()
-    # times.append(time() - start_time)
     # ***** Parsing match results *****
     # start_time = time()
     ParserLeagues = ParseLeagueResults(driver)
     ParserLeagues.accept_cookies()
     ParserLeagues.start_parse()
+   # while True:
+    #    try:
+    #        ParserLeagues.start_parse()
+    #    except:
+   #         continue
+   #     break
     # ***** Parse teams score *****
     # start_time = time()
     # ParserTeams = ParseTeamsScore(driver)
