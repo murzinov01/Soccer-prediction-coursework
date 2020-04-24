@@ -131,15 +131,32 @@ class ParseLeagueResults(WhoScoredParser):
             self.start_match = int(params[2])
             print(f"Check_point: League № {params[0]}, Season № {params[1]}, Match № {params[2]}")
 
+
+    def parse_match_moments(self, match_moments: dict, incidents, team_key: str):
+        for incident in incidents:
+            for moment in incident.find_elements_by_class_name('match-centre-header-team-key-incident'):
+                # Cards
+                if moment.get_attribute('data-type') == '17':
+                    card = moment.find_element_by_tag_name("div").get_attribute('data-card-type')
+                    if card in ('31', '32'):
+                        match_moments[team_key]["yellow_cards"] += 1
+                    if card in ('33', '32'):
+                        match_moments[team_key]["red_cards"] += 1
+                # Goals
+                elif moment.get_attribute('data-type') == '16':
+                    text = moment.text
+                    match_moments[team_key]["goals"] += text.replace(text[text.find('('): text.find(')') + 1], "") + ", "
+                # Assists
+                elif moment.get_attribute('data-type') == '1':
+                    match_moments[team_key]["assists"] += moment.text + ", "
+
     def parse_match(self, match: str):
         # *** MATCH SUMMARY PARCING ***
         start_time = time()
         self.go_to_target_page(match)
         # Match content
-        date = self.driver.find_element_by_id("match-header").find_elements_by_class_name("info-block")[
-            2].find_elements_by_tag_name("dd")
-        teams = self.driver.find_element_by_class_name("match-header").find_element_by_tag_name(
-            "tr").find_elements_by_tag_name("td")
+        date = self.driver.find_element_by_id("match-header").find_elements_by_class_name("info-block")[2].find_elements_by_tag_name("dd")
+        teams = self.driver.find_element_by_class_name("match-header").find_element_by_tag_name("tr").find_elements_by_tag_name("td")
         team_info = [self.driver.find_elements_by_class_name("team-info")[0].find_elements_by_tag_name("div"),
                      self.driver.find_elements_by_class_name("team-info")[1].find_elements_by_tag_name("div")]
         match_info = self.driver.find_element_by_class_name("match-info").find_elements_by_tag_name("span")
@@ -180,31 +197,24 @@ class ParseLeagueResults(WhoScoredParser):
             rating = subs_away["stats"][i].text
             subs_away["stats"][i] = rating if rating else "6.0"
 
-        # Counting cards
-        yellow_cards_home = 0
-        yellow_cards_away = 0
-        red_cards_home = 0
-        red_cards_away = 0
+        # *** PARSING MATCH MOMENTS ***
         incidents_home = self.driver.find_element_by_id('live-incidents').find_elements_by_class_name('home-incident')
         incidents_away = self.driver.find_element_by_id('live-incidents').find_elements_by_class_name('away-incident')
+        match_moments = {
+            "home": {
+                "goals": "",
+                "assists": "",
+                "yellow_cards": 0,
+                "red_cards": 0},
+            "away": {
+                "goals": "",
+                "assists": "",
+                "yellow_cards": 0,
+                "red_cards": 0}
+        }
+        self.parse_match_moments(match_moments, incidents_home, "home")
+        self.parse_match_moments(match_moments, incidents_away, "away")
 
-        for incident in incidents_home:
-            for card in incident.find_elements_by_class_name('incident-icon'):
-                if card.get_attribute('data-type') != '17':
-                    continue
-                if card.get_attribute('data-card-type') in ('31', '32'):
-                    yellow_cards_home += 1
-                if card.get_attribute('data-card-type') in ('33', '32'):
-                    red_cards_home += 1
-
-        for incident in incidents_away:
-            for card in incident.find_elements_by_class_name('incident-icon'):
-                if card.get_attribute('data-type') != '17':
-                    continue
-                if card.get_attribute('data-card-type') in ('31', '32'):
-                    yellow_cards_away += 1
-                if card.get_attribute('data-card-type') in ('33', '32'):
-                    red_cards_away += 1
         # Collecting data in row
         data = {
             #  Detailed information about match
@@ -249,10 +259,14 @@ class ParseLeagueResults(WhoScoredParser):
             "DispossessedHome": detailed_info[7][0].text,
             "DispossessedAway": detailed_info[7][2].text,
             # Detailed information about cards
-            "YellowCardHome": yellow_cards_home,
-            "YellowCardAway": yellow_cards_away,
-            "RedCardHome": red_cards_home,
-            "RedCardAway": red_cards_away
+            "GoalsHome": match_moments['home']['goals'][:-2],
+            "GoalsAway": match_moments['away']['goals'][:-2],
+            "AssistsHome": match_moments['home']['assists'][:-2],
+            "AssistsAway": match_moments['away']['assists'][:-2],
+            "YellowCardHome": match_moments['home']['yellow_cards'],
+            "YellowCardAway": match_moments['away']['yellow_cards'],
+            "RedCardHome": match_moments['home']['red_cards'],
+            "RedCardAway": match_moments['away']['red_cards']
         }
 
         # progressBar(match_index, last_match, name=str(i))
@@ -295,6 +309,7 @@ class ParseLeagueResults(WhoScoredParser):
                                                     "AerialsWonHome", "AerialsWonAway", "TacklesHome", "TacklesAway",
                                                     "CornersHome", "CornersAway", "DispossessedHome",
                                                     "DispossessedAway",
+                                                    "GoalsHome", "GoalsAway", "AssistsHome", "AssistsAway",
                                                     "YellowCardHome", "YellowCardAway", "RedCardHome", "RedCardAway"])
                 # check if the file is exist
                 if not os.path.getsize(league_name + "_results_data.csv"):
@@ -444,8 +459,8 @@ class ParseTeamsScore(WhoScoredParser):
 
 
 def main():
-    driver = webdriver.Chrome()
-    # driver = webdriver.Chrome("/Users/sanduser/PycharmProjects/Parser/chromedriver")
+    # driver = webdriver.Chrome()
+    driver = webdriver.Chrome("/Users/sanduser/PycharmProjects/Parser/chromedriver")
     # ***** Parsing players scores *****
     # ParsePlayers = ParsePlayersScore(driver)
     # ParsePlayers.accept_cookies()
