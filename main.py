@@ -13,9 +13,11 @@ def main():
 
     # ***** PARSING MATCH RESULTS *****
     ParserLeagues = ParseLeagueResults(driver)
+    ParserLeagues.go_to_main_page()
     ParserLeagues.accept_cookies()
     while True:
         try:
+            ParserLeagues.go_to_main_page()
             ParserLeagues.start_parse()
         except:
             continue

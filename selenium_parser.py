@@ -26,10 +26,12 @@ class WhoScoredParser:
         # self.driver.implicitly_wait(4)
         sleep(2)
 
-    # Ищем кнопку accept и нажимаем на нее
-    def accept_cookies(self):
+    def go_to_main_page(self):
         self.driver.get(MAIN_URL)
         sleep(6)
+
+    # Ищем кнопку accept и нажимаем на нее
+    def accept_cookies(self):
         self.driver.find_elements_by_class_name('qc-cmp-button')[1].click()
         sleep(3)
 
@@ -127,7 +129,7 @@ class ParseLeagueResults(WhoScoredParser):
             self.start_league = int(params[0])
             self.start_season = int(params[1])
             self.start_match = int(params[2])
-            print(f"Check_point: League № {params[0]}, Season № {params[1]}, Match № {params[2]}")
+            print(f"\nCheck_point: League № {params[0]}, Season № {params[1]}, Match № {params[2]}")
 
     @staticmethod
     def parse_match_moments(match_moments: dict, incidents, team_key: str):
