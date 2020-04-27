@@ -294,6 +294,7 @@ class ParseLeagueResults(WhoScoredParser):
             # create file
             with open(league_name + "_results_data.csv", 'a+', encoding='utf-8', newline='') as file:
                 writer = csv.DictWriter(file, fieldnames=[
+
                                                     "Date", "Season", "Time", "TeamHome", "ResultTeamHome", "ResultTeamAway",
                                                     "TeamAway", "ManagerHome", "ManagerAway",
                                                     "FormationHome", "FormationAway", "RatingTeamHome",
