@@ -102,6 +102,7 @@ class ParsePlayersScore(WhoScoredParser):
 class ParseLeagueResults(WhoScoredParser):
     TABLE_BUTTONS = list()
     SEASONS_URL = list()
+    SEASONS_NAME = list()
     MATCHES_URL = list()
 
     def __init__(self, driver, start_league=0, start_season=0, start_month="", start_match=0):
@@ -288,11 +289,13 @@ class ParseLeagueResults(WhoScoredParser):
             # *** SAVE SEASON URL
             for season in self.driver.find_element_by_id('seasons').find_elements_by_tag_name('option')[:5]:
                 self.SEASONS_URL.append(MAIN_URL + season.get_attribute('value'))
+                self.SEASONS_NAME.append(season.text)
 
             # create file
             with open(league_name + "_results_data.csv", 'a+', encoding='utf-8', newline='') as file:
                 writer = csv.DictWriter(file, fieldnames=[
-                                                    "Date", "Time", "TeamHome", "ResultTeamHome", "ResultTeamAway",
+
+                                                    "Date", "Season", "Time", "TeamHome", "ResultTeamHome", "ResultTeamAway",
                                                     "TeamAway", "ManagerHome", "ManagerAway",
                                                     "FormationHome", "FormationAway", "RatingTeamHome",
                                                     "RatingTeamAway", "Stadium", "Weather", "Referee",
@@ -358,6 +361,7 @@ class ParseLeagueResults(WhoScoredParser):
                         self.do_check_point(f"""{league_num},{i},{match_index}""")
                         # Collect information
                         row = self.parse_match(self.MATCHES_URL[match_index], match_index, last_match)
+                        row["Season"] = self.SEASONS_NAME[i]
                         # Check progress
                         progressBar(match_index, last_match, row["TeamHome"], row["TeamAway"])
                         # Write information
