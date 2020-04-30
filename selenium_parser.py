@@ -1,6 +1,10 @@
 import csv
 import sys
 import os
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as EC
 from time import sleep, time
 
 MAIN_URL = 'https://whoscored.com/'
@@ -18,24 +22,27 @@ def progressBar(value: int, end_value: int, team_home: str, team_away: str, bar_
 class WhoScoredParser:
     PLAYER_TABLE = ""
 
+
     def __init__(self, driver):
         self.driver = driver
+        self.wait = WebDriverWait(self.driver, 20)
 
     def go_to_target_page(self, url):
         self.driver.get(url)
-        # self.driver.implicitly_wait(4)
-        sleep(2)
+        #sleep(3)
 
     def go_to_main_page(self):
         self.driver.get(MAIN_URL)
-        sleep(6)
+        #sleep(6)
 
     # Ищем кнопку accept и нажимаем на нее
     def accept_cookies(self):
+        self.wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'qc-cmp-button')))
         self.driver.find_elements_by_class_name('qc-cmp-button')[1].click()
-        sleep(3)
+        # sleep(3)
 
     def find_leagues_buttons(self):
+        self.wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'hover-target')))
         return self.driver.find_element_by_id('popular-tournaments-list').find_elements_by_tag_name('li')
 
 
@@ -155,7 +162,10 @@ class ParseLeagueResults(WhoScoredParser):
     def parse_match(self, match: str, match_index: int, last_match: int):
         # *** MATCH SUMMARY PARCING ***
         # start_time = time()
+
         self.go_to_target_page(match)
+        self.wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'pitch')))
+
         # Match content
         date = self.driver.find_element_by_id("match-header").find_elements_by_class_name("info-block")[
             2].find_elements_by_tag_name("dd")
@@ -193,12 +203,12 @@ class ParseLeagueResults(WhoScoredParser):
         for i in range(len(subs_home["players"])):
             subs_home["players"][i] = subs_home["players"][i].get_attribute("title")
             rating = subs_home["stats"][i].text
-            subs_home["stats"][i] = rating if rating else "6.0"
+            subs_home["stats"][i] = rating if rating else "-1"
 
         for i in range(len(subs_away["players"])):
             subs_away["players"][i] = subs_away["players"][i].get_attribute("title")
             rating = subs_away["stats"][i].text
-            subs_away["stats"][i] = rating if rating else "6.0"
+            subs_away["stats"][i] = rating if rating else "-1"
 
         # *** PARSING MATCH MOMENTS ***
         incidents_home = self.driver.find_element_by_id('live-incidents').find_elements_by_class_name('home-incident')
@@ -234,7 +244,7 @@ class ParseLeagueResults(WhoScoredParser):
             "RatingTeamAway": team_info[1][0].text,
             "Stadium": match_info[2].text,
             "Weather": match_info[7].text,
-            "Referee": match_info[10].text,
+            "Referee": match_info[10].text if len(match_info) > 10 else "NO_REFEREE",
             # Detailed information about teams
             "StartTeamHome": ', '.join(players[:12]),
             "StartTeamAway": ', '.join(players[12:]),
@@ -285,7 +295,8 @@ class ParseLeagueResults(WhoScoredParser):
             print(league_name)
             # *** CHOOSE LEAGUE ***
             self.TABLE_BUTTONS[league_num].click()
-            sleep(2)
+            # sleep (2)
+            self.wait.until(EC.element_to_be_clickable((By.ID, 'seasons')))
             # *** SAVE SEASON URL
             for season in self.driver.find_element_by_id('seasons').find_elements_by_tag_name('option')[:5]:
                 self.SEASONS_URL.append(MAIN_URL + season.get_attribute('value'))
@@ -318,17 +329,18 @@ class ParseLeagueResults(WhoScoredParser):
                 # go to target season
                 if self.start_season:
                     self.go_to_target_page(self.SEASONS_URL[self.start_season])
-
+                    # sleep (2)
                 # click "Fixtures" button
+                self.wait.until(EC.element_to_be_clickable((By.ID, 'sub-navigation')))
                 self.go_to_target_page(
-                    self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[1].get_attribute(
-                        "href"))
+                    self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[1].get_attribute("href"))
+                # sleep(2)
 
                 # Crawl seasons
                 for i in range(self.start_season, 5):
                     # *** SAVE URL OF MATCHES ***
                     while True:
-                        sleep(1)
+                        sleep (1)
                         current_table = self.driver.find_element_by_id(
                             'tournament-fixture-wrapper').find_elements_by_tag_name('tr')
                         for row in current_table:
@@ -373,10 +385,11 @@ class ParseLeagueResults(WhoScoredParser):
                         self.do_check_point(f"""{league_num},{i + 1},{0}""")
                         # change season
                         self.go_to_target_page(self.SEASONS_URL[i + 1])
+                        self.wait.until(EC.element_to_be_clickable((By.ID, 'sub-navigation')))
                         # click "Fixtures" button
                         self.go_to_target_page(
-                            self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[
-                                1].get_attribute("href"))
+                            self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[1].get_attribute("href"))
+
                     else:
                         self.do_check_point(f"""{league_num + 1},{0},{0}""")
 
