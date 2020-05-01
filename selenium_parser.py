@@ -4,8 +4,8 @@ import os
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support import expected_conditions as EC
 from time import sleep, time
+
 
 MAIN_URL = 'https://whoscored.com/'
 
@@ -159,12 +159,15 @@ class ParseLeagueResults(WhoScoredParser):
                 elif moment.get_attribute('data-type') == '1':
                     match_moments[team_key]["assists"] += moment.text + ", "
 
-    def parse_match(self, match: str, match_index: int, last_match: int):
+    def parse_match(self, match: str):
         # *** MATCH SUMMARY PARCING ***
         # start_time = time()
+        self.driver.switch_to.window(self.driver.window_handles[0])
+        self.driver.execute_script("window.open('');")
+        self.driver.switch_to.window(self.driver.window_handles[1])
 
         self.go_to_target_page(match)
-        self.wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'pitch')))
+        self.wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'player')))
 
         # Match content
         date = self.driver.find_element_by_id("match-header").find_elements_by_class_name("info-block")[
@@ -285,6 +288,7 @@ class ParseLeagueResults(WhoScoredParser):
         # print("THE ALL TIME OF PARCING ONE MATCH " + str(time() - start_time))
         # if self.count == 15:
         #    print(self.times / 15)
+        self.driver.close()
         return data
 
     def parse_leagues(self):
@@ -305,7 +309,6 @@ class ParseLeagueResults(WhoScoredParser):
             # create file
             with open(league_name + "_results_data.csv", 'a+', encoding='utf-8', newline='') as file:
                 writer = csv.DictWriter(file, fieldnames=[
-
                                                     "Date", "Season", "Time", "TeamHome", "ResultTeamHome", "ResultTeamAway",
                                                     "TeamAway", "ManagerHome", "ManagerAway",
                                                     "FormationHome", "FormationAway", "RatingTeamHome",
@@ -372,7 +375,7 @@ class ParseLeagueResults(WhoScoredParser):
                         # Make save
                         self.do_check_point(f"""{league_num},{i},{match_index}""")
                         # Collect information
-                        row = self.parse_match(self.MATCHES_URL[match_index], match_index, last_match)
+                        row = self.parse_match(self.MATCHES_URL[match_index])
                         row["Season"] = self.SEASONS_NAME[i]
                         # Check progress
                         progressBar(match_index, last_match, row["TeamHome"], row["TeamAway"])
