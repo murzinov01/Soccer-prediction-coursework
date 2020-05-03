@@ -289,6 +289,7 @@ class ParseLeagueResults(WhoScoredParser):
         # if self.count == 15:
         #    print(self.times / 15)
         self.driver.close()
+
         return data
 
     def parse_leagues(self):
@@ -344,7 +345,7 @@ class ParseLeagueResults(WhoScoredParser):
                 for i in range(self.start_season, 5):
                     # *** SAVE URL OF MATCHES ***
                     while True:
-                        sleep (1)
+                        sleep(1)
                         current_table = self.driver.find_element_by_id(
                             'tournament-fixture-wrapper').find_elements_by_tag_name('tr')
                         for row in current_table:
@@ -384,6 +385,7 @@ class ParseLeagueResults(WhoScoredParser):
 
                     self.start_match = 0
                     self.MATCHES_URL = []
+                    self.driver.switch_to.window(self.driver.window_handles[0])
                     if i != 4:
                         # save season
                         self.do_check_point(f"""{league_num},{i + 1},{0}""")
@@ -393,7 +395,6 @@ class ParseLeagueResults(WhoScoredParser):
                         # click "Fixtures" button
                         self.go_to_target_page(
                             self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[1].get_attribute("href"))
-
                     else:
                         self.do_check_point(f"""{league_num + 1},{0},{0}""")
 
