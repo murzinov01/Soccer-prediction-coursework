@@ -6,19 +6,20 @@ class MatchesDataAnalytics:
     RECENT_MATCHES = list()
     LAST_SEASON_MATCHES = list()
     league_name = ''
+    MIN_PLAYER_RATING = 3.0
 
     def __init__(self, league_name):
         self.league_name = league_name
         self.read_matches()
 
-    def read_matches(self):
+    def read_matches(self) -> None:
         # *** READ CSV FILE ***
         with open(self.league_name + "_results_data.csv", 'r', encoding='utf-8', newline='') as file:
             reader = csv.DictReader(file, delimiter=',')
             for match in reader:
                 self.ALL_MATCHES.append(match)
 
-    def recent_matches(self, match_id: int):
+    def recent_matches(self, match_id: int) -> None:
         self.RECENT_MATCHES = self.ALL_MATCHES[match_id+1:]
 
     def season_matches(self, match_id: int, use_prev_season=False):
@@ -136,8 +137,8 @@ class MatchesDataAnalytics:
         return TABLE
 
     def summarise_statistic(self, match_id: int, use_prev_season=False, period=-1) -> dict():
-        self.season_matches(match_id, use_prev_season)
 
+        self.season_matches(match_id, use_prev_season)
         STATS = {
             "TeamHome": {
                 "HomeStats": dict(),
@@ -202,3 +203,175 @@ class MatchesDataAnalytics:
         self.calculate_stats_average(STATS["TeamAway"]["AwayStats"])
 
         return STATS
+
+    def calculate_goals_assists(self, match_id: int) -> dict:
+        results = {
+            "TeamHome": {
+                "Goals": 0,
+                "Assists": 0
+            },
+            "TeamAway": {
+                "Goals": 0,
+                "Assists": 0
+            }
+        }
+        home_line_up = (self.ALL_MATCHES[match_id]["StartTeamHome"] + ", " + self.ALL_MATCHES[match_id]["SubstitutionHome"]).split(', ')
+        away_line_up = (self.ALL_MATCHES[match_id]["StartTeamAway"] + ", " + self.ALL_MATCHES[match_id]["SubstitutionAway"]).split(', ')
+        print(home_line_up)
+        print(away_line_up)
+        self.season_matches(match_id)
+
+        for match in self.LAST_SEASON_MATCHES:
+            goalee = (match["GoalsHome"] + ", " + match["GoalsAway"]).split(', ')
+            assistant = (match["AssistsHome"] + ", " + match["AssistsAway"]).split(', ')
+            print(goalee)
+            # print(assistant)
+            # calculate goals
+            for goal in goalee:
+                if goal in home_line_up:
+                    results["TeamHome"]["Goals"] += 1
+                if goal in away_line_up:
+                    results["TeamAway"]["Goals"] += 1
+
+            # calculate assists
+            for assist in assistant:
+                if assist in home_line_up:
+                    results["TeamHome"]["Assists"] += 1
+                if assist in away_line_up:
+                    results["TeamAway"]["Assists"] += 1
+
+        return results
+
+    @staticmethod
+    def rating_help(target_player: str, line_up: dict, match_line_up: list, r_match_line_up: list, period=-1) -> None:
+        index = line_up["Players"].index(target_player)
+        if period != -1 and line_up["Games_num"][index] >= period:
+            return
+        if target_player in match_line_up:
+            index_r = match_line_up.index(target_player)
+            print(line_up["Ratings"])
+            print(index, index_r)
+            line_up["Ratings"][index] += r_match_line_up[index_r] if r_match_line_up[index_r] != -1 else -0.5
+            line_up["Games_num"][index] += 1
+
+    def calculate_players_rating(self, match_id: int, period=-1) -> dict:
+        self.season_matches(match_id)
+
+        home_size = len(self.ALL_MATCHES[match_id]["SubstitutionHome"].split(', '))
+        away_size = len(self.ALL_MATCHES[match_id]["SubstitutionAway"].split(', '))
+
+        home_line_up = {
+            "Players": self.ALL_MATCHES[match_id]["StartTeamHome"].split(', '),
+            "Ratings": [0 for i in range(11)],
+            "Games_num": [0 for i in range(11)]
+        }
+        away_line_up = {
+            "Players": self.ALL_MATCHES[match_id]["StartTeamAway"].split(', '),
+            "Ratings": [0 for i in range(11)],
+            "Games_num": [0 for i in range(11)]
+        }
+        home_subs = {
+            "Players": self.ALL_MATCHES[match_id]["SubstitutionHome"].split(', '),
+            "Ratings": [0 for i in range(home_size)],
+            "Games_num": [0 for i in range(home_size)]
+        }
+        away_subs = {
+            "Players": self.ALL_MATCHES[match_id]["SubstitutionAway"].split(', '),
+            "Ratings": [0 for i in range(away_size)],
+            "Games_num": [0 for i in range(away_size)]
+        }
+
+        # get data
+        for match in self.LAST_SEASON_MATCHES:
+            match_home_line_up = match["StartTeamHome"].split(', ')
+            match_away_line_up = match["StartTeamAway"].split(', ')
+            match_home_subs = match["SubstitutionHome"].split(', ')
+            match_away_subs = match["SubstitutionAway"].split(', ')
+
+            r_match_home_line_up = match["RatingStartTeamHome"].split(', ')
+            r_match_away_line_up = match["RatingStartTeamAway"].split(', ')
+            r_match_home_subs = match["RatingSubstitutionHome"].split(', ')
+            r_match_away_subs = match["RatingSubstitutionAway"].split(', ')
+
+            for line_up in (home_line_up, away_line_up, home_line_up, away_line_up):
+                for target_player in line_up["Players"]:
+                    self.rating_help(target_player, line_up, match_home_line_up, r_match_home_line_up, period)
+                    self.rating_help(target_player, line_up, match_away_line_up, r_match_away_line_up, period)
+                    self.rating_help(target_player, line_up, match_home_subs, r_match_home_subs, period)
+                    self.rating_help(target_player, line_up, match_away_subs, r_match_away_subs, period)
+
+        # calculate average
+        for line_up in (home_line_up, away_line_up, home_line_up, away_line_up):
+            line_up["Ratings"] = [line_up["Ratings"][i] / line_up["Games_num"][i] for i in range(len(line_up["Ratings"]))]
+            line_up["Ratings"] = list(map(lambda x: x if x > self.MIN_PLAYER_RATING else self.MIN_PLAYER_RATING, line_up["Ratings"]))
+            # for player_i in range(len(line_up["Ratings"])):
+            #     line_up["Ratings"][player_i] /= line_up["Games_num"][player_i]
+
+        ratings = {
+            "TeamHome": {
+                "Start": sum(home_line_up["Ratings"]) / len(home_line_up["Ratings"]),
+                "Subs": sum(home_subs["Ratings"]) / len(home_subs["Ratings"]),
+            },
+            "TeamAway": {
+                "Start": sum(away_line_up["Ratings"]) / len(away_line_up["Ratings"]),
+                "Subs": sum(away_subs["Ratings"]) / len(away_subs["Ratings"]),
+            }
+        }
+
+        return ratings
+
+
+class StringsTransfer:
+
+    CONTENT = list()
+
+    def __init__(self):
+        pass
+
+    def read_content(self) -> None:
+        with open("Premier League (England) _results_data.csv", 'r', encoding='utf-8', newline='') as file:
+            self.CONTENT = file.readlines()
+
+    def write_content(self) -> None:
+        with open("Coding_data.csv", 'w', encoding='utf-8', newline='') as file:
+            writer = csv.DictWriter(file, fieldnames=["Team", "Manager", "Formation", "Stadium", "Referee"])
+            writer.writeheader()
+            writer.writerows(self.CONTENT)
+
+    def code_string(self, feature: str, string: str) -> int:
+        with open("Coding_data.csv", 'r', encoding='utf-8', newline='') as file:
+            reader = csv.DictReader(file, delimiter=',')
+            counter = 0
+            for row in reader:
+                self.CONTENT.append(row)
+                if not row[feature]:
+                    continue
+                if row[feature] == string:
+                    return counter
+                else:
+                    counter += 1
+
+            # write new entry
+            if len(self.CONTENT) <= counter:
+                row = {"Team": "", "Manager": "", "Formation": "", "Stadium": "", "Referee": ""}
+                row[feature] = string
+                self.CONTENT.append(row)
+            else:
+                self.CONTENT[counter][feature] = string
+            self.write_content()
+            self.CONTENT = list()
+            return counter
+
+    @staticmethod
+    def code_time(time: str) -> float:
+        hours = int(time[:time.find(":")])
+        minutes = int(time[time.find(":") + 1:]) / 60
+        return hours + minutes
+
+example = MatchesDataAnalytics("Premier League (Russia) ")
+print(example.calculate_players_rating(0))
+# example = StringsTransfer()
+# print(example.code_string("Referee", "Misha"))
+# print(example.code_string("Referee", "Andrey"))
+# print(example.code_string("Team", "Zenit"))
+# print(example.code_string("Referee", "Misha"))
