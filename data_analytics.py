@@ -14,7 +14,7 @@ class MatchesDataAnalytics:
 
     def read_matches(self) -> None:
         # *** READ CSV FILE ***
-        with open(self.league_name + "_results_data.csv", 'r', encoding='utf-8', newline='') as file:
+        with open(self.league_name + " _results_data.csv", 'r', encoding='utf-8', newline='') as file:
             reader = csv.DictReader(file, delimiter=',')
             for match in reader:
                 self.ALL_MATCHES.append(match)
@@ -242,17 +242,17 @@ class MatchesDataAnalytics:
 
         return results
 
-    @staticmethod
-    def rating_help(target_player: str, line_up: dict, match_line_up: list, r_match_line_up: list, period=-1) -> None:
+    def rating_help(self, target_player: str, line_up: dict, match_line_up: list, r_match_line_up: list, period=-1) -> None:
         index = line_up["Players"].index(target_player)
         if period != -1 and line_up["Games_num"][index] >= period:
             return
         if target_player in match_line_up:
             index_r = match_line_up.index(target_player)
-            print(line_up["Ratings"])
-            print(index, index_r)
-            line_up["Ratings"][index] += r_match_line_up[index_r] if r_match_line_up[index_r] != -1 else -0.5
+            # print(line_up["Ratings"])
+            # print(index, index_r)
+            line_up["Ratings"][index] += r_match_line_up[index_r] if r_match_line_up[index_r] != -1 else self.MIN_PLAYER_RATING
             line_up["Games_num"][index] += 1
+            print(line_up["Ratings"], line_up["Games_num"])
 
     def calculate_players_rating(self, match_id: int, period=-1) -> dict:
         self.season_matches(match_id)
@@ -288,20 +288,26 @@ class MatchesDataAnalytics:
             match_home_subs = match["SubstitutionHome"].split(', ')
             match_away_subs = match["SubstitutionAway"].split(', ')
 
-            r_match_home_line_up = match["RatingStartTeamHome"].split(', ')
-            r_match_away_line_up = match["RatingStartTeamAway"].split(', ')
-            r_match_home_subs = match["RatingSubstitutionHome"].split(', ')
-            r_match_away_subs = match["RatingSubstitutionAway"].split(', ')
+            r_match_home_line_up = list(map(lambda x: float(x), match["RatingStartTeamHome"].split(', ')))
+            r_match_away_line_up = list(map(lambda x: float(x), match["RatingStartTeamAway"].split(', ')))
+            r_match_home_subs = list(map(lambda x: float(x), match["RatingSubstitutionHome"].split(', ')))
+            r_match_away_subs = list(map(lambda x: float(x), match["RatingSubstitutionAway"].split(', ')))
 
-            for line_up in (home_line_up, away_line_up, home_line_up, away_line_up):
+            print(self.LAST_SEASON_MATCHES.index(match))
+            for line_up in (home_line_up, away_line_up, home_subs, away_subs):
                 for target_player in line_up["Players"]:
                     self.rating_help(target_player, line_up, match_home_line_up, r_match_home_line_up, period)
                     self.rating_help(target_player, line_up, match_away_line_up, r_match_away_line_up, period)
                     self.rating_help(target_player, line_up, match_home_subs, r_match_home_subs, period)
                     self.rating_help(target_player, line_up, match_away_subs, r_match_away_subs, period)
 
+        print(home_line_up)
+        print(away_line_up)
+        print(home_subs)
+        print(away_subs)
+
         # calculate average
-        for line_up in (home_line_up, away_line_up, home_line_up, away_line_up):
+        for line_up in (home_line_up, away_line_up, home_subs, away_subs):
             line_up["Ratings"] = [line_up["Ratings"][i] / line_up["Games_num"][i] for i in range(len(line_up["Ratings"]))]
             line_up["Ratings"] = list(map(lambda x: x if x > self.MIN_PLAYER_RATING else self.MIN_PLAYER_RATING, line_up["Ratings"]))
             # for player_i in range(len(line_up["Ratings"])):
@@ -311,15 +317,173 @@ class MatchesDataAnalytics:
             "TeamHome": {
                 "Start": sum(home_line_up["Ratings"]) / len(home_line_up["Ratings"]),
                 "Subs": sum(home_subs["Ratings"]) / len(home_subs["Ratings"]),
+                "StartGamePerPlayer": sum(home_line_up["Games_num"]) / len(home_line_up["Games_num"]),
+                "SubsGamePerPlayer": sum(home_subs["Games_num"]) / len(home_subs["Games_num"])
             },
             "TeamAway": {
                 "Start": sum(away_line_up["Ratings"]) / len(away_line_up["Ratings"]),
                 "Subs": sum(away_subs["Ratings"]) / len(away_subs["Ratings"]),
+                "StartGamePerPlayer": sum(away_line_up["Games_num"]) / len(away_line_up["Games_num"]),
+                "SubsGamePerPlayer": sum(away_subs["Games_num"]) / len(away_subs["Games_num"])
             }
         }
 
         return ratings
 
+    def upcoming_match(self, match_id: int) -> dict:
+        upcoming = {
+            "TeamHome": {
+                "TeamName": "",
+                "MatchStatus": 0
+            },
+            "TeamAway": {
+                "TeamName": "",
+                "MatchStatus": 0
+            }
+        }
+
+        team_home_f = False
+        team_away_f = False
+
+        cur_team_home = self.ALL_MATCHES[match_id]["TeamHome"]
+        cur_team_away = self.ALL_MATCHES[match_id]["TeamAway"]
+
+        cur_season = self.ALL_MATCHES[match_id]["Season"]
+
+        for match in self.ALL_MATCHES[match_id - 1:: -1]:
+            if (team_away_f and team_home_f) or cur_season != match["Season"]:
+                break
+            if match["TeamHome"] == cur_team_home and not team_home_f:
+                upcoming["TeamHome"]["TeamName"] = match["TeamAway"]
+                upcoming["TeamHome"]["MatchStatus"] = 1
+                team_home_f = True
+            if match["TeamAway"] == cur_team_home and not team_home_f:
+                upcoming["TeamHome"]["TeamName"] = match["TeamHome"]
+                upcoming["TeamHome"]["MatchStatus"] = 2
+                team_home_f = True
+            if match["TeamHome"] == cur_team_away and not team_away_f:
+                upcoming["TeamAway"]["TeamName"] = match["TeamAway"]
+                upcoming["TeamAway"]["MatchStatus"] = 1
+                team_away_f = True
+            if match["TeamAway"] == cur_team_away and not team_away_f:
+                upcoming["TeamAway"]["TeamName"] = match["TeamHome"]
+                upcoming["TeamAway"]["MatchStatus"] = 2
+                team_away_f = True
+
+        return upcoming
+
+    def get_match_result(self, match_id: int) -> int:
+        match = self.ALL_MATCHES[match_id]
+
+        if match["ResultTeamHome"] > match["ResultTeamAway"]:
+            return 1
+
+        if match["ResultTeamHome"] < match["ResultTeamAway"]:
+            return -1
+
+        return 0
+
+    def calculate_form(self, match_id: int, period=6) -> dict:
+        form = {
+            "TeamHome": 0,
+            "TeamAway": 0
+        }
+        self.season_matches(match_id)
+
+        team_home = self.ALL_MATCHES[match_id]["TeamHome"]
+        team_away = self.ALL_MATCHES[match_id]["TeamAway"]
+
+        counter_h = 0
+        counter_a = 0
+
+        for match in self.LAST_SEASON_MATCHES:
+
+            if counter_h >= period and counter_a >= period:
+                break
+
+            if match["TeamHome"] == team_home and counter_h < period:
+                result = self.get_match_result(self.ALL_MATCHES.index(match))
+                form["TeamHome"] += 1 if not result else 3 * result
+                counter_h += 1
+
+            if match["TeamAway"] == team_home and counter_h < period:
+                result = self.get_match_result(self.ALL_MATCHES.index(match))
+                form["TeamHome"] += 1 if not result else -3 * result
+                counter_h += 1
+
+            if match["TeamHome"] == team_away and counter_a < period:
+                result = self.get_match_result(self.ALL_MATCHES.index(match))
+                form["TeamAway"] += 1 if not result else 3 * result
+                counter_a += 1
+
+            if match["TeamAway"] == team_away and counter_a < period:
+                result = self.get_match_result(self.ALL_MATCHES.index(match))
+                form["TeamAway"] += 1 if not result else -3 * result
+                counter_a += 1
+
+        print(form)
+
+        form["TeamHome"] = round((form["TeamHome"] + 3 * period) / (period * 0.06), 2)
+        form["TeamAway"] = round((form["TeamAway"] + 3 * period) / (period * 0.06), 2)
+
+        return form
+
+
+
+
+
+#
+# class DataPackager:
+#
+#     ALL_MATCHES = list()
+#
+#     def __init__(self, league_name: str):
+#         self.league_name = league_name
+#
+#     def read_file(self):
+#         with open(self.league_name + " _results_data.csv", 'r', encoding='utf-8', newline='') as file:
+#             reader = csv.DictReader(file)
+#             self.ALL_MATCHES = [match for match in reader]
+#
+#     def convert_match_data(self, match: dict) -> dict:
+#         new_data = {
+#
+#         }
+#     def assemble_data(self):
+#         with open(self.league_name + "_learn_data.csv", 'w', encoding='utf-8', newline='') as file:
+#             writer = csv.DictWriter(file, fieldnames=
+#                                                 ["League", "Time", "TeamHome",
+#                                                  "TeamAway", "ManagerHome", "ManagerAway",
+#                                                  "FormationHome", "FormationAway", "Stadium", "Referee",
+#
+#                                                  "HomeRatingTeamHome", "AwayRatingTeamHome",
+#                                                  "HomeRatingTeamAway", "AwayRatingTeamAway",
+#                                                  "RatingStartTeamHome", "RatingSubstitutionHome",
+#                                                  "RatingStartTeamAway", "RatingSubstitutionAway",
+#
+#                                                  "TotalShotsHome", "TotalShotsAway", "PossessionHome", "PossessionAway",
+#                                                  "PassAccuracyHome", "PassAccuracyAway", "DribblesHome", "DribblesAway",
+#                                                  "AerialsWonHome", "AerialsWonAway", "TacklesHome", "TacklesAway",
+#                                                  "CornersHome", "CornersAway", "DispossessedHome", "DispossessedAway",
+#                                                  "YellowCardHome", "YellowCardAway", "RedCardHome", "RedCardAway",
+#
+#                                                  "TotalShotsHome3", "TotalShotsAway3", "PossessionHome3", "PossessionAway3",
+#                                                  "PassAccuracyHome3", "PassAccuracyAway3", "DribblesHome3", "DribblesAway3",
+#                                                  "AerialsWonHome3", "AerialsWonAway3", "TacklesHome3", "TacklesAway3",
+#                                                  "CornersHome3", "CornersAway3", "DispossessedHome3", "DispossessedAway3",
+#                                                  "YellowCardHome3", "YellowCardAway3", "RedCardHome3", "RedCardAway3",
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#             for match in self.ALL_MATCHES:
+#                 # function
+#                 pass
 
 class StringsTransfer:
 
@@ -328,13 +492,9 @@ class StringsTransfer:
     def __init__(self):
         pass
 
-    def read_content(self) -> None:
-        with open("Premier League (England) _results_data.csv", 'r', encoding='utf-8', newline='') as file:
-            self.CONTENT = file.readlines()
-
     def write_content(self) -> None:
         with open("Coding_data.csv", 'w', encoding='utf-8', newline='') as file:
-            writer = csv.DictWriter(file, fieldnames=["Team", "Manager", "Formation", "Stadium", "Referee"])
+            writer = csv.DictWriter(file, fieldnames=["Team", "Manager", "Formation", "Stadium", "Referee", "League"])
             writer.writeheader()
             writer.writerows(self.CONTENT)
 
@@ -353,7 +513,7 @@ class StringsTransfer:
 
             # write new entry
             if len(self.CONTENT) <= counter:
-                row = {"Team": "", "Manager": "", "Formation": "", "Stadium": "", "Referee": ""}
+                row = {"Team": "", "Manager": "", "Formation": "", "Stadium": "", "Referee": "", "League": ""}
                 row[feature] = string
                 self.CONTENT.append(row)
             else:
@@ -368,8 +528,10 @@ class StringsTransfer:
         minutes = int(time[time.find(":") + 1:]) / 60
         return hours + minutes
 
-example = MatchesDataAnalytics("Premier League (Russia) ")
-print(example.calculate_players_rating(0))
+example = MatchesDataAnalytics("Premier League (Russia)1")
+# print(example.upcoming_match(176))
+# print (example.calculate_form(9))
+# print(example.calculate_players_rating(5))
 # example = StringsTransfer()
 # print(example.code_string("Referee", "Misha"))
 # print(example.code_string("Referee", "Andrey"))
