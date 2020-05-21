@@ -44,6 +44,22 @@ class MatchesDataAnalytics:
             if match["Date"] == date and match["TeamHome"] == team_home:
                 return index
 
+    def number_of_tour(self, match_id: int) -> dict:
+        tour = {
+            "TeamHome": 0,
+            "TeamAway": 0
+        }
+        my_match = self.ALL_MATCHES[match_id]
+
+        self.season_matches(match_id)
+        for match in self.LAST_SEASON_MATCHES:
+            if my_match["TeamHome"] in (match["TeamHome"], match["TeamAway"]):
+                tour["TeamHome"] += 1
+            if my_match["TeamAway"] in (match["TeamHome"], match["TeamAway"]):
+                tour["TeamAway"] += 1
+
+        return tour
+
     @staticmethod
     def calculate_table_stats(TABLE: dict, team_name: str, team_home: bool, match) -> None:
         if team_name not in TABLE.keys():
@@ -248,14 +264,12 @@ class MatchesDataAnalytics:
             return
         if target_player in match_line_up:
             index_r = match_line_up.index(target_player)
-            # print(line_up["Ratings"])
-            # print(index, index_r)
             line_up["Ratings"][index] += r_match_line_up[index_r] if r_match_line_up[index_r] != -1 else self.MIN_PLAYER_RATING
             line_up["Games_num"][index] += 1
             print(line_up["Ratings"], line_up["Games_num"])
 
-    def calculate_players_rating(self, match_id: int, period=-1) -> dict:
-        self.season_matches(match_id)
+    def calculate_players_rating(self, match_id: int, period=-1, use_prev_season=False) -> dict:
+        self.season_matches(match_id, use_prev_season=use_prev_season)
 
         home_size = len(self.ALL_MATCHES[match_id]["SubstitutionHome"].split(', '))
         away_size = len(self.ALL_MATCHES[match_id]["SubstitutionAway"].split(', '))
@@ -432,58 +446,125 @@ class MatchesDataAnalytics:
 
 
 
-#
-# class DataPackager:
-#
-#     ALL_MATCHES = list()
-#
-#     def __init__(self, league_name: str):
-#         self.league_name = league_name
-#
-#     def read_file(self):
-#         with open(self.league_name + " _results_data.csv", 'r', encoding='utf-8', newline='') as file:
-#             reader = csv.DictReader(file)
-#             self.ALL_MATCHES = [match for match in reader]
-#
-#     def convert_match_data(self, match: dict) -> dict:
-#         new_data = {
-#
-#         }
-#     def assemble_data(self):
-#         with open(self.league_name + "_learn_data.csv", 'w', encoding='utf-8', newline='') as file:
-#             writer = csv.DictWriter(file, fieldnames=
-#                                                 ["League", "Time", "TeamHome",
-#                                                  "TeamAway", "ManagerHome", "ManagerAway",
-#                                                  "FormationHome", "FormationAway", "Stadium", "Referee",
-#
-#                                                  "HomeRatingTeamHome", "AwayRatingTeamHome",
-#                                                  "HomeRatingTeamAway", "AwayRatingTeamAway",
-#                                                  "RatingStartTeamHome", "RatingSubstitutionHome",
-#                                                  "RatingStartTeamAway", "RatingSubstitutionAway",
-#
-#                                                  "TotalShotsHome", "TotalShotsAway", "PossessionHome", "PossessionAway",
-#                                                  "PassAccuracyHome", "PassAccuracyAway", "DribblesHome", "DribblesAway",
-#                                                  "AerialsWonHome", "AerialsWonAway", "TacklesHome", "TacklesAway",
-#                                                  "CornersHome", "CornersAway", "DispossessedHome", "DispossessedAway",
-#                                                  "YellowCardHome", "YellowCardAway", "RedCardHome", "RedCardAway",
-#
-#                                                  "TotalShotsHome3", "TotalShotsAway3", "PossessionHome3", "PossessionAway3",
-#                                                  "PassAccuracyHome3", "PassAccuracyAway3", "DribblesHome3", "DribblesAway3",
-#                                                  "AerialsWonHome3", "AerialsWonAway3", "TacklesHome3", "TacklesAway3",
-#                                                  "CornersHome3", "CornersAway3", "DispossessedHome3", "DispossessedAway3",
-#                                                  "YellowCardHome3", "YellowCardAway3", "RedCardHome3", "RedCardAway3",
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#             for match in self.ALL_MATCHES:
-#                 # function
-#                 pass
+
+class DataPackager:
+
+    def __init__(self, league_name: str):
+        self.league_name = league_name
+        self.AL = MatchesDataAnalytics(self.league_name)
+        self.ST = StringsTransfer()
+
+    def convert_match_data(self, match: dict, data: dict) -> dict:
+        match_id = self.AL.ALL_MATCHES.index(match)
+        d_var = dict()
+
+        data["League"] = self.league_name
+        data["Time"] = self.ST.code_time(match["Time"])
+        data["TeamHome"] = self.ST.code_string("Team", match["TeamHome"])
+        data["TeamAway"] = self.ST.code_string("Team", match["TeamAway"])
+        data["ManagerHome"] = self.ST.code_string("Manager", match["ManagerHome"])
+        data["ManagerAway"] = self.ST.code_string("Manager", match["ManagerAway"])
+        data["FormationHome"] = self.ST.code_string("Formation", match["FormationHome"])
+        data["FormationAway"] = self.ST.code_string("Formation", match["FormationAway"])
+        data["Stadium"] = self.ST.code_string("Stadium", match["Stadium"])
+        data["Referee"] = self.ST.code_string("Referee", match["Referee"])
+
+        d_var = self.AL.calculate_players_rating(match_id)
+        data["RatingStartTeamHome"] = d_var["TeamHome"]["Start"]
+        data["RatingStartTeamHome"] = d_var["TeamHome"]["Subs"]
+        data["RatingStartTeamAway"] = d_var["TeamAway"]["Start"]
+        data["RatingStartTeamAway"] = d_var["TeamAway"]["Subs"]
+
+        d_var = self.AL.calculate_players_rating(match_id, 3)
+        data["RatingStartTeamHome3"] = d_var["TeamHome"]["Start"]
+        data["RatingStartTeamHome3"] = d_var["TeamHome"]["Subs"]
+        data["RatingStartTeamAway3"] = d_var["TeamAway"]["Start"]
+        data["RatingStartTeamAway3"] = d_var["TeamAway"]["Subs"]
+        data["GPP_StartHome"] = d_var["TeamHome"]["StartGamePerPlayer"]
+        data["GPP_StartAway"] = d_var["TeamAway"]["StartGamePerPlayer"]
+        data["GPP_SubsHome"] = d_var["TeamHome"]["SubsGamePerPlayer"]
+        data["GPP_SubsAway"] = d_var["TeamAway"]["SubsGamePerPlayer"]
+
+        d_var = self.AL.calculate_goals_assists(match_id)
+        data["GoalsTeamHome"] = d_var["TeamHome"]["Goals"]
+        data["GoalsTeamAway"] = d_var["TeamAway"]["Goals"]
+        data["AssistsTeamHome"] = d_var["TeamHome"]["Assists"]
+        data["AssistsTeamAway"] = d_var["TeamAway"]["Assists"]
+
+        d_var = self.AL.calculate_form(match_id, 3)
+        data["FormTeamHome3"] = d_var["TeamHome"]
+        data["FormTeamAway3"] = d_var["TeamAway"]
+        d_var = self.AL.calculate_form(match_id, 6)
+        data["FormTeamHome6"] = d_var["TeamHome"]
+        data["FormTeamAway6"] = d_var["TeamAway"]
+
+        d_var = self.AL.summarise_statistic(match_id, use_prev_season=False if self.AL.number_of_tour(match_id)["TeamHome"] > 3 else True)
+        
+
+
+
+
+
+        return data
+
+    def assemble_data(self):
+        with open(self.league_name + "_learn_data.csv", 'w', encoding='utf-8', newline='') as file:
+            data = {
+                "League": 0, "Time": 0, "TeamHome": 0,
+                "TeamAway": 0, "ManagerHome": 0, "ManagerAway": 0,
+                "FormationHome": 0, "FormationAway": 0, "Stadium": 0, "Referee": 0,
+
+                "RatingStartTeamHome": 0, "RatingSubstitutionHome": 0,
+                "RatingStartTeamAway": 0, "RatingSubstitutionAway": 0,
+                "RatingStartTeamHome3": 0, "RatingSubstitutionHome3": 0,
+                "RatingStartTeamAway3": 0, "RatingSubstitutionAway3": 0,
+                "GPP_StartHome": 0, "GPP_SubsHome": 0, "GPP_StartAway": 0, "GPP_SubsAway": 0,
+
+                "GoalsTeamHome": 0, "AssistsTeamHome": 0, "GoalsTeamAway": 0, "AssistsTeamAway": 0,
+
+                "FormTeamHome3": 0, "FormTeamAway3": 0, "FormTeamHome6": 0, "FormTeamAway6": 0,
+
+                # local stats (Only Home or Away)
+                "RatingTeamHome": 0, "RatingTeamAway": 0,
+                "TotalShotsHome": 0, "TotalShotsAway": 0, "PossessionHome": 0, "PossessionAway": 0,
+                "PassAccuracyHome": 0, "PassAccuracyAway": 0, "DribblesHome": 0, "DribblesAway": 0,
+                "AerialsWonHome": 0, "AerialsWonAway": 0, "TacklesHome": 0, "TacklesAway": 0,
+                "CornersHome": 0, "CornersAway": 0, "DispossessedHome": 0, "DispossessedAway": 0,
+                "YellowCardHome": 0, "YellowCardAway": 0, "RedCardHome": 0, "RedCardAway": 0,
+
+                # average stats (Home + Away)
+                "RatingTeamHomeA": 0, "RatingTeamAwayA": 0,
+                "TotalShotsHomeA": 0, "TotalShotsAwayA": 0, "PossessionHomeA": 0, "PossessionAwayA": 0,
+                "PassAccuracyHomeA": 0, "PassAccuracyAwayA": 0, "DribblesHomeA": 0, "DribblesAwayA": 0,
+                "AerialsWonHomeA": 0, "AerialsWonAwayA": 0, "TacklesHomeA": 0, "TacklesAwayA": 0,
+                "CornersHomeA": 0, "CornersAwayA": 0, "DispossessedHomeA": 0, "DispossessedAwayA": 0,
+                "YellowCardHomeA": 0, "YellowCardAwayA": 0, "RedCardHomeA": 0, "RedCardAwayA": 0,
+
+                # same but for 3 last match
+                "RatingTeamHome3": 0, "RatingTeamAway3": 0,
+                "TotalShotsHome3": 0, "TotalShotsAway3": 0, "PossessionHome3": 0, "PossessionAway3": 0,
+                "PassAccuracyHome3": 0, "PassAccuracyAway3": 0, "DribblesHome3": 0, "DribblesAway3": 0,
+                "AerialsWonHome3": 0, "AerialsWonAway3": 0, "TacklesHome3": 0, "TacklesAway3": 0,
+                "CornersHome3": 0, "CornersAway3": 0, "DispossessedHome3": 0, "DispossessedAway3": 0,
+                "YellowCardHome3": 0, "YellowCardAway3": 0, "RedCardHome3": 0, "RedCardAway3": 0,
+
+                "RatingTeamHome3A": 0, "RatingTeamAway3A": 0,
+                "TotalShotsHome3A": 0, "TotalShotsAway3A": 0, "PossessionHome3A": 0, "PossessionAway3A": 0,
+                "PassAccuracyHome3A": 0, "PassAccuracyAway3A": 0, "DribblesHome3A": 0, "DribblesAway3A": 0,
+                "AerialsWonHome3A": 0, "AerialsWonAway3A": 0, "TacklesHome3A": 0, "TacklesAway3A": 0,
+                "CornersHome3A": 0, "CornersAway3A": 0, "DispossessedHome3A": 0, "DispossessedAway3A": 0,
+                "YellowCardHome3A": 0, "YellowCardAway3A": 0, "RedCardHome3A": 0, "RedCardAway3A": 0,
+
+                "P": 0, "W": 0, "D": 0, "L": 0, "GF": 0, "GA": 0, "GD": 0, "Points": 0, "Place": 0,
+
+                "FutureTeamHome": 0, "FuturePlaceTeamHome": 0, "FutureStatusTeamHome": 0,
+                "FutureTeamAway": 0, "FuturePlaceTeamAway": 0, "FutureStatusTeamAway": 0
+            }
+            writer = csv.DictWriter(file, fieldnames=data.keys())
+            for match in self.AL.ALL_MATCHES:
+                writer.writerow(self.convert_match_data(match, data.copy()))
+
+
 
 class StringsTransfer:
 
