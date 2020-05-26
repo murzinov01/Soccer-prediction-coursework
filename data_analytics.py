@@ -3,6 +3,7 @@ import csv
 
 class MatchesDataAnalytics:
     ALL_MATCHES = list()
+    ALL_SEASON_TEAMS = list()
     RECENT_MATCHES = list()
     LAST_SEASON_MATCHES = list()
     league_name = ''
@@ -62,18 +63,6 @@ class MatchesDataAnalytics:
 
     @staticmethod
     def calculate_table_stats(table: dict, team_name: str, team_home: bool, match) -> None:
-        if team_name not in table.keys():
-            table[team_name] = {
-                "Points": 0,
-                'P': 0,
-                'W': 0,
-                'D': 0,
-                'L': 0,
-                'GF': 0,
-                'GA': 0,
-                'GD': 0,
-                'Place': 0
-            }
 
         if team_home:
             team_status1 = "Home"
@@ -127,8 +116,42 @@ class MatchesDataAnalytics:
             value = stats[key]/period
             stats[key] = float(format(value, '.2f'))
 
+    def find_all_teams(self, match_id: int) -> None:
+        self.ALL_SEASON_TEAMS = list()
+        cur_season = self.ALL_MATCHES[match_id]["Season"]
+        start_season = match_id
+        while self.ALL_MATCHES[start_season]["Season"] == cur_season and start_season != 0:
+            start_season -= 1
+        if start_season != 0:
+            start_season += 1
+        while self.ALL_MATCHES[start_season]["Season"] == cur_season:
+            TeamHome = self.ALL_MATCHES[start_season]["TeamHome"]
+            TeamAway = self.ALL_MATCHES[start_season]["TeamAway"]
+            if TeamHome not in self.ALL_SEASON_TEAMS:
+                self.ALL_SEASON_TEAMS.append(TeamHome)
+            if TeamAway not in self.ALL_SEASON_TEAMS:
+                self.ALL_SEASON_TEAMS.append(TeamAway)
+            start_season += 1
+            if len(self.ALL_MATCHES) == start_season:
+                break
+
     def create_actual_table(self, match_id: int, use_prev_season=False) -> dict:
         TABLE = dict()
+
+        self.find_all_teams(match_id)
+        print(self.ALL_SEASON_TEAMS)
+        for key in self.ALL_SEASON_TEAMS:
+            TABLE[key] = {
+                "Points": 0,
+                'P': 0,
+                'W': 0,
+                'D': 0,
+                'L': 0,
+                'GF': 0,
+                'GA': 0,
+                'GD': 0,
+                'Place': 0
+            }
 
         self.season_matches(match_id, use_prev_season)
 
@@ -196,8 +219,13 @@ class MatchesDataAnalytics:
                                                            STATS["TeamHome"]["AwayStats"][key]) + stats[key]
                 period_counter_home += 1
 
+            if self.ALL_MATCHES.index(match) == 648:
+                print("***")
             if period_counter_away < concrete_period and match["TeamHome"] == team_away_name:
+                if self.ALL_MATCHES.index(match) > 648:
+                    print(self.ALL_MATCHES.index(match))
                 # our second team stats in home games
+                print(self.ALL_MATCHES.index(match))
                 stats = self.calculate_stats(match, "Home")
                 for key in stats.keys():
                     STATS["TeamAway"]["HomeStats"][key] = (0 if key not in STATS["TeamAway"]["HomeStats"].keys() else
@@ -580,7 +608,12 @@ class DataPackager:
             writer = csv.DictWriter(file, fieldnames=d_keys)
             writer.writeheader()
             for match in self.AL.ALL_MATCHES:
+                #if self.AL.ALL_MATCHES.index(match) < 304:
+                #    continue
                 print(match)
+
+                if len(self.AL.ALL_MATCHES) - self.AL.ALL_MATCHES.index(match) < 50:
+                    break
                 writer.writerow(self.convert_match_data(match, data.copy()))
 
 
@@ -607,6 +640,7 @@ class StringsTransfer:
                 if not row[feature]:
                     continue
                 if row[feature] == string:
+                    self.CONTENT = list()
                     return counter
                 else:
                     counter += 1
