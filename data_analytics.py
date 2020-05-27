@@ -3,6 +3,7 @@ import csv
 
 class MatchesDataAnalytics:
     ALL_MATCHES = list()
+    ALL_SEASON_TEAMS = list()
     RECENT_MATCHES = list()
     LAST_SEASON_MATCHES = list()
     league_name = ''
@@ -14,6 +15,7 @@ class MatchesDataAnalytics:
 
     def read_matches(self) -> None:
         # *** READ CSV FILE ***
+        self.ALL_MATCHES = list()
         with open(self.league_name + " _results_data.csv", 'r', encoding='utf-8', newline='') as file:
             reader = csv.DictReader(file, delimiter=',')
             for match in reader:
@@ -27,6 +29,9 @@ class MatchesDataAnalytics:
         self.LAST_SEASON_MATCHES = list()
         self.recent_matches(match_id)
         end_season = self.ALL_MATCHES[match_id]["Season"]
+        year2 = int(end_season[:end_season.find("/")])
+        year1 = year2 - 1
+        end_season = str(year1) + "/" + str(year2)
 
         if use_prev_season:
             year2 = int(end_season[:end_season.find("/")])
@@ -36,7 +41,8 @@ class MatchesDataAnalytics:
         for match in self.RECENT_MATCHES:
             # search for season end
             if match["Season"] == end_season:
-                self.LAST_SEASON_MATCHES.append(match)
+                return
+            self.LAST_SEASON_MATCHES.append(match)
 
     def find_match_id(self, date: str, team_home: str, team_away="", season=""):
         for index in range(0, len(self.ALL_MATCHES)):
@@ -61,19 +67,7 @@ class MatchesDataAnalytics:
         return tour
 
     @staticmethod
-    def calculate_table_stats(TABLE: dict, team_name: str, team_home: bool, match) -> None:
-        if team_name not in TABLE.keys():
-            TABLE[team_name] = {
-                "Points": 0,
-                'P': 0,
-                'W': 0,
-                'D': 0,
-                'L': 0,
-                'GF': 0,
-                'GA': 0,
-                'GD': 0,
-                'Place': 0
-            }
+    def calculate_table_stats(table: dict, team_name: str, team_home: bool, match) -> None:
 
         if team_home:
             team_status1 = "Home"
@@ -83,22 +77,39 @@ class MatchesDataAnalytics:
             team_status1 = "Away"
 
         # calculate
-        TABLE[team_name]["P"] += 1
+        table[team_name]["P"] += 1
 
         if int(match["ResultTeam" + team_status1]) > int(match["ResultTeam" + team_status2]):
-            TABLE[team_name]["W"] += 1
+            table[team_name]["W"] += 1
         elif int(match["ResultTeam" + team_status1]) == int(match["ResultTeam" + team_status2]):
-            TABLE[team_name]["D"] += 1
+            table[team_name]["D"] += 1
         else:
-            TABLE[team_name]["L"] += 1
+            table[team_name]["L"] += 1
 
-        TABLE[team_name]["GF"] += int(match["ResultTeam" + team_status1])
-        TABLE[team_name]["GA"] += int(match["ResultTeam" + team_status2])
-        TABLE[team_name]["GD"] = TABLE[team_name]["GF"] - TABLE[team_name]["GA"]
-        TABLE[team_name]["Points"] = 3 * TABLE[team_name]["W"] + TABLE[team_name]["D"]
+        table[team_name]["GF"] += int(match["ResultTeam" + team_status1])
+        table[team_name]["GA"] += int(match["ResultTeam" + team_status2])
+        table[team_name]["GD"] = table[team_name]["GF"] - table[team_name]["GA"]
+        table[team_name]["Points"] = 3 * table[team_name]["W"] + table[team_name]["D"]
 
     @staticmethod
-    def calculate_stats(match: dict, team_status: str) -> dict:
+    def null_stats(min_stats=False) -> dict:
+        return {
+            "RatingTeam": 0.0 if not min_stats else 5.0,
+            "TotalShots": 0.0 if not min_stats else 5.0,
+            "Possession": 0.0 if not min_stats else 25.0,
+            "PassAccuracy": 0.0 if not min_stats else 50.0,
+            "Dribbles": 0.0 if not min_stats else 0.0,
+            "AerialsWon": 0.0 if not min_stats else 3.0,
+            "Tackles": 0.0 if not min_stats else 3.0,
+            "Corners": 0.0 if not min_stats else 0.0,
+            "Dispossessed": 0.0 if not min_stats else 10.0,
+            "YellowCard": 0,
+            "RedCard": 0,
+            "Period": 1
+        }
+
+    @staticmethod
+    def calculate_stats(match: dict, team_status: str, set_null=False) -> dict:
         match_stats = {
             "RatingTeam": float(match["RatingTeam" + team_status]),
             "TotalShots": float(match["TotalShots" + team_status]),
@@ -115,20 +126,58 @@ class MatchesDataAnalytics:
         }
         return match_stats
 
-    @staticmethod
-    def calculate_stats_average(stats: dict):
+    def calculate_stats_average(self, stats: dict):
         # check if empty
         if not stats:
+            return
+        if stats["RatingTeam"] == 0:
+            min_stats = self.null_stats(min_stats=True)
+            for key in stats.keys():
+                stats[key] = min_stats[key]
             return
         period = stats["Period"]
         for key in stats.keys():
             if key in ("Period", "RedCard", "YellowCard"):
                 continue
             value = stats[key]/period
-            stats[key] = format(value, '.2f')
+            stats[key] = float(format(value, '.3f'))
+
+    def find_all_teams(self, match_id: int) -> None:
+        self.ALL_SEASON_TEAMS = list()
+        cur_season = self.ALL_MATCHES[match_id]["Season"]
+        start_season = match_id
+        while self.ALL_MATCHES[start_season]["Season"] == cur_season and start_season != 0:
+            start_season -= 1
+        if start_season != 0:
+            start_season += 1
+        while self.ALL_MATCHES[start_season]["Season"] == cur_season:
+            TeamHome = self.ALL_MATCHES[start_season]["TeamHome"]
+            TeamAway = self.ALL_MATCHES[start_season]["TeamAway"]
+            if TeamHome not in self.ALL_SEASON_TEAMS:
+                self.ALL_SEASON_TEAMS.append(TeamHome)
+            if TeamAway not in self.ALL_SEASON_TEAMS:
+                self.ALL_SEASON_TEAMS.append(TeamAway)
+            start_season += 1
+            if len(self.ALL_MATCHES) == start_season:
+                break
 
     def create_actual_table(self, match_id: int, use_prev_season=False) -> dict:
         TABLE = dict()
+
+        self.find_all_teams(match_id)
+        # print(self.ALL_SEASON_TEAMS)
+        for key in self.ALL_SEASON_TEAMS:
+            TABLE[key] = {
+                "Points": 0,
+                'P': 0,
+                'W': 0,
+                'D': 0,
+                'L': 0,
+                'GF': 0,
+                'GA': 0,
+                'GD': 0,
+                'Place': 0
+            }
 
         self.season_matches(match_id, use_prev_season)
 
@@ -157,61 +206,73 @@ class MatchesDataAnalytics:
         self.season_matches(match_id, use_prev_season)
         STATS = {
             "TeamHome": {
-                "HomeStats": dict(),
-                "AwayStats": dict()
+                "HomeStats": self.null_stats(),
+                "AwayStats": self.null_stats()
             },
             "TeamAway": {
-                "HomeStats": dict(),
-                "AwayStats": dict()
+                "HomeStats": self.null_stats(),
+                "AwayStats": self.null_stats()
             },
         }
 
         team_home_name = self.ALL_MATCHES[match_id]["TeamHome"]
         team_away_name = self.ALL_MATCHES[match_id]["TeamAway"]
 
-        period_counter_home = 0
-        period_counter_away = 0
+        period_counter_home_home = 0
+        period_counter_home_away = 0
+        period_counter_away_home = 0
+        period_counter_away_away = 0
 
         concrete_period = len(self.LAST_SEASON_MATCHES) if period == -1 else period
 
         # *** SUM ALL STATS ***
         for match in self.LAST_SEASON_MATCHES:
             # main condition
-            if period_counter_home >= concrete_period and period_counter_away >= concrete_period:
+            if period_counter_home_home >= concrete_period and period_counter_away_home >= concrete_period \
+                    and period_counter_home_away >= concrete_period and period_counter_away_away >= concrete_period:
                 break
 
-            if period_counter_home < concrete_period and match["TeamHome"] == team_home_name:
+            if period_counter_home_home < concrete_period and match["TeamHome"] == team_home_name:
                 # our first team stats in home games
                 stats = self.calculate_stats(match, "Home")
                 for key in stats.keys():
                     STATS["TeamHome"]["HomeStats"][key] = (0 if key not in STATS["TeamHome"]["HomeStats"].keys() else
                                                            STATS["TeamHome"]["HomeStats"][key]) + stats[key]
-                period_counter_home += 1
+                period_counter_home_home += 1
 
-            elif period_counter_home < concrete_period and match["TeamAway"] == team_home_name:
+            elif period_counter_home_away < concrete_period and match["TeamAway"] == team_home_name:
                 # our first team stats in away games
                 stats = self.calculate_stats(match, "Away")
                 for key in stats.keys():
                     STATS["TeamHome"]["AwayStats"][key] = (0 if key not in STATS["TeamHome"]["AwayStats"].keys() else
                                                            STATS["TeamHome"]["AwayStats"][key]) + stats[key]
-                period_counter_home += 1
+                period_counter_home_away += 1
 
-            if period_counter_away < concrete_period and match["TeamHome"] == team_away_name:
+            if period_counter_away_home < concrete_period and match["TeamHome"] == team_away_name:
                 # our second team stats in home games
+                # print(self.ALL_MATCHES.index(match))
                 stats = self.calculate_stats(match, "Home")
                 for key in stats.keys():
                     STATS["TeamAway"]["HomeStats"][key] = (0 if key not in STATS["TeamAway"]["HomeStats"].keys() else
                                                            STATS["TeamAway"]["HomeStats"][key]) + stats[key]
-                period_counter_away += 1
+                period_counter_away_home += 1
 
-            elif period_counter_away < concrete_period and match["TeamAway"] == team_away_name:
+            elif period_counter_away_away < concrete_period and match["TeamAway"] == team_away_name:
                 # our second team stats in away games
                 stats = self.calculate_stats(match, "Away")
                 for key in stats.keys():
                     STATS["TeamAway"]["AwayStats"][key] = (0 if key not in STATS["TeamAway"]["AwayStats"].keys() else
                                                            STATS["TeamAway"]["AwayStats"][key]) + stats[key]
-                period_counter_away += 1
-        # print(STATS)
+                period_counter_away_away += 1
+
+        STATS["TeamHome"]["HomeStats"]["Period"] -= 1 if STATS["TeamHome"]["HomeStats"]["Period"] > 1 else 0
+        STATS["TeamHome"]["AwayStats"]["Period"] -= 1 if STATS["TeamHome"]["AwayStats"]["Period"] > 1 else 0
+        STATS["TeamAway"]["HomeStats"]["Period"] -= 1 if STATS["TeamAway"]["HomeStats"]["Period"] > 1 else 0
+        STATS["TeamAway"]["AwayStats"]["Period"] -= 1 if STATS["TeamAway"]["AwayStats"]["Period"] > 1 else 0
+
+        if match_id == 157:
+            print(STATS)
+            print (len(self.LAST_SEASON_MATCHES))
         # *** CALCULATE AVERAGE ***
         self.calculate_stats_average(STATS["TeamHome"]["HomeStats"])
         self.calculate_stats_average(STATS["TeamHome"]["AwayStats"])
@@ -233,15 +294,11 @@ class MatchesDataAnalytics:
         }
         home_line_up = (self.ALL_MATCHES[match_id]["StartTeamHome"] + ", " + self.ALL_MATCHES[match_id]["SubstitutionHome"]).split(', ')
         away_line_up = (self.ALL_MATCHES[match_id]["StartTeamAway"] + ", " + self.ALL_MATCHES[match_id]["SubstitutionAway"]).split(', ')
-        print(home_line_up)
-        print(away_line_up)
         self.season_matches(match_id)
 
         for match in self.LAST_SEASON_MATCHES:
             goalee = (match["GoalsHome"] + ", " + match["GoalsAway"]).split(', ')
             assistant = (match["AssistsHome"] + ", " + match["AssistsAway"]).split(', ')
-            print(goalee)
-            # print(assistant)
             # calculate goals
             for goal in goalee:
                 if goal in home_line_up:
@@ -264,9 +321,9 @@ class MatchesDataAnalytics:
             return
         if target_player in match_line_up:
             index_r = match_line_up.index(target_player)
+            # print (target_player, r_match_line_up[index_r])
             line_up["Ratings"][index] += r_match_line_up[index_r] if r_match_line_up[index_r] != -1 else self.MIN_PLAYER_RATING
             line_up["Games_num"][index] += 1
-            print(line_up["Ratings"], line_up["Games_num"])
 
     def calculate_players_rating(self, match_id: int, period=-1, use_prev_season=False) -> dict:
         self.season_matches(match_id, use_prev_season=use_prev_season)
@@ -296,32 +353,29 @@ class MatchesDataAnalytics:
         }
 
         # get data
+        # print("LSM: ",len(self.LAST_SEASON_MATCHES))
+        # print(self.LAST_SEASON_MATCHES[len(self.LAST_SEASON_MATCHES) - 1])
         for match in self.LAST_SEASON_MATCHES:
             match_home_line_up = match["StartTeamHome"].split(', ')
             match_away_line_up = match["StartTeamAway"].split(', ')
             match_home_subs = match["SubstitutionHome"].split(', ')
             match_away_subs = match["SubstitutionAway"].split(', ')
 
-            r_match_home_line_up = list(map(lambda x: float(x), match["RatingStartTeamHome"].split(', ')))
-            r_match_away_line_up = list(map(lambda x: float(x), match["RatingStartTeamAway"].split(', ')))
-            r_match_home_subs = list(map(lambda x: float(x), match["RatingSubstitutionHome"].split(', ')))
-            r_match_away_subs = list(map(lambda x: float(x), match["RatingSubstitutionAway"].split(', ')))
+            r_match_home_line_up = list(map(float, match["RatingStartTeamHome"].split(', ')))
+            r_match_away_line_up = list(map(float, match["RatingStartTeamAway"].split(', ')))
+            r_match_home_subs = list(map(float, match["RatingSubstitutionHome"].split(', ')))
+            r_match_away_subs = list(map(float, match["RatingSubstitutionAway"].split(', ')))
 
-            print(self.LAST_SEASON_MATCHES.index(match))
             for line_up in (home_line_up, away_line_up, home_subs, away_subs):
                 for target_player in line_up["Players"]:
                     self.rating_help(target_player, line_up, match_home_line_up, r_match_home_line_up, period)
                     self.rating_help(target_player, line_up, match_away_line_up, r_match_away_line_up, period)
                     self.rating_help(target_player, line_up, match_home_subs, r_match_home_subs, period)
                     self.rating_help(target_player, line_up, match_away_subs, r_match_away_subs, period)
-
-        print(home_line_up)
-        print(away_line_up)
-        print(home_subs)
-        print(away_subs)
-
+        # print(home_line_up, away_line_up, home_subs, away_subs)
         # calculate average
         for line_up in (home_line_up, away_line_up, home_subs, away_subs):
+            line_up["Games_num"] = list(map(lambda x: x if x else 1, line_up["Games_num"]))
             line_up["Ratings"] = [line_up["Ratings"][i] / line_up["Games_num"][i] for i in range(len(line_up["Ratings"]))]
             line_up["Ratings"] = list(map(lambda x: x if x > self.MIN_PLAYER_RATING else self.MIN_PLAYER_RATING, line_up["Ratings"]))
             # for player_i in range(len(line_up["Ratings"])):
@@ -341,7 +395,7 @@ class MatchesDataAnalytics:
                 "SubsGamePerPlayer": sum(away_subs["Games_num"]) / len(away_subs["Games_num"])
             }
         }
-
+        # print(ratings)
         return ratings
 
     def upcoming_match(self, match_id: int) -> dict:
@@ -435,19 +489,15 @@ class MatchesDataAnalytics:
                 form["TeamAway"] += 1 if not result else -3 * result
                 counter_a += 1
 
-        print(form)
-
         form["TeamHome"] = round((form["TeamHome"] + 3 * period) / (period * 0.06), 2)
         form["TeamAway"] = round((form["TeamAway"] + 3 * period) / (period * 0.06), 2)
 
         return form
 
 
-
-
-
-
 class DataPackager:
+
+    MIN_GAMES = 3
 
     def __init__(self, league_name: str):
         self.league_name = league_name
@@ -456,9 +506,9 @@ class DataPackager:
 
     def convert_match_data(self, match: dict, data: dict) -> dict:
         match_id = self.AL.ALL_MATCHES.index(match)
-        d_var = dict()
 
-        data["League"] = self.league_name
+        data["Result"] = self.AL.get_match_result(match_id)
+        data["League"] = self.ST.code_string("League", self.league_name)
         data["Time"] = self.ST.code_time(match["Time"])
         data["TeamHome"] = self.ST.code_string("Team", match["TeamHome"])
         data["TeamAway"] = self.ST.code_string("Team", match["TeamAway"])
@@ -470,20 +520,22 @@ class DataPackager:
         data["Referee"] = self.ST.code_string("Referee", match["Referee"])
 
         d_var = self.AL.calculate_players_rating(match_id)
-        data["RatingStartTeamHome"] = d_var["TeamHome"]["Start"]
-        data["RatingStartTeamHome"] = d_var["TeamHome"]["Subs"]
-        data["RatingStartTeamAway"] = d_var["TeamAway"]["Start"]
-        data["RatingStartTeamAway"] = d_var["TeamAway"]["Subs"]
+        data["RatingStartTeamHome"] = format(d_var["TeamHome"]["Start"], '.3f')
+        data["RatingSubstitutionHome"] = format(d_var["TeamHome"]["Subs"], '.3f')
+        data["RatingStartTeamAway"] = format(d_var["TeamAway"]["Start"], '.3f')
+        data["RatingSubstitutionAway"] = format(d_var["TeamAway"]["Subs"], '.3f')
+
+        data["GPP_StartHome"] = format(d_var["TeamHome"]["StartGamePerPlayer"], '.3f')
+        data["GPP_StartAway"] = format(d_var["TeamAway"]["StartGamePerPlayer"], '.3f')
+        data["GPP_SubsHome"] = format(d_var["TeamHome"]["SubsGamePerPlayer"], '.3f')
+        data["GPP_SubsAway"] = format(d_var["TeamAway"]["SubsGamePerPlayer"], '.3f')
 
         d_var = self.AL.calculate_players_rating(match_id, 3)
-        data["RatingStartTeamHome3"] = d_var["TeamHome"]["Start"]
-        data["RatingStartTeamHome3"] = d_var["TeamHome"]["Subs"]
-        data["RatingStartTeamAway3"] = d_var["TeamAway"]["Start"]
-        data["RatingStartTeamAway3"] = d_var["TeamAway"]["Subs"]
-        data["GPP_StartHome"] = d_var["TeamHome"]["StartGamePerPlayer"]
-        data["GPP_StartAway"] = d_var["TeamAway"]["StartGamePerPlayer"]
-        data["GPP_SubsHome"] = d_var["TeamHome"]["SubsGamePerPlayer"]
-        data["GPP_SubsAway"] = d_var["TeamAway"]["SubsGamePerPlayer"]
+        data["RatingStartTeamHome3"] = format(d_var["TeamHome"]["Start"], '.3f')
+        data["RatingSubstitutionHome3"] = format(d_var["TeamHome"]["Subs"], '.3f')
+        data["RatingStartTeamAway3"] = format(d_var["TeamAway"]["Start"], '.3f')
+        data["RatingSubstitutionAway3"] = format(d_var["TeamAway"]["Subs"], '.3f')
+
 
         d_var = self.AL.calculate_goals_assists(match_id)
         data["GoalsTeamHome"] = d_var["TeamHome"]["Goals"]
@@ -498,21 +550,48 @@ class DataPackager:
         data["FormTeamHome6"] = d_var["TeamHome"]
         data["FormTeamAway6"] = d_var["TeamAway"]
 
-        d_var = self.AL.summarise_statistic(match_id, use_prev_season=False if self.AL.number_of_tour(match_id)["TeamHome"] > 3 else True)
-        
+        endings = ["", "A", "3", "3A"]
 
+        for end in endings:
+            period = -1 if endings.index(end) < 2 else 3
+            d_var = self.AL.summarise_statistic(match_id, use_prev_season=False if self.AL.number_of_tour(match_id)["TeamHome"] >= self.MIN_GAMES else True, period=period)
+            for key in d_var["TeamHome"]["HomeStats"].keys():
+                if key == "Period":
+                    break
+                # print(d_var["TeamHome"]["HomeStats"][key], type(d_var["TeamHome"]["HomeStats"][key]), d_var["TeamHome"]["AwayStats"][key], type(d_var["TeamHome"]["AwayStats"][key]))
+                stats = d_var["TeamHome"]["HomeStats"][key] if endings.index(end) % 2 == 0 else \
+                    (d_var["TeamHome"]["HomeStats"][key] + d_var["TeamHome"]["AwayStats"][key]) / 2
+                data[key + "Home" + end] = format(stats, '.3f')
 
+            d_var = self.AL.summarise_statistic(match_id, use_prev_season=False if self.AL.number_of_tour(match_id)["TeamAway"] >= self.MIN_GAMES else True, period=period)
+            for key in d_var["TeamAway"]["AwayStats"].keys():
+                if key == "Period":
+                    break
+                stats = d_var["TeamAway"]["AwayStats"][key] if endings.index(end) % 2 == 0 else \
+                    (d_var["TeamAway"]["HomeStats"][key] + d_var["TeamAway"]["AwayStats"][key]) / 2
+                data[key + "Away" + end] = format(stats, '.3f')
 
-
-
+        for team in ("Home", "Away"):
+            # actual_table = self.AL.create_actual_table(match_id, use_prev_season=False if self.AL.number_of_tour(match_id)[
+            #                                                                           "Team" + team] == 0 else True)
+            actual_table = self.AL.create_actual_table(match_id)
+            d_var = actual_table.copy()[match["Team" + team]]
+            for key in d_var.keys():
+                data[key + team] = d_var[key]
+            d_var = self.AL.upcoming_match(match_id)["Team" + team]
+            data["FutureTeam" + team] = self.ST.code_string("Team", d_var["TeamName"]) if d_var["TeamName"] else self.ST.code_string("Team", "empty")
+            data["FuturePlaceTeam" + team] = actual_table[d_var["TeamName"]]["Place"] if d_var["TeamName"] else -1
+            data["FutureStatusTeam" + team] = d_var["MatchStatus"]
+        # print(data)
         return data
 
-    def assemble_data(self):
+    def assemble_data(self) -> None:
         with open(self.league_name + "_learn_data.csv", 'w', encoding='utf-8', newline='') as file:
             data = {
-                "League": 0, "Time": 0, "TeamHome": 0,
-                "TeamAway": 0, "ManagerHome": 0, "ManagerAway": 0,
-                "FormationHome": 0, "FormationAway": 0, "Stadium": 0, "Referee": 0,
+                "Result": 0,
+
+                "League": 0, "Time": 0, "TeamHome": 0, "TeamAway": 0,
+                "ManagerHome": 0, "ManagerAway": 0, "FormationHome": 0, "FormationAway": 0, "Stadium": 0, "Referee": 0,
 
                 "RatingStartTeamHome": 0, "RatingSubstitutionHome": 0,
                 "RatingStartTeamAway": 0, "RatingSubstitutionAway": 0,
@@ -555,15 +634,25 @@ class DataPackager:
                 "CornersHome3A": 0, "CornersAway3A": 0, "DispossessedHome3A": 0, "DispossessedAway3A": 0,
                 "YellowCardHome3A": 0, "YellowCardAway3A": 0, "RedCardHome3A": 0, "RedCardAway3A": 0,
 
-                "P": 0, "W": 0, "D": 0, "L": 0, "GF": 0, "GA": 0, "GD": 0, "Points": 0, "Place": 0,
+                "PHome": 0, "WHome": 0, "DHome": 0, "LHome": 0, "GFHome": 0, "GAHome": 0, "GDHome": 0, "PointsHome": 0, "PlaceHome": 0,
+                "PAway": 0, "WAway": 0, "DAway": 0, "LAway": 0, "GFAway": 0, "GAAway": 0, "GDAway": 0, "PointsAway": 0, "PlaceAway": 0,
 
                 "FutureTeamHome": 0, "FuturePlaceTeamHome": 0, "FutureStatusTeamHome": 0,
                 "FutureTeamAway": 0, "FuturePlaceTeamAway": 0, "FutureStatusTeamAway": 0
             }
-            writer = csv.DictWriter(file, fieldnames=data.keys())
+            d_keys = list()
+            for key in data.keys():
+                d_keys.append(key)
+            writer = csv.DictWriter(file, fieldnames=d_keys)
+            writer.writeheader()
             for match in self.AL.ALL_MATCHES:
-                writer.writerow(self.convert_match_data(match, data.copy()))
+                #if self.AL.ALL_MATCHES.index(match) < 304:
+                #    continue
+                # print(match)
 
+                if len(self.AL.ALL_MATCHES) - self.AL.ALL_MATCHES.index(match) < 50:
+                    break
+                writer.writerow(self.convert_match_data(match, data.copy()))
 
 
 class StringsTransfer:
@@ -577,7 +666,8 @@ class StringsTransfer:
         with open("Coding_data.csv", 'w', encoding='utf-8', newline='') as file:
             writer = csv.DictWriter(file, fieldnames=["Team", "Manager", "Formation", "Stadium", "Referee", "League"])
             writer.writeheader()
-            writer.writerows(self.CONTENT)
+            if self.CONTENT:
+                writer.writerows(self.CONTENT)
 
     def code_string(self, feature: str, string: str) -> int:
         with open("Coding_data.csv", 'r', encoding='utf-8', newline='') as file:
@@ -588,6 +678,7 @@ class StringsTransfer:
                 if not row[feature]:
                     continue
                 if row[feature] == string:
+                    self.CONTENT = list()
                     return counter
                 else:
                     counter += 1
@@ -609,7 +700,13 @@ class StringsTransfer:
         minutes = int(time[time.find(":") + 1:]) / 60
         return hours + minutes
 
-example = MatchesDataAnalytics("Premier League (Russia)1")
+# example = MatchesDataAnalytics("Premier League (Russia)1")
+example1 = DataPackager("Premier League (Russia)1")
+example2 = StringsTransfer()
+#example2.write_content()
+example1.assemble_data()
+# print(example.calculate_players_rating(0))
+
 # print(example.upcoming_match(176))
 # print (example.calculate_form(9))
 # print(example.calculate_players_rating(5))
