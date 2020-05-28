@@ -646,10 +646,10 @@ class DataPackager:
             writer = csv.DictWriter(file, fieldnames=d_keys)
             writer.writeheader()
             for match in self.AL.ALL_MATCHES:
-                #if self.AL.ALL_MATCHES.index(match) < 304:
-                #    continue
-                # print(match)
-
+                index = self.AL.ALL_MATCHES.index(match)
+                tour = self.AL.number_of_tour(index)
+                if tour["TeamHome"] == 0 or tour["TeamAway"] == 0:
+                    continue
                 if len(self.AL.ALL_MATCHES) - self.AL.ALL_MATCHES.index(match) < 50:
                     break
                 writer.writerow(self.convert_match_data(match, data.copy()))
@@ -701,17 +701,9 @@ class StringsTransfer:
         return hours + minutes
 
 # example = MatchesDataAnalytics("Premier League (Russia)1")
-example1 = DataPackager("Premier League (Russia)1")
-example2 = StringsTransfer()
+example1 = DataPackager("Super Lig (Turkey)")
+# example2 = StringsTransfer()
 #example2.write_content()
 example1.assemble_data()
 # print(example.calculate_players_rating(0))
 
-# print(example.upcoming_match(176))
-# print (example.calculate_form(9))
-# print(example.calculate_players_rating(5))
-# example = StringsTransfer()
-# print(example.code_string("Referee", "Misha"))
-# print(example.code_string("Referee", "Andrey"))
-# print(example.code_string("Team", "Zenit"))
-# print(example.code_string("Referee", "Misha"))
