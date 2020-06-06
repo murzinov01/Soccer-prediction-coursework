@@ -1,4 +1,12 @@
 import csv
+import difflib
+
+
+def similarity(s1: str, s2: str) -> float:
+  normalized1 = s1.lower()
+  normalized2 = s2.lower()
+  matcher = difflib.SequenceMatcher(None, normalized1, normalized2)
+  return matcher.ratio()
 
 
 class MatchesDataAnalytics:
@@ -498,16 +506,48 @@ class MatchesDataAnalytics:
 class DataPackager:
 
     MIN_GAMES = 3
+    BETS = list()
 
     def __init__(self, league_name: str):
         self.league_name = league_name
         self.AL = MatchesDataAnalytics(self.league_name)
         self.ST = StringsTransfer()
 
+    def read_bets(self, file_name):
+        self.BETS = list()
+        with open(file_name + '.csv', 'r', encoding='utf-8', newline='') as file:
+            reader = csv.DictReader(file)
+            for match in reader:
+                self.BETS.append(match)
+
     def convert_match_data(self, match: dict, data: dict) -> dict:
         match_id = self.AL.ALL_MATCHES.index(match)
 
+        data["BetHome"] = 0
+        data["BetDraw"] = 0
+        data["BetAway"] = 0
+
+        match_string_name = [match["TeamHome"], match["TeamAway"]]
+        match_string_result = match["ResultTeamHome"] + match["ResultTeamAway"]
+        for match_bet in self.BETS:
+            match_result = match_bet["ResultTeamHome"] + match_bet["ResultTeamAway"]
+            if match_result != match_string_result:
+                continue
+            if abs(self.AL.ALL_MATCHES.index(match) - self.BETS.index(match_bet)) > 15:
+                continue
+            if similarity(match_string_name[0], match_bet["TeamHome"]) > 0.6 and \
+                similarity(match_string_name[1], match_bet["TeamAway"]) > 0.6:
+                data["BetHome"] = match_bet["Bet1"]
+                data["BetDraw"] = match_bet["BetX"]
+                data["BetAway"] = match_bet["Bet2"]
+                break
+
+        if data["BetHome"] == 0:
+            return data
+
         data["Result"] = self.AL.get_match_result(match_id)
+        data["Total2.5"] = 1 if int(match["ResultTeamHome"]) + int(match["ResultTeamAway"]) > 2.5 else 0
+        data["Total1.5"] = 1 if int(match["ResultTeamHome"]) + int(match["ResultTeamAway"]) > 1.5 else 0
         data["League"] = self.ST.code_string("League", self.league_name)
         data["Time"] = self.ST.code_time(match["Time"])
         data["TeamHome"] = self.ST.code_string("Team", match["TeamHome"])
@@ -582,16 +622,19 @@ class DataPackager:
             data["FutureTeam" + team] = self.ST.code_string("Team", d_var["TeamName"]) if d_var["TeamName"] else self.ST.code_string("Team", "empty")
             data["FuturePlaceTeam" + team] = actual_table[d_var["TeamName"]]["Place"] if d_var["TeamName"] else -1
             data["FutureStatusTeam" + team] = d_var["MatchStatus"]
-        # print(data)
+
+
         return data
 
     def assemble_data(self) -> None:
-        with open(self.league_name + "_learn_data.csv", 'w', encoding='utf-8', newline='') as file:
+        with open(self.league_name + "_learn_data+.csv", 'w', encoding='utf-8', newline='') as file:
             data = {
-                "Result": 0,
+                "Result": 0, "Total2.5": 0, "Total1.5": 0,
 
                 "League": 0, "Time": 0, "TeamHome": 0, "TeamAway": 0,
                 "ManagerHome": 0, "ManagerAway": 0, "FormationHome": 0, "FormationAway": 0, "Stadium": 0, "Referee": 0,
+
+                "BetHome": 0, "BetDraw": 0, "BetAway": 0,
 
                 "RatingStartTeamHome": 0, "RatingSubstitutionHome": 0,
                 "RatingStartTeamAway": 0, "RatingSubstitutionAway": 0,
@@ -652,7 +695,9 @@ class DataPackager:
                     continue
                 if len(self.AL.ALL_MATCHES) - self.AL.ALL_MATCHES.index(match) < 50:
                     break
-                writer.writerow(self.convert_match_data(match, data.copy()))
+                data = self.convert_match_data(match, data.copy())
+                if data["BetHome"] != 0:
+                    writer.writerow(data)
 
 
 class StringsTransfer:
@@ -700,10 +745,42 @@ class StringsTransfer:
         minutes = int(time[time.find(":") + 1:]) / 60
         return hours + minutes
 
+class EmbeddingData:
+
+    DATA = list()
+
+    def make_sentences_list(self, league_name: str) -> None:
+        with open(league_name + " _results_data.csv", 'r', encoding='utf-8', newline='') as file:
+            reader = csv.DictReader(file)
+            for match in reader:
+                start_team1 = match["StartTeamHome"].split(', ')
+                start_team2 = match["StartTeamAway"].split(', ')
+                # subs_team1 = match["SubstitutionHome"].split(', ')[:3]
+                # subs_team2 = match["SubstitutionAway"].split(', ')[:3]
+                for team in (start_team1, start_team2):
+                    for name_i in range(len(team)):
+                        list_name = team[name_i].split(' ')
+                        team[name_i] = '_'.join(list_name).lower()
+                # start_team1 += subs_team1
+                # start_team2 += subs_team2
+
+                self.DATA.append(start_team1)
+                self.DATA.append(start_team2)
+
+
+
+
+
+
+
 # example = MatchesDataAnalytics("Premier League (Russia)1")
-example1 = DataPackager("Super Lig (Turkey)")
+# example1 = DataPackager("Premier League (England)")
+# example1.read_bets("england-premier-league_bets")
+# example1.assemble_data()
 # example2 = StringsTransfer()
 #example2.write_content()
-example1.assemble_data()
 # print(example.calculate_players_rating(0))
+# example3 = EmbeddingData()
+# example3.make_sentences_list("Premier League (England)")
+# print(example3.DATA)
 

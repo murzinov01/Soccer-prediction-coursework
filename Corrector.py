@@ -1,7 +1,7 @@
 import csv
 
 
-def ReadFile(file_name):
+def sort_by_date(file_name):
     # *** READ CSV FILE ***
     ALL_MATCHES = list()
 
@@ -104,5 +104,5 @@ def TransferPlayer(file_name):
 
             writer.writerow(match)
 
-#ReadFile("Premier League (Russia) _results_data.csv")
-TransferPlayer("Premier League (Russia) _results_data.csv")
+
+TransferPlayer("Super Lig (Turkey) _results_data.csv")
