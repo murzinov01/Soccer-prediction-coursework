@@ -2,6 +2,7 @@ import csv
 import difflib
 
 
+
 def similarity(s1: str, s2: str) -> float:
   normalized1 = s1.lower()
   normalized2 = s2.lower()
@@ -745,6 +746,7 @@ class StringsTransfer:
         minutes = int(time[time.find(":") + 1:]) / 60
         return hours + minutes
 
+
 class EmbeddingData:
 
     DATA = list()
@@ -766,10 +768,6 @@ class EmbeddingData:
 
                 self.DATA.append(start_team1)
                 self.DATA.append(start_team2)
-
-
-
-
 
 
 
