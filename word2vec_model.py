@@ -22,6 +22,7 @@ class PlayerEmbedding():
         for league_name in leagues:
             assembler.make_sentences_list(league_name)
         sentences = assembler.DATA
+        random.shuffle(sentences)
         # train
         self.MODEL = Word2Vec(sentences, size=vec_size, window=10, min_count=1, workers=4)
         self.VEC_SIZE = vec_size
@@ -64,9 +65,9 @@ class PlayerEmbedding():
         return all_vectors
 
     @staticmethod
-    def normalize_vector(data_vector):
-        min_v = np.min(data_vector)
-        max_v = np.max(data_vector)
+    def normalize_vector(data_vector, min_value=0.0, max_value=0.0):
+        min_v = np.min(data_vector) if not min_value else min_value
+        max_v = np.max(data_vector) if not max_value else max_value
         return (data_vector + abs(min_v)) / (max_v + abs(min_v))
 
     @staticmethod
@@ -79,6 +80,8 @@ class PlayerEmbedding():
         new_vec = np.array(list(map(str, new_vec)))
         list_vec = list(map(lambda x: x[2:], new_vec))
         new_list_vec = list()
+
+        counter_index = 0
         for dim in list_vec:
             if len(dim) < 6:
                 less_len = 6 - len(dim)
@@ -88,8 +91,55 @@ class PlayerEmbedding():
             red = int("0x" + new_list_vec[-1][:2], 16)
             green = int("0x" + new_list_vec[-1][2:4], 16)
             blue = int("0x" + new_list_vec[-1][4:], 16)
-            rgb_vec[list_vec.index(dim), 0] = red
-            rgb_vec[list_vec.index(dim), 1] = green
-            rgb_vec[list_vec.index(dim), 2] = blue
+            rgb_vec[counter_index, 0] = red
+            rgb_vec[counter_index, 1] = green
+            rgb_vec[counter_index, 2] = blue
+            counter_index += 1
 
         return rgb_vec
+
+my_class = PlayerEmbedding()
+my_class.w2v_train(["Premier League (England)", "Premier League (Russia)", "Serie A (Italy)", "LaLiga (Spain)", "Super Lig (Turkey)"], model_name="5ligsS", vec_size=80)
+# my_class.w2v_load(model_name="5ligs")
+print("Messi Vec: ", my_class.MODEL.wv["lionel_messi"])
+print("Busquets Vec: ", my_class.MODEL.wv["sergio_busquets"])
+print("Pogba Vec: ", my_class.MODEL.wv["paul_pogba"])
+print("Dzuba Vec: ", my_class.MODEL.wv["artem_dzyuba"])
+print("CR7 Vec: ", my_class.MODEL.wv["cristiano_ronaldo"])
+print("Karius Vec: ", my_class.MODEL.wv["loris_karius"])
+
+print("Pedik VEC: ", my_class.MODEL.wv["álvaro_arbeloa"])
+
+print("Messi: ", my_class.MODEL.wv.most_similar("lionel_messi"))
+
+print("Pogba: ", my_class.MODEL.wv.most_similar("paul_pogba"))
+print("Dzuba: ", my_class.MODEL.wv.most_similar("artem_dzyuba"))
+print("CR7: ", my_class.MODEL.wv.most_similar("cristiano_ronaldo", topn=80))
+print("Karius: ", my_class.MODEL.wv.most_similar("loris_karius", topn=80))
+
+
+my_class.normalize_all_vectors()
+
+# my_class.w2v_load()
+# all_vectors = my_class.get_all_vectors()
+#
+# g1 = 0
+# l1 = 0
+#
+# max_value = 0
+# min_value = 0
+# for vec in all_vectors.values():
+#     min_v = np.min(vec)
+#     max_v = np.max(vec)
+#     if min_v < min_value:
+#         min_value = min_v
+#     if max_v > max_value:
+#         max_value = max_v
+#     if min_v < -2:
+#         l1 += 1
+#     if max_v > 2:
+#         g1 += 1
+#
+# print("Max -> Min: ", max_value, min_value)
+# print("Greater 1: ", g1)
+# print("Less 1: ", l1)

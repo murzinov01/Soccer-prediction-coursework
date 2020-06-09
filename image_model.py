@@ -3,9 +3,6 @@ import numpy as np
 import pandas as pd
 import seaborn as sb
 import random
-# from keras.applications.resnet50 import ResNet50
-# from keras.preprocessing import image
-# from keras.applications.resnet50 import preprocess_input
 import PIL
 from PIL import Image
 from matplotlib import image
@@ -13,39 +10,160 @@ from matplotlib import pyplot
 from word2vec_model import PlayerEmbedding
 import multiprocessing
 from numpy import asarray
+import os
+import sys
+
+#np.set_printoptions(threshold=sys.maxsize)
 
 def show_image(data):
     pyplot.matshow(data)
     pyplot.show()
 
-# Принтуем картинку как array
+class ImageGenerator():
 
-# Создаем картинку из array и принтуем
-# check = np.zeros((8, 8, 3))
-# check[:, :, 2] = 255
-# check[::2, 1::2, 0] = 255
-# check[1::2, ::2, 1] = 255
+    MIN_MAX_VAL = {
 
-Emb = PlayerEmbedding()
-Emb.w2v_load()
-Emb.normalize_all_vectors()
+        "League": [0.0, 20.0], "Time": [0.0, 24.0], "TeamHome": [0.0, 300.0], "TeamAway": [0.0, 300.0],
+        "ManagerHome": [0.0, 300.0], "ManagerAway": [0.0, 300.0], "FormationHome": [0.0, 100.0], "FormationAway":  [0.0, 100.0], "Stadium":  [0.0, 300.0], "Referee":  [0.0, 300.0],
 
-rgb_img_matrix = np.zeros((80, Emb.VEC_SIZE, 3))
-print(rgb_img_matrix.shape)
+        "RatingStartTeamHome":  [0.0, 10.0], "RatingSubstitutionHome": [0.0, 10.0],
+        "RatingStartTeamAway": [0.0, 10.0], "RatingSubstitutionAway": [0.0, 10.0],
+        "RatingStartTeamHome3": [0.0, 10.0], "RatingSubstitutionHome3": [0.0, 10.0],
+        "RatingStartTeamAway3": [0.0, 10.0], "RatingSubstitutionAway3": [0.0, 10.0],
+        "GPP_StartHome": [0.0, 50.0], "GPP_SubsHome": [0.0, 50.0], "GPP_StartAway": [0.0, 50.0], "GPP_SubsAway": [0.0, 50.0],
 
-count = 0
-for vec in Emb.NORMALIZED_VECTORS.values():
-    rgb_img_matrix[count] += Emb.convert_to_rgb(vec)
-    if count >= 79:
-        break
-    count += 1
+        "GoalsTeamHome": [0.0, 200.0], "AssistsTeamHome": [0.0, 200.0], "GoalsTeamAway": [0.0, 200.0], "AssistsTeamAway": [0.0, 200.0],
 
-print(rgb_img_matrix)
-new_array = np.uint8(rgb_img_matrix)
+        "FormTeamHome3": [0.0, 100.0], "FormTeamAway3": [0.0, 100.0], "FormTeamHome6": [0.0, 100.0], "FormTeamAway6": [0.0, 100.0],
 
+        # local stats (Only Home or Away)
+        "RatingTeamHome": [0.0, 10.0], "RatingTeamAway": [0.0, 10.0],
+        "TotalShotsHome": [0.0, 40.0], "TotalShotsAway": [0.0, 40.0], "PossessionHome": [0.0, 100.0], "PossessionAway": [0.0, 100.0],
+        "PassAccuracyHome": [0.0, 100.0], "PassAccuracyAway": [0.0, 100.0], "DribblesHome": [0.0, 30.0], "DribblesAway": [0.0, 30.0],
+        "AerialsWonHome": [0.0, 60.0], "AerialsWonAway": [0.0, 60.0], "TacklesHome": [0.0, 50.0], "TacklesAway": [0.0, 50.0],
+        "CornersHome": [0.0, 20.0], "CornersAway": [0.0, 20.0], "DispossessedHome": [0.0, 30.0], "DispossessedAway": [0.0, 30.0],
+        "YellowCardHome": [0.0, 60.0], "YellowCardAway": [0.0, 60.0], "RedCardHome": [0.0, 30.0], "RedCardAway": [0.0, 30.0],
+
+        # average stats (Home + Away)
+        "RatingTeamHomeA": [0.0, 10.0], "RatingTeamAwayA": [0.0, 10.0],
+        "TotalShotsHomeA": [0.0, 40.0], "TotalShotsAwayA": [0.0, 40.0], "PossessionHomeA": [0.0, 100.0], "PossessionAwayA": [0.0, 100.0],
+        "PassAccuracyHomeA": [0.0, 100.0], "PassAccuracyAwayA": [0.0, 100.0], "DribblesHomeA": [0.0, 30.0], "DribblesAwayA": [0.0, 30.0],
+        "AerialsWonHomeA": [0.0, 60.0], "AerialsWonAwayA": [0.0, 60.0], "TacklesHomeA": [0.0, 50.0], "TacklesAwayA": [0.0, 50.0],
+        "CornersHomeA": [0.0, 20.0], "CornersAwayA": [0.0, 20.0], "DispossessedHomeA": [0.0, 30.0], "DispossessedAwayA": [0.0, 30.0],
+        "YellowCardHomeA": [0.0, 60.0], "YellowCardAwayA": [0.0, 60.0], "RedCardHomeA": [0.0, 30.0], "RedCardAwayA": [0.0, 30.0],
+
+        # same but for 3 last match
+        "RatingTeamHome3": [0.0, 10.0], "RatingTeamAway3": [0.0, 10.0],
+        "TotalShotsHome3": [0.0, 40.0], "TotalShotsAway3": [0.0, 40.0], "PossessionHome3": [0.0, 100.0], "PossessionAway3": [0.0, 100.0],
+        "PassAccuracyHome3": [0.0, 100.0], "PassAccuracyAway3": [0.0, 100.0], "DribblesHome3": [0.0, 30.0], "DribblesAway3": [0.0, 30.0],
+        "AerialsWonHome3": [0.0, 60.0], "AerialsWonAway3": [0.0, 60.0], "TacklesHome3": [0.0, 50.0], "TacklesAway3": [0.0, 50.0],
+        "CornersHome3": [0.0, 20.0], "CornersAway3": [0.0, 20.0], "DispossessedHome3": [0.0, 30.0], "DispossessedAway3": [0.0, 30.0],
+        "YellowCardHome3": [0.0, 60.0], "YellowCardAway3": [0.0, 60.0], "RedCardHome3": [0.0, 30.0], "RedCardAway3": [0.0, 30.0],
+
+        "RatingTeamHome3A": [0.0, 10.0], "RatingTeamAway3A": [0.0, 10.0],
+        "TotalShotsHome3A": [0.0, 40.0], "TotalShotsAway3A": [0.0, 40.0], "PossessionHome3A": [0.0, 100.0], "PossessionAway3A": [0.0, 100.0],
+        "PassAccuracyHome3A": [0.0, 100.0], "PassAccuracyAway3A": [0.0, 100.0], "DribblesHome3A": [0.0, 30.0], "DribblesAway3A": [0.0, 30.0],
+        "AerialsWonHome3A": [0.0, 60.0], "AerialsWonAway3A": [0.0, 60.0], "TacklesHome3A": [0.0, 50.0], "TacklesAway3A": [0.0, 50.0],
+        "CornersHome3A": [0.0, 20.0], "CornersAway3A": [0.0, 20.0], "DispossessedHome3A": [0.0, 30.0], "DispossessedAway3A": [0.0, 30.0],
+        "YellowCardHome3A": [0.0, 60.0], "YellowCardAway3A": [0.0, 60.0], "RedCardHome3A": [0.0, 30.0], "RedCardAway3A": [0.0, 30.0],
+
+        "PHome": [0.0, 58.0], "WHome": [0.0, 58.0], "DHome": [0.0, 58.0], "LHome": [0.0, 58.0], "GFHome": [0.0, 200.0], "GAHome": [0.0, 150.0], "GDHome": [-150.0, 150.0], "PointsHome": [0.0, 150.0],
+        "PlaceHome": [-1.0, 30.0],
+        "PAway": [0.0, 58.0], "WAway": [0.0, 58.0], "DAway": [0.0, 58.0], "LAway": [0.0, 58.0], "GFAway": [0.0, 200.0], "GAAway": [0.0, 150.0], "GDAway": [-150.0, 150.0], "PointsAway": [0.0, 150.0],
+        "PlaceAway": [-1.0, 30.0],
+
+        "FutureTeamHome": [0.0, 300.0], "FuturePlaceTeamHome": [-1.0, 30.0], "FutureStatusTeamHome": [0.0, 2.0],
+        "FutureTeamAway": [0.0, 300.0], "FuturePlaceTeamAway": [-1.0, 30.0], "FutureStatusTeamAway": [0.0, 2.0]
+
+    }
+    MAIN_PATH = "/Users/sanduser/PycharmProjects/Parser/Images"
+    DATA_MATRIX = None
+    DATA_MATRIX_RGB = None
+    DATA_STRINGS = None
+
+
+    def __init__(self):
+        self.emb = PlayerEmbedding()
+        self.emb.w2v_load(model_name="5ligs.model")
+        self.emb.normalize_all_vectors()
+
+    def create_dir(self, league_name: str) -> str:
+        try:
+            os.mkdir(self.MAIN_PATH + '/' + league_name)
+        finally:
+            return self.MAIN_PATH + '/' + league_name
+
+    def generate_league_stats(self, league_name:str):
+        self.DATA_STRINGS = list()
+        with open(league_name + "_learn_data.csv", 'r', encoding='utf-8', newline='') as file:
+            reader = csv.DictReader(file, delimiter=';')
+            for match in reader:
+                match_data = {
+                    "Date": match["Date"],
+                    "TeamHome": match["TeamHomeStr"],
+                    "TeamAway": match["TeamAwayStr"],
+                    "Result": int(match["Result"]),
+                    "Total2.5": int(match["Total2.5"]),
+                    "Total1.5": int(match["Total1.5"])
+                }
+                self.DATA_STRINGS.append(match_data)
+            field_names = reader.fieldnames[10:]
+        self.DATA_MATRIX = np.genfromtxt(league_name + "_learn_data.csv", delimiter=';')
+        self.DATA_MATRIX = self.DATA_MATRIX[1:, 10:]
+
+
+        RGB_MATRIX = np.zeros([self.DATA_MATRIX.shape[0], self.DATA_MATRIX.shape[1], 3])
+
+        for column_i in range(self.DATA_MATRIX.shape[1]):
+            vec = self.DATA_MATRIX[:, column_i]
+            column_name = field_names[column_i]
+            norm_vec = self.emb.normalize_vector(vec, min_value=self.MIN_MAX_VAL[column_name][0],
+                                                                        max_value=self.MIN_MAX_VAL[column_name][1])
+            rgb_vec = self.emb.convert_to_rgb(norm_vec)
+            print(rgb_vec)
+            RGB_MATRIX[:, column_i, :] = rgb_vec
+            self.DATA_MATRIX_RGB = RGB_MATRIX
+
+    def generate_match_images(self, league_name:str):
+        for match_i in range(self.DATA_MATRIX_RGB.shape[0]):
+
+
+
+
+
+
+
+
+
+
+# img_gen = ImageGenerator()
+# img_gen.generate_images_for_league("Premier League (England)")
+
+# Emb = PlayerEmbedding()
+# Emb.w2v_load()
+# Emb.normalize_all_vectors()
+#
+# rgb_img_matrix = np.zeros((80, Emb.VEC_SIZE, 3))
+# print(rgb_img_matrix.shape)
+#
+# count = 0
+# for vec in Emb.NORMALIZED_VECTORS.values():
+#     rgb_img_matrix[count] += Emb.convert_to_rgb(vec)
+#     if count >= 79:
+#         break
+#     count += 1
+#
+# print(rgb_img_matrix)
+new_array = np.uint8(img_gen.DATA_MATRIX_RGB)
+#
 im = Image.fromarray(new_array)
 im.show()
 im.save("doska.png")
+
+# matrix = np.array([[0] * 3])
+# matrix = np.append(matrix, [[0, 1, 2]], axis=0)
+# matrix = np.append(matrix, [[3, 4, 5]], axis=0)
+# print("Matrix:", matrix, "Shape:", matrix.shape)
 
 
 

@@ -524,29 +524,37 @@ class DataPackager:
     def convert_match_data(self, match: dict, data: dict) -> dict:
         match_id = self.AL.ALL_MATCHES.index(match)
 
-        data["BetHome"] = 0
-        data["BetDraw"] = 0
-        data["BetAway"] = 0
+        # data["BetHome"] = 0
+        # data["BetDraw"] = 0
+        # data["BetAway"] = 0
+        #
+        # match_string_name = [match["TeamHome"], match["TeamAway"]]
+        # match_string_result = match["ResultTeamHome"] + match["ResultTeamAway"]
+        # for match_bet in self.BETS:
+        #     match_result = match_bet["ResultTeamHome"] + match_bet["ResultTeamAway"]
+        #     if match_result != match_string_result:
+        #         continue
+        #     if abs(self.AL.ALL_MATCHES.index(match) - self.BETS.index(match_bet)) > 15:
+        #         continue
+        #     if similarity(match_string_name[0], match_bet["TeamHome"]) > 0.6 and \
+        #         similarity(match_string_name[1], match_bet["TeamAway"]) > 0.6:
+        #         data["BetHome"] = match_bet["Bet1"]
+        #         data["BetDraw"] = match_bet["BetX"]
+        #         data["BetAway"] = match_bet["Bet2"]
+        #         break
+        #
+        # if data["BetHome"] == 0:
+        #     return data
+        data["Date"] = self.AL.ALL_MATCHES[match_id]["Date"]
+        data["TeamHomeStr"] = self.AL.ALL_MATCHES[match_id]["TeamHome"]
+        data["TeamAwayStr"] = self.AL.ALL_MATCHES[match_id]["TeamAway"]
 
-        match_string_name = [match["TeamHome"], match["TeamAway"]]
-        match_string_result = match["ResultTeamHome"] + match["ResultTeamAway"]
-        for match_bet in self.BETS:
-            match_result = match_bet["ResultTeamHome"] + match_bet["ResultTeamAway"]
-            if match_result != match_string_result:
-                continue
-            if abs(self.AL.ALL_MATCHES.index(match) - self.BETS.index(match_bet)) > 15:
-                continue
-            if similarity(match_string_name[0], match_bet["TeamHome"]) > 0.6 and \
-                similarity(match_string_name[1], match_bet["TeamAway"]) > 0.6:
-                data["BetHome"] = match_bet["Bet1"]
-                data["BetDraw"] = match_bet["BetX"]
-                data["BetAway"] = match_bet["Bet2"]
-                break
+        data["StartTeamHome"] = self.AL.ALL_MATCHES[match_id]["StartTeamHome"]
+        data["StartTeamAway"] = self.AL.ALL_MATCHES[match_id]["StartTeamAway"]
+        data["SubsTeamHome"] = self.AL.ALL_MATCHES[match_id]["SubstitutionHome"]
+        data["SubsTeamAway"] = self.AL.ALL_MATCHES[match_id]["SubstitutionAway"]
 
-        if data["BetHome"] == 0:
-            return data
-
-        data["Result"] = self.AL.get_match_result(match_id)
+        data["Result"] = self.AL.get_match_result(match_id) if self.AL.get_match_result(match_id) != -1 else 2
         data["Total2.5"] = 1 if int(match["ResultTeamHome"]) + int(match["ResultTeamAway"]) > 2.5 else 0
         data["Total1.5"] = 1 if int(match["ResultTeamHome"]) + int(match["ResultTeamAway"]) > 1.5 else 0
         data["League"] = self.ST.code_string("League", self.league_name)
@@ -628,14 +636,14 @@ class DataPackager:
         return data
 
     def assemble_data(self) -> None:
-        with open(self.league_name + "_learn_data+.csv", 'w', encoding='utf-8', newline='') as file:
+        with open(self.league_name + "_learn_data.csv", 'w', encoding='utf-8', newline='') as file:
             data = {
+                "Date": 0, "TeamHomeStr": 0, "TeamAwayStr": 0, "StartTeamHome": 0, "StartTeamAway": 0, "SubsTeamHome": 0, "SubsTeamAway": 0,
                 "Result": 0, "Total2.5": 0, "Total1.5": 0,
 
                 "League": 0, "Time": 0, "TeamHome": 0, "TeamAway": 0,
                 "ManagerHome": 0, "ManagerAway": 0, "FormationHome": 0, "FormationAway": 0, "Stadium": 0, "Referee": 0,
 
-                "BetHome": 0, "BetDraw": 0, "BetAway": 0,
 
                 "RatingStartTeamHome": 0, "RatingSubstitutionHome": 0,
                 "RatingStartTeamAway": 0, "RatingSubstitutionAway": 0,
@@ -687,7 +695,7 @@ class DataPackager:
             d_keys = list()
             for key in data.keys():
                 d_keys.append(key)
-            writer = csv.DictWriter(file, fieldnames=d_keys)
+            writer = csv.DictWriter(file, delimiter=';', fieldnames=d_keys)
             writer.writeheader()
             for match in self.AL.ALL_MATCHES:
                 index = self.AL.ALL_MATCHES.index(match)
@@ -697,8 +705,9 @@ class DataPackager:
                 if len(self.AL.ALL_MATCHES) - self.AL.ALL_MATCHES.index(match) < 50:
                     break
                 data = self.convert_match_data(match, data.copy())
-                if data["BetHome"] != 0:
-                    writer.writerow(data)
+                writer.writerow(data)
+                # if data["BetHome"] != 0:
+                #     writer.writerow(data)
 
 
 class StringsTransfer:
@@ -753,27 +762,38 @@ class EmbeddingData:
 
     def make_sentences_list(self, league_name: str) -> None:
         with open(league_name + " _results_data.csv", 'r', encoding='utf-8', newline='') as file:
+            matches_data = list()
             reader = csv.DictReader(file)
             for match in reader:
-                start_team1 = match["StartTeamHome"].split(', ')
-                start_team2 = match["StartTeamAway"].split(', ')
-                # subs_team1 = match["SubstitutionHome"].split(', ')[:3]
-                # subs_team2 = match["SubstitutionAway"].split(', ')[:3]
-                for team in (start_team1, start_team2):
+                matches_data.append(match)
+
+            for match in matches_data[::-1]:
+                start_team1 = match["StartTeamHome"].split(', ')# [::-1] + match["SubstitutionHome"].split(', ')[:3]
+                start_team2 = match["StartTeamAway"].split(', ')# [::-1] + match["SubstitutionAway"].split(', ')[:3]
+                subs_team1 = match["SubstitutionHome"].split(', ')# [3:]
+                subs_team2 = match["SubstitutionAway"].split(', ')# [3:]
+                for team in (start_team1, start_team2, subs_team1, subs_team2):
                     for name_i in range(len(team)):
                         list_name = team[name_i].split(' ')
                         team[name_i] = '_'.join(list_name).lower()
-                # start_team1 += subs_team1
-                # start_team2 += subs_team2
 
                 self.DATA.append(start_team1)
                 self.DATA.append(start_team2)
+                self.DATA.append(subs_team1)
+                self.DATA.append(subs_team2)
 
 
 
-# example = MatchesDataAnalytics("Premier League (Russia)1")
+#example = MatchesDataAnalytics("Premier League (Russia)1")
 # example1 = DataPackager("Premier League (England)")
-# example1.read_bets("england-premier-league_bets")
+# example1.assemble_data()
+# example1 = DataPackager("Premier League (Russia)")
+# example1.assemble_data()
+# example1 = DataPackager("Serie A (Italy)")
+# example1.assemble_data()
+# example1 = DataPackager("LaLiga (Spain)")
+# example1.assemble_data()
+# example1 = DataPackager("Super Lig (Turkey)")
 # example1.assemble_data()
 # example2 = StringsTransfer()
 #example2.write_content()
