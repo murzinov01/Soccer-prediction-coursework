@@ -8,6 +8,7 @@ from PIL import Image
 from matplotlib import image
 from matplotlib import pyplot
 from word2vec_model import PlayerEmbedding
+from data_analytics import EmbeddingData
 import multiprocessing
 from numpy import asarray
 import os
@@ -15,11 +16,13 @@ import sys
 
 #np.set_printoptions(threshold=sys.maxsize)
 
+
 def show_image(data):
     pyplot.matshow(data)
     pyplot.show()
 
-class ImageGenerator():
+
+class ImageGenerator:
 
     MIN_MAX_VAL = {
 
@@ -81,30 +84,37 @@ class ImageGenerator():
     DATA_MATRIX_RGB = None
     DATA_STRINGS = None
 
-
-    def __init__(self):
+    def __init__(self, model_name="5ligsS"):
         self.emb = PlayerEmbedding()
-        self.emb.w2v_load(model_name="5ligs.model")
+        self.emb_data = EmbeddingData()
+        self.emb.w2v_load(model_name)
         self.emb.normalize_all_vectors()
 
-    def create_dir(self, league_name: str) -> str:
+    def create_dir(self, league_name: str, sub_dir="1") -> str:
         try:
-            os.mkdir(self.MAIN_PATH + '/' + league_name)
+            os.mkdir(self.MAIN_PATH + '/' + league_name + '/')
         finally:
-            return self.MAIN_PATH + '/' + league_name
+            try:
+                os.mkdir(self.MAIN_PATH + '/' + league_name + '/' + sub_dir + '/')
+            finally:
+                return self.MAIN_PATH + '/' + league_name + '/' + sub_dir + '/'
 
-    def generate_league_stats(self, league_name:str):
+    def generate_league_stats(self, league_name: str):
         self.DATA_STRINGS = list()
         with open(league_name + "_learn_data.csv", 'r', encoding='utf-8', newline='') as file:
             reader = csv.DictReader(file, delimiter=';')
             for match in reader:
                 match_data = {
                     "Date": match["Date"],
-                    "TeamHome": match["TeamHomeStr"],
-                    "TeamAway": match["TeamAwayStr"],
-                    "Result": int(match["Result"]),
-                    "Total2.5": int(match["Total2.5"]),
-                    "Total1.5": int(match["Total1.5"])
+                    "TeamHomeName": match["TeamHomeStr"],
+                    "TeamAwayName": match["TeamAwayStr"],
+                    "StartTeamHome": match["StartTeamHome"],
+                    "StartTeamAway": match["StartTeamAway"],
+                    "SubsTeamHome": match["SubsTeamHome"],
+                    "SubsTeamAway": match["SubsTeamAway"],
+                    "Result": match["Result"],
+                    "Total2.5": match["Total2.5"],
+                    "Total1.5": match["Total1.5"]
                 }
                 self.DATA_STRINGS.append(match_data)
             field_names = reader.fieldnames[10:]
@@ -120,24 +130,107 @@ class ImageGenerator():
             norm_vec = self.emb.normalize_vector(vec, min_value=self.MIN_MAX_VAL[column_name][0],
                                                                         max_value=self.MIN_MAX_VAL[column_name][1])
             rgb_vec = self.emb.convert_to_rgb(norm_vec)
-            print(rgb_vec)
             RGB_MATRIX[:, column_i, :] = rgb_vec
             self.DATA_MATRIX_RGB = RGB_MATRIX
 
-    def generate_match_images(self, league_name:str):
+    def generate_match_images(self, league_name: str, image_size=72, delimiter=1, layers=3):
+        dir = self.create_dir(league_name, sub_dir= "d" + str(delimiter) + "l" + str(layers))
+        self.generate_league_stats(league_name)
+
+        for match_i in range(self.DATA_MATRIX_RGB.shape[0]):
+            sys.stdout.write(f"\r| {match_i} / {self.DATA_MATRIX_RGB.shape[0]}%")
+            sys.stdout.flush()
+            image_matrix = np.zeros([image_size, image_size, 3])
+            image_matrix[:, :, :] = 255
+
+            # fill players vectors
+            start_home = self.emb_data.define_players_list(self.DATA_STRINGS[match_i]["StartTeamHome"])
+            start_away = self.emb_data.define_players_list(self.DATA_STRINGS[match_i]["StartTeamAway"])
+            subs_home = self.emb_data.define_players_list(self.DATA_STRINGS[match_i]["SubsTeamHome"])
+            subs_away = self.emb_data.define_players_list(self.DATA_STRINGS[match_i]["SubsTeamAway"])
+
+            line_counter = 0
+            vec_size_p = self.emb.VEC_SIZE
+            for line_up in (start_home, subs_home[:7], start_away, subs_away[:7]):
+                for player in line_up:
+                    vec_n = self.emb.NORMALIZED_VECTORS[player] / delimiter
+                    if layers == 2:
+                        vec_rgb = self.emb.convert_to_rg(vec_n)
+                    else:
+                        vec_rgb = self.emb.convert_to_rgb(vec_n)
+
+                    image_matrix[line_counter, : int(vec_size_p / 2), :] = vec_rgb[: int(vec_size_p / 2), :]
+                    line_counter += 1
+                    image_matrix[line_counter, : int(vec_size_p / 2), :] = vec_rgb[int(vec_size_p / 2):, :]
+                    line_counter += 1
+
+            # fill stats
+            vec_size_s = self.DATA_MATRIX_RGB.shape[1]
+            image_matrix[: int(vec_size_s / 2), int(vec_size_p / 2) + 1, :] = self.DATA_MATRIX_RGB[match_i, :int(vec_size_s / 2), :]
+            image_matrix[: int(vec_size_s / 2), int(vec_size_p / 2) + 2, :] = self.DATA_MATRIX_RGB[match_i, int(vec_size_s / 2):, :]
+
+            # create file name
+            file_name = dir + self.DATA_STRINGS[match_i]["Result"] + self.DATA_STRINGS[match_i]["Total2.5"] \
+                        + self.DATA_STRINGS[match_i]["Total1.5"] + '[' + self.DATA_STRINGS[match_i]["Date"] + ']' \
+                        + self.DATA_STRINGS[match_i]["TeamHomeName"] + '-' + self.DATA_STRINGS[match_i]["TeamAwayName"]\
+                        + ".png"
+
+            int_matrix = np.uint8(image_matrix)
+            im = Image.fromarray(int_matrix)
+            im.save(file_name)
+
+    def generate_match_images_test(self, league_name: str, image_size=72):
+        dir = self.create_dir(league_name) + "TESTS/"
+        self.generate_league_stats(league_name)
+
         for match_i in range(self.DATA_MATRIX_RGB.shape[0]):
 
+            image_matrix = np.zeros([image_size, image_size, 3])
+            image_matrix[:, :, :] = 255
+
+            # fill players vectors
+            start_home = self.emb_data.define_players_list(self.DATA_STRINGS[match_i]["StartTeamHome"])
+            start_away = self.emb_data.define_players_list(self.DATA_STRINGS[match_i]["StartTeamAway"])
+            subs_home = self.emb_data.define_players_list(self.DATA_STRINGS[match_i]["SubsTeamHome"])
+            subs_away = self.emb_data.define_players_list(self.DATA_STRINGS[match_i]["SubsTeamAway"])
+
+            line_counter = 0
+            vec_size_p = self.emb.VEC_SIZE
+            for line_up in (start_home, subs_home, start_away, subs_away):
+                for player in line_up:
+                    vec_n = self.emb.NORMALIZED_VECTORS[player] / 5
+                    vec_rgb = self.emb.convert_to_rgb(vec_n)
+
+                    image_matrix[line_counter, : int(vec_size_p), :] = vec_rgb[: int(vec_size_p)]
+                    line_counter += 1
+                line_counter += 1
+            # fill stats
+
+            # create file name
+            file_name = dir + "5DEL" + self.DATA_STRINGS[match_i]["Result"] + self.DATA_STRINGS[match_i]["Total2.5"] \
+                        + self.DATA_STRINGS[match_i]["Total1.5"] + '[' + self.DATA_STRINGS[match_i]["Date"] + ']' \
+                        + self.DATA_STRINGS[match_i]["TeamHomeName"] + '-' + self.DATA_STRINGS[match_i]["TeamAwayName"] \
+                        +".png"
+
+            int_matrix = np.uint8(image_matrix)
+            im = Image.fromarray(int_matrix)
+            im.save(file_name)
+            break
 
 
 
+#
+img_gen = ImageGenerator()
+league_list = ("Premier League (Russia)", "LaLiga (Spain)", "Serie A (Italy)", "Super Lig (Turkey)")
 
+for league in league_list:
+    print("League: ", league)
+    img_gen.generate_match_images(league, image_size=72)
+    img_gen.generate_match_images(league, image_size=72, delimiter=2, layers=3)
+    img_gen.generate_match_images(league, image_size=72, delimiter=10, layers=3)
+    img_gen.generate_match_images(league, image_size=72, delimiter=100, layers=3)
+    img_gen.generate_match_images(league, image_size=72, delimiter=1, layers=2)
 
-
-
-
-
-# img_gen = ImageGenerator()
-# img_gen.generate_images_for_league("Premier League (England)")
 
 # Emb = PlayerEmbedding()
 # Emb.w2v_load()
@@ -154,11 +247,13 @@ class ImageGenerator():
 #     count += 1
 #
 # print(rgb_img_matrix)
-new_array = np.uint8(img_gen.DATA_MATRIX_RGB)
-#
-im = Image.fromarray(new_array)
-im.show()
-im.save("doska.png")
+
+
+# new_array = np.uint8(image_matrix)
+# #
+# im = Image.fromarray(new_array)
+# im.show()
+# im.save("doska.png")
 
 # matrix = np.array([[0] * 3])
 # matrix = np.append(matrix, [[0, 1, 2]], axis=0)

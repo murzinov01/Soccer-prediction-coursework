@@ -10,13 +10,14 @@ from gensim.models import KeyedVectors
 
 # WORD2VEC
 
-class PlayerEmbedding():
+
+class PlayerEmbedding:
 
     MODEL = None
     NORMALIZED_VECTORS = None
     VEC_SIZE = 0
 
-    def w2v_train(self, leagues: list, model_name="w2v", vec_size=80):
+    def w2v_train(self, leagues: list, model_name="w2v", vec_size=138):
         # make sentences
         assembler = ed()
         for league_name in leagues:
@@ -98,27 +99,62 @@ class PlayerEmbedding():
 
         return rgb_vec
 
-my_class = PlayerEmbedding()
-my_class.w2v_train(["Premier League (England)", "Premier League (Russia)", "Serie A (Italy)", "LaLiga (Spain)", "Super Lig (Turkey)"], model_name="5ligsS", vec_size=80)
-# my_class.w2v_load(model_name="5ligs")
-print("Messi Vec: ", my_class.MODEL.wv["lionel_messi"])
-print("Busquets Vec: ", my_class.MODEL.wv["sergio_busquets"])
-print("Pogba Vec: ", my_class.MODEL.wv["paul_pogba"])
-print("Dzuba Vec: ", my_class.MODEL.wv["artem_dzyuba"])
-print("CR7 Vec: ", my_class.MODEL.wv["cristiano_ronaldo"])
-print("Karius Vec: ", my_class.MODEL.wv["loris_karius"])
+    @staticmethod
+    def convert_to_rg(vec):
+        rgb_vec = np.zeros([vec.shape[0], 3])
 
-print("Pedik VEC: ", my_class.MODEL.wv["álvaro_arbeloa"])
+        new_vec = vec * 65535
+        new_vec = np.array(list(map(int, new_vec)))
+        new_vec = np.array(list(map(hex, new_vec)))
+        new_vec = np.array(list(map(str, new_vec)))
+        list_vec = list(map(lambda x: x[2:], new_vec))
+        new_list_vec = list()
 
-print("Messi: ", my_class.MODEL.wv.most_similar("lionel_messi"))
+        counter_index = 0
+        for dim in list_vec:
+            if len(dim) < 4:
+                less_len = 4 - len(dim)
+                new_list_vec.append('0' * less_len + dim)
+            else:
+                new_list_vec.append(dim)
+            red = int("0x" + new_list_vec[-1][:2], 16)
+            green = int("0x" + new_list_vec[-1][2:4], 16)
+            blue = 255
+            rgb_vec[counter_index, 0] = red
+            rgb_vec[counter_index, 1] = green
+            rgb_vec[counter_index, 2] = blue
+            counter_index += 1
 
-print("Pogba: ", my_class.MODEL.wv.most_similar("paul_pogba"))
-print("Dzuba: ", my_class.MODEL.wv.most_similar("artem_dzyuba"))
-print("CR7: ", my_class.MODEL.wv.most_similar("cristiano_ronaldo", topn=80))
-print("Karius: ", my_class.MODEL.wv.most_similar("loris_karius", topn=80))
+        return rgb_vec
+
+# my_class = PlayerEmbedding()
+# my_class.w2v_train(["Premier League (England)", "Premier League (Russia)", "Serie A (Italy)", "LaLiga (Spain)", "Super Lig (Turkey)"], model_name="5ligsS", vec_size=138)
+# # my_class.w2v_load(model_name="5ligs")
+# print("Messi Vec: ", my_class.MODEL.wv["lionel_messi"])
+# print("Busquets Vec: ", my_class.MODEL.wv["sergio_busquets"])
+# print("Dzuba Vec: ", my_class.MODEL.wv["artem_dzyuba"])
+
+# print("Pogba Vec: ", my_class.MODEL.wv["paul_pogba"])
+# print("Dzuba Vec: ", my_class.MODEL.wv["artem_dzyuba"])
+# print("CR7 Vec: ", my_class.MODEL.wv["cristiano_ronaldo"])
+# print("Karius Vec: ", my_class.MODEL.wv["loris_karius"])
+#
+# print("Pedik VEC: ", my_class.MODEL.wv["álvaro_arbeloa"])
+
+# print("Messi: ", my_class.MODEL.wv.most_similar("lionel_messi"))
+# print("Messi and Dzuba:", my_class.MODEL.similarity("lionel_messi","artem_dzyuba"))
+#
+# print("Pogba: ", my_class.MODEL.wv.most_similar("paul_pogba"))
+# print("Dzuba: ", my_class.MODEL.wv.most_similar("artem_dzyuba"))
+# print("CR7: ", my_class.MODEL.wv.most_similar("cristiano_ronaldo", topn=50))
+# print("Karius: ", my_class.MODEL.wv.most_similar("loris_karius", topn=50))
 
 
-my_class.normalize_all_vectors()
+# my_class.normalize_all_vectors()
+#
+# print("Messi VecN: ", my_class.NORMALIZED_VECTORS["lionel_messi"])
+# print("Busquets VecN: ", my_class.NORMALIZED_VECTORS["sergio_busquets"])
+# print("Dzuba VecN:", my_class.NORMALIZED_VECTORS["artem_dzyuba"])
 
 # my_class.w2v_load()
 # all_vectors = my_class.get_all_vectors()

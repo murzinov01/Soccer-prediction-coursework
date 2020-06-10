@@ -756,31 +756,28 @@ class StringsTransfer:
         return hours + minutes
 
 
+
 class EmbeddingData:
 
     DATA = list()
 
+    @staticmethod
+    def define_players_list(line_up: str) -> list:
+        team = line_up.split(', ')
+        for name_i in range(len(team)):
+            list_name = team[name_i].split(' ')
+            team[name_i] = '_'.join(list_name).lower()
+        return team
+
     def make_sentences_list(self, league_name: str) -> None:
         with open(league_name + " _results_data.csv", 'r', encoding='utf-8', newline='') as file:
-            matches_data = list()
             reader = csv.DictReader(file)
+
             for match in reader:
-                matches_data.append(match)
-
-            for match in matches_data[::-1]:
-                start_team1 = match["StartTeamHome"].split(', ')# [::-1] + match["SubstitutionHome"].split(', ')[:3]
-                start_team2 = match["StartTeamAway"].split(', ')# [::-1] + match["SubstitutionAway"].split(', ')[:3]
-                subs_team1 = match["SubstitutionHome"].split(', ')# [3:]
-                subs_team2 = match["SubstitutionAway"].split(', ')# [3:]
-                for team in (start_team1, start_team2, subs_team1, subs_team2):
-                    for name_i in range(len(team)):
-                        list_name = team[name_i].split(' ')
-                        team[name_i] = '_'.join(list_name).lower()
-
-                self.DATA.append(start_team1)
-                self.DATA.append(start_team2)
-                self.DATA.append(subs_team1)
-                self.DATA.append(subs_team2)
+                self.DATA.append(self.define_players_list(match["StartTeamHome"]))
+                self.DATA.append(self.define_players_list(match["StartTeamAway"]))
+                self.DATA.append(self.define_players_list(match["SubstitutionHome"]))
+                self.DATA.append(self.define_players_list(match["SubstitutionAway"]))
 
 
 
