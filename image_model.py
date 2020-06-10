@@ -9,12 +9,45 @@ from matplotlib import image
 from matplotlib import pyplot
 from word2vec_model import PlayerEmbedding
 from data_analytics import EmbeddingData
+
+import torch.nn as nn
+import torch.nn.functional as F
+
+import torch
+from torch import nn
+from torch import optim
+import torch.nn.functional as F
+from torchvision import datasets, transforms, models
+import torch.optim as optim
+
+from collections import OrderedDict
+
 import multiprocessing
 from numpy import asarray
 import os
 import sys
 
 #np.set_printoptions(threshold=sys.maxsize)
+
+class Net(nn.Module):
+    def __init__(self):
+        super(Net, self).__init__()
+        self.conv1 = nn.Conv2d(3, 6, 5)
+        self.pool = nn.MaxPool2d(2, 2)
+        self.conv2 = nn.Conv2d(6, 16, 5)
+        self.fc1 = nn.Linear(16 * 5 * 5, 120)
+        self.fc2 = nn.Linear(120, 84)
+        self.fc3 = nn.Linear(84, 10)
+
+    def forward(self, x):
+        x = self.pool(F.relu(self.conv1(x)))
+        x = self.pool(F.relu(self.conv2(x)))
+        x = x.view(-1, 16 * 5 * 5)
+        x = F.relu(self.fc1(x))
+        x = F.relu(self.fc2(x))
+        x = self.fc3(x)
+        return x
+
 
 
 def show_image(data):
@@ -90,14 +123,14 @@ class ImageGenerator:
         self.emb.w2v_load(model_name)
         self.emb.normalize_all_vectors()
 
-    def create_dir(self, league_name: str, sub_dir="1") -> str:
+    def create_dir(self, dir: str, sub_dir="1") -> str:
         try:
-            os.mkdir(self.MAIN_PATH + '/' + league_name + '/')
+            os.mkdir(dir + '/')
         finally:
             try:
-                os.mkdir(self.MAIN_PATH + '/' + league_name + '/' + sub_dir + '/')
+                os.mkdir(dir + '/' + sub_dir + '/')
             finally:
-                return self.MAIN_PATH + '/' + league_name + '/' + sub_dir + '/'
+                return dir + '/' + sub_dir + '/'
 
     def generate_league_stats(self, league_name: str):
         self.DATA_STRINGS = list()
@@ -133,13 +166,47 @@ class ImageGenerator:
             RGB_MATRIX[:, column_i, :] = rgb_vec
             self.DATA_MATRIX_RGB = RGB_MATRIX
 
-    def generate_match_images(self, league_name: str, image_size=72, delimiter=1, layers=3):
-        dir = self.create_dir(league_name, sub_dir= "d" + str(delimiter) + "l" + str(layers))
+    def generate_match_images(self, league_name: str, image_size=72, delimiter=1, layers=3, ratio=0.2):
+        dir = self.create_dir(self.MAIN_PATH + "/" + league_name, sub_dir= "d" + str(delimiter) + "l" + str(layers))
+        dir_train = self.create_dir(dir, sub_dir="train")
+        dir_test = self.create_dir(dir, sub_dir="test")
+        dir_valid = self.create_dir(dir, sub_dir="valid")
+        directories = {
+            "Te1": self.create_dir(dir_test, sub_dir="1"),
+            "Te2": self.create_dir(dir_test, sub_dir="2"),
+            "Te3": self.create_dir(dir_test, sub_dir="0"),
+            "Tr1": self.create_dir(dir_train, sub_dir="1"),
+            "Tr2": self.create_dir(dir_train, sub_dir="2"),
+            "Tr3": self.create_dir(dir_train, sub_dir="0"),
+            "V1": self.create_dir(dir_valid, sub_dir="1"),
+            "V2": self.create_dir(dir_valid, sub_dir="2"),
+            "V3": self.create_dir(dir_valid, sub_dir="0"),
+        }
+
         self.generate_league_stats(league_name)
 
-        for match_i in range(self.DATA_MATRIX_RGB.shape[0]):
-            sys.stdout.write(f"\r| {match_i} / {self.DATA_MATRIX_RGB.shape[0]}%")
+        matches_num = self.DATA_MATRIX_RGB.shape[0]
+        print("ДО:", matches_num)
+        matches_split_test = random.sample(list(range(matches_num)), k=int(matches_num * ratio))
+
+        matches_split = list()
+        for match in list(range(matches_num)):
+            if match not in matches_split_test:
+                matches_split.append(match)
+
+        matches_split_valid = random.sample(matches_split, k= int(len(matches_split) * ratio))
+
+        matches_split_train = list()
+        for match in matches_split:
+            if match not in matches_split_valid:
+                matches_split_train.append(match)
+
+        print("После:", len(matches_split_train) + len(matches_split_valid) + len(matches_split_test))
+
+        for match_i in range(matches_num):
+            sys.stdout.write(f"\r| {match_i} / {matches_num-1}")
             sys.stdout.flush()
+
             image_matrix = np.zeros([image_size, image_size, 3])
             image_matrix[:, :, :] = 255
 
@@ -169,8 +236,18 @@ class ImageGenerator:
             image_matrix[: int(vec_size_s / 2), int(vec_size_p / 2) + 1, :] = self.DATA_MATRIX_RGB[match_i, :int(vec_size_s / 2), :]
             image_matrix[: int(vec_size_s / 2), int(vec_size_p / 2) + 2, :] = self.DATA_MATRIX_RGB[match_i, int(vec_size_s / 2):, :]
 
+            result = self.DATA_STRINGS[match_i]["Result"]
+            selection = ""
+            if match_i in matches_split_train:
+                selection = "train"
+            elif match_i in matches_split_test:
+                selection = "test"
+            elif match_i in matches_split_valid:
+                selection = "valid"
+
+            match_dir = dir + selection + '/' + result + '/'
             # create file name
-            file_name = dir + self.DATA_STRINGS[match_i]["Result"] + self.DATA_STRINGS[match_i]["Total2.5"] \
+            file_name = match_dir + self.DATA_STRINGS[match_i]["Result"] + self.DATA_STRINGS[match_i]["Total2.5"] \
                         + self.DATA_STRINGS[match_i]["Total1.5"] + '[' + self.DATA_STRINGS[match_i]["Date"] + ']' \
                         + self.DATA_STRINGS[match_i]["TeamHomeName"] + '-' + self.DATA_STRINGS[match_i]["TeamAwayName"]\
                         + ".png"
@@ -221,15 +298,18 @@ class ImageGenerator:
 
 #
 img_gen = ImageGenerator()
-league_list = ("Premier League (Russia)", "LaLiga (Spain)", "Serie A (Italy)", "Super Lig (Turkey)")
+img_gen.generate_match_images("LaLiga (Spain)")
+img_gen.generate_match_images("LaLiga (Spain)", delimiter=10, layers=3)
 
-for league in league_list:
-    print("League: ", league)
-    img_gen.generate_match_images(league, image_size=72)
-    img_gen.generate_match_images(league, image_size=72, delimiter=2, layers=3)
-    img_gen.generate_match_images(league, image_size=72, delimiter=10, layers=3)
-    img_gen.generate_match_images(league, image_size=72, delimiter=100, layers=3)
-    img_gen.generate_match_images(league, image_size=72, delimiter=1, layers=2)
+# league_list = ("Premier League (Russia)", "LaLiga (Spain)", "Serie A (Italy)", "Super Lig (Turkey)")
+#
+# for league in league_list:
+#     print("League: ", league)
+#     img_gen.generate_match_images(league, image_size=72)
+#     img_gen.generate_match_images(league, image_size=72, delimiter=2, layers=3)
+#     img_gen.generate_match_images(league, image_size=72, delimiter=10, layers=3)
+#     img_gen.generate_match_images(league, image_size=72, delimiter=100, layers=3)
+#     img_gen.generate_match_images(league, image_size=72, delimiter=1, layers=2)
 
 
 # Emb = PlayerEmbedding()
