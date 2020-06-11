@@ -30,18 +30,52 @@ def show_image(data):
     pyplot.matshow(data)
     pyplot.show()
 
+class CNN(nn.Module):
+    def __init__(self):
+        super(CNN, self).__init__()
+        self.conv1 = nn.Conv2d(in_channels=3, out_channels=10, kernel_size=3)
+        self.conv2 = nn.Conv2d(10, 20, kernel_size=3)
+        self.conv2_drop = nn.Dropout2d()
+        self.fc1 = nn.Linear(980, 5184)
+        self.fc2 = nn.Linear(5184, 3)
+
+    def forward(self, x):
+        x = F.relu(F.max_pool2d(self.conv1(x), 3))
+        x = F.relu(F.max_pool2d(self.conv2_drop(self.conv2(x)), 3))
+        x = x.view(x.shape[0], -1)
+        x = F.relu(self.fc1(x))
+        x = F.dropout(x, training=self.training)
+        x = self.fc2(x)
+        return x
+
 class ImageModel():
     train_loader = None
     test_loader = None
     valid_loader = None
+    predict_loader = None
 
-    def __init__(self):
+    def __init__(self, data_dir):
         self.device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+        self.num_epochs = 8
+        self.num_classes = 3
+        self.batch_size = 25
+        self.learning_rate = 0.001
+
+        # define model
+        self.model = CNN().to(self.device)
+        self.criterion = nn.CrossEntropyLoss()
+        self.optimizer = torch.optim.Adam(self.model.parameters(), lr=self.learning_rate)
+
+        # define data loaders
+        self.define_data_loaders(data_dir=data_dir)
+
+
 
     def define_data_loaders(self, data_dir):
         train_dir = data_dir + '/train'
         valid_dir = data_dir + '/valid'
         test_dir = data_dir + '/test'
+        #predict_dir = data_dir + '/predict'
         data_transforms = transforms.Compose([transforms.ToTensor(),
                                               transforms.Normalize([0.485, 0.456, 0.406],
                                                                    [0.229, 0.224, 0.225])])
@@ -50,12 +84,110 @@ class ImageModel():
         training_dataset = datasets.ImageFolder(train_dir, transform=data_transforms)
         validation_dataset = datasets.ImageFolder(valid_dir, transform=data_transforms)
         testing_dataset = datasets.ImageFolder(test_dir, transform=data_transforms)
+        #predict_dataset = datasets.ImageFolder(predict_dir, transform=data_transforms)
 
         # Using the image datasets and the trainforms, define the dataloaders
-        train_loader = DataLoader(training_dataset, batch_size=64, shuffle=True)
-        validate_loader = DataLoader(validation_dataset, batch_size=32)
-        test_loader = DataLoader(testing_dataset, batch_size=32)
+        self.train_loader = DataLoader(training_dataset, batch_size=64, shuffle=True)
+        self.valid_loader = DataLoader(validation_dataset, batch_size=32)
+        self.test_loader = DataLoader(testing_dataset, batch_size=32)
+       # self.predict_loader = DataLoader(predict_dataset, batch_size=32)
 
+
+    def train_model(self):
+        train_losses = []
+        valid_losses = []
+
+        for epoch in range(1, self.num_epochs + 1):
+            # keep-track-of-training-and-validation-loss
+            train_loss = 0.0
+            valid_loss = 0.0
+
+            # training-the-model
+            self.model.train()
+            for data, target in self.train_loader:
+                # move-tensors-to-GPU
+                data = data.to(self.device)
+                target = target.to(self.device)
+
+                # clear-the-gradients-of-all-optimized-variables
+                self.optimizer.zero_grad()
+                # forward-pass: compute-predicted-outputs-by-passing-inputs-to-the-model
+                output = self.model(data)
+                # calculate-the-batch-loss
+                loss = self.criterion(output, target)
+                # backward-pass: compute-gradient-of-the-loss-wrt-model-parameters
+                loss.backward()
+                # perform-a-ingle-optimization-step (parameter-update)
+                self.optimizer.step()
+                # update-training-loss
+                train_loss += loss.item() * data.size(0)
+
+            # validate-the-model
+            self.model.eval()
+            for data, target in self.valid_loader:
+                data = data.to(self.device)
+                target = target.to(self.device)
+
+                output = self.model(data)
+
+                loss = self.criterion(output, target)
+
+                # update-average-validation-loss
+                valid_loss += loss.item() * data.size(0)
+
+            # calculate-average-losses
+            train_loss = train_loss / self.batch_size
+            valid_loss = valid_loss / self.batch_size
+            train_losses.append(train_loss)
+            valid_losses.append(valid_loss)
+
+            # print-training/validation-statistics
+            print('Epoch: {} \tTraining Loss: {:.6f} \tValidation Loss: {:.6f}'.format(
+                epoch, train_loss, valid_loss))
+
+    def test_model(self):
+        # test-the-model
+        self.model.eval()  # it-disables-dropout
+        with torch.no_grad():
+            correct = 0
+            total = 0
+            for images, labels in self.test_loader:
+                images = images.to(self.device)
+                labels = labels.to(self.device)
+                outputs = self.model(images)
+                _, predicted = torch.max(outputs.data, 1)
+                total += labels.size(0)
+                correct += (predicted == labels).sum().item()
+
+            print('Test Accuracy of the model: {} %'.format(100 * correct / total))
+
+        # Save
+        torch.save(self.model.state_dict(), 'model.ckpt')
+
+    def load_model(self, model_path: str):
+        self.model = torch.load(model_path)
+
+    def predict(self):
+        self.model.eval()  # it-disables-dropout
+        with torch.no_grad():
+            correct = 0
+            total = 0
+            for images, labels in self.predict_loader:
+                images = images.to(self.device)
+                labels = labels.to(self.device)
+                outputs = self.model(images)
+                _, predicted = torch.max(outputs.data, 1)
+
+                print(predicted)
+
+                total += labels.size(0)
+                correct += (predicted == labels).sum().item()
+
+
+            print('Test Accuracy of the model: {} %'.format(100 * correct / total))
+
+        # Save
+        torch.save(self.model.state_dict(), 'model.ckpt')
 
 class ImageGenerator:
 
@@ -119,7 +251,7 @@ class ImageGenerator:
     DATA_MATRIX_RGB = None
     DATA_STRINGS = None
 
-    def __init__(self, model_name="5ligsS"):
+    def __init__(self, model_name="5ligs"):
         self.emb = PlayerEmbedding()
         self.emb_data = EmbeddingData()
         self.emb.w2v_load(model_name)
@@ -168,8 +300,9 @@ class ImageGenerator:
             RGB_MATRIX[:, column_i, :] = rgb_vec
             self.DATA_MATRIX_RGB = RGB_MATRIX
 
-    def generate_match_images(self, league_name: str, image_size=72, delimiter=1, layers=3, ratio=0.2):
-        dir = self.create_dir(self.MAIN_PATH + "/" + league_name, sub_dir= "d" + str(delimiter) + "l" + str(layers))
+    def generate_match_images(self, league_name: str, image_size=72, delimiter=1, layers=3, ratio=0.2, common_path=None):
+        main_floder_name = league_name if not common_path else common_path
+        dir = self.create_dir(self.MAIN_PATH + "/" + main_floder_name, sub_dir= "d" + str(delimiter) + "l" + str(layers))
         dir_train = self.create_dir(dir, sub_dir="train")
         dir_test = self.create_dir(dir, sub_dir="test")
         dir_valid = self.create_dir(dir, sub_dir="valid")
@@ -236,7 +369,15 @@ class ImageGenerator:
             # fill stats
             vec_size_s = self.DATA_MATRIX_RGB.shape[1]
             image_matrix[: int(vec_size_s / 2), int(vec_size_p / 2) + 1, :] = self.DATA_MATRIX_RGB[match_i, :int(vec_size_s / 2), :]
-            image_matrix[: int(vec_size_s / 2), int(vec_size_p / 2) + 2, :] = self.DATA_MATRIX_RGB[match_i, int(vec_size_s / 2):, :]
+            image_matrix[: int(vec_size_s / 2), int(vec_size_p / 2) + 2, :] = self.DATA_MATRIX_RGB[match_i, :int(vec_size_s / 2), :]
+            image_matrix[: int(vec_size_s / 2), int(vec_size_p / 2) + 3, :] = self.DATA_MATRIX_RGB[match_i, :int(vec_size_s / 2), :]
+            image_matrix[: int(vec_size_s / 2), int(vec_size_p / 2) + 4, :] = self.DATA_MATRIX_RGB[match_i, :int(vec_size_s / 2), :]
+
+            image_matrix[: int(vec_size_s / 2), int(vec_size_p / 2) + 5, :] = self.DATA_MATRIX_RGB[match_i, int(vec_size_s / 2):, :]
+            image_matrix[: int(vec_size_s / 2), int(vec_size_p / 2) + 6, :] = self.DATA_MATRIX_RGB[match_i, int(vec_size_s / 2):, :]
+            image_matrix[: int(vec_size_s / 2), int(vec_size_p / 2) + 7, :] = self.DATA_MATRIX_RGB[match_i, int(vec_size_s / 2):, :]
+            image_matrix[: int(vec_size_s / 2), int(vec_size_p / 2) + 8, :] = self.DATA_MATRIX_RGB[match_i, int(vec_size_s / 2):, :]
+
 
             result = self.DATA_STRINGS[match_i]["Result"]
             selection = ""
@@ -296,20 +437,26 @@ class ImageGenerator:
             im.save(file_name)
             break
 
-#
-# img_gen = ImageGenerator()
-# img_gen.generate_match_images("LaLiga (Spain)")
-# img_gen.generate_match_images("LaLiga (Spain)", delimiter=10, layers=3)
+img_m = ImageModel("/Users/sanduser/PycharmProjects/Parser/Images/Common leagues/d1l3")
+img_m.train_model()
+img_m.test_model()
+# img_m.predict()
 
-# league_list = ("Premier League (Russia)", "LaLiga (Spain)", "Serie A (Italy)", "Super Lig (Turkey)")
-#
+# img_m.train_model()
+# img_m.test_model()
+
+# img_gen = ImageGenerator()
+# img_gen.generate_match_images("LaLiga (Spain)", image_size=72, common_path="Common leagues")
+
+# league_list = ("LaLiga (Spain)", "Premier League (Russia)", "Premier League (England)", "Serie A (Italy)", "Super Lig (Turkey)")
+# #
 # for league in league_list:
 #     print("League: ", league)
-#     img_gen.generate_match_images(league, image_size=72)
-#     img_gen.generate_match_images(league, image_size=72, delimiter=2, layers=3)
-#     img_gen.generate_match_images(league, image_size=72, delimiter=10, layers=3)
-#     img_gen.generate_match_images(league, image_size=72, delimiter=100, layers=3)
-#     img_gen.generate_match_images(league, image_size=72, delimiter=1, layers=2)
+#     img_gen.generate_match_images(league, image_size=72, common_path="Common leagues1")
+    # img_gen.generate_match_images(league, image_size=72, delimiter=2, layers=3)
+    # img_gen.generate_match_images(league, image_size=72, delimiter=10, layers=3)
+    # img_gen.generate_match_images(league, image_size=72, delimiter=100, layers=3)
+    # img_gen.generate_match_images(league, image_size=72, delimiter=1, layers=2)
 
 
 # Emb = PlayerEmbedding()
