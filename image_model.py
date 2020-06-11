@@ -10,17 +10,13 @@ from matplotlib import pyplot
 from word2vec_model import PlayerEmbedding
 from data_analytics import EmbeddingData
 
-import torch.nn as nn
-import torch.nn.functional as F
-
 import torch
 from torch import nn
 from torch import optim
 import torch.nn.functional as F
 from torchvision import datasets, transforms, models
-import torch.optim as optim
-
 from collections import OrderedDict
+from torch.utils.data import Dataset, DataLoader
 
 import multiprocessing
 from numpy import asarray
@@ -29,30 +25,36 @@ import sys
 
 #np.set_printoptions(threshold=sys.maxsize)
 
-class Net(nn.Module):
-    def __init__(self):
-        super(Net, self).__init__()
-        self.conv1 = nn.Conv2d(3, 6, 5)
-        self.pool = nn.MaxPool2d(2, 2)
-        self.conv2 = nn.Conv2d(6, 16, 5)
-        self.fc1 = nn.Linear(16 * 5 * 5, 120)
-        self.fc2 = nn.Linear(120, 84)
-        self.fc3 = nn.Linear(84, 10)
-
-    def forward(self, x):
-        x = self.pool(F.relu(self.conv1(x)))
-        x = self.pool(F.relu(self.conv2(x)))
-        x = x.view(-1, 16 * 5 * 5)
-        x = F.relu(self.fc1(x))
-        x = F.relu(self.fc2(x))
-        x = self.fc3(x)
-        return x
-
-
 
 def show_image(data):
     pyplot.matshow(data)
     pyplot.show()
+
+class ImageModel():
+    train_loader = None
+    test_loader = None
+    valid_loader = None
+
+    def __init__(self):
+        self.device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+
+    def define_data_loaders(self, data_dir):
+        train_dir = data_dir + '/train'
+        valid_dir = data_dir + '/valid'
+        test_dir = data_dir + '/test'
+        data_transforms = transforms.Compose([transforms.ToTensor(),
+                                              transforms.Normalize([0.485, 0.456, 0.406],
+                                                                   [0.229, 0.224, 0.225])])
+
+        # Load the datasets with ImageFolder
+        training_dataset = datasets.ImageFolder(train_dir, transform=data_transforms)
+        validation_dataset = datasets.ImageFolder(valid_dir, transform=data_transforms)
+        testing_dataset = datasets.ImageFolder(test_dir, transform=data_transforms)
+
+        # Using the image datasets and the trainforms, define the dataloaders
+        train_loader = DataLoader(training_dataset, batch_size=64, shuffle=True)
+        validate_loader = DataLoader(validation_dataset, batch_size=32)
+        test_loader = DataLoader(testing_dataset, batch_size=32)
 
 
 class ImageGenerator:
@@ -294,12 +296,10 @@ class ImageGenerator:
             im.save(file_name)
             break
 
-
-
 #
-img_gen = ImageGenerator()
-img_gen.generate_match_images("LaLiga (Spain)")
-img_gen.generate_match_images("LaLiga (Spain)", delimiter=10, layers=3)
+# img_gen = ImageGenerator()
+# img_gen.generate_match_images("LaLiga (Spain)")
+# img_gen.generate_match_images("LaLiga (Spain)", delimiter=10, layers=3)
 
 # league_list = ("Premier League (Russia)", "LaLiga (Spain)", "Serie A (Italy)", "Super Lig (Turkey)")
 #
