@@ -1,11 +1,9 @@
 import csv
-import sys
 import os
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from time import sleep, time
+from time import sleep
 from selenium import webdriver
+
 
 MAIN_URL = 'https://www.oddsportal.com/soccer/'
 
@@ -15,12 +13,12 @@ class OddsPortalParser:
     SEASON_LINKS = list()
     MATCHES = list()
 
-    def __init__(self, driver) -> None:
-        self.driver = driver
+    def __init__(self, new_driver) -> None:
+        self.driver = new_driver
         self.wait = WebDriverWait(self.driver, 20)
         self.league_name = ""
 
-    def go_to_target_page(self, url_ending) -> None:
+    def go_to_target_page(self, url_ending: str) -> None:
         self.driver.get(MAIN_URL + url_ending)
         sleep(3)
         self.league_name = url_ending[url_ending.find("/") + 1:]
@@ -55,7 +53,6 @@ class OddsPortalParser:
                             TeamHome = TeamHome[:TeamHome.find("-") - 1]
                             result = match.find_element_by_class_name("table-odds").text
                             bets = match.find_elements_by_class_name("odds-nowrp")
-                            # sleep(5)
                             row = {
                                 "TeamHome": TeamHome,
                                 "TeamAway": TeamAway,
@@ -69,7 +66,7 @@ class OddsPortalParser:
                             writer.writerow(row)
 
 
-#driver = webdriver.Chrome()  # for Misha
+# driver = webdriver.Chrome()  # for Misha
 driver = webdriver.Chrome("/Users/sanduser/PycharmProjects/Parser/chromedriver")  # for Andrey
 example = OddsPortalParser(driver)
 example.go_to_target_page("england/premier-league/results/")

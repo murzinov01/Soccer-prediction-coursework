@@ -2,8 +2,9 @@ from selenium_parser import ParseLeagueResults, ParseTeamsScore, ParsePlayersSco
 from selenium import webdriver
 from data_analytics import MatchesDataAnalytics
 
+
 def main():
-    # driver = webdriver.Chrome()  # for Misha
+    driver = webdriver.Chrome()  # for Misha
     # driver = webdriver.Chrome("/Users/sanduser/PycharmProjects/Parser/chromedriver")  # for Andrey
 
     # ***** PARSING PLAYERS SCORE *****
@@ -13,20 +14,20 @@ def main():
 
     # ***** PARSING MATCH RESULTS *****
 
-    # ParserLeagues = ParseLeagueResults(driver)
-    # ParserLeagues.go_to_main_page()
-    # ParserLeagues.accept_cookies()
-    # while True:
-    #     try:
-    #         ParserLeagues.start_parse()
-    #     except Exception as e:
-    #         print(repr(e))
-    #         if len(driver.window_handles) > 1:
-    #             driver.close()
-    #             driver.switch_to.window(driver.window_handles[0])
-    #         ParserLeagues.go_to_main_page()
-    #         continue
-    #     break
+    ParserLeagues = ParseLeagueResults(driver)
+    ParserLeagues.go_to_main_page()
+    ParserLeagues.accept_cookies()
+    while True:
+        try:
+            ParserLeagues.start_parse()
+        except Exception as e:
+            print(repr(e))
+            if len(driver.window_handles) > 1:
+                driver.close()
+                driver.switch_to.window(driver.window_handles[0])
+            ParserLeagues.go_to_main_page()
+            continue
+        break
 
     # ***** Parse TEAMS SCORE *****
     # ParserTeams = ParseTeamsScore(driver)
@@ -34,9 +35,9 @@ def main():
     # ParserTeams.start_parse()
 
     # ***** ANALYTICS ***** (match_id starts from 0) *****
-    anal = MatchesDataAnalytics("Premier League (Russia) ")
-    print(anal.create_actual_table(0))
-    print(anal.summarise_statistic(0))
+    # data = MatchesDataAnalytics("Premier League (Russia) ")
+    # print(data.create_actual_table(0))
+    # print(data.summarise_statistic(0))
 
 
 if __name__ == '__main__':
