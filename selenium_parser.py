@@ -4,13 +4,13 @@ import os
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from time import sleep, time
+from time import sleep
 
 
 MAIN_URL = 'https://whoscored.com/'
 
 
-def progressBar(value: int, end_value: int, team_home: str, team_away: str, bar_length=100):
+def progressBar(value: int, end_value: int, team_home: str, team_away: str, bar_length=100) -> None:
     percent = float(value) / end_value
     arrow = '-' * int(round(percent * bar_length) - 1) + '>'
     spaces = ' ' * (bar_length - len(arrow))
@@ -18,28 +18,24 @@ def progressBar(value: int, end_value: int, team_home: str, team_away: str, bar_
     sys.stdout.flush()
 
 
-# Парсер
+# Parser
 class WhoScoredParser:
     PLAYER_TABLE = ""
-
 
     def __init__(self, driver):
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 20)
 
-    def go_to_target_page(self, url):
+    def go_to_target_page(self, url: str) -> None:
         self.driver.get(url)
-        #sleep(3)
 
-    def go_to_main_page(self):
+    def go_to_main_page(self) -> None:
         self.driver.get(MAIN_URL)
-        #sleep(6)
 
-    # Ищем кнопку accept и нажимаем на нее
-    def accept_cookies(self):
+    # Find the button 'accept' and press on it
+    def accept_cookies(self) -> None:
         self.wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'qc-cmp-button')))
         self.driver.find_elements_by_class_name('qc-cmp-button')[1].click()
-        # sleep(3)
 
     def find_leagues_buttons(self):
         self.wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'hover-target')))
@@ -49,32 +45,30 @@ class WhoScoredParser:
 class ParsePlayersScore(WhoScoredParser):
     URL = 'https://1xbet.whoscored.com/statistics'
 
-    # Находим таблицу с статистикой играков
+    # find the player's statistic table
     def __init__(self, driver):
         super().__init__(driver)
 
-    def start_parse(self):
+    def start_parse(self) -> None:
         self.go_to_target_page(self.URL)
         self.find_players_table()
         self.collecting_info_from_player_table()
 
-    def find_players_table(self):
+    def find_players_table(self) -> None:
         sleep(3)
         self.PLAYER_TABLE = self.driver.find_element_by_id("player-table-statistics-body").find_elements_by_tag_name(
             "tr")
 
-    # Собираем информацию и записываем ее в csv файл
-    def collecting_info_from_player_table(self):
-        # Открываем файл с помощью конструкции with, которая автоматически закроет его в конце работы
+    # Collect information and write it in file
+    def collecting_info_from_player_table(self) -> None:
         with open("players_score_data.csv", 'w', encoding='utf-8', newline='') as file:
-            # атрибут fieldnames отвечает за ключи в csv файле. CSV файл - таблица-словарь, в которой в ПЕРВОЙ строке присутствуют ключи словаря. Каждый ключ соответсвует столбцу таблицы.
             writer = csv.DictWriter(file,
                                     fieldnames=["Name", "Meta_data", "Apps", "Mins", "Goals", "Assists", "Yel_card",
                                                 "Red_card",
                                                 "ShotsPerGame", "PassSuccess", "AerialWonPerGame", "ManOfTheMatch",
                                                 "Rating"])
-            # Этот метод записывает заголовки из fieldnames в первую строку файла
             writer.writeheader()
+
             # Crawl pages
             span = self.driver.find_element_by_id("statistics-paging-summary").find_element_by_tag_name("b").text
             max_page = int(span[span.find('/') + 1: span.find('|') - 1])
@@ -99,14 +93,17 @@ class ParsePlayersScore(WhoScoredParser):
                         "Rating": player[13].text,
                     }
                     writer.writerow(row)
+
                 # press the next button
                 self.driver.find_element_by_id("statistics-paging-summary").find_element_by_id("next").click()
                 sleep(3)
+
                 # found player table in new page
                 self.find_players_table()
 
 
 class ParseLeagueResults(WhoScoredParser):
+
     TABLE_BUTTONS = list()
     SEASONS_URL = list()
     SEASONS_NAME = list()
@@ -117,21 +114,19 @@ class ParseLeagueResults(WhoScoredParser):
         self.start_season = start_season
         self.start_month = start_month
         self.start_match = start_match
-        # self.times = 0
-        # self.count = 0
         super().__init__(driver)
 
-    def start_parse(self):
+    def start_parse(self) -> None:
         self.load_check_point()
         self.TABLE_BUTTONS = self.find_leagues_buttons()
         self.parse_leagues()
 
     @staticmethod
-    def do_check_point(point: str):
+    def do_check_point(point: str) -> None:
         with open("save.txt", "w") as file:
             file.write(point)
 
-    def load_check_point(self):
+    def load_check_point(self) -> None:
         with open("save.txt", "r") as file:
             params = file.readline().split(",")
             self.start_league = int(params[0])
@@ -140,7 +135,7 @@ class ParseLeagueResults(WhoScoredParser):
             print(f"\nCheck_point: League № {params[0]}, Season № {params[1]}, Match № {params[2]}")
 
     @staticmethod
-    def parse_match_moments(match_moments: dict, incidents, team_key: str):
+    def parse_match_moments(match_moments: dict, incidents, team_key: str) -> None:
         for incident in incidents:
             for moment in incident.find_elements_by_class_name('match-centre-header-team-key-incident'):
                 # Cards
@@ -153,15 +148,13 @@ class ParseLeagueResults(WhoScoredParser):
                 # Goals
                 elif moment.get_attribute('data-type') == '16':
                     text = moment.text
-                    match_moments[team_key]["goals"] += text.replace(text[text.find('('): text.find(')') + 1],
-                                                                     "") + ", "
+                    match_moments[team_key]["goals"] += text.replace(text[text.find('('): text.find(')') + 1],                                                                 "") + ", "
                 # Assists
                 elif moment.get_attribute('data-type') == '1':
                     match_moments[team_key]["assists"] += moment.text + ", "
 
-    def parse_match(self, match: str):
-        # *** MATCH SUMMARY PARCING ***
-        # start_time = time()
+    def parse_match(self, match: str) -> dict:
+        # *** MATCH SUMMARY PARSING ***
         self.driver.switch_to.window(self.driver.window_handles[0])
         self.driver.execute_script("window.open('');")
         self.driver.switch_to.window(self.driver.window_handles[1])
@@ -187,7 +180,7 @@ class ParseLeagueResults(WhoScoredParser):
         for i in range(8):
             detailed_info.append(stats[i].find_elements_by_tag_name('span'))
 
-        # **** PARCING PLAYERS AND THEIR STATS ******
+        # **** PARSING PLAYERS AND THEIR STATS ******
         # Parse team line-up
         players = pitch.find_elements_by_class_name("player-name-wrapper")
         players_score = pitch.find_elements_by_class_name("player-stat")
@@ -283,25 +276,20 @@ class ParseLeagueResults(WhoScoredParser):
             "RedCardHome": match_moments['home']['red_cards'],
             "RedCardAway": match_moments['away']['red_cards']}
 
-        # self.count += 1
-        # self.times = self.times + time() - start_time
-        # print("THE ALL TIME OF PARCING ONE MATCH " + str(time() - start_time))
-        # if self.count == 15:
-        #    print(self.times / 15)
         self.driver.close()
-
         return data
 
-    def parse_leagues(self):
+    def parse_leagues(self) -> None:
         for league_num in range(self.start_league, len(self.TABLE_BUTTONS)):
             print(f"Collecting data: {round(league_num / len(self.TABLE_BUTTONS) * 100, 2)} %...")
-            league_name = self.TABLE_BUTTONS[league_num].text + ' (' +\
-                          self.TABLE_BUTTONS[league_num].find_element_by_tag_name('a').get_attribute('title') + ') '
+            league_name = self.TABLE_BUTTONS[league_num].text + ' (' + \
+                self.TABLE_BUTTONS[league_num].find_element_by_tag_name('a').get_attribute('title') + ') '
             print(league_name)
+
             # *** CHOOSE LEAGUE ***
             self.TABLE_BUTTONS[league_num].click()
-            # sleep (2)
             self.wait.until(EC.element_to_be_clickable((By.ID, 'seasons')))
+
             # *** SAVE SEASON URL
             for season in self.driver.find_element_by_id('seasons').find_elements_by_tag_name('option')[:5]:
                 self.SEASONS_URL.append(MAIN_URL + season.get_attribute('value'))
@@ -327,6 +315,7 @@ class ParseLeagueResults(WhoScoredParser):
                                                     "DispossessedAway",
                                                     "GoalsHome", "GoalsAway", "AssistsHome", "AssistsAway",
                                                     "YellowCardHome", "YellowCardAway", "RedCardHome", "RedCardAway"])
+
                 # check if the file is exist
                 if not os.path.getsize(league_name + "_results_data.csv"):
                     writer.writeheader()
@@ -334,12 +323,11 @@ class ParseLeagueResults(WhoScoredParser):
                 # go to target season
                 if self.start_season:
                     self.go_to_target_page(self.SEASONS_URL[self.start_season])
-                    # sleep (2)
+
                 # click "Fixtures" button
                 self.wait.until(EC.element_to_be_clickable((By.ID, 'sub-navigation')))
                 self.go_to_target_page(
                     self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[1].get_attribute("href"))
-                # sleep(2)
 
                 # Crawl seasons
                 for i in range(self.start_season, 5):
@@ -375,11 +363,14 @@ class ParseLeagueResults(WhoScoredParser):
                     for match_index in range(self.start_match, last_match):
                         # Make save
                         self.do_check_point(f"""{league_num},{i},{match_index}""")
+
                         # Collect information
                         row = self.parse_match(self.MATCHES_URL[match_index])
                         row["Season"] = self.SEASONS_NAME[i]
+
                         # Check progress
                         progressBar(match_index, last_match, row["TeamHome"], row["TeamAway"])
+
                         # Write information
                         writer.writerow(row)
 
@@ -389,9 +380,11 @@ class ParseLeagueResults(WhoScoredParser):
                     if i != 4:
                         # save season
                         self.do_check_point(f"""{league_num},{i + 1},{0}""")
+
                         # change season
                         self.go_to_target_page(self.SEASONS_URL[i + 1])
                         self.wait.until(EC.element_to_be_clickable((By.ID, 'sub-navigation')))
+
                         # click "Fixtures" button
                         self.go_to_target_page(
                             self.driver.find_element_by_id('sub-navigation').find_elements_by_tag_name('a')[1].get_attribute("href"))
@@ -409,11 +402,11 @@ class ParseTeamsScore(WhoScoredParser):
     def __init__(self, driver):
         super().__init__(driver)
 
-    def start_parse(self):
+    def start_parse(self) -> None:
         self.TABLE_BUTTONS = self.find_leagues_buttons()
         self.parse_teams()
 
-    def parse_teams(self):
+    def parse_teams(self) -> None:
         # create file
         with open("teams_score_data.csv", 'w', encoding='utf-8', newline='') as file:
             writer = csv.DictWriter(file,
@@ -422,15 +415,19 @@ class ParseTeamsScore(WhoScoredParser):
                                                 "Tackles per game", "Dribbles per game",
                                                 'P', 'W', 'D', 'L', 'GF', 'GA', 'GD'])
             writer.writeheader()
+
             for league_num in range(len(self.TABLE_BUTTONS)):
                 print(f"Collecting data: {round(league_num / len(self.TABLE_BUTTONS) * 100, 2)} %...")
                 league_name = self.TABLE_BUTTONS[league_num].text + ' (' + \
-                              self.TABLE_BUTTONS[league_num].find_element_by_tag_name('a').get_attribute('title') + ') '
+                    self.TABLE_BUTTONS[league_num].find_element_by_tag_name('a').get_attribute('title') + ') '
+
                 # click league
                 self.TABLE_BUTTONS[league_num].click()
                 sleep(2)
+
                 # find season table
                 teams_table = self.driver.find_element_by_class_name('standings').find_elements_by_tag_name('tr')
+
                 # make buffer for team stats
                 teams = list()
                 teams_url = list()
@@ -457,16 +454,20 @@ class ParseTeamsScore(WhoScoredParser):
                     teams.append(team)
                     # save url
                     teams_url.append(team_stats[1].find_element_by_tag_name('a').get_attribute('href'))
+
                 # now visit pages of each club for detailed stats
                 for page in range(len(teams_table)):
                     self.go_to_target_page(teams_url[page])
+
                     # find a team profile box
                     side_box = self.driver.find_element_by_class_name('team-profile-side-box')
                     teams[page]['Score'] = side_box.find_element_by_class_name('rating').text
                     stats = side_box.find_element_by_class_name('stats-container').find_elements_by_tag_name('dd')
+
                     # value a discipline
                     discipline = int(stats[8].find_elements_by_tag_name('span')[0].text) + \
-                                 2 * int(stats[8].find_elements_by_tag_name('span')[1].text)
+                        2 * int(stats[8].find_elements_by_tag_name('span')[1].text)
+
                     # save stats
                     teams[page]['Goal per game'] = stats[2].text
                     teams[page]['Possession'] = stats[3].text
@@ -475,6 +476,7 @@ class ParseTeamsScore(WhoScoredParser):
                     teams[page]['Tackles per game'] = stats[6].text
                     teams[page]['Dribbles per game'] = stats[7].text
                     teams[page]['Discipline'] = discipline
+
                     # write one team row
                     writer.writerow(teams[page])
                     progressBar(page, len(teams_table), league_name)
