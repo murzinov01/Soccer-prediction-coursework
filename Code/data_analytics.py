@@ -2,15 +2,12 @@ import csv
 import difflib
 
 
-
 def similarity(s1: str, s2: str) -> float:
-  normalized1 = s1.lower()
-  normalized2 = s2.lower()
-  matcher = difflib.SequenceMatcher(None, normalized1, normalized2)
-  return matcher.ratio()
+    return difflib.SequenceMatcher(None, s1.lower(), s2.lower()).ratio()
 
 
 class MatchesDataAnalytics:
+
     ALL_MATCHES = list()
     ALL_SEASON_TEAMS = list()
     RECENT_MATCHES = list()
@@ -53,7 +50,7 @@ class MatchesDataAnalytics:
                 return
             self.LAST_SEASON_MATCHES.append(match)
 
-    def find_match_id(self, date: str, team_home: str, team_away="", season=""):
+    def find_match_id(self, date: str, team_home: str) -> int:
         for index in range(0, len(self.ALL_MATCHES)):
             match = self.ALL_MATCHES[index]
             if match["Date"] == date and match["TeamHome"] == team_home:
@@ -77,7 +74,6 @@ class MatchesDataAnalytics:
 
     @staticmethod
     def calculate_table_stats(table: dict, team_name: str, team_home: bool, match) -> None:
-
         if team_home:
             team_status1 = "Home"
             team_status2 = "Away"
@@ -118,7 +114,7 @@ class MatchesDataAnalytics:
         }
 
     @staticmethod
-    def calculate_stats(match: dict, team_status: str, set_null=False) -> dict:
+    def calculate_stats(match: dict, team_status: str) -> dict:
         match_stats = {
             "RatingTeam": float(match["RatingTeam" + team_status]),
             "TotalShots": float(match["TotalShots" + team_status]),
@@ -135,7 +131,7 @@ class MatchesDataAnalytics:
         }
         return match_stats
 
-    def calculate_stats_average(self, stats: dict):
+    def calculate_stats_average(self, stats: dict) -> None:
         # check if empty
         if not stats:
             return
@@ -210,8 +206,7 @@ class MatchesDataAnalytics:
 
         return TABLE
 
-    def summarise_statistic(self, match_id: int, use_prev_season=False, period=-1) -> dict():
-
+    def summarise_statistic(self, match_id: int, use_prev_season=False, period=-1) -> dict:
         self.season_matches(match_id, use_prev_season)
         STATS = {
             "TeamHome": {
@@ -330,7 +325,6 @@ class MatchesDataAnalytics:
             return
         if target_player in match_line_up:
             index_r = match_line_up.index(target_player)
-            # print (target_player, r_match_line_up[index_r])
             line_up["Ratings"][index] += r_match_line_up[index_r] if r_match_line_up[index_r] != -1 else self.MIN_PLAYER_RATING
             line_up["Games_num"][index] += 1
 
@@ -361,9 +355,7 @@ class MatchesDataAnalytics:
             "Games_num": [0 for i in range(away_size)]
         }
 
-        # get data
-        # print("LSM: ",len(self.LAST_SEASON_MATCHES))
-        # print(self.LAST_SEASON_MATCHES[len(self.LAST_SEASON_MATCHES) - 1])
+        # Get data
         for match in self.LAST_SEASON_MATCHES:
             match_home_line_up = match["StartTeamHome"].split(', ')
             match_away_line_up = match["StartTeamAway"].split(', ')
@@ -524,27 +516,6 @@ class DataPackager:
     def convert_match_data(self, match: dict, data: dict) -> dict:
         match_id = self.AL.ALL_MATCHES.index(match)
 
-        # data["BetHome"] = 0
-        # data["BetDraw"] = 0
-        # data["BetAway"] = 0
-        #
-        # match_string_name = [match["TeamHome"], match["TeamAway"]]
-        # match_string_result = match["ResultTeamHome"] + match["ResultTeamAway"]
-        # for match_bet in self.BETS:
-        #     match_result = match_bet["ResultTeamHome"] + match_bet["ResultTeamAway"]
-        #     if match_result != match_string_result:
-        #         continue
-        #     if abs(self.AL.ALL_MATCHES.index(match) - self.BETS.index(match_bet)) > 15:
-        #         continue
-        #     if similarity(match_string_name[0], match_bet["TeamHome"]) > 0.6 and \
-        #         similarity(match_string_name[1], match_bet["TeamAway"]) > 0.6:
-        #         data["BetHome"] = match_bet["Bet1"]
-        #         data["BetDraw"] = match_bet["BetX"]
-        #         data["BetAway"] = match_bet["Bet2"]
-        #         break
-        #
-        # if data["BetHome"] == 0:
-        #     return data
         data["Date"] = self.AL.ALL_MATCHES[match_id]["Date"]
         data["TeamHomeStr"] = self.AL.ALL_MATCHES[match_id]["TeamHome"]
         data["TeamAwayStr"] = self.AL.ALL_MATCHES[match_id]["TeamAway"]
@@ -585,7 +556,6 @@ class DataPackager:
         data["RatingStartTeamAway3"] = format(d_var["TeamAway"]["Start"], '.3f')
         data["RatingSubstitutionAway3"] = format(d_var["TeamAway"]["Subs"], '.3f')
 
-
         d_var = self.AL.calculate_goals_assists(match_id)
         data["GoalsTeamHome"] = d_var["TeamHome"]["Goals"]
         data["GoalsTeamAway"] = d_var["TeamAway"]["Goals"]
@@ -607,7 +577,6 @@ class DataPackager:
             for key in d_var["TeamHome"]["HomeStats"].keys():
                 if key == "Period":
                     break
-                # print(d_var["TeamHome"]["HomeStats"][key], type(d_var["TeamHome"]["HomeStats"][key]), d_var["TeamHome"]["AwayStats"][key], type(d_var["TeamHome"]["AwayStats"][key]))
                 stats = d_var["TeamHome"]["HomeStats"][key] if endings.index(end) % 2 == 0 else \
                     (d_var["TeamHome"]["HomeStats"][key] + d_var["TeamHome"]["AwayStats"][key]) / 2
                 data[key + "Home" + end] = format(stats, '.3f')
@@ -621,8 +590,6 @@ class DataPackager:
                 data[key + "Away" + end] = format(stats, '.3f')
 
         for team in ("Home", "Away"):
-            # actual_table = self.AL.create_actual_table(match_id, use_prev_season=False if self.AL.number_of_tour(match_id)[
-            #                                                                           "Team" + team] == 0 else True)
             actual_table = self.AL.create_actual_table(match_id)
             d_var = actual_table.copy()[match["Team" + team]]
             for key in d_var.keys():
@@ -631,7 +598,6 @@ class DataPackager:
             data["FutureTeam" + team] = self.ST.code_string("Team", d_var["TeamName"]) if d_var["TeamName"] else self.ST.code_string("Team", "empty")
             data["FuturePlaceTeam" + team] = actual_table[d_var["TeamName"]]["Place"] if d_var["TeamName"] else -1
             data["FutureStatusTeam" + team] = d_var["MatchStatus"]
-
 
         return data
 
@@ -706,8 +672,6 @@ class DataPackager:
                     break
                 data = self.convert_match_data(match, data.copy())
                 writer.writerow(data)
-                # if data["BetHome"] != 0:
-                #     writer.writerow(data)
 
 
 class StringsTransfer:
@@ -756,7 +720,6 @@ class StringsTransfer:
         return hours + minutes
 
 
-
 class EmbeddingData:
 
     DATA = list()
@@ -778,24 +741,3 @@ class EmbeddingData:
                 self.DATA.append(self.define_players_list(match["StartTeamAway"]))
                 self.DATA.append(self.define_players_list(match["SubstitutionHome"]))
                 self.DATA.append(self.define_players_list(match["SubstitutionAway"]))
-
-
-
-#example = MatchesDataAnalytics("Premier League (Russia)1")
-# example1 = DataPackager("Premier League (England)")
-# example1.assemble_data()
-# example1 = DataPackager("Premier League (Russia)")
-# example1.assemble_data()
-# example1 = DataPackager("Serie A (Italy)")
-# example1.assemble_data()
-# example1 = DataPackager("LaLiga (Spain)")
-# example1.assemble_data()
-# example1 = DataPackager("Super Lig (Turkey)")
-# example1.assemble_data()
-# example2 = StringsTransfer()
-#example2.write_content()
-# print(example.calculate_players_rating(0))
-# example3 = EmbeddingData()
-# example3.make_sentences_list("Premier League (England)")
-# print(example3.DATA)
-

@@ -1,7 +1,7 @@
 import csv
 
 
-def sort_by_date(file_name):
+def sort_by_date(file_name: str) -> None:
     # *** READ CSV FILE ***
     ALL_MATCHES = list()
 
@@ -9,7 +9,6 @@ def sort_by_date(file_name):
         reader = csv.DictReader(file)
         for match in reader:
             ALL_MATCHES.append(match)
-
 
     with open(file_name + "_corrected.csv", 'w', encoding='utf-8', newline='') as file:
         writer = csv.DictWriter(file, fieldnames=[
@@ -50,7 +49,8 @@ def sort_by_date(file_name):
         month_matches = month_matches[::-1]
         writer.writerows(month_matches)
 
-def TransferPlayer(file_name):
+
+def TransferPlayer(file_name: str) -> None:
     # *** READ CSV FILE ***
     ALL_MATCHES = list()
 
@@ -58,7 +58,6 @@ def TransferPlayer(file_name):
         reader = csv.DictReader(file)
         for match in reader:
             ALL_MATCHES.append(match)
-
 
     with open(file_name + "_corrected.csv", 'w', encoding='utf-8', newline='') as file:
         writer = csv.DictWriter(file, fieldnames=[
@@ -105,4 +104,4 @@ def TransferPlayer(file_name):
             writer.writerow(match)
 
 
-TransferPlayer("Super Lig (Turkey) _results_data.csv")
+# TransferPlayer("Super Lig (Turkey) _results_data.csv")
