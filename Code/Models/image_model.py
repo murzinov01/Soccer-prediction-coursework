@@ -1,37 +1,27 @@
 import csv
-import numpy as np
-import pandas as pd
-import seaborn as sb
+import os
+import sys
 import random
-import PIL
+import numpy as np
+import torch
+import torch.nn.functional as F
 from PIL import Image
-from matplotlib import image
 from matplotlib import pyplot
 from word2vec_model import PlayerEmbedding
 from data_analytics import EmbeddingData
-
-import torch
 from torch import nn
-from torch import optim
-import torch.nn.functional as F
 from torchvision import datasets, transforms, models
-from collections import OrderedDict
 from torch.utils.data import Dataset, DataLoader
-
-import multiprocessing
-from numpy import asarray
-import os
-import sys
-
-#np.set_printoptions(threshold=sys.maxsize)
 
 
 def show_image(data):
     pyplot.matshow(data)
     pyplot.show()
 
+
 class CNN(nn.Module):
-    def __init__(self):
+
+    def __init__(self) -> None:
         super(CNN, self).__init__()
         self.conv1 = nn.Conv2d(in_channels=3, out_channels=10, kernel_size=3)
         self.conv2 = nn.Conv2d(10, 20, kernel_size=3)
@@ -39,7 +29,7 @@ class CNN(nn.Module):
         self.fc1 = nn.Linear(980, 5184)
         self.fc2 = nn.Linear(5184, 3)
 
-    def forward(self, x):
+    def forward(self, x) -> None:
         x = F.relu(F.max_pool2d(self.conv1(x), 3))
         x = F.relu(F.max_pool2d(self.conv2_drop(self.conv2(x)), 3))
         x = x.view(x.shape[0], -1)
@@ -48,7 +38,9 @@ class CNN(nn.Module):
         x = self.fc2(x)
         return x
 
-class ImageModel():
+
+class ImageModel:
+
     train_loader = None
     test_loader = None
     valid_loader = None
@@ -69,29 +61,25 @@ class ImageModel():
         # define data loaders
         self.define_data_loaders(data_dir=data_dir)
 
-
-
     def define_data_loaders(self, data_dir):
         train_dir = data_dir + '/train'
         valid_dir = data_dir + '/valid'
         test_dir = data_dir + '/test'
-        #predict_dir = data_dir + '/predict'
         data_transforms = transforms.Compose([transforms.ToTensor(),
                                               transforms.Normalize([0.485, 0.456, 0.406],
                                                                    [0.229, 0.224, 0.225])])
 
-        # Load the datasets with ImageFolder
+        # Load the data_sets with ImageFolder
         training_dataset = datasets.ImageFolder(train_dir, transform=data_transforms)
         validation_dataset = datasets.ImageFolder(valid_dir, transform=data_transforms)
         testing_dataset = datasets.ImageFolder(test_dir, transform=data_transforms)
-        #predict_dataset = datasets.ImageFolder(predict_dir, transform=data_transforms)
+        # predict_data_set = datasets.ImageFolder(predict_dir, transform=data_transforms)
 
-        # Using the image datasets and the trainforms, define the dataloaders
+        # Using the image data_sets and the trainforms, define the data_loaders
         self.train_loader = DataLoader(training_dataset, batch_size=64, shuffle=True)
         self.valid_loader = DataLoader(validation_dataset, batch_size=32)
         self.test_loader = DataLoader(testing_dataset, batch_size=32)
-       # self.predict_loader = DataLoader(predict_dataset, batch_size=32)
-
+        # self.predict_loader = DataLoader(predict_data_set, batch_size=32)
 
     def train_model(self):
         train_losses = []
@@ -189,6 +177,7 @@ class ImageModel():
         # Save
         torch.save(self.model.state_dict(), 'model.ckpt')
 
+
 class ImageGenerator:
 
     MIN_MAX_VAL = {
@@ -257,14 +246,15 @@ class ImageGenerator:
         self.emb.w2v_load(model_name)
         self.emb.normalize_all_vectors()
 
-    def create_dir(self, dir: str, sub_dir="1") -> str:
+    @staticmethod
+    def create_dir(directory: str, sub_dir="1") -> str:
         try:
-            os.mkdir(dir + '/')
+            os.mkdir(directory + '/')
         finally:
             try:
-                os.mkdir(dir + '/' + sub_dir + '/')
+                os.mkdir(directory + '/' + sub_dir + '/')
             finally:
-                return dir + '/' + sub_dir + '/'
+                return directory + '/' + sub_dir + '/'
 
     def generate_league_stats(self, league_name: str):
         self.DATA_STRINGS = list()
@@ -288,7 +278,6 @@ class ImageGenerator:
         self.DATA_MATRIX = np.genfromtxt(league_name + "_learn_data.csv", delimiter=';')
         self.DATA_MATRIX = self.DATA_MATRIX[1:, 10:]
 
-
         RGB_MATRIX = np.zeros([self.DATA_MATRIX.shape[0], self.DATA_MATRIX.shape[1], 3])
 
         for column_i in range(self.DATA_MATRIX.shape[1]):
@@ -302,10 +291,10 @@ class ImageGenerator:
 
     def generate_match_images(self, league_name: str, image_size=72, delimiter=1, layers=3, ratio=0.2, common_path=None):
         main_floder_name = league_name if not common_path else common_path
-        dir = self.create_dir(self.MAIN_PATH + "/" + main_floder_name, sub_dir= "d" + str(delimiter) + "l" + str(layers))
-        dir_train = self.create_dir(dir, sub_dir="train")
-        dir_test = self.create_dir(dir, sub_dir="test")
-        dir_valid = self.create_dir(dir, sub_dir="valid")
+        directory = self.create_dir(self.MAIN_PATH + "/" + main_floder_name, sub_dir= "d" + str(delimiter) + "l" + str(layers))
+        dir_train = self.create_dir(directory, sub_dir="train")
+        dir_test = self.create_dir(directory, sub_dir="test")
+        dir_valid = self.create_dir(directory, sub_dir="valid")
         directories = {
             "Te1": self.create_dir(dir_test, sub_dir="1"),
             "Te2": self.create_dir(dir_test, sub_dir="2"),
@@ -378,7 +367,6 @@ class ImageGenerator:
             image_matrix[: int(vec_size_s / 2), int(vec_size_p / 2) + 7, :] = self.DATA_MATRIX_RGB[match_i, int(vec_size_s / 2):, :]
             image_matrix[: int(vec_size_s / 2), int(vec_size_p / 2) + 8, :] = self.DATA_MATRIX_RGB[match_i, int(vec_size_s / 2):, :]
 
-
             result = self.DATA_STRINGS[match_i]["Result"]
             selection = ""
             if match_i in matches_split_train:
@@ -400,7 +388,7 @@ class ImageGenerator:
             im.save(file_name)
 
     def generate_match_images_test(self, league_name: str, image_size=72):
-        dir = self.create_dir(league_name) + "TESTS/"
+        directory = self.create_dir(league_name) + "TESTS/"
         self.generate_league_stats(league_name)
 
         for match_i in range(self.DATA_MATRIX_RGB.shape[0]):
@@ -427,65 +415,16 @@ class ImageGenerator:
             # fill stats
 
             # create file name
-            file_name = dir + "5DEL" + self.DATA_STRINGS[match_i]["Result"] + self.DATA_STRINGS[match_i]["Total2.5"] \
-                        + self.DATA_STRINGS[match_i]["Total1.5"] + '[' + self.DATA_STRINGS[match_i]["Date"] + ']' \
-                        + self.DATA_STRINGS[match_i]["TeamHomeName"] + '-' + self.DATA_STRINGS[match_i]["TeamAwayName"] \
-                        +".png"
+            file_name = directory + "5DEL" + self.DATA_STRINGS[match_i]["Result"] + self.DATA_STRINGS[match_i]["Total2.5"] \
+                + self.DATA_STRINGS[match_i]["Total1.5"] + '[' + self.DATA_STRINGS[match_i]["Date"] + ']' \
+                + self.DATA_STRINGS[match_i]["TeamHomeName"] + '-' + self.DATA_STRINGS[match_i]["TeamAwayName"] + ".png"
 
             int_matrix = np.uint8(image_matrix)
             im = Image.fromarray(int_matrix)
             im.save(file_name)
             break
 
+
 img_m = ImageModel("/Users/sanduser/PycharmProjects/Parser/Images/Common leagues/d1l3")
 img_m.train_model()
 img_m.test_model()
-# img_m.predict()
-
-# img_m.train_model()
-# img_m.test_model()
-
-# img_gen = ImageGenerator()
-# img_gen.generate_match_images("LaLiga (Spain)", image_size=72, common_path="Common leagues")
-
-# league_list = ("LaLiga (Spain)", "Premier League (Russia)", "Premier League (England)", "Serie A (Italy)", "Super Lig (Turkey)")
-# #
-# for league in league_list:
-#     print("League: ", league)
-#     img_gen.generate_match_images(league, image_size=72, common_path="Common leagues1")
-    # img_gen.generate_match_images(league, image_size=72, delimiter=2, layers=3)
-    # img_gen.generate_match_images(league, image_size=72, delimiter=10, layers=3)
-    # img_gen.generate_match_images(league, image_size=72, delimiter=100, layers=3)
-    # img_gen.generate_match_images(league, image_size=72, delimiter=1, layers=2)
-
-
-# Emb = PlayerEmbedding()
-# Emb.w2v_load()
-# Emb.normalize_all_vectors()
-#
-# rgb_img_matrix = np.zeros((80, Emb.VEC_SIZE, 3))
-# print(rgb_img_matrix.shape)
-#
-# count = 0
-# for vec in Emb.NORMALIZED_VECTORS.values():
-#     rgb_img_matrix[count] += Emb.convert_to_rgb(vec)
-#     if count >= 79:
-#         break
-#     count += 1
-#
-# print(rgb_img_matrix)
-
-
-# new_array = np.uint8(image_matrix)
-# #
-# im = Image.fromarray(new_array)
-# im.show()
-# im.save("doska.png")
-
-# matrix = np.array([[0] * 3])
-# matrix = np.append(matrix, [[0, 1, 2]], axis=0)
-# matrix = np.append(matrix, [[3, 4, 5]], axis=0)
-# print("Matrix:", matrix, "Shape:", matrix.shape)
-
-
-

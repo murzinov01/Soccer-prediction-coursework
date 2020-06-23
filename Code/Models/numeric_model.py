@@ -1,14 +1,14 @@
+import random
 import torch
 import torch.nn as nn
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import torch.nn.functional as F
-import seaborn as sns
 from word2vec_model import PlayerEmbedding
 from data_analytics import EmbeddingData
-import random
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+
 
 class Model(nn.Module):
 
@@ -45,6 +45,7 @@ class Model(nn.Module):
 
 
 class ModelTrainer:
+
     DATA_MATRIX = None
     CATEGORIES = ["TeamHome", "TeamAway", "ManagerHome", "ManagerAway", "FormationHome", "FormationAway", "Stadium",
                   "Referee", "FutureTeamHome", "FutureTeamAway", "FutureStatusTeamHome", "FutureStatusTeamAway", "League"]
@@ -78,17 +79,16 @@ class ModelTrainer:
         self.make_embedding()
         self.split_data()
 
-
         self.MODEL = Model(self.categorical_embedding_sizes, self.numeric_matrix.shape[1], 3, layers)
-
 
         self.loss_function = nn.CrossEntropyLoss()
         self.optimizer = torch.optim.Adam(self.MODEL.parameters(), lr=0.001)
 
-    def define_learn_data(self):
+    def define_learn_data(self) -> None:
         # emb data
         self.emb_matrix = np.stack([self.DATA_MATRIX[col].values for col in self.CATEGORIES], 1)
         self.emb_matrix = torch.tensor(self.emb_matrix, dtype=torch.int64)
+
         # num matrix
         num_list = list()
         for col_key in self.DATA_MATRIX.keys():
@@ -96,7 +96,6 @@ class ModelTrainer:
                 num_list.append(col_key)
 
         self.numeric_matrix = np.stack([self.DATA_MATRIX[col].values for col in num_list], 1)
-        # self.numeric_matrix = torch.tensor(self.numeric_matrix, dtype=torch.float)
 
         for category in self.CATEGORIES:
             self.DATA_MATRIX[category] = self.DATA_MATRIX[category].astype('category')
@@ -105,7 +104,7 @@ class ModelTrainer:
         self.categorical_embedding_sizes = [(col_size, min(50, (col_size + 1) // 2)) for col_size in
                                             categorical_column_sizes]
 
-    def make_embedding(self):
+    def make_embedding(self) -> None:
         emb_list = list()
 
         for cat_vec_i in range(self.emb_matrix.shape[1]):
@@ -121,7 +120,7 @@ class ModelTrainer:
         self.emb_matrix = torch.cat(emb_list, 1)
         # self.emb_matrix = torch.cat([emb_list, player_emb_list], 1)
 
-    def split_data(self, ratio=0.2):
+    def split_data(self, ratio=0.2) -> None:
         total_matches = self.DATA_MATRIX.shape[0]
         train_matches = int((1-ratio) * total_matches)
 
@@ -153,7 +152,7 @@ class ModelTrainer:
         self.result_train = torch.tensor(np.stack(new_result_train), dtype=torch.int64).flatten()
         self.result_test = torch.tensor(np.stack(new_result_test), dtype=torch.int64).flatten()
 
-    def train_model(self, epochs=300):
+    def train_model(self, epochs=300) -> None:
 
         aggregated_losses = []
         single_loss = dict()
@@ -179,7 +178,7 @@ class ModelTrainer:
 
     def test_model(self):
         with torch.no_grad():
-            y_val = self.MODEL(self.cat_test, self.num_test)
+            y_val = self.MODEL.forward(self.cat_test, self.num_test)
             loss = self.loss_function(y_val, self.result_test)
             y_val = np.argmax(y_val, axis=1)
         print(f'Loss: {loss:.8f}')
@@ -191,36 +190,3 @@ class ModelTrainer:
 my_class = ModelTrainer("common", layers=[500, 500, 200])
 my_class.train_model(epochs=20)
 my_class.test_model()
-# matrix = my_class.cat_train
-# vec = matrix[:, 0]
-# vec_2 = matrix[:, 1]
-# matrix_stacked = np.stack([vec, vec_2], 1)
-# print(matrix_stacked)
-# print("vec:", vec)
-# max_dim = 0
-#
-# unique = list()
-# for dim in vec:
-#     if dim not in unique:
-#         unique.append(dim)
-#         if dim > max_dim:
-#             max_dim = dim
-# unique_len = len(unique)
-# print("Max: ", max_dim)
-# print("Unique objects: ", unique_len)
-#
-# emb_vec = F.embedding(vec, torch.rand(max_dim + 1, int((unique_len + 1) / 2)))
-# print(emb_vec)
-# print(emb_vec.shape)
-#
-# for dim_i in range(vec.shape[0] - 1):
-#     for dim_j in range(dim_i, vec.shape[0]):
-#         if vec[dim_i] == vec[dim_j]:
-#             print("Dim1: ", vec[dim_i])
-#             print("Emb_vec1: ", emb_vec[dim_i])
-#
-#             print("Dim2: ", vec[dim_j])
-#             print("Emb_vec2: ", emb_vec[dim_j])
-
-# emb = nn.Embedding(unique_len, unique_len)
-# emb_vec = emb(vec)
