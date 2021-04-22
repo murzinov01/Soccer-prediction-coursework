@@ -1,5 +1,5 @@
 # Soccer-prediction-coursework
-#### Kursach, designed by Andrey Sapoznikov and Michail Murzinov
+#### Course work, designed by Andrey Sapoznikov and Michail Murzinov
 ##### Project includes:
 * Two parsers for whoscored.com and oddsportal.com
 * Algorithm of data analytics
