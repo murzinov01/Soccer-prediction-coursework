@@ -1,4 +1,4 @@
-# Soccer-prediction-coursework
+# Classification of soccer match results by neural models
 #### Course work, designed by Andrey Sapoznikov and Michail Murzinov
 ##### Project includes:
 * Two parsers for whoscored.com and oddsportal.com
